@@ -1,0 +1,25 @@
+{
+    "file_name": "OSHAwhite-paper-january2012sm",
+    "page_number": 13,
+    "image_title": "Department of Defense Performance Metrics",
+    "image_keywords": [
+        "FY 02",
+        "FY 09",
+        "Rate Reduction",
+        "Percent Improvement",
+        "All DOD",
+        "Army",
+        "Navy",
+        "Marines",
+        "Air Force",
+        "Defense Logistics"
+    ],
+    "summary": "The table titled 'Department of Defense Performance Metrics' presents data comparing fiscal years 2002 (FY 02) and 2009 (FY 09) across various branches of the Department of Defense (DOD). The values for FY 02 are as follows: All DOD at 31.5, Army at 29.3, Navy at 39.8, Marines at 73.8, Air Force at 25.6, and Defense Logistics at 25.6. In FY 09, the values are: All DOD at 18.7, Army at 17.8, Navy at 21.2, Marines at 36.7, Air Force at 16.5, and Defense Logistics at 16.9. The rate reductions from FY 02 to FY 09 are: All DOD at 12.8, Army at 11.5, Navy at 18.6, Marines at 37.1, Air Force at 9.1, and Defense Logistics at 8.7. The percent improvements are: All DOD at 41%, Army at 39%, Navy at 46%, Marines at 50%, Air Force at 36%, and Defense Logistics at 34%. The overall trend shows a significant reduction in rates across all branches from FY 02 to FY 09.",
+    "confidence_score": 1.0,
+    "image_citation": "extracted_assets\\OSHAwhite-paper-january2012sm\\tables\\page13_table1.png",
+    "token_usage": {
+        "prompt_tokens": 14707,
+        "completion_tokens": 354,
+        "total_tokens": 15061
+    }
+}

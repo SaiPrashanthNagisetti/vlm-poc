@@ -1,0 +1,304 @@
+{
+    "pdf_file_name": "OSHAwhite-paper-january2012sm.pdf",
+    "total_pages": 19,
+    "text_page_count": 19,
+    "image_page_count": 7,
+    "table_page_count": 18,
+    "vector_page_count": 3,
+    "page_results": [
+        {
+            "page_number": 1,
+            "has_text": true,
+            "has_images": false,
+            "has_tables": true,
+            "image_count": 0,
+            "table_count": 1,
+            "raster_images": 0,
+            "vector_graphics": true,
+            "content_types": [
+                "text",
+                "tables",
+                "vector_graphics"
+            ],
+            "requires_image_processing": true
+        },
+        {
+            "page_number": 2,
+            "has_text": true,
+            "has_images": true,
+            "has_tables": true,
+            "image_count": 1,
+            "table_count": 1,
+            "raster_images": 1,
+            "vector_graphics": false,
+            "content_types": [
+                "text",
+                "images",
+                "tables"
+            ],
+            "requires_image_processing": true
+        },
+        {
+            "page_number": 3,
+            "has_text": true,
+            "has_images": false,
+            "has_tables": true,
+            "image_count": 0,
+            "table_count": 1,
+            "raster_images": 0,
+            "vector_graphics": false,
+            "content_types": [
+                "text",
+                "tables"
+            ],
+            "requires_image_processing": true
+        },
+        {
+            "page_number": 4,
+            "has_text": true,
+            "has_images": true,
+            "has_tables": true,
+            "image_count": 1,
+            "table_count": 1,
+            "raster_images": 1,
+            "vector_graphics": false,
+            "content_types": [
+                "text",
+                "images",
+                "tables"
+            ],
+            "requires_image_processing": true
+        },
+        {
+            "page_number": 5,
+            "has_text": true,
+            "has_images": false,
+            "has_tables": true,
+            "image_count": 0,
+            "table_count": 1,
+            "raster_images": 0,
+            "vector_graphics": false,
+            "content_types": [
+                "text",
+                "tables"
+            ],
+            "requires_image_processing": true
+        },
+        {
+            "page_number": 6,
+            "has_text": true,
+            "has_images": true,
+            "has_tables": true,
+            "image_count": 2,
+            "table_count": 1,
+            "raster_images": 2,
+            "vector_graphics": false,
+            "content_types": [
+                "text",
+                "images",
+                "tables"
+            ],
+            "requires_image_processing": true
+        },
+        {
+            "page_number": 7,
+            "has_text": true,
+            "has_images": false,
+            "has_tables": true,
+            "image_count": 0,
+            "table_count": 1,
+            "raster_images": 0,
+            "vector_graphics": false,
+            "content_types": [
+                "text",
+                "tables"
+            ],
+            "requires_image_processing": true
+        },
+        {
+            "page_number": 8,
+            "has_text": true,
+            "has_images": false,
+            "has_tables": true,
+            "image_count": 0,
+            "table_count": 1,
+            "raster_images": 0,
+            "vector_graphics": false,
+            "content_types": [
+                "text",
+                "tables"
+            ],
+            "requires_image_processing": true
+        },
+        {
+            "page_number": 9,
+            "has_text": true,
+            "has_images": true,
+            "has_tables": true,
+            "image_count": 1,
+            "table_count": 1,
+            "raster_images": 1,
+            "vector_graphics": false,
+            "content_types": [
+                "text",
+                "images",
+                "tables"
+            ],
+            "requires_image_processing": true
+        },
+        {
+            "page_number": 10,
+            "has_text": true,
+            "has_images": false,
+            "has_tables": true,
+            "image_count": 0,
+            "table_count": 1,
+            "raster_images": 0,
+            "vector_graphics": true,
+            "content_types": [
+                "text",
+                "tables",
+                "vector_graphics"
+            ],
+            "requires_image_processing": true
+        },
+        {
+            "page_number": 11,
+            "has_text": true,
+            "has_images": false,
+            "has_tables": true,
+            "image_count": 0,
+            "table_count": 1,
+            "raster_images": 0,
+            "vector_graphics": false,
+            "content_types": [
+                "text",
+                "tables"
+            ],
+            "requires_image_processing": true
+        },
+        {
+            "page_number": 12,
+            "has_text": true,
+            "has_images": true,
+            "has_tables": true,
+            "image_count": 1,
+            "table_count": 1,
+            "raster_images": 1,
+            "vector_graphics": false,
+            "content_types": [
+                "text",
+                "images",
+                "tables"
+            ],
+            "requires_image_processing": true
+        },
+        {
+            "page_number": 13,
+            "has_text": true,
+            "has_images": false,
+            "has_tables": true,
+            "image_count": 0,
+            "table_count": 1,
+            "raster_images": 0,
+            "vector_graphics": true,
+            "content_types": [
+                "text",
+                "tables",
+                "vector_graphics"
+            ],
+            "requires_image_processing": true
+        },
+        {
+            "page_number": 14,
+            "has_text": true,
+            "has_images": false,
+            "has_tables": true,
+            "image_count": 0,
+            "table_count": 1,
+            "raster_images": 0,
+            "vector_graphics": false,
+            "content_types": [
+                "text",
+                "tables"
+            ],
+            "requires_image_processing": true
+        },
+        {
+            "page_number": 15,
+            "has_text": true,
+            "has_images": false,
+            "has_tables": true,
+            "image_count": 0,
+            "table_count": 1,
+            "raster_images": 0,
+            "vector_graphics": false,
+            "content_types": [
+                "text",
+                "tables"
+            ],
+            "requires_image_processing": true
+        },
+        {
+            "page_number": 16,
+            "has_text": true,
+            "has_images": true,
+            "has_tables": true,
+            "image_count": 4,
+            "table_count": 1,
+            "raster_images": 4,
+            "vector_graphics": false,
+            "content_types": [
+                "text",
+                "images",
+                "tables"
+            ],
+            "requires_image_processing": true
+        },
+        {
+            "page_number": 17,
+            "has_text": true,
+            "has_images": true,
+            "has_tables": true,
+            "image_count": 1,
+            "table_count": 1,
+            "raster_images": 1,
+            "vector_graphics": false,
+            "content_types": [
+                "text",
+                "images",
+                "tables"
+            ],
+            "requires_image_processing": true
+        },
+        {
+            "page_number": 18,
+            "has_text": true,
+            "has_images": false,
+            "has_tables": true,
+            "image_count": 0,
+            "table_count": 1,
+            "raster_images": 0,
+            "vector_graphics": false,
+            "content_types": [
+                "text",
+                "tables"
+            ],
+            "requires_image_processing": true
+        },
+        {
+            "page_number": 19,
+            "has_text": true,
+            "has_images": false,
+            "has_tables": false,
+            "image_count": 0,
+            "table_count": 0,
+            "raster_images": 0,
+            "vector_graphics": false,
+            "content_types": [
+                "text"
+            ],
+            "requires_image_processing": false
+        }
+    ]
+}

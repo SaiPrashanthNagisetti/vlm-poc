@@ -1,0 +1,22 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables (NEVER push this)
+.env
+
+# Large output folders
+#extracted_assets/
+#vector_store/
+#merged_output/
+#output/
+#pdf_metadata_output/
+
+# Input PDFs (optional - comment out if you want to include them)
+#input/
+
+# OS files
+.DS_Store
+Thumbs.db

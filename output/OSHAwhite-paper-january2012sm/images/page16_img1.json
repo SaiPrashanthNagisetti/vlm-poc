@@ -1,0 +1,25 @@
+{
+    "file_name": "OSHAwhite-paper-january2012sm",
+    "page_number": 16,
+    "image_title": "Payroll ($M)",
+    "image_keywords": [
+        "Payroll",
+        "Losses",
+        "Losses per $1,000 of Payroll",
+        "1998",
+        "1999",
+        "2003",
+        "2004",
+        "2005",
+        "2006",
+        "2007"
+    ],
+    "summary": "The image presents three charts: the first chart titled 'Payroll ($M)' shows payroll values in millions from 1998 to 2007, with values of $1.80M in 1998, $1.90M in 1999, $2.00M in 2003, $2.10M in 2004, $2.00M in 2005, $2.20M in 2006, and $2.30M in 2007. The second chart titled 'Losses ($000)' displays losses in thousands, with values of $30.00K in 1998, $32.00K in 1999, $5.00K in 2003, $1.00K in 2004, $0.00K in 2005, $0.70K in 2006, and $0.30K in 2007. The third chart titled 'Losses per $1,000 of Payroll' shows losses per $1,000 of payroll, with values of $18.20 in 1998, $14.20 in 1999, $3.90 in 2003, $0.30 in 2004, $0.00 in 2005, $0.70 in 2006, and $0.30 in 2007. The peak payroll value occurs in 2007 at $2.30M, while the lowest payroll value occurs in 1998 at $1.80M. The overall trend shows an increase in payroll and a significant decrease in losses over the years. The source of the data is not explicitly mentioned.",
+    "confidence_score": 0.9,
+    "image_citation": "extracted_assets\\OSHAwhite-paper-january2012sm\\images\\page16_img1.png",
+    "token_usage": {
+        "prompt_tokens": 26041,
+        "completion_tokens": 423,
+        "total_tokens": 26464
+    }
+}

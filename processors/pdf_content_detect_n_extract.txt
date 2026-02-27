@@ -1,0 +1,348 @@
+import fitz
+import pdfplumber
+import os
+
+# --------------------------------------------------
+# TUNABLE PARAMETERS
+# --------------------------------------------------
+
+# TABLE DETECTION
+MIN_TABLE_ROWS = 3
+MIN_TABLE_COLS = 2
+
+TABLE_SETTINGS_LINE = {
+    "vertical_strategy":   "lines",
+    "horizontal_strategy": "lines",
+}
+
+TABLE_SETTINGS_TEXT = {
+    "vertical_strategy":    "text",
+    "horizontal_strategy":  "text",
+    "snap_tolerance":       3,
+    "join_tolerance":       3,
+    "min_words_vertical":   4,
+    "min_words_horizontal": 4,
+}
+
+# IMAGE DETECTION
+MIN_IMAGE_WIDTH  = 50       # minimum image width  in pts
+MIN_IMAGE_HEIGHT = 50       # minimum image height in pts
+
+# VECTOR GRAPHICS DETECTION
+MIN_VECTOR_WIDTH        = 50    # minimum width  in pts for a vector cluster
+MIN_VECTOR_HEIGHT       = 50    # minimum height in pts for a vector cluster
+MIN_VECTOR_AREA         = 5000  # minimum area   in pts² for a vector cluster
+MIN_VECTOR_PATH_COUNT   = 5     # minimum number of drawing paths to be considered a vector graphic
+VECTOR_MERGE_MARGIN     = 15    # pts gap within which nearby drawing paths are merged into one cluster
+
+
+# --------------------------------------------------
+# HELPERS
+# --------------------------------------------------
+
+def is_valid_table(table):
+    """Filters out false positives using row and column count."""
+    try:
+        data = table.extract()
+        if not data:
+            return False
+        rows = len(data)
+        cols = max((len(row) for row in data), default=0)
+        return rows >= MIN_TABLE_ROWS and cols >= MIN_TABLE_COLS
+    except Exception:
+        return False
+
+
+def rects_overlap(a: fitz.Rect, b: fitz.Rect, threshold=0.3) -> bool:
+    """Returns True if rect a overlaps rect b more than threshold."""
+    inter = a & b
+    if inter.is_empty:
+        return False
+    return inter.get_area() / max(a.get_area(), 1) > threshold
+
+
+def cluster_drawings(drawings, gap=VECTOR_MERGE_MARGIN):
+    """
+    Groups drawing paths into spatial clusters.
+    Drawings within `gap` pts of each other are merged into one cluster.
+    Returns list of fitz.Rect, one per cluster.
+    """
+    if not drawings:
+        return []
+
+    rects = []
+    for d in drawings:
+        r = fitz.Rect(d["rect"])
+        if not r.is_empty and not r.is_infinite:
+            rects.append(r)
+
+    if not rects:
+        return []
+
+    merged = True
+    while merged:
+        merged = False
+        result = []
+        used   = set()
+        for i, a in enumerate(rects):
+            if i in used:
+                continue
+            group = a
+            used.add(i)
+            for j, b in enumerate(rects):
+                if j in used:
+                    continue
+                expanded = group + (-gap, -gap, gap, gap)
+                if expanded.intersects(b):
+                    group = group | b
+                    used.add(j)
+                    merged = True
+            result.append(group)
+        rects = result
+
+    return rects
+
+
+# --------------------------------------------------
+# DETECTION (PyMuPDF + pdfplumber)
+# --------------------------------------------------
+
+def detect_text(fitz_page):
+    """Detect if page has meaningful text using PyMuPDF."""
+    text = fitz_page.get_text().strip()
+    return len(text) > 50
+
+
+def detect_images(fitz_page):
+    """
+    Detect raster image regions using PyMuPDF block detection.
+    Returns list of fitz.Rect, one per image block.
+    """
+    image_rects = []
+    blocks = fitz_page.get_text("dict")["blocks"]
+    for block in blocks:
+        if block["type"] == 1:  # type 1 = image block
+            r = fitz.Rect(block["bbox"])
+            if r.is_empty or r.is_infinite:
+                continue
+            if (r.x1 - r.x0) < MIN_IMAGE_WIDTH:
+                continue
+            if (r.y1 - r.y0) < MIN_IMAGE_HEIGHT:
+                continue
+            image_rects.append(r)
+    return image_rects
+
+
+def detect_tables(plumber_page):
+    """
+    Detect tables using pdfplumber.
+    1. Try line-based first (gridded).
+    2. Fall back to text-based (gridless).
+    """
+    tables = plumber_page.find_tables(TABLE_SETTINGS_LINE)
+    tables = [t for t in tables if is_valid_table(t)]
+    if tables:
+        return tables
+
+    tables = plumber_page.find_tables(TABLE_SETTINGS_TEXT)
+    tables = [t for t in tables if is_valid_table(t)]
+    return tables
+
+
+def detect_vectors(fitz_page, table_rects, image_rects):
+    """
+    Detect vector graphic regions by clustering drawing paths.
+    Excludes regions that overlap with tables or raster images.
+    Returns list of fitz.Rect, one per vector cluster.
+    """
+    drawings = fitz_page.get_drawings()
+
+    # Minimum path count check
+    if len(drawings) < MIN_VECTOR_PATH_COUNT:
+        return []
+
+    clusters = cluster_drawings(drawings)
+
+    vector_rects = []
+    for rect in clusters:
+        w = rect.x1 - rect.x0
+        h = rect.y1 - rect.y0
+
+        # Size filters
+        if w < MIN_VECTOR_WIDTH or h < MIN_VECTOR_HEIGHT:
+            continue
+        if w * h < MIN_VECTOR_AREA:
+            continue
+
+        # Exclude regions overlapping with tables
+        if any(rects_overlap(rect, t, threshold=0.3) for t in table_rects):
+            continue
+
+        # Exclude regions overlapping with raster images
+        if any(rects_overlap(rect, r, threshold=0.3) for r in image_rects):
+            continue
+
+        vector_rects.append(rect)
+
+    return vector_rects
+
+
+# --------------------------------------------------
+# EXTRACTION (pdfplumber only)
+# --------------------------------------------------
+
+def extract_table_as_image(plumber_page, table, output_path, dpi=200):
+    """Crops and saves a table region using pdfplumber."""
+    x0, top, x1, bottom = table.bbox
+    cropped = plumber_page.crop((x0, top, x1, bottom))
+    img     = cropped.to_image(resolution=dpi)
+    img.save(output_path)
+
+
+def extract_region_as_image(plumber_page, fitz_rect, output_path, dpi=200):
+    """Crops and saves any region using pdfplumber. Used for images and vectors."""
+    bbox    = (fitz_rect.x0, fitz_rect.y0, fitz_rect.x1, fitz_rect.y1)
+    cropped = plumber_page.crop(bbox)
+    img     = cropped.to_image(resolution=dpi)
+    img.save(output_path)
+
+
+# --------------------------------------------------
+# MAIN FUNCTION
+# --------------------------------------------------
+
+def detect_and_extract_pdf_content(pdf_path: str,
+                                    output_folder="extracted_assets",
+                                    dpi=200):
+    doc      = fitz.open(pdf_path)
+    pdf_name = os.path.splitext(os.path.basename(pdf_path))[0]
+    total_pages = len(doc)
+
+    # Output folders
+    base_dir    = os.path.join(output_folder, pdf_name)
+    tables_dir  = os.path.join(base_dir, "tables")
+    images_dir  = os.path.join(base_dir, "images")
+    vectors_dir = os.path.join(base_dir, "vector_graphics")
+
+    for d in [tables_dir, images_dir, vectors_dir]:
+        os.makedirs(d, exist_ok=True)
+
+    text_page_count   = 0
+    image_page_count  = 0
+    table_page_count  = 0
+    vector_page_count = 0
+
+    page_results = []
+
+    with pdfplumber.open(pdf_path) as plumber_pdf:
+        for page_number in range(total_pages):
+            fitz_page    = doc[page_number]
+            plumber_page = plumber_pdf.pages[page_number]
+            page_index   = page_number + 1
+
+            extracted_assets = {
+                "tables":          [],
+                "images":          [],
+                "vector_graphics": []
+            }
+
+            # ----------------------------------
+            # DETECT
+            # ----------------------------------
+
+            # Text (PyMuPDF)
+            has_text = detect_text(fitz_page)
+
+            # Tables (pdfplumber) — detect first so vectors can exclude them
+            tables      = detect_tables(plumber_page)
+            table_count = len(tables)
+            has_tables  = table_count > 0
+            table_rects = [fitz.Rect(t.bbox[0], t.bbox[1], t.bbox[2], t.bbox[3]) for t in tables]
+
+            # Raster images (PyMuPDF) — detect before vectors so vectors can exclude them
+            image_rects = detect_images(fitz_page)
+            image_count = len(image_rects)
+            has_images  = image_count > 0
+
+            # Vector graphics (PyMuPDF) — excludes tables and raster image regions
+            vector_rects = detect_vectors(fitz_page, table_rects, image_rects)
+            vector_count = len(vector_rects)
+            has_vectors  = vector_count > 0
+
+            # ----------------------------------
+            # EXTRACT (pdfplumber)
+            # ----------------------------------
+
+            # Tables
+            if has_tables:
+                table_page_count += 1
+                for table_counter, table in enumerate(tables, start=1):
+                    file_name = f"pgno_{page_index}_table_{table_counter}.png"
+                    file_path = os.path.join(tables_dir, file_name)
+                    try:
+                        extract_table_as_image(plumber_page, table, file_path, dpi)
+                        extracted_assets["tables"].append(file_path)
+                    except Exception as e:
+                        print(f"  Failed to extract table {table_counter} on page {page_index}: {e}")
+
+            # Raster images
+            if has_images:
+                image_page_count += 1
+                for img_counter, rect in enumerate(image_rects, start=1):
+                    file_name = f"pgno_{page_index}_img_{img_counter}.png"
+                    file_path = os.path.join(images_dir, file_name)
+                    try:
+                        extract_region_as_image(plumber_page, rect, file_path, dpi)
+                        extracted_assets["images"].append(file_path)
+                    except Exception as e:
+                        print(f"  Failed to extract image {img_counter} on page {page_index}: {e}")
+
+            # Vector graphics
+            if has_vectors:
+                vector_page_count += 1
+                for vec_counter, rect in enumerate(vector_rects, start=1):
+                    file_name = f"pgno_{page_index}_vector_{vec_counter}.png"
+                    file_path = os.path.join(vectors_dir, file_name)
+                    try:
+                        extract_region_as_image(plumber_page, rect, file_path, dpi)
+                        extracted_assets["vector_graphics"].append(file_path)
+                    except Exception as e:
+                        print(f"  Failed to extract vector {vec_counter} on page {page_index}: {e}")
+
+            # ----------------------------------
+            # SUMMARY
+            # ----------------------------------
+            if has_text: text_page_count += 1
+
+            content_types = []
+            if has_text:    content_types.append("text")
+            if has_images:  content_types.append("images")
+            if has_tables:  content_types.append("tables")
+            if has_vectors: content_types.append("vector_graphics")
+
+            page_results.append({
+                "page_number":               page_index,
+                "has_text":                  has_text,
+                "has_images":                has_images,
+                "has_tables":                has_tables,
+                "has_vectors":               has_vectors,
+                "image_count":               image_count,
+                "table_count":               table_count,
+                "vector_count":              vector_count,
+                "content_types":             content_types,
+                "requires_image_processing": has_images or has_tables or has_vectors,
+                "extracted_assets":          extracted_assets
+            })
+
+    doc.close()
+
+    return {
+        "pdf_file_name":     pdf_name,
+        "total_pages":       total_pages,
+        "text_page_count":   text_page_count,
+        "image_page_count":  image_page_count,
+        "table_page_count":  table_page_count,
+        "vector_page_count": vector_page_count,
+        "page_results":      page_results
+    }
+
