@@ -156,7 +156,7 @@ def query_rag(question: str, top_k: int = TOP_K):
     
      # ── question ────────────────────────────────────────────────────────────────
     print("\n================ Question ================\n")
-    print("Question:" question)
+    print("Question:",question)
 
     # ── Answer ────────────────────────────────────────────────────────────────
     print("\n================ ANSWER ================\n")
@@ -205,7 +205,7 @@ def query_rag(question: str, top_k: int = TOP_K):
         chunk_text = node.node.get_content()
         pdf_name   = metadata.get("pdf",  "unknown")
         page_num   = metadata.get("page", "?")
-        keywords   = json.loads(metadata.get("keywords",         "[]"))
+        #keywords   = json.loads(metadata.get("keywords",         "[]"))
         visuals    = json.loads(metadata.get("visual_summaries", "[]"))
 
         log.info("NODE  | Rank %d | similarity=%.4f | contribution=%d words | %s p%s",
@@ -215,8 +215,8 @@ def query_rag(question: str, top_k: int = TOP_K):
         print(f"   PDF  : {pdf_name}")
         print(f"   Page : {page_num}")
 
-        if keywords:
-            print(f"   Keywords : {', '.join(keywords[:5])}")
+        #if keywords:
+            #print(f"   Keywords : {', '.join(keywords[:5])}")
 
         #print(f"\n   [ Extracted text — {len(chunk_text)} chars ]\n")
         #print("   " + chunk_text.replace("\n", "\n   "))
