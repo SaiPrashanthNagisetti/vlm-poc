@@ -153,6 +153,10 @@ def query_rag(question: str, top_k: int = TOP_K):
     response = query_engine.query(question)
     log.info("QUERY | LLM response received — %d chunk(s) used",
              len(response.source_nodes))
+    
+     # ── question ────────────────────────────────────────────────────────────────
+    print("\n================ Question ================\n")
+    print("Question:" question)
 
     # ── Answer ────────────────────────────────────────────────────────────────
     print("\n================ ANSWER ================\n")
