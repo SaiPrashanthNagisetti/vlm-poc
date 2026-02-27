@@ -1,0 +1,19 @@
+{
+    "file_name": "Attention",
+    "page_number": 14,
+    "image_title": "Figure 4: Two attention heads, also in layer 5 of 6, apparently involved in anaphora resolution.",
+    "image_keywords": [
+        "attention heads",
+        "anaphora resolution",
+        "layer 5",
+        "layer 6"
+    ],
+    "summary": "Figure 4 illustrates two attention heads from layer 5 of a neural network, focusing on anaphora resolution. The top section displays full attentions for head 5, while the bottom section isolates attentions for the word 'its' from attention heads 5 and 6. The visual emphasizes the sharp attentions directed towards the word 'its', indicating its significance in the context. The image does not provide specific numerical data points or units, nor does it cite a data source.",
+    "confidence_score": 0.9,
+    "image_citation": "extracted_assets\\Attention\\vector_graphics\\page14_vector.png",
+    "token_usage": {
+        "prompt_tokens": 26041,
+        "completion_tokens": 171,
+        "total_tokens": 26212
+    }
+}

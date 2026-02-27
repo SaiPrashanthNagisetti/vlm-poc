@@ -9,12 +9,12 @@
         "Mandatory Regulation",
         "Safety Committees"
     ],
-    "summary": "The image titled 'Summary of Existing State Programs' presents a table detailing various state programs related to OSHA injury and illness prevention. It lists states such as Alabama, Arkansas, California, and others, indicating whether they have mandatory regulations, safety committees, consulting or recognition programs, insurance premium reductions, and who is covered if mandatory. For example, Arkansas mandates coverage for 'hazardous' employers, while California covers all employers. Connecticut requires coverage for employers with more than 25 employees and 'hazardous' small employers. Other states like Michigan and Nevada specify coverage for employers with more than 15 and 10 employees, respectively. The source of this information is the OSHA Directorate of Standards and Guidance.",
+    "summary": "The image titled 'Summary of Existing State Programs' presents a table detailing various state programs related to OSHA injury and illness prevention. It lists states such as Alabama, Arkansas, California, and others, indicating whether mandatory regulations, safety committees, consulting or recognition programs, insurance premium reductions are present. For instance, Arkansas mandates coverage for 'Hazardous' employers, while California covers all employers. Connecticut requires coverage for employers with more than 25 employees and 'Hazardous' small employers. Other states like Michigan and Nevada have specific employer size requirements for their programs. The source of this information is the OSHA Directorate of Standards and Guidance.",
     "confidence_score": 1.0,
     "image_citation": "extracted_assets\\OSHAwhite-paper-january2012sm\\vector_graphics\\page10_vector.png",
     "token_usage": {
         "prompt_tokens": 26041,
-        "completion_tokens": 197,
-        "total_tokens": 26238
+        "completion_tokens": 183,
+        "total_tokens": 26224
     }
 }

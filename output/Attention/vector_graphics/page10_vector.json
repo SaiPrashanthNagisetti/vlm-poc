@@ -1,0 +1,22 @@
+{
+    "file_name": "Attention",
+    "page_number": 10,
+    "image_title": "The Transformer generalizes well to English constituency parsing",
+    "image_keywords": [
+        "Transformer",
+        "English constituency parsing",
+        "WSJ",
+        "F1",
+        "discriminative",
+        "semi-supervised",
+        "generative"
+    ],
+    "summary": "The table presents results on English constituency parsing using various parsers and training methods, specifically focusing on the WSJ 23 F1 score. The parsers listed include Vinyals & Kaiser (2014) with a score of 88.3 under WSJ only, discriminative training, and Zhu et al. (2013) with a score of 90.4 under the same conditions. The Transformer with 4 layers achieved a score of 91.3 with WSJ only, discriminative training. In semi-supervised training, Zhu et al. (2013) scored 91.3, Huang & Harper (2009) scored 91.3, McClosky et al. (2006) scored 92.1, and Vinyals & Kaiser (2014) scored 92.1. The Transformer with 4 layers in semi-supervised training scored 92.7, while Luong et al. (2015) achieved 93.0 in multi-task training, and Dyer et al. (2016) reached 93.3 with generative training. The data indicates that the Transformer outperforms previous models, particularly in the context of the WSJ dataset.",
+    "confidence_score": 0.9,
+    "image_citation": "extracted_assets\\Attention\\vector_graphics\\page10_vector.png",
+    "token_usage": {
+        "prompt_tokens": 26041,
+        "completion_tokens": 316,
+        "total_tokens": 26357
+    }
+}

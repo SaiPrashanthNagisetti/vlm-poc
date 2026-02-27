@@ -1,0 +1,19 @@
+{
+  "pdf": "Sample",
+  "page": 21,
+  "text": "[34] Zhengle Wang, Ruifeng Wang, Minjuan Wang, Tianyun Lai, and Man Zhang. Self-supervised\ntransformer-basedpre-trainingmethodwithgeneralplantinfectiondataset. InChineseConference\non Pattern Recognition and Computer Vision (PRCV), pages 189–202. Springer, 2024.\n[35] Tianshi Wang, Qikai Yang, Ruijie Wang, Dachun Sun, Jinyang Li, Yizhuo Chen, Yigong Hu,\nChaoqi Yang, Tomoyoshi Kimura, Denizhan Kara, et al. Fine-grained control of generative data\naugmentationiniotsensing. Advances in Neural Information Processing Systems,37:32787–32812,\n2025.\n[36] Lilian Weng. Llm-powered autonomous agents. lilianweng.github.io, Jun 2023.\n[37] TejasDetal.Kulkarni. Hierarchicaldeepreinforcementlearning: Integratingtemporalabstraction\nand intrinsic motivation. NeurIPS, pages 3675–3683, 2016.\n[38] Rohan Chitnis, Tom Silver, and Tomas Lozano-P´erez. Learning quickly to plan quickly using\nmodular meta-learning. In ICRA, pages 7867–7874, 2021.\n[39] Jasonetal.Wei. Chain-of-thoughtpromptingelicitsreasoninginlargelanguagemodels. NeurIPS,\npages 24824–24837, 2022.\n[40] John et al. Schulman. Proximal policy optimization algorithms. arXiv:1707.06347, 2017.\n[41] Tuomas et al. Haarnoja. Soft actor-critic algorithms and applications. arXiv:1812.05905, 2018.\n[42] Noah Shinn, Federico Cassano, Ashwin Gopinath, Karthik Narasimhan, and Shunyu Yao. Re-\nflexion: Language agents with verbal reinforcement learning. Advances in Neural Information\nProcessing Systems, 36, 2024.\n[43] Hao Liu, Carmelo Sferrazza, and Pieter Abbeel. Chain of hindsight aligns language models with\nfeedback. arXiv preprint arXiv:2302.02676, 2023.\n[44] ChelseaFinn, PieterAbbeel, andSergeyLevine. Model-agnosticmeta-learningforfastadaptation\nof deep networks. In ICML, pages 1126–1135, 2017.\n[45] Matthias et al. De Lange. A continual learning survey: Defying forgetting in classification tasks.\nIEEE TPAMI, 44(7):3366–3385, 2022.\n[46] Yuan-Hao Jiang, Ruijia Li, Yizhou Zhou, Changyong Qi, Hanglei Hu, Yuang Wei, Bo Jiang, and\nYonghe Wu. Ai agent for education: Von neumann multi-agent system framework. In Proceedings\nof the 28th Global Chinese Conference on Computers in Education (GCCCE 2024), pages 77–84,\n2024.\n[47] Zeyu Zhang, Xiaohe Bo, Chen Ma, Rui Li, Xu Chen, Quanyu Dai, Jieming Zhu, Zhenhua Dong,\nand Ji-Rong Wen. A survey on the memory mechanism of large language model based agents.\narXiv preprint arXiv:2404.13501, 2024.\n[48] Zhaochen Su, Jun Zhang, Xiaoye Qu, Tong Zhu, Yanshu Li, Jiashuo Sun, Juntao Li, Min Zhang,\nand Yu Cheng. Conflictbank: A benchmark for evaluating the influence of knowledge conflicts in\nllm, 2024.\n[49] Wensi Xie, Jingwen Dou, Yiran Wang, and Xiaodong Qu. From theory to play: A review of\neeg-controlled directional games and evaluation of custom-developed bci games. 2025.\n[50] Anthropic. Building effective agents.\nhttps://www.anthropic.com/research/\nbuilding-effective-agents. Accessed: 2024-12-20.\n[51] Gr´egoire Mialon, Roberto Dess`ı, Maria Lomeli, Christoforos Nalmpantis, Ram Pasunuru, Roberta\nRaileanu, Baptiste Rozi`ere, Timo Schick, Jane Dwivedi-Yu, Asli Celikyilmaz, et al. Augmented\nlanguage models: a survey. arXiv preprint arXiv:2302.07842, 2023.\n[52] Zhaomin Xiao, Zhelu Mai, Yachen Cui, Zhuoer Xu, and Jiancheng Li. Short interest trend predic-\ntionwithlargelanguagemodels.InProceedingsofthe2024InternationalConferenceonInnovation\nin Artificial Intelligence,ICIAI’24,page1,NewYork,NY,USA,2024.AssociationforComputing\nMachinery.",
+  "keywords": [
+    "2024",
+    "al",
+    "pages",
+    "li",
+    "learning",
+    "et al",
+    "agents",
+    "zhang",
+    "wang",
+    "arxiv",
+    "language",
+    "et"
+  ]
+}

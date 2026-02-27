@@ -1,0 +1,19 @@
+{
+  "pdf": "Sample",
+  "page": 5,
+  "text": "real-world applications. These studies collectively illustrate the shift toward more holistic and adaptive\nagent designs.\n4.2 Core Components of Modern AI Agent Architectures\nAI agent architectures include components designed to enable perception, reasoning, decision-making,\nand interaction. Our review provides a deep dive of these core components, highlighting key break-\nthroughs and future opportunities [34].\nThesystemcontainsfourmajorcomponents-memory,tools,actionsandplanning. Memoryisdivided\ninto short-term and long-term memories, offering both contextual and enduring information. The Agent\nis also capable of employing a wide range of tools, such as calendars, calculators, code interpreters, and\nsearch functions to execute specialized tasks [35]. Planning encompasses sophisticated techniques such\nasreflection, self-evaluation, chainofthoughtreasoning, andsub-goalbreakdown, enablingtheAgentto\nenhance its decision-making and tackle intricate challenges effectively. (see Fig. 2):\nFigure 2: An overview of an AI Agent’s core components [36]\n4.3 Planning\nInspiredbyclassicalAIplanning[4],modernagentsintegratesymbolicandsubsymbolicmethodstorea-\nson about future states, causal dependencies, and long-term goals. Hierarchical RL structures decision-\nmaking at multiple levels of abstraction, improving sample efficiency and interpretability [37, 38]. Addi-\ntionally,model-basedRL,graph-basedplanning,andhybridneural-symbolicreasoningapproachesallow\nagents to perform sophisticated problem-solving.\nChain-of-thought .[39] is a milestone technique to significantly improve the ability of large language\nmodels (LLMs) to perform complex reasoning tasks. The framework provides the models with examples\nof step-by-step reasoning (a ”chain of thought”) in the prompt, guiding them to break down complex\nproblemsintointermediatestepsbeforearrivingatthefinalanswer. Thishelpsthemodelperformbetter\non tasks requiring multi-step reasoning.\nAgents must adapt policies over time. Reinforcement learning algorithms, from value-based meth-\nods [21] to policy gradient techniques [40, 41], enable agents to learn through interaction.\nReflexion [42] is a framework designed to enhance AI Agents through reinforcement learning. It\nhas a self-reflection architecture that leverages the heuristic function and linguistic feedback to improve\nreasoning skills. Reflexion represents a significant step forward in enabling LLM-based agents to learn\nfromtrialanderrorthroughverbalself-reflection. Theframework’sabilitytoimproveperformanceacross\ndiverse tasks without requiring extensive fine-tuning makes it a promising approach for future research\nin autonomous agents.\nChain of Hindsight(CoH) [43] is another framework that helps LLM agents improve their outputs\nby training with historical datasets that contain past sequential outputs with feedback. The framework\naligns large language models withhuman feedback more effectively than traditional methods such as su-\npervisedfine-tuning(SFT)orreinforcementlearningwithhumanfeedback(RLHF).TheCoHalgorithm\ntrains the model to maximize the likelihood of predicting tokens in sequences x=[x ,x ,...,x ], using\n1 2 n",
+  "keywords": [
+    "ai agent",
+    "term",
+    "framework",
+    "components",
+    "tasks",
+    "step",
+    "models",
+    "agents",
+    "ai",
+    "making",
+    "agent",
+    "reasoning"
+  ]
+}

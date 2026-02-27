@@ -1,0 +1,22 @@
+{
+    "file_name": "Attention",
+    "page_number": 13,
+    "image_title": "Attention Visualizations",
+    "image_keywords": [
+        "attention mechanism",
+        "long-distance dependencies",
+        "self-attention",
+        "layer 5",
+        "making",
+        "voting",
+        "registration"
+    ],
+    "summary": "The image titled 'Attention Visualizations' illustrates an example of the attention mechanism following long-distance dependencies in the encoder self-attention of layer 5 out of 6. The visualization highlights the verb 'making' and its connections to other words such as 'voting' and 'registration'. Different colors represent various attention heads, indicating how many attention heads focus on the phrase 'making...more difficult'. The visual emphasizes the complexity of attention in language processing, particularly in relation to government actions and voter registration. The source of the figure is noted as being best viewed in color.",
+    "confidence_score": 0.9,
+    "image_citation": "extracted_assets\\Attention\\vector_graphics\\page13_vector.png",
+    "token_usage": {
+        "prompt_tokens": 26041,
+        "completion_tokens": 176,
+        "total_tokens": 26217
+    }
+}

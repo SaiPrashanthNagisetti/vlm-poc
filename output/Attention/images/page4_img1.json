@@ -1,0 +1,23 @@
+{
+    "file_name": "Attention",
+    "page_number": 4,
+    "image_title": "Attention Mechanism Diagram",
+    "image_keywords": [
+        "Attention",
+        "MatMul",
+        "SoftMax",
+        "Mask",
+        "Scale",
+        "Q",
+        "K",
+        "V"
+    ],
+    "summary": "The image titled 'Attention Mechanism Diagram' illustrates the components of an attention mechanism used in machine learning. It features labeled elements including two 'MatMul' operations, 'SoftMax', an optional 'Mask', and 'Scale', with inputs represented as 'Q' (Query), 'K' (Key), and 'V' (Value). The diagram visually represents the flow of data through these components, emphasizing the operations involved in calculating attention scores.",
+    "confidence_score": 0.9,
+    "image_citation": "extracted_assets\\Attention\\images\\page4_img1.png",
+    "token_usage": {
+        "prompt_tokens": 9040,
+        "completion_tokens": 149,
+        "total_tokens": 9189
+    }
+}

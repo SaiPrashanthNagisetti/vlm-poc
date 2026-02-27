@@ -1,0 +1,19 @@
+{
+    "file_name": "Attention",
+    "page_number": 15,
+    "image_title": "Figure 5: Attention Heads Behavior",
+    "image_keywords": [
+        "attention heads",
+        "layer 5",
+        "self-attention",
+        "tasks"
+    ],
+    "summary": "Figure 5 illustrates the behavior of attention heads in a self-attention mechanism, specifically from layer 5 of 6. The visual shows connections between words in two example sentences, highlighting how different attention heads exhibit distinct behaviors related to sentence structure. The connections are represented with green lines for one head and red lines for another, indicating that the heads have learned to perform different tasks. The visual emphasizes the complexity and functionality of attention mechanisms in natural language processing.",
+    "confidence_score": 0.9,
+    "image_citation": "extracted_assets\\Attention\\vector_graphics\\page15_vector.png",
+    "token_usage": {
+        "prompt_tokens": 26041,
+        "completion_tokens": 144,
+        "total_tokens": 26185
+    }
+}

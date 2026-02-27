@@ -1,0 +1,24 @@
+{
+    "file_name": "Sample",
+    "page_number": 3,
+    "image_title": "Identification through database search",
+    "image_keywords": [
+        "records",
+        "database search",
+        "screening",
+        "eligibility",
+        "AI agent",
+        "n=730",
+        "n=616",
+        "n=114",
+        "n=64"
+    ],
+    "summary": "The flowchart titled 'Identification through database search' illustrates the process of identifying records through a database search with queries and recency filter, resulting in 730 records identified (n=730). After removing duplicates, the count remains at 730. All 730 records were screened, leading to the exclusion of 616 records. A total of 114 full-text articles were assessed for eligibility, with 50 articles excluded for being irrelevant to the definition of an AI agent. Ultimately, 64 studies were included in the review.",
+    "confidence_score": 1.0,
+    "image_citation": "extracted_assets\\Sample\\images\\page3_img1.png",
+    "token_usage": {
+        "prompt_tokens": 26041,
+        "completion_tokens": 177,
+        "total_tokens": 26218
+    }
+}

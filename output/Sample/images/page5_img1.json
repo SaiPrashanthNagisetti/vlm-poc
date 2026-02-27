@@ -1,0 +1,22 @@
+{
+    "file_name": "Sample",
+    "page_number": 5,
+    "image_title": "Agent Framework Diagram",
+    "image_keywords": [
+        "Agent",
+        "Memory",
+        "Planning",
+        "Tools",
+        "Reflection",
+        "Short-term memory",
+        "Long-term memory"
+    ],
+    "summary": "The image titled 'Agent Framework Diagram' illustrates the relationship between various components of an agent system. It includes elements such as 'Tools' which encompass 'Calendar()', 'Calculator()', 'CodeInterpreter()', and 'Search()'. The diagram shows the interaction between 'Short-term memory' and 'Long-term memory', as well as the 'Agent' which is central to the framework. The 'Agent' is connected to 'Memory', 'Action', and 'Planning', with planning further branching into 'Reflection', 'Self-critics', 'Chain of thoughts', and 'Subgoal decomposition'. This structured layout emphasizes the interconnectedness of these components in the functioning of an agent.",
+    "confidence_score": 0.9,
+    "image_citation": "extracted_assets\\Sample\\images\\page5_img1.png",
+    "token_usage": {
+        "prompt_tokens": 14707,
+        "completion_tokens": 191,
+        "total_tokens": 14898
+    }
+}

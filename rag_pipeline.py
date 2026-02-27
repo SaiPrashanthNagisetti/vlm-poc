@@ -218,8 +218,8 @@ def query_rag(question: str, top_k: int = TOP_K):
         #if keywords:
             #print(f"   Keywords : {', '.join(keywords[:5])}")
 
-        #print(f"\n   [ Extracted text — {len(chunk_text)} chars ]\n")
-        #print("   " + chunk_text.replace("\n", "\n   "))
+        print(f"\n   [ Extracted text — {len(chunk_text)} chars ]\n")
+        print("   " + chunk_text.replace("\n", "\n   "))
 
         # Show visual citation only when the retrieved chunk contains
         # keywords from the image — meaning the answer is image-related.
@@ -278,5 +278,5 @@ if __name__ == "__main__":
     # Step 2 — query
     #query_rag("What are the benefits of injury and illness prevention programs?")
     #query_rag("what is the cost of most disabling injuries during 2002?")
-    query_rag("What is EH&S  is responsible for?")
-    
+    #query_rag("What is EH&S  is responsible for?")
+    query_rag("Explain the overview of reflection framework")

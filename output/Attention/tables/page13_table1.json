@@ -1,0 +1,22 @@
+{
+    "file_name": "Attention",
+    "page_number": 13,
+    "image_title": "Attention Visualizations",
+    "image_keywords": [
+        "2000",
+        "American",
+        "governments",
+        "laws",
+        "voting",
+        "registration",
+        "difficult"
+    ],
+    "summary": "The image titled 'Attention Visualizations' presents a textual representation highlighting that since 2000, a majority of American governments have passed new laws making the registration or voting process more difficult. The key year mentioned is 2000, indicating a significant point in the trend of legislative changes affecting voter registration.",
+    "confidence_score": 0.9,
+    "image_citation": "extracted_assets\\Attention\\tables\\page13_table1.png",
+    "token_usage": {
+        "prompt_tokens": 14707,
+        "completion_tokens": 118,
+        "total_tokens": 14825
+    }
+}

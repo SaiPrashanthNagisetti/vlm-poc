@@ -1,0 +1,21 @@
+{
+    "file_name": "Sample",
+    "page_number": 6,
+    "image_title": "Algorithm 1 Reinforcement via self-reflection",
+    "image_keywords": [
+        "Reinforcement Learning",
+        "Self-reflection",
+        "Algorithm",
+        "Actor",
+        "Evaluator",
+        "Environment"
+    ],
+    "summary": "The image titled 'Algorithm 1 Reinforcement via self-reflection' presents a flowchart detailing the components of an agent in a reinforcement learning framework. It includes elements such as External feedback, Internal feedback, and various components like Actor, Evaluator, Self-reflection, Experience, and Trajectory. The algorithm initializes the Actor, Evaluator, and Self-Reflection, generating an initial trajectory and self-reflection. It evaluates the trajectory and iterates through a loop until a maximum number of trials is reached, generating self-reflections and appending them to memory. The process emphasizes the interaction between the agent and the environment, focusing on the learning and feedback mechanisms involved.",
+    "confidence_score": 0.9,
+    "image_citation": "extracted_assets\\Sample\\images\\page6_img1.png",
+    "token_usage": {
+        "prompt_tokens": 14707,
+        "completion_tokens": 195,
+        "total_tokens": 14902
+    }
+}

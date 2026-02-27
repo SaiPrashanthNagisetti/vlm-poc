@@ -1,0 +1,20 @@
+{
+    "file_name": "Sample",
+    "page_number": 14,
+    "image_title": "AI Design Process",
+    "image_keywords": [
+        "AI",
+        "design process",
+        "algorithm",
+        "training",
+        "evaluation"
+    ],
+    "summary": "The image titled 'AI Design Process' illustrates a circular diagram outlining the steps involved in designing an AI system. The steps include: 1) Define the Problem and Objective, 2) Choose an algorithm and framework, 3) Define the Agent's Architecture, 4) Train the Agent, and 5) Share and Evaluate the Agent. Each step is numbered and briefly described, emphasizing the importance of identifying the problem, selecting appropriate learning frameworks, and evaluating the AI's performance in real-world applications.",
+    "confidence_score": 1.0,
+    "image_citation": "extracted_assets\\Sample\\images\\page14_img1.png",
+    "token_usage": {
+        "prompt_tokens": 26041,
+        "completion_tokens": 150,
+        "total_tokens": 26191
+    }
+}
