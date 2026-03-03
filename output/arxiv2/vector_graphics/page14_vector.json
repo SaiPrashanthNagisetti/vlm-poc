@@ -12,7 +12,7 @@
         "scores",
         "data comparison"
     ],
-    "summary": "This line chart illustrates the comparison of maximum utility achieved over iteration steps between GLM and GTP. The y-axis represents maximum utility, ranging from 0 to 27, while the x-axis denotes iteration steps from 0 to 18. The chart features three curves: one for LLM-based methods, and two shaded areas indicating \u00b11 standard deviation for both LLM-based and Template-based approaches. Scores are averaged by group at each iteration step, with the highest recorded utility being 27 at 9 iteration steps for GTP. The data suggests that GLM users achieved an average utility of 20.8 \u00b1 4.3, while GTP users reached 20.5 \u00b1 4.4, indicating a close performance between the two methods.",
+    "summary": "This line chart illustrates the comparison of maximum utility achieved over iteration steps between GLM and GTP. The y-axis represents maximum utility, ranging from 0 to 27, while the x-axis denotes iteration steps from 0 to 18. The chart features three curves: one for LLM-based approaches, and two for template-based approaches, each accompanied by shaded areas indicating \u00b11 standard deviation. Scores are averaged by group at each iteration step, highlighting the performance trends of the different methodologies across the iterations. The data indicates that GLM users achieved an average maximum utility of 20.8 \u00b1 4.3, while GTP users reached 20.5 \u00b1 4.4, with both groups showing similar performance in terms of utility across the steps.",
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\arxiv2\\vector_graphics\\page14_vector.png",
     "token_usage": {

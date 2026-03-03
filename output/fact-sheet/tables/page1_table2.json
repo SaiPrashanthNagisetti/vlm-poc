@@ -1,0 +1,20 @@
+{
+    "file_name": "fact-sheet",
+    "page_number": 1,
+    "image_title": "Client Metrics Summary",
+    "image_keywords": [
+        "clients",
+        "revenue",
+        "quarterly data",
+        "2025",
+        "2024"
+    ],
+    "summary": "This table presents client metrics for the quarter ended December 31, 2025. The total number of active clients is 1,949, with 121 added during the period. The breakdown of million-dollar clients includes 1,012 clients at 1 million dollars or more, 326 clients at 10 million dollars or more, 84 clients at 50 million dollars or more, and 41 clients at 100 million dollars or more. Client contributions to revenues show that the top 5 clients account for 12.8% of revenues, the top 10 clients account for 20.6%, and the top 25 clients account for 35.0%. The Days Sales Outstanding is reported at 74 days. Comparative data for September 30, 2025, and December 31, 2024, is also included, showing slight variations in client counts and revenue contributions.",
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet\\tables\\page1_table2.png",
+    "token_usage": {
+        "prompt_tokens": 20674,
+        "completion_tokens": 234,
+        "total_tokens": 20908
+    }
+}

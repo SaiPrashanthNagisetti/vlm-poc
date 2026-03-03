@@ -12,12 +12,12 @@
         "V",
         "attention mechanism"
     ],
-    "summary": "This flow diagram illustrates the process of an attention mechanism, featuring key components labeled as MatMul, SoftMax, Mask (optional), Scale, and the inputs Q (Query), K (Key), and V (Value). The diagram shows the flow of data with arrows indicating the direction of processing, starting from the inputs Q and K leading to the first MatMul operation, followed by the Scale step, then the optional Mask, and finally culminating in the SoftMax operation before the second MatMul that outputs the final result. The overall purpose of this diagram is to depict the sequential steps involved in computing attention in neural networks.",
+    "summary": "This flow diagram illustrates the process of an attention mechanism, featuring key components such as MatMul, SoftMax, Mask (optional), Scale, and the input vectors Q (Query), K (Key), and V (Value). The diagram shows the flow of data starting from Q and K through two MatMul operations, followed by the application of Scale, an optional Mask, and finally leading to the SoftMax function, which directs the output to V. The overall purpose of this process is to compute attention scores that determine the relevance of different input elements in relation to each other.",
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\Attention\\images\\page4_img1.png",
     "token_usage": {
         "prompt_tokens": 9340,
-        "completion_tokens": 185,
-        "total_tokens": 9525
+        "completion_tokens": 176,
+        "total_tokens": 9516
     }
 }

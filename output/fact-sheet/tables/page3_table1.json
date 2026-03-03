@@ -1,0 +1,22 @@
+{
+    "file_name": "fact-sheet",
+    "page_number": 3,
+    "image_title": "Financial Performance Summary",
+    "image_keywords": [
+        "Revenues",
+        "Cost of sales",
+        "Gross Profit",
+        "Operating Expenses",
+        "Net Profit",
+        "EPS",
+        "Financial Data"
+    ],
+    "summary": "This table presents a financial performance summary comparing figures for December 31, 2025, and December 31, 2024, with growth percentages. Revenues are reported as $15,117 million for 2025 and $14,547 million for 2024, showing a growth of 3.9%. The cost of sales is $10,593 million for 2025 and $10,103 million for 2024, reflecting a growth of 4.9%. Gross profit stands at $4,524 million for 2025, slightly increasing from $4,444 million in 2024, with a growth of 1.8%. Total operating expenses are $3,030 million for 2025, down from $3,080 million in 2024, indicating a decline of 1.6%. The operating profit is $3,338 million for 2025, compared to $3,329 million for 2024, with a minimal growth of 0.3%. The net profit after non-controlling interests is $2,393 million for 2025, up from $2,345 million in 2024, showing a growth of 2.1%. Basic EPS is $0.58 for 2025, compared to $0.57 for 2024, reflecting a growth of 2.3%. Diluted EPS also shows a similar trend, with $0.58 for 2025 and $0.56 for 2024.",
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet\\tables\\page3_table1.png",
+    "token_usage": {
+        "prompt_tokens": 20674,
+        "completion_tokens": 366,
+        "total_tokens": 21040
+    }
+}

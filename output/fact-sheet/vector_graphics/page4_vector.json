@@ -1,0 +1,22 @@
+{
+    "file_name": "fact-sheet",
+    "page_number": 4,
+    "image_title": "Infosys Financial Fact Sheet - Third Quarter, Fiscal 2026",
+    "image_keywords": [
+        "financial data",
+        "operating profit",
+        "net profit",
+        "EPS",
+        "revenues",
+        "comprehensive income",
+        "adjusted non-IFRS"
+    ],
+    "summary": "This document presents the consolidated financial data for Infosys for the third quarter of Fiscal 2026. It includes a reconciliation of reported IFRS financial measures to adjusted non-IFRS financial measures for the nine months ended December 31, 2025, showing an operating profit of $3,030 million, an adjusted non-IFRS operating profit of $3,173 million, and a net profit of $2,393 million with a basic EPS of $0.58. For the three months ended December 31, 2025, revenues were \u20b945,479 crore, with a growth of 8.9% year-over-year, and a gross profit of \u20b912,827 crore. The total operating expenses were \u20b94,472 crore, leading to an operating profit of \u20b98,355 crore and a basic EPS of \u20b916.17. The document also outlines the adjustments for labour codes and provides comparative figures for the previous year.",
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet\\vector_graphics\\page4_vector.png",
+    "token_usage": {
+        "prompt_tokens": 26341,
+        "completion_tokens": 267,
+        "total_tokens": 26608
+    }
+}

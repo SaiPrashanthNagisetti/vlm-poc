@@ -3,17 +3,17 @@
   "page": 22,
   "text": "22 G. Fouilhé et al.\nFig.7: Screenshot of the goal creation using templates baseline (left) and LLM-\nbased goal translator (right).\nnot be satisfied in the initial state (e.g. ,T)) can be specified. This helps\n¬in(P\nj\nto ensure that only well-formed and meaningful goals can be instantiated.\nIn Figure 7 on the left the list of available templates for a transport domain\nis show. The first step in creating a goal is choosing one of those templates. In\nthe second step the objects are selected.\nThe second option is to use a LLM-based goal\nLLM-Based Goal Translator\ntranslator, that translates a natural language description of the goal into an\nLTL formula.AnexampleisgivenontherightinFigure7.TheLLMinfersthe\nf\ndeliverylocationfromtheplanningtask.Themulti-stepinteractiontorefinethe\ngoal is only possible with a context-dependent translator. The translated LTL\nf\nformulas shown in this figure are intended to be shown exclusively to expert\nusers. An alternative approach involves the use of a of the\nreverse translation\nusers’ question, which is then converted back into natural language without\nambiguities. (e.g.“deliver p2 before p0”\n→ I understood this goal as \"p0 is not\njones\"). The summary of the goal\ndelivered to lopez until p2 is delivered to\ndescription, here “p2 delivered before p0 and same truck for p0” is used as the\ndescription of the goal in the interface.\nIn the interface goals are depicted as shown\nGoal Properties and Visualization\nin Figure 8. Each goal has a natural language description and is associated with\na color and icon. These can be used to visually group goals by for example the\ntype of temporal property (e.g. delivery order) or the involved objects (e.g.\ntruck ). If the panel is opened it gives access to a more detailed description of\nT\n1\nthe goal.\nGoals can be (indicated by a small lock as shown in the top right in\nlocked\nFigure 8). This means they are automatically enforced in each iteration step.",
   "keywords": [
+    "goals",
+    "templates",
+    "language",
+    "llm based",
+    "description",
+    "llm",
     "goal",
     "translator",
-    "figure",
-    "llm",
-    "llm based",
-    "p0",
-    "goals",
-    "description",
-    "shown",
-    "templates",
     "p2",
-    "language"
+    "shown",
+    "p0",
+    "figure"
   ]
 }

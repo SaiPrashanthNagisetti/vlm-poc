@@ -14,12 +14,12 @@
         "conflicts",
         "goals"
     ],
-    "summary": "This visual presents a planning task interface where users can inquire about enforcing specific goals without creating conflicts. It suggests that the Parent can either cook dinner or go shopping, but must stop enforcing either Alice's basketball training or Alice's violin lesson to avoid conflicts. It also indicates that enforcing both Alice's goals simultaneously is not feasible. Additionally, it confirms that enforcing Bob's tennis training is possible without causing conflicts with currently enforced goals, suggesting that it can be achieved alongside other goals. The interface encourages users to ask further questions to explore how these decisions might affect other plans.",
+    "summary": "This visual presents a planning task interface where users can inquire about enforcing goals for family members without creating conflicts. It suggests that the Parent can either cook dinner or go shopping, but must avoid scheduling Alice's basketball training or violin lesson simultaneously to prevent conflicts. Additionally, it confirms that enforcing Bob's tennis training is possible without causing new conflicts with existing goals. The interface encourages users to explore how these decisions may affect other goals or plans. The overall purpose is to assist in managing family schedules effectively.",
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\arxiv2\\images\\page43_img1.png",
     "token_usage": {
         "prompt_tokens": 15007,
-        "completion_tokens": 184,
-        "total_tokens": 15191
+        "completion_tokens": 170,
+        "total_tokens": 15177
     }
 }

@@ -3,17 +3,17 @@
   "page": 18,
   "text": "18 G. Fouilhé et al.\n11. Domshlak, C., Mirkis, V.: Deterministic oversubscription planning as heuristic\nsearch: Abstractions and reformulations. JAIR (2015)\n12. Eifler, R., Brandao, M., Coles, A., Frank, J., Hoffmann, J.: Evaluating plan-\nproperty dependencies: A web-based platform and user study. In: ICAPS (2022)\n13. Eifler, R., Cashmore, M., Hoffmann, J., Magazzeni, D., Steinmetz, M.: A new ap-\nproach to plan-space explanation: Analyzing plan-property dependencies in over-\nsubscription planning. In: AAAI (2020)\n14. Eifler, R., Steinmetz, M., Torralba, A., Hoffmann, J.: Plan-space explanation via\nplan-property dependencies: Faster algorithms & more powerful properties. In:\nIJCAI (2020)\n15. Feldhus, N., Wang, Q., Anikina, T., Chopra, S., Oguz, C., Möller, S.: Interrolang:\nExploringnlpmodelsanddatasetsthroughdialogue-basedexplanations.In:Proc.\nEMNLP (2023)\n16. Fuggitti, F., Chakraborti, T.: NL2LTL – a python package for converting natural\nlanguage (NL) instructions to linear temporal logic (LTL) formulas. In: ICAPS\n(2023)\n17. Gamba, E., Bogaerts, B., Guns, T.: Efficiently explaining csps with unsatisfiable\nsubset optimization. JAIR (2023)\n18. Guo,T.,Chen,X.,Wang,Y.,Chang,R.,Pei,S.,Chawla,N.V.,Wiest,O.,Zhang,\nX.:Largelanguagemodelbasedmulti-agents:Asurveyofprogressandchallenges.\narXiv:2402.01680 (2024)\n19. Helmert, M.: The Fast Downward planning system. JAIR 26, 191–246 (2006)\n20. Junker, U.: Preferred explanations and relaxations for over-constrained problems.\nIn: Proc. AAAI (2004)\n21. Kambhampati, S., Valmeekam, K., Guan, L., Verma, M., Stechly, K., Bhambri,\nS., Saldyt, L., Murthy, A.: Position: Llms can’t plan, but can help planning in\nllm-modulo frameworks. In: ICML (2024)\n22. Krarup,B.,Coles,A.J.,Long,D.,Smith,D.E.:Explainingplanqualitydifferences.\nIn: ICAPS (2024)\n23. Krarup,B.,Krivic,S.,Magazzeni,D.,Long,D.,Cashmore,M.,Smith,D.E.:Con-\ntrastive explanations of plans through model restrictions. JAIR (2021)\n24. Lakkaraju, H., Slack, D., Chen, Y., Tan, C., Singh, S.: Rethinking explainabil-\nity as a dialogue: A practitioner’s perspective. In: NeurIPS Workshop on Human\nCentered AI (2022)\n25. Liao, Q.V., Gruen, D., Miller, S.: Questioning the ai: informing design practices\nfor explainable ai user experiences. In: Proc. CHI (2020)\n26. Likert, R.: A technique for the measurement of attitudes. Archives of Psychology\n(1932)\n27. Liu, J.X., Yang, Z., Schornstein, B., Liang, S., Idrees, I., Tellex, S., Shah, A.:\nLang2ltl: Translating natural language commands to temporal specification with\nlarge language models. In: Workshop on Language and Robotics at CoRL (2022)\n28. Miller, T.: Explanation in artificial intelligence: Insights from the social sciences.\nAI (2019)\n29. Nguyen, Q.N., Sidorova, A., Torres, R.: User interactions with chatbot interfaces\nvs. Menu-based interfaces: An empirical study. Computers in Human Behavior\n128, 107093 (Mar 2022). https://doi.org/10.1016/j.chb.2021.107093\n30. Nguyen, V.B., Schlötterer, J., Seifert, C.: From black boxes to conversations: In-\ncorporating xai in a conversational agent. In: XAI (2023)\n31. Peng, B., Narayanan, S., Papadimitriou, C.: On limitations of the transformer\narchitecture. COLM (2024)",
   "keywords": [
-    "hoffmann",
-    "planning",
-    "2022",
+    "icaps",
     "ai",
-    "explanation",
-    "eifler",
-    "jair",
     "2024",
-    "2023",
+    "eifler",
     "language",
+    "2022",
+    "jair",
     "plan",
-    "icaps"
+    "explanation",
+    "hoffmann",
+    "2023",
+    "planning"
   ]
 }

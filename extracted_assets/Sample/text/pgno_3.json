@@ -3,17 +3,17 @@
   "page": 3,
   "text": "authorsalsodiscusstheextensiveanddiverseapplicationsofmultimodalagentsinfieldslikeautonomous\ndriving, game development, and robotics. They emphasize the importance of multimodality in driving\nhuman-computer interaction between humans and autonomous agents by enabling their use in more\ncomplex, nuanced settings.\nAs a collective, past reviews on AI agents develop a comprehensive assessment of the technology and\nprovideanin-depthanalysisoffoundationalelements,diverseapplications,currentevaluationparadigms,\nandfutureprospectsofautonomousagents. Althoughmanyofthesestudiesaresuitableforpeoplewith\npriorknowledgeinthefield,fewprovideasimplifiedframeworktounderstandtheseconcepts,specifically\ntargeting new researchers.\n3 Methodology\nWe conducted a systematic literature review following the Preferred Reporting Items for Systematic\nReviewsandMeta-Analyses(PRISMA)guidelinestoensureathoroughandtransparentapproach. This\nmethod helped identify, screen, and select relevant studies focused on AI agents.\nFigure 1: The PRISMA review was conducted independently by authors on each topic relating to core\ncomponents, applications, and paradigm-shifting designs within the AI agent space, and combined into\none diagram.\n3.1 Search Strategy\nFollowing the PRISMA guidelines, we conducted our literature review process to identify relevant pa-\npers on foundational frameworks, current trends, and breakthrough advancements in AI agent research.\nEmploying this strategy allowed us to conduct a rigorous analysis of relevant research, aligning with\nmethodologies utilized in previous works. We used Google Scholar to conduct our review of emergent\ntechnologies in the AI agent space and 4 application domains: business, education, science, and enter-\ntainment. All queries were conducted using search terms related to AI agents and the individual topics.\nCommon search terms included: ”Autonomous Agent”, ”Reinforcement Learning Agent”, and ”Multi-\nAgent System”, with ”AI Agent” being the prime term used across all contributors’ searches. The full\nlist of queries by topic can be found in Appendix A.",
   "keywords": [
-    "review",
     "ai",
-    "agent",
+    "search",
     "ai agents",
-    "search terms",
     "agents",
     "queries",
-    "search",
-    "ai agent",
+    "review",
+    "relevant",
+    "agent",
+    "search terms",
     "conducted",
     "prisma",
-    "relevant"
+    "ai agent"
   ]
 }

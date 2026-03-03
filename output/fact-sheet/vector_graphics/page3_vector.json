@@ -1,0 +1,23 @@
+{
+    "file_name": "fact-sheet",
+    "page_number": 3,
+    "image_title": "Consolidated Financial Data - Third Quarter, Fiscal 2026",
+    "image_keywords": [
+        "Infosys",
+        "financial statement",
+        "comprehensive income",
+        "revenues",
+        "operating profit",
+        "net profit",
+        "EPS",
+        "growth"
+    ],
+    "summary": "This image presents the consolidated statement of comprehensive income for Infosys for the three months ended December 31, 2025, and December 31, 2024, along with growth percentages. Revenues for Dec 31, 2025, are reported at $5,099 million, showing a year-over-year growth of 3.2%, compared to $4,939 million in Dec 31, 2024. The cost of sales is $3,660 million, with a 6.3% increase from $3,444 million. The gross profit is $1,439 million, reflecting a decrease of 3.7% from $1,495 million. Operating expenses total $502 million, up 13.6% from $442 million, with selling and marketing expenses at $257 million (17.9% increase) and administrative expenses at $245 million (9.4% increase). The operating profit stands at $937 million, down 11.0% from $1,053 million, resulting in an operating margin of 18.4%, a decrease of 2.9%. The profit before income taxes is $1,035 million, down 9.4%, with an income tax expense of $287 million. The net profit (after non-controlling interests) is $747 million, a decrease of 7.2%, leading to a basic EPS of $0.18, down 6.6%. The image also includes a reconciliation of reported IFRS financial measures to adjusted non-IFRS financial measures for the same period. The nine-month data shows revenues of $15,117 million for Dec 31, 2025, with a growth of 3.9%.",
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet\\vector_graphics\\page3_vector.png",
+    "token_usage": {
+        "prompt_tokens": 26341,
+        "completion_tokens": 426,
+        "total_tokens": 26767
+    }
+}

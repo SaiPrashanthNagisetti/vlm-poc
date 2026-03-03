@@ -11,12 +11,12 @@
         "voting",
         "registration"
     ],
-    "summary": "This image titled 'Attention Visualizations' displays a textual representation of attention weights associated with various words. The visualization highlights the word 'making' in 2000, indicating a significant focus on this term within the context of the surrounding words. Other words include 'It', 'is', 'this', 'split', 'a', 'majority', 'of', 'American', 'governments', 'have', 'passed', 'new', 'laws', 'since', 'the', 'registration', 'or', 'voting', 'process', 'more', 'difficult'. The arrangement suggests a narrative related to voting and registration processes, emphasizing the challenges introduced over time. The overall design appears to be a part of a larger analysis or discussion on voting legislation and its implications.",
+    "summary": "This image titled 'Attention Visualizations' presents a textual representation of attention weights associated with various words. The visualization highlights the word 'making' in 2000, indicating a significant focus on this term within the context of the surrounding words, which include 'It', 'is', 'this', 'spirit', 'that', 'a', 'majority', 'of', 'American', 'governments', 'have', 'passed', 'new', 'laws', 'since', 'the', 'registration', 'or', 'voting', 'process', 'more', and 'difficult'. The attention weights vary, with 'making' showing a notably higher emphasis compared to other words, suggesting its importance in the overall context. The visualization does not provide any additional source or attribution.",
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\Attention\\tables\\page13_table1.png",
     "token_usage": {
         "prompt_tokens": 15007,
-        "completion_tokens": 215,
-        "total_tokens": 15222
+        "completion_tokens": 217,
+        "total_tokens": 15224
     }
 }

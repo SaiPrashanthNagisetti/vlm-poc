@@ -6,17 +6,17 @@
         "Parent cleans home",
         "Parent cooks dinner",
         "conflicts",
-        "goals",
+        "enforced goals",
         "activities",
         "Alice",
         "Bob"
     ],
-    "summary": "This visual presents insights regarding a planning task, highlighting the ability to enforce the goal of 'Parent cleans home' without causing conflicts, as there are no conflicting goals in the current set. However, enforcing 'Parent cooks dinner' may lead to conflicts with several other goals currently enforced, necessitating the potential removal of some activities related to Alice's schedule, such as basketball training or other leisure activities. The visual also poses questions regarding the satisfaction of social interactions among characters like Alice and Bob, and suggests exploring specific combinations of activities to enhance leisure time without conflicts.",
+    "summary": "This visual presents insights related to a planning task, highlighting the ability to enforce the goal 'Parent cleans home' without causing conflicts, as there are no conflicting goals currently enforced. However, enforcing 'Parent cooks dinner' may lead to conflicts with other goals, necessitating the potential removal of some activities associated with Alice, such as basketball training or other leisure activities. The visual suggests exploring specific combinations of activities to achieve a balanced plan without conflicts.",
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\arxiv2\\images\\page26_img1.png",
     "token_usage": {
         "prompt_tokens": 15007,
-        "completion_tokens": 170,
-        "total_tokens": 15177
+        "completion_tokens": 148,
+        "total_tokens": 15155
     }
 }

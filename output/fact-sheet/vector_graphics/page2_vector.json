@@ -1,0 +1,23 @@
+{
+    "file_name": "fact-sheet",
+    "page_number": 2,
+    "image_title": "Infosys Consolidated Financial Data - Third Quarter, Fiscal 2026",
+    "image_keywords": [
+        "Effort",
+        "Utilization",
+        "Employee Metrics",
+        "Cash Metrics",
+        "Quarter ended",
+        "Dec 31, 2025",
+        "Sep 30, 2025",
+        "Dec 31, 2024"
+    ],
+    "summary": "This document presents the consolidated financial data for Infosys for the third quarter of fiscal 2026. The Effort & Utilization section shows percentages for onsite (Dec 31, 2025: 23.1%, Sep 30, 2025: 23.2%, Dec 31, 2024: 24.0%) and offshore (Dec 31, 2025: 76.9%, Sep 30, 2025: 76.8%, Dec 31, 2024: 76.0%). Utilization rates are detailed as including trainees (Dec 31, 2025: 80.0%, Sep 30, 2025: 82.2%, Dec 31, 2024: 83.4%) and excluding trainees (Dec 31, 2025: 84.1%, Sep 30, 2025: 85.1%, Dec 31, 2024: 86.0%). Employee Metrics indicate total employees (Dec 31, 2025: 337,034, Sep 30, 2025: 331,991, Dec 31, 2024: 323,379), software professionals (Dec 31, 2025: 319,364, Sep 30, 2025: 314,500, Dec 31, 2024: 306,528), and voluntary attrition percentages (Dec 31, 2025: 12.3%, Sep 30, 2025: 14.3%, Dec 31, 2024: 13.7%). Cash Metrics include free cash flow (FCF) in millions (Dec 31, 2025: 915, Sep 30, 2025: 1,101, Dec 31, 2024: 1,263), adjustments for labor codes, and consolidated cash and investments (Dec 31, 2025: 3,917 million, Sep 30, 2025: 6,173 million, Dec 31, 2024: 4,653 million). The document provides a comprehensive overview of the company's financial performance and metrics.",
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet\\vector_graphics\\page2_vector.png",
+    "token_usage": {
+        "prompt_tokens": 26341,
+        "completion_tokens": 543,
+        "total_tokens": 26884
+    }
+}

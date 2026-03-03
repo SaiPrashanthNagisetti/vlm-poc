@@ -1,20 +1,20 @@
 {
     "file_name": "arxiv1",
     "page_number": 3,
-    "image_title": "Predictions and Rewards Analysis",
+    "image_title": "Sampled Predictions and Estimated Rewards",
     "image_keywords": [
         "predictions",
-        "rewards",
-        "labeling",
-        "bias",
-        "verification"
+        "estimated rewards",
+        "true label",
+        "false-popular predictions",
+        "cycle of reinforced bias"
     ],
-    "summary": "This image presents a structured analysis of predictions and estimated rewards across different rounds. The table includes true labels, sampled predictions, and estimated rewards for two rounds: the 1st round and the Nth round. In the 1st round, the sampled predictions show a distribution of labels A, B, C, and D with corresponding estimated rewards of 0, 1, and 0. The Nth round reflects a similar structure with predictions and rewards, indicating a cycle of reinforced bias. The estimated label for the true label C is noted as 'B is really good!' highlighting the evaluation of predictions. The context suggests a focus on verification processes in artificial intelligence.",
+    "summary": "This image presents a table comparing sampled predictions and estimated rewards across different rounds for a true label 'C'. In the 1st round, the sampled predictions are A, B, B, B, C, D, with estimated rewards of 0, 0, 1, 1, 1, 1, 0, 0. In the Nth round, the sampled predictions remain A, B, B, B, C, D, but the estimated rewards change to 0, 1, 1, 1, 1, 1, 0, 0. The estimated label indicates that 'B is really good!' while 'B is good!' is noted in the first round. The context suggests a focus on the evaluation of predictions in a reinforcement learning framework.",
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\arxiv1\\tables\\page3_table1.png",
     "token_usage": {
         "prompt_tokens": 15007,
-        "completion_tokens": 187,
-        "total_tokens": 15194
+        "completion_tokens": 223,
+        "total_tokens": 15230
     }
 }

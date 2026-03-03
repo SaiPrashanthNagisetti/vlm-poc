@@ -1,21 +1,21 @@
 {
     "file_name": "Sample",
     "page_number": 3,
-    "image_title": "Identification through Database Search Flow Diagram",
+    "image_title": "Identification through Database Search",
     "image_keywords": [
         "database search",
-        "records identified",
-        "duplicates removed",
-        "records screened",
-        "articles assessed",
-        "studies included"
+        "records",
+        "screening",
+        "eligibility",
+        "AI agent",
+        "study review"
     ],
-    "summary": "This flow diagram illustrates the process of identifying records through a database search. It begins with 730 records identified through database search with queries and a recency filter. After removing duplicates, the count remains at 730. All records are screened, with 616 records excluded from the total. A total of 114 full-text articles are assessed for eligibility, resulting in 50 articles excluded for being irrelevant to the definition of an AI agent. Ultimately, 64 studies are included in the review.",
+    "summary": "This flow diagram titled 'Identification through database search' outlines the process of identifying records for a study. It begins with 730 records identified through database search with queries and a recency filter. After removing duplicates, the total remains 730. All records are screened, resulting in 616 records excluded. Subsequently, 114 full-text articles are assessed for eligibility, leading to 50 articles excluded for being irrelevant to the definition of an AI agent. Ultimately, 64 studies are included in the review. The diagram visually represents the steps and decisions made throughout the identification process.",
     "confidence_score": 0.95,
     "image_citation": "extracted_assets\\Sample\\images\\page3_img1.png",
     "token_usage": {
         "prompt_tokens": 26341,
-        "completion_tokens": 158,
-        "total_tokens": 26499
+        "completion_tokens": 170,
+        "total_tokens": 26511
     }
 }

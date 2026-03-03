@@ -1,20 +1,20 @@
 {
     "file_name": "Attention",
     "page_number": 15,
-    "image_title": "Attention Heads Behavior in Self-Attention Mechanism",
+    "image_title": "Attention Heads Behavior in Sentence Structure",
     "image_keywords": [
         "attention heads",
-        "self-attention",
-        "layer 5",
         "sentence structure",
-        "task differentiation"
+        "layer 5",
+        "self-attention",
+        "tasks"
     ],
-    "summary": "This visual illustrates the behavior of attention heads in a self-attention mechanism, specifically from layer 5 of 6. It features two examples of connections between words in a sentence, with green lines representing one attention head and red lines representing another. The words 'The', 'Law', 'will', 'never', 'be', 'perfect', 'but', 'its', 'application', 'should', 'be', 'just', 'this', 'is', 'what', 'we', 'are', 'missing', 'in', 'my', 'opinion', '<EOS>', and '<pad>' are connected by these lines, demonstrating how different heads focus on various aspects of the sentence structure. The caption notes that the heads exhibit behavior related to the sentence's structure and that they have learned to perform different tasks.",
+    "summary": "This visual illustrates the behavior of attention heads in a neural network, specifically focusing on two examples from layer 5 of 6. The diagram shows connections between words in a sentence, with green lines representing one attention head and red lines representing another. The words 'The', 'Law', 'will', 'never', 'be', 'perfect', 'but', 'its', 'application', 'should', 'be', 'just', 'this', 'is', 'what', 'we', 'are', 'missing', 'in', 'my', 'opinion', '<EOS>', and '<pad>' are connected in various ways, indicating that the heads have learned to perform different tasks related to the sentence structure. The caption notes that many attention heads exhibit behavior related to the structure of the sentence, highlighting the distinct functions of the heads.",
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\Attention\\vector_graphics\\page15_vector.png",
     "token_usage": {
         "prompt_tokens": 26341,
-        "completion_tokens": 226,
-        "total_tokens": 26567
+        "completion_tokens": 225,
+        "total_tokens": 26566
     }
 }

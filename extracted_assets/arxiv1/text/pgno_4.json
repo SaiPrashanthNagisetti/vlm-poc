@@ -3,17 +3,17 @@
   "page": 4,
   "text": "4.Method: ToolVerificationforTestTime\nTheverifierthencontraststhetoolresultwiththerollout’s\nextractedcandidateansweraˆ\nandproducesatool-verified\nReinforcementLearning\ni\nvalidityindicator\nTopreventthisfailuremode,wepresentT3RL,anRLframe-\n1[a\nworkwhichintegratestoolverificationintotheaggregation\nv = =aˆ ].\n(6)\ni i i\nmechanismoftest-timeRL,thusachievinggroundedand\nmorerobustrewardestimation.Specifically,T3RLhasthree\n4.3.VerificationWeight\n(1)AnexternalVerifier,anLLMthatis\ncorecomponents:\nHeuristicWeighting.\nInstandardTTRL,theconsensus\ntaskedwithverifyingagivenreasoningtracebycompiling\nlabel is derived via simple majority voting, where every\nthetraceintoexecutablePythoncode,andjudgingitsvalid-\nreasoningpathcontributesequallyregardlessofitslogical\nitybasedontheexecutionoutput(§4.1);(2)TheVerification\nsoundness. However,inourframework,rolloutsthatpass\nTool,acodeinterpreterthatexecutesthegeneratedPython\nforwhichv =1,areheuristically\nthetoolverification,i.e.\nprogramandreturnssignalstotheverifier(§4.2);(3)The\ni\nassumedtobemorereliablethanthosethatdonot.Sincethe\nVerificationWeight,whichisusedtoreplacethemajority\ngroundtruthisinaccessibleattesttime,wecannotcalculate\nvotewithaverification-awareweightedvotethatbooststhe\ntheexactprobabilityofcorrectnessforverifiedrollouts. In-\nvotingpowerofverifiedrollouts. (§4.3).\nstead,weintroduceaVerificationWeighthyperparameter,ω,\ntoquantifythevotingpoweroftool-verifiedtracesrelative\n4.1.Verifier\ntounverifiedones.\nverifier V\nA is designed to evaluate each rollout before\naggregationderivestheestimatedconsensuslabely∗:\nVerification-AwareConsensus.\nWemodifytheaggrega-\ntionmechanismtouseaverification-weightedmajorityvote.\nGivenaninputpromptx,wesampleN\nVerifier.\nrollouts\nForasetofrollouts,weassignaweightw\ntoeachderived\ni\n}N\n{y ∼ π (· | x)\nand extract a candidate final answer\nanswera basedontheverificationindicatorv\n:\ni θ\ni=1\ni i\nfromeachrollout,\nw = (1−v )·1 + v ·ω,\n(7)\ni i i\naˆ =Extract(y )\n(3)\ni i\nwhereω ≥1isafixedscalarhyperparameter.\nThisensures\nV\nthenevaluateseachrolloutandreturnsatriplet\nthatunverifiedrolloutsretainaunitvote,whileverifiedroll-\noutscontributeωvotes. Theverification-awareconsensus\n(a , v ) = V(x,y ),\n(4)\nlabely˜∗isthenobtainedbymaximizingthetotalweighted\ni i i\nvotemass:\nwherea ∈Aistheverifier-derivedanswer,andv ∈{0,1}\ni i\nN\nindicateswhethertherolloutpassesexecutablechecks.\n(cid:88)\n·1[a\ny˜∗\n= argmax w =a].\n(8)\ni i\nT3RL,\na∈A\nV\nIn is implemented as an LLM-based verifier\ni=1\nthat performs the following tasks: 1) generating the tool-\nThismechanismallowsT3RLtoshifttheconsensusfrom\ncallingquery,bytransformingtherolloutrationaleintoa\nthemostfrequentanswertowardstheverifiedanswer(see\nlightweightpythonprogram;2)theexecutionoftheverifi-\nFigure7),providedthattheverifiedgrouppossessessuffi-\ncationtool(§4.2),and3)returningtheverificationresults.\ncientcumulativeweight.\n4.2.VerificationTool\nReward Calculation.\nConsistent with standard TTRL,\nAverificationtoolT\nprovidesexternal,deterministic,and\nthefinalrewardsignalremainsbinarybutisnowanchored\nV\nexecutable evidence to assist the verifier by offloading\ntotherobust,verification-awareconsensusy˜∗.\nThereward\nspecificverificationtasksfromV\ntoanexternallogic.\nforthei-throlloutiscomputedas:\n1[a\n=y˜∗].\nrv\n=\n(9)\nToolexecutionasexternalevidence. Formathproblems,\ni\ni\nmanyrolloutshingeonintermediatecorrectness(e.g.,arith-\nmetic computations, calculation hallucinations, etc). In\nTraining objective.\nWe keep the TTRL objective un-\nT3RL,\ntool verification\nis initiated as a code interpreter\nchangedinform,replacingthepseudo-labelwithEq.(9):\nT,\nthat is an executable checker that evaluates a verifier-\nE\n[rv(x,y)],\ngenerated Python program and returns the output of the\nmax\n(10)\ny∼πθ(·|x)\nθ\nexecutedcode\nE[rv(x,y)].\nθ ←θ+η∇\n(11)\nθ\na = T(Code(x,y )).\n(5)\ni i",
   "keywords": [
-    "objective",
-    "verificationweight",
-    "verification",
-    "t3rl",
-    "awareconsensus",
-    "verifier",
-    "rv",
-    "ttrl",
-    "theverification",
+    "tool",
     "extract",
     "executable",
-    "tool"
+    "objective",
+    "awareconsensus",
+    "verifier",
+    "verificationweight",
+    "verification",
+    "theverification",
+    "rv",
+    "t3rl",
+    "ttrl"
   ]
 }

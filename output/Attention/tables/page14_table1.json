@@ -9,12 +9,12 @@
         "words",
         "connections"
     ],
-    "summary": "This image illustrates two attention heads from layer 5 of a neural network, focusing on anaphora resolution. The top section displays various words with connections indicating their attention weights, while the bottom section isolates attentions specifically from the word 'its' for attention heads 5 and 6. The connections are visually represented with lines, showing how different words relate to each other in the context of the sentence. The attention patterns are notably sharp for the word 'its', suggesting its significance in the given context.",
+    "summary": "This image illustrates two attention heads in layer 5 of a neural network, focusing on anaphora resolution. The top section displays various words with connections indicating attention weights, while the bottom section isolates the attention from the word 'its' for attention heads 5 and 6. The connections highlight how the words 'The', 'Law', 'will', 'never', 'be', 'perfect', 'but', 'its', 'application', 'should', 'be', 'just', 'this', 'is', 'what', 'we', 'are', 'missing', 'in', 'my', 'opinion', and others interact with each other, showcasing the sharp attention given to the word 'its'. The visual emphasizes the complexity of relationships between words in the context of language processing.",
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\Attention\\tables\\page14_table1.png",
     "token_usage": {
         "prompt_tokens": 37675,
-        "completion_tokens": 155,
-        "total_tokens": 37830
+        "completion_tokens": 214,
+        "total_tokens": 37889
     }
 }

@@ -10,12 +10,12 @@
         "music lesson",
         "grandma's groceries"
     ],
-    "summary": "The visual titled 'Insights on Solvable Plans' presents a discussion on making a plan solvable by highlighting specific combinations of properties that need to be forfeited. It lists four scenarios: 'daughter does soccer training', 'parent does sports' and 'son attends music lesson', 'parent does sports' and 'bring grandma's groceries to her house', and 'son attends music lesson' and 'bring grandma's groceries to her house'. The context suggests a decision-making process regarding the selection of enforced goals, indicating that certain combinations lead to unsolvable outcomes. The visual includes a question about how to make the plan solvable, emphasizing the need for strategic choices in goal setting.",
+    "summary": "This image presents insights regarding the conditions necessary to make a plan solvable. It outlines that to achieve a solvable plan, one must forgo one of the following combinations of properties: 'daughter does soccer training', 'parent does sports' and 'son attends music lesson', 'parent does sports' and 'bring grandma's groceries to her house', or 'son attends music lesson' and 'bring grandma's groceries to her house'. The context suggests a decision-making process involving conflicting goals or commitments.",
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\arxiv2\\images\\page25_img2.png",
     "token_usage": {
         "prompt_tokens": 9340,
-        "completion_tokens": 199,
-        "total_tokens": 9539
+        "completion_tokens": 163,
+        "total_tokens": 9503
     }
 }

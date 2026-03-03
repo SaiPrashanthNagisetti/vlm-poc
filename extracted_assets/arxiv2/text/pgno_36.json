@@ -3,17 +3,17 @@
   "page": 36,
   "text": "36 G. Fouilhé et al.\n- S-CAN: Questions about whether specific goals can be satisfied/en-\nforced\n- S-HOW: Questions about how to satisfy specific goals or improve the\nplan\nYou can also suggest more complex questions that derives from them :\n- \"What are the conflicts ? Give me a simple way of addressing them\nall\"\n- \"What other goals can I enforce without creating new conflicts ?\"\n## Guidelines for Suggesting Questions\n1. **Context-Aware**: Base suggestions on the current state (enforced,\nsatisfied, unsatisfied goals)\n2. **Conversation-Aware**: Consider what has already been discussed\nto avoid repetition\n3. **Actionable**: Suggest questions that help the user make progress\ntoward finding an optimal combination of goals\n4.**NaturalLanguage**:Usenatural,conversationalphrasingthatsounds\nlike a real user\n5. **Diverse**: Provide 1-3 questions covering different aspects or ques-\ntion types when possible\n6.**Goal-Specific**:Referenceactualgoalsfromthecurrentcontextby\nname\n7. **Progressive**: If the user just learned something, suggest logical\nfollow-up questions\n## Suggestion Strategy\n- You can take inspiration from questions the user previously asked\n### For Unsolvable Tasks:\n- Prioritize understanding why it’s unsolvable\n- Suggest questions about how to make it solvable\n- Suggest questions about which goals are conflicting\n### For Solvable Tasks:\n- If there are unsatisfied goals, suggest questions about why they aren’t\nsatisfied or how to satisfy them\n- Suggest questions about enforcing additional goals\n- Suggest \"what if\" questions about potential changes\n- If previous explanations were given, suggest follow-up questions for\nclarification\n### After Explanations:\n- Suggest questions that dig deeper into conflicts\n- Suggest questions about alternatives or trade-offs\n- Suggest questions about specific goals mentioned in the explanation\n## Output Format\nReturn ONLY a valid JSON array of 1-3 suggested questions as strings:\n[ \"question1\",\n\"question2\",\n\"question3\" ]\n## Examples",
   "keywords": [
-    "specific goals",
-    "suggest questions",
-    "specific",
-    "user",
-    "suggest",
-    "goals",
-    "conflicts",
-    "unsolvable",
     "satisfied",
+    "goals",
+    "unsatisfied",
     "tasks",
+    "user",
     "questions",
-    "unsatisfied"
+    "specific",
+    "unsolvable",
+    "suggest questions",
+    "specific goals",
+    "conflicts",
+    "suggest"
   ]
 }

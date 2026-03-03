@@ -4,18 +4,19 @@
     "image_title": "Tool Verification for Test-Time Reinforcement Learning",
     "image_keywords": [
         "Test-Time Reinforcement Learning",
+        "T\u00b2RL",
         "Majority Voting",
         "Sampled Predictions",
         "Estimated Rewards",
         "Verification Results",
         "Relative Accuracy Gain"
     ],
-    "summary": "This image presents a visual representation of the concept of T\u00b2RL (Tool Verification for Test-Time Reinforcement Learning), highlighting the process of verifying pseudo-labels through majority voting. It includes a table with sampled predictions (A, B, C), estimated rewards (0, 1), and verification results indicating skewed and reliable outcomes. The chart also displays relative accuracy gains across various math difficulties (MATH-500, AMC, and AIME), showing improvements from T\u00b2RL compared to traditional methods. The average accuracy gains are noted as 17.1% for AIME, 7.8% for AMC, and 6.3% for MATH-500, emphasizing T\u00b2RL's effectiveness in stabilizing self-evolution in reinforcement learning.",
+    "summary": "This image presents a visual representation of the concept of T\u00b2RL (Tool Verification for Test-Time Reinforcement Learning), illustrating the majority voting mechanism used to verify pseudo-labels. It includes a table showing sampled predictions (A, B, C), estimated rewards (0s and 1s), and verification results indicating skewed and reliable labels. The right side of the image features a bar chart comparing relative accuracy gains across various benchmarks, including MATH-1500, AMC, and AIME, with specific values noted for each method. The chart highlights the performance improvements of T\u00b2RL over traditional methods, emphasizing its role in stabilizing self-evolution in reinforcement learning. The image is sourced from a research paper authored by Ruotong Liao et al., dated March 2, 2026.",
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\arxiv1\\vector_graphics\\page1_vector.png",
     "token_usage": {
         "prompt_tokens": 26341,
-        "completion_tokens": 220,
-        "total_tokens": 26561
+        "completion_tokens": 234,
+        "total_tokens": 26575
     }
 }

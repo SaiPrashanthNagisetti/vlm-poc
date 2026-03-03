@@ -3,17 +3,17 @@
   "page": 21,
   "text": "Exploring Plan Space through Conversation 21\nplans based on different approaches. The back-end and the explanation and\nplanningservicesimplementRESTAPIs.Thecommunicationbetweentheback-\nend and a service is asynchronous. This means the service notifies the back-end\nwhen a job has been completed. The services themselves maintain a queue for\nincoming jobs and schedule them based on resource availability.\nThecurrentlyusedplannerserviceisbasedonFastDownward[19]extended\nwith a compilation approach to handle temporal goal as described in [14]. The\nexplanations service computes the MUS and the MCS using the algorithms in-\ntroduced in [14] implemented on top of Fast Downward [19].\nA.2 Planning Process\nThe main feature of the platform is the iterative planning process with expla-\nnations. In the following we explain how a planning task is provided, how goals\ncan be defined and how the interface for the iterative planning process and the\nexplanations is designed.\nEachplanningprocessstartswiththecreationofaproject.\nPlanning Project\nThe planning task is given by a PDDL domain and problem file. The domain\ndefinition, the actions, and the initial state are fixed, they cannot be modified\nduringtheplanningprocess.Fromtheproblemfileonlytheinitialstatedefinition\nis considered, the goals are disregarded. The exploration of the plan space is\nguided by the enforced goals. Goal are defined during the planning process via\ndifferent interface options, which are described in the following section.\nIngeneraltheplatformfocusesondomainindependentfeatures.However,for\nsome features (e.g. templates for goals and prompts for the LLM-based transla-\ntors) domain dependent information can be added. Thus, each project is associ-\nated with a domain, e.g. blocksworld, or parents-afternoon.\ntransport\nAt the beginning of the planning process the user must define\nGoal Creation\nall known goals and potential preferences they are already aware of. During the\nplanning process, after having inspected some samples plans, the goals can be\nextended to account for any new goals and preferences.\nGoals are defined by LTL formulas with literal based on the predicates and\nf\nobjects of the planning task. In order to facilitate the creation of goals, the\nrequirement to write LTL is circumvented, as it is not suitable for laypeople\nf\nand is generally an error-prone process. Two options are supported.\nIt is possible to define templates for each domain to cover commonly\nTemplates\nused goals and temporal preferences. Such a template maps a natural language\ndescription,e.g.“Loadpackage$P beforepackage$P intotruck$T” toanLTL\nf\ni j\nformula¬in(P U ,T).Toinstantiateagoalonthebasisofatemplate,\n,T) in(P\nj i\nit is then only necessary to select the specific objects, in this example the two\npackages and the truck. To restrict the selection of objects offered for selection\ntheallowedtypes(e.g.$P mustbeoftypepackage)andfactsthatmust/must\ni",
   "keywords": [
-    "planning",
-    "domain",
-    "service",
-    "preferences",
-    "end",
-    "based",
-    "task",
+    "process",
     "goals",
+    "preferences",
+    "service",
     "planning process",
+    "task",
     "objects",
     "planning task",
-    "process"
+    "domain",
+    "based",
+    "end",
+    "planning"
   ]
 }

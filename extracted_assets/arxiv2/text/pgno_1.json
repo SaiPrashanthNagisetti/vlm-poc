@@ -3,17 +3,17 @@
   "page": 1,
   "text": "Exploring Plan Space through Conversation:\nAn Agentic Framework for LLM-Mediated\nExplanations in Planning\nGuilhem Fouilhé1, Rebecca Eifler2, Antonin Poché1,3,\nSylvie Thiébaux2,5, and Nicholas Asher1,4\nIRIT, Toulouse, France\n1\n6202\nLAAS-CNRS, Toulouse, France\n2\nIRT Saint Exupery, Toulouse, France\n3\nCNRS, Toulouse, France\n4\nAustralian National University, Canberra, Australia\n5\nraM\nWhenautomatingplangenerationforareal-worldsequential\nAbstract.\n2\ndecision problem, the goal is often not to replace the human planner,\nbuttofacilitateaniterativereasoningandelicitationprocess,wherethe\n]IA.sc[\nhuman’sroleistoguidetheAIplanneraccordingtotheirpreferencesand\nexpertise. In this context, explanations that respond to users’ questions\nare crucial to improve their understanding of potential solutions and\nincrease their trust in the system. To enable natural interaction with\nsuch a system, we present a multi-agent Large Language Model (LLM)\narchitecture that is agnostic to the explanation framework and enables\n1v07020.3062:viXra\nuser- and context-dependent interactive explanations. We also describe\nan instantiation of this framework for goal-conflict explanations, which\nweusetoconductauserstudycomparingtheLLM-poweredinteraction\nwith a baseline template-based explanation interface.\nConversational Explanations · AI Planning · LLM Agents\nKeywords:\n1 Introduction\nOne can think of planning as the task of finding a plan that satisfies a set of\nproperties, but also as the iterative process that starts before the goals, ob-\njectives, and preferences are fully defined [37], and ends when a plan is found\nthat is satisfactory for all parties involved. From this perspective, explanations\nserve the purpose of accelerating the convergence of preferences elicitation by\nhumans. Explanations are by nature interactive; an explanation is something\nthat one person (the explainer) does—it’s a speech act [34]— for the sake of\nanother (the explainee).\nButwhileinteractiveplanninghasbecomearelativelywell-acceptedparadigm,\nthe crucial role of interactive in that process has been less widely\nexplanations\ninvestigated.\nThe interactive process of finding suitable goals and constraints can go off\ntrackwhenagentAproposesapropertythatagentBrejects.TogetAtoaccept",
   "keywords": [
-    "plan",
-    "planning",
-    "framework",
-    "france",
-    "explanations",
-    "explanation",
-    "preferences",
-    "interactive",
-    "toulouse",
     "process",
+    "preferences",
+    "toulouse",
+    "explanations",
+    "interactive",
+    "plan",
+    "explanation",
+    "toulouse france",
     "llm",
-    "toulouse france"
+    "france",
+    "framework",
+    "planning"
   ]
 }

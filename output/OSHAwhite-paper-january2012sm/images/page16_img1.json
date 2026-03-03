@@ -14,12 +14,12 @@
         "2007",
         "Losses per $1,000 of Payroll"
     ],
-    "summary": "This visual presents three related charts analyzing payroll and losses over the years 1998 to 2007. The first chart, titled 'Payroll ($M)', shows payroll values in millions, with the following data points: 1998 ($1.8M), 1999 ($2.0M), 2003 ($1.5M), 2004 ($1.6M), 2005 ($1.7M), 2006 ($2.1M), and 2007 ($2.3M). The second chart, 'Losses ($000)', illustrates losses in thousands, with values of 1998 ($30K), 1999 ($32K), 2003 ($20K), 2004 ($15K), 2005 ($5K), 2006 ($2K), and 2007 ($1K). The final chart, 'Losses per $1,000 of Payroll', shows a declining trend in losses per thousand dollars of payroll, with values of 1998 ($18.20), 1999 ($14.20), 2003 ($3.90), 2004 ($0.30), 2005 ($0.00), 2006 ($0.70), and 2007 ($0.30). The overall trend indicates a decrease in losses relative to payroll over the years.",
-    "confidence_score": 0.95,
+    "summary": "This visual presents three charts analyzing payroll and losses over the years 1998 to 2007. The first chart, titled 'Payroll ($M)', shows payroll figures in millions, with values of $2.0M in 1998, $2.0M in 1999, $1.5M in 2003, $1.5M in 2004, $1.5M in 2005, $1.5M in 2006, and $2.0M in 2007. The second chart, 'Losses ($000)', illustrates losses in thousands, with values of $30,000 in 1998, $35,000 in 1999, $20,000 in 2003, $15,000 in 2004, $5,000 in 2005, $0 in 2006, and $0 in 2007. The third chart, 'Losses per $1,000 of Payroll', shows a downward trend in losses per $1,000 of payroll, starting at $18.20 in 1998, decreasing to $14.20 in 1999, $3.90 in 2003, and reaching $0.30 in 2005, with no losses recorded in 2006 and 2007. Overall, the data indicates a significant reduction in losses relative to payroll over the analyzed period.",
+    "confidence_score": 0.9,
     "image_citation": "extracted_assets\\OSHAwhite-paper-january2012sm\\images\\page16_img1.png",
     "token_usage": {
         "prompt_tokens": 26341,
-        "completion_tokens": 357,
-        "total_tokens": 26698
+        "completion_tokens": 370,
+        "total_tokens": 26711
     }
 }

@@ -3,17 +3,17 @@
   "page": 29,
   "text": "Exploring Plan Space through Conversation 29\n• Bob’s activities:\n∗ does homework [3] (2h, 08:00–10:00, at home)\n∗ hangs out [2] (2h, 11:00–13:00, at city center)\n∗ paints [2] (2h, 11:00–13:00, at home)\n∗ does tennis training [2] (2h, 14:00–16:00, at gymnasium)\n∗ takes piano lesson [3] (1h, 17:00–18:00, at music center)\n• Parent’s activities:\n∗ cleans home [2] (2h, 08:00–10:00, at home)\n∗ does laundry [1] (1h, 10:00–11:00, at home)\n∗ mows grass [1] (1h, 11:00–12:00, at home)\n∗ cooks lunch [1] (1h, 12:00–13:00, at home)\n∗ cooks dinner [1] (1h, 17:00–18:00, at home)\n∗ does sports [2] (2h, 14:00–16:00, at gymnasium)\n∗ goes to the hairdresser [1] (1h, 14:00–15:00, at city center)\n∗ has a drink with friends [3] (2h, 15:00–17:00, at city center)\n∗ goes shopping [1] (1h, 17:00–18:00, at city center)\ntracked in 11 levels (08:00–18:00, i.e., 10 hours)\n– Time:\nConstraints:Thecarhasacapacityof3,andinitiallyeveryoneisfree(not\n–\nbusy) at home.\nThere was 224 Conflicts and 313 Corrections.\nThe maximum utility was 27 and was obtained by removing : Alice hangs\nout, Bob hangs out, Parent cooks dinner, Parent goes shopping, Parent goes to\nthe hairdresser, Parent has a drink with friends.\nB.3 Additional Results\nSimilarlytothecomparisonoftheutilityscoreoveriteration\nUtilityoverTime\nsteps, we also analyzed it across time. However, no significant difference was\nobserved.Wecanhypothesizethatthetimebenefitsofachievingahigherutility\nper iteration steps were balanced by users spending more time in each iteration\nstep engaging in a conversation with the explanation interface.\nWealsoprovide(Figure15)non-averaged\nNon-Averaged Utility over Steps\nfigures of the maximum achieved utility over iteration steps: each accepted par-\nticipant of the user study is one trajectory.",
   "keywords": [
-    "11",
-    "home",
-    "00 city",
-    "11 00",
-    "00 home",
     "parent",
-    "2h",
-    "00",
-    "1h",
     "center",
+    "city center",
+    "1h",
+    "00 city",
+    "00 home",
+    "2h",
+    "11 00",
+    "home",
     "00 18",
-    "city center"
+    "11",
+    "00"
   ]
 }

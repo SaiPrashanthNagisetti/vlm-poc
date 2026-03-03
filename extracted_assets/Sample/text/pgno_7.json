@@ -3,17 +3,17 @@
   "page": 7,
   "text": "Figure 4: An overview of the sources, forms, and operations of the memory in LLM-based agents. [47]\nperform tasks [50]. Tools are external modules that LLMs can call to gather information or perform\nactions. Examples include information retrieval systems, search engines, code interpreters, and robotic\narms [51]. The key challenges for tool-augmented LLMs, as highlighted in the paper, revolve around\nhallucinations, planning complexity, and input errors, which greatly impact their viability in practical\nsettings. These challenges underscore the necessity for more rigorous adherence to API documentation,\nenhanced planning algorithms, and broader, more inclusive training datasets to improve the robustness\nand reliability of AI agents in practical, real-world applications involving tool use [52, 53].\n4.6 Perception Modules\nPerception converts raw sensory data (e.g., images, audio, text, LiDAR scans) into structured repre-\nsentations. Vision backbones rely on convolutional neural networks [10, 11] and vision transformers [2],\nwhile speech recognition and language processing leverage transformer-based LLMs [54, 9, 12]. Sensor\nfusion merges multiple modalities to form a holistic, environmental understanding.\n4.7 Representation and Abstraction Layers\nAgentsrequirecompact,meaningfulrepresentations. Self-supervisedandcontrastivelearningapproaches[55,\n56] extract latent features from high-dimensional data. LLMs construct rich language embeddings that\ncapture semantic and syntactic nuances, enabling agents to interpret instructions, queryknowledge, and\ngenerate natural language outputs [57].\n4.8 Planning and Reasoning Engines\nInspired by classical AI planning [4, 58], modern agents integrate symbolic and subsymbolic methods\nto reason about future states, causal dependencies, and long-term goals. Hierarchical RL structures\ndecision-makingatmultiplelevelsofabstraction,improvingsampleefficiencyandinterpretability[37,38].\nAdditionally, model-based RL, graph-based planning, and hybrid neural-symbolic reasoning approaches\nallow agents to perform sophisticated problem-solving.\n4.9 Interaction and Communication Interfaces\nFor agents to collaborate effectively, they must communicate. Natural language interfaces [9, 12], emer-\ngent communication protocols in MAS [59], grounded language acquisition [60], and embodiment enable\nricher, more flexible multi-agent interactions and human-agent cooperation.\n5 Applications of AI Agents\nAIagentshavebeguntoinfluenceabroadspectrumofreal-worldapplications,servingascriticalcompo-\nnents in complex decision-making processes and enhancing human capabilities. They integrate advances",
   "keywords": [
-    "planning",
     "ai",
     "natural language",
-    "neural",
-    "symbolic",
-    "llms",
-    "integrate",
-    "perform",
     "agents",
-    "based",
+    "language",
+    "perform",
+    "neural",
+    "llms",
     "reasoning",
-    "language"
+    "symbolic",
+    "integrate",
+    "based",
+    "planning"
   ]
 }

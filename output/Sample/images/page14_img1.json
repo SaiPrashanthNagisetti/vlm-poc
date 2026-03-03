@@ -1,20 +1,20 @@
 {
     "file_name": "Sample",
     "page_number": 14,
-    "image_title": "AI Design Process",
+    "image_title": "AI Design Process Flow Diagram",
     "image_keywords": [
-        "AI",
-        "design process",
+        "AI design",
+        "process",
         "algorithm",
         "training",
         "evaluation"
     ],
-    "summary": "This flow diagram titled 'AI Design Process' outlines the steps involved in designing an AI system. It consists of five key steps: 1) Define the Problem and Objective, which involves identifying the issue the AI needs to address; 2) Choose an algorithm and framework, focusing on supervised, unsupervised, or deep learning methods; 3) Define the Agent's Architecture, determining how the AI will learn from its mistakes, potentially through a reward or loss system; 4) Train the Agent, utilizing data to enhance the AI's skills until it reaches an acceptable level; and 5) Share and Evaluate the Agent, assessing its performance in real-world scenarios. The diagram visually represents these steps in a circular format, emphasizing the iterative nature of the AI design process.",
+    "summary": "This flow diagram illustrates the AI Design Process, which consists of five key steps. Step 1 involves defining the problem and objective that the AI needs to address. Step 2 focuses on creating a framework for the AI, utilizing supervised, unsupervised, or deep learning techniques. In Step 3, the method for the AI to learn from its mistakes is selected, which may involve a reward or loss system. Step 4 emphasizes using data to train and test the AI until it achieves an acceptable level of skill. Finally, Step 5 entails sharing the trained agent and assessing its performance in real-world scenarios. The diagram visually represents these steps in a circular format, highlighting the iterative nature of the AI design process.",
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\Sample\\images\\page14_img1.png",
     "token_usage": {
         "prompt_tokens": 26341,
-        "completion_tokens": 204,
-        "total_tokens": 26545
+        "completion_tokens": 194,
+        "total_tokens": 26535
     }
 }

@@ -3,17 +3,17 @@
   "page": 4,
   "text": "4 G. Fouilhé et al.\nobjects. is a ground predicate or if all variables have been replaced by\nP atom\nindividualconstantsornamesobjects.ThegoalsGisasetofatoms.Astateis\na setof atoms; atomsnot in the setare assumed tobe false inthe state. is the\nI\nstate. Each action schema has a list of parameter variables\ninitial A ∈ A X\nA\nand a , an and a which are\nprecondition pre add list add delete list del\nA A\nA\nsetsofpredicatesfromP whereallvariablesarereplacedbyanelementinX ∪O.\nA\nWeobtaina(ground)actionafromanactionschemaAbyreplacingallvariables\nin , , and with an object from O. A action is\nX pre add del a applicable\nA A A\nA\nin a state if and denotes the set of all applicable actions in s.\ns pre ⊆ s A(s)\na\nApplying action in state s, results in the state . The\na s a (s\\del )∪add\n=\na a\nstateresultingfromaniterativelyapplicablesequen(cid:74)ce(cid:75)ofactionsπ=⟨a\n,...,a ⟩\nn\n1\nis denoted by . A is an action sequence such that . A task\ns π plan π G⊆I π\nif(cid:74)a(cid:75)plan plans(cid:74)fo(cid:75)r\nis exists. By we denote the set of all task\nτ solvable Π(τ) τ\nand by we denote the task\nτ(G′) τ′=⟨P,O,A,I,G′⟩\n2.4 Goal-Conflict Explanations\nIn the following, we consider a setting similar to oversubscription planning [38,\n11],wherenotallgoalscanbesatisfied,forexample,duetoinsufficientresources.\nWithin this framework, the objective is to find a subset of goals that maximizes\nutility;here,weexaminetheconflictsbetweenasetofreferencegoalsGref.Fora\ntaskτ,theseconflictsandpossibleresolutionsaregivenbyminimalunsolvable\n(MUS) [13] and (MCS) respectively.\nsubsets minimal correction sets\nDefinition 1 (Minimal Unsolvable Subset (MUS)). A set of goals C ⊆\nGref\nis a MUS if τ(C) is unsolvable but for all G⊂C, τ(G) is solvable.\nR⊆Gref\nDefinition 2 (Minimal Correction Set (MCS)). A set of goals is\nτ(Gref\\R) τ(Gref\\G)\na MCS if is solvable but for all G⊂R, is unsolvable.\nBy and we denote the set of all MUS and MCS\nGMUS(τ,Gref) GMCS(τ,Gref)\nfortaskτ withrespecttothereferencegoalsGref.Bothsetscanbeexponentially\nlargewhen|Gref|increases.ThefollowingrelationholdsbetweenMUSandMCS\nover the same set of goals G: GMCS(τ,G)=HIT(GMUS(τ,G)), where is\nHIT(S)\nthe set of all minimal hitting sets of the sets in S. For algorithms to compute\nwe refer to [13,14].\nGMUS(τ,G)\n2.5 Temporal Goals\n[14]introducedalgorithmsthatemployacompilationapproachtocomputecon-\nflictsovergoalfactsandtemporalplanproperties.Suchpropertiesaredescribed\nusingLinearTemporalLogiconfinitetraces(LTL)overatoms[10].Ourframe-\nf\nwork also supports temporal goals and bridges a gap with previous work by en-\nabling natural language-based temporal goal creation. Translating natural lan-\nguage to LTL or LTL has been explored with different approaches [3]. More\nf\nrecently, prompting-based LLM methods implement tools such as [16],\nNL2LTL",
   "keywords": [
-    "mus",
-    "mcs",
-    "action",
-    "set",
-    "cid",
     "pre",
-    "state",
-    "minimal",
-    "task",
     "goals",
     "gref",
-    "add"
+    "state",
+    "set",
+    "task",
+    "action",
+    "mus",
+    "minimal",
+    "mcs",
+    "add",
+    "cid"
   ]
 }

@@ -11,15 +11,14 @@
         "MATH-L3",
         "MATH-L4",
         "MATH-L5",
-        "percentages",
-        "additional gain"
+        "Additional Gain"
     ],
-    "summary": "This bar chart titled 'Improvement Comparison of TTRL and T\u00b3RL' illustrates the percentage improvement across different math levels (MATH-L1 to MATH-L5) for two methods: TTRL (shown in gray) and T\u00b3RL (shown in red). The data points indicate that MATH-L1 achieved a significant improvement of 275% with an additional gain of +0.8%, while MATH-L2 showed a 225% improvement with +0.5%. MATH-L3, MATH-L4, and MATH-L5 had improvements of 230%, 240%, and 250% respectively, with additional gains of +6.3%, +6.7%, and +8.9%. The chart highlights a trend of increasing additional gains as the math levels progress, particularly for T\u00b3RL, which shows a steady upward trend in performance. The vertical axis represents improvement percentage, while the horizontal axis lists the math levels.",
+    "summary": "This is a bar chart titled 'Improvement Comparison of TTRL and T\u00b3RL' that illustrates the percentage improvement in various math levels (MATH-L1 to MATH-L5) for two methods: TTRL (shown in gray) and T\u00b3RL (shown in red). The improvement percentages for MATH-L1, MATH-L2, MATH-L3, MATH-L4, and MATH-L5 are 250% (+0.8%), 225% (+0.5%), 6.3%, 6.7%, and 8.9% respectively. The chart indicates that T\u00b3RL shows a consistent upward trend in additional gain, peaking at +8.9% for MATH-L5, while TTRL shows lower improvements across the levels. The y-axis represents improvement percentages, and the x-axis lists the math levels.",
     "confidence_score": 0.95,
     "image_citation": "extracted_assets\\arxiv1\\images\\page6_img1.png",
     "token_usage": {
         "prompt_tokens": 9340,
-        "completion_tokens": 285,
-        "total_tokens": 9625
+        "completion_tokens": 264,
+        "total_tokens": 9604
     }
 }

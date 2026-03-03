@@ -7,17 +7,17 @@
         "English constituency parsing",
         "WSJ",
         "F1 score",
-        "discriminative",
         "semi-supervised",
+        "discriminative",
         "multi-task",
         "generative"
     ],
-    "summary": "This table presents the performance of various parsers on English constituency parsing, specifically focusing on the WSJ 23 F1 score. The parsers listed include Vinyals & Kaiser (2014), Petrov et al. (2006), Zhu et al. (2013), Dyer et al. (2016), and the Transformer with 4 layers. The training methods employed are categorized as WSJ only, discriminative, semi-supervised, multi-task, and generative. The F1 scores achieved are as follows: Vinyals & Kaiser (2014) with 88.3, Petrov et al. (2006) with 90.4, Zhu et al. (2013) with 90.4, Dyer et al. (2016) with 91.7, and the Transformer (WSJ only, discriminative) with 91.3. The semi-supervised Transformer achieved 92.7, while Luong et al. (2015) reached 93.0 with a multi-task approach, and Dyer et al. (2016) achieved 93.3 with a generative method. The results indicate that the Transformer outperforms previous models, particularly in the semi-supervised setting, highlighting its effectiveness in parsing tasks.",
-    "confidence_score": 0.95,
+    "summary": "This table presents results on the performance of various parsers in English constituency parsing, specifically focusing on the WSJ 23 F1 score. The parsers listed include Vinyals & Kaiser (2014), Petrov et al. (2006), Zhu et al. (2013), Dyer et al. (2016), and the Transformer with 4 layers. The training methods vary between WSJ only, semi-supervised, and generative approaches. The F1 scores achieved are as follows: Vinyals & Kaiser (2014) with 88.3, Petrov et al. (2006) with 90.4, Zhu et al. (2013) with 90.4, Dyer et al. (2016) with 91.7, the Transformer (WSJ only, discriminative) with 91.3, and others achieving scores up to 93.0. The results indicate that the Transformer outperforms previous models, particularly in the semi-supervised setting, highlighting its effectiveness in this domain.",
+    "confidence_score": 0.9,
     "image_citation": "extracted_assets\\Attention\\vector_graphics\\page10_vector.png",
     "token_usage": {
         "prompt_tokens": 26341,
-        "completion_tokens": 338,
-        "total_tokens": 26679
+        "completion_tokens": 290,
+        "total_tokens": 26631
     }
 }

@@ -3,17 +3,17 @@
   "page": 13,
   "text": "Input-Input Layer5\nFigure 3: An example of the attention mechanism following long-distance dependencies in the\nencoderself-attentioninlayer5of6. Manyoftheattentionheadsattendtoadistantdependencyof\ntheverb‘making’,completingthephrase‘making...moredifficult’. Attentionshereshownonlyfor\ntheword‘making’. Differentcolorsrepresentdifferentheads. Bestviewedincolor.",
   "keywords": [
-    "manyoftheattentionheadsattendtoadistantdependencyof theverb",
-    "manyoftheattentionheadsattendtoadistantdependencyof",
-    "mechanism",
-    "moredifficult",
     "theverb making",
-    "moredifficult attentionshereshownonlyfor",
     "theword",
-    "input",
-    "mechanism following",
+    "making",
+    "manyoftheattentionheadsattendtoadistantdependencyof",
+    "moredifficult",
+    "mechanism",
     "theword making",
+    "input",
+    "manyoftheattentionheadsattendtoadistantdependencyof theverb",
     "theverb",
-    "making"
+    "mechanism following",
+    "moredifficult attentionshereshownonlyfor"
   ]
 }

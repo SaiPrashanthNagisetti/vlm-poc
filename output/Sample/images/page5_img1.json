@@ -15,12 +15,12 @@
         "Chain of thoughts",
         "Subgoal decomposition"
     ],
-    "summary": "This flow diagram illustrates the workflow of an 'Agent' within a system, highlighting its interactions with various components. The 'Agent' is central and interacts with 'Memory', which is divided into 'Short-term memory' and 'Long-term memory'. The 'Agent' also connects to 'Tools', which include 'Calendar()', 'Calculator()', 'CodeInterpreter()', and 'Search()'. The 'Agent' initiates 'Action' and is involved in 'Planning', which branches into 'Reflection', 'Self-critics', 'Chain of thoughts', and 'Subgoal decomposition'. The diagram shows connections between these elements, indicating a structured process of decision-making and task execution.",
+    "summary": "This flow diagram illustrates the workflow of an 'Agent' within a cognitive framework. The diagram is centered around the 'Agent' box, which connects to 'Memory' and 'Action'. 'Memory' is bifurcated into 'Short-term memory' and 'Long-term memory', indicating the dual aspects of memory management. The 'Agent' interacts with various 'Tools' including 'Calendar()', 'Calculator()', 'CodeInterpreter()', and 'Search()'. The 'Planning' process branches out from the 'Agent', leading to several cognitive processes such as 'Reflection', 'Self-critics', 'Chain of thoughts', and 'Subgoal decomposition'. The connections are depicted with solid arrows for direct relationships and dashed arrows for indirect relationships, showcasing the complexity of interactions and dependencies within the system.",
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\Sample\\images\\page5_img1.png",
     "token_usage": {
         "prompt_tokens": 15007,
-        "completion_tokens": 210,
-        "total_tokens": 15217
+        "completion_tokens": 234,
+        "total_tokens": 15241
     }
 }

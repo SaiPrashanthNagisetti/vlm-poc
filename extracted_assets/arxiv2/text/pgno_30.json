@@ -3,17 +3,17 @@
   "page": 30,
   "text": "30 G. Fouilhé et al.\n27\n24\n21\n18\nytilitu\nLLM-based\n15\n± 1 std\n12\nTemplate-based\nxaM\n± 1 std\n9\n6\n: : : : : : : :\ne e e e e e e e\nlu lu lu lu lu lu lu lu\np-va p-va p-va p-va p-va p-va p-va -va\n5 4 9 6 3 2 5 3\n3\n.7 .6 .3 .7 .8 .9 .9 .7\np\n0 0 0 0 0 0 0 0\n0\n0 2 4 6 8 10 12 14 1155\nTime (minutes)\n!ht\nFig.14: Comparison of max utility achieved over time between the two groups:\nand GLLM.\nGTPL",
   "keywords": [
-    "ytilitu llm",
-    "lu lu",
-    "va",
     "12",
-    "based",
-    "time",
-    "xam",
-    "std",
     "va 10",
+    "time",
+    "std",
     "14",
+    "va",
+    "va va",
+    "lu lu",
     "lu",
-    "va va"
+    "based",
+    "xam",
+    "ytilitu llm"
   ]
 }

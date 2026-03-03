@@ -1,0 +1,21 @@
+{
+    "file_name": "fact-sheet",
+    "page_number": 1,
+    "image_title": "Infosys Consolidated Financial Data - Q3 2026",
+    "image_keywords": [
+        "Revenue Growth",
+        "Operating Margin",
+        "EPS Increase",
+        "Client Data",
+        "Business Segments",
+        "Client Geography"
+    ],
+    "summary": "This document presents the consolidated financial data for Infosys for the third quarter of fiscal 2026. The report highlights a quarter-on-quarter growth of 0.6% and a year-on-year growth of 1.7% in constant currency (CC). The operating margin reported is 18.4%, with adjusted figures showing 21.2%. The year-to-date earnings per share (EPS) increased by 6.6% reported and 11.5% adjusted. The total large deal TCV stands at $4.8 billion, with 57% being new business. In terms of revenue by business segments, financial services lead with 28.2%, followed by manufacturing at 16.7%, and energy, utilities, resources & services at 13.2%. The total revenue from North America is 55.9%, Europe at 32.7%, and India at 2.8%. The client data section indicates a total of 1,949 active clients, with 1,012 clients generating over a million dollars. The top 5 clients contribute 12.8% to revenues, while the top 10 clients contribute 35.0%. The days sales outstanding is reported at 74 days. The data reflects a comprehensive overview of Infosys's financial performance and client engagement metrics.",
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet\\vector_graphics\\page1_vector.png",
+    "token_usage": {
+        "prompt_tokens": 26341,
+        "completion_tokens": 342,
+        "total_tokens": 26683
+    }
+}

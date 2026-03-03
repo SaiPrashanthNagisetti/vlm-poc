@@ -10,15 +10,14 @@
         "English-to-German",
         "translation",
         "development set",
-        "newsets2013",
-        "train steps"
+        "newsets2013"
     ],
-    "summary": "This table presents variations on the Transformer architecture, detailing metrics for the English-to-German translation development set, newsets2013. It includes configurations with different values for N, dmodel, dff, h, dk, dv, Pdrop, and \u03b5ls, along with corresponding perplexities (PPL) and BLEU scores for various model setups. The base model shows a PPL of 5.29 and a BLEU score of 28.4, while variations (A) through (E) explore different configurations, with (A) showing PPL values ranging from 5.29 to 5.01 and BLEU scores from 24.9 to 25.8. Notably, row (B) indicates that reducing attention key size (dk) negatively impacts model quality, while row (E) suggests that using learned positional embeddings yields similar results to the base model. The table also lists parameters in millions for each configuration, with the base model having 65 million parameters.",
+    "summary": "This table presents variations on the Transformer architecture, detailing metrics for English-to-German translation on the newsets2013 development set. It includes configurations labeled as base, (A), (B), (C), (D), and (E), with parameters such as N, dmodel, dff, h, dk, dv, Pdrop, \u03b5ls, train steps, PPL (perplexity), BLEU scores, and the number of parameters in millions. The base model has N=6, dmodel=512, dff=2048, h=8, dk=64, dv=64, Pdrop=0.1, \u03b5ls=0.1, with 100K train steps, achieving a PPL of 5.29 and a BLEU score of 28.8. Configuration (A) varies attention heads and dimensions, showing a PPL range from 4.91 to 5.29 and BLEU scores from 24.9 to 25.8. Configuration (B) explores attention key sizes with PPL from 5.01 to 6.11 and BLEU scores from 23.7 to 26.0. Configuration (C) modifies the number of attention heads, while (D) tests dropout rates, and (E) examines positional embeddings. The source of the data is the English-to-German translation development set, newsets2013.",
     "confidence_score": 0.95,
     "image_citation": "extracted_assets\\Attention\\vector_graphics\\page9_vector.png",
     "token_usage": {
         "prompt_tokens": 26341,
-        "completion_tokens": 276,
-        "total_tokens": 26617
+        "completion_tokens": 359,
+        "total_tokens": 26700
     }
 }

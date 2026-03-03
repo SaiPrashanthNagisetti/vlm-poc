@@ -3,22 +3,18 @@
     "page_number": 6,
     "image_title": "Tool Verification for Test-Time Reinforcement Learning",
     "image_keywords": [
-        "Tool Verification",
-        "Test-Time Reinforcement Learning",
         "MATH-500",
-        "AIME 2024",
-        "AMC",
-        "Queen-Math-1.5B",
-        "Baseline",
-        "w/TRL",
-        "performance"
+        "reinforcement learning",
+        "tool verification",
+        "benchmark",
+        "math-specialized backbones"
     ],
-    "summary": "This document presents tables and figures related to the performance of various models in tool verification for test-time reinforcement learning. Table 1 outlines main results for models including Queen-2.5-1.5B and Queen-3.4B, showing values such as 7.7, 28.6, 32.7, 23.0 for the baseline and 20.8, 50.9, 74.6, 48.8 for w/TRL. Table 2 details the MATH-500 difficulty breakdown, with Queen-Math-1.5B showing a relative improvement of 6.3% over baseline on AIME 2024. Figure 4 illustrates the relative gain over baseline trend for TRL versus w/TRL across different difficulty levels, indicating improvements of up to 11.9%. The analysis highlights that math-specialized backbones benefit significantly from tool verification, particularly on harder benchmarks, with notable performance gains across various models.",
-    "confidence_score": 0.95,
+    "summary": "The image presents multiple tables and figures related to tool verification for test-time reinforcement learning. Table 1 shows main results across different models, including Queen-Math-1.5B and various configurations with and without tool verification (w/TRL). The performance metrics indicate that Queen-Math-1.5B achieves a relative improvement of +6.3% over the baseline on AIMEE 2024. Table 2 breaks down performance on MATH-500, revealing that the model's performance decreases with increasing difficulty levels (L1 to L5). The figures illustrate the relative gain over baseline performance, emphasizing the importance of tool verification in enhancing model reliability and performance across various benchmarks. The analysis highlights that math-specialized models benefit significantly from tool verification, particularly on harder benchmarks, as shown in the discussion of results from the ablation studies.",
+    "confidence_score": 0.9,
     "image_citation": "extracted_assets\\arxiv1\\vector_graphics\\page6_vector.png",
     "token_usage": {
         "prompt_tokens": 26341,
-        "completion_tokens": 285,
-        "total_tokens": 26626
+        "completion_tokens": 232,
+        "total_tokens": 26573
     }
 }

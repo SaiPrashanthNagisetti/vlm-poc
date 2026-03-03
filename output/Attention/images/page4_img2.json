@@ -8,14 +8,15 @@
         "Concat",
         "V",
         "K",
-        "Q"
+        "Q",
+        "Attention Mechanism"
     ],
-    "summary": "This diagram illustrates the Scaled Dot-Product Attention mechanism used in neural networks. It features three linear transformations labeled V (Value), K (Key), and Q (Query), which are processed through a concatenation step. The output of this concatenation is then fed into the Scaled Dot-Product Attention block, represented in purple. The diagram shows the flow of data with arrows indicating the direction of processing, emphasizing the relationships between the components. The overall purpose of this diagram is to depict how attention is calculated in the context of machine learning models.",
+    "summary": "This diagram illustrates the Scaled Dot-Product Attention mechanism, a key component in neural network architectures. It features three linear transformations labeled V (Value), K (Key), and Q (Query), which are processed through a concatenation step indicated by the yellow box. The output of this concatenation is fed into the Scaled Dot-Product Attention block, depicted in purple. The diagram shows the flow of data with arrows indicating the direction of processing, culminating in the output denoted by 'h'. The overall purpose of this diagram is to explain the attention mechanism's structure and function within a neural network framework.",
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\Attention\\images\\page4_img2.png",
     "token_usage": {
         "prompt_tokens": 9340,
-        "completion_tokens": 167,
-        "total_tokens": 9507
+        "completion_tokens": 184,
+        "total_tokens": 9524
     }
 }

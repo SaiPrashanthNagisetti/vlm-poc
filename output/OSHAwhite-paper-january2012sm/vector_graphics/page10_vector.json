@@ -10,12 +10,12 @@
         "insurance premium reductions",
         "hazardous employers"
     ],
-    "summary": "This table summarizes existing state programs related to OSHA injury and illness prevention. It lists states alongside their requirements for mandatory regulation, safety committees, consulting or recognition, insurance premium reductions, and coverage details for mandatory programs. States like Arkansas and Tennessee define 'hazardous' employers, while California and New York require coverage for all employers. Specific employer thresholds are noted, such as Connecticut's requirement for employers with more than 25 employees and Michigan's for those in the construction industry. The source of this information is the OSHA Directorate of Standards and Guidance.",
+    "summary": "This table summarizes existing state programs related to OSHA injury and illness prevention. It lists states along with their requirements for mandatory regulation, safety committees, consulting or recognition, insurance premium reductions, and coverage specifics. For instance, Alabama mandates regulations for all employers, while Arkansas specifies 'hazardous' employers. California requires all employers to comply. Connecticut covers employers with more than 25 employees and identifies 'hazardous' small employers. Other states like Michigan and Minnesota have similar stipulations based on employee count and industry type. The source of this information is the OSHA Directorate of Standards and Guidance.",
     "confidence_score": 0.95,
     "image_citation": "extracted_assets\\OSHAwhite-paper-january2012sm\\vector_graphics\\page10_vector.png",
     "token_usage": {
         "prompt_tokens": 26341,
-        "completion_tokens": 171,
-        "total_tokens": 26512
+        "completion_tokens": 180,
+        "total_tokens": 26521
     }
 }

@@ -7,15 +7,16 @@
         "benefits",
         "financial decisionmakers",
         "productivity",
-        "cost reduction",
-        "employee morale"
+        "costs",
+        "employee morale",
+        "retention"
     ],
-    "summary": "This pie chart illustrates the top benefits of effective workplace safety programs as reported by financial decisionmakers, with the data expressed in percentages of respondents. The largest segment, representing 43%, indicates that 'Increased productivity' is the primary benefit. Following this, 'Reduced costs' accounts for 28%, while 'Greater retention of employees' is noted at 7%. The segment labeled 'Other' comprises 16%, and 'Better employee morale and greater job satisfaction' is represented by 6%. The chart effectively highlights the perceived advantages of implementing safety programs in the workplace.",
+    "summary": "This pie chart illustrates the top benefits of effective workplace safety programs as reported by financial decisionmakers, with the data represented in percentages. The largest segment, representing 43%, indicates 'Increased productivity.' The second largest segment, at 28%, corresponds to 'Reduced costs.' A smaller segment, labeled 'Greater retention of employees,' accounts for 7%, while 'Better employee morale and greater job satisfaction' comprises 6%. The 'Other' category is represented by 16%. The chart effectively highlights the perceived advantages of workplace safety initiatives among financial decisionmakers.",
     "confidence_score": 0.95,
     "image_citation": "extracted_assets\\OSHAwhite-paper-january2012sm\\images\\page6_img1.png",
     "token_usage": {
         "prompt_tokens": 9340,
-        "completion_tokens": 176,
-        "total_tokens": 9516
+        "completion_tokens": 178,
+        "total_tokens": 9518
     }
 }

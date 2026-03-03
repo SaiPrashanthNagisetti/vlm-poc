@@ -8,12 +8,12 @@
         "task management",
         "enforced goals"
     ],
-    "summary": "This visual presents insights related to task management, specifically focusing on enforced goals. The goals include ensuring the daughter is home in the evening, preventing the purchase of groceries, the daughter attending soccer training, bringing groceries to the grandmother's house, the parent attending sports, and the son attending a music lesson. Each goal is associated with a numerical value indicating its priority or status, although specific values are not visible. The overall purpose of this visual is to provide a structured overview of personal or family-related tasks and their management.",
-    "confidence_score": 0.85,
+    "summary": "This image presents a task management interface titled 'Step 2' that outlines insights and enforced goals. The insights section includes a prompt for assistance with questions, while the enforced goals list consists of specific tasks: ensuring the daughter is home in the evening, preventing the purchase of groceries, attending soccer training, bringing grandma's groceries to her house, preventing the daughter from participating in sports, and ensuring the son attends music lessons. Each goal is accompanied by a numerical indicator, possibly representing priority or completion status. The overall context suggests a focus on managing family-related tasks effectively.",
+    "confidence_score": 0.9,
     "image_citation": "extracted_assets\\arxiv2\\images\\page24_img2.png",
     "token_usage": {
         "prompt_tokens": 9340,
-        "completion_tokens": 152,
-        "total_tokens": 9492
+        "completion_tokens": 162,
+        "total_tokens": 9502
     }
 }

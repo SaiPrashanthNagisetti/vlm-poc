@@ -6,18 +6,18 @@
         "Test-Time Reinforcement Learning",
         "TTRL",
         "benchmark",
-        "Qwen",
-        "AMC",
         "evaluation",
-        "pseudo-label",
-        "policy model"
+        "Qwen",
+        "LLaMa",
+        "performance",
+        "results"
     ],
-    "summary": "The image presents a pseudo-code listing for the Test-Time Reinforcement Learning (TTRL) framework, detailing the process of evaluating a policy model using a verifier and sandbox for evidence generation. The code outlines the steps for rolling out the policy, executing the verifier's generated code, and parsing the evidence to determine the weighted majority pseudo-label. The evaluation setup specifies a maximum token length of 2,560 and describes the benchmarks used, including AMIE 2024, AMC, and others, while highlighting the importance of verifying model performance across various configurations. The implementation details mention the use of GRPO and the training specifics, including learning rates and computational efficiency considerations.",
+    "summary": "The image presents a pseudo-code listing for the Test-Time Reinforcement Learning (TTRL) method, detailing the function 'ttrl_reward_fn' which evaluates a policy using a verifier and sandbox. The code outlines steps for generating evidence, judging responses, and calculating weighted majority pseudo-labels. It highlights the evaluation setup for TTRL across mathematical benchmarks including AIMEE 2024, AMC, and Math, and discusses the implementation details, including training configurations and performance metrics. The results indicate consistent improvements across various benchmarks and models, demonstrating TTRL's effectiveness in enhancing performance in challenging scenarios. The image also references baseline comparisons with previous studies and provides insights into the evaluation methodology employed.",
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\arxiv1\\vector_graphics\\page5_vector.png",
     "token_usage": {
         "prompt_tokens": 26341,
-        "completion_tokens": 201,
-        "total_tokens": 26542
+        "completion_tokens": 204,
+        "total_tokens": 26545
     }
 }

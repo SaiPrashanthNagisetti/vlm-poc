@@ -1,7 +1,7 @@
 {
     "file_name": "arxiv1",
     "page_number": 3,
-    "image_title": "Tool Verification for Test-Time Reinforcement Learning",
+    "image_title": "Tool Verification for Test Time Reinforcement Learning",
     "image_keywords": [
         "Reinforcement Learning",
         "Tool Verification",
@@ -9,12 +9,12 @@
         "Consensus",
         "Reward Signals"
     ],
-    "summary": "This visual presents the process of Tool Verification for Test-Time Reinforcement Learning (TRL), illustrating how an LLM verifier parses sampled outputs and examines their validity. The verifier integrates with a code interpreter to validate each output, yielding a verification weight for each rollout. The diagram shows the interaction between the verifier, tool, and pseudo-label generation, emphasizing the importance of majority voting for deriving consensus outputs. It highlights the challenge of spurious rewards in self-evolving AI systems and proposes a verification approach to ensure reliable learning without explicit supervision. The visual includes references to the methodology and implications for reinforcement learning in uncertain environments.",
+    "summary": "The image titled 'Tool Verification for Test Time Reinforcement Learning' illustrates a process involving a verifier that parses each sampled rollout and yields a validity flag for each result. The tool integrates a code interpreter to obtain executable evidence of the sampled outputs. It highlights the concept of verification-aware pseudo-labeling, where verified rollouts receive a vote mass and unverified rollouts receive a unit vote. The image also depicts a cycle of reinforcement bias, showcasing how self-consensus can estimate reward labels and the implications of spurious rewards in reinforcement learning. The overall process emphasizes the need for reliable reward signals to ensure stable online learning in self-evolving AI systems. The source of the image is from a research paper discussing the challenges of spurious reward estimation in reinforcement learning.",
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\arxiv1\\vector_graphics\\page3_vector.png",
     "token_usage": {
         "prompt_tokens": 26341,
-        "completion_tokens": 181,
-        "total_tokens": 26522
+        "completion_tokens": 211,
+        "total_tokens": 26552
     }
 }

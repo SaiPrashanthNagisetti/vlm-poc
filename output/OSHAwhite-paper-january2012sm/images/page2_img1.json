@@ -9,12 +9,12 @@
         "meeting",
         "industrial"
     ],
-    "summary": "The image depicts a construction site where three workers are engaged in a discussion. One worker, wearing a green safety vest and a white hard hat, is facing another worker in a blue shirt and yellow hard hat, who appears to be holding a clipboard. A third individual, dressed in a suit and tie, is also part of the conversation, looking at the clipboard. In the background, additional workers can be seen, some wearing safety gear, indicating an active construction environment. The scene reflects a collaborative effort in a professional setting, emphasizing safety and communication among team members.",
+    "summary": "The image depicts a construction site where three workers are engaged in a discussion. One worker, wearing a green safety vest and a white hard hat, is conversing with another worker in a blue shirt and yellow hard hat, who appears to be holding a communication device. A third individual, dressed in a suit and tie, is reviewing a document or clipboard while listening to the conversation. In the background, additional workers can be seen, indicating an active construction environment. The scene emphasizes collaboration and safety in a construction setting.",
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\OSHAwhite-paper-january2012sm\\images\\page2_img1.png",
     "token_usage": {
         "prompt_tokens": 15007,
-        "completion_tokens": 162,
-        "total_tokens": 15169
+        "completion_tokens": 152,
+        "total_tokens": 15159
     }
 }

@@ -3,17 +3,17 @@
   "page": 10,
   "text": "Table4: TheTransformergeneralizeswelltoEnglishconstituencyparsing(ResultsareonSection23\nofWSJ)\nParser Training WSJ23F1\nVinyals&Kaiserelal. (2014)[37] WSJonly,discriminative 88.3\nPetrovetal. (2006)[29] WSJonly,discriminative 90.4\nZhuetal. (2013)[40] WSJonly,discriminative 90.4\nDyeretal. (2016)[8] WSJonly,discriminative 91.7\nTransformer(4layers) WSJonly,discriminative 91.3\nZhuetal. (2013)[40] semi-supervised 91.3\nHuang&Harper(2009)[14] semi-supervised 91.3\nMcCloskyetal. (2006)[26] semi-supervised 92.1\nVinyals&Kaiserelal. (2014)[37] semi-supervised 92.1\nTransformer(4layers) semi-supervised 92.7\nLuongetal. (2015)[23] multi-task 93.0\nDyeretal. (2016)[8] generative 93.3\nincreasedthemaximumoutputlengthtoinputlength+300. Weusedabeamsizeof21andα=0.3\nforbothWSJonlyandthesemi-supervisedsetting.\nOur results in Table 4 show that despite the lack of task-specific tuning our model performs sur-\nprisinglywell,yieldingbetterresultsthanallpreviouslyreportedmodelswiththeexceptionofthe\nRecurrentNeuralNetworkGrammar[8].\nIncontrasttoRNNsequence-to-sequencemodels[37],theTransformeroutperformstheBerkeley-\nParser[29]evenwhentrainingonlyontheWSJtrainingsetof40Ksentences.\n7 Conclusion\nInthiswork,wepresentedtheTransformer,thefirstsequencetransductionmodelbasedentirelyon\nattention,replacingtherecurrentlayersmostcommonlyusedinencoder-decoderarchitectureswith\nmulti-headedself-attention.\nFor translation tasks, the Transformer can be trained significantly faster than architectures based",
   "keywords": [
-    "supervised",
-    "37",
-    "wsjonly discriminative",
+    "91",
     "semi supervised",
+    "wsjonly discriminative",
+    "37",
     "supervised 92",
-    "transformer 4layers",
-    "92",
-    "wsjonly",
     "semi",
+    "wsjonly",
+    "92",
+    "supervised",
     "transformer",
     "discriminative",
-    "91"
+    "transformer 4layers"
   ]
 }

@@ -1,0 +1,22 @@
+{
+    "file_name": "fact-sheet",
+    "page_number": 5,
+    "image_title": "Consolidated Statement of Comprehensive Income - Infosys",
+    "image_keywords": [
+        "Revenues",
+        "Cost of sales",
+        "Gross Profit",
+        "Operating Profit",
+        "Net Profit",
+        "EPS",
+        "Fiscal 2026"
+    ],
+    "summary": "This is a table titled 'Consolidated statement of Comprehensive Income for nine months ended' extracted from the IFRS Financial Statement for Infosys. It presents financial data in crore INR for the periods ending December 31, 2025, and December 31, 2024. Revenues are reported as 132,248 and 122,064 respectively, showing an 8.3% growth. Cost of sales is 92,676 for 2025 and 84,771 for 2024, leading to a Gross Profit of 39,572 and 37,293, reflecting a 6.1% increase. Operating Expenses include Selling and Marketing Expenses of 6,724 and 5,631 (19.4% growth) and Administrative Expenses of 6,337 and 5,813 (9.0% growth). Total Operating Expenses are 13,061 for 2025 and 11,444 for 2024, resulting in an Operating Profit of 26,511 and 25,849 (2.6% growth). The Operating Margin is 20.0% for 2025 and 21.2% for 2024. Profit before income taxes is 29,199 and 27,945, with an Income Tax Expense of 8,234 and 8,233. The Net Profit after non-controlling interests is 20,939 for 2025 and 19,680 for 2024, with Basic EPS at 50.64 and 47.52 respectively, indicating a 6.6% growth. The document also includes notes regarding adjustments for Labour Codes and revenue growth calculations.",
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet\\vector_graphics\\page5_vector.png",
+    "token_usage": {
+        "prompt_tokens": 26341,
+        "completion_tokens": 407,
+        "total_tokens": 26748
+    }
+}

@@ -10,12 +10,12 @@
         "soccer training",
         "parent"
     ],
-    "summary": "The visual presents a guideline stating that the daughter must be at home by 18:00. If she leaves her home to attend soccer training, it is required that she be brought back home by her parent. This emphasizes the importance of ensuring the daughter's timely return in the evening.",
+    "summary": "The visual presents a guideline emphasizing that the daughter must be at home by 18:00. It specifies that if she leaves the house for soccer training, she must be brought back home by her parent. This instruction highlights the importance of ensuring the daughter's safety and adherence to the specified time.",
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\arxiv2\\images\\page23_img1.png",
     "token_usage": {
         "prompt_tokens": 15007,
-        "completion_tokens": 114,
-        "total_tokens": 15121
+        "completion_tokens": 116,
+        "total_tokens": 15123
     }
 }

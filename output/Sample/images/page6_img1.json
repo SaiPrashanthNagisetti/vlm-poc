@@ -7,16 +7,17 @@
         "Self-reflection",
         "Actor",
         "Evaluator",
+        "Experience",
         "Trajectory",
         "Environment",
         "Algorithm"
     ],
-    "summary": "This image presents a flow diagram illustrating a reinforcement learning algorithm that incorporates self-reflection. The diagram features an 'Agent' consisting of components such as 'Self-reflection (LM)', 'Evaluator (LM)', 'Experience (long-term memory)', 'Actor (LM)', and 'Trajectory (short-term memory)'. The agent interacts with the 'Environment' to receive observations and rewards, which inform actions. The flow indicates that external feedback influences the evaluator, while internal feedback is processed through self-reflection. The algorithm on the right outlines the steps for reinforcement via self-reflection, initializing the actor, evaluator, and self-reflection components, generating trajectories, and evaluating them iteratively until a maximum number of trials is reached. Key steps include generating self-reflections and appending them to memory. The overall process emphasizes the integration of feedback mechanisms to enhance learning outcomes.",
+    "summary": "This diagram illustrates a reinforcement learning algorithm that incorporates self-reflection. It features an 'Agent' composed of components such as 'Actor', 'Evaluator', 'Self-reflection', and 'Experience', with 'Trajectory' representing short-term memory. The 'Environment' interacts with the agent through observations and rewards, leading to actions. The algorithm, detailed on the right, initializes the Actor, Evaluator, and Self-Reflection components, generates an initial trajectory, evaluates it, and iteratively generates self-reflections while updating the memory until a maximum number of trials is reached. The process emphasizes the integration of feedback loops for improved learning outcomes.",
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\Sample\\images\\page6_img1.png",
     "token_usage": {
         "prompt_tokens": 15007,
-        "completion_tokens": 236,
-        "total_tokens": 15243
+        "completion_tokens": 194,
+        "total_tokens": 15201
     }
 }

@@ -6,17 +6,17 @@
         "text",
         "analysis",
         "American government",
-        "laws",
         "voting",
         "registration",
-        "difficult"
+        "laws",
+        "2009"
     ],
-    "summary": "This image presents a visualization of text analysis, highlighting key terms related to American government and voting laws. The text indicates that a majority of American governments have passed new laws since 2009, making the voting registration process more difficult. The visualization emphasizes the significant terms and their relationships within the context of voting and registration, illustrating the challenges faced in this area.",
-    "confidence_score": 0.85,
+    "summary": "This image presents a visualization of text analysis, focusing on the theme of American government and voting processes. Key phrases include 'a majority of American governments have passed new laws since 2009 making the voting registration process more difficult.' The visualization highlights the relationships between words and their significance in the context of voting and registration laws. The text emphasizes the challenges faced in the voting process, particularly in relation to recent legislative changes.",
+    "confidence_score": 0.8,
     "image_citation": "extracted_assets\\Attention\\tables\\page13_table2.png",
     "token_usage": {
         "prompt_tokens": 15007,
-        "completion_tokens": 127,
-        "total_tokens": 15134
+        "completion_tokens": 139,
+        "total_tokens": 15146
     }
 }

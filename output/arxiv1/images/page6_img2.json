@@ -1,7 +1,7 @@
 {
     "file_name": "arxiv1",
     "page_number": 6,
-    "image_title": "Comparison of Scores in AIME and MATH",
+    "image_title": "Comparison of AIME and MATH Scores",
     "image_keywords": [
         "AIME",
         "MATH",
@@ -11,12 +11,12 @@
         "With Code (7B)",
         "Scores"
     ],
-    "summary": "This bar chart compares scores in AIME and MATH across different categories. In the AIME section, the TTRL score is 15.8, while the No Code (1.5B) score is 18.3 and the No Code (7B) score is 20.0. In the MATH section, the TTRL score is 73.6, the No Code (1.5B) score is 73.1, and the No Code (7B) score is 79.6. The right side of the chart shows the scores with the addition of 'With Code (7B)', where the AIME score is 21.7 and the MATH score is 74.9. The chart effectively illustrates the performance differences across these categories, highlighting the impact of coding on scores.",
-    "confidence_score": 0.95,
+    "summary": "This bar chart compares scores in AIME and MATH across different categories. For AIME, the scores are as follows: TTRL scored 20.0, No Code (1.5B) scored 18.3, and No Code (7B) scored 15.8. For MATH, the scores are: No Code (1.5B) scored 73.6, No Code (7B) scored 73.1, and With Code (7B) scored 74.9. The chart highlights the performance differences between the categories, with TTRL achieving the highest score in AIME and With Code (7B) showing a notable score in MATH. The overall trend indicates that TTRL consistently outperforms the No Code categories in AIME, while the With Code category in MATH also shows a competitive edge.",
+    "confidence_score": 0.9,
     "image_citation": "extracted_assets\\arxiv1\\images\\page6_img2.png",
     "token_usage": {
         "prompt_tokens": 9340,
-        "completion_tokens": 245,
-        "total_tokens": 9585
+        "completion_tokens": 250,
+        "total_tokens": 9590
     }
 }
