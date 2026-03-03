@@ -1,0 +1,19 @@
+{
+  "pdf": "arxiv1",
+  "page": 11,
+  "text": "A.VerifierSystemPrompt\nThesystempromptusedtoguidetheexternalLLMverifierisshowninFigure10. Wecarefullydesignedtheinstructionsto\nensurereliable,independent,andeasilyparsabletool-assistedverification. Thekeydesignchoicesinourpromptinclude:\n• RoleAssignment: Instructingthemodeltoactasan“expertmathematicianandPythonprogrammer”setsastrong\npriorforgeneratingrigorous,high-qualityscriptformulations.\nIndependentRecomputation:\n• Byexplicitlystating“DONOTassumethereasoningtraceiscorrect”and“Prefer\nrecomputingtheanswerdirectly,”wemitigateconfirmationbias. Thispreventstheverifierfromblindlytranslatinga\nflawedreasoningtraceintocode,forcingittoindependentlyverifytheunderlyinglogicbasedontheoriginalproblem\nstatement.\nTraceasaHint:\n• Allowingtheverifiertousethecandidatetraceasa“hint”helpsitnavigatecomplexproblems. Itcan\nleveragethepolicymodel’smathematicalintuitionwithoutbeingstrictlyboundtoits(potentiallyflawed)arithmetic\nexecution.\nYouareanexpertmathematicianandPythonprogrammer.\nYouwillbegiven:\n-amathproblemstatement\n-acandidatereasoningtracethatclaimstosolveit\nYour task is to VERIFY the candidate answer against the problem by\nwritingPythoncode.\nRules:\n-DONOTassumethereasoningtraceiscorrect.\n-PreferrecomputingtheanswerdirectlyfromthePROBLEMSTATEMENT.\n-Youmayusethereasoningtraceasahintforwhatmethodtotry.\nCodeRequirements:\n-UseaSINGLEPythonblockformattedexactlyas:```pythonCODE```\n-Allowedmodules:math,sympy,numpy,fractions\n- Your code MUST print ONLY your final, computed result, e.g.\nprint(result).Donotprinthardcodedvalues.\nFigure10.SystemPromptfortheVerifier.\nB.FailureCase: SmallVerifiers\nAsquantitativeresultsinTable4demonstrate,deployinganundersizedverifierlikeQwen-Coder-0.5Bactivelydegrades\nperformancecomparedtothestandardTTRLbaseline. Thisperformancedropstemsfromthesmallmodel’slimitedcapacity\ntostrictlyadheretotheverificationinstructions,whichinjectsnoiseratherthanreliableevidenceintotherewardsignal.\nQualitativeanalysisofthegeneratedverificationscriptsrevealstwoprimaryfailuremodes:\nBlindCopyingandHardcodedOutputs:\n• Despiteexplicitinstructionsinthesystempromptto”DONOTassume\nthe reasoning trace is correct” and to strictly outputting hardcoded values, the 0.5B verifier frequently exhibits\nsevereinstruction-followingfailures. Insteadofformulatinganindependentcomputationalcheck,themodeloften\ndefersentirelytotheprovidedcandidatetrace. Ittypicallyhallucinatespseudo-reasoningwithinPythoncomments\nandbypassesactualcomputation, yieldingascriptthatmerelyexecutesahardcodedprintstatementofthetrace’s\nfinalanswer(seeFigure11a). Thisconfirmationbiasneutralizesthebenefitsofexecutableverification,creatinga\nfalse-positivesignalthatsimplyreinforcestheunverifiedconsensus.",
+  "keywords": [
+    "youwillbegiven amathproblemstatement",
+    "youareanexpertmathematicianandpythonprogrammer",
+    "yieldingascriptthatmerelyexecutesahardcodedprintstatementofthetrace finalanswer",
+    "whichinjectsnoiseratherthanreliableevidenceintotherewardsignal",
+    "writingpythoncode",
+    "print",
+    "result",
+    "writingpythoncode rules",
+    "donotassumethereasoningtraceiscorrect",
+    "youareanexpertmathematicianandpythonprogrammer youwillbegiven",
+    "yieldingascriptthatmerelyexecutesahardcodedprintstatementofthetrace",
+    "whichinjectsnoiseratherthanreliableevidenceintotherewardsignal qualitativeanalysisofthegeneratedverificationscriptsrevealstwoprimaryfailuremodes"
+  ]
+}

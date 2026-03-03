@@ -3,17 +3,17 @@
   "page": 4,
   "text": "The review process included three stages:\n1. Google Scholar Search: The records resulting from the query were examined by page, and full\npages were included in order of relevancy (by Google Scholar’s algorithm) until no results on the\ngiven page were relevant, based on titles.\n2. Initial Screening: Titles and abstracts were reviewed to exclude irrelevant papers.\n3. Full-Text Review: Full papers were reviewed to exclude irrelevant papers.\n3.2 Exclusion Criteria\nTo ensure the relevance and accessibility of our selected studies, we applied a rigorous set of exclusion\ncriteria. One of the primary considerations was the availability of the full text. Studies that were only\naccessibleasabstracts,summaries,orpaywalledcontentwithoutinstitutionaloropen-accessavailability\nwereexcluded. Thisstepwasnecessarytoensurethatallreviewedstudiescouldbethoroughlyanalyzed,\npreventing misinterpretations or incomplete evaluations based on limited information [31].\nAdditionally,wefilteredoutpublicationsthatwerenotdirectlyfocusedonAIagentsorfelloutsidethe\nintendedscopeofourreview. Giventhebroadapplicationofartificialintelligenceacrossvariousdomains,\nmany papers may reference AI agents tangentially without providing substantial insights into their\narchitectures,methodologies,orapplications. Tomaintainafocusedandcohesiveanalysis,weprioritized\nstudies that directly contributed to AI agent research, whether in foundational theory, implementation\nstrategies, or domain-specific applications.\nLanguageaccessibilitywasanotherkeyfactorinourselectionprocess. Sinceourreviewwasconducted\nin English, we excluded papers published in other languages due to the potential for misinterpretation\nand difficulty in verifying content accuracy. While we acknowledge that valuable research exists in\nmultiple languages, our methodology required consistency in analysis and comprehension, which was\nbest achieved by limiting our review to English-language publications.\nByimplementingtheseexclusioncriteria,werefinedourdatasettoensureahigh-qualityandrelevant\nselection of literature. Each filtered study contributed meaningfully to our analysis, helping to create a\nstructuredandcomprehensivereviewofAIagentswhileavoidingredundancyandextraneouscontent[32].\n3.3 Data Extraction\nTo systematically analyze the selected studies, we conducted a structured data extraction process, en-\nsuring that each paper contributed valuable insights into AI agent research. The primary focus of this\nextractionwasidentifyingthecoremethodologiesusedinAIagentdevelopment. Thisincludedexamining\nthe underlying frameworks and architectures employed in various studies, as well as the algorithms and\ntechniquesutilizedforreasoning, decision-making, andadaptation. Understandingthesemethodological\nfoundations allowed us to categorize and compare different approaches in AI agent design.\nInadditiontomethodologies,wedocumentedeachstudy’skeyfindingsandcontributionstothefield.\nThis involved assessing the significance of their results, novel approaches, and the broader implications\nfor AI agent research. Whether a study introduced a new decision-making framework, improved rein-\nforcement learning strategies, or proposed a novel integration of multi-agent coordination, we aimed to\ncapture its unique contribution to advancing AI intelligence and autonomy [33].\nFurthermore,weevaluatedtherelevanceofeachstudytotheprogressionofAIagentresearch. Studies\nthataddressedpressingchallenges,introducedparadigm-shiftingideas,orexplorednewapplicationareas\nweregivenparticularattention. ByfocusingonresearchthatactivelypushedtheboundariesofAIagent\ncapabilities, we ensured that our review highlighted the most impactful and forward-thinking work in\nthe field.\n4 Results\n4.1 Architectures and Learning Paradigms\nModern AI agent architectures integrate diverse components, from memory systems to decision-making\nframeworks. Forinstance, Lilian Weng’s blog providesadetailedexplorationofagentarchitectures, em-\nphasizing the interplay between memory, planning, and tool use. The Stanford HAI overview highlights\nhowcomputationalagentsarebeginningtoexhibithuman-likebehaviors,underscoringtheirpotentialfor",
   "keywords": [
-    "papers",
-    "studies",
-    "ai agent",
-    "results",
-    "decision making",
-    "research",
-    "architectures",
-    "ai",
-    "making",
-    "agent",
     "review",
-    "agent research"
+    "ai",
+    "agent",
+    "papers",
+    "agent research",
+    "results",
+    "research",
+    "decision making",
+    "studies",
+    "architectures",
+    "ai agent",
+    "making"
   ]
 }

@@ -1,20 +1,24 @@
 {
     "file_name": "Attention",
     "page_number": 9,
-    "image_title": "Table 3: Variations on the Transformer architecture",
+    "image_title": "Variations on the Transformer Architecture",
     "image_keywords": [
         "Transformer",
+        "architecture",
         "perplexities",
         "BLEU",
         "English-to-German",
-        "newsets2013"
+        "translation",
+        "development set",
+        "newsets2013",
+        "train steps"
     ],
-    "summary": "Table 3 presents variations on the Transformer architecture, focusing on metrics for the English-to-German translation development set, newsets2013. The base model has parameters N=6, d_model=512, d_ff=2048, h=8, d_k=64, d_v=64, P_drop=0.1, and train steps=100K, yielding a perplexity (PPL) of 5.29 and a BLEU score of 28.4 with 65 million parameters. Variation (A) shows configurations with attention heads and dimensions, achieving PPL values of 5.00, 4.91, and 5.01 for different setups, with BLEU scores ranging from 25.4 to 25.8. Variation (B) indicates that reducing attention key size d_k to 16 results in a PPL of 5.19 and a BLEU score of 25.3. Variation (C) explores larger models with N=2, 4, and 8, yielding PPL values from 4.88 to 6.11 and BLEU scores from 23.7 to 26.0. Variation (D) assesses dropout rates of 0.0 and 0.2, with PPL values of 5.77 and 4.67, respectively. Variation (E) examines positional embeddings, achieving a PPL of 4.92 and a BLEU score of 25.7. The overall trend indicates that larger models and appropriate dropout rates improve performance, while reducing attention heads may negatively impact quality.",
-    "confidence_score": 0.9,
+    "summary": "This table presents variations on the Transformer architecture, detailing metrics for the English-to-German translation development set, newsets2013. It includes configurations with different values for N, dmodel, dff, h, dk, dv, Pdrop, and \u03b5ls, along with corresponding perplexities (PPL) and BLEU scores for various model setups. The base model shows a PPL of 5.29 and a BLEU score of 28.4, while variations (A) through (E) explore different configurations, with (A) showing PPL values ranging from 5.29 to 5.01 and BLEU scores from 24.9 to 25.8. Notably, row (B) indicates that reducing attention key size (dk) negatively impacts model quality, while row (E) suggests that using learned positional embeddings yields similar results to the base model. The table also lists parameters in millions for each configuration, with the base model having 65 million parameters.",
+    "confidence_score": 0.95,
     "image_citation": "extracted_assets\\Attention\\vector_graphics\\page9_vector.png",
     "token_usage": {
-        "prompt_tokens": 26041,
-        "completion_tokens": 390,
-        "total_tokens": 26431
+        "prompt_tokens": 26341,
+        "completion_tokens": 276,
+        "total_tokens": 26617
     }
 }

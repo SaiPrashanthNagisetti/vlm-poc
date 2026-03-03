@@ -1,0 +1,19 @@
+{
+  "pdf": "arxiv1",
+  "page": 5,
+  "text": "Listing1.Pseudo-codeforT3RL\nwherep indicatesifresponseiiscorrect.\nIncontrast,for\ni\nanalysisandadditionalexperimentsonQwen-2.5-MATH,\nfrom import\ncollections defaultdict\n1\nwe employ standard greedy decoding to report pass@1,\n2\npreservingfairnessagainstpreviousworks.\ndef\nt3rl_reward_fn(x, policy, verifier,\n3\nsandbox, N, omega):\nY = policy.sample_rollouts(x, n=N)\n4\nBaselines\nWecompareourmethodagainstbasemodels,\ndefaultdict(float),\nvote, A = []\n5\naswellasagainstTTRL(Zuoetal.,2025),wherewereport\n6\ntheoriginalresultswherepossible. Forexperimentswhere\nfor in\ny Y:\n7\nTTRLresultsarenotavailable,wereproducetrainingruns\n# (1) verifier generates code\n8\ncode = verifier.generate(x, y)\nusingtheimplementationdetailsin(Zuoetal.,2025).\n9\n# (2) sandbox executes the code and\n10\nreturns evidence\nT3RL\nImplementation Details We implement using\nevidence = sandbox.execute(code)\n11\nGRPO (Shao et al., 2024) on each benchmark, training\n# (3) verifier parses evidence\n12\na, v = verifier.judge(x, y,\nthepolicymodelviaAdamWwithacosineschedule(peak\n13\nevidence) # v in {0,1}\n5×10−7).\nlearningrate: Weutilize1Band1.5Bverifiers.\nif else\nvote[a] += (1.0 v == 0\n14\nTobalanceperformancewithcomputationalefficiency,we\nomega) # unverified=1,\nfollowTTRL(Zuoetal.,2025)inemployingavote-then-\nverified=omega\nsamplestrategy:64responsesaregeneratedforlabelestima-\nA.append(a)\n15\ntion(temperature0.6)anddownsampledto32fortraining.\n16\nmax(vote,\ny_star = key=vote.get)\n17\nThemaximumtokenlengthis2,560. Regardingtheverifier\n# weighted majority pseudo-label\nmodel, we find that we can restrict the generation length\nif else\nrewards = [1.0 a == y_star 0.0\n18\n1,024\nto tokens, since code snippets are relatively short.\nfor in\na A]\nWealsouseatemperatureof0.6fortheverifieracrossall\nreturn\ny_star, rewards\n19\nbenchmarks. Training runs are conducted on 8 NVIDIA\nA100GPUs,withvaryingepisodecountsbasedondataset\n5.Experiments\nsize: 10(MATH-500),30(AMC),and80(AIME2024).\n5.1.ExperimentalSetup\n5.2.MainResults\nWeevaluateT3RLon3mathematicalrea-\nBenchmarks\nT3RL\nTable 1 shows that repeatedly outperforms TTRL\nsoningbenchmarks:AIME2024(Lietal.,2024a),AMC(Li\nacrossallevaluatedmodelsandbenchmarks,supportingour\netal.,2024a),andMATH-500(Hendrycksetal.,2021).",
+  "keywords": [
+    "2025",
+    "star",
+    "evidence",
+    "sandbox",
+    "t3rl",
+    "vote",
+    "zuoetal 2025",
+    "verifier",
+    "10",
+    "code",
+    "zuoetal",
+    "omega"
+  ]
+}

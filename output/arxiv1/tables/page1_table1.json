@@ -1,0 +1,21 @@
+{
+    "file_name": "arxiv1",
+    "page_number": 1,
+    "image_title": "Label Verification Results",
+    "image_keywords": [
+        "True Label",
+        "Sampled Predictions",
+        "Verification Results",
+        "Estimated Rewards",
+        "Skewed",
+        "Reliable"
+    ],
+    "summary": "This image presents a table titled 'Label Verification Results' that compares true labels, sampled predictions, and verification results across different categories labeled A, B, C, and D. The true label is C, while the estimated label for the sampled predictions shows B marked as 'Skewed' and C marked as 'Reliable'. The sampled predictions row indicates the counts of predictions for each label, with values 0, 1, and 1 for A, B, and 0 for D. The verification results row shows counts of 0 for A, 0 for B, 1 for C, and 1 for D, indicating the reliability of the predictions. The estimated rewards are also presented for both sampled predictions and verification results, providing insight into the performance of the labeling process.",
+    "confidence_score": 0.9,
+    "image_citation": "extracted_assets\\arxiv1\\tables\\page1_table1.png",
+    "token_usage": {
+        "prompt_tokens": 15007,
+        "completion_tokens": 216,
+        "total_tokens": 15223
+    }
+}

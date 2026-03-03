@@ -1,0 +1,19 @@
+{
+  "pdf": "arxiv2",
+  "page": 5,
+  "text": "Exploring Plan Space through Conversation 5\na template-based classifier, [27], which works without templates and\nLang2LTL\nonlyprovidestheavailableliteralstotheLLM,andnl2spec[8],whichaddresses\nsub-formulas iteratively to counteract ambiguities.\nis the set of well-formed LTL formulas of task τ.\nL(τ)\nf\n2.6 Running Example\nTo illustrate the different concepts of our framework, we introduce a small run-\nning example based on the Parents’ Afternoon task used in the user study de-\ntailedinSec.6.Weintroducethreegoalswithconflictingpriorities:shopping(S),\ncooking dinner (C), and taking the kids to their sports match (M). The match\nand cooking are both evening activities, leading to a conflict between the two\ngoals. Formally, the reference goals are {S,C,M}, there is one MUS:\nGref\n=\nex\n(cid:8) (cid:9), (cid:8) (cid:9).\nand two MCS:\nGMUS GMCS\n{C,M} {C},{M}\n= =\nex ex\n3 Iterative Planning with Natural Language\nIn this section, we provide an abstract description of iterative planning with\nconversation. We define a generic framework for iterative planning with expla-\nnations, focusing on user interaction points.\nIn our framework, users refine their preferences through iterative steps (Def-\ninition 3). Each step is associated with a solution plan if it exists. In a step, the\nuser can ask questions (5) to refine or modify the current plan. As seen earlier,\nquestionshavebothatypeandatopic.Intherestofthispaper,wewillconsider\nas question topics. The question is translated (6) to a particular type and\ngoals\nlinked to a formal goal (4), which may or may not already be known to the\nsystem. Once the system has a formal goal and a question type, it computes a\nformal explanation and translates it (8) into natural language for the user.\nMoreformally,theiterativeprocessofdeterminingafinalplanisdividedinto\nindividual steps. Each step represents one snapshot of the user’s exploration\nδ\ni\nof the plan space, defined by a set of reference goals Gref, a set of enforced goals\ni\n⊆Gref, and a sample plan satisfying Genf:\nGenf\nπ\ni\ni i i\nDefinition 3 (Iteration Step). Given a planning task τ, an iteration step\n⟨Gref,Genf,π⟩, Gref\nis a tuple δ where is a set of (temporal) goals for τ,\n=\nGenf ⊆Gref, ∈Π(τ(Genf)) τ(Genf)\nand π if is solvable and π =ϵ otherwise.\nBased on previous plans , the user defines the set of reference goals\nGref\nπ\ni\ni+1\nfor the next step, representing the goals and preferences they want the plan to\nsatisfy.TheuseralsoselectsasubsetofgoalsGenf thatmustbesatisfied\n⊆Gref\ni+1 i+1\nby the sample plan in the next iteration.\nπ\ni+1\nThereferencegoalsmustbedefinedinalanguagetheplannerunderstands.\nGoals\nFor this we use LTL. However, this language is not suitable for a lay person as\nf\nan input language. Thus, we require a goal translator.6\nIn the code now, we use only simple LTL formulas consisting of an atom modified\n6\nby temporal or negation operators.",
+  "keywords": [
+    "planning",
+    "step",
+    "user",
+    "set",
+    "cid",
+    "task",
+    "goals",
+    "gref",
+    "genf",
+    "language",
+    "plan",
+    "iterative"
+  ]
+}

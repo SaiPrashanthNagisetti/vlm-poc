@@ -1,0 +1,19 @@
+{
+  "pdf": "arxiv2",
+  "page": 19,
+  "text": "Exploring Plan Space through Conversation 19\n32. Povéda, G., Strahl, A., Hall, M., Boumazouza, R., Quintana-Amate, S., Alvarez,\nN.,Bleukx,I.,Tsouros,D.,Verhaeghe,H.,Guns,T.:Trustworthyandexplainable\ndecision-making for workforce allocation. In: Workshop on Progress Towards the\nHoly Grail at CP (2024)\n33. Riedl, C.: Emergent Coordination in Multi-Agent Language Models (Oct 2025).\nhttps://doi.org/10.48550/arXiv.2510.05174\n34. Searle, J.R.: Expression and meaning: Studies in the theory of speech acts. Cam-\nbridge University Press (1979)\n35. Shen, H., Huang, C., Wu, T., Huang, T.K.: Convxai: Delivering heterogeneous\nAI explanations via conversations to support human-ai scientific writing. CoRR\n(2023)\n36. Slack,D.,Krishna,S.,Lakkaraju,H.,Singh,S.:Explainingmachinelearningmod-\nelswithinteractivenaturallanguageconversationsusingtalktomodel.NatureMa-\nchine Intelligence (2023)\n37. Smith, D.: Planning as an iterative process. In: AAAI (2012)\n38. Smith,D.E.:Choosingobjectivesinover-subscriptionplanning.In:ICAPS(2004)\n39. Sreedharan, S., Chakraborti, T., Kambhampati, S.: Foundations of explanations\nas model reconciliation. AIJ (2021)\n40. Sreedharan, S., Srivastava, S., Smith, D.E., Kambhampati, S.: Why can’t you do\nthat hal? explaining unsolvability of planning tasks. In: IJCAI (2019)\n41. State,L.,Ruggieri,S.,Turini,F.:Reasontoexplain:Interactivecontrastiveexpla-\nnations (reasonx). In: XAI (2023)\n42. Valmeekam,K.,Marquez,M.,Sreedharan,S.,Kambhampati,S.:Ontheplanning\nabilities of large language models-a critical investigation. NeurIPS (2023)\n43. Vasileiou, S.L., Yeoh, W.: PLEASE: generating personalized explanations in\nhuman-aware planning. In: Proc. ECAI (2023)\n44. Zhang, T., Yang, X.J., Li, B.: May i ask a follow-up question? understanding the\nbenefitsofconversationsinneuralnetworkexplainability.InternationalJournalof\nHuman–Computer Interaction (2024)",
+  "keywords": [
+    "planning",
+    "kambhampati",
+    "ai",
+    "explanations",
+    "huang",
+    "sreedharan",
+    "models",
+    "smith",
+    "2023",
+    "language",
+    "language models",
+    "human"
+  ]
+}

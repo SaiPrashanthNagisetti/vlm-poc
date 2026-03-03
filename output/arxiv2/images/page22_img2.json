@@ -1,0 +1,20 @@
+{
+    "file_name": "arxiv2",
+    "page_number": 22,
+    "image_title": "Create Plan Property",
+    "image_keywords": [
+        "delivery",
+        "transportation",
+        "planning",
+        "logistics",
+        "constraints"
+    ],
+    "summary": "The image titled 'Create Plan Property' features a dialogue interface discussing delivery constraints. It specifies that 'p2' must be delivered before 'p0' and emphasizes that 'p2' and 'p0' should never be transported in different trucks. The text includes logical expressions indicating the conditions for delivery, such as 'U I at(p0,j Lopez) at(p2,jones) ; p2 delivered before p0' and 'and also never transport them in different trucks'. The overall context revolves around planning delivery logistics with specific constraints.",
+    "confidence_score": 0.9,
+    "image_citation": "extracted_assets\\arxiv2\\images\\page22_img2.png",
+    "token_usage": {
+        "prompt_tokens": 9340,
+        "completion_tokens": 159,
+        "total_tokens": 9499
+    }
+}

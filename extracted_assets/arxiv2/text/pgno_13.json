@@ -1,0 +1,19 @@
+{
+  "pdf": "arxiv2",
+  "page": 13,
+  "text": "Exploring Plan Space through Conversation 13\n6 Evaluation\nWedevelopedaweb-basedplatformtoevaluateourLLM-basedframework7.We\nthen used this tool to conduct a user study aiming at evaluating the effective-\nness of some of our LLM agents and the impact of our LLM-based explanation\ninterface on users’ ability to solve a planning task.\nImportantly, the goal translator was completely disabled during the user\nT\nG\nstudytoensurethatallparticipantsweretryingtosolvethesameplanningtask.\n6.1 User Study Design\nSimilarlyto[12],weusedaparent’safternoonplanningtaskasthescenario.The\nparticipantsweretaskedwithplanningafternoonactivitiesforafamily,butdue\ntotimeconstraints,notalloftheactivitiescouldbecarriedout.Toillustrate,in\nour running example from Section 2.6, the parent cannot do both, cook dinner\nand bring the kids to their match.\nAs a proxy for user preference, each goal is associated with a utility. The\nobjective of the participants was to select a subset of the goals to maximize the\ntotal utility of the plan. In our example, let’s say the parent favors their kids,\nassigningutility3tothematchM,2tocookingC,and1toshoppingS.Knowing\nthat and are in conflict, the goal subset with maximum utility would be\nM C\n{M,S}. Naturally, participants’ evaluated instance was far more complex.\nParticipants (recruited via Prolific8) were encouraged to pursue that objec-\ntive by a bonus reward depending on how close they were to the maximum pos-\nsible utility. The goal utility is unknown to all other agents (planner, explainer,\nand LLMs). Consequently, these agents are capable of providing information re-\ngarding the solvability of a set of goals, as well as the conflicts and corrections,\nbut they are unable to provide direct assistance in maximizing utility.\nThe study was divided into three parts. First, participants were introduced\ntothetoolthroughavideotutorialandanintroductiontask(8goals,2conflicts,\n6corrections).Second,amorecomplextask(19goalswith224conflictsand313\ncorrections) was used to compare the effect of the different interfaces used on\nmaximizing the utility within min. Finally, participants completed a post-\n15\nexperiment questionnaire.\nTo evaluate the effectiveness of LLM agents in an interactive explanation\nframework, we divided the participants into two groups. Our control group\n131\nincluded participants utilizing a interface, which al-\nGTPL\ntemplate-based\n65\nlowed them to select from the predefined set of questions introduced in Sec-\ntion4andreceiveanswersbasedonsimplenaturallanguagetemplates.Thesec-\nond group included participants given the interface, which\nGLLM\nLLM-based\n66\ncould either select questions from ’s suggestions, or freely formulate them in\nS\nQ\nnatural language. These questions were processed by LLM-based translators as\nSignificantly extending [12] and an entirely redesigned UI. The source code will be\n7\npublished upon acceptance.\nhttps://www.prolific.com/\n8",
+  "keywords": [
+    "utility",
+    "goal",
+    "study",
+    "user",
+    "interface",
+    "llm based",
+    "agents",
+    "participants",
+    "based",
+    "questions",
+    "used",
+    "llm"
+  ]
+}

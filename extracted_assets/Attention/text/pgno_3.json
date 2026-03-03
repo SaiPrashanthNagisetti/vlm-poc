@@ -3,17 +3,17 @@
   "page": 3,
   "text": "Figure1: TheTransformer-modelarchitecture.\nTheTransformerfollowsthisoverallarchitectureusingstackedself-attentionandpoint-wise,fully\nconnectedlayersforboththeencoderanddecoder,shownintheleftandrighthalvesofFigure1,\nrespectively.\n3.1 EncoderandDecoderStacks\nN = 6\nEncoder:\nThe encoder is composed of a stack of identical layers. Each layer has two\nsub-layers. Thefirstisamulti-headself-attentionmechanism,andthesecondisasimple,position-\nwisefullyconnectedfeed-forwardnetwork. Weemployaresidualconnection[11]aroundeachof\nthe two sub-layers, followed by layer normalization [1]. That is, the output of each sub-layer is\nLayerNorm(x+Sublayer(x)),whereSublayer(x)isthefunctionimplementedbythesub-layer\nitself. Tofacilitatetheseresidualconnections,allsub-layersinthemodel,aswellastheembedding\nlayers,produceoutputsofdimensiond =512.\nmodel\nThedecoderisalsocomposedofastackofN =6identicallayers.\nDecoder:\nInadditiontothetwo\nsub-layersineachencoderlayer,thedecoderinsertsathirdsub-layer,whichperformsmulti-head\nattentionovertheoutputoftheencoderstack. Similartotheencoder,weemployresidualconnections\naroundeachofthesub-layers,followedbylayernormalization. Wealsomodifytheself-attention\nsub-layer in the decoder stack to prevent positions from attending to subsequent positions. This\nmasking,combinedwithfactthattheoutputembeddingsareoffsetbyoneposition,ensuresthatthe\npredictionsforpositionicandependonlyontheknownoutputsatpositionslessthani.\n3.2 Attention\nAnattentionfunctioncanbedescribedasmappingaqueryandasetofkey-valuepairstoanoutput,\nwherethequery,keys,values,andoutputareallvectors. Theoutputiscomputedasaweightedsum",
   "keywords": [
+    "wisefullyconnectedfeed forwardnetwork",
     "sub layers",
-    "stack",
-    "layers",
-    "encoder",
-    "attention",
-    "positions",
-    "decoder",
-    "layer",
-    "sub layer",
     "sub",
+    "layers",
     "wise",
-    "wisefullyconnectedfeed forwardnetwork"
+    "decoder",
+    "stack",
+    "positions",
+    "attention",
+    "sub layer",
+    "encoder",
+    "layer"
   ]
 }

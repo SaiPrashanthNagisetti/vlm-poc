@@ -1,0 +1,19 @@
+{
+  "pdf": "arxiv2",
+  "page": 28,
+  "text": "28 G. Fouilhé et al.\nIf they reached the maximum utility before 10 minutes, they were proposed to\ncontinue with the next part.\nThe second part consist of a more complex scenario, as\nEvaluation Scenario\ndescribed in Section B.2. This scenario was introduced to the participants simi-\nlarly to the toy example. Then they were given 15 minutes to interact with the\nsystem. Users were aware of the maximum achievable utility and notified when\nthey reached it.\nFinally,participantswereaskedtofilloutaques-\nPost-experimentQuestionnaire\ntionnairetoevaluate.Questiondetailsandsummaryofanswersarepresentedin\nSection B.3. The evaluated points were:\nThe perception of the task difficulty;\n–\nThe perception of the usefulness of the question interface;\n–\nB.2 Instance\n:\nIntroduction instance specifics\nPeople: a parent (the only one who can drive the car), alice and bob (kids)\n–\nItems: groceries (required for cooking lunch and dinner) tennis racket (re-\n–\nquired for tennis training)\nLocations: home, groceries store, sport center, and city center\n–\nActivities (utility) : do groceries (1) , clean home (1), cook lunch (4), cook\n–\ndinner (3), bob does tennis training (2), bob does homework (3), alice does\nviolin lesson (1), alice does homework (2),\nTime: tracked in 10 levels (08h00-18h00)\n–\nThecarhasacapacityof2,andinitiallyeveryoneisfree(notbusy)athome.\n–\nThere is only two global conflicts ; removing the goal with the least utility\nin these two conflicts (alice’s violin lesson and clean home) was the optimal\nsolution.\nThe maximum utility was 15.\n:\nEvaluation instance specifics\nPeople:aparent(theonlyonewhocandrivethecar),AliceandBob(kids)\n–\nnone currently active\n– Items:\nhome, gymnasium, city center, and music center\n– Locations:\n– Activities (with utility):\n• Alice’s activities:\n∗ does homework [3] (2h, 08:00–10:00, at home)\n∗ hangs out [2] (2h, 11:00–13:00, at city center)\n∗ plays video games [2] (2h, 11:00–13:00, at home)\n∗ does basketball training [3] (2h, 14:00–16:00, at gymnasium)\n∗ takes violin lesson [2] (1h, 17:00–18:00, at music center)",
+  "keywords": [
+    "utility",
+    "does",
+    "home",
+    "tennis",
+    "violin",
+    "alice",
+    "2h",
+    "00",
+    "activities",
+    "center",
+    "city center",
+    "violin lesson"
+  ]
+}

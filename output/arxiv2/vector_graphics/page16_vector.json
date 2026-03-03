@@ -1,0 +1,22 @@
+{
+    "file_name": "arxiv2",
+    "page_number": 16,
+    "image_title": "Feedback Questionnaire Results Comparison",
+    "image_keywords": [
+        "feedback questionnaire",
+        "template-based",
+        "LLM-based",
+        "Likert scale",
+        "gTPL",
+        "user study",
+        "questionnaire results"
+    ],
+    "summary": "This image presents a violin plot comparing feedback questionnaire results for two groups: template-based and LLM-based. The plot illustrates the distribution and mean scores of responses on a Likert scale from 1 to 7 for various questions. Key findings include: 'Did questions help in the selection of unviable goals?' (p-value = 0.34), 'Did questions help to improve a plan?' (p-value = 0.01), 'Did the possibility to ask questions reduce the level of difficulty?' (p-value = 0.02), 'Did the possibility to ask questions help?' (p-value = 0.07), 'How confident are you that you know which plans are possible?' (p-value = 0.67), 'How satisfied are you with your task?' (p-value = 0.51), and 'How easy was the task for you?' (p-value = 0.26). The LLM-based approach significantly outperforms the template-based method in assisting participants with their plans and reducing difficulty.",
+    "confidence_score": 0.9,
+    "image_citation": "extracted_assets\\arxiv2\\vector_graphics\\page16_vector.png",
+    "token_usage": {
+        "prompt_tokens": 26341,
+        "completion_tokens": 286,
+        "total_tokens": 26627
+    }
+}

@@ -1,19 +1,20 @@
 {
     "file_name": "Attention",
     "page_number": 14,
-    "image_title": "Attention Heads in Layer 5 of 6",
+    "image_title": "Attention Mechanism Visualization",
     "image_keywords": [
         "attention heads",
         "anaphora resolution",
         "layer 5",
-        "neural networks"
+        "words",
+        "connections"
     ],
-    "summary": "The image titled 'Attention Heads in Layer 5 of 6' illustrates two attention heads involved in anaphora resolution, specifically in layer 5 of a neural network model. The visual depicts connections between words such as 'The', 'Law', 'will', 'never', 'be', 'perfect', 'but', 'its', 'application', 'should', 'be', 'just', 'this', 'is', 'what', 'we', 'are', 'missing', 'in', 'my', 'opinion', and others. The connections indicate how attention is distributed among these words, with a focus on the word 'its', which shows particularly sharp attention. The image does not provide specific numerical data or a source attribution.",
-    "confidence_score": 0.8,
+    "summary": "This image illustrates two attention heads from layer 5 of a neural network, focusing on anaphora resolution. The top section displays various words with connections indicating their attention weights, while the bottom section isolates attentions specifically from the word 'its' for attention heads 5 and 6. The connections are visually represented with lines, showing how different words relate to each other in the context of the sentence. The attention patterns are notably sharp for the word 'its', suggesting its significance in the given context.",
+    "confidence_score": 0.9,
     "image_citation": "extracted_assets\\Attention\\tables\\page14_table1.png",
     "token_usage": {
-        "prompt_tokens": 37375,
-        "completion_tokens": 208,
-        "total_tokens": 37583
+        "prompt_tokens": 37675,
+        "completion_tokens": 155,
+        "total_tokens": 37830
     }
 }

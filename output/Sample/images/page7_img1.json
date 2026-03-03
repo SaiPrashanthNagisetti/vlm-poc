@@ -1,20 +1,22 @@
 {
     "file_name": "Sample",
     "page_number": 7,
-    "image_title": "Memory Operations and Tasks",
+    "image_title": "Memory Operations and Task Management",
     "image_keywords": [
         "trip plan",
         "movie recommendation",
         "memory sources",
         "textual memory",
-        "parametric memory"
+        "parametric memory",
+        "agent",
+        "environment"
     ],
-    "summary": "The image titled 'Memory Operations and Tasks' illustrates two tasks: Task A involves making a trip plan for Alice, which includes booking tickets from Shanghai to Beijing, confirming the order, gathering external knowledge from a magazine, and arranging the visiting order. Task B focuses on recommending a movie for Alice, including checking her availability, finding movies on Netflix that match her interests, and confirming her thoughts about the movie. The visual also categorizes memory sources into external knowledge, cross-trial information, and inside-trial information, while detailing memory forms such as textual and parametric memory, and memory operations like writing, management, and reading. The overall theme emphasizes the interaction between tasks and memory processes.",
+    "summary": "This diagram illustrates two tasks: Task A involves making a trip plan for Alice, which includes booking tickets from Shanghai to Beijing, confirming her availability, and arranging the visiting order. Task B focuses on recommending a movie for Alice, involving checking her Netflix watchlist and confirming her thoughts on the movie. The diagram categorizes memory sources into external knowledge, cross-trial information, and inside-trial information, highlighting the current action taken. It also depicts memory forms such as textual memory, which includes full and recent interactions, and parametric memory, which involves fine-tuning and knowledge editing. The environment and agent sections detail the processes of writing, management, merging, reflection, and forgetting, showcasing the complex interplay of memory operations in task execution.",
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\Sample\\images\\page7_img1.png",
     "token_usage": {
-        "prompt_tokens": 14707,
-        "completion_tokens": 193,
-        "total_tokens": 14900
+        "prompt_tokens": 15007,
+        "completion_tokens": 210,
+        "total_tokens": 15217
     }
 }

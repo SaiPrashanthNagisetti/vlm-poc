@@ -1,30 +1,25 @@
 {
     "file_name": "OSHAwhite-paper-january2012sm",
     "page_number": 16,
-    "image_title": "Payroll, Losses, and Losses per $1,000 of Payroll",
+    "image_title": "Payroll and Losses Analysis",
     "image_keywords": [
         "Payroll",
-        "$2.5M",
         "Losses",
-        "$35,000",
-        "Losses per $1,000",
-        "$18.20",
-        "$14.20",
-        "$3.90",
         "1998",
         "1999",
         "2003",
         "2004",
         "2005",
         "2006",
-        "2007"
+        "2007",
+        "Losses per $1,000 of Payroll"
     ],
-    "summary": "The image presents three charts: the first is a bar chart titled 'Payroll ($M)' showing payroll values from 1998 to 2007, with values of $1.8M in 1998, $1.9M in 1999, $2.0M in 2003, $2.1M in 2004, $2.2M in 2005, $2.3M in 2006, and $2.4M in 2007. The second chart, 'Losses ($000)', displays losses for the same years, with $30,000 in 1998, $32,000 in 1999, $5,000 in 2003, $1,000 in 2004, $0 in 2005, $700 in 2006, and $300 in 2007. The third chart illustrates 'Losses per $1,000 of Payroll', showing a decline from $18.20 in 1998 to $14.20 in 1999, $3.90 in 2003, and dropping to $0.30 in 2004, with no losses recorded in 2005, $0.70 in 2006, and $0.30 in 2007. The overall trend indicates a decrease in losses per $1,000 of payroll over the years, with the peak loss occurring in 1999 and the lowest loss recorded in 2005. The data spans from 1998 to 2007.",
-    "confidence_score": 0.9,
+    "summary": "This visual presents three related charts analyzing payroll and losses over the years 1998 to 2007. The first chart, titled 'Payroll ($M)', shows payroll values in millions, with the following data points: 1998 ($1.8M), 1999 ($2.0M), 2003 ($1.5M), 2004 ($1.6M), 2005 ($1.7M), 2006 ($2.1M), and 2007 ($2.3M). The second chart, 'Losses ($000)', illustrates losses in thousands, with values of 1998 ($30K), 1999 ($32K), 2003 ($20K), 2004 ($15K), 2005 ($5K), 2006 ($2K), and 2007 ($1K). The final chart, 'Losses per $1,000 of Payroll', shows a declining trend in losses per thousand dollars of payroll, with values of 1998 ($18.20), 1999 ($14.20), 2003 ($3.90), 2004 ($0.30), 2005 ($0.00), 2006 ($0.70), and 2007 ($0.30). The overall trend indicates a decrease in losses relative to payroll over the years.",
+    "confidence_score": 0.95,
     "image_citation": "extracted_assets\\OSHAwhite-paper-january2012sm\\images\\page16_img1.png",
     "token_usage": {
-        "prompt_tokens": 26041,
-        "completion_tokens": 430,
-        "total_tokens": 26471
+        "prompt_tokens": 26341,
+        "completion_tokens": 357,
+        "total_tokens": 26698
     }
 }

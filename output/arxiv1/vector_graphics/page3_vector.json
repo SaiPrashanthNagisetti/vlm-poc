@@ -1,0 +1,20 @@
+{
+    "file_name": "arxiv1",
+    "page_number": 3,
+    "image_title": "Tool Verification for Test-Time Reinforcement Learning",
+    "image_keywords": [
+        "Reinforcement Learning",
+        "Tool Verification",
+        "LLM Verifier",
+        "Consensus",
+        "Reward Signals"
+    ],
+    "summary": "This visual presents the process of Tool Verification for Test-Time Reinforcement Learning (TRL), illustrating how an LLM verifier parses sampled outputs and examines their validity. The verifier integrates with a code interpreter to validate each output, yielding a verification weight for each rollout. The diagram shows the interaction between the verifier, tool, and pseudo-label generation, emphasizing the importance of majority voting for deriving consensus outputs. It highlights the challenge of spurious rewards in self-evolving AI systems and proposes a verification approach to ensure reliable learning without explicit supervision. The visual includes references to the methodology and implications for reinforcement learning in uncertain environments.",
+    "confidence_score": 0.9,
+    "image_citation": "extracted_assets\\arxiv1\\vector_graphics\\page3_vector.png",
+    "token_usage": {
+        "prompt_tokens": 26341,
+        "completion_tokens": 181,
+        "total_tokens": 26522
+    }
+}

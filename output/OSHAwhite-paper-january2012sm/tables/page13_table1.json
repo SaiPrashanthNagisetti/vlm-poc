@@ -1,25 +1,25 @@
 {
     "file_name": "OSHAwhite-paper-january2012sm",
     "page_number": 13,
-    "image_title": "Department of Defense Rate Reduction and Improvement",
+    "image_title": "Department of Defense Rate Reduction Data",
     "image_keywords": [
-        "FY 02",
-        "FY 09",
-        "Rate Reduction",
-        "Percent Improvement",
         "All DOD",
         "Army",
         "Navy",
         "Marines",
         "Air Force",
-        "Defense Logistics"
+        "Defense Logistics",
+        "FY 02",
+        "FY 09",
+        "Rate Reduction",
+        "Percent Improvement"
     ],
-    "summary": "The table titled 'Department of Defense Rate Reduction and Improvement' presents data comparing fiscal years 2002 (FY 02) and 2009 (FY 09) across various branches of the Department of Defense (DOD). In FY 02, the All DOD rate was 31.5, which reduced to 18.7 in FY 09, reflecting a rate reduction of 12.8 and a percent improvement of 41%. The Army's rate decreased from 29.3 in FY 02 to 17.8 in FY 09, with a reduction of 11.5 and an improvement of 39%. The Navy saw a decline from 39.8 to 21.2, resulting in an 18.6 reduction and a 46% improvement. The Marines had a significant drop from 73.8 to 36.7, with a rate reduction of 37.1 and a 50% improvement. The Air Force's rate fell from 25.6 to 16.5, showing a reduction of 9.1 and a 36% improvement. Lastly, Defense Logistics decreased from 25.6 to 16.9, with an 8.7 reduction and a 34% improvement.",
+    "summary": "This table presents the rate reduction data for various branches of the Department of Defense (DOD) from Fiscal Year (FY) 2002 to FY 2009. The data shows that 'All DOD' had a rate of 31.5 in FY 02, which decreased to 18.7 in FY 09, resulting in a rate reduction of 12.8 and a percent improvement of 41%. The Army's rate decreased from 29.3 to 17.8, with a reduction of 11.5 and a 39% improvement. The Navy's rate went from 39.8 to 21.2, achieving an 18.6 reduction and a 46% improvement. The Marines saw a significant drop from 73.8 to 36.7, with a 37.1 reduction and a 50% improvement. The Air Force's rate reduced from 25.6 to 16.5, resulting in a 9.1 reduction and a 36% improvement. Lastly, Defense Logistics decreased from 25.6 to 16.9, with an 8.7 reduction and a 34% improvement.",
     "confidence_score": 1.0,
     "image_citation": "extracted_assets\\OSHAwhite-paper-january2012sm\\tables\\page13_table1.png",
     "token_usage": {
-        "prompt_tokens": 14707,
-        "completion_tokens": 334,
-        "total_tokens": 15041
+        "prompt_tokens": 15007,
+        "completion_tokens": 317,
+        "total_tokens": 15324
     }
 }

@@ -1,0 +1,19 @@
+{
+  "pdf": "arxiv2",
+  "page": 12,
+  "text": "12 G. Fouilhé et al.\nreducehallucinations.Examplesofcontext-dependentinteractions,selections,or\nsummarization of explanations are given in the technical appendix.\nNext, we address the tasks of the individual agents and the specific details\nof their implementation.\nis automatically called to analyze every new iteration\nQuestion Suggester S\nQ\nstep δ. Its task is to generate one to three relevant questions for the context.\nThese questions are provided to the user via clickable buttons above the input\nfield. To generate the suggestions, it receives the current iteration step context\n(Genf, Gtrue, Gfalse, and previous user interactions) and is prompted to propose\nnatural questions that could help. Like all other agents, relies on few-shot\nS\nQ\nlearning and explicit instructions.\nis the first step in question processing. Its tasks go\nQuestion Translator T\nQ\nbeyond identifying the question type . For it directly generates the\nµ\nDIRECT\nQ\nresponse . For and EFQUERY-noGT, it extracts one or more goal\nR\nEFQUERY-GT\nNL\ndescriptions and checks whether they match any Gref. Question\nG′\nG ∈\nNL\nNL all\ntranslations can contain multiple goals, either explicitly (\"How can I achieve\nor M?\" becomes \"S-how{S,M}\") or implicitly (\"Can I enforce more goals?\"\nS\nbecomes\"S-can{G ∈Gref\\Genf\").ThesearetreatedbyEF\n,G ,...}∀G ,G\nCC\n1 2 1 2\nall\nas separate requests. can detect questions to route them to .\nT T\nFOLLOW-UP\nQ E\nThe goal translator produces both the LTL formula and\nGoal Translator T\nG f\na concise natural language description of the goal (used in the UI and in com-\nmunication between LLM agents). Since our evaluation focuses on the question\nclassification and explanation translation, we use a simple base implementation\nsimilar to of [27]. The LLM prompt lists the predicates\nEnd-to-End Approach\nand objects that can compose the literals and includes a few worked examples;\nsee the Appendix for details.\nAn LLM-based translator can provide user-dependent\nExplanation Translator\ntranslation, select explanations, and summarize them. Instead of only providing\nexplanations, we give both conflicts and corrections E∗(Q), anticipating follow-\nup questions (e.g. a “how” question after a “why” question). The translator also\nreceivestheuser’squestion,Q ,anditsformalversion,Q.µ indicateshowto\nNL Q\ninterpret E∗(Q), while guide generation of a natural response. The trans-\nQ\nNL\nlator is expected to use prompt examples to learn how to select or summarize\nexplanations. It is thus a domain-specific design choice to provide examples of\ntheexpectedselection/summarizationstrategy.WithFOLLOW-UPquestions,users\ncan explicitly request a summary or selection.",
+  "keywords": [
+    "goal",
+    "translator",
+    "step",
+    "explanations",
+    "examples",
+    "user",
+    "question",
+    "llm",
+    "agents",
+    "nl",
+    "natural",
+    "questions"
+  ]
+}

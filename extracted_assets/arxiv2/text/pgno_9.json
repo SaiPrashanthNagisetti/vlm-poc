@@ -1,0 +1,19 @@
+{
+  "pdf": "arxiv2",
+  "page": 9,
+  "text": "Exploring Plan Space through Conversation 9\n4.1 Unsolvable\nIf is unsolvable we support the following two question types:\nτ(Genf)\nUS-why: “Why is the task unsolvable?”\n–\nE(⟨US-why,∅⟩)=GMUS(τ,Genf)\nThe task is unsolvable because it is not possible to satisfy any of the conflicts\nin E(⟨US-why,∅⟩).\nUS-how: “How can I make the task solvable?”\n–\nE(⟨US-how,∅⟩)=GMCS(τ,Genf)\nTomakethetasksolvableyouhavetoforegooneofthegoalsetsinE(⟨US-how,∅⟩).\n4.2 Solvable\nIf is solvable, we support question types referring to goals not satis-\nτ(Genf)\nfied by the sample plan π. By we denote\nGtrue(π) Gref\n{ϕ ∈ | σ(π,I) |= ϕ}\n=\nthe goals satisfied by π, and by the goals not sat-\nGfalse(π) Gref \\Gtrue(π)\n=\nisfied by π. For all the following question types, the arguments must not be\nsatisfied by the current plan, i.e. Gfalse(π). Answers to question types\nargs ⊆\nuse the same information, but are phrased dif-\n{S-why-not,S-what-if,S-can}\nferently.\n∈GMUS(τ,Gref),C ⊆Gtrue(π)∪args})\nE(⟨µ ,args⟩)=min({C\\args| C\nQ\n⊆\nwhere filters the sets in that are subset-minimal.\n(S) S\nmin\n⊆\nS-why-not: “Why are not satisfied?”\n– args\nIf E(⟨S-why-not,args⟩)=∅:\n• args can be satisfied without foregoing any of\nthe already satisfied goals.\nIf ∅∈E(⟨S-why-not,args⟩):\n• The goals in args cannot be satisfied together.\nOtherwise:\n• There is a conflict between args and all the goal subsets in\nE(⟨S-why-not,args⟩).\nS-what-if: “What happens if we enforce args?”\n–\nIf ∅:\n• E(⟨S-what-if,args⟩) args can be satisfied without foregoing any\n=\ngoal satisfied by the plan.\nIf ∅∈E(⟨S-what-if,args⟩):\n• Then the problem would be unsolvable.\nOtherwise:YoucouldnolongersatisfyanyofthegoalsetsinE(⟨S-what-if,args⟩).\n•\nS-can: “Can be satisfied?”\n– args\nIn this yes/no question type, it is implicit that no currently satisfied goal\nshould be given up. This is supported by human planners’ sample responses,\nwhich never considered foregoing goals in Gtrue(π).\nIf E(⟨S-can,args⟩)=∅:\n• args can be satisfied.",
+  "keywords": [
+    "plan",
+    "args satisfied",
+    "question",
+    "args args",
+    "goals",
+    "unsolvable",
+    "types",
+    "satisfied",
+    "genf",
+    "args",
+    "gtrue",
+    "question types"
+  ]
+}

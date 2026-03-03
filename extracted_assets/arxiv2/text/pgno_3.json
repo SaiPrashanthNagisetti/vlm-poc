@@ -1,0 +1,19 @@
+{
+  "pdf": "arxiv2",
+  "page": 3,
+  "text": "Exploring Plan Space through Conversation 3\nOur evaluation, based on a user study with lay participants, focuses on hu-\nman perception and objective improvements at helping individuals to achieve a\nplanning task.\nOur contributions are the following :\nWe formalize a framework for iterative planning with natural language ques-\n–\ntions and explanations (Section 3).\nWeinstantiatethisframeworkwithgoal-conflictexplanations[13]andextend\n–\nthe diversity of questions that can be handled with the latter (Section 4).\nWe introduce an LLM-based implementation of our framework for natural\n–\nlanguage interaction (Section 5).\nWeevaluateandvalidateourframeworkinauserstudy,comparingourLLM-\n–\nbased interface with a template-based baseline (Section 6).\n2 Background\n2.1 Conversational Explanations\nSocial science and XAI research suggest explanations are most effective when\ndelivered conversationally or interactively. Other methods have been proposed\nforinteractiveexplanations[30,35,36,41,15,5];theyemployasimilarhigh-level\narchitecture, as shown in Figure 1, but none of them are specifically designed\nfor planning systems.\n2.2 Multi-Agent LLM Approaches\nMulti-agent LLM approaches involve multiple LLMs working collaboratively\nto solve complex tasks [18]. These systems typically leverage individual LLM\nstrengths by assigning specific roles to each agent, allowing for specialization\nand improved performance through in-context learning tailored to particular\nfunctions.\nWhile a single LLM can be fine-tuned for complex planning tasks, this faces\nkey challenges: insufficient task-specific training data and limited generalization\nbeyond the training distribution. To address these limitations, we propose de-\ncomposing complex tasks into specialized subtasks handled by different LLM\nagents working in concert. This architecture leverages LLMs’ natural strengths\nin language understanding and translation while mitigating their weaknesses in\ncomplex reasoning tasks. Such approaches often show significant performance\ngains over single-agent approaches, resulting in a \"greater-than-the-sum-of-its-\nparts\" system [33,6].\n2.3 Planning Formalism\nWedefinealiftedplanningtaskasatupleτ =⟨P,O,A,I,G⟩whereP isafinite\nset of first-order predicates and a set of individual constants or names for\nO",
+  "keywords": [
+    "planning",
+    "agent",
+    "explanations",
+    "complex",
+    "section",
+    "based",
+    "tasks",
+    "working",
+    "natural",
+    "llm",
+    "approaches",
+    "language"
+  ]
+}

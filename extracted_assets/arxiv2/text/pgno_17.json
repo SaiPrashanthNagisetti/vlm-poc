@@ -1,0 +1,19 @@
+{
+  "pdf": "arxiv2",
+  "page": 17,
+  "text": "Exploring Plan Space through Conversation 17\nWefoundevidenceofasignificantsubjectiveimprovementwhenusing\nFindings\nLLM-basedexplanationinterfacescomparedtothebaselineinterface.Moreover,\nwe observed a consistent trend suggesting that this subjective gain may be sup-\nportedbyanobjectiveimprovement,namelyaconvergencetowardanacceptable\nplan in fewer iteration steps.\nFuture work will assess LLM-translated explanations on a wider\nFuture Work\nrange of tasks, including more realistic planning uses cases with end users. In\nsuch contexts, the goal translator will becomes a more important part of our\nframework and will be evaluated accordingly. Similarly, we will carefully assess\nsummarization capabilities of LLMs and their capacity to respond to different\nusers requirements.\nWe also plan on investigating the extension of this approach to other ex-\nplanations frameworks. This includes MUS and MCS based approaches used in\nConstraintProgramming[32,17]butalsootherapproachesusedinplanning[23,\n39].Inadditiontotheclassificationofthequestiontype,thisaddsthechallenge\nof deciding which explanation approach is most suitable to answer the question.\nReferences\n1. Achinstein, P.: The Nature of Explanation. Oxford University Press (1980)\n2. Bromberger,S.:Anapproachtoexplanation.In:Butler,R.(ed.)AnalyticalPhils-\nophy. Oxford University Press (1962)\n3. Brunello, A., Montanari, A., Reynolds, M.: Synthesis of ltl formulas from natural\nlanguage texts: State of the art and research directions. In: Proc. TIME. Schloss\nDagstuhl-Leibniz-Zentrum fuer Informatik (2019)\n4. Chakraborti, T., Sreedharan, S., Zhang, Y., Kambhampati, S.: Plan explanations\nasmodelreconciliation:Movingbeyondexplanationassoliloquy.In:IJCAI(2017)\n5. Chen,H.,Constante-Flores,G.E.,Mantri,K.S.I.,Kompalli,S.M.,Ahluwalia,A.S.,\nLi, C.: Optichat: Bridging optimization models and practitioners with large lan-\nguage models (2025),\nhttps://arxiv.org/abs/2501.08406\n6. Chen, W., Su, Y., Zuo, J., Yang, C., Yuan, C., Chan, C.M., Yu, H., Lu, Y.,\nHung, Y.H., Qian, C., Qin, Y., Cong, X., Xie, R., Liu, Z., Sun, M., Zhou,\nJ.: AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emer-\ngent Behaviors. International Conference on Representation Learning 2024,\n20094–20136 (May 2024),\nhttps://proceedings.iclr.cc/paper_files/paper/\n2024/hash/578e65cdee35d00c708d4c64bce32971-Abstract-Conference.html\n7. Corrêa,A.B.,Pereira,A.G.,Seipp,J.:The2025PlanningPerformanceofFrontier\nLarge Language Models (Nov 2025). https://doi.org/10.48550/arXiv.2511.09378\n8. Cosler,M.,Hahn,C.,Mendoza,D.,Schmitt,F.,Trippel,C.:nl2spec:interactively\ntranslating unstructured natural language to temporal logics with large language\nmodels. In: Proc. CAV (2023)\n9. Dazeley, R., Vamplew, P., Foale, C., Young, C., Aryal, S., Cruz, F.: Levels of\nexplainable artificial intelligence for human-aligned conversational explanations.\nAIJ (2021)\n10. DeGiacomo,G.,DeMasellis,R.,Montali,M.:ReasoningonLTLonfinitetraces:\nInsensitivity to infiniteness. In: AAAI (2014)",
+  "keywords": [
+    "natural language",
+    "oxford",
+    "explanations",
+    "oxford university",
+    "models",
+    "paper",
+    "https",
+    "2024",
+    "language",
+    "plan",
+    "large",
+    "proc"
+  ]
+}

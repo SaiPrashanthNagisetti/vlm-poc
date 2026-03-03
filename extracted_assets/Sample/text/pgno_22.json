@@ -3,17 +3,17 @@
   "page": 22,
   "text": "[53] Minghao Li, Yingxiu Zhao, Bowen Yu, Feifan Song, Hangyu Li, Haiyang Yu, Zhoujun Li, Fei\nHuang, and Yongbin Li. Api-bank: A comprehensive benchmark for tool-augmented llms. arXiv\npreprint arXiv:2304.08244, 2023.\n[54] Jingqun Tang, Wenqing Zhang, Hongye Liu, MingKun Yang, Bo Jiang, Guanglong Hu, and Xiang\nBai. Few could be better than all: Feature sampling and grouping for scene text detection. In\nProceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages\n4563–4572, 2022.\n[55] Ting et al. Chen. A simple framework for contrastive learning of visual representations. ICML,\npages 1597–1607, 2020.\n[56] Jingqun Tang, Wenming Qian, Luchuan Song, Xiena Dong, Lan Li, and Xiang Bai. Optimal\nboxes: boosting end-to-end scene text recognition by adjusting annotated bounding boxes via\nreinforcement learning. In European Conference on Computer Vision, pages 233–248. Springer,\n2022.\n[57] Zhaomin Xiao, Zhelu Mai, Zhuoer Xu, Youngkwang Kwon, and Jiancheng Li. Short interest trend\nprediction. In 2024 6th International Conference on Natural Language Processing (ICNLP), pages\n352–356, 2024.\n[58] Yu-Hao Tu, Rui-Feng Wang, and Wen-Hao Su. Active disturbance rejection control—new trends\nin agricultural cybernetics in the future: A comprehensive review. Machines, 13(2):111, 2025.\n[59] Angeliki Lazaridou and Marco Baroni. Emergent multi-agent communication in the deep learning\nera. Neural Computation, 31(5):753–763, 2019.\n[60] Yonatan et al. Bisk. Experience grounds language. In EMNLP, pages 8718–8735, 2020.\n[61] ZilinghanLi,ShilanHe,ZeYang,MinseokRyu,KibaekKim,andRaviMadduri.Advancesinappfl:\nA comprehensive and extensible federated learning framework. arXiv preprint arXiv:2409.11585,\n2024.\n[62] Yue Wu, Ben Ehlert, Ahmed A Metwally, Dalia Perelman, Heyjun Park, Andrew Wallace Brooks,\nFahim Abbasi, Basil Michael, Alessandra Celli, Caroline Bejikian, et al. Individual variations in\nglycemicresponsestocarbohydratesandunderlyingmetabolicphysiology. Nature Medicine,pages\n1–12, 2025.\n[63] Yizhi Wang, Yi Fu, Zhen Zhang, Robert Clarke, Sarah J Parker, David M Herrington, Guoqiang\nYu,andYueWang. iddn: determiningtrans-omicsnetworkstructureandrewiringwithintegrative\ndifferential dependency networks. Bioinformatics Advances, 5(1):vbaf086, 2025.\n[64] Chenyu Zhao, Changqian Cen, Ruihan Zhang, Wenjin He, Yiyang Jiao, Zhuoya Chen, Zhaoqi\nWu, and Ting Luan. A two-step bayesian mendelian randomization study on cholecystitis and\ndermatitis. medRxiv, pages 2024–09, 2024.\n[65] Matthew L Key, Tural Mehtiyev, and Xiaodong Qu. Advancing eeg-based gaze prediction using\ndepthwise separable convolution and enhanced pre-processing. In International Conference on\nHuman-Computer Interaction, pages 3–17. Springer, 2024.\n[66] Lulu Chen, Yingzhou Lu, Chiung-Ting Wu, Robert Clarke, Guoqiang Yu, Jennifer E Van Eyk,\nDavid M Herrington, and Yue Wang. Data-driven detection of subtype-specific differentially ex-\npressed genes. Scientific reports, 11(1):332, 2021.\n[67] Daniel Katz, Christopher Jin, Gregory Smith, Natalie Clark, Gayatri Iyer, Hasmik Keshishian,\nPatrick Hart, James Sanford, Zidong Zhang, Yongchao Ge, et al. The multi-omic, multi-tissue\nresponse to acute endurance and resistance exercise: Results from the molecular transducers of\nphysical activity consortium. Circulation, 150(Suppl 1):A4143199–A4143199, 2024.\n[68] Weigeng Li, Neng Zhou, and Xiaodong Qu. Enhancing eye-tracking performance through multi-\ntask learning transformer. In International Conference on Human-Computer Interaction, pages\n31–46. Springer, 2024.",
   "keywords": [
-    "conference",
-    "pages",
-    "learning",
-    "li",
     "multi",
-    "et al",
-    "arxiv",
     "zhang",
+    "pages",
+    "conference",
+    "et al",
+    "learning",
     "yu",
     "computer",
+    "et",
+    "arxiv",
     "2024",
-    "et"
+    "li"
   ]
 }

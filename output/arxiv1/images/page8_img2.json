@@ -1,0 +1,21 @@
+{
+    "file_name": "arxiv1",
+    "page_number": 8,
+    "image_title": "Comparison of Scores in AIME, AMC, and MATH",
+    "image_keywords": [
+        "AIME",
+        "AMC",
+        "MATH",
+        "TTRL",
+        "T3RL",
+        "scores"
+    ],
+    "summary": "This bar chart compares scores across three categories: AIME, AMC, and MATH. For AIME, the scores are 15.8 for TTRL, 20.8 for T3RL (1.5B Verifier), and 21.7 for T3RL (7B Verifier). In AMC, the scores are 48.9 for TTRL, 50.9 for T3RL (1.5B Verifier), and 51.5 for T3RL (7B Verifier). For MATH, the scores are 73.0 for TTRL, 74.6 for T3RL (1.5B Verifier), and 74.9 for T3RL (7B Verifier). The chart indicates a trend of increasing scores from TTRL to T3RL across all categories, with T3RL (7B Verifier) achieving the highest scores in each category.",
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\arxiv1\\images\\page8_img2.png",
+    "token_usage": {
+        "prompt_tokens": 9340,
+        "completion_tokens": 256,
+        "total_tokens": 9596
+    }
+}

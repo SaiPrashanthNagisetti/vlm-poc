@@ -1,0 +1,20 @@
+{
+    "file_name": "arxiv2",
+    "page_number": 24,
+    "image_title": "Goal Tracking Overview",
+    "image_keywords": [
+        "unsatisfied goals",
+        "additionally satisfied goals",
+        "enforced goals",
+        "parent does sports",
+        "bring groceries back home"
+    ],
+    "summary": "This visual presents a goal tracking overview categorized into three sections: Unsatisfied Goals, Additionally Satisfied Goals, and Enforced Goals. The Unsatisfied Goals section lists various goals such as 'parent does sports' with a count of 2, 'son attends music lesson' with a count of 1, 'ensure son is home in the evening' with a count of 1, 'bring friend to sports center' with a count of 1, 'bring groceries back home' with a count of 2, 'ensure grandma is at her house in the evening' with a count of 2, and 'do shopping before parent's sports' with a count of 1. The Additionally Satisfied Goals section includes 'grandma bags groceries' with a count of 0 and 'grandma and friend are not together in car' with a count of 1. The Enforced Goals section lists 'ensure daughter is home in the evening' with a count of 0, 'parent buys groceries' with a count of 2, 'daughter does soccer training' with a count of 0, and 'bring grandma's groceries to her house' with a count of 2. This structured overview allows for quick assessment of goal statuses.",
+    "confidence_score": 0.9,
+    "image_citation": "extracted_assets\\arxiv2\\images\\page24_img1.png",
+    "token_usage": {
+        "prompt_tokens": 9340,
+        "completion_tokens": 309,
+        "total_tokens": 9649
+    }
+}

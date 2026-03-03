@@ -4,17 +4,18 @@
     "image_title": "Summary of Existing State Programs",
     "image_keywords": [
         "OSHA",
-        "Injury Prevention",
-        "State Programs",
-        "Mandatory Regulation",
-        "Safety Committees"
+        "state programs",
+        "mandatory regulation",
+        "safety committees",
+        "insurance premium reductions",
+        "hazardous employers"
     ],
-    "summary": "The image titled 'Summary of Existing State Programs' presents a table detailing various state programs related to OSHA injury and illness prevention. It lists states such as Alabama, Arkansas, California, and others, indicating whether mandatory regulations, safety committees, consulting or recognition programs, insurance premium reductions are present. For instance, Arkansas mandates coverage for 'Hazardous' employers, while California covers all employers. Connecticut requires coverage for employers with more than 25 employees and 'Hazardous' small employers. Other states like Michigan and Nevada have specific employer size requirements for their programs. The source of this information is the OSHA Directorate of Standards and Guidance.",
-    "confidence_score": 1.0,
+    "summary": "This table summarizes existing state programs related to OSHA injury and illness prevention. It lists states alongside their requirements for mandatory regulation, safety committees, consulting or recognition, insurance premium reductions, and coverage details for mandatory programs. States like Arkansas and Tennessee define 'hazardous' employers, while California and New York require coverage for all employers. Specific employer thresholds are noted, such as Connecticut's requirement for employers with more than 25 employees and Michigan's for those in the construction industry. The source of this information is the OSHA Directorate of Standards and Guidance.",
+    "confidence_score": 0.95,
     "image_citation": "extracted_assets\\OSHAwhite-paper-january2012sm\\vector_graphics\\page10_vector.png",
     "token_usage": {
-        "prompt_tokens": 26041,
-        "completion_tokens": 183,
-        "total_tokens": 26224
+        "prompt_tokens": 26341,
+        "completion_tokens": 171,
+        "total_tokens": 26512
     }
 }

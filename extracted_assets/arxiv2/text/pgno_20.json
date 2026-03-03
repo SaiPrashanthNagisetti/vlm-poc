@@ -1,0 +1,19 @@
+{
+  "pdf": "arxiv2",
+  "page": 20,
+  "text": "20 G. Fouilhé et al.\nA Platform for Iterative Planning with Explanations\nThe source code and pre-built docker images will be published upon acceptance.\nFirst we describe the platform architecture, then we give an overview over the\nsupported features covering the iterative planning process, the interface options\nand the adaptations for conducting user studies.\nA.1 Architecture\nThe tool is a web platform, meaning it runs directly in the browser and does\nnot require installation on individual users’ machines. This feature is especially\nbeneficial for conducting user studies.\nWe are using Angular9 for the front-end and Node.js10 with express11 and a\nMongoDB12 database for the back-end. Figure 6 depicts the architecture of the\nplatform.\nDatabase\n...\nBack-end\nExplanation\nService\nEFCC\nRestAPI&AgentManagement\nFront-end\nPlanning\nService\nFD\nQuestion\nQuestion\nGoal Explanation\n...\nType\nSuggester\nTranslator Translator\nClassifier\nOpenAI\nFig.6: Architecture of the web platform\nThesystemhasamodulararchitecture.Explanationsandplansareprovided\nby individual services that in the future can be extended with explanations and\nhttps://angular.dev/\n9\nhttps://nodejs.org\n10\nhttps://expressjs.com/\n11\nhttps://www.mongodb.com/\n12",
+  "keywords": [
+    "translator",
+    "planning",
+    "service",
+    "user",
+    "platform",
+    "question",
+    "end",
+    "architecture",
+    "studies",
+    "https",
+    "user studies",
+    "iterative planning"
+  ]
+}

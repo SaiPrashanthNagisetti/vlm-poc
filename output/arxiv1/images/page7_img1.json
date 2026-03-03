@@ -1,0 +1,22 @@
+{
+    "file_name": "arxiv1",
+    "page_number": 7,
+    "image_title": "Ablations on Tool Position and Training Robustness",
+    "image_keywords": [
+        "Accuracy Gain",
+        "TTRL",
+        "AIME",
+        "MATH",
+        "AMC",
+        "STD",
+        "Variance"
+    ],
+    "summary": "This image presents two charts related to the accuracy gain of different tools in a training context. The left chart depicts accuracy gain percentages for TTRL, AIME, and MATH based on verified voting weight, showing AIME with a peak accuracy gain of +31.6% and MATH with +2.2%. The right chart compares tool calling versus verification, indicating TTRL-Agent's performance against TTRL, with AIME at +31.6%, AMC at -19.0%, and MATH500 at -23.0%. Additionally, the training robustness comparison shows TTRL with a standard deviation of 2.638 and variance of 6.959, while T^3RL has a standard deviation of 1.89 and variance of 3.572. The overall context emphasizes the effectiveness of tool position and training robustness in enhancing accuracy.",
+    "confidence_score": 0.9,
+    "image_citation": "extracted_assets\\arxiv1\\images\\page7_img1.png",
+    "token_usage": {
+        "prompt_tokens": 15007,
+        "completion_tokens": 237,
+        "total_tokens": 15244
+    }
+}

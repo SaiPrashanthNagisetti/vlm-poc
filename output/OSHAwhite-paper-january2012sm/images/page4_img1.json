@@ -6,24 +6,16 @@
         "cost",
         "disabling injuries",
         "1998",
-        "1999",
-        "2000",
-        "2001",
-        "2002",
-        "2003",
-        "2004",
-        "2005",
-        "2006",
-        "2007",
         "2008",
-        "billions"
+        "billions",
+        "Liberty Mutual Research Institute"
     ],
-    "summary": "The line chart titled 'Cost of the Most Disabling Injuries 1998-2008' illustrates the annual costs in billions of dollars associated with the most disabling injuries over the specified period. The data points are as follows: in 1998, the cost was $37.1 billion; in 1999, it increased to $41.1 billion; in 2000, it rose to $42.2 billion; in 2001, it reached $44.2 billion; in 2002, the cost was $47.4 billion; in 2003, it climbed to $51.7 billion; in 2004, it slightly decreased to $50.7 billion; in 2005, it was $48.6 billion; in 2006, it further declined to $48.6 billion; in 2007, it increased to $53.0 billion; and finally, in 2008, it was $53.4 billion. The peak value of $53.4 billion occurred in 2008, while the lowest value of $37.1 billion was recorded in 1998. The overall trend shows a gradual increase in costs over the years, with some fluctuations. The data source is attributed to the Liberty Mutual Research Institute, 2010.",
-    "confidence_score": 1.0,
+    "summary": "This line chart illustrates the cost of the most disabling injuries from 1998 to 2008, measured in billions of dollars. The data points are as follows: 1998: $37.1 billion, 1999: $41.1 billion, 2000: $42.2 billion, 2001: $44.2 billion, 2002: $47.4 billion, 2003: $51.7 billion, 2004: $50.7 billion, 2005: $48.6 billion, 2006: $48.6 billion, 2007: $53.0 billion, and 2008: $53.4 billion. The chart shows a general upward trend, with a peak in 2008 at $53.4 billion and a low point in 1998 at $37.1 billion. The source of the data is the Liberty Mutual Research Institute, 2010.",
+    "confidence_score": 0.95,
     "image_citation": "extracted_assets\\OSHAwhite-paper-january2012sm\\images\\page4_img1.png",
     "token_usage": {
-        "prompt_tokens": 9040,
-        "completion_tokens": 366,
-        "total_tokens": 9406
+        "prompt_tokens": 9340,
+        "completion_tokens": 266,
+        "total_tokens": 9606
     }
 }

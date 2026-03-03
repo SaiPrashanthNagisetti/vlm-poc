@@ -1,25 +1,21 @@
 {
     "file_name": "OSHAwhite-paper-january2012sm",
     "page_number": 6,
-    "image_title": "Top Benefits of Effective Workplace Safety Programs Cited by Financial Decisionmakers (percent of respondents)",
+    "image_title": "Top Benefits of Effective Workplace Safety Programs",
     "image_keywords": [
-        "Increased productivity",
-        "Reduced costs",
-        "Better employee morale",
-        "Greater retention of employees",
-        "Other",
-        "6%",
-        "7%",
-        "16%",
-        "28%",
-        "43%"
+        "workplace safety",
+        "benefits",
+        "financial decisionmakers",
+        "productivity",
+        "cost reduction",
+        "employee morale"
     ],
-    "summary": "The pie chart titled 'Top Benefits of Effective Workplace Safety Programs Cited by Financial Decisionmakers (percent of respondents)' illustrates the perceived advantages of workplace safety programs among financial decisionmakers. The data shows that 43% of respondents identified 'Increased productivity' as the top benefit, followed by 'Reduced costs' at 28%, 'Other' benefits at 16%, 'Greater retention of employees' at 7%, and 'Better employee morale and greater job satisfaction' at 6%. This indicates a clear trend towards productivity as the primary advantage, with a total of 100% represented in the chart.",
-    "confidence_score": 1.0,
+    "summary": "This pie chart illustrates the top benefits of effective workplace safety programs as reported by financial decisionmakers, with the data expressed in percentages of respondents. The largest segment, representing 43%, indicates that 'Increased productivity' is the primary benefit. Following this, 'Reduced costs' accounts for 28%, while 'Greater retention of employees' is noted at 7%. The segment labeled 'Other' comprises 16%, and 'Better employee morale and greater job satisfaction' is represented by 6%. The chart effectively highlights the perceived advantages of implementing safety programs in the workplace.",
+    "confidence_score": 0.95,
     "image_citation": "extracted_assets\\OSHAwhite-paper-january2012sm\\images\\page6_img1.png",
     "token_usage": {
-        "prompt_tokens": 9040,
-        "completion_tokens": 207,
-        "total_tokens": 9247
+        "prompt_tokens": 9340,
+        "completion_tokens": 176,
+        "total_tokens": 9516
     }
 }

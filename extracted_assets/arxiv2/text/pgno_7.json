@@ -1,0 +1,19 @@
+{
+  "pdf": "arxiv2",
+  "page": 7,
+  "text": "Exploring Plan Space through Conversation 7\nA context-dependent question translator with access to previous questions\nenablesfollow-upswithimplicitreferences.Forexample,in“WhycanInotvisit\nAlice?” and“Canyouenforceit?”,thevisitedlocationoreventheentirequestion\nargument depends on the context.\nIn a pilot user study, lay users often struggled to formu-\nSelecting Questions\nlate questions. As a result, they made less use of the explanation interface than\nintended and produced only a narrow range of questions. This suggests that a\ncrucial task for an explanation interface is to support users in generating mean-\ningful, diverse inquiries, for instance, by suggesting questions. While allowing\nusers to ask any natural language question is a desirable feature of a conver-\nsational interface, it can increase cognitive load [29]. The Question Suggester\nprovides a sample of relevant questions to mitigate this.\nDefinition 7 (Question Suggester). A Question Suggester is a function\nNLk\nS δ (cid:55)→ that maps a given iteration step to k relevant natural language\n:\nQ\nquestions.\nTheexplanationframeworkcomputesasetofformalexplanations\nExplanations\nbased on the translated question and additional required\nE(Q) Q ⟨µ ,args⟩\n=\nQ\ndata, such as the planning task and the current iteration step . We do\nτ δ\ni\nnot place any restrictions on the exact format or language of an explanation\n∈explanations(Q), and will refer to the language as . However, we assume\nE L\nE\nthat each explanation is sufficient in itself to answer the question.\nE ∈ E(Q)\nis regarded as a selection of possible explanations.\nE(Q)\nThese explanations must be communicated to the user, and thus, we again\nneed a translator function.\nDefinition 8 (Explanation Translator). An explanation translator is a\nfunction T :℘(L(E))(cid:55)→NL, that maps a set of formal explanations to a natural\nE\nlanguage explanation.\nAs an example of goal-conflict explanations, following the running example:\nsuppose the current iteration step achieves goal M. The question “How can I\nfindtimetocookdinner?”,translatedas⟨S-how,{C}⟩,yieldsE(⟨S-how,{C}⟩)=\n{{M}}.ThismeansthatC isachievableonlyifatleastM isdroppedinthenext\niteration step. Hence, an explanation translator would respond: “You’d need to\ncancel the sports match.”. How this explanation is computed is detailed in the\nnext section.\nThis is a simple version of an explanation translator that does not provide\nuser-orcontext-dependenttranslation.User-dependenttranslationiscrucialfor\ncustomizing the vocabulary to the user and providing an answer with the ex-\npected level of detail. Incorporating the interaction context can have several\nbenefits, from the possibility of asking follow-up questions, which naturally in-\ncreasesinteractivity,totheinclusionofpreviousinteractionsintheselectionand\nsummarization of explanations.",
+  "keywords": [
+    "question suggester",
+    "translator",
+    "explanation",
+    "step",
+    "explanations",
+    "user",
+    "question",
+    "explanation translator",
+    "iteration",
+    "iteration step",
+    "questions",
+    "language"
+  ]
+}

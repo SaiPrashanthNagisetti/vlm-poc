@@ -1,0 +1,25 @@
+{
+    "file_name": "arxiv2",
+    "page_number": 27,
+    "image_title": "Plan Iterations Overview",
+    "image_keywords": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5",
+        "Step 6",
+        "Step 7",
+        "goals",
+        "evaluation",
+        "user study"
+    ],
+    "summary": "This image presents an overview of plan iterations in a user study, detailing seven steps with their respective statuses. Step 1 is marked as 'Done' with 10 out of 18 goals achieved. Step 2 is also 'Done' with 10 out of 18 goals achieved. Step 3 is 'Unfinished' with 11 out of 18 goals achieved. Step 4 is 'Unfinished' with 7 out of 18 goals achieved. Step 5 is 'Unfinished' with no goals achieved. Step 6 is 'Unfinished' with 7 out of 18 goals achieved. Step 7 is 'Done' with 16 out of 18 goals achieved. The overall task has 3 successes and 4 unfinished goals, indicating progress and areas needing attention.",
+    "confidence_score": 0.9,
+    "image_citation": "extracted_assets\\arxiv2\\images\\page27_img1.png",
+    "token_usage": {
+        "prompt_tokens": 26341,
+        "completion_tokens": 241,
+        "total_tokens": 26582
+    }
+}

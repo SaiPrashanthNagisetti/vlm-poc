@@ -3,20 +3,20 @@
     "page_number": 13,
     "image_title": "Attention Visualizations",
     "image_keywords": [
+        "attention",
+        "visualization",
+        "text",
+        "data",
         "2000",
-        "American",
-        "governments",
-        "laws",
         "voting",
-        "registration",
-        "difficult"
+        "registration"
     ],
-    "summary": "The image titled 'Attention Visualizations' presents a textual representation highlighting that since 2000, a majority of American governments have passed new laws making the registration or voting process more difficult. The key year mentioned is 2000, indicating a significant point in the trend of legislative changes affecting voter registration.",
+    "summary": "This image titled 'Attention Visualizations' displays a textual representation of attention weights associated with various words. The visualization highlights the word 'making' in 2000, indicating a significant focus on this term within the context of the surrounding words. Other words include 'It', 'is', 'this', 'split', 'a', 'majority', 'of', 'American', 'governments', 'have', 'passed', 'new', 'laws', 'since', 'the', 'registration', 'or', 'voting', 'process', 'more', 'difficult'. The arrangement suggests a narrative related to voting and registration processes, emphasizing the challenges introduced over time. The overall design appears to be a part of a larger analysis or discussion on voting legislation and its implications.",
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\Attention\\tables\\page13_table1.png",
     "token_usage": {
-        "prompt_tokens": 14707,
-        "completion_tokens": 118,
-        "total_tokens": 14825
+        "prompt_tokens": 15007,
+        "completion_tokens": 215,
+        "total_tokens": 15222
     }
 }

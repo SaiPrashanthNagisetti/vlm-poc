@@ -1,0 +1,25 @@
+{
+    "file_name": "arxiv1",
+    "page_number": 6,
+    "image_title": "Improvement Comparison of TTRL and T\u00b3RL",
+    "image_keywords": [
+        "Improvement",
+        "TTRL",
+        "T\u00b3RL",
+        "MATH-L1",
+        "MATH-L2",
+        "MATH-L3",
+        "MATH-L4",
+        "MATH-L5",
+        "percentages",
+        "additional gain"
+    ],
+    "summary": "This bar chart titled 'Improvement Comparison of TTRL and T\u00b3RL' illustrates the percentage improvement across different math levels (MATH-L1 to MATH-L5) for two methods: TTRL (shown in gray) and T\u00b3RL (shown in red). The data points indicate that MATH-L1 achieved a significant improvement of 275% with an additional gain of +0.8%, while MATH-L2 showed a 225% improvement with +0.5%. MATH-L3, MATH-L4, and MATH-L5 had improvements of 230%, 240%, and 250% respectively, with additional gains of +6.3%, +6.7%, and +8.9%. The chart highlights a trend of increasing additional gains as the math levels progress, particularly for T\u00b3RL, which shows a steady upward trend in performance. The vertical axis represents improvement percentage, while the horizontal axis lists the math levels.",
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\arxiv1\\images\\page6_img1.png",
+    "token_usage": {
+        "prompt_tokens": 9340,
+        "completion_tokens": 285,
+        "total_tokens": 9625
+    }
+}

@@ -4,19 +4,23 @@
     "image_title": "Attention Visualizations",
     "image_keywords": [
         "attention mechanism",
-        "long-distance dependencies",
         "self-attention",
+        "long-distance dependencies",
+        "encoder",
         "layer 5",
-        "making",
+        "word making",
         "voting",
-        "registration"
+        "registration",
+        "governments",
+        "passed",
+        "difficult"
     ],
-    "summary": "The image titled 'Attention Visualizations' illustrates an example of the attention mechanism following long-distance dependencies in the encoder self-attention of layer 5 out of 6. The visualization highlights the verb 'making' and its connections to other words such as 'voting' and 'registration'. Different colors represent various attention heads, indicating how many attention heads focus on the phrase 'making...more difficult'. The visual emphasizes the complexity of attention in language processing, particularly in relation to government actions and voter registration. The source of the figure is noted as being best viewed in color.",
+    "summary": "This image titled 'Attention Visualizations' illustrates an example of the attention mechanism in a self-attention encoder, specifically in layer 5 of 6. It highlights how various attention heads focus on long-distance dependencies, particularly the verb 'making', which completes the phrase 'making...more difficult'. The visualization shows connections between words such as 'voting', 'registration', and 'governments passed', with different colors representing different attention heads. The attention patterns are best viewed in color, emphasizing the complex relationships between the words in the context of the sentence.",
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\Attention\\vector_graphics\\page13_vector.png",
     "token_usage": {
-        "prompt_tokens": 26041,
-        "completion_tokens": 176,
-        "total_tokens": 26217
+        "prompt_tokens": 26341,
+        "completion_tokens": 189,
+        "total_tokens": 26530
     }
 }

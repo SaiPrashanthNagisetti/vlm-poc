@@ -1,0 +1,19 @@
+{
+  "pdf": "arxiv1",
+  "page": 6,
+  "text": "Table1.Mainresults. Table2.MATH-500difficultybreakdown.\nL1 L2 L3 L4 L5\nModel/Method AIME2024 AMC MATH-500 Avg\nQwen-Math-1.5B 25.9 33.0 36.3 32.5 22.3\nMathModel\nw/TTRL 95.0 88.0 85.0 69.7 47.0\nQwen-2.5-Math-1.5B(Baseline) 7.7 28.6 32.7 23.0\nw/T3RL\n95.2 88.2 87.3 72.0 49.0\nw/TTRL 15.8 48.9 73.0 45.9\n↑267.6% ↑166.7% ↑140.5% ↑121.2% ↑119.7%\nRel.(%overBaseline)\nw/T3RL\n20.8 50.9 74.6 48.8\n↑0.2% ↑0.2% ↑2.7% ↑3.3% ↑4.3%\nRel.(%overTTRL)\nVanillaModel\nFigure4.Relativegainoverbaselinetrend(T3RLvsTTRL).\nQwen-2.5-1.5B(Baseline) 0.2 0.6 7.7 2.8\nw/TTRL 3.5 28.6 63.2 31.8\nw/T3RL\n4.1 30.7 65.0 33.3\nQwen-3-4B(Baseline) 0.0 12.5 50.4 21.0\nT3RL\nw/TTRL 36.4 71.7 88.4 65.5\nw/T3RL\n40.0 74.2 89.5 68.1\nInstructModel\nLlama-3.2-1B-Instruct(Baseline) 0.8 4.2 4.4 3.1\nw/TTRL 7.5 16.9 40.0 21.5\nw/T3RL\n8.3 19.9 42.2 23.5\nLlama-3-3B-Instruct(Baseline) 6.0 19.4 43.9 23.1\nw/TTRL 13.3 31.3 61.6 35.4\nw/T3RL\n17.1 34.2 63.3 38.2\nTable3.MainperformanceofT3RL.(a)Improvementacrossbenchmarkandbackbonemodels.(b)Difficultybreakdownperformance\nonMATH-500(L5isthehardest).(c)RelativeimprovementdifferenceofT3RLoverTTRLtobaselines,increaseswithdifficultylevel.\n5.3.AblationStudies\ntoolverificationisnottiedtoaspecificpretrainingrecipe,\nbut works across model families and alignment regimes.\nThis section presents an analysis of the three key fac-\nNevertheless,ourexperimentsrevealthefollowingtrends:\ntorsthatsupportT3RL:(1)test-timeverification,(2)tool-\nassistedverification,and(3)verification-weightedmajority\nMath-specialized backbones and harder benchmarks\nvoting. Unless otherwise specified, we run ablations on\nparticularlybenefitfromtoolverification.\nQwen-Math-1.5B\nN=64\nwith rollout size and report\nPass@1performance.\n(i) Math-specialized models benefit more:\n•\nAcross all benchmarks, the math-specialized",
+  "keywords": [
+    "specialized",
+    "math 5b",
+    "qwen math",
+    "5b",
+    "t3rl",
+    "23",
+    "88",
+    "math specialized",
+    "baseline",
+    "qwen",
+    "ttrl",
+    "math"
+  ]
+}

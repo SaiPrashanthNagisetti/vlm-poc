@@ -1,0 +1,22 @@
+{
+    "file_name": "arxiv2",
+    "page_number": 25,
+    "image_title": "Parent and Son Music Lesson Scenario",
+    "image_keywords": [
+        "parent",
+        "son",
+        "music lesson",
+        "guitar",
+        "schedule",
+        "space",
+        "goal satisfaction"
+    ],
+    "summary": "The image depicts a scenario where a parent brings their son to a music school at 14:00 for a one-hour music lesson. The son has a guitar, and both the son and guitar occupy one unit of space in the car, indicating that the parent does not need to stay during the lesson. The text also includes questions related to satisfying the goal of 'son attends music lesson,' suggesting possible conditions for fulfillment, such as 'daughter does soccer training' and 'grandma buys groceries.' The context revolves around managing space and time for the music lesson while addressing other familial responsibilities.",
+    "confidence_score": 0.9,
+    "image_citation": "extracted_assets\\arxiv2\\images\\page25_img1.png",
+    "token_usage": {
+        "prompt_tokens": 9340,
+        "completion_tokens": 176,
+        "total_tokens": 9516
+    }
+}

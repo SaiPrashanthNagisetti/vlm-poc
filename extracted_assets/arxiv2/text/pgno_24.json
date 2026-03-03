@@ -1,0 +1,19 @@
+{
+  "pdf": "arxiv2",
+  "page": 24,
+  "text": "24 G. Fouilhé et al.\nthe plan:\n• π\ni\nthe additional satisfied reference goals:\nGtrue(π)\\Genf\n•\ni\nthe not satisfied reference goals:\nGfalse(π)\n•\nthe enforced goals:\nGenf\n•\ni\nUnsolvable Step :\n– δ\ni\nthe enforced goals:\nGenf\n•\ni\nFig.10: Screenshot of the details view of a solvable iteration step (left) and an\nunsolvable step (right).\nUsers can create the next iteration step by either starting from scratch or\nby forking from an existing step. To allow the creation of the next step while\nsimultaneously having access to the information described above and the expla-\nnations (presented in the next Section), the interface is located in a sidebar as\nshown on the right in Figure 9.\nTocreateanewstepausermustselectatleastoneenforcedgoal.Thiscanbe\nan already existing or a newly created goal. In addition, the user can also select\nor create new reference goals . If the user is satisfied with their selection\nGref\ni+1\nthey can create a new step. This automatically triggers the computation of a\nplan that must satisfy the enforced goals.\nExplanations are provided in the details view of\nExplanations Interfaces\nthe iteration steps. The computation of an explanation is triggered as soon as",
+  "keywords": [
+    "step",
+    "reference",
+    "create",
+    "goals",
+    "enforced goals",
+    "iteration",
+    "satisfied",
+    "reference goals",
+    "enforced",
+    "genf",
+    "unsolvable step",
+    "unsolvable"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+    "file_name": "arxiv1",
+    "page_number": 8,
+    "image_title": "Comparison of AIME and MATH Scores",
+    "image_keywords": [
+        "AIME",
+        "MATH",
+        "TTRL",
+        "T\u00b3RL",
+        "scores",
+        "data comparison"
+    ],
+    "summary": "This bar chart compares the scores of two assessments, AIME and MATH, under different configurations of r (64, 16, 32). For AIME, the scores are 15.8 for r=64, and 20.8 for both r=16 and r=32. For MATH, the scores are 73.0 for r=64, 74.3 for r=32, and 74.6 for r=64. The chart distinguishes between two methods: TTRL represented in gray and T\u00b3RL in red. The highest score for AIME is 20.8, while the highest for MATH is 74.6, indicating a notable difference in performance across the two assessments.",
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\arxiv1\\images\\page8_img1.png",
+    "token_usage": {
+        "prompt_tokens": 9340,
+        "completion_tokens": 211,
+        "total_tokens": 9551
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "file_name": "arxiv2",
+    "page_number": 24,
+    "image_title": "Task Management Insights",
+    "image_keywords": [
+        "insights",
+        "goals",
+        "task management",
+        "enforced goals"
+    ],
+    "summary": "This visual presents insights related to task management, specifically focusing on enforced goals. The goals include ensuring the daughter is home in the evening, preventing the purchase of groceries, the daughter attending soccer training, bringing groceries to the grandmother's house, the parent attending sports, and the son attending a music lesson. Each goal is associated with a numerical value indicating its priority or status, although specific values are not visible. The overall purpose of this visual is to provide a structured overview of personal or family-related tasks and their management.",
+    "confidence_score": 0.85,
+    "image_citation": "extracted_assets\\arxiv2\\images\\page24_img2.png",
+    "token_usage": {
+        "prompt_tokens": 9340,
+        "completion_tokens": 152,
+        "total_tokens": 9492
+    }
+}

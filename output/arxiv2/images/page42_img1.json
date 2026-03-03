@@ -1,0 +1,20 @@
+{
+    "file_name": "arxiv2",
+    "page_number": 42,
+    "image_title": "Template-based Interface Insights",
+    "image_keywords": [
+        "template-based interface",
+        "planning task",
+        "goal conflicts",
+        "suggested questions",
+        "user interaction"
+    ],
+    "summary": "This image presents a template-based interface designed to assist users in understanding planning tasks. The interface includes two parts: the first part lists various suggested questions related to goal conflicts and planning, such as inquiries about conflicts between family members' activities and how to prioritize them. The second part illustrates a conversation where the system explains the complexity of resolving conflicting goals and offers specific examples, like the conflicts between basketball training and piano lessons. The interface aims to guide users in identifying and managing their goals effectively, highlighting the importance of resolving conflicts to facilitate decision-making.",
+    "confidence_score": 0.9,
+    "image_citation": "extracted_assets\\arxiv2\\images\\page42_img1.png",
+    "token_usage": {
+        "prompt_tokens": 26341,
+        "completion_tokens": 163,
+        "total_tokens": 26504
+    }
+}

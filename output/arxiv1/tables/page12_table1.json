@@ -1,0 +1,20 @@
+{
+    "file_name": "arxiv1",
+    "page_number": 12,
+    "image_title": "Data Comparison Table",
+    "image_keywords": [
+        "T3RL",
+        "TTL",
+        "data comparison",
+        "values",
+        "relative percentage"
+    ],
+    "summary": "This table presents a comparison of values related to T3RL with a 0.5B verifier and their differences from TTL. The first row shows values of 0.0, 10.8, 32.0, and 14.3 for T3RL. The second row indicates the differences (\u0394) between T3RL and TTL as -0.4, -1.2, -2.6, and -1.4 respectively. The last row displays the relative percentages over TTL as 100.0%, 10.0%, 7.5%, and 8.9%, with downward arrows indicating the trend in each case. The table effectively summarizes the performance metrics of T3RL in comparison to TTL.",
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\arxiv1\\tables\\page12_table1.png",
+    "token_usage": {
+        "prompt_tokens": 15007,
+        "completion_tokens": 203,
+        "total_tokens": 15210
+    }
+}

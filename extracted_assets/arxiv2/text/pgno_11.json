@@ -1,0 +1,19 @@
+{
+  "pdf": "arxiv2",
+  "page": 11,
+  "text": "Exploring Plan Space through Conversation 11\nAs illustrated in Figure 2, everything begins with a question from the user.\nThis question can be selected from the Question Suggester or directly ex-\nS\nQ\npressed in Natural Language. Then, the Question Translator determines\nT\nQ\nwhether the question can be answered directly or requires an explanation from\nEF .TocallEF ,eitherT ortheGoalTranslatorT translatesthequestion\nCC CC Q G\nfrom natural to formal language. Then, the formal explanation is translated by\nthe Explanation Translator and returned to the user.\nT\nE\n5.1 Question Processing\nFigure 2 shows the communication protocol between the user, translators, and\nEF .Fromtheuser’squestionQ ,differentroutesarepossible.ADispatcher\nCC NL\nroutes the response of depending on the identified question type .\nT µ\nQ Q\n: If is classified as one of the question types in . Therefore,\n– µ ∈M Q M\nQ Q NL Q\nan explanation from EF is necessary, and the resulting formal explanation\nCC\nis then translated by . Nonetheless, depending on the question topic, there\nT\nE\nare two possibilities:\nEFQUERY-noGT: The question does not mention goals, or the question argu-\n•\n(cid:83)\nment goals were mapped to known goals (i.e, in Gref). Hence,\nGref\nT\n=\nG\ni\nall\nis bypassed, and the (already known) formula corresponding to the\nLTL\nf\ngoal is used.\nEFQUERY-GT: The goals mentioned in the question cannot be mapped to\n•\nknown goals. Hence, the translates the natural expression of the goal\nT\nG\n, creates a new formal goal, and constructs the corresponding\nG LTL\nNL f\nformula to pass to the EF .\nCC\n=DIRECT:IfT cananswerthequestion,thentheanswerisgivendirectly\n– µ\nQ Q\nto the user. This includes, for example, questions like “Which questions can I\nask?” but also incomprehensible messages or unsupported questions.\nFOLLOW-UP: If is identified as a follow-up question, not requiring\n– µ Q\n=\nQ NL\nnewinputfromEF ,thenQ isdirectlysenttotheExplanationTranslator\nCC NL\n.\nT\nE\n5.2 LLM Agent Implementations\nAll agents are instantiated from the same base model GPT-4.1-mini, with their\ninput and output histories maintained separately. Each LLM agent receives a\nstructured string consisting of the prompts described in the technical appendix\nand the input components listed in Figure 2. A translator based only on these\ninputs can provide only context-independent translations and cannot handle\nfollow-up questions. To enable context-dependent translators, we leverage the\nLLMcontextmemory,allowingthemtobuildonandreferencepreviousinterac-\ntions, and thus provide the benefits listed in Section 3. Although LLM contexts\ncan, in principle, retain all prior user interactions, we maintain separate con-\ntexts for each iteration step to avoid mixing information, preserve clarity, and",
+  "keywords": [
+    "formal",
+    "translator",
+    "explanation",
+    "cc",
+    "user",
+    "question",
+    "ef",
+    "figure",
+    "nl",
+    "goals",
+    "natural",
+    "questions"
+  ]
+}

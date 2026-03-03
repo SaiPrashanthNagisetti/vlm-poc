@@ -4,18 +4,18 @@
     "page": 1,
     "text": "Providedproperattributionisprovided,Googleherebygrantspermissionto\nreproducethetablesandfiguresinthispapersolelyforuseinjournalisticor\nscholarlyworks.\nAttention Is All You Need\n3202\nAshishVaswani∗ NoamShazeer∗ NikiParmar∗ JakobUszkoreit∗\nGoogleBrain GoogleBrain GoogleResearch GoogleResearch\navaswani@google.com noam@google.com nikip@google.com usz@google.com\nguA\nLlionJones∗ AidanN.Gomez∗ † ŁukaszKaiser∗\nGoogleResearch UniversityofToronto GoogleBrain\n2\nllion@google.com aidan@cs.toronto.edu lukaszkaiser@google.com\n]LC.sc[\nIlliaPolosukhin∗ ‡\nillia.polosukhin@gmail.com\nAbstract\n7v26730.6071:viXra\nThedominantsequencetransductionmodelsarebasedoncomplexrecurrentor\nconvolutionalneuralnetworksthatincludeanencoderandadecoder. Thebest\nperforming models also connect the encoder and decoder through an attention\nmechanism. We propose a new simple network architecture, the Transformer,\nbasedsolelyonattentionmechanisms,dispensingwithrecurrenceandconvolutions\nentirely. Experiments on two machine translation tasks show these models to\nbesuperiorinqualitywhilebeingmoreparallelizableandrequiringsignificantly\nless time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-\nto-German translation task, improving over the existing best results, including\nensembles,byover2BLEU.OntheWMT2014English-to-Frenchtranslationtask,\nourmodelestablishesanewsingle-modelstate-of-the-artBLEUscoreof41.8after\ntrainingfor3.5daysoneightGPUs,asmallfractionofthetrainingcostsofthe\nbestmodelsfromtheliterature. WeshowthattheTransformergeneralizeswellto\nothertasksbyapplyingitsuccessfullytoEnglishconstituencyparsingbothwith\nlargeandlimitedtrainingdata.\n∗Equalcontribution.Listingorderisrandom.JakobproposedreplacingRNNswithself-attentionandstarted\ntheefforttoevaluatethisidea.Ashish,withIllia,designedandimplementedthefirstTransformermodelsand\nhasbeencruciallyinvolvedineveryaspectofthiswork.Noamproposedscaleddot-productattention,multi-head\nattentionandtheparameter-freepositionrepresentationandbecametheotherpersoninvolvedinnearlyevery\ndetail.Nikidesigned,implemented,tunedandevaluatedcountlessmodelvariantsinouroriginalcodebaseand\ntensor2tensor.Llionalsoexperimentedwithnovelmodelvariants,wasresponsibleforourinitialcodebase,and\nefficientinferenceandvisualizations.LukaszandAidanspentcountlesslongdaysdesigningvariouspartsofand\nimplementingtensor2tensor,replacingourearliercodebase,greatlyimprovingresultsandmassivelyaccelerating\nourresearch.\n†WorkperformedwhileatGoogleBrain.\n‡WorkperformedwhileatGoogleResearch.",
     "keywords": [
-      "translation",
+      "com",
       "ashish",
-      "googleresearch",
-      "attention",
       "googlebrain",
+      "googleresearch",
+      "google com",
+      "models",
+      "attention",
       "google",
+      "translation",
       "ashish withillia",
       "ashishvaswani",
-      "models",
-      "com",
-      "ashishvaswani noamshazeer",
-      "google com"
+      "ashishvaswani noamshazeer"
     ],
     "visual_summaries": []
   },
@@ -24,51 +24,52 @@
     "page": 2,
     "text": "1 Introduction\nRecurrentneuralnetworks,longshort-termmemory[13]andgatedrecurrent[7]neuralnetworks\ninparticular,havebeenfirmlyestablishedasstateoftheartapproachesinsequencemodelingand\ntransductionproblemssuchaslanguagemodelingandmachinetranslation[35,2,5]. Numerous\neffortshavesincecontinuedtopushtheboundariesofrecurrentlanguagemodelsandencoder-decoder\narchitectures[38,24,15].\nRecurrentmodelstypicallyfactorcomputationalongthesymbolpositionsoftheinputandoutput\nsequences. Aligningthepositionstostepsincomputationtime,theygenerateasequenceofhidden\nstatesh ,asafunctionoftheprevioushiddenstateh andtheinputforpositiont.\nThisinherently\nt t−1\nsequentialnatureprecludesparallelizationwithintrainingexamples,whichbecomescriticalatlonger\nsequencelengths,asmemoryconstraintslimitbatchingacrossexamples. Recentworkhasachieved\nsignificantimprovementsincomputationalefficiencythroughfactorizationtricks[21]andconditional\ncomputation[32],whilealsoimprovingmodelperformanceincaseofthelatter. Thefundamental\nconstraintofsequentialcomputation,however,remains.\nAttentionmechanismshavebecomeanintegralpartofcompellingsequencemodelingandtransduc-\ntionmodelsinvarioustasks,allowingmodelingofdependencieswithoutregardtotheirdistancein\ntheinputoroutputsequences[2,19]. Inallbutafewcases[27],however,suchattentionmechanisms\nareusedinconjunctionwitharecurrentnetwork.\nInthisworkweproposetheTransformer,amodelarchitectureeschewingrecurrenceandinstead\nrelyingentirelyonanattentionmechanismtodrawglobaldependenciesbetweeninputandoutput.\nTheTransformerallowsforsignificantlymoreparallelizationandcanreachanewstateoftheartin\ntranslationqualityafterbeingtrainedforaslittleastwelvehoursoneightP100GPUs.\n2 Background\nThegoalofreducingsequentialcomputationalsoformsthefoundationoftheExtendedNeuralGPU\n[16],ByteNet[18]andConvS2S[9],allofwhichuseconvolutionalneuralnetworksasbasicbuilding\nblock,computinghiddenrepresentationsinparallelforallinputandoutputpositions.Inthesemodels,\nthenumberofoperationsrequiredtorelatesignalsfromtwoarbitraryinputoroutputpositionsgrows\ninthedistancebetweenpositions,linearlyforConvS2SandlogarithmicallyforByteNet. Thismakes\nit more difficult to learn dependencies between distant positions [12]. In the Transformer this is\nreducedtoaconstantnumberofoperations, albeitatthecostofreducedeffectiveresolutiondue\nto averaging attention-weighted positions, an effect we counteract with Multi-Head Attention as\ndescribedinsection3.2.\nSelf-attention,sometimescalledintra-attentionisanattentionmechanismrelatingdifferentpositions\nofasinglesequenceinordertocomputearepresentationofthesequence. Self-attentionhasbeen\nusedsuccessfullyinavarietyoftasksincludingreadingcomprehension,abstractivesummarization,\ntextualentailmentandlearningtask-independentsentencerepresentations[4,27,28,22].\nEnd-to-endmemorynetworksarebasedonarecurrentattentionmechanisminsteadofsequence-\nalignedrecurrenceandhavebeenshowntoperformwellonsimple-languagequestionansweringand\nlanguagemodelingtasks[34].\nTo the best of our knowledge, however, the Transformer is the first transduction model relying\nentirelyonself-attentiontocomputerepresentationsofitsinputandoutputwithoutusingsequence-\nalignedRNNsorconvolution. Inthefollowingsections,wewilldescribetheTransformer,motivate\nself-attentionanddiscussitsadvantagesovermodelssuchas[17,18]and[9].\n3 ModelArchitecture\nMostcompetitiveneuralsequencetransductionmodelshaveanencoder-decoderstructure[5,2,35].\n(x ,...,x )\nHere, the encoder maps an input sequence of symbol representations to a sequence\n1 n\nz = (z ,...,z ). z,\nof continuous representations Given the decoder then generates an output\n1 n\nsequence(y ,...,y )ofsymbolsoneelementatatime.\nAteachstepthemodelisauto-regressive\n1 m\n[10],consumingthepreviouslygeneratedsymbolsasadditionalinputwhengeneratingthenext.",
     "keywords": [
-      "27",
-      "34 best",
-      "attention",
       "whilealsoimprovingmodelperformanceincaseofthelatter",
-      "positions",
-      "18",
-      "decoder",
-      "representations",
-      "transformer",
-      "35",
       "sequence",
-      "self"
+      "representations",
+      "self",
+      "decoder",
+      "positions",
+      "attention",
+      "18",
+      "transformer",
+      "27",
+      "35",
+      "34 best"
     ],
     "visual_summaries": []
   },
   {
     "pdf": "Attention",
     "page": 3,
-    "text": "Figure1: TheTransformer-modelarchitecture.\nTheTransformerfollowsthisoverallarchitectureusingstackedself-attentionandpoint-wise,fully\nconnectedlayersforboththeencoderanddecoder,shownintheleftandrighthalvesofFigure1,\nrespectively.\n3.1 EncoderandDecoderStacks\nN = 6\nEncoder:\nThe encoder is composed of a stack of identical layers. Each layer has two\nsub-layers. Thefirstisamulti-headself-attentionmechanism,andthesecondisasimple,position-\nwisefullyconnectedfeed-forwardnetwork. Weemployaresidualconnection[11]aroundeachof\nthe two sub-layers, followed by layer normalization [1]. That is, the output of each sub-layer is\nLayerNorm(x+Sublayer(x)),whereSublayer(x)isthefunctionimplementedbythesub-layer\nitself. Tofacilitatetheseresidualconnections,allsub-layersinthemodel,aswellastheembedding\nlayers,produceoutputsofdimensiond =512.\nmodel\nThedecoderisalsocomposedofastackofN =6identicallayers.\nDecoder:\nInadditiontothetwo\nsub-layersineachencoderlayer,thedecoderinsertsathirdsub-layer,whichperformsmulti-head\nattentionovertheoutputoftheencoderstack. Similartotheencoder,weemployresidualconnections\naroundeachofthesub-layers,followedbylayernormalization. Wealsomodifytheself-attention\nsub-layer in the decoder stack to prevent positions from attending to subsequent positions. This\nmasking,combinedwithfactthattheoutputembeddingsareoffsetbyoneposition,ensuresthatthe\npredictionsforpositionicandependonlyontheknownoutputsatpositionslessthani.\n3.2 Attention\nAnattentionfunctioncanbedescribedasmappingaqueryandasetofkey-valuepairstoanoutput,\nwherethequery,keys,values,andoutputareallvectors. Theoutputiscomputedasaweightedsum\n\n[VISUAL CONTENT - IMAGES]\nTitle: Transformer Architecture\nSummary: The image illustrates the architecture of a Transformer model, featuring two main components: the encoder and decoder. The encoder consists of multiple layers (N×) that include 'Add & Norm', 'Feed Forward', and 'Multi-Head Attention' blocks. The decoder mirrors this structure but includes a 'Masked Multi-Head Attention' block to prevent attending to future tokens. Positional encoding is applied to both input and output embeddings to retain the order of the sequence. The output probabilities are generated through a linear layer followed by a softmax function.",
+    "text": "Figure1: TheTransformer-modelarchitecture.\nTheTransformerfollowsthisoverallarchitectureusingstackedself-attentionandpoint-wise,fully\nconnectedlayersforboththeencoderanddecoder,shownintheleftandrighthalvesofFigure1,\nrespectively.\n3.1 EncoderandDecoderStacks\nN = 6\nEncoder:\nThe encoder is composed of a stack of identical layers. Each layer has two\nsub-layers. Thefirstisamulti-headself-attentionmechanism,andthesecondisasimple,position-\nwisefullyconnectedfeed-forwardnetwork. Weemployaresidualconnection[11]aroundeachof\nthe two sub-layers, followed by layer normalization [1]. That is, the output of each sub-layer is\nLayerNorm(x+Sublayer(x)),whereSublayer(x)isthefunctionimplementedbythesub-layer\nitself. Tofacilitatetheseresidualconnections,allsub-layersinthemodel,aswellastheembedding\nlayers,produceoutputsofdimensiond =512.\nmodel\nThedecoderisalsocomposedofastackofN =6identicallayers.\nDecoder:\nInadditiontothetwo\nsub-layersineachencoderlayer,thedecoderinsertsathirdsub-layer,whichperformsmulti-head\nattentionovertheoutputoftheencoderstack. Similartotheencoder,weemployresidualconnections\naroundeachofthesub-layers,followedbylayernormalization. Wealsomodifytheself-attention\nsub-layer in the decoder stack to prevent positions from attending to subsequent positions. This\nmasking,combinedwithfactthattheoutputembeddingsareoffsetbyoneposition,ensuresthatthe\npredictionsforpositionicandependonlyontheknownoutputsatpositionslessthani.\n3.2 Attention\nAnattentionfunctioncanbedescribedasmappingaqueryandasetofkey-valuepairstoanoutput,\nwherethequery,keys,values,andoutputareallvectors. Theoutputiscomputedasaweightedsum\n\n[VISUAL CONTENT - IMAGES]\nTitle: Transformer Model Architecture\nSummary: This diagram illustrates the architecture of a Transformer model, showcasing its components and processes. The model consists of an input embedding layer that receives inputs, which are then processed through multiple layers (N×) of 'Add & Norm', 'Feed Forward', and 'Multi-Head Attention' blocks. The output layer includes a linear transformation followed by a softmax function to generate output probabilities. Additionally, the diagram highlights the use of positional encoding to maintain the order of inputs and outputs, with outputs being shifted to the right. The connections between components are indicated by arrows, demonstrating the flow of data through the model.",
     "keywords": [
+      "wisefullyconnectedfeed forwardnetwork",
       "sub layers",
-      "stack",
-      "layers",
-      "encoder",
-      "attention",
-      "positions",
-      "decoder",
-      "layer",
-      "sub layer",
       "sub",
+      "layers",
       "wise",
-      "wisefullyconnectedfeed forwardnetwork"
+      "decoder",
+      "stack",
+      "positions",
+      "attention",
+      "sub layer",
+      "encoder",
+      "layer"
     ],
     "visual_summaries": [
       {
         "type": "images",
-        "image_title": "Transformer Architecture",
+        "image_title": "Transformer Model Architecture",
         "image_keywords": [
           "Transformer",
-          "architecture",
-          "multi-head attention",
-          "feed forward",
-          "positional encoding"
+          "Multi-Head Attention",
+          "Feed Forward",
+          "Positional Encoding",
+          "Input Embedding",
+          "Output Probabilities"
         ],
-        "confidence_score": 1.0,
+        "confidence_score": 0.9,
         "image_citation": "extracted_assets\\Attention\\images\\page3_img1.png"
       }
     ]
@@ -76,46 +77,48 @@
   {
     "pdf": "Attention",
     "page": 4,
-    "text": "ScaledDot-ProductAttention Multi-HeadAttention\nFigure 2: (left) Scaled Dot-Product Attention. (right) Multi-Head Attention consists of several\nattentionlayersrunninginparallel.\nofthevalues,wheretheweightassignedtoeachvalueiscomputedbyacompatibilityfunctionofthe\nquerywiththecorrespondingkey.\n3.2.1 ScaledDot-ProductAttention\nWecallourparticularattention\"ScaledDot-ProductAttention\"(Figure2). Theinputconsistsof\nqueriesandkeysofdimensiond ,a√ndvaluesofdimensiond\n. Wecomputethedotproductsofthe\nk v\nd\nquerywithallkeys,divideeachby ,andapplyasoftmaxfunctiontoobtaintheweightsonthe\nk\nvalues.\nInpractice,wecomputetheattentionfunctiononasetofqueriessimultaneously,packedtogether\nintoamatrixQ. ThekeysandvaluesarealsopackedtogetherintomatricesK andV.\nWecompute\nthematrixofoutputsas:\nQKT\n√\nAttention(Q,K,V)=softmax( )V\n(1)\nd\nk\nThetwomostcommonlyusedattentionfunctionsareadditiveattention[2],anddot-product(multi-\nplicative)attention. Dot-productattentionisidenticaltoouralgorithm,exceptforthescalingfactor\n√1\nof . Additiveattentioncomputesthecompatibilityfunctionusingafeed-forwardnetworkwith\ndk\nasinglehiddenlayer. Whilethetwoaresimilarintheoreticalcomplexity,dot-productattentionis\nmuchfasterandmorespace-efficientinpractice,sinceitcanbeimplementedusinghighlyoptimized\nmatrixmultiplicationcode.\nWhileforsmallvaluesofd\nthetwomechanismsperformsimilarly,additiveattentionoutperforms\nk\ndotproductattentionwithoutscalingforlargervaluesofd\n[3]. Wesuspectthatforlargevaluesof\nk\nd\n,thedotproductsgrowlargeinmagnitude,pushingthesoftmaxfunctionintoregionswhereithas\nk\n√1\nextremelysmallgradients4.\nTocounteractthiseffect,wescalethedotproductsby .\ndk\n3.2.2 Multi-HeadAttention\nInsteadofperformingasingleattentionfunctionwithd\n-dimensionalkeys,valuesandqueries,\nmodel\nwefounditbeneficialtolinearlyprojectthequeries,keysandvalueshtimeswithdifferent,learned\nlinearprojectionstod ,d andd\ndimensions,respectively. Oneachoftheseprojectedversionsof\nk k v\nqueries,keysandvalueswethenperformtheattentionfunctioninparallel,yieldingd\n-dimensional\nv\n4Toillustratewhythedotproductsgetlarge,assumethatthecomponentsofqandkareindependentrandom\n(cid:80)dk\nvariableswithmean0andvariance1.Thentheirdotproduct,q·k= q k ,hasmean0andvarianced\n.\ni i k\ni=1\n\n[VISUAL CONTENT - IMAGES]\nTitle: Attention Mechanism Diagram\nSummary: The image titled 'Attention Mechanism Diagram' illustrates the components of an attention mechanism used in machine learning. It features labeled elements including two 'MatMul' operations, 'SoftMax', an optional 'Mask', and 'Scale', with inputs represented as 'Q' (Query), 'K' (Key), and 'V' (Value). The diagram visually represents the flow of data through these components, emphasizing the operations involved in calculating attention scores.\n\n[VISUAL CONTENT - IMAGES]\nTitle: Scaled Dot-Product Attention\nSummary: The image titled 'Scaled Dot-Product Attention' illustrates a diagram of the attention mechanism used in neural networks. It features components labeled 'Linear' for V, K, and Q, indicating the linear transformations applied to the value, key, and query vectors respectively. The diagram also includes a 'Concat' layer, which combines the outputs, and a 'Scaled Dot-Product Attention' block that processes these inputs. The overall structure emphasizes the flow of data through these components, showcasing the architecture of the attention mechanism in machine learning models.",
+    "text": "ScaledDot-ProductAttention Multi-HeadAttention\nFigure 2: (left) Scaled Dot-Product Attention. (right) Multi-Head Attention consists of several\nattentionlayersrunninginparallel.\nofthevalues,wheretheweightassignedtoeachvalueiscomputedbyacompatibilityfunctionofthe\nquerywiththecorrespondingkey.\n3.2.1 ScaledDot-ProductAttention\nWecallourparticularattention\"ScaledDot-ProductAttention\"(Figure2). Theinputconsistsof\nqueriesandkeysofdimensiond ,a√ndvaluesofdimensiond\n. Wecomputethedotproductsofthe\nk v\nd\nquerywithallkeys,divideeachby ,andapplyasoftmaxfunctiontoobtaintheweightsonthe\nk\nvalues.\nInpractice,wecomputetheattentionfunctiononasetofqueriessimultaneously,packedtogether\nintoamatrixQ. ThekeysandvaluesarealsopackedtogetherintomatricesK andV.\nWecompute\nthematrixofoutputsas:\nQKT\n√\nAttention(Q,K,V)=softmax( )V\n(1)\nd\nk\nThetwomostcommonlyusedattentionfunctionsareadditiveattention[2],anddot-product(multi-\nplicative)attention. Dot-productattentionisidenticaltoouralgorithm,exceptforthescalingfactor\n√1\nof . Additiveattentioncomputesthecompatibilityfunctionusingafeed-forwardnetworkwith\ndk\nasinglehiddenlayer. Whilethetwoaresimilarintheoreticalcomplexity,dot-productattentionis\nmuchfasterandmorespace-efficientinpractice,sinceitcanbeimplementedusinghighlyoptimized\nmatrixmultiplicationcode.\nWhileforsmallvaluesofd\nthetwomechanismsperformsimilarly,additiveattentionoutperforms\nk\ndotproductattentionwithoutscalingforlargervaluesofd\n[3]. Wesuspectthatforlargevaluesof\nk\nd\n,thedotproductsgrowlargeinmagnitude,pushingthesoftmaxfunctionintoregionswhereithas\nk\n√1\nextremelysmallgradients4.\nTocounteractthiseffect,wescalethedotproductsby .\ndk\n3.2.2 Multi-HeadAttention\nInsteadofperformingasingleattentionfunctionwithd\n-dimensionalkeys,valuesandqueries,\nmodel\nwefounditbeneficialtolinearlyprojectthequeries,keysandvalueshtimeswithdifferent,learned\nlinearprojectionstod ,d andd\ndimensions,respectively. Oneachoftheseprojectedversionsof\nk k v\nqueries,keysandvalueswethenperformtheattentionfunctioninparallel,yieldingd\n-dimensional\nv\n4Toillustratewhythedotproductsgetlarge,assumethatthecomponentsofqandkareindependentrandom\n(cid:80)dk\nvariableswithmean0andvariance1.Thentheirdotproduct,q·k= q k ,hasmean0andvarianced\n.\ni i k\ni=1\n\n[VISUAL CONTENT - IMAGES]\nTitle: Attention Mechanism Flow Diagram\nSummary: This flow diagram illustrates the process of an attention mechanism, featuring key components labeled as MatMul, SoftMax, Mask (optional), Scale, and the inputs Q (Query), K (Key), and V (Value). The diagram shows the flow of data with arrows indicating the direction of processing, starting from the inputs Q and K leading to the first MatMul operation, followed by the Scale step, then the optional Mask, and finally culminating in the SoftMax operation before the second MatMul that outputs the final result. The overall purpose of this diagram is to depict the sequential steps involved in computing attention in neural networks.\n\n[VISUAL CONTENT - IMAGES]\nTitle: Scaled Dot-Product Attention Diagram\nSummary: This diagram illustrates the Scaled Dot-Product Attention mechanism used in neural networks. It features three linear transformations labeled V (Value), K (Key), and Q (Query), which are processed through a concatenation step. The output of this concatenation is then fed into the Scaled Dot-Product Attention block, represented in purple. The diagram shows the flow of data with arrows indicating the direction of processing, emphasizing the relationships between the components. The overall purpose of this diagram is to depict how attention is calculated in the context of machine learning models.",
     "keywords": [
-      "multi headattention",
-      "scaleddot",
+      "dk",
+      "multi",
+      "wescalethedotproductsby",
       "scaleddot productattention",
+      "scaleddot",
+      "wescalethedotproductsby dk",
+      "productattention",
       "headattention",
       "attention",
-      "wescalethedotproductsby",
-      "product",
       "dot",
-      "productattention",
-      "wescalethedotproductsby dk",
-      "multi",
-      "dk"
+      "multi headattention",
+      "product"
     ],
     "visual_summaries": [
       {
         "type": "images",
-        "image_title": "Attention Mechanism Diagram",
+        "image_title": "Attention Mechanism Flow Diagram",
         "image_keywords": [
-          "Attention",
           "MatMul",
           "SoftMax",
           "Mask",
           "Scale",
           "Q",
           "K",
-          "V"
+          "V",
+          "attention mechanism"
         ],
         "confidence_score": 0.9,
         "image_citation": "extracted_assets\\Attention\\images\\page4_img1.png"
       },
       {
         "type": "images",
-        "image_title": "Scaled Dot-Product Attention",
+        "image_title": "Scaled Dot-Product Attention Diagram",
         "image_keywords": [
-          "attention mechanism",
-          "linear",
-          "concat",
-          "scaled dot-product"
+          "Scaled Dot-Product Attention",
+          "Linear",
+          "Concat",
+          "V",
+          "K",
+          "Q"
         ],
         "confidence_score": 0.9,
         "image_citation": "extracted_assets\\Attention\\images\\page4_img2.png"
@@ -127,18 +130,18 @@
     "page": 5,
     "text": "output values. These are concatenated and once again projected, resulting in the final values, as\ndepictedinFigure2.\nMulti-headattentionallowsthemodeltojointlyattendtoinformationfromdifferentrepresentation\nsubspacesatdifferentpositions. Withasingleattentionhead,averaginginhibitsthis.\n)WO\nMultiHead(Q,K,V)=Concat(head ,...,head\n1 h\n=Attention(QWQ,KWK,VWV)\nwherehead\ni\ni i\ni\nWheretheprojectionsareparametermatricesWQ\n∈Rdmodel×dk,WK ∈Rdmodel×dk,WV ∈Rdmodel×dv\ni i\ni\n∈Rhdv×dmodel.\nandWO\nh = 8\nIn this work we employ parallel attention layers, or heads. For each of these we use\nd =d =d /h=64.\nDuetothereduceddimensionofeachhead,thetotalcomputationalcost\nk v\nmodel\nissimilartothatofsingle-headattentionwithfulldimensionality.\n3.2.3 ApplicationsofAttentioninourModel\nTheTransformerusesmulti-headattentioninthreedifferentways:\n• In\"encoder-decoderattention\"layers,thequeriescomefromthepreviousdecoderlayer,\nandthememorykeysandvaluescomefromtheoutputoftheencoder. Thisallowsevery\npositioninthedecodertoattendoverallpositionsintheinputsequence. Thismimicsthe\ntypical encoder-decoder attention mechanisms in sequence-to-sequence models such as\n[38,2,9].\n• Theencodercontainsself-attentionlayers. Inaself-attentionlayerallofthekeys,values\nandqueriescomefromthesameplace,inthiscase,theoutputofthepreviouslayerinthe\nencoder. Eachpositionintheencodercanattendtoallpositionsinthepreviouslayerofthe\nencoder.\n• Similarly,self-attentionlayersinthedecoderalloweachpositioninthedecodertoattendto\nallpositionsinthedecoderuptoandincludingthatposition. Weneedtopreventleftward\ninformationflowinthedecodertopreservetheauto-regressiveproperty. Weimplementthis\ninsideofscaleddot-productattentionbymaskingout(settingto−∞)allvaluesintheinput\nofthesoftmaxwhichcorrespondtoillegalconnections. SeeFigure2.\n3.3 Position-wiseFeed-ForwardNetworks\nInadditiontoattentionsub-layers,eachofthelayersinourencoderanddecodercontainsafully\nconnectedfeed-forwardnetwork,whichisappliedtoeachpositionseparatelyandidentically. This\nconsistsoftwolineartransformationswithaReLUactivationinbetween.\nFFN(x)=max(0,xW +b )W +b\n(2)\n1 1 2 2\nWhilethelineartransformationsarethesameacrossdifferentpositions,theyusedifferentparameters\nfrom layer to layer. Another way of describing this is as two convolutions with kernel size 1.\nd = 512,\nThe dimensionality of input and output is and the inner-layer has dimensionality\nmodel\nd =2048.\nff\n3.4 EmbeddingsandSoftmax\nSimilarlytoothersequencetransductionmodels,weuselearnedembeddingstoconverttheinput\ntokensandoutputtokenstovectorsofdimensiond\n. Wealsousetheusuallearnedlineartransfor-\nmodel\nmationandsoftmaxfunctiontoconvertthedecoderoutputtopredictednext-tokenprobabilities. In\nourmodel,wesharethesameweightmatrixbetweenthetwoembeddinglayersandthepre-√softmax\nd\nlineartransformation,similarto[30]. Intheembeddinglayers,wemultiplythoseweightsby .\nmodel",
     "keywords": [
-      "encoder",
-      "rdmodel",
-      "attention",
-      "layers",
+      "dk",
+      "model",
       "output",
       "head",
-      "layer",
-      "values",
-      "sequence",
+      "layers",
       "rdmodel dk",
-      "dk",
-      "model"
+      "sequence",
+      "encoder",
+      "values",
+      "attention",
+      "rdmodel",
+      "layer"
     ],
     "visual_summaries": []
   },
@@ -147,18 +150,18 @@
     "page": 6,
     "text": "Table1: Maximumpathlengths,per-layercomplexityandminimumnumberofsequentialoperations\nnisthesequencelength,distherepresentationdimension,kisthekernel\nfordifferentlayertypes.\nsizeofconvolutionsandrthesizeoftheneighborhoodinrestrictedself-attention.\nLayerType ComplexityperLayer Sequential MaximumPathLength\nOperations\nO(n2·d)\nO(1) O(1)\nSelf-Attention\nO(n·d2)\nO(n) O(n)\nRecurrent\nO(k·n·d2)\nO(1) O(log (n))\nConvolutional\nk\nO(r·n·d) O(1) O(n/r)\nSelf-Attention(restricted)\n3.5 PositionalEncoding\nSinceourmodelcontainsnorecurrenceandnoconvolution,inorderforthemodeltomakeuseofthe\norderofthesequence,wemustinjectsomeinformationabouttherelativeorabsolutepositionofthe\ntokensinthesequence. Tothisend,weadd\"positionalencodings\"totheinputembeddingsatthe\nThepositionalencodingshavethesamedimensiond\nbottomsoftheencoderanddecoderstacks.\nmodel\nastheembeddings,sothatthetwocanbesummed. Therearemanychoicesofpositionalencodings,\nlearnedandfixed[9].\nInthiswork,weusesineandcosinefunctionsofdifferentfrequencies:\n=sin(pos/100002i/dmodel)\nPE\n(pos,2i)\n=cos(pos/100002i/dmodel)\nPE\n(pos,2i+1)\nwhereposisthepositionandiisthedimension.\nThatis,eachdimensionofthepositionalencoding\nThewavelengthsformageometricprogressionfrom2πto10000·2π.\ncorrespondstoasinusoid. We\nchosethisfunctionbecausewehypothesizeditwouldallowthemodeltoeasilylearntoattendby\nrelativepositions,sinceforanyfixedoffsetk,PE\ncanberepresentedasalinearfunctionof\npos+k\nPE\n.\npos\nWealsoexperimentedwithusinglearnedpositionalembeddings[9]instead,andfoundthatthetwo\nversionsproducednearlyidenticalresults(seeTable3row(E)).Wechosethesinusoidalversion\nbecauseitmayallowthemodeltoextrapolatetosequencelengthslongerthantheonesencountered\nduringtraining.\n4 WhySelf-Attention\nIn this section we compare various aspects of self-attention layers to the recurrent and convolu-\ntionallayerscommonlyusedformappingonevariable-lengthsequenceofsymbolrepresentations\nRd,\n(x ,...,x ) (z ,...,z ), x ,z ∈\nto another sequence of equal length with such as a hidden\n1 n 1 n i i\nlayerinatypicalsequencetransductionencoderordecoder. Motivatingouruseofself-attentionwe\nconsiderthreedesiderata.\nOneisthetotalcomputationalcomplexityperlayer. Anotheristheamountofcomputationthatcan\nbeparallelized,asmeasuredbytheminimumnumberofsequentialoperationsrequired.\nThethirdisthepathlengthbetweenlong-rangedependenciesinthenetwork. Learninglong-range\ndependenciesisakeychallengeinmanysequencetransductiontasks. Onekeyfactoraffectingthe\nabilitytolearnsuchdependenciesisthelengthofthepathsforwardandbackwardsignalshaveto\ntraverseinthenetwork. Theshorterthesepathsbetweenanycombinationofpositionsintheinput\nandoutputsequences,theeasieritistolearnlong-rangedependencies[12]. Hencewealsocompare\nthemaximumpathlengthbetweenanytwoinputandoutputpositionsinnetworkscomposedofthe\ndifferentlayertypes.\nAsnotedinTable1,aself-attentionlayerconnectsallpositionswithaconstantnumberofsequentially\nO(n)\nexecuted operations, whereas a recurrent layer requires sequential operations. In terms of\ncomputationalcomplexity,self-attentionlayersarefasterthanrecurrentlayerswhenthesequence",
     "keywords": [
-      "dmodel",
-      "operations",
-      "sequential",
-      "attention",
-      "pos",
       "self attention",
-      "pe",
-      "pe pos",
       "pos 100002i",
-      "recurrent",
       "pos 2i",
-      "self"
+      "dmodel",
+      "recurrent",
+      "operations",
+      "pe",
+      "self",
+      "pos",
+      "attention",
+      "pe pos",
+      "sequential"
     ],
     "visual_summaries": []
   },
@@ -167,18 +170,18 @@
     "page": 7,
     "text": "n d,\nlength is smaller than the representation dimensionality which is most often the case with\nsentencerepresentationsusedbystate-of-the-artmodelsinmachinetranslations,suchasword-piece\n[38]andbyte-pair[31]representations. Toimprovecomputationalperformancefortasksinvolving\nverylongsequences,self-attentioncouldberestrictedtoconsideringonlyaneighborhoodofsizerin\ntheinputsequencecenteredaroundtherespectiveoutputposition. Thiswouldincreasethemaximum\npathlengthtoO(n/r).\nWeplantoinvestigatethisapproachfurtherinfuturework.\nAsingleconvolutionallayerwithkernelwidthk <ndoesnotconnectallpairsofinputandoutput\nDoingsorequiresastackofO(n/k)convolutionallayersinthecaseofcontiguouskernels,\npositions.\norO(log (n))inthecaseofdilatedconvolutions[18],\nincreasingthelengthofthelongestpaths\nk\nbetweenanytwopositionsinthenetwork. Convolutionallayersaregenerallymoreexpensivethan\nk.\nrecurrent layers, by a factor of Separable convolutions [6], however, decrease the complexity\ntoO(k·n·d+n·d2).\nEvenwithk = n,\nconsiderably, however, thecomplexityofaseparable\nconvolutionisequaltothecombinationofaself-attentionlayerandapoint-wisefeed-forwardlayer,\ntheapproachwetakeinourmodel.\nAssidebenefit,self-attentioncouldyieldmoreinterpretablemodels.Weinspectattentiondistributions\nfromourmodelsandpresentanddiscussexamplesintheappendix. Notonlydoindividualattention\nheadsclearlylearntoperformdifferenttasks,manyappeartoexhibitbehaviorrelatedtothesyntactic\nandsemanticstructureofthesentences.\n5 Training\nThissectiondescribesthetrainingregimeforourmodels.\n5.1 TrainingDataandBatching\nWe trained on the standard WMT 2014 English-German dataset consisting of about 4.5 million\nsentencepairs. Sentenceswereencodedusingbyte-pairencoding[3],whichhasasharedsource-\ntargetvocabularyofabout37000tokens. ForEnglish-French,weusedthesignificantlylargerWMT\n2014English-Frenchdatasetconsistingof36Msentencesandsplittokensintoa32000word-piece\nvocabulary[38].Sentencepairswerebatchedtogetherbyapproximatesequencelength.Eachtraining\nbatchcontainedasetofsentencepairscontainingapproximately25000sourcetokensand25000\ntargettokens.\n5.2 HardwareandSchedule\nWetrainedourmodelsononemachinewith8NVIDIAP100GPUs. Forourbasemodelsusing\nthehyperparametersdescribedthroughoutthepaper,eachtrainingsteptookabout0.4seconds. We\ntrainedthebasemodelsforatotalof100,000stepsor12hours. Forourbigmodels,(describedonthe\nbottomlineoftable3),steptimewas1.0seconds. Thebigmodelsweretrainedfor300,000steps\n(3.5days).\n5.3 Optimizer\n=0.98andϵ=10−9.\nWeusedtheAdamoptimizer[20]withβ =0.9,β\nWevariedthelearning\n1 2\nrateoverthecourseoftraining,accordingtotheformula:\nlrate=d−0.5\n·min(step_num−0.5,step_num·warmup_steps−1.5)\n(3)\nmodel\nThiscorrespondstoincreasingthelearningratelinearlyforthefirstwarmup_stepstrainingsteps,\nanddecreasingitthereafterproportionallytotheinversesquarerootofthestepnumber. Weused\nwarmup_steps=4000.\n5.4 Regularization\nWeemploythreetypesofregularizationduringtraining:",
     "keywords": [
+      "weusedthesignificantlylargerwmt 2014english",
+      "num",
+      "step",
+      "warmup steps",
+      "self",
+      "warmup",
+      "38",
       "steps",
       "wisefeed forwardlayer",
-      "warmup steps",
-      "warmup",
-      "step num",
-      "step",
-      "piece",
       "weusedthesignificantlylargerwmt",
-      "num",
-      "weusedthesignificantlylargerwmt 2014english",
-      "38",
-      "self"
+      "step num",
+      "piece"
     ],
     "visual_summaries": []
   },
@@ -187,51 +190,55 @@
     "page": 8,
     "text": "Table2: TheTransformerachievesbetterBLEUscoresthanpreviousstate-of-the-artmodelsonthe\nEnglish-to-GermanandEnglish-to-Frenchnewstest2014testsatafractionofthetrainingcost.\nBLEU TrainingCost(FLOPs)\nModel\nEN-DE EN-FR EN-DE EN-FR\nByteNet[18] 23.75\n1.0·1020\nDeep-Att+PosUnk[39] 39.2\n2.3·1019 1.4·1020\nGNMT+RL[38] 24.6 39.92\n9.6·1018 1.5·1020\nConvS2S[9] 25.16 40.46\n2.0·1019 1.2·1020\nMoE[32] 26.03 40.56\n8.0·1020\nDeep-Att+PosUnkEnsemble[39] 40.4\n1.8·1020 1.1·1021\nGNMT+RLEnsemble[38] 26.30 41.16\n7.7·1019 1.2·1021\n41.29\nConvS2SEnsemble[9] 26.36\n3.3·1018\nTransformer(basemodel) 27.3 38.1\n2.3·1019\nTransformer(big) 28.4 41.8\nResidualDropout Weapplydropout[33]totheoutputofeachsub-layer,beforeitisaddedtothe\nsub-layerinputandnormalized. Inaddition,weapplydropouttothesumsoftheembeddingsandthe\npositionalencodingsinboththeencoderanddecoderstacks. Forthebasemodel,weusearateof\nP =0.1.\ndrop\nDuringtraining,weemployedlabelsmoothingofvalueϵ = 0.1[36].\nLabelSmoothing\nThis\nls\nhurtsperplexity,asthemodellearnstobemoreunsure,butimprovesaccuracyandBLEUscore.\n6 Results\n6.1 MachineTranslation\nOntheWMT2014English-to-Germantranslationtask,thebigtransformermodel(Transformer(big)\ninTable2)outperformsthebestpreviouslyreportedmodels(includingensembles)bymorethan2.0\nBLEU,establishinganewstate-of-the-artBLEUscoreof28.4.\nTheconfigurationofthismodelis\nTrainingtook3.5dayson8P100GPUs.\nlistedinthebottomlineofTable3. Evenourbasemodel\nsurpassesallpreviouslypublishedmodelsandensembles,atafractionofthetrainingcostofanyof\nthecompetitivemodels.\nOntheWMT2014English-to-Frenchtranslationtask,ourbigmodelachievesaBLEUscoreof41.0,\noutperformingallofthepreviouslypublishedsinglemodels,atlessthan1/4thetrainingcostofthe\npreviousstate-of-the-artmodel. TheTransformer(big)modeltrainedforEnglish-to-Frenchused\ndropoutrateP =0.1,insteadof0.3.\ndrop\nForthebasemodels,weusedasinglemodelobtainedbyaveragingthelast5checkpoints,which\nwerewrittenat10-minuteintervals. Forthebigmodels,weaveragedthelast20checkpoints. We\nusedbeamsearchwithabeamsizeof4andlengthpenaltyα = 0.6[38].\nThesehyperparameters\nwerechosenafterexperimentationonthedevelopmentset. Wesetthemaximumoutputlengthduring\ninferencetoinputlength+50,butterminateearlywhenpossible[38].\nTable2summarizesourresultsandcomparesourtranslationqualityandtrainingcoststoothermodel\narchitecturesfromtheliterature. Weestimatethenumberoffloatingpointoperationsusedtotraina\nmodelbymultiplyingthetrainingtime,thenumberofGPUsused,andanestimateofthesustained\nsingle-precisionfloating-pointcapacityofeachGPU5.\n6.2 ModelVariations\nToevaluatetheimportanceofdifferentcomponentsoftheTransformer,wevariedourbasemodel\nindifferentways,measuringthechangeinperformanceonEnglish-to-Germantranslationonthe\n5Weusedvaluesof2.8,3.7,6.0and9.5TFLOPSforK80,K40,M40andP100,respectively.",
     "keywords": [
-      "1020",
-      "1021",
-      "big",
-      "transformer",
       "en",
-      "26",
-      "41",
+      "1019",
       "39",
       "40",
-      "gnmt",
+      "1021",
+      "26",
+      "1020",
       "38",
-      "1019"
+      "gnmt",
+      "transformer",
+      "41",
+      "big"
     ],
     "visual_summaries": []
   },
   {
     "pdf": "Attention",
     "page": 9,
-    "text": "Table3: VariationsontheTransformerarchitecture. Unlistedvaluesareidenticaltothoseofthebase\nmodel. AllmetricsareontheEnglish-to-Germantranslationdevelopmentset,newstest2013. Listed\nperplexitiesareper-wordpiece,accordingtoourbyte-pairencoding,andshouldnotbecomparedto\nper-wordperplexities.\ntrain PPL BLEU params\nN d d h d d P ϵ\nk v drop ls\nmodel ff\n×106\nsteps (dev) (dev)\nbase 6 512 2048 8 64 64 0.1 0.1 100K 4.92 25.8 65\n1 512 512 5.29 24.9\n4 128 128 5.00 25.5\n(A)\n16 32 32 4.91 25.8\n32 16 16 5.01 25.4\n16 5.16 25.1 58\n(B)\n32 5.01 25.4 60\n2 6.11 23.7 36\n4 5.19 25.3 50\n8 4.88 25.5 80\n(C) 256 32 32 5.75 24.5 28\n1024 128 128 4.66 26.0 168\n1024 5.12 25.4 53\n4096 4.75 26.2 90\n0.0 5.77 24.6\n0.2 4.95 25.5\n(D)\n0.0 4.67 25.3\n0.2 5.47 25.7\n(E) positionalembeddinginsteadofsinusoids 4.92 25.7\n4.33 26.4\nbig 6 1024 4096 16 0.3 300K 213\ndevelopmentset,newstest2013. Weusedbeamsearchasdescribedintheprevioussection,butno\ncheckpointaveraging. WepresenttheseresultsinTable3.\n\n[VISUAL CONTENT - VECTOR_GRAPHICS]\nTitle: Table 3: Variations on the Transformer architecture\nSummary: Table 3 presents variations on the Transformer architecture, focusing on metrics for the English-to-German translation development set, newsets2013. The base model has parameters N=6, d_model=512, d_ff=2048, h=8, d_k=64, d_v=64, P_drop=0.1, and train steps=100K, yielding a perplexity (PPL) of 5.29 and a BLEU score of 28.4 with 65 million parameters. Variation (A) shows configurations with attention heads and dimensions, achieving PPL values of 5.00, 4.91, and 5.01 for different setups, with BLEU scores ranging from 25.4 to 25.8. Variation (B) indicates that reducing attention key size d_k to 16 results in a PPL of 5.19 and a BLEU score of 25.3. Variation (C) explores larger models with N=2, 4, and 8, yielding PPL values from 4.88 to 6.11 and BLEU scores from 23.7 to 26.0. Variation (D) assesses dropout rates of 0.0 and 0.2, with PPL values of 5.77 and 4.67, respectively. Variation (E) examines positional embeddings, achieving a PPL of 4.92 and a BLEU score of 25.7. The overall trend indicates that larger models and appropriate dropout rates improve performance, while reducing attention heads may negatively impact quality.",
+    "text": "Table3: VariationsontheTransformerarchitecture. Unlistedvaluesareidenticaltothoseofthebase\nmodel. AllmetricsareontheEnglish-to-Germantranslationdevelopmentset,newstest2013. Listed\nperplexitiesareper-wordpiece,accordingtoourbyte-pairencoding,andshouldnotbecomparedto\nper-wordperplexities.\ntrain PPL BLEU params\nN d d h d d P ϵ\nk v drop ls\nmodel ff\n×106\nsteps (dev) (dev)\nbase 6 512 2048 8 64 64 0.1 0.1 100K 4.92 25.8 65\n1 512 512 5.29 24.9\n4 128 128 5.00 25.5\n(A)\n16 32 32 4.91 25.8\n32 16 16 5.01 25.4\n16 5.16 25.1 58\n(B)\n32 5.01 25.4 60\n2 6.11 23.7 36\n4 5.19 25.3 50\n8 4.88 25.5 80\n(C) 256 32 32 5.75 24.5 28\n1024 128 128 4.66 26.0 168\n1024 5.12 25.4 53\n4096 4.75 26.2 90\n0.0 5.77 24.6\n0.2 4.95 25.5\n(D)\n0.0 4.67 25.3\n0.2 5.47 25.7\n(E) positionalembeddinginsteadofsinusoids 4.92 25.7\n4.33 26.4\nbig 6 1024 4096 16 0.3 300K 213\ndevelopmentset,newstest2013. Weusedbeamsearchasdescribedintheprevioussection,butno\ncheckpointaveraging. WepresenttheseresultsinTable3.\n\n[VISUAL CONTENT - VECTOR_GRAPHICS]\nTitle: Variations on the Transformer Architecture\nSummary: This table presents variations on the Transformer architecture, detailing metrics for the English-to-German translation development set, newsets2013. It includes configurations with different values for N, dmodel, dff, h, dk, dv, Pdrop, and εls, along with corresponding perplexities (PPL) and BLEU scores for various model setups. The base model shows a PPL of 5.29 and a BLEU score of 28.4, while variations (A) through (E) explore different configurations, with (A) showing PPL values ranging from 5.29 to 5.01 and BLEU scores from 24.9 to 25.8. Notably, row (B) indicates that reducing attention key size (dk) negatively impacts model quality, while row (E) suggests that using learned positional embeddings yields similar results to the base model. The table also lists parameters in millions for each configuration, with the base model having 65 million parameters.",
     "keywords": [
-      "25",
-      "16",
+      "24",
+      "512",
       "32",
       "4096",
-      "128",
-      "24",
-      "92",
-      "512",
       "26",
+      "92",
+      "64",
+      "128",
+      "16",
       "92 25",
-      "1024",
-      "64"
+      "25",
+      "1024"
     ],
     "visual_summaries": [
       {
         "type": "vector_graphics",
-        "image_title": "Table 3: Variations on the Transformer architecture",
+        "image_title": "Variations on the Transformer Architecture",
         "image_keywords": [
           "Transformer",
+          "architecture",
           "perplexities",
           "BLEU",
           "English-to-German",
-          "newsets2013"
+          "translation",
+          "development set",
+          "newsets2013",
+          "train steps"
         ],
-        "confidence_score": 0.9,
+        "confidence_score": 0.95,
         "image_citation": "extracted_assets\\Attention\\vector_graphics\\page9_vector.png"
       }
     ]
@@ -239,35 +246,36 @@
   {
     "pdf": "Attention",
     "page": 10,
-    "text": "Table4: TheTransformergeneralizeswelltoEnglishconstituencyparsing(ResultsareonSection23\nofWSJ)\nParser Training WSJ23F1\nVinyals&Kaiserelal. (2014)[37] WSJonly,discriminative 88.3\nPetrovetal. (2006)[29] WSJonly,discriminative 90.4\nZhuetal. (2013)[40] WSJonly,discriminative 90.4\nDyeretal. (2016)[8] WSJonly,discriminative 91.7\nTransformer(4layers) WSJonly,discriminative 91.3\nZhuetal. (2013)[40] semi-supervised 91.3\nHuang&Harper(2009)[14] semi-supervised 91.3\nMcCloskyetal. (2006)[26] semi-supervised 92.1\nVinyals&Kaiserelal. (2014)[37] semi-supervised 92.1\nTransformer(4layers) semi-supervised 92.7\nLuongetal. (2015)[23] multi-task 93.0\nDyeretal. (2016)[8] generative 93.3\nincreasedthemaximumoutputlengthtoinputlength+300. Weusedabeamsizeof21andα=0.3\nforbothWSJonlyandthesemi-supervisedsetting.\nOur results in Table 4 show that despite the lack of task-specific tuning our model performs sur-\nprisinglywell,yieldingbetterresultsthanallpreviouslyreportedmodelswiththeexceptionofthe\nRecurrentNeuralNetworkGrammar[8].\nIncontrasttoRNNsequence-to-sequencemodels[37],theTransformeroutperformstheBerkeley-\nParser[29]evenwhentrainingonlyontheWSJtrainingsetof40Ksentences.\n7 Conclusion\nInthiswork,wepresentedtheTransformer,thefirstsequencetransductionmodelbasedentirelyon\nattention,replacingtherecurrentlayersmostcommonlyusedinencoder-decoderarchitectureswith\nmulti-headedself-attention.\nFor translation tasks, the Transformer can be trained significantly faster than architectures based\n\n[VISUAL CONTENT - VECTOR_GRAPHICS]\nTitle: The Transformer generalizes well to English constituency parsing\nSummary: The table presents results on English constituency parsing using various parsers and training methods, specifically focusing on the WSJ 23 F1 score. The parsers listed include Vinyals & Kaiser (2014) with a score of 88.3 under WSJ only, discriminative training, and Zhu et al. (2013) with a score of 90.4 under the same conditions. The Transformer with 4 layers achieved a score of 91.3 with WSJ only, discriminative training. In semi-supervised training, Zhu et al. (2013) scored 91.3, Huang & Harper (2009) scored 91.3, McClosky et al. (2006) scored 92.1, and Vinyals & Kaiser (2014) scored 92.1. The Transformer with 4 layers in semi-supervised training scored 92.7, while Luong et al. (2015) achieved 93.0 in multi-task training, and Dyer et al. (2016) reached 93.3 with generative training. The data indicates that the Transformer outperforms previous models, particularly in the context of the WSJ dataset.",
+    "text": "Table4: TheTransformergeneralizeswelltoEnglishconstituencyparsing(ResultsareonSection23\nofWSJ)\nParser Training WSJ23F1\nVinyals&Kaiserelal. (2014)[37] WSJonly,discriminative 88.3\nPetrovetal. (2006)[29] WSJonly,discriminative 90.4\nZhuetal. (2013)[40] WSJonly,discriminative 90.4\nDyeretal. (2016)[8] WSJonly,discriminative 91.7\nTransformer(4layers) WSJonly,discriminative 91.3\nZhuetal. (2013)[40] semi-supervised 91.3\nHuang&Harper(2009)[14] semi-supervised 91.3\nMcCloskyetal. (2006)[26] semi-supervised 92.1\nVinyals&Kaiserelal. (2014)[37] semi-supervised 92.1\nTransformer(4layers) semi-supervised 92.7\nLuongetal. (2015)[23] multi-task 93.0\nDyeretal. (2016)[8] generative 93.3\nincreasedthemaximumoutputlengthtoinputlength+300. Weusedabeamsizeof21andα=0.3\nforbothWSJonlyandthesemi-supervisedsetting.\nOur results in Table 4 show that despite the lack of task-specific tuning our model performs sur-\nprisinglywell,yieldingbetterresultsthanallpreviouslyreportedmodelswiththeexceptionofthe\nRecurrentNeuralNetworkGrammar[8].\nIncontrasttoRNNsequence-to-sequencemodels[37],theTransformeroutperformstheBerkeley-\nParser[29]evenwhentrainingonlyontheWSJtrainingsetof40Ksentences.\n7 Conclusion\nInthiswork,wepresentedtheTransformer,thefirstsequencetransductionmodelbasedentirelyon\nattention,replacingtherecurrentlayersmostcommonlyusedinencoder-decoderarchitectureswith\nmulti-headedself-attention.\nFor translation tasks, the Transformer can be trained significantly faster than architectures based\n\n[VISUAL CONTENT - VECTOR_GRAPHICS]\nTitle: The Transformer Generalizes Well to English Constituency Parsing\nSummary: This table presents the performance of various parsers on English constituency parsing, specifically focusing on the WSJ 23 F1 score. The parsers listed include Vinyals & Kaiser (2014), Petrov et al. (2006), Zhu et al. (2013), Dyer et al. (2016), and the Transformer with 4 layers. The training methods employed are categorized as WSJ only, discriminative, semi-supervised, multi-task, and generative. The F1 scores achieved are as follows: Vinyals & Kaiser (2014) with 88.3, Petrov et al. (2006) with 90.4, Zhu et al. (2013) with 90.4, Dyer et al. (2016) with 91.7, and the Transformer (WSJ only, discriminative) with 91.3. The semi-supervised Transformer achieved 92.7, while Luong et al. (2015) reached 93.0 with a multi-task approach, and Dyer et al. (2016) achieved 93.3 with a generative method. The results indicate that the Transformer outperforms previous models, particularly in the semi-supervised setting, highlighting its effectiveness in parsing tasks.",
     "keywords": [
-      "wsjonly",
-      "91",
-      "transformer 4layers",
-      "supervised 92",
-      "transformer",
-      "semi supervised",
-      "92",
       "supervised",
-      "semi",
-      "discriminative",
+      "37",
       "wsjonly discriminative",
-      "37"
+      "semi supervised",
+      "supervised 92",
+      "transformer 4layers",
+      "92",
+      "wsjonly",
+      "semi",
+      "transformer",
+      "discriminative",
+      "91"
     ],
     "visual_summaries": [
       {
         "type": "vector_graphics",
-        "image_title": "The Transformer generalizes well to English constituency parsing",
+        "image_title": "The Transformer Generalizes Well to English Constituency Parsing",
         "image_keywords": [
           "Transformer",
           "English constituency parsing",
           "WSJ",
-          "F1",
+          "F1 score",
           "discriminative",
           "semi-supervised",
+          "multi-task",
           "generative"
         ],
-        "confidence_score": 0.9,
+        "confidence_score": 0.95,
         "image_citation": "extracted_assets\\Attention\\vector_graphics\\page10_vector.png"
       }
     ]
@@ -277,18 +285,18 @@
     "page": 11,
     "text": "[5] KyunghyunCho,BartvanMerrienboer,CaglarGulcehre,FethiBougares,HolgerSchwenk,\nandYoshuaBengio. Learningphraserepresentationsusingrnnencoder-decoderforstatistical\nCoRR,abs/1406.1078,2014.\nmachinetranslation.\narXiv\n[6] Francois Chollet. Xception: Deep learning with depthwise separable convolutions.\npreprintarXiv:1610.02357,2016.\n[7] JunyoungChung,ÇaglarGülçehre,KyunghyunCho,andYoshuaBengio. Empiricalevaluation\nCoRR,abs/1412.3555,2014.\nofgatedrecurrentneuralnetworksonsequencemodeling.\n[8] Chris Dyer, Adhiguna Kuncoro, Miguel Ballesteros, and Noah A. Smith. Recurrent neural\nInProc.ofNAACL,2016.\nnetworkgrammars.\n[9] JonasGehring,MichaelAuli,DavidGrangier,DenisYarats,andYannN.Dauphin. Convolu-\narXivpreprintarXiv:1705.03122v2,2017.\ntionalsequencetosequencelearning.\narXiv preprint\n[10] Alex Graves. Generating sequences with recurrent neural networks.\narXiv:1308.0850,2013.\n[11] Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learning for im-\nProceedings of the IEEE Conference on Computer Vision and Pattern\nage recognition. In\nRecognition,pages770–778,2016.\n[12] SeppHochreiter,YoshuaBengio,PaoloFrasconi,andJürgenSchmidhuber. Gradientflowin\nrecurrentnets: thedifficultyoflearninglong-termdependencies,2001.\nNeural computation,\n[13] Sepp Hochreiter and Jürgen Schmidhuber. Long short-term memory.\n9(8):1735–1780,1997.\n[14] ZhongqiangHuangandMaryHarper. Self-trainingPCFGgrammarswithlatentannotations\nInProceedingsofthe2009ConferenceonEmpiricalMethodsinNatural\nacrosslanguages.\nLanguageProcessing,pages832–841.ACL,August2009.\n[15] RafalJozefowicz,OriolVinyals,MikeSchuster,NoamShazeer,andYonghuiWu. Exploring\narXivpreprintarXiv:1602.02410,2016.\nthelimitsoflanguagemodeling.\nInAdvancesinNeural\n[16] ŁukaszKaiserandSamyBengio. Canactivememoryreplaceattention?\nInformationProcessingSystems,(NIPS),2016.\nInInternationalConference\n[17] ŁukaszKaiserandIlyaSutskever. NeuralGPUslearnalgorithms.\nonLearningRepresentations(ICLR),2016.\n[18] NalKalchbrenner,LasseEspeholt,KarenSimonyan,AaronvandenOord,AlexGraves,andKo-\nrayKavukcuoglu.Neuralmachinetranslationinlineartime.arXivpreprintarXiv:1610.10099v2,\n2017.\n[19] YoonKim,CarlDenton,LuongHoang,andAlexanderM.Rush. Structuredattentionnetworks.\nInInternationalConferenceonLearningRepresentations,2017.\nInICLR,2015.\n[20] DiederikKingmaandJimmyBa. Adam: Amethodforstochasticoptimization.\narXivpreprint\n[21] OleksiiKuchaievandBorisGinsburg. FactorizationtricksforLSTMnetworks.\narXiv:1703.10722,2017.\n[22] Zhouhan Lin, Minwei Feng, Cicero Nogueira dos Santos, Mo Yu, Bing Xiang, Bowen\narXiv preprint\nZhou, and Yoshua Bengio. A structured self-attentive sentence embedding.\narXiv:1703.03130,2017.\n[23] Minh-ThangLuong,QuocV.Le,IlyaSutskever,OriolVinyals,andLukaszKaiser. Multi-task\narXivpreprintarXiv:1511.06114,2015.\nsequencetosequencelearning.\n[24] Minh-ThangLuong,HieuPham,andChristopherDManning. Effectiveapproachestoattention-\narXivpreprintarXiv:1508.04025,2015.\nbasedneuralmachinetranslation.",
     "keywords": [
-      "preprint",
       "minh thangluong",
-      "oriolvinyals",
-      "neural",
-      "2016",
       "2015",
-      "learning",
-      "arxivpreprintarxiv",
+      "neural",
       "2017",
       "minh",
+      "2016",
+      "arxivpreprintarxiv",
+      "oriolvinyals",
+      "learning",
       "arxiv",
-      "thangluong"
+      "thangluong",
+      "preprint"
     ],
     "visual_summaries": []
   },
@@ -297,60 +305,68 @@
     "page": 12,
     "text": "[25] MitchellPMarcus,MaryAnnMarcinkiewicz,andBeatriceSantorini.Buildingalargeannotated\nComputationallinguistics,19(2):313–330,1993.\ncorpusofenglish: Thepenntreebank.\n[26] DavidMcClosky,EugeneCharniak,andMarkJohnson. Effectiveself-trainingforparsing. In\nProceedingsoftheHumanLanguageTechnologyConferenceoftheNAACL,MainConference,\npages152–159.ACL,June2006.\n[27] AnkurParikh,OscarTäckström,DipanjanDas,andJakobUszkoreit. Adecomposableattention\nInEmpiricalMethodsinNaturalLanguageProcessing,2016.\nmodel.\n[28] RomainPaulus,CaimingXiong,andRichardSocher. Adeepreinforcedmodelforabstractive\narXivpreprintarXiv:1705.04304,2017.\nsummarization.\n[29] Slav Petrov, Leon Barrett, Romain Thibaux, and Dan Klein. Learning accurate, compact,\nProceedings of the 21st International Conference on\nand interpretable tree annotation. In\nComputationalLinguisticsand44thAnnualMeetingoftheACL,pages433–440.ACL,July\n2006.\narXiv\n[30] OfirPressandLiorWolf. Usingtheoutputembeddingtoimprovelanguagemodels.\npreprintarXiv:1608.05859,2016.\n[31] RicoSennrich,BarryHaddow,andAlexandraBirch. Neuralmachinetranslationofrarewords\narXivpreprintarXiv:1508.07909,2015.\nwithsubwordunits.\n[32] NoamShazeer,AzaliaMirhoseini,KrzysztofMaziarz,AndyDavis,QuocLe,GeoffreyHinton,\nandJeffDean. Outrageouslylargeneuralnetworks: Thesparsely-gatedmixture-of-experts\narXivpreprintarXiv:1701.06538,2017.\nlayer.\n[33] NitishSrivastava,GeoffreyEHinton,AlexKrizhevsky,IlyaSutskever,andRuslanSalakhutdi-\nJournalofMachine\nnov. Dropout: asimplewaytopreventneuralnetworksfromoverfitting.\nLearningResearch,15(1):1929–1958,2014.\n[34] Sainbayar Sukhbaatar, Arthur Szlam, Jason Weston, and Rob Fergus. End-to-end memory\nnetworks. InC.Cortes, N.D.Lawrence, D.D.Lee, M.Sugiyama, andR.Garnett, editors,\nAdvancesinNeuralInformationProcessingSystems28,pages2440–2448.CurranAssociates,\nInc.,2015.\n[35] IlyaSutskever,OriolVinyals,andQuocVVLe. Sequencetosequencelearningwithneural\nInAdvancesinNeuralInformationProcessingSystems,pages3104–3112,2014.\nnetworks.\n[36] ChristianSzegedy,VincentVanhoucke,SergeyIoffe,JonathonShlens,andZbigniewWojna.\nCoRR,abs/1512.00567,2015.\nRethinkingtheinceptionarchitectureforcomputervision.\n[37] Vinyals&Kaiser, Koo, Petrov, Sutskever, andHinton. Grammarasaforeignlanguage. In\nAdvancesinNeuralInformationProcessingSystems,2015.\n[38] Yonghui Wu, Mike Schuster, Zhifeng Chen, Quoc V Le, Mohammad Norouzi, Wolfgang\nMacherey,MaximKrikun,YuanCao,QinGao,KlausMacherey,etal. Google’sneuralmachine\narXivpreprint\ntranslationsystem: Bridgingthegapbetweenhumanandmachinetranslation.\narXiv:1609.08144,2016.\n[39] Jie Zhou, Ying Cao, Xuguang Wang, Peng Li, and Wei Xu. Deep recurrent models with\nCoRR,abs/1606.04199,2016.\nfast-forwardconnectionsforneuralmachinetranslation.\n[40] Muhua Zhu, Yue Zhang, Wenliang Chen, Min Zhang, and Jingbo Zhu. Fast and accurate\nInProceedingsofthe51stAnnualMeetingoftheACL(Volume\nshift-reduceconstituentparsing.\n1: LongPapers),pages434–443.ACL,August2013.",
     "keywords": [
-      "acl",
       "zhu",
+      "2015",
+      "fast",
+      "2016",
+      "arxivpreprintarxiv",
+      "acl",
+      "corr abs",
       "end",
       "corr",
-      "2016",
-      "2015",
+      "petrov",
       "networks",
-      "corr abs",
-      "fast",
-      "arxivpreprintarxiv",
-      "ilyasutskever",
-      "petrov"
+      "ilyasutskever"
     ],
     "visual_summaries": []
   },
   {
     "pdf": "Attention",
     "page": 13,
-    "text": "Input-Input Layer5\nFigure 3: An example of the attention mechanism following long-distance dependencies in the\nencoderself-attentioninlayer5of6. Manyoftheattentionheadsattendtoadistantdependencyof\ntheverb‘making’,completingthephrase‘making...moredifficult’. Attentionshereshownonlyfor\ntheword‘making’. Differentcolorsrepresentdifferentheads. Bestviewedincolor.\n\n[VISUAL CONTENT - TABLES]\nTitle: Attention Visualizations\nSummary: The image titled 'Attention Visualizations' presents a textual representation highlighting that since 2000, a majority of American governments have passed new laws making the registration or voting process more difficult. The key year mentioned is 2000, indicating a significant point in the trend of legislative changes affecting voter registration.\n\n[VISUAL CONTENT - TABLES]\nTitle: \nSummary: \n\n[VISUAL CONTENT - VECTOR_GRAPHICS]\nTitle: Attention Visualizations\nSummary: The image titled 'Attention Visualizations' illustrates an example of the attention mechanism following long-distance dependencies in the encoder self-attention of layer 5 out of 6. The visualization highlights the verb 'making' and its connections to other words such as 'voting' and 'registration'. Different colors represent various attention heads, indicating how many attention heads focus on the phrase 'making...more difficult'. The visual emphasizes the complexity of attention in language processing, particularly in relation to government actions and voter registration. The source of the figure is noted as being best viewed in color.",
+    "text": "Input-Input Layer5\nFigure 3: An example of the attention mechanism following long-distance dependencies in the\nencoderself-attentioninlayer5of6. Manyoftheattentionheadsattendtoadistantdependencyof\ntheverb‘making’,completingthephrase‘making...moredifficult’. Attentionshereshownonlyfor\ntheword‘making’. Differentcolorsrepresentdifferentheads. Bestviewedincolor.\n\n[VISUAL CONTENT - TABLES]\nTitle: Attention Visualizations\nSummary: This image titled 'Attention Visualizations' displays a textual representation of attention weights associated with various words. The visualization highlights the word 'making' in 2000, indicating a significant focus on this term within the context of the surrounding words. Other words include 'It', 'is', 'this', 'split', 'a', 'majority', 'of', 'American', 'governments', 'have', 'passed', 'new', 'laws', 'since', 'the', 'registration', 'or', 'voting', 'process', 'more', 'difficult'. The arrangement suggests a narrative related to voting and registration processes, emphasizing the challenges introduced over time. The overall design appears to be a part of a larger analysis or discussion on voting legislation and its implications.\n\n[VISUAL CONTENT - TABLES]\nTitle: Text Analysis Visualization\nSummary: This image presents a visualization of text analysis, highlighting key terms related to American government and voting laws. The text indicates that a majority of American governments have passed new laws since 2009, making the voting registration process more difficult. The visualization emphasizes the significant terms and their relationships within the context of voting and registration, illustrating the challenges faced in this area.\n\n[VISUAL CONTENT - VECTOR_GRAPHICS]\nTitle: Attention Visualizations\nSummary: This image titled 'Attention Visualizations' illustrates an example of the attention mechanism in a self-attention encoder, specifically in layer 5 of 6. It highlights how various attention heads focus on long-distance dependencies, particularly the verb 'making', which completes the phrase 'making...more difficult'. The visualization shows connections between words such as 'voting', 'registration', and 'governments passed', with different colors representing different attention heads. The attention patterns are best viewed in color, emphasizing the complex relationships between the words in the context of the sentence.",
     "keywords": [
+      "manyoftheattentionheadsattendtoadistantdependencyof theverb",
+      "manyoftheattentionheadsattendtoadistantdependencyof",
+      "mechanism",
+      "moredifficult",
+      "theverb making",
+      "moredifficult attentionshereshownonlyfor",
+      "theword",
+      "input",
+      "mechanism following",
       "theword making",
       "theverb",
-      "mechanism",
-      "mechanism following",
-      "theword",
-      "moredifficult attentionshereshownonlyfor",
-      "manyoftheattentionheadsattendtoadistantdependencyof",
-      "moredifficult",
-      "making",
-      "input",
-      "manyoftheattentionheadsattendtoadistantdependencyof theverb",
-      "theverb making"
+      "making"
     ],
     "visual_summaries": [
       {
         "type": "tables",
         "image_title": "Attention Visualizations",
         "image_keywords": [
+          "attention",
+          "visualization",
+          "text",
+          "data",
           "2000",
-          "American",
-          "governments",
-          "laws",
           "voting",
-          "registration",
-          "difficult"
+          "registration"
         ],
         "confidence_score": 0.9,
         "image_citation": "extracted_assets\\Attention\\tables\\page13_table1.png"
       },
       {
         "type": "tables",
-        "image_title": "",
-        "image_keywords": [],
-        "confidence_score": 0.0,
+        "image_title": "Text Analysis Visualization",
+        "image_keywords": [
+          "text",
+          "analysis",
+          "American government",
+          "laws",
+          "voting",
+          "registration",
+          "difficult"
+        ],
+        "confidence_score": 0.85,
         "image_citation": "extracted_assets\\Attention\\tables\\page13_table2.png"
       },
       {
@@ -358,12 +374,16 @@
         "image_title": "Attention Visualizations",
         "image_keywords": [
           "attention mechanism",
-          "long-distance dependencies",
           "self-attention",
+          "long-distance dependencies",
+          "encoder",
           "layer 5",
-          "making",
+          "word making",
           "voting",
-          "registration"
+          "registration",
+          "governments",
+          "passed",
+          "difficult"
         ],
         "confidence_score": 0.9,
         "image_citation": "extracted_assets\\Attention\\vector_graphics\\page13_vector.png"
@@ -373,29 +393,30 @@
   {
     "pdf": "Attention",
     "page": 14,
-    "text": "Input-Input Layer5\n\n[VISUAL CONTENT - TABLES]\nTitle: Attention Heads in Layer 5 of 6\nSummary: The image titled 'Attention Heads in Layer 5 of 6' illustrates two attention heads involved in anaphora resolution, specifically in layer 5 of a neural network model. The visual depicts connections between words such as 'The', 'Law', 'will', 'never', 'be', 'perfect', 'but', 'its', 'application', 'should', 'be', 'just', 'this', 'is', 'what', 'we', 'are', 'missing', 'in', 'my', 'opinion', and others. The connections indicate how attention is distributed among these words, with a focus on the word 'its', which shows particularly sharp attention. The image does not provide specific numerical data or a source attribution.\n\n[VISUAL CONTENT - VECTOR_GRAPHICS]\nTitle: Figure 4: Two attention heads, also in layer 5 of 6, apparently involved in anaphora resolution.\nSummary: Figure 4 illustrates two attention heads from layer 5 of a neural network, focusing on anaphora resolution. The top section displays full attentions for head 5, while the bottom section isolates attentions for the word 'its' from attention heads 5 and 6. The visual emphasizes the sharp attentions directed towards the word 'its', indicating its significance in the context. The image does not provide specific numerical data points or units, nor does it cite a data source.",
+    "text": "Input-Input Layer5\n\n[VISUAL CONTENT - TABLES]\nTitle: Attention Mechanism Visualization\nSummary: This image illustrates two attention heads from layer 5 of a neural network, focusing on anaphora resolution. The top section displays various words with connections indicating their attention weights, while the bottom section isolates attentions specifically from the word 'its' for attention heads 5 and 6. The connections are visually represented with lines, showing how different words relate to each other in the context of the sentence. The attention patterns are notably sharp for the word 'its', suggesting its significance in the given context.\n\n[VISUAL CONTENT - VECTOR_GRAPHICS]\nTitle: Attention Heads in Layer 5 for Anaphora Resolution\nSummary: This visual illustrates two attention heads from layer 5 of a neural network, focusing on their role in anaphora resolution. The top section displays full attentions for head 5, while the bottom section shows isolated attentions specifically for the word 'its' from attention heads 5 and 6. The connections between words are depicted with purple lines, indicating the strength of attention between them. Notably, the attentions are particularly sharp for the word 'its', suggesting a strong relationship with the surrounding context. The visual is labeled as Figure 4 and includes a note about the sharpness of the attentions for the specified word.",
     "keywords": [],
     "visual_summaries": [
       {
         "type": "tables",
-        "image_title": "Attention Heads in Layer 5 of 6",
+        "image_title": "Attention Mechanism Visualization",
         "image_keywords": [
           "attention heads",
           "anaphora resolution",
           "layer 5",
-          "neural networks"
+          "words",
+          "connections"
         ],
-        "confidence_score": 0.8,
+        "confidence_score": 0.9,
         "image_citation": "extracted_assets\\Attention\\tables\\page14_table1.png"
       },
       {
         "type": "vector_graphics",
-        "image_title": "Figure 4: Two attention heads, also in layer 5 of 6, apparently involved in anaphora resolution.",
+        "image_title": "Attention Heads in Layer 5 for Anaphora Resolution",
         "image_keywords": [
           "attention heads",
           "anaphora resolution",
           "layer 5",
-          "layer 6"
+          "data visualization"
         ],
         "confidence_score": 0.9,
         "image_citation": "extracted_assets\\Attention\\vector_graphics\\page14_vector.png"
@@ -405,30 +426,31 @@
   {
     "pdf": "Attention",
     "page": 15,
-    "text": "Input-Input Layer5\nnoitacilppa\ngnissim\n>SOE<\nnoinipo\ntcefrep\ndluohs\n>dap<\nreven\ntahw\nwaL\nehT\ntsuj siht\nera\nlliw tub\nym\new\neb eb\nsti\nni\nsi\n-\n, , .\nehT waL lliw reven eb tcefrep , tub sti noitacilppa dluohs eb tsuj - siht si tahw ew era gnissim , ni ym noinipo . >SOE< >dap<\nInput-Input Layer5\nnoitacilppa\ngnissim\n>SOE<\nnoinipo\ntcefrep\ndluohs\n>dap<\nreven\ntahw\nwaL\nehT\ntsuj siht\nera\nlliw tub\n\n[VISUAL CONTENT - VECTOR_GRAPHICS]\nTitle: Figure 5: Attention Heads Behavior\nSummary: Figure 5 illustrates the behavior of attention heads in a self-attention mechanism, specifically from layer 5 of 6. The visual shows connections between words in two example sentences, highlighting how different attention heads exhibit distinct behaviors related to sentence structure. The connections are represented with green lines for one head and red lines for another, indicating that the heads have learned to perform different tasks. The visual emphasizes the complexity and functionality of attention mechanisms in natural language processing.",
+    "text": "Input-Input Layer5\nnoitacilppa\ngnissim\n>SOE<\nnoinipo\ntcefrep\ndluohs\n>dap<\nreven\ntahw\nwaL\nehT\ntsuj siht\nera\nlliw tub\nym\new\neb eb\nsti\nni\nsi\n-\n, , .\nehT waL lliw reven eb tcefrep , tub sti noitacilppa dluohs eb tsuj - siht si tahw ew era gnissim , ni ym noinipo . >SOE< >dap<\nInput-Input Layer5\nnoitacilppa\ngnissim\n>SOE<\nnoinipo\ntcefrep\ndluohs\n>dap<\nreven\ntahw\nwaL\nehT\ntsuj siht\nera\nlliw tub\n\n[VISUAL CONTENT - VECTOR_GRAPHICS]\nTitle: Attention Heads Behavior in Self-Attention Mechanism\nSummary: This visual illustrates the behavior of attention heads in a self-attention mechanism, specifically from layer 5 of 6. It features two examples of connections between words in a sentence, with green lines representing one attention head and red lines representing another. The words 'The', 'Law', 'will', 'never', 'be', 'perfect', 'but', 'its', 'application', 'should', 'be', 'just', 'this', 'is', 'what', 'we', 'are', 'missing', 'in', 'my', 'opinion', '<EOS>', and '<pad>' are connected by these lines, demonstrating how different heads focus on various aspects of the sentence structure. The caption notes that the heads exhibit behavior related to the sentence's structure and that they have learned to perform different tasks.",
     "keywords": [
+      "dap",
+      "eht",
+      "tsuj",
+      "wal",
       "tahw",
       "soe",
-      "wal",
-      "dap",
       "dluohs",
-      "eht",
-      "eb",
       "tsuj siht",
       "input",
+      "eb",
       "tub",
-      "era",
-      "tsuj"
+      "era"
     ],
     "visual_summaries": [
       {
         "type": "vector_graphics",
-        "image_title": "Figure 5: Attention Heads Behavior",
+        "image_title": "Attention Heads Behavior in Self-Attention Mechanism",
         "image_keywords": [
           "attention heads",
-          "layer 5",
           "self-attention",
-          "tasks"
+          "layer 5",
+          "sentence structure",
+          "task differentiation"
         ],
         "confidence_score": 0.9,
         "image_citation": "extracted_assets\\Attention\\vector_graphics\\page15_vector.png"

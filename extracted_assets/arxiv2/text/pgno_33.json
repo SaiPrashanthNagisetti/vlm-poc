@@ -1,0 +1,19 @@
+{
+  "pdf": "arxiv2",
+  "page": 33,
+  "text": "Exploring Plan Space through Conversation 33\nsee if the question is about a goal that is already existing. If it is, return\nALREADY-USED as the \"used\" part of your answer and use the exact\nsamenameinthe\"questionArgument\"partofyouranswer.Youdosup-\nport questions about multiple goals/plan-properties in a single question\nand you can infer them when it’s implicit. If you are asked to answer\na question about several goals (e.g. \"Can I enforce the two groceries\ngoals?\") you should reply by listing all the relevant arguments of the\nquestionintheappropriatefield.Whenreplyingdirectlytotheuseryou\nshouldsetthequestionTypefieldtoDIRECT-USER.Whenthequestion\nseems to be a followup question about the explanation, or after at least\none S- or US- type question with the same context of enforced goals the\nuserwantstoenumeratetheconflictsorclarifythings,usetheDIRECT-\nET question type and simply copy the question in the directResponse\nfield.\nReturn the following fields:\n- \"questionType\": Detected question type\n- \"questionArgument\": The goals or plan properties referenced by the\nuser’s question, if any. If about several goals, include them all. You can\ninfer them when it’s implicit, but they should always be exactly part of\nthecurrentlyprovidedEnforced,Satisfied,orUnsatisfiedgoals.-\"used\":\nSet to \"ALREADY-USED\" if the question is about an existing goal.\n- If the question is unsolvable task related (US-*, Solvable: False), or a\n\"DIRECT-USER\"or\"DIRECT-ET\"question,set\"questionArgument\"\nto [\"\"] and \"used\" to NO-ARGUMENT-REQUIRED.\n-Whenreplyingdirectlytotheuser,onlyset\"questionType\"to\"DIRECT-\nUSER\" and use the field \"directResponse\".\n- When the question seems to be a followup question about an explana-\ntionoriftheuseraskstoclarify/enumerateconflicts,set\"questionType\"\nto \"DIRECT-ET\" and use the field \"directResponse\".\nLast instructions :\n- You do not know the utility of goals; maximizing utility is the user’s\nresponsibility. Avoid suggesting user to give you utility.\n- You do not know the plan, if the iteration step is solved or not and\nwhich goals are achieved in a solved iteration step.\n- Use DIRECT-USER whenever you’re not sure of the intention of the\nuser. It should be the default.\n- Help the user to understand your capabilities. You are here to help\nthem understand the conflicts between the goals during a planning task\nwhere they have to find a combination of enforced goals that maximizes\nutility. Be helpful and avoid repeating yourself.\nExamples of valid outputs and their input contexts are provided below\nfor reference. In practice, you will always be interacting with the same\nuser during multiple questions, and different iteration steps of the same\nplanningtaskbutdifferentgoalenforced,andthusdifferentconflictsand\npossible questions.\n## Examples",
+  "keywords": [
+    "utility",
+    "use",
+    "user",
+    "question",
+    "direct",
+    "type",
+    "direct user",
+    "goals",
+    "iteration",
+    "used",
+    "field",
+    "plan"
+  ]
+}

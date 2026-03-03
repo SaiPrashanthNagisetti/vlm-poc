@@ -1,0 +1,19 @@
+{
+  "pdf": "arxiv2",
+  "page": 14,
+  "text": "14 G. Fouilhé et al.\n27\n24\n21\n18\nytilitu\nLLM-based\n15\n± 1 std\n12\nTemplate-based\nxaM\n± 1 std\n9\n6\n: : : : : :\ne e e e e e\nlu lu lu lu lu lu\np-va p-va p-va p-va p-va p-va\n6 3 3 8 3 4\n3\n.0 .3 .1 .1 .3 .4\n0 0 0 0 0 0\n0\n0 3 6 9 12 15 18\nIteration steps\nFig.3: Comparison of maximum utility achieved over iteration steps between\nand GTPL. Scores are averaged by group at each iteration step.\nGLLM\ndescribed in Section 5. We did not include a group without explanations, as\nan earlier study [12] had already examined that goal-conflict explanations were\nmore effective than no explanations.\n6.2 User Groups Comparison\nWe compared the two groups using quantitative analysis and a feedback ques-\ntionnaire.Quantitativemetricsincludethetimespentonthetask,themaximum\nutility reached, and the number of questions asked.\nUsers took on average mins in and\nGLLM\nTime and maximum utility 13.9 ± 2.6\nmins in to complete the evaluation task. (15.2%) users in\nGTPL\n14.0 ± 2.5 10/66",
+  "keywords": [
+    "utility",
+    "explanations",
+    "lu lu",
+    "maximum utility",
+    "va",
+    "12",
+    "steps",
+    "iteration",
+    "users",
+    "lu",
+    "va va",
+    "15"
+  ]
+}

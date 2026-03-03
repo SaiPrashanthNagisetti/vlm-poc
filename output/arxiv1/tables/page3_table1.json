@@ -1,0 +1,20 @@
+{
+    "file_name": "arxiv1",
+    "page_number": 3,
+    "image_title": "Predictions and Rewards Analysis",
+    "image_keywords": [
+        "predictions",
+        "rewards",
+        "labeling",
+        "bias",
+        "verification"
+    ],
+    "summary": "This image presents a structured analysis of predictions and estimated rewards across different rounds. The table includes true labels, sampled predictions, and estimated rewards for two rounds: the 1st round and the Nth round. In the 1st round, the sampled predictions show a distribution of labels A, B, C, and D with corresponding estimated rewards of 0, 1, and 0. The Nth round reflects a similar structure with predictions and rewards, indicating a cycle of reinforced bias. The estimated label for the true label C is noted as 'B is really good!' highlighting the evaluation of predictions. The context suggests a focus on verification processes in artificial intelligence.",
+    "confidence_score": 0.9,
+    "image_citation": "extracted_assets\\arxiv1\\tables\\page3_table1.png",
+    "token_usage": {
+        "prompt_tokens": 15007,
+        "completion_tokens": 187,
+        "total_tokens": 15194
+    }
+}

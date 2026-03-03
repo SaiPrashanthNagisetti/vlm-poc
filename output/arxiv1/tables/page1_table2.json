@@ -1,0 +1,22 @@
+{
+    "file_name": "arxiv1",
+    "page_number": 1,
+    "image_title": "Test Time Reinforcement Learning Analysis",
+    "image_keywords": [
+        "AIME",
+        "AMC",
+        "MATH500",
+        "Reinforcement Learning",
+        "Data Analysis",
+        "Skewed",
+        "Reliable"
+    ],
+    "summary": "This image presents a structured analysis of test time reinforcement learning, featuring a bar chart on the right that compares performance metrics across different models. The AIME model shows values of 31.6 and 10.7, while AMC has values of 4.0, 7.3, and 17.8. The MATH500 model displays values of 2.2, 2.8, and 5.5. The average performance is indicated as 6.3, 4.7, and 9.3. The chart includes a legend identifying Qwen-Math-2.5-1.5B, Qwen2.5-1.5B, and Llama-3.2-1B-Instruct. Additionally, a table above the chart categorizes data reliability, marking 'B' as skewed and 'C' as reliable. The overall context emphasizes the application of reinforcement learning in evaluating model performance.",
+    "confidence_score": 0.9,
+    "image_citation": "extracted_assets\\arxiv1\\tables\\page1_table2.png",
+    "token_usage": {
+        "prompt_tokens": 15007,
+        "completion_tokens": 260,
+        "total_tokens": 15267
+    }
+}

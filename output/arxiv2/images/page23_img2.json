@@ -1,0 +1,20 @@
+{
+    "file_name": "arxiv2",
+    "page_number": 23,
+    "image_title": "Plan Iterations Overview",
+    "image_keywords": [
+        "plan iterations",
+        "task management",
+        "enforced goals",
+        "reference goals",
+        "step 3"
+    ],
+    "summary": "This image presents a user interface for planning iterations within a task management application. It displays the current status of two steps in the iteration process. Step 1 is marked as 'Scheduled' with a completion status of 13 out of 18 tasks, showing 4 enforced goals. Step 2 is labeled 'Unviable' with 6 enforced goals and a completion status of 7 out of 18 tasks. The enforced goals include tasks such as ensuring the daughter is home, buying groceries, attending a sports event, and shopping before the parent returns. Additionally, reference goals are listed, including ensuring the son is home and bringing groceries back. The interface allows users to perform a new plan computation from scratch or fork an existing one.",
+    "confidence_score": 0.9,
+    "image_citation": "extracted_assets\\arxiv2\\images\\page23_img2.png",
+    "token_usage": {
+        "prompt_tokens": 15007,
+        "completion_tokens": 203,
+        "total_tokens": 15210
+    }
+}

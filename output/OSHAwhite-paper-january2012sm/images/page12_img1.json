@@ -1,14 +1,19 @@
 {
     "file_name": "OSHAwhite-paper-january2012sm",
     "page_number": 12,
-    "image_title": "",
-    "image_keywords": [],
-    "summary": "",
-    "confidence_score": 0.0,
+    "image_title": "Wind Turbine Installation",
+    "image_keywords": [
+        "wind turbine",
+        "installation",
+        "crane",
+        "blue sky"
+    ],
+    "summary": "The image depicts a wind turbine installation process, showcasing a large white wind turbine with a prominent rotor blade and nacelle. A red crane is positioned nearby, assisting in the installation. A worker is visible on the turbine, indicating active construction. The background features a clear blue sky, emphasizing the outdoor setting of the installation. The scene captures the scale and complexity of wind energy infrastructure development.",
+    "confidence_score": 0.9,
     "image_citation": "extracted_assets\\OSHAwhite-paper-january2012sm\\images\\page12_img1.png",
     "token_usage": {
-        "prompt_tokens": 9040,
-        "completion_tokens": 29,
-        "total_tokens": 9069
+        "prompt_tokens": 9340,
+        "completion_tokens": 125,
+        "total_tokens": 9465
     }
 }
