@@ -3,17 +3,17 @@
   "page": 18,
   "text": "7.3.3 Hybrid Symbolic-Subsymbolic Models\nSymbolic and subsymbolic models represent the two primary types of AI models, categorized by their\nbackground features like reasoning and knowledge storage mechanisms. Both types has demonstrated\nsignificant success in performing specific tasks [158, 159, 160]. Given these strengths, it is worthwhile to\nexploretheintegrationofthesemethodologiesandleveragingtheadvantagesofboth. Webelievesuchan\napproach of blending the transparency and structure of symbolic reasoning with the pattern recognition\ncapabilities of deep neural networks holds the potential for robust generalization, interpretability, and\nefficiency [13, 14].\n7.3.4 Multi-Agent Governance and Coordination\nThe architecture of AI agents inherently involves the collaboration of multiple agents, each possessing\nunique features and advantages. As the scale of an AI agent system grows, the number of participants\nwould increase [161]. Thus, the governance and coordination of these agents — which includes task\nallocation, negotiationprotocols, anddataracemanagement—arecrucialtothesystem’sperformance.\nStudieshaveindicatedthatbyimplementingsuitableprotocolswithinmulti-agentdeeplearningmodels,\nsystem performance can be enhanced [23, 162, 163]. Therefore, it is essential to conduct future research\nfocused on these coordination mechanisms to advance the performance of AI agents [164, 165].\n8 Conclusion\nAIagentshavetransformedfromspecialized,rule-boundsystemstoincreasinglyintegrated,autonomous\nentities that perceive, reason, act, and collaborate. This review surveyed the historical evolution, core\narchitectural components, and emerging paradigms that define contemporary AI agents. We discussed\nbreakthroughs in reinforcement learning, large language models, hierarchical planning, and embodied\nintelligence. Yet, critical challenges persist: improving safety, interpretability, and ethical stewardship,\nas well as achieving robust generalization and resource efficiency [166, 167, 153].\nThe path forward demands interdisciplinary engagement. Insights from cognitive science, neuro-\nscience, sociology, economics, and ethics will inform next-generation agents. By prioritizing human\nvalues, transparency, and long-term adaptability, we can usher in an era where AI agents serve as trust-\nworthy partners in scientific research, industrial automation, healthcare, education, and beyond. With\nsustainedcollaborationandcarefulinnovation,thefutureofAIagentsholdsthepromiseofmorecapable,\nresponsible, and beneficial autonomous intelligence [168, 169].\nCompeting Interests\nThe author declares no competing interests.\nA Appendix\nThe first 4 queries were used to query Google Scholar and the last query was used to query Papers with\nCode:\nBusiness: (”AIAgent”OR”MLAgent”OR”DeepLearningAgent”OR”AutonomousAgent”OR”Au-\ntomatedAI”OR”GenerativeAIAgent”OR”ReinforcementLearningAgent”OR”IntelligentAgent”OR\n”Multi-Agent System”) AND (”Business” OR ”Industry” OR ”Industrial Applications” OR ”Manufac-\nturing”OR”Production”OR”SupplyChain”OR”Logistics”OR”Automation”OR”ProcessOptimiza-\ntion” OR ”Predictive Maintenance” OR ”Operations Management” OR ”Enterprise AI” OR ”Decision-\nMaking in Industry” OR ”Industrial AI”)”\nEducation: (‘AI Agent’) AND (’Education’) AND (’Learning’ OR ’Teaching’) AND (’Classroom’ OR\n’Critical Thinking’ OR ’Curriculum’ OR ’Synchronous’) AND (’Resource’)\nScience: (”AI Agent” OR ”Agent” OR ”Autonomous Agent” OR ”ML Agent” OR ”Multi-Agent Sys-\ntem” OR ”Reinforcement Learning Agent” OR ”LLM-Based Agent”) AND (”AI Scientist” OR ”AI\nResearcher” OR ”Autonomous Researcher” OR ”Autonomous Laboratory” OR ”Scientific Discovery",
   "keywords": [
-    "multi",
-    "ai agents",
-    "science",
-    "multi agent",
     "query",
-    "agents",
-    "models",
+    "multi agent",
     "industrial",
+    "ai",
+    "agent",
+    "models",
+    "ai agents",
     "autonomous",
     "symbolic",
-    "ai",
-    "agent"
+    "agents",
+    "science",
+    "multi"
   ]
 }

@@ -3,17 +3,17 @@
   "page": 12,
   "text": "5.5.1 Land Use and Urban Resource Management\nSustainable urban growth requires efficient resource management and land utilization. In parks and\ngardens, sensors keep an eye on irrigation-related parameters to guarantee effective water use. Energy\nconservation is aided by smart street lighting systems that have wireless internet relay capabilities,\nCCTV, and energy-efficient LED lights. Geographic Information Systems (GIS) and geospatial tech-\nnologies help with resource allocation and urban planning by offering insights into land use trends[113].\nAI helps create the best land use plans by striking a balance between environmental sustainability and\ndevelopment requirements. AI also facilitates the installation of green infrastructure, which reduces pol-\nlution and enhances urban sustainability [114]. Examples of this include parks and green roofs. which\nhelp mitigate pollution and improve urban sustainability\n5.5.2 Collaborative Decision-making AI Agents in Public Administration\nInpublicadministration, AIandparticipativesensingtechnologiesgreatlyimprovedecision-making. By\nenablingpeopletoreporteventsorincidentsinthecity,participatorysensingenhancespublicadministra-\ntion’sresponsivenessandefficacybysharingthereportswithotherusers[113]. AI-drivenurbanplanning\noffers data-driven insights that assist planners in making well-informed choices to enhance air quality\nandefficientlycontrolurbangrowth. Predictivemodelshelppublicadministrationimprovepublicsafety\nandallocateresourceseffectivelybyforecastinghighcrimerisklocations[115]. Data-drivenpolicymaking\nis supported by AI and GIS technologies, which offer insightful information for public administration\nand urban planning[116]. Policymakers can use these insights to inform policies that minimize pollution\nand advance sustainable development.\n5.5.3 Transport routing optimization AI agents\nAI technologies are essential for optimizing traffic flow and minimizing congestion in urban transport\nroutes. Parking sensors save needless travel and pollution by guiding drivers and detecting available\nparking places. In order to help with effective traffic management, traffic intensity monitoring devices\nevaluatevehiclespeeds,roadoccupancy,andtrafficvolumes. AIoptimizeseffectivetransportationflows,\nforecasts traffic, and examines transportation patterns. Through the support of Transit-Oriented De-\nvelopment (TOD), artificial intelligence (AI) contributes to the development of transit networks that\nprovide high-capacity, safe, and effective modes of transportation while lowering emissions and traf-\nfic congestion[116]. Furthermore, AI applications in transportation safety improve public safety and\noptimize transportation routes, for example, by forecasting high-crime risk zones[115].\n5.6 Entertainment and Creativity\nIn the 21st century, people’s entertainment has dramatically shifted from traditional offline mediums to\ndigital platforms, like social media platforms, video/music streaming services, and video games across\ndifferentplatformsanddevices. Thisevolutionhasfurtherbeenenhancedbyrecommendationalgorithms\nspecifically designed to personalize user experiences. Nowadays, the integration of AI-agents into the\nentertainment industry is becoming more popular. It’s a new trend that people start using AI-agents\nto create a better experience for the users. In the entertainment industry, AI-agents not only generate\npersonalized content recommendations, but also drive non-player characters in games. They can even\nassist in creative processes such as music composition, artwork generation, and scriptwriting as well.\nThese creative agents leverage cutting-edge large language models and multimodal generation, along\nwith traditional neural networks and optical character recognition techniques to support and produce\nresultswhicharetailoredtousers’interestsandneeds[117]. Suchpersonalizedtoolsopensnewpathsfor\ninnovative approaches to artwork creation and interactive storytelling and significantly boosts players’\nengagements and entertainments in games.\n5.6.1 Visual Design and Storytelling\nArtists and authors have long benefited from artificial intelligence. Tools such as text generation from\nChatGPT and image creation from MidJourney and Stable Diffusion have reshaped the production of\nhigh-quality artworks and stories by aiding in the visualization of ideas, and reduction of repetitive\ntasks[118]ThisevolutionofworkflowisfurtherenhancedbytheintegrationofAI-agents, whichhasthe\nability to integrate with multiple tools simultaneously to deliver design inspirations via both visual and",
   "keywords": [
-    "use",
-    "transportation",
-    "urban",
-    "ai agents",
-    "pollution",
     "traffic",
-    "public",
-    "agents",
+    "pollution",
+    "urban",
+    "ai",
+    "use",
     "entertainment",
     "land",
-    "ai",
+    "ai agents",
+    "transportation",
+    "agents",
+    "public",
     "making"
   ]
 }

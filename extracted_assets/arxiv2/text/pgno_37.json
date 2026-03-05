@@ -3,17 +3,17 @@
   "page": 37,
   "text": "Exploring Plan Space through Conversation 37\n### Example\nContext:\n- Iteration step: Step 3\n-EnforcedGoals:[Parentdoessports,Alicedoeshomework,Parentvisits\nhairdresser, Parent cooks lunch]\n- Satisfied Goals: [Parent does sports, Parent cooks lunch, Bob does\nhomework, Parent goes shopping]\n- Unsatisfied Goals: [Alice takes violin lessons, Bob takes piano lessons,\nAlice does basketball training, Bob does tennis training, Parent cooks\ndinner, Alice hangs out, Bob hangs out, Parent does laundry, Parent\ncleans home, Parent does groceries, Bob never in car without parent,\nAlice never in car without parent, Alice and Bob never together in car]\n- Solvable: true\n- Previous questions:\nUser: \"How can I make the task solvable?\"\nAssistant: \"You have to remove some goals, like Bob hangs out.\"\nSuggested Questions: [ \"Can I enforce any other Bob related goals ?\",\n\"What are the conflicts with the remaining Parents goals ?\",\n\"Why are the music goals not satisfied ?\" ]\n[Additional examples omitted for brevity]\n## Important Notes\n-Prioritizequestions aboutthecurrent problem(unsolvabilityorunsat-\nisfied goals)\n- Keep questions concise and natural\n- Avoid technical jargon; use conversational language\nFormatting of Question Suggester Input\n- Iteration step: $ {NAME}\n- Enforced Goals: $ {ENFORCED_GOALS}\n- Satisfied Goals: $ {SATISFIED_GOALS}\n- Unsatisfied Goals: $ {UNSATISFIED_GOALS}\n- Solvable: $ {SOLVABLE}\n- Previous questions:\nUser: $ {PREVIOUS_USER_MESSAGES}\nAssistant: $ {PREVIOUS_ASSISTANT_MESSAGES}\nC.6 Goal Translator\nNote that since the goal translator is disabled in the user study, the following\npromptiscraftedforatransportsplanningdomain,andnotParent’sAfternoon\nlike the others.",
   "keywords": [
-    "parent",
-    "satisfied",
-    "goals",
-    "questions",
-    "bob",
-    "alice",
     "user",
-    "does",
     "solvable",
-    "parent cooks",
+    "parent",
+    "bob",
+    "questions",
     "previous",
-    "satisfied goals"
+    "does",
+    "goals",
+    "satisfied goals",
+    "alice",
+    "satisfied",
+    "parent cooks"
   ]
 }

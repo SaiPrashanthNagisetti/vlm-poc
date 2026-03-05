@@ -4,16 +4,16 @@
   "text": "34 G. Fouilhé et al.\nQuestion: What do I have to do ?\nEnforced Goals: [do sports, do bring kid1 home]\nSatisfied Goals: []\nUnsatisfied Goals: [do shopping]\nSolvable: False\nReturn: {\n\"questionType\": \"DIRECT-USER\",\n\"questionArgument\": [\"\"],\n\"used\": \"NO-ARGUMENT-REQUIRED\",\n\"reverseTranslation\": \"What do I have to do?\",\n\"directResponse\": \"You have to find a combination of goals to enforce\nthat leads to a solvable plan with the highest utility you can. It seems\nthat you enforced too much goals and that this iteration step is unsolv-\nable. Try to ask me how to make this iteration step solvable!\"\n}\nQuestion: Why is the task unsolvable ?\nEnforced Goals: [do sports, do bring kid1 home]\nSatisfied Goals: []\nUnsatisfied Goals: [do shopping]\nSolvable: False\nReturn: {\n\"questionType\": \"US-WHY\",\n\"questionArgument\": [\"\"],\n\"used\": \"NO-ARGUMENT-REQUIRED\",\n\"reverseTranslation\": \"Why is the planning task unsolvable?\",\n\"directResponse\": null\n}\nQuestion: Why can’t I do music lesson ?\nEnforced Goals: [do sports, do shopping grandma]\nSatisfied Goals: [do bring kid1 home, bring food to home]\nUnsatisfied Goals: [do music lesson]\nSolvable: True\nReturn: {\n\"questionType\": \"S-WHY-NOT\",\n\"questionArgument\": [\"do music lesson\"],\n\"used\": \"ALREADY-USED\",\n\"reverseTranslation\": \"Why is the goal **do music lesson** not satis-\nfied?\",\n\"directResponse\": null\n}\nQuestion: yes enumerate the conflicts\nEnforced Goals: [do sports, do shopping grandma]\nSatisfied Goals: [do bring kid1 home, bring food to home]\nUnsatisfied Goals: [do music lesson]\nSolvable: True\nReturn: {",
   "keywords": [
     "bring",
-    "music lesson",
-    "enforced",
-    "goals",
-    "enforced goals",
-    "home",
-    "music",
-    "sports",
-    "goals sports",
-    "kid1",
     "solvable",
+    "enforced",
+    "kid1",
+    "home",
+    "goals",
+    "music lesson",
+    "goals sports",
+    "music",
+    "enforced goals",
+    "sports",
     "lesson"
   ]
 }

@@ -3,17 +3,17 @@
   "page": 9,
   "text": "manage inventory, and optimize logistics. Financial institutions employ agents for fraud detection, risk\nassessment, and algorithmic trading [20], reducing costs, improving efficiency, and enhancing overall\ncompetitiveness.\n5.2.1 Customer Service and Engagement\nAI-powered conversational agents, such as chatbots and virtual assistants are streamlining the customer\nexperience by handling routine inquiries, resolving issues and personalizing customers. These agents\nenable businesses to operate 24/7, providing instant responses and freeing human agents to focus on\nothercomplexorsensitiveissues. Forexample,havingcompaniesuseAIchatbotstoguideusersthrough\nproduct selection, technical issues and managing post-purchase support[73].\nInadditiontotraditionalcustomerserviceroles,AIagentsarenowessentialtomarketingcampaigns.\nThey analyze customer behavior to create targeted advertisements and personalized content. By dy-\nnamicallyadaptingtouserpreferences, theseagentshelpbusinessesimproveconversionratesandcreate\nlong-term customer loyalty, overall; this empowers businesses to scale operations without compromising\nquality.\n5.2.2 Supply Chain Optimization and Operation Management\nAI agents are revolutionizing supply chain management by enabling efficient forecasting, inventory con-\ntrol, and logistics optimization. The complex and dynamic nature of modern supply chains make them\nan ideal application area for AI as these systems can process vast amounts of data to identify patterns,\npredict disruptions, and suggest corrective actions [74].\nPredictive analytics allow businesses to forecast demand with significant accuracy. This capabil-\nity helps to minimize overproduction and stockouts, leading to significant cost savings. For instance,\nmultinational corporations like Amazon rely on AI agents to manage their inventory globally across\nwarehouses, dynamically adjusting stock levels based on real-time sales. [75][76]\nWhen it comes to logistics, route optimization algorithms consider variables such as traffic, weather\nconditionsanddeliverydeadlinetofindthemostefficientpathsfortransportation. Thisnotonlyreduces\nfuel consumption and delivery times but also contributes to sustainability goals. [75][76]\nWarehouse automation further highlights the role of AI agents. With autonomous robots powered\nby machine learning and computer vision technologies while managing tasks like sorting, packing and\ninventory auditing. These innovations reduce human error, improve throughput and enhance overall\noperational efficiency, making AI agents indispensable in modern supply chain ecosystems. [77].\n5.2.3 Financial Decision-Making and Risk Management\nThe financial sector has embraced AI agents for their ability to analyze large datasets,identify trends\nandmakedecisionswithprecisionandspeed. AIapplicationsinfinancerangefromfrauddetection, and\ncredit scoring to algorithmic trading and portfolio management [78].\nFraud detection is a critical section for AI agents to excel. By analyzing patterns in transaction\ndata, these systems can flag anomalies that might indicate fraudulent activity. For example, credit card\ncompanies use AI to detect unusual spending behavior in real time, notifying customers, and freezing\naccountstopreventlosses. Thesesystemscontinuouslylearnandadapt,improvingtheirabilitytodetect\ntypes of fraud as they emerge[79, 80].\nIn credit risk assessment, AI agents evaluate an applicant’s creditworthiness by analyzing traditional\nmetricsalongsidealternativedatasources,suchassocialmediaactivityandonlinebehavior. Thisholistic\napproach provides lenders with deeper insights, enabling them to make more informed decisions while\nexpanding access to credit for under banked populations [81].\nAI agents have transformed financial trading by enabling institutions to analyze complex datasets\nand execute trades with precision and speed. In algorithmic trading AI systems analyze market trends,\nprice movements and macroeconomic indicators to make split-second trading decisions that would be\nimpossibleforahumantoreplicate[82]. Theseagentsoptimizestrategiesbybacktestinghistoricaldata,\nidentifying profitable patterns and adapting to real-time market changes. For example, reinforcement\nlearning models are increasingly used in trading algorithms to improve performance by learning from\npast successes and failures [83, 84]. Such systems enhance profitability while reducing the impact of\nhuman bias and error.\nRisk management is another important area where AI agents are proving to irreplaceable. Advanced\nrisk models powered by machine learning can assess and predict potential market risks by analyzing",
   "keywords": [
-    "inventory",
-    "learning",
-    "ai agents",
-    "risk",
-    "ai",
-    "agents",
+    "management",
     "systems",
+    "ai",
+    "risk",
+    "ai agents",
+    "inventory",
+    "trading",
     "supply",
     "analyze",
-    "credit",
-    "management",
-    "trading"
+    "agents",
+    "learning",
+    "credit"
   ]
 }

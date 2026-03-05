@@ -3,17 +3,17 @@
   "page": 27,
   "text": "Exploring Plan Space through Conversation 27\nFig.13: Iteration steps list for a demo during the user study.\nB User Study\nB.1 Detailed Process\nWe recruited (after filtering) fluent in english participants through Prolific\n131\n(www.prolific.com), keeping only the submissions of participants that reached\ntheendoftheuserstudy,achievedatleasttwoiterationstepsincludingasolvable\none, and used the explanation interface at least one. The estimated time to\ncompletethestudywasbetween30and35minutes.Participantswererandomly\nassignedtooneoftwogroups,resultingin65participantsinGTPL and66inGLLM.\nThe participants were rewarded with a base payment of £4.20 and a bonus\npayment of £0 to £5 depending of achieved maximum utility.\nThe user study was divided into three main parts:\nAfter consenting to participate in our online user-\nIntroduction to the Task\nstudy, the tool and its possibilities were presented via a 1mn30 video tutorial.\nAfterwards,participantswerepresentedatoyexampleoftheParentsAfternoon\ndomain, more details in Section B.2. Subsequently, they were given 10 minutes\ntointeractwiththesystemandexploretheexplanationinterface.Theobjective\nof this first part was to familiarize participants with the tool and the domain.",
   "keywords": [
-    "study",
-    "utility",
-    "tool",
-    "video tutorial",
-    "www prolific",
-    "video",
     "user",
-    "participants",
+    "domain",
+    "video tutorial",
     "payment",
-    "prolific",
+    "participants",
+    "tool",
+    "video",
+    "utility",
+    "www prolific",
     "user study",
-    "domain"
+    "prolific",
+    "study"
   ]
 }

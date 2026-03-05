@@ -9,6 +9,15 @@ if not OPENAI_API_KEY:
 
 API_URL = "https://api.openai.com/v1/chat/completions"
 
-INPUT_FOLDER = "C:\\Users\\nsaip\\Documents\\VLM_POC\\extracted_assets"
-OUTPUT_FILE = "output/results.json"
-MODEL_NAME = "gpt-4o-mini"
+MODEL_NAME = "gpt-4o"
+
+INPUT_FOLDER = "input/data"
+EXTRACTED_ASSETS = "extracted_assets"
+VISUAL_OUTPUT = "visual_output"
+MERGED_OUTPUT = "merged_output"
+
+VECTOR_DB_PATH = "vector_store"
+
+CHUNK_SIZE = 600
+CHUNK_OVERLAP = 80
+TOP_K = 8

@@ -3,17 +3,17 @@
   "page": 41,
   "text": "Exploring Plan Space through Conversation 41\n[Additional examples omitted for brevity]\n## End of the examples\nFormatting of Goal Translator Input (via Explanation Framework)\nQuestion: ${QUESTION}\nQuestion Type: ${QUESTION_TYPE}\nQuestion Arguments: ${QUESTION_ARGUMENTS}\nConflicts: ${CONFLICTS}\nResolutions: ${RESOLUTIONS}\nEnforced Goals: ${ENFORCED_GOALS}\nSatisfied Goals: ${SATISFIED_GOALS}\nUnsatisfied Goals: ${UNSATISFIED_GOALS}\nReturn:\nTheinputscomingfromFOLLOW-UPquestionsarenotformattedandprovided\nas-is to the explanation translator.\nD Examples LLM Interaction\nInthissection,weshowexamplesoftheLLMconversationsasseenbytheuser16.\nThese are not examples from the user study, but they use the same instance and\n16\ndomain.",
   "keywords": [
+    "explanation",
     "type",
-    "satisfied",
-    "question",
-    "goals",
-    "translator",
-    "resolutions",
     "examples",
     "goals unsatisfied",
-    "explanation",
-    "question question",
+    "translator",
+    "goals",
+    "satisfied goals",
     "unsatisfied",
-    "satisfied goals"
+    "resolutions",
+    "question question",
+    "satisfied",
+    "question"
   ]
 }

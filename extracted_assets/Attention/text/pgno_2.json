@@ -3,17 +3,17 @@
   "page": 2,
   "text": "1 Introduction\nRecurrentneuralnetworks,longshort-termmemory[13]andgatedrecurrent[7]neuralnetworks\ninparticular,havebeenfirmlyestablishedasstateoftheartapproachesinsequencemodelingand\ntransductionproblemssuchaslanguagemodelingandmachinetranslation[35,2,5]. Numerous\neffortshavesincecontinuedtopushtheboundariesofrecurrentlanguagemodelsandencoder-decoder\narchitectures[38,24,15].\nRecurrentmodelstypicallyfactorcomputationalongthesymbolpositionsoftheinputandoutput\nsequences. Aligningthepositionstostepsincomputationtime,theygenerateasequenceofhidden\nstatesh ,asafunctionoftheprevioushiddenstateh andtheinputforpositiont.\nThisinherently\nt t−1\nsequentialnatureprecludesparallelizationwithintrainingexamples,whichbecomescriticalatlonger\nsequencelengths,asmemoryconstraintslimitbatchingacrossexamples. Recentworkhasachieved\nsignificantimprovementsincomputationalefficiencythroughfactorizationtricks[21]andconditional\ncomputation[32],whilealsoimprovingmodelperformanceincaseofthelatter. Thefundamental\nconstraintofsequentialcomputation,however,remains.\nAttentionmechanismshavebecomeanintegralpartofcompellingsequencemodelingandtransduc-\ntionmodelsinvarioustasks,allowingmodelingofdependencieswithoutregardtotheirdistancein\ntheinputoroutputsequences[2,19]. Inallbutafewcases[27],however,suchattentionmechanisms\nareusedinconjunctionwitharecurrentnetwork.\nInthisworkweproposetheTransformer,amodelarchitectureeschewingrecurrenceandinstead\nrelyingentirelyonanattentionmechanismtodrawglobaldependenciesbetweeninputandoutput.\nTheTransformerallowsforsignificantlymoreparallelizationandcanreachanewstateoftheartin\ntranslationqualityafterbeingtrainedforaslittleastwelvehoursoneightP100GPUs.\n2 Background\nThegoalofreducingsequentialcomputationalsoformsthefoundationoftheExtendedNeuralGPU\n[16],ByteNet[18]andConvS2S[9],allofwhichuseconvolutionalneuralnetworksasbasicbuilding\nblock,computinghiddenrepresentationsinparallelforallinputandoutputpositions.Inthesemodels,\nthenumberofoperationsrequiredtorelatesignalsfromtwoarbitraryinputoroutputpositionsgrows\ninthedistancebetweenpositions,linearlyforConvS2SandlogarithmicallyforByteNet. Thismakes\nit more difficult to learn dependencies between distant positions [12]. In the Transformer this is\nreducedtoaconstantnumberofoperations, albeitatthecostofreducedeffectiveresolutiondue\nto averaging attention-weighted positions, an effect we counteract with Multi-Head Attention as\ndescribedinsection3.2.\nSelf-attention,sometimescalledintra-attentionisanattentionmechanismrelatingdifferentpositions\nofasinglesequenceinordertocomputearepresentationofthesequence. Self-attentionhasbeen\nusedsuccessfullyinavarietyoftasksincludingreadingcomprehension,abstractivesummarization,\ntextualentailmentandlearningtask-independentsentencerepresentations[4,27,28,22].\nEnd-to-endmemorynetworksarebasedonarecurrentattentionmechanisminsteadofsequence-\nalignedrecurrenceandhavebeenshowntoperformwellonsimple-languagequestionansweringand\nlanguagemodelingtasks[34].\nTo the best of our knowledge, however, the Transformer is the first transduction model relying\nentirelyonself-attentiontocomputerepresentationsofitsinputandoutputwithoutusingsequence-\nalignedRNNsorconvolution. Inthefollowingsections,wewilldescribetheTransformer,motivate\nself-attentionanddiscussitsadvantagesovermodelssuchas[17,18]and[9].\n3 ModelArchitecture\nMostcompetitiveneuralsequencetransductionmodelshaveanencoder-decoderstructure[5,2,35].\n(x ,...,x )\nHere, the encoder maps an input sequence of symbol representations to a sequence\n1 n\nz = (z ,...,z ). z,\nof continuous representations Given the decoder then generates an output\n1 n\nsequence(y ,...,y )ofsymbolsoneelementatatime.\nAteachstepthemodelisauto-regressive\n1 m\n[10],consumingthepreviouslygeneratedsymbolsasadditionalinputwhengeneratingthenext.",
   "keywords": [
-    "34 best",
-    "sequence",
-    "representations",
-    "35",
-    "transformer",
     "attention",
-    "decoder",
-    "18",
+    "35",
+    "whilealsoimprovingmodelperformanceincaseofthelatter",
+    "34 best",
+    "representations",
     "27",
-    "positions",
+    "18",
+    "transformer",
+    "sequence",
     "self",
-    "whilealsoimprovingmodelperformanceincaseofthelatter"
+    "decoder",
+    "positions"
   ]
 }

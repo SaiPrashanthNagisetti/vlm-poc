@@ -3,17 +3,17 @@
   "page": 10,
   "text": "Liu,Y.,Kothari,P.,VanDelft,B.,Bellot-Gurlet,B.,Mordan, Sun, Y., Li, X., Dalal, K., Xu, J., Vikram, A., Zhang, G.,\nT., and Alahi, A. Ttt++: When does self-supervised Dubois,Y.,Chen,X.,Wang,X.,Koyejo,S.,etal. Learn-\nAdvances in Neural\ntest-time training fail or thrive? ingto(learnattesttime): Rnnswithexpressivehidden\nInformationProcessingSystems,34:21808–21820,2021. arXivpreprintarXiv:2407.04620,2024b.\nstates.\nMekala, D., Weston, J. E., Lanchantin, J., Raileanu, R.,\nhttps:\nTeam, Q. Qwen3 technical report, 2025. URL\nLomeli,M.,Shang,J.,andDwivedi-Yu,J. Toolverifier:\n//arxiv.org/abs/2505.09388.\nInFind-\nGeneralizationtonewtoolsviaself-verification.\nUesato,J.,Kushman,N.,Kumar,R.,Song,F.,Siegel,N.,\nings of the Association for Computational Linguistics:\nWang,L.,Creswell,A.,Irving,G.,andHiggins,I. Solv-\nEMNLP2024,pp.5026–5041,2024.\ningmathwordproblemswithprocess-andoutcome-based\nURLhttps://chat.\nOpenAI. ChatGPT(gpt-4),2024.\narXivpreprintarXiv:2211.14275,2022.\nfeedback.\nopenai.com/.\nVenktesh,V.,Rathee,M.,andAnand,A. Trustbutverify! a\nPrasad, A., Yuan, W., Pang, R. Y., Xu, J., Fazel-Zarandi,\nsurveyonverificationdesignfortest-timescaling,2025.\nM., Bansal, M., Sukhbaatar, S., Weston, J., and Yu, J.\nURLhttps://arxiv.org/abs/2508.16665.\narXivpreprint\nSelf-consistencypreferenceoptimization.\nWang,R.,Sun,Y.,Tandon,A.,Gandelsman,Y.,Chen,X.,\narXiv:2411.04109,2024.\nEfros,A.A.,andWang,X. Test-timetrainingonvideo\nQwenandelal. Qwen2.5: Apartyoffoundationmodels,\nJournalofMachineLearningResearch,26(9):\nstreams.\nURLhttps://qwenlm.github.\nSeptember2024.\n1–29,2025a.\nio/blog/qwen2.5/.\nWang, Y., Yang, Q., Zeng, Z., Ren, L., Liu, L., Peng, B.,\nSchick,T.,Dwivedi-Yu,J.,Dess`ı,R.,Raileanu,R.,Lomeli,\nCheng,H.,He,X.,Wang,K.,Gao,J.,etal. Reinforce-\nM., Hambro, E., Zettlemoyer, L., Cancedda, N., and\nmentlearningforreasoninginlargelanguagemodelswith\nScialom, T. Toolformer: Language models can teach\narXivpreprintarXiv:2504.20571,\nonetrainingexample.\nAdvancesinNeuralInformation\nthemselvestousetools.\n2025b.\nProcessingSystems,36:68539–68551,2023.\nYuksekgonul,M.,Koceja,D.,Li,X.,Bianchi,F.,McCaleb,\nShao,R.,Li,S.S.,Xin,R.,Geng,S.,Wang,Y.,Oh,S.,Du,\nJ., Wang, X., Kautz, J., Choi, Y., Zou, J., Guestrin, C.,\nS. S., Lambert, N., Min, S., Krishna, R., Tsvetkov, Y.,\nandSun,Y. Learningtodiscoverattesttime,2026. URL\nHajishirzi,H.,Koh,P.W.,andZettlemoyer,L. Spurious\nhttps://arxiv.org/abs/2601.16175.\nrewards: Rethinkingtrainingsignalsinrlvr,2025. URL\nhttps://arxiv.org/abs/2506.10947.\nZeng, W., Huang, Y., Liu, Q., Liu, W., He, K., Ma, Z.,\nandHe,J. Simplerl-zoo: Investigatingandtamingzero\nShao,Z.,Wang,P.,Zhu,Q.,Xu,R.,Song,J.,Bi,X.,Zhang,\nreinforcementlearningforopenbasemodelsinthewild.\nH.,Zhang,M.,Li,Y.,Wu,Y.,etal. Deepseekmath: Push-\narXivpreprintarXiv:2503.18892,2025.\ningthelimitsofmathematicalreasoninginopenlanguage\narXivpreprintarXiv:2402.03300,2024.\nmodels.\nZhang,K.,Yao,Q.,Liu,S.,Wang,Y.,Lai,B.,Ye,J.,Song,\nM., and Tao, D. Consistent paths lead to truth: Self-\nSilver,D.andSutton,R.S. Welcometotheeraofexperi-\nrewardingreinforcementlearningforllmreasoning,2025.\nGoogleAI,1,2025.\nence.\nURLhttps://arxiv.org/abs/2506.08745.\nSnell,C.,Lee,J.,Xu,K.,andKumar,A. Scalingllmtest-\nZhang, L., Hosseini, A., Bansal, H., Kazemi, M., Ku-\ntimecomputeoptimallycanbemoreeffectivethanscal-\nmar, A., and Agarwal, R. Generative verifiers: Re-\narXivpreprintarXiv:2408.03314,\ningmodelparameters.\narXivpreprint\nwardmodelingasnext-tokenprediction.\n2024.\narXiv:2408.15240,2024.\nSun,Y.,Wang,X.,Liu,Z.,Miller,J.,Efros,A.,andHardt,\nZuo,Y.,Zhang,K.,Sheng,L.,Qu,S.,Cui,G.,Zhu,X.,Li,\nM.Test-timetrainingwithself-supervisionforgeneraliza-\nH.,Zhang,Y.,Long,X.,Hua,E.,etal. Ttrl: Test-time\nInInternationalconference\ntionunderdistributionshifts.\nreinforcementlearning.arXivpreprintarXiv:2504.16084,\nonmachinelearning,pp.9229–9248.PMLR,2020.\n2025.\nSun, Y., Li, X., Dalal, K., Xu, J., Vikram, A., Zhang, G.,\nDubois,Y.,Chen,X.,Wang,X.,Koyejo,O.,Hashimoto,\nT.,andGuestrin,C. Learningto(learnattesttime): Rnns\nArXiv,\nwith expressive hidden states. abs/2407.04620,\nhttps://api.semanticscholar.\n2024a. URL\norg/CorpusID:271039606.",
   "keywords": [
-    "org",
-    "xu",
-    "2024",
-    "liu",
     "org abs",
-    "li",
-    "abs",
-    "arxiv",
-    "wang",
-    "zhang",
     "2025",
-    "arxivpreprintarxiv"
+    "liu",
+    "li",
+    "xu",
+    "arxiv",
+    "arxivpreprintarxiv",
+    "wang",
+    "2024",
+    "org",
+    "zhang",
+    "abs"
   ]
 }

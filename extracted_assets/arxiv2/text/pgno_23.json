@@ -3,17 +3,17 @@
   "page": 23,
   "text": "Exploring Plan Space through Conversation 23\nFig.8: Screenshot of an open goal panel.\nThe iterative planning process interface must\nIterative Planning Process\nsupport the user in taking an informed decision about which goals they should\nenforceinthenextiteration.Totakethisdecision,usersneedanoverviewofthe\nexisting iteration steps and access to more detailed information for each step.\nAt the same time user should be able to select the enforced goals for the next\niteration step. Our tool implements this process as follows.\nThe overview of the iteration steps is shown in the left in Figure 9. It allows\ntoquicklyidentifywhichstepsweresolvableandunsolvableandtheutilitythey\nachieved (More about the utility in Section A.3).\nFig.9:Screenshotoftheiterationstepsoverviewleftwiththeinterfacetocreate\nnew steps on the right.\nThe details view for a step is shown in Figure 10. In addition to the infor-\nmation in the overview it gives access to the following information:\nSolvable Step :\n– δ\ni",
   "keywords": [
-    "planning process",
-    "goals",
-    "fig",
-    "figure",
     "user",
+    "step",
+    "planning",
+    "figure",
     "iteration",
     "access",
-    "process",
     "steps",
-    "step",
-    "shown",
-    "planning"
+    "goals",
+    "planning process",
+    "fig",
+    "process",
+    "shown"
   ]
 }

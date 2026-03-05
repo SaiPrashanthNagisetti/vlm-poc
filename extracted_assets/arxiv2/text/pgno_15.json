@@ -3,17 +3,17 @@
   "page": 15,
   "text": "Exploring Plan Space through Conversation 15\n)%(\n60\nresU\nLLM-based\nTemplate-based\nrep\n40\negatnecreP\n20\negarevA\n0\nN W HAT-IF W HY DIRECT UP\nOT\nS-CA\nO O\nW-\nW\nN\nH\nH\nHY-\nUS-\nS- US-\nO\nW\nOLL\nW\nS-\nS-\nF\nFig.4: Comparison of question types used by and GTPL. See Sec. 4 for the\nGLLM\ndescription of questions.\ntask and the usefulness of the tool. The Figure 5 lists the questions as well as\nthe Likert score [26] distributions for the group-question pairs. The group\nGLLM\nmeansscoresareabovethoseoftheGTPLgroupforallquestions.Inparticular,the\ntwo questions on the helpfulness of the explanation interface show statistically\nsignificant differences.\n6.3 Evaluation of LLM Agents\nWe first evaluated the usefulness of the question suggester . The questions\nS\nQ\npicked from suggested questions represented of the 1679 questions col-\n61.7%\nlected from GLLM, suggesting a strong adoption that did not completely replace\nmanual questions. We then manually reviewed randomly selected questions\n100\nto evaluate the question translator . The classification of both the question\nT\nQ\ntype and the question argument was correct in of cases. Observed failures\n91%\naremainlybadroutingdecisions,wherethequestiontranslatorT unnecessarily\nQ\nasks for clarification or forwards questions directly as a question to\nFOLLOW-UP\nwhen a call to EF was required. These failures typically result in the user\nT\nE CC\nasking for an additional clarification.\nAs described in the introduction of this section, was disabled during the\nT\nG\nuser study for practical reasons and so was not evaluated. As for the main\nT\nE\nchallenge is to measure the correctness of a summarized explanation, which is\nout of scope of this paper.\n6.4 Limitations and Discussion\nWhileouruserstudyprovidesevidenceofbetterperformance\nInstanceandTask\nof over GTPL, we note that these results were obtained on a single planning\nGLLM\ntask instance of moderate difficulty. Although we chose this setup to align with\na previous user study in which template-based goal-conflict explanations were\nfound useful, it remains an open question how the proposed architecture would\nhelp on a wider range of problems. Another limitation of our study is that it",
   "keywords": [
-    "gllm",
-    "study",
-    "question",
-    "based",
-    "template based",
     "usefulness",
-    "user",
-    "template",
-    "user study",
-    "task",
     "llm",
-    "questions"
+    "user",
+    "questions",
+    "task",
+    "question",
+    "gllm",
+    "user study",
+    "template based",
+    "based",
+    "template",
+    "study"
   ]
 }

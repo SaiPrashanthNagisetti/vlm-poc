@@ -1,6 +1,6 @@
+from config.settings import OPENAI_API_KEY, API_URL, MODEL_NAME
 import requests
 import json
-from config.settings import OPENAI_API_KEY, API_URL, MODEL_NAME
 
 HEADERS = {
     "Authorization": f"Bearer {OPENAI_API_KEY}",

@@ -3,17 +3,17 @@
   "page": 8,
   "text": "8 G. Fouilhé et al.\nThe explanation framework provides a set of explana-\nSelecting Explanations\ntions, each of which addresses the question independently. It may be prefer-\nQ\nable to convey multiple explanations Eˆ E(Q), in cases where the effect has\n⊆\nmultiple sufficient causes, neither of which is necessary (over-determination). In\ncases without over-determination, some causes or properties will not be as rele-\nvantasothersormaynotfitintotheinteractioncontext.Inlinewiththeinsight\nfrom social science [28] that humans tend to select small, relevant explanations\ngiven the context, using only a subset of explanations can be advantageous.\nOftenthesizeoftheexplanationsischosenasselectioncriteria[4].[20]selects\nexplanations based on an upstream or interleaved process to collect a\npreferred\npreference ranking over the goals.\nIncasethemodelreturnsalargesetofexplanations\nSummarizing Explanations\nand these are at different levels and expressing their logical relation results in\nan overly lengthy response, it is often simpler to provide a summary of the\nexplanationsEˆ.Inlinewithhowhumansgiveexplanations[28],suchasummary\nshould convey only relevant information as effectively as possible in the given\ncontext. As for the explanation selection, the user questions can provide an\nindicationofthelevelofdetailexpected.Also,theinteractioncontextcanbeused\nto enable or facilitate the summarization by referring to previously addressed\nquestions or explanations.\nSelecting the correct abstraction level for the explanations [40], or only com-\nmunicatingviaapredefinedvocabulary[43]alsoleadstoasummarizationinthe\nsense of leaving out details that are not required or known.\n4 Richer Goal Conflict Explanations\nWeaddressthefollowingquestiontypes,allowingarichuserinteraction:US-why\n(Why is the task unsolvable?), (How can I make the task solvable?),\nUS-how\n(Why are not satisfied?), (What if I enforce args?),\nargs\nS-why-not S-what-if\n(Can be satisfied?), (How can be achieved?). This signif-\nargs args\nS-can S-how\nicantly extends the framework by [13] which focused on questions.\nS-why-not\nThesequestiontypeswerecollectedduringaninterviewconductedataman-\nufacturing company (Airbus) with the end-users of a future explainable plan-\nningsystem.WecallthisExplanationFrameworkwithConflictsandCorrections\n(EF ), in line with the fact that all answers are based on either the minimal\nCC\nconflicts (MUS) or minimal corrections (MCS) of the reference goals and\nGref\nthe arguments of the question.\nIn the following definitions, we assume the user asks questions about goals\nalready included in Gref. We list all supported question types and the corre-\nsponding formal explanations (prefaced by bullets). To clarify the meaning of\nthe question and answer, we include one possible natural language version of\nboth. As an input, we require the task τ, the iteration step\n⟨Gref,Genf,π⟩\nδ\n=\nand the question ,args⟩. The produced explanations are subsets\nQ ⟨µ E(Q)\n=\nQ\nof Gref, thus explanations’ formal language is =℘(L(τ)).\nL\nE",
   "keywords": [
-    "question",
     "gref",
-    "goals",
-    "provide",
-    "relevant",
-    "multiple",
-    "selecting",
     "minimal",
-    "task",
+    "provide",
     "explanations",
     "questions",
-    "args"
+    "task",
+    "goals",
+    "relevant",
+    "args",
+    "selecting",
+    "question",
+    "multiple"
   ]
 }

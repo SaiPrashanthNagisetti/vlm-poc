@@ -3,17 +3,17 @@
   "page": 26,
   "text": "26 G. Fouilhé et al.\nFig.12: Screenshot of the LLM-based explanations.\nA.3 User Study Adaptations\nIn order to facilitate the execution of a user study within a controlled environ-\nment, the following adaptations were made.\nThecomputationofexplanationsrequiresasignificantamount\nDemoEnvironment\nof time. In order to provide a responsive experience for the users, all conflicts\nand corrections are precomputed. This requires to fix the set of reference goals.\nAdemo iscreatedbasedonaprojectbyselectingasetofgoals.Eachgoalis\nassigned a utility that acts as a proxy for an intrinsic preference. Then all MUS\nand MCS for these goals are computed.\nFixing the set of reference goals also provides a controlled environment for a\nuserstudy.Allusersmustsolvethesameoptimizationproblem,whichallowsto\nuse the maximal achieved utility as a metric.\nDuringauserstudysomefeaturesoftheiterative\nAdaptationsIterativePlanning\nplanningprocessaredisabled.Usersdonothaveaccesstothesampleplans,but\nonlytotheinformationdisplayedintheiterationstepdetailview.Sincethegoals\nare fixed, users cannot create any new goals. If a user creates a new iteration\nstep, then they must only select the enforced goals. All not enforced goals are\nautomatically selected as reference goals. To motivate users to perform well, to\nachieveahighutility,themaximalachievableutilityforthedemoandtheutility\nof the best iteration step are displayed.\nFigure 13 shows an example list of iteration steps for the demo used in the\nuserstudy.Overallautilityof16outof18isachieved.Inthetoptheindividual\npartsoftheuserstudyareshownandbelowthetimerfortheavailableprocessing\ntime.",
   "keywords": [
-    "time",
-    "goals",
-    "reference",
-    "reference goals",
     "user",
-    "iteration",
-    "set",
-    "user study",
-    "step",
     "userstudy",
+    "step",
     "set reference",
-    "users"
+    "set",
+    "iteration",
+    "goals",
+    "time",
+    "users",
+    "reference goals",
+    "user study",
+    "reference"
   ]
 }

@@ -3,17 +3,17 @@
   "page": 10,
   "text": "diversedatasets,includingvolatilityindices,creditspreads,andgeopoliticalevents[85,86]. Byidentifying\ncorrelations and anomalies that humans might overlook, these systems enable traders and portfolio\nmanagerstomitigateexposuretoadversemarketconditions. Additionally,AIagentsareusedtosimulate\nstress-testing scenarios, helping financial institutions to prepare for extreme market events[87]. This\nability to provide actionable insights ensures that trading strategies remain robust and adaptive, even\nin highly uncertain environments.\n5.3 Education\nRecenteffortstoimplementAIagentsineducationhavetargetedelementary[88],middle[89],andupper\nlevel [90] students. These efforts target diverse areas, including healthcare [90], language learning [91],\nand computer science [92, 93]. Across these domains, use cases can be grouped into 2 main categories:\nelevating student engagement and reducing instructor workload. [91] identifies 3 potential strengths of\nAI agents in education: team teaching, personalized learning suggestions, and data-driven feedback. In\ntheirdiscussionofteamteaching,theyarguethathumanteachersshouldprovideknowledgeofpedagogy,\nsubject expertise, and emotional intelligence, while the AI agent is utilized for information processing.\nAmain limitationisthat theinformationprovidedbyAI agents maystill notbeperfectlyaccurate, and\nneurodiversepopulationsarenotfullyrepresentedintrainingdata[88]. Whileacknowledgingchallenges,\nauthors propose architecture guidelines for AI agent integration into education [94, 95, 46] and are\ngenerally optimistic about future progress in the area.\n5.3.1 Student engagement\nAI agents are commonly implemented in education with a knowledge base containing course materials\n[96, 97]. One study [92] implemented AI agents as co-learners for asynchronous learning. While the stu-\ndentswatchedtutorialvideos, theagentshadaccesstotheirscreenandmousemovements, andstudents\ninteractedwiththeagentsthroughtextandvoicemessage. Thisresultedinimprovedsocialandcognitive\npresence. Cognitivepresenceisgenerallydefinedasmeaningderivedthroughsustainedreflectionanddis-\ncourse; social presence is perceiving one’s environment to contain others. Another project, Mentigo,[89]\nadaptively responds to student interactions. The agent tracks 3 parameters: creative-problem-solving\nstage,studentstate,andselectedstrategy; aftereachdialogueround,theagentdeterminesthestateand\nstage, and from these values chooses the appropriate strategy.\nAI agents can also help to simulate real-world scenarios. For example, in [90], students are study-\ning healthcare root cause analysis, and agents representing professional roles—such as pharmacist and\nprescriber—provides students with the opportunity to participate in more dynamic and representative\nsimulations than they might otherwise have access to. The authors implement a mentor agent which\nprovides feedback to the learner based on every last 5 interactions. This mentor has access to the user’s\ninteractions with all other agents, as well as the course and assignment goals, and is thus able to guide\nstudents towards the correct answer without revealing it directly: a key educator design goal for AI\nagents.\n5.3.2 Educator workload\nEducatorsoftenfindthemselveswithouttheresourcestoprovidepersonalizedattentiontoeverystudent.\nAndalthoughfullAIagentintegrationhasnotyettakenplaceineducation,severalgroupshaveidentified\ngood practices, conducted initial experiments, and created AI agents focused on education. One group\n[91] created a customized ChatGPT agent. In the system prompt, they provide the model with several\nstepstousewhileinteractingwiththestudent. Forexample,thisgroup’sfocuswasteachingorderwords,\nso their first step was ”Explain what are order words?”, part of their fifth step was ”Confirm students’\nunderstanding by asking them the following multiple-choice question...”, and their last step was ”Ask\nstudents to describe the story of Snow White in a 5-step story and use appropriate order words to tell\ntheir story.”, which is the assignment evaluated by the educator. This process can be iterative, with the\neducator providing feedback at chosen steps, and the agent guiding students towards meeting the goals\nof the provided rubric while only providing educator-approved content [98].\nEducators may also seek AI agent assistance in managing group dynamics, such as through socially\nsharedregulationoflearning(SSRL).[99]designedanagentwiththetaskofraisinggroup-levelmetacog-\nnitive awareness as part of improving SSRL, and prompted students when their contribution was not\nidentified as group-oriented or when there were communication issues. Although the initial experiment",
   "keywords": [
-    "ai agents",
-    "step",
-    "students",
-    "feedback",
-    "educator",
-    "agents",
-    "education",
-    "interactions",
-    "learning",
-    "ai",
     "group",
-    "agent"
+    "educator",
+    "step",
+    "feedback",
+    "ai",
+    "education",
+    "agent",
+    "ai agents",
+    "learning",
+    "agents",
+    "interactions",
+    "students"
   ]
 }
