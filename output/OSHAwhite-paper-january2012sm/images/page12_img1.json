@@ -6,14 +6,15 @@
         "wind turbine",
         "installation",
         "crane",
-        "blue sky"
+        "renewable energy"
     ],
-    "summary": "The image depicts a wind turbine installation scene featuring a large white wind turbine partially assembled with its rotor blades visible. A red crane is positioned nearby, assisting in the installation process. A worker is seen on the turbine, indicating active construction. The background is a clear blue sky, emphasizing the outdoor setting of the installation. The turbine's nacelle, which houses the generator, is prominently displayed, showcasing the scale and complexity of wind energy infrastructure.",
+    "summary": "The image depicts the installation of a wind turbine, showcasing a large crane positioned next to the turbine structure. A worker is visible at the top of the turbine, indicating active construction or maintenance. The scene is set against a clear blue sky, emphasizing the scale of the turbine and the equipment involved in the installation process. This visual highlights the advancements in renewable energy technology and the infrastructure required for wind energy generation.",
+    "table_rows": [],
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\OSHAwhite-paper-january2012sm\\images\\page12_img1.png",
     "token_usage": {
-        "prompt_tokens": 9340,
+        "prompt_tokens": 9778,
         "completion_tokens": 136,
-        "total_tokens": 9476
+        "total_tokens": 9914
     }
 }

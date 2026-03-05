@@ -1,7 +1,7 @@
 {
     "file_name": "OSHAwhite-paper-january2012sm",
     "page_number": 13,
-    "image_title": "Department of Defense Rate Reduction Data",
+    "image_title": "Department of Defense Rate Reduction and Improvement Metrics",
     "image_keywords": [
         "DOD",
         "FY 02",
@@ -14,12 +14,20 @@
         "Air Force",
         "Defense Logistics"
     ],
-    "summary": "This table presents data on the Department of Defense (DOD) rate reductions and percent improvements from Fiscal Year (FY) 2002 to FY 2009. The values for FY 02 are as follows: All DOD at 31.5, Army at 29.3, Navy at 39.8, Marines at 73.8, Air Force at 25.6, and Defense Logistics at 25.6. In FY 09, these figures changed to: All DOD at 18.7, Army at 17.8, Navy at 21.2, Marines at 36.7, Air Force at 16.5, and Defense Logistics at 16.9. The rate reductions are noted as: All DOD 12.8, Army 11.5, Navy 18.6, Marines 37.1, Air Force 9.1, and Defense Logistics 8.7. The percent improvements are recorded as: All DOD 41%, Army 39%, Navy 46%, Marines 50%, Air Force 36%, and Defense Logistics 34%.",
+    "summary": "This table presents the rate reduction and percent improvement metrics for various branches of the Department of Defense (DOD) from Fiscal Year 2002 (FY 02) to Fiscal Year 2009 (FY 09). It includes data for All DOD, Army, Navy, Marines, Air Force, and Defense Logistics, highlighting the rate reductions achieved and the corresponding percentage improvements. The Marines show the highest percent improvement at 50%, while the Air Force has the lowest at 36%. Overall, the data indicates significant reductions across all branches, with the Navy achieving a 46% improvement.",
+    "table_rows": [
+        "All DOD: FY 02 = 31.5, FY 09 = 18.7, Rate Reduction = 12.8, Percent Improvement = 41%",
+        "Army: FY 02 = 29.3, FY 09 = 17.8, Rate Reduction = 11.5, Percent Improvement = 39%",
+        "Navy: FY 02 = 39.8, FY 09 = 21.2, Rate Reduction = 18.6, Percent Improvement = 46%",
+        "Marines: FY 02 = 73.8, FY 09 = 36.7, Rate Reduction = 37.1, Percent Improvement = 50%",
+        "Air Force: FY 02 = 25.6, FY 09 = 16.5, Rate Reduction = 9.1, Percent Improvement = 36%",
+        "Defense Logistics: FY 02 = 25.6, FY 09 = 16.9, Rate Reduction = 8.7, Percent Improvement = 34%"
+    ],
     "confidence_score": 1.0,
     "image_citation": "extracted_assets\\OSHAwhite-paper-january2012sm\\tables\\page13_table1.png",
     "token_usage": {
-        "prompt_tokens": 15007,
-        "completion_tokens": 308,
-        "total_tokens": 15315
+        "prompt_tokens": 15445,
+        "completion_tokens": 427,
+        "total_tokens": 15872
     }
 }

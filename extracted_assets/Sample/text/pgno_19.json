@@ -3,17 +3,17 @@
   "page": 19,
   "text": "Agent”)\nEntertainment: (”AI Agent” OR “AI-Assisted”) AND (“Entertainment” OR “Design” OR “Game”\nOR “Storytelling”)\nSocial Impact: (“AI Agent” OR “Generative AI”) AND (“Social Impact” OR “Society” OR “Social\nImplications”)\nPapers with Code: ”AI Agent”\nReferences\n[1] Peter Stone and Manuela Veloso. Multiagent systems: A survey from a machine learning perspec-\ntive. Autonomous Robots, 8(3):345–383, 2000.\n[2] Alexey et al. Dosovitskiy. An image is worth 16x16 words: Transformers for image recognition at\nscale. In ICLR, 2021.\n[3] EdwardA.FeigenbaumandPamelaMcCorduck. The Fifth Generation: Artificial Intelligence and\nJapan’s Computer Challenge to the World. Addison-Wesley, 1983.\n[4] Malik Ghallab, Dana Nau, and Paolo Traverso. Automated Planning: Theory and Practice. Else-\nvier, 2004.\n[5] Leslie Pack Kaelbling, Michael L Littman, and Andrew W Moore. Reinforcement learning: A\nsurvey. Journal of artificial intelligence research, 4:237–285, 1996.\n[6] Richard S Sutton and Andrew G Barto. Reinforcement Learning: An Introduction. MIT press,\n2018.\n[7] David et al. Silver. Mastering the game of go with deep neural networks and tree search. Nature,\n529:484–489, 2016.\n[8] David et al. Silver. Mastering the game of go without human knowledge. Nature, 550:354–359,\n2017.\n[9] Jacobetal.Devlin. Bert: Pre-trainingofdeepbidirectionaltransformersforlanguageunderstand-\ning. In NAACL-HLT, pages 4171–4186, 2019.\n[10] Alex Krizhevsky, Ilya Sutskever, and Geoffrey E Hinton. Imagenet classification with deep convo-\nlutional neural networks. Communications of the ACM, 60(6):84–90, 2017.\n[11] Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learning for image\nrecognition. In CVPR, pages 770–778, 2016.\n[12] Tom B et al. Brown. Language models are few-shot learners. NeurIPS, 33:1877–1901, 2020.\n[13] Brenden M Lake, Tomer D Ullman, Joshua B Tenenbaum, and Samuel J Gershman. Building\nmachines that learn and think like people. Behavioral and Brain Sciences, 40:e253, 2017.\n[14] Gary Marcus. The next decade in ai: Four steps towards robust artificial intelligence. Medium,\n2020.\n[15] Jingqun Tang, Chunhui Lin, Zhen Zhao, Shu Wei, Binghong Wu, Qi Liu, Hao Feng, Yang Li, Siqi\nWang,LeiLiao,etal. Textsquare: Scalinguptext-centricvisualinstructiontuning. arXiv preprint\narXiv:2404.12803, 2024.\nBrianPaden,MichalCˇ´ap,SzeZhengYong,DenisYershov,andEmilioFrazzoli.\n[16] Asurveyofmotion\nplanning and control techniques for self-driving urban vehicles. IEEE Transactions on Intelligent\nVehicles, 1(1):33–55, 2016.\n[17] Philip J Kitson, Guillaume Marie, John S Fossey, Paulo Jesus, and Leroy Cronin. Configurable\nrobotic platform for automated synthesis. Nature, 549:70–75, 2017.",
   "keywords": [
-    "ai",
-    "artificial intelligence",
-    "et",
-    "2017",
-    "game",
     "image",
-    "agent",
-    "learning",
     "2016",
-    "et al",
+    "artificial intelligence",
+    "ai agent",
+    "et",
     "al",
-    "ai agent"
+    "et al",
+    "game",
+    "learning",
+    "2017",
+    "ai",
+    "agent"
   ]
 }

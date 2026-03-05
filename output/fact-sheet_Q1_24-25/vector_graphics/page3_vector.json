@@ -1,0 +1,31 @@
+{
+    "file_name": "fact-sheet_Q1_24-25",
+    "page_number": 3,
+    "image_title": "Consolidated Financial Data - First Quarter, Fiscal 2025",
+    "image_keywords": [
+        "Revenues",
+        "Cost of sales",
+        "Gross Profit",
+        "Operating Expenses",
+        "Net Profit",
+        "EPS",
+        "Fiscal 2025",
+        "Infosys"
+    ],
+    "summary": "This document presents the consolidated statement of comprehensive income for Infosys for the three months ended June 30, 2024, and June 30, 2023, along with quarter-over-quarter comparisons for March 31, 2024. Key metrics include revenues, cost of sales, gross profit, operating expenses, and net profit, with year-over-year growth percentages provided. Notably, revenues increased from 4,617 million to 4,714 million, reflecting a 2.1% growth, while net profit before minority interest rose to 764 million, marking a 5.6% increase. The operating margin remained stable at around 21%, indicating consistent operational efficiency. The document also highlights significant changes in expenses and earnings per share, providing a comprehensive overview of the company's financial performance during this period.",
+    "table_rows": [
+        "Revenues: Jun 30 2024 = 4714, Jun 30 2023 = 4617, Growth % YoY = 2.1%, Mar 31 2024 = 4564, Growth % QoQ = 3.3%",
+        "Cost of sales: Jun 30 2024 = 3259, Jun 30 2023 = 3211, Growth % YoY = 1.5%, Mar 31 2024 = 3219, Growth % QoQ = 1.2%",
+        "Gross Profit: Jun 30 2024 = 1455, Jun 30 2023 = 1406, Growth % YoY = 3.5%, Mar 31 2024 = 1345, Growth % QoQ = 8.2%",
+        "Total Operating Expenses: Jun 30 2024 = 461, Jun 30 2023 = 445, Growth % YoY = 3.6%, Mar 31 2024 = 428, Growth % QoQ = 7.7%",
+        "Net Profit (after minority interest): Jun 30 2024 = 763, Jun 30 2023 = 724, Growth % YoY = 5.6%, Mar 31 2024 = 958, Growth % QoQ = -20.4%",
+        "Basic EPS ($): Jun 30 2024 = 0.18, Jun 30 2023 = 0.17, Growth % YoY = 5.4%, Mar 31 2024 = 0.23, Growth % QoQ = -20.4%"
+    ],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet_Q1_24-25\\vector_graphics\\page3_vector.png",
+    "token_usage": {
+        "prompt_tokens": 26779,
+        "completion_tokens": 601,
+        "total_tokens": 27380
+    }
+}

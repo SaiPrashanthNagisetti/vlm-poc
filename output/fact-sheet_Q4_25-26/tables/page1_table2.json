@@ -1,0 +1,34 @@
+{
+    "file_name": "fact-sheet_Q4_25-26",
+    "page_number": 1,
+    "image_title": "Client Metrics Overview",
+    "image_keywords": [
+        "Number of Clients",
+        "Active",
+        "Added during the period",
+        "Million dollar clients",
+        "Client contribution to revenues",
+        "Days Sales Outstanding",
+        "Dec 31 2025",
+        "Sep 30 2025",
+        "Dec 31 2024"
+    ],
+    "summary": "This table presents an overview of client metrics for the quarters ending December 31, 2025, September 30, 2025, and December 31, 2024. It includes the number of active clients, clients added during the period, and various categories of million-dollar clients. Notably, the number of active clients increased from 1,876 in December 2024 to 1,949 in December 2025. The contribution to revenues from the top clients is also highlighted, showing a slight decrease in percentage for the top 5 and top 10 clients from the previous quarter. Additionally, the Days Sales Outstanding remained consistent at 41 days across the periods.",
+    "table_rows": [
+        "Active clients: Dec 31 2025 = 1949, Sep 30 2025 = 1896, Dec 31 2024 = 1876",
+        "Added during period: Dec 31 2025 = 121, Sep 30 2025 = 118, Dec 31 2024 = 101",
+        "Number of Million dollar clients: Dec 31 2025 = 1012, Sep 30 2025 = 1012, Dec 31 2024 = 997",
+        "1 Million dollar +: Dec 31 2025 = 326, Sep 30 2025 = 322, Dec 31 2024 = 301",
+        "10 Million dollar +: Dec 31 2025 = 84, Sep 30 2025 = 85, Dec 31 2024 = 89",
+        "Client contribution to revenues: Top 5 clients: Dec 31 2025 = 12.8%, Sep 30 2025 = 13.0%, Dec 31 2024 = 12.7%",
+        "Top 10 clients: Dec 31 2025 = 20.6%, Sep 30 2025 = 20.7%, Dec 31 2024 = 19.9%",
+        "Days Sales Outstanding: Dec 31 2025 = 74, Sep 30 2025 = 71, Dec 31 2024 = 74"
+    ],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet_Q4_25-26\\tables\\page1_table2.png",
+    "token_usage": {
+        "prompt_tokens": 21112,
+        "completion_tokens": 547,
+        "total_tokens": 21659
+    }
+}

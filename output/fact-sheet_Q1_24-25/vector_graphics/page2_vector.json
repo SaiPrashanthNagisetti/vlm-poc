@@ -1,0 +1,31 @@
+{
+    "file_name": "fact-sheet_Q1_24-25",
+    "page_number": 2,
+    "image_title": "Consolidated Financial Data - First Quarter, Fiscal 2025",
+    "image_keywords": [
+        "Effort & Utilization",
+        "Employee Metrics",
+        "Cash Flow",
+        "Infosys",
+        "Fiscal 2025"
+    ],
+    "summary": "This table presents consolidated financial data for Infosys for the first quarter of Fiscal 2025, comparing metrics across three quarters: June 30, 2024, March 31, 2024, and June 30, 2023. It includes key performance indicators such as effort and utilization percentages, employee metrics, and cash flow figures. Notably, the utilization rate including trainees shows a decrease from 83.9% to 83.3% over the quarters, while the percentage of women employees remains relatively stable around 39%. The free cash flow increased significantly from $699 million in June 2023 to $1,094 million in June 2024, indicating improved liquidity. The table also details total employees and attrition rates, highlighting a slight decrease in voluntary attrition from 17.3% to 12.7%. Overall, the data reflects a positive trend in cash flow and stable employee metrics.",
+    "table_rows": [
+        "Effort: Onsite: Jun 30 2024 = 23.9%, Mar 31 2024 = 24.2%, Jun 30 2023 = 24.7%",
+        "Effort: Offshore: Jun 30 2024 = 76.1%, Mar 31 2024 = 75.8%, Jun 30 2023 = 75.3%",
+        "Utilization: Including trainees: Jun 30 2024 = 83.9%, Mar 31 2024 = 82.0%, Jun 30 2023 = 78.9%",
+        "Utilization: Excluding trainees: Jun 30 2024 = 85.3%, Mar 31 2024 = 83.5%, Jun 30 2023 = 81.1%",
+        "Employee Metrics: Total employees: Jun 30 2024 = 315,332, Mar 31 2024 = 317,240, Jun 30 2023 = 336,294",
+        "Employee Metrics: S/W professionals: Jun 30 2024 = 298,123, Mar 31 2024 = 299,814, Jun 30 2023 = 317,611",
+        "Employee Metrics: Voluntary Attrition %: Jun 30 2024 = 12.7%, Mar 31 2024 = 12.6%, Jun 30 2023 = 17.3%",
+        "Cash Flow: Free cash flow: Jun 30 2024 = 1,094 million, Mar 31 2024 = 848 million, Jun 30 2023 = 699 million",
+        "Cash Flow: Consolidated cash and investments: Jun 30 2024 = 4,311 million, Mar 31 2024 = 4,676 million, Jun 30 2023 = 3,593 million"
+    ],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet_Q1_24-25\\vector_graphics\\page2_vector.png",
+    "token_usage": {
+        "prompt_tokens": 26779,
+        "completion_tokens": 669,
+        "total_tokens": 27448
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "file_name": "fact-sheet_Q3_24-25",
+    "page_number": 2,
+    "image_title": "Quarterly Financial Metrics",
+    "image_keywords": [
+        "Free cash flow",
+        "Consolidated cash",
+        "Dec 31 2024",
+        "Sep 30 2024",
+        "Dec 31 2023"
+    ],
+    "summary": "This table presents quarterly financial metrics for free cash flow and consolidated cash and investments for the periods ending December 31, 2023, September 30, 2024, and December 31, 2024. The free cash flow shows a significant increase from 5,548 in December 2023 to 10,647 in December 2024, indicating a positive trend in cash generation. Similarly, consolidated cash and investments also reflect growth, rising from 32,476 in December 2023 to 39,836 in December 2024. The data suggests a strengthening financial position over the observed periods.",
+    "table_rows": [
+        "Free cash flow: Dec 31 2024 = 10,647, Sep 30 2024 = 7,010, Dec 31 2023 = 5,548",
+        "Consolidated cash and investments: Dec 31 2024 = 39,836, Sep 30 2024 = 38,767, Dec 31 2023 = 32,476"
+    ],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet_Q3_24-25\\tables\\page2_table4.png",
+    "token_usage": {
+        "prompt_tokens": 21112,
+        "completion_tokens": 288,
+        "total_tokens": 21400
+    }
+}

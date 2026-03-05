@@ -1,20 +1,21 @@
 {
     "file_name": "Sample",
     "page_number": 14,
-    "image_title": "AI Design Process Flow Diagram",
+    "image_title": "AI Design Process",
     "image_keywords": [
-        "AI design",
-        "process",
+        "AI",
+        "design process",
         "algorithm",
         "training",
         "evaluation"
     ],
-    "summary": "This flow diagram illustrates the AI Design Process, which consists of five key steps. Step 1 involves defining the problem and objective that the AI needs to address. Step 2 focuses on creating a framework for the AI, utilizing supervised, unsupervised, or deep learning techniques. In Step 3, the method for the AI to learn from its mistakes is selected, which may involve a reward or loss system. Step 4 emphasizes using data to train and test the AI until it achieves an acceptable level of skill. Finally, Step 5 entails sharing the trained agent and assessing its performance in real-world scenarios. The diagram visually represents these steps in a circular format, highlighting the iterative nature of the AI design process.",
-    "confidence_score": 0.9,
+    "summary": "This flow diagram illustrates the AI Design Process, outlining the key steps involved in developing an AI system. The process begins with defining the problem and objective, followed by choosing an appropriate algorithm and framework. Next, the agent's architecture is defined, and the agent is trained using data until it reaches an acceptable skill level. Finally, the trained agent is shared and evaluated in real-world scenarios. Each step is numbered and connected, emphasizing the sequential nature of the process.",
+    "table_rows": [],
+    "confidence_score": 0.95,
     "image_citation": "extracted_assets\\Sample\\images\\page14_img1.png",
     "token_usage": {
-        "prompt_tokens": 26341,
-        "completion_tokens": 194,
-        "total_tokens": 26535
+        "prompt_tokens": 26779,
+        "completion_tokens": 146,
+        "total_tokens": 26925
     }
 }

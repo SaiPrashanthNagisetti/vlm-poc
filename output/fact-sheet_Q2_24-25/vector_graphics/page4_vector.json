@@ -1,0 +1,36 @@
+{
+    "file_name": "fact-sheet_Q2_24-25",
+    "page_number": 4,
+    "image_title": "Consolidated Financial Data - Second Quarter, Fiscal 2025",
+    "image_keywords": [
+        "Revenues",
+        "Cost of sales",
+        "Gross Profit",
+        "Operating Profit",
+        "Net Profit",
+        "EPS",
+        "Dividend Per Share",
+        "Fiscal 2025",
+        "Quarterly Growth",
+        "Yearly Growth"
+    ],
+    "summary": "This table presents the consolidated statement of comprehensive income for Infosys for the three and six months ended September 30, 2024, compared to the same periods in 2023. Key metrics include revenues, cost of sales, gross profit, operating profit, and net profit, with growth percentages indicating year-over-year and quarter-over-quarter changes. For the three months, revenues increased by 5.1% to \u20b940,986 crore, while net profit after minority interest rose by 4.8% to \u20b96,506 crore. The six-month figures show a revenue growth of 4.4% to \u20b980,300 crore, with net profit after minority interest increasing by 5.9% to \u20b912,874 crore. The operating margin for both periods reflects stable performance, with notable increases in other income and basic EPS.",
+    "table_rows": [
+        "Revenues: Sep 30 2024 = 40,986, Sep 30 2023 = 38,994, Growth % = 5.1%",
+        "Cost of sales: Sep 30 2024 = 28,474, Sep 30 2023 = 27,031, Growth % = 5.3%",
+        "Gross Profit: Sep 30 2024 = 12,512, Sep 30 2023 = 11,963, Growth % = 4.6%",
+        "Total Operating Expenses: Sep 30 2024 = 3,863, Sep 30 2023 = 3,689, Growth % = 4.7%",
+        "Operating Profit: Sep 30 2024 = 8,649, Sep 30 2023 = 8,274, Growth % = 4.6%",
+        "Net Profit (after minority interest): Sep 30 2024 = 6,506, Sep 30 2023 = 6,212, Growth % = 4.7%",
+        "Basic EPS: Sep 30 2024 = 15.71, Sep 30 2023 = 15.01, Growth % = 4.7%",
+        "Diluted EPS: Sep 30 2024 = 15.68, Sep 30 2023 = 14.99, Growth % = 4.5%",
+        "Dividend Per Share: Sep 30 2024 = 21.00, Sep 30 2023 = 18.00, Growth % = 16.7%"
+    ],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet_Q2_24-25\\vector_graphics\\page4_vector.png",
+    "token_usage": {
+        "prompt_tokens": 26779,
+        "completion_tokens": 606,
+        "total_tokens": 27385
+    }
+}

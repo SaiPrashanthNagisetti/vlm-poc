@@ -1,0 +1,34 @@
+{
+    "file_name": "fact-sheet_Q4_24-25",
+    "page_number": 1,
+    "image_title": "Infosys Consolidated Financial Data - Q4 Fiscal 2025",
+    "image_keywords": [
+        "Revenue Growth",
+        "Financial Services",
+        "Manufacturing",
+        "Client Data",
+        "North America",
+        "Europe",
+        "India"
+    ],
+    "summary": "This table presents the consolidated financial data for Infosys for the fourth quarter of fiscal 2025, highlighting key metrics such as year-over-year (YoY) growth rates and revenue contributions from various business segments and geographic regions. The overall YoY growth is reported at 4.2%, with notable contributions from financial services and manufacturing sectors. The data also details client metrics, including the number of active clients and their revenue contributions, with a significant portion coming from clients generating over one million dollars. The table indicates trends in revenue growth across different segments and geographies, emphasizing the company's performance in North America and Europe.",
+    "table_rows": [
+        "YoY growth: 4.2% FY, 4.8% Q4",
+        "Operating Margin: 21.1% FY, 21.0% Q4",
+        "EPS Increase: 8.3% FY, 10.1% Q4",
+        "Total Contract Value: $11.6 Bn FY, $2.6 Bn Q4",
+        "Free Cash Flow: $4.1 Bn FY, $0.9 Bn Q4",
+        "Financial Services: Mar 31 2025 = 28.4%, Dec 31 2024 = 27.8%, Mar 31 2024 = 26.4%",
+        "Manufacturing: Mar 31 2025 = 15.9%, Dec 31 2024 = 15.5%, Mar 31 2024 = 14.7%",
+        "North America: Mar 31 2025 = 57.1%, Dec 31 2024 = 58.4%, Mar 31 2024 = 59.6%",
+        "Number of Clients: Mar 31 2025 = 1,869, Dec 31 2024 = 1,876, Mar 31 2024 = 1,882",
+        "Clients over 1 Million dollars: Mar 31 2025 = 992, Dec 31 2024 = 997, Mar 31 2024 = 959"
+    ],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet_Q4_24-25\\vector_graphics\\page1_vector.png",
+    "token_usage": {
+        "prompt_tokens": 26779,
+        "completion_tokens": 510,
+        "total_tokens": 27289
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "file_name": "fact-sheet_Q2_24-25",
+    "page_number": 3,
+    "image_title": "Consolidated Financial Data - Second Quarter, Fiscal 2025",
+    "image_keywords": [
+        "Revenues",
+        "Cost of sales",
+        "Gross Profit",
+        "Operating Profit",
+        "Net Profit",
+        "EPS",
+        "Dividend Per Share",
+        "Fiscal 2025",
+        "Financial Statement"
+    ],
+    "summary": "This table presents the consolidated statement of comprehensive income for Infosys for the three and six months ended September 30, 2024, and September 30, 2023. It details key financial metrics such as revenues, cost of sales, gross profit, operating profit, and net profit, along with their year-over-year growth percentages. For the three months, revenues increased by 3.7% to $4,894 million, while net profit rose by 3.6% to $777 million. For the six months, revenues grew by 2.9% to $9,608 million, with net profit after minority interest at $1,540 million, reflecting a 4.5% increase. The table also includes earnings per share (EPS) and dividend per share figures, indicating a positive trend in financial performance.",
+    "table_rows": [
+        "Revenues: Sep 30 2024 = 4894, Sep 30 2023 = 4718, Growth % YoY = 3.7%",
+        "Cost of sales: Sep 30 2024 = 3400, Sep 30 2023 = 3271, Growth % YoY = 3.9%",
+        "Gross Profit: Sep 30 2024 = 1494, Sep 30 2023 = 1447, Growth % YoY = 3.2%",
+        "Operating Profit: Sep 30 2024 = 1033, Sep 30 2023 = 1000, Growth % YoY = 3.3%",
+        "Net Profit (after minority interest): Sep 30 2024 = 777, Sep 30 2023 = 751, Growth % YoY = 3.6%",
+        "Basic EPS ($): Sep 30 2024 = 0.19, Sep 30 2023 = 0.18, Growth % YoY = 3.4%",
+        "Dividend Per Share ($): Sep 30 2024 = 0.25, Sep 30 2023 = 0.22, Growth % YoY = 16.7%"
+    ],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet_Q2_24-25\\vector_graphics\\page3_vector.png",
+    "token_usage": {
+        "prompt_tokens": 26779,
+        "completion_tokens": 527,
+        "total_tokens": 27306
+    }
+}

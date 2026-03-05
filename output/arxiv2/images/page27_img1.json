@@ -3,7 +3,6 @@
     "page_number": 27,
     "image_title": "Plan Iterations Overview",
     "image_keywords": [
-        "Plan Iterations",
         "Step 1",
         "Step 2",
         "Step 3",
@@ -11,15 +10,25 @@
         "Step 5",
         "Step 6",
         "Step 7",
-        "Goals",
-        "Evaluation"
+        "evaluation",
+        "goals",
+        "user study"
     ],
-    "summary": "This image presents an overview of plan iterations across seven steps in a user study evaluation task. Each step is labeled with its status: Step 1 is 'Saved' with 10 out of 18 goals achieved; Step 2 is 'Saved' with 10 out of 18 goals achieved; Step 3 is 'Unsaved' with 11 out of 18 goals achieved; Step 4 is 'Unsaved' with 7 out of 18 goals achieved; Step 5 is 'Unsaved' with 6 out of 18 goals achieved; Step 6 is 'Unsaved' with 7 out of 18 goals achieved; and Step 7 is 'Saved' with 16 out of 18 goals achieved. The overall task has 3 'Survived' and 4 'Unsaved' iterations, indicating progress and areas needing attention.",
+    "summary": "This visual is a structured overview of plan iterations in a user study, detailing the progress across seven steps. Each step is labeled with its status, indicating whether it is 'Saved' or 'Unsubmitted.' The visual displays the number of goals set and the number of goals achieved for each step, with specific values noted for Steps 1, 2, 3, and 7. Notably, Steps 4, 5, and 6 are marked as 'Unsubmitted,' indicating incomplete tasks. The overall evaluation shows a total of three successful steps and four unsuccessful ones, with the final step achieving 16 out of 18 goals, suggesting a high level of completion in that area.",
+    "table_rows": [
+        "Step 1: Saved, 10/18 goals achieved",
+        "Step 2: Saved, 10/18 goals achieved",
+        "Step 3: Unsubmitted, 11/18 goals achieved",
+        "Step 4: Unsubmitted, 7/18 goals achieved",
+        "Step 5: Unsubmitted, 6/18 goals achieved",
+        "Step 6: Unsubmitted, 0/18 goals achieved",
+        "Step 7: Saved, 16/18 goals achieved"
+    ],
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\arxiv2\\images\\page27_img1.png",
     "token_usage": {
-        "prompt_tokens": 26341,
-        "completion_tokens": 256,
-        "total_tokens": 26597
+        "prompt_tokens": 26779,
+        "completion_tokens": 336,
+        "total_tokens": 27115
     }
 }

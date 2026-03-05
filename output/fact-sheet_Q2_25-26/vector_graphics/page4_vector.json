@@ -1,0 +1,35 @@
+{
+    "file_name": "fact-sheet_Q2_25-26",
+    "page_number": 4,
+    "image_title": "Consolidated Financial Data - Second Quarter, Fiscal 2026",
+    "image_keywords": [
+        "Revenues",
+        "Net Profit",
+        "EPS",
+        "Operating Profit",
+        "Comprehensive Income",
+        "Fiscal 2026",
+        "Infosys"
+    ],
+    "summary": "This table presents the consolidated statement of comprehensive income for Infosys for the three and six months ended September 30, 2025, and September 30, 2024. It highlights key financial metrics such as revenues, cost of sales, gross profit, operating profit, and net profit, along with their year-over-year growth percentages. For the three months, revenues increased by 8.6% to \u20b944,490 crore, while net profit rose by 13.2% to \u20b97,375 crore. The six-month figures show revenues of \u20b986,769 crore, an 8.1% increase, and a net profit of \u20b914,300 crore, reflecting a 10.9% growth. The table also includes basic and diluted earnings per share (EPS) for both periods, indicating a positive trend in profitability.",
+    "table_rows": [
+        "Revenues: Sep 30 2025 = 44,490, Sep 30 2024 = 40,986, Growth % = 8.6",
+        "Cost of sales: Sep 30 2025 = 30,800, Sep 30 2024 = 28,474, Growth % = 8.2",
+        "Gross Profit: Sep 30 2025 = 13,690, Sep 30 2024 = 12,512, Growth % = 9.4",
+        "Operating Profit: Sep 30 2025 = 9,353, Sep 30 2024 = 8,649, Growth % = 8.1",
+        "Net Profit (after non-controlling interests): Sep 30 2025 = 7,375, Sep 30 2024 = 6,516, Growth % = 13.2",
+        "Basic EPS: Sep 30 2025 = 17.76, Sep 30 2024 = 15.71, Growth % = 13.1",
+        "Diluted EPS: Sep 30 2025 = 17.74, Sep 30 2024 = 15.68, Growth % = 13.2",
+        "Revenues (six months): Sep 30 2025 = 86,769, Sep 30 2024 = 80,300, Growth % = 8.1",
+        "Net Profit (six months): Sep 30 2025 = 14,300, Sep 30 2024 = 12,890, Growth % = 10.9",
+        "Basic EPS (six months): Sep 30 2025 = 34.47, Sep 30 2024 = 31.09, Growth % = 10.9",
+        "Dividend Per Share: Sep 30 2025 = 23.00, Sep 30 2024 = 21.00, Growth % = 9.5"
+    ],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet_Q2_25-26\\vector_graphics\\page4_vector.png",
+    "token_usage": {
+        "prompt_tokens": 26779,
+        "completion_tokens": 675,
+        "total_tokens": 27454
+    }
+}

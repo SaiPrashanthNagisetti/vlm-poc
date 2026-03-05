@@ -1,0 +1,29 @@
+{
+    "file_name": "fact-sheet_Q2_25-26",
+    "page_number": 1,
+    "image_title": "Infosys Consolidated Financial Data - Q2 2026",
+    "image_keywords": [
+        "Revenue Growth",
+        "Financial Services",
+        "Client Geography",
+        "Client Data",
+        "Quarter ended",
+        "YoY Growth",
+        "Operating Margin",
+        "EPS Increase"
+    ],
+    "summary": "This table presents the consolidated financial data for Infosys for the second quarter of fiscal 2026, highlighting key metrics such as quarter-over-quarter (QoQ) growth of 2.2% and year-over-year (YoY) growth of 2.9%. It details revenues segmented by business sectors, with financial services leading at 27.7% for the quarter ended September 30, 2025. The geographical breakdown shows North America contributing 56.3% of total revenues. Additionally, client data reveals a total of 1,896 active clients, with significant contributions from top clients. The overall trends indicate stable growth across various segments and geographies.",
+    "table_rows": [
+        "QoQ growth: 2.2%, YoY growth: 2.9%",
+        "Revenues by Business Segments: Financial services: 27.7%, Manufacturing: 16.5%, Energy, Utilities, Resources & Services: 13.4%, Retail: 12.7%, Communication: 12.1%, Hi-Tech: 8.3%, Life Sciences: 6.4%, Others: 2.9%",
+        "Revenues by Client Geography: North America: 56.3%, Europe: 31.7%, Rest of the world: 8.9%, India: 3.1%",
+        "Client Data: Active clients: 1,896, Added during the period: 118, Million dollar clients: 1 Million dollar +: 1,012, 10 Million dollar +: 322, 50 Million dollar +: 41, Client contribution to revenues: Top 5 clients: 13.0%, Top 10 clients: 20.7%, Top 25 clients: 35.2%"
+    ],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet_Q2_25-26\\vector_graphics\\page1_vector.png",
+    "token_usage": {
+        "prompt_tokens": 26779,
+        "completion_tokens": 440,
+        "total_tokens": 27219
+    }
+}

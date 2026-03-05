@@ -79,6 +79,7 @@ def load_visual_summaries(pdf_name):
                 "image_title": data.get("image_title"),
                 "image_keywords": data.get("image_keywords"),
                 "summary": data.get("summary"),  # Used temporarily for text merge
+                "table_rows": data.get("table_rows", []),
                 "confidence_score": data.get("confidence_score"),
                 "image_citation" : data.get("image_citation")
             }
@@ -105,12 +106,18 @@ def merge_pdf_content(pdf_name):
         keywords = page_data.get("keywords", [])
         visuals = visual_pages.get(page, [])
 
+
         # 🔥 Append visual summaries into text
         for v in visuals:
+
+            table_rows = v.get("table_rows", [])
+            rows_text = "\n".join(table_rows)
+
             summary_block = (
                 f"\n\n[VISUAL CONTENT - {v.get('type', '').upper()}]\n"
                 f"Title: {v.get('image_title', '')}\n"
-                f"Summary: {v.get('summary', '')}"
+                f"Summary: {v.get('summary', '')}\n"
+                f"{rows_text}"
             )
             base_text += summary_block
 
@@ -121,7 +128,7 @@ def merge_pdf_content(pdf_name):
                 "type": v.get("type"),
                 "image_title": v.get("image_title"),
                 "image_keywords": v.get("image_keywords"),
-                "confidence_score": v.get("confidence_score"),
+                #"confidence_score": v.get("confidence_score"),
                 "image_citation": v.get("image_citation")
             })
 

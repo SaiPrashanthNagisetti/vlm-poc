@@ -8,14 +8,16 @@
         "MATH",
         "TTRL",
         "T3RL",
-        "scores"
+        "scores",
+        "verifier"
     ],
-    "summary": "This bar chart compares scores across three categories: AIME, AMC, and MATH. For AIME, the scores are as follows: TTRL at 15.8, T3RL (1.5B Verifier) at 20.8, and T3RL (7B Verifier) at 21.7. In the AMC category, TTRL scored 48.9, while T3RL (1.5B Verifier) achieved 50.9, and T3RL (7B Verifier) reached 51.5. Lastly, for MATH, TTRL scored 73.0, T3RL (1.5B Verifier) at 74.6, and T3RL (7B Verifier) at 74.9. The chart illustrates a trend of increasing scores from TTRL to T3RL across all categories.",
+    "summary": "This bar chart compares the scores achieved in three assessments: AIME, AMC, and MATH. Each assessment displays scores for three categories: TTRL, T3RL (1.5B Verifier), and T3RL (7B Verifier). In AIME, the highest score is 21.7 for T3RL (7B Verifier), while TTRL scored 15.8. For AMC, T3RL (7B Verifier) also leads with a score of 51.5, compared to TTRL's 48.9. In MATH, T3RL (7B Verifier) again shows the highest score at 74.9, with TTRL at 73.0. The chart illustrates a trend of increasing scores with the T3RL verifiers across all assessments.",
+    "table_rows": [],
     "confidence_score": 0.95,
     "image_citation": "extracted_assets\\arxiv1\\images\\page8_img2.png",
     "token_usage": {
-        "prompt_tokens": 9340,
-        "completion_tokens": 246,
-        "total_tokens": 9586
+        "prompt_tokens": 9778,
+        "completion_tokens": 242,
+        "total_tokens": 10020
     }
 }

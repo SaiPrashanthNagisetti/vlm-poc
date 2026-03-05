@@ -1,0 +1,24 @@
+{
+    "file_name": "fact-sheet_Q3_24-25",
+    "page_number": 1,
+    "image_title": "Growth Metrics Comparison",
+    "image_keywords": [
+        "QoQ growth",
+        "YoY growth",
+        "Reported",
+        "CC",
+        "percentage"
+    ],
+    "summary": "This table presents a comparison of growth metrics, specifically focusing on quarter-over-quarter (QoQ) and year-over-year (YoY) growth percentages. The table includes two main metrics: QoQ growth, reported at 0.9% with a corresponding CC of 1.7%, and YoY growth, reported at 5.9% with a CC of 6.1%. This structured comparison highlights the differences between reported values and their corresponding CC figures, providing insights into growth performance over different time frames.",
+    "table_rows": [
+        "QoQ growth (%): Reported = 0.9%, CC = 1.7%",
+        "YoY growth (%): Reported = 5.9%, CC = 6.1%"
+    ],
+    "confidence_score": 1.0,
+    "image_citation": "extracted_assets\\fact-sheet_Q3_24-25\\tables\\page1_table1.png",
+    "token_usage": {
+        "prompt_tokens": 21112,
+        "completion_tokens": 207,
+        "total_tokens": 21319
+    }
+}

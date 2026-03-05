@@ -1,0 +1,31 @@
+{
+    "file_name": "fact-sheet_Q4_24-25",
+    "page_number": 1,
+    "image_title": "Quarterly Revenue Breakdown by Region",
+    "image_keywords": [
+        "North America",
+        "Europe",
+        "Rest of the world",
+        "India",
+        "Quarter ended",
+        "YoY Growth",
+        "Mar 31, 2025",
+        "Dec 31, 2024",
+        "Mar 31, 2024"
+    ],
+    "summary": "This table presents the quarterly revenue breakdown by region for the period ending March 31, 2025, alongside previous quarters and year-over-year (YoY) growth figures. The regions included are North America, Europe, Rest of the World, and India, with total revenue also indicated. Notably, North America shows a slight decline from the previous quarter, while Europe exhibits significant growth. India demonstrates a remarkable increase in YoY growth, indicating strong performance. The total revenue for the quarter is reported at 100.0, with an overall YoY growth of 3.6%.",
+    "table_rows": [
+        "North America: Mar 31 2025 = 57.1, Dec 31 2024 = 58.4, Mar 31 2024 = 59.6, YoY Growth Reported = (0.8), CC = 0.4",
+        "Europe: Mar 31 2025 = 31.2, Dec 31 2024 = 29.8, Mar 31 2024 = 28.6, YoY Growth Reported = 12.9, CC = 15.0",
+        "Rest of the world: Mar 31 2025 = 8.8, Dec 31 2024 = 8.7, Mar 31 2024 = 9.6, YoY Growth Reported = (4.5), CC = (2.2)",
+        "India: Mar 31 2025 = 2.9, Dec 31 2024 = 3.1, Mar 31 2024 = 2.2, YoY Growth Reported = 39.0, CC = 43.7",
+        "Total: Mar 31 2025 = 100.0, Dec 31 2024 = 100.0, Mar 31 2024 = 100.0, YoY Growth = 3.6"
+    ],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet_Q4_24-25\\tables\\page1_table3.png",
+    "token_usage": {
+        "prompt_tokens": 21112,
+        "completion_tokens": 499,
+        "total_tokens": 21611
+    }
+}

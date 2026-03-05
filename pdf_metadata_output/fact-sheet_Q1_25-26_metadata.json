@@ -1,0 +1,61 @@
+{
+    "pdf_file_name": "fact-sheet_Q1_25-26.pdf",
+    "total_pages": 3,
+    "text_page_count": 3,
+    "image_page_count": 3,
+    "table_page_count": 3,
+    "vector_page_count": 3,
+    "page_results": [
+        {
+            "page_number": 1,
+            "has_text": true,
+            "has_images": true,
+            "has_tables": true,
+            "image_count": 1,
+            "table_count": 1,
+            "raster_images": 1,
+            "vector_graphics": true,
+            "content_types": [
+                "text",
+                "images",
+                "tables",
+                "vector_graphics"
+            ],
+            "requires_image_processing": true
+        },
+        {
+            "page_number": 2,
+            "has_text": true,
+            "has_images": true,
+            "has_tables": true,
+            "image_count": 1,
+            "table_count": 1,
+            "raster_images": 1,
+            "vector_graphics": true,
+            "content_types": [
+                "text",
+                "images",
+                "tables",
+                "vector_graphics"
+            ],
+            "requires_image_processing": true
+        },
+        {
+            "page_number": 3,
+            "has_text": true,
+            "has_images": true,
+            "has_tables": true,
+            "image_count": 1,
+            "table_count": 1,
+            "raster_images": 1,
+            "vector_graphics": true,
+            "content_types": [
+                "text",
+                "images",
+                "tables",
+                "vector_graphics"
+            ],
+            "requires_image_processing": true
+        }
+    ]
+}

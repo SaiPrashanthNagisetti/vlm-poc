@@ -3,17 +3,17 @@
   "page": 27,
   "text": "[141] Finale Doshi-Velez and Been Kim. Towards a rigorous science of interpretable machine learning.\narXiv:1702.08608, 2017.\n[142] Steven Yi, Adam Yee, John Harmon, Frank Meng, and Saurabh Hinduja. Enhance wound healing\nmonitoring through a thermal imaging based smartphone app. In Medical imaging 2018: Imaging\ninformatics for healthcare, research, and applications, volume 10579, pages 438–441. SPIE, 2018.\n[143] Jing Su, Chufeng Jiang, Xin Jin, Yuxin Qiao, Tingsong Xiao, Hongda Ma, Rong Wei, Zhi Jing,\nJiajun Xu, and Junhong Lin. Large language models for forecasting and anomaly detection: A\nsystematic literature review. arXiv preprint arXiv:2402.10350, 2024.\n[144] Yihong Jin and Ze Yang. Scam detection for ethereum smart contracts: Leveraging graph repre-\nsentation learning for secure blockchain. arXiv preprint arXiv:2412.12370, 2024.\n[145] Yanlietal.Zhao. Towardsdomain-agnosticandopen-domaingeneralizationofvisionandlanguage\nagents. In NeurIPS, pages 19567–19578, 2021.\n[146] Dong Liu, Yanxuan Yu, Lianghao Tan, Wenjun Wu, Bide Zhao, Zichao Li, Bingjie Lu, and Yijie\nWen. Seamcarver: Llm-enhanced content-aware image resizing. 2024.\n[147] Ziheng Chen, Fabrizio Silvestri, Jia Wang, He Zhu, Hongshik Ahn, and Gabriele Tolomei. Relax:\nReinforcement learning agent explainer for arbitrary predictive models. In Proceedings of the 31st\nACM international conference on information & knowledge management, pages 252–261, 2022.\n[148] Emma Strubell, Ananya Ganesh, and Andrew McCallum. Energy and policy considerations for\ndeep learning in nlp. ACL, pages 3645–3650, 2019.\n[149] Jinlin Xiang and Eli Shlizerman. Tkil: Tangent kernel optimization for class balanced incremental\nlearning. In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages\n3529–3539, 2023.\n[150] Zikai Zhang, Suman Rath, Jiaohao Xu, and Tingsong Xiao. Federated learning for smart grid: A\nsurvey on applications and potential vulnerabilities. arXiv preprint arXiv:2409.10764, 2024.\n[151] Jinglan Yang, Jianghuai Liu, Zheng Yao, and Chaoqun Ma. Measuring digitalization capabilities\nusing machine learning. Research in International Business and Finance, 70:102380, 2024.\n[152] Jinglan Yang, Chaoqun Ma, Shisong Hsiao, and Jianghuai Liu. Blockchain governance: a bib-\nliometric study and content analysis. Technology Analysis & Strategic Management, 0(0):1–15,\n2024.\n[153] Yunfan Zhao, Niclas Boehmer, Aparna Taneja, and Milind Tambe. Towards foundation-model-\nbasedmultiagentsystemtoaccelerateaiforsocialimpact. arXiv preprint arXiv:2412.07880,2024.\n[154] Chen Chen, Chenyu Zhao, Hongyu Jin, Zhiping Jiang, Wei Wang, and Wen-Yang Li. Association\nof composite dietary antioxidant index with circadian syndrome: evidence from nhanes. Frontiers\nin Nutrition, 11:1501352, 2025.\n[155] Chenyu You, Jinlin Xiang, Kun Su, Xiaoran Zhang, Siyuan Dong, John Onofrey, Lawrence Staib,\nand James S Duncan. Incremental learning meets transfer learning: Application to multi-site\nprostatemrisegmentation. InInternationalWorkshoponDistributed, Collaborative, andFederated\nLearning, pages 3–16. Springer, 2022.\n[156] Zhihao Lin, Qi Zhang, Zhen Tian, Peizhuo Yu, Ziyang Ye, Hanyang Zhuang, and Jianglin Lan.\nSlam2: Simultaneous localization and multimode mapping for indoor dynamic environments. Pat-\ntern Recognition, 158:111054, 2025.\n[157] Han Xu, Yuhong Shao, Kareem Benaissa, and Yutong Li. Sparsebf: Enhancing scalability and\nefficiency for sparsely filled privacy-preserving record linkage. In Proceedings of the 33rd ACM\nInternational Conference on Information and Knowledge Management, page 4143–4147, 2024.\n[158] Han-Cheng Dan, Peng Yan, Jiawei Tan, Yinchao Zhou, and Bingjie Lu. Multiple distresses de-\ntection for asphalt pavement using improved you only look once algorithm based on convolutional\nneural network. International Journal of Pavement Engineering, 25(1):2308169, 2024.",
   "keywords": [
-    "pages",
-    "2024",
-    "international",
-    "ma",
-    "liu",
-    "learning",
-    "arxiv",
-    "zhao",
     "preprint arxiv",
     "preprint",
     "yang",
+    "international",
+    "2024",
+    "zhao",
+    "liu",
+    "ma",
+    "pages",
+    "arxiv",
+    "learning",
     "arxiv preprint"
   ]
 }

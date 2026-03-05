@@ -1,0 +1,31 @@
+{
+    "file_name": "fact-sheet_Q4_25-26",
+    "page_number": 2,
+    "image_title": "Consolidated Financial Data - Third Quarter, Fiscal 2026",
+    "image_keywords": [
+        "Effort",
+        "Utilization",
+        "Employee Metrics",
+        "Cash Metrics",
+        "Infosys",
+        "Financial Data",
+        "Quarter ended",
+        "Dec 31 2025",
+        "Sep 30 2025",
+        "Dec 31 2024"
+    ],
+    "summary": "This table presents the consolidated financial data for Infosys for the third quarter of fiscal 2026, focusing on effort and utilization metrics, employee statistics, and cash metrics. Key metrics include onsite and offshore effort percentages, utilization rates including and excluding trainees, total employee counts, and financial figures such as free cash flow and consolidated cash and investments. Notable trends include a slight decrease in utilization rates from the previous quarter and a consistent employee count, with a focus on voluntary attrition and the percentage of women employees. The cash metrics indicate a significant amount of consolidated cash and investments, reflecting the company's financial health over the reported periods.",
+    "table_rows": [
+        "Effort: Dec 31 2025 = Onsite 23.1, Offshore 76.9; Sep 30 2025 = Onsite 23.2, Offshore 76.8; Dec 31 2024 = Onsite 24.0, Offshore 76.0",
+        "Utilization: Dec 31 2025 = Including trainees 80.0, Excluding trainees 84.1; Sep 30 2025 = Including trainees 82.2, Excluding trainees 85.1; Dec 31 2024 = Including trainees 83.4, Excluding trainees 86.0",
+        "Employee Metrics: Dec 31 2025 = Total employees 337,034, S/W professionals 319,364, Sales & Support 17,670, Voluntary Attrition % 12.3, % of Women Employees 39.5; Sep 30 2025 = Total employees 331,991, S/W professionals 314,500, Sales & Support 17,491, Voluntary Attrition % 14.3, % of Women Employees 39.5; Dec 31 2024 = Total employees 323,379, S/W professionals 306,528, Sales & Support 16,851, Voluntary Attrition % 13.7, % of Women Employees 39.0",
+        "Cash Metrics: Dec 31 2025 = FCF 915, Adjusted FCF 965, Consolidated cash and investments 3,917; Sep 30 2025 = FCF 1,101, Adjusted FCF 1,101, Consolidated cash and investments 6,173; Dec 31 2024 = FCF 1,263, Adjusted FCF 1,263, Consolidated cash and investments 4,653"
+    ],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet_Q4_25-26\\vector_graphics\\page2_vector.png",
+    "token_usage": {
+        "prompt_tokens": 26779,
+        "completion_tokens": 615,
+        "total_tokens": 27394
+    }
+}

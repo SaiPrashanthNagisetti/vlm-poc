@@ -4,16 +4,16 @@
   "text": "2 G. Fouilhé et al.\nNaturalLanguage FormalLanguage\nQuestion Question\nComputation\nTranslator\nAgents\nAgents\nPlanner\nLLMs\nExplanation Explanation\nUser\nExplainer\nFig.1: Architecture of our approach to interactive planning with explanations.\nTranslator agents based on LLMs translate the user input into the formal lan-\nguage required by the computation agents.\nthis judgment, B can explain why the property can’t be included in the plan.\nOr A may request an explanation from B to clear up their conceptual problem\n[2,1]. Explanations can get the interactive process back on track.\nHowever, fixing a conceptual problem may not be a one-shot deal; it may\ntake several interactions to arrive at an explanation that is satisfactory for the\nexplainee.Suchinteractionisbeneficial;previousworkinpsychologyandhuman-\nmachineinteraction[25,9,24,44]providesevidencethatinteractiveexplanations\nare more interpretable and effective than static ones [28].\nExplanations between humans are interactive; hence, to provide appropriate\nexplanations,weneedconversationalcapacitiesthatsupportaninitialrequestfor\nanexplanation,aswellasfollow-upquestionsandremarks,inaconversationally\nfluid manner. State-of-the-art LLMs address this need; symbolic planners, even\nwhencoupledwithatemplateinterface,cannotmatchtheirfluencyorflexibility\nin translating natural language into formal languages.\nLLMscannotdoeverything.Theycannothandlethefullinteractiveplanning\ntask. [42,7] provide empirical evidence that LLMs cannot reliably perform com-\nplex planning tasks independently, despite remarkable progress with reasoning\nmodels,and[31]givestheoreticalreasonstosuspectmodelsusingcurrenttrans-\nformer architectures never will. Our work extends the view of [21] that LLMs\ncan nevertheless serve valuable supporting roles in a hybrid planning system.\nFigure1,showshowweintegrateLLMsintotheplanningprocesswhiledelegat-\ningthecorecomputationalplanningtaskstospecializedalgorithmsdesignedfor\nthat purpose.\nTo enable reliable natural interactions between users and planning systems,\nwe need to accommodate different ways in which a user formulates their ques-\ntion.Tothisend,weleverageLLMsinseveraldistinctroles:asaclassifierofthe\nquestion type, as a translator of the question topic, and as a question suggester\nthatgeneratesexamplerelevantquestionstohelpusersarticulatetheirinforma-\ntion needs. These LLM agents can then query an explanation system that can\nproduce a formal explanation. To deliver this explanation to the user, we use\nan LLM as an explanation translator. It converts this formal explanation into a\nnatural language response that can serve as the basis for an extended dialogue,\nin which the original explanation is refined to meet the user’s needs.",
   "keywords": [
     "natural",
-    "agents",
-    "llms",
-    "user",
-    "explanations",
-    "interactive",
-    "need",
-    "explanation",
     "question",
     "translator",
     "formal",
+    "interactive",
+    "explanation",
+    "user",
+    "agents",
+    "llms",
+    "need",
+    "explanations",
     "planning"
   ]
 }

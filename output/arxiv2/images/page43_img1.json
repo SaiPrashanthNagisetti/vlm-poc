@@ -10,16 +10,15 @@
         "shopping",
         "violin lesson",
         "basketball training",
-        "tennis training",
-        "conflicts",
-        "goals"
+        "tennis training"
     ],
-    "summary": "This visual presents a planning task interface where users can inquire about enforcing goals for family members without creating conflicts. It suggests that the Parent can either cook dinner or go shopping, but must avoid scheduling Alice's basketball training or violin lesson simultaneously to prevent conflicts. Additionally, it confirms that enforcing Bob's tennis training is possible without causing new conflicts with existing goals. The interface encourages users to explore how these decisions may affect other goals or plans. The overall purpose is to assist in managing family schedules effectively.",
+    "summary": "This visual presents a dialogue interface designed to assist users in managing conflicting schedules and goals for family members. It highlights specific scenarios involving a Parent, Alice, and Bob, where the Parent's goals of cooking dinner or going shopping may conflict with Alice's activities, such as basketball training or violin lessons. The interface suggests that enforcing one goal may require the cancellation of another to avoid conflicts. Additionally, it addresses the feasibility of enforcing Bob's tennis training without causing further scheduling issues. The overall context emphasizes the importance of balancing multiple goals while minimizing conflicts.",
+    "table_rows": [],
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\arxiv2\\images\\page43_img1.png",
     "token_usage": {
-        "prompt_tokens": 15007,
-        "completion_tokens": 170,
-        "total_tokens": 15177
+        "prompt_tokens": 15445,
+        "completion_tokens": 178,
+        "total_tokens": 15623
     }
 }

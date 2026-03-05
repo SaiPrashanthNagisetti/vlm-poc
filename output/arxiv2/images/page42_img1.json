@@ -5,16 +5,17 @@
     "image_keywords": [
         "template-based interface",
         "planning task",
-        "goal conflicts",
-        "user interaction",
-        "suggested questions"
+        "conflicting goals",
+        "suggested questions",
+        "user interaction"
     ],
-    "summary": "This image presents a template-based interface designed to assist users in understanding planning tasks. It consists of two parts: the first part lists various suggested questions related to resolving conflicts among goals, such as 'What are the conflicts between my goals?' and 'How can I prioritize my goals?' The second part illustrates an interactive chat where the system explains why a specific task is unsolvable due to conflicting goals among family members, providing examples like 'Parent cooks dinner and Parent goes to the basketball game.' The interface aims to help users navigate their planning challenges by suggesting specific actions to resolve conflicts and prioritize goals effectively.",
+    "summary": "This visual presents a template-based interface designed to assist users in understanding and managing planning tasks. It features two parts: the first part lists various suggested questions that users can ask to clarify their goals and conflicts, while the second part illustrates a conversational interaction where the system explains the complexities of conflicting goals among family members. Key topics include the resolution of conflicts, specific examples of goals, and the importance of prioritizing preferences. The interface aims to guide users in navigating their planning challenges effectively.",
+    "table_rows": [],
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\arxiv2\\images\\page42_img1.png",
     "token_usage": {
-        "prompt_tokens": 26341,
-        "completion_tokens": 174,
-        "total_tokens": 26515
+        "prompt_tokens": 26779,
+        "completion_tokens": 158,
+        "total_tokens": 26937
     }
 }

@@ -7,16 +7,16 @@
         "son",
         "music lesson",
         "guitar",
-        "time",
-        "space",
-        "goals"
+        "schedule",
+        "transportation"
     ],
-    "summary": "The image depicts a scenario involving a parent bringing their son to a music school at 14:00 for a one-hour music lesson. The parent has a guitar, and both the parent and guitar occupy one unit of space in the car, indicating that the parent does not need to stay during the lesson. The visual also includes a section with questions related to satisfying the goal of 'son attends music lesson,' suggesting considerations such as 'daughter does soccer training' and 'grandma buys groceries' as potential conflicting activities. This context highlights the logistical challenges of fulfilling the music lesson goal.",
+    "summary": "This visual presents a scenario involving a parent bringing their son to a music lesson at a specified time of 14:00. The parent is responsible for transporting both the son and his guitar, which occupies one unit of space in the car. The visual highlights the need for the parent to ensure that the son attends the lesson while also addressing potential conflicts with other activities, such as sports. The context suggests a focus on scheduling and the logistics of managing multiple commitments.",
+    "table_rows": [],
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\arxiv2\\images\\page25_img1.png",
     "token_usage": {
-        "prompt_tokens": 9340,
-        "completion_tokens": 175,
-        "total_tokens": 9515
+        "prompt_tokens": 9778,
+        "completion_tokens": 154,
+        "total_tokens": 9932
     }
 }

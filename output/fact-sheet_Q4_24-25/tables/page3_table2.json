@@ -1,0 +1,35 @@
+{
+    "file_name": "fact-sheet_Q4_24-25",
+    "page_number": 3,
+    "image_title": "Financial Performance Summary",
+    "image_keywords": [
+        "Revenues",
+        "Gross Profit",
+        "Operating Expenses",
+        "Net Profit",
+        "EPS",
+        "Growth Percentage"
+    ],
+    "summary": "This table presents a financial performance summary comparing key metrics for the periods ending March 31, 2025, and March 31, 2024. It includes revenues, cost of sales, gross profit, operating expenses, and net profit, among other financial indicators. Notably, revenues increased by 3.9%, while gross profit saw a growth of 5.1%. Operating profit improved by 6.2%, although profit before income taxes decreased by 26.6%. The table also highlights changes in earnings per share, with diluted EPS showing a slight decline of 0.3%. Overall, the data reflects a mixed performance across various financial metrics.",
+    "table_rows": [
+        "Revenues: Mar 31, 2025 = 19277, Mar 31, 2024 = 18562, Growth % = 3.9",
+        "Cost of sales: Mar 31, 2025 = 13405, Mar 31, 2024 = 12975, Growth % = 3.3",
+        "Gross Profit: Mar 31, 2025 = 5872, Mar 31, 2024 = 5587, Growth % = 5.1",
+        "Total Operating Expenses: Mar 31, 2025 = 1801, Mar 31, 2024 = 1753, Growth % = 2.7",
+        "Operating Profit: Mar 31, 2025 = 4071, Mar 31, 2024 = 3834, Growth % = 6.2",
+        "Operating Margin %: Mar 31, 2025 = 21.1, Mar 31, 2024 = 20.7, Growth % = 0.5",
+        "Profit before income taxes: Mar 31, 2025 = 376, Mar 31, 2024 = 512, Growth % = -26.6",
+        "Net Profit (before minority interest): Mar 31, 2025 = 3162, Mar 31, 2024 = 3169, Growth % = -0.2",
+        "Net Profit (after minority interest): Mar 31, 2025 = 3158, Mar 31, 2024 = 3167, Growth % = -0.3",
+        "Basic EPS: Mar 31, 2025 = 0.76, Mar 31, 2024 = 0.77, Growth % = -0.5",
+        "Diluted EPS: Mar 31, 2025 = 0.76, Mar 31, 2024 = 0.76, Growth % = 0.0",
+        "Dividend Per Share: Mar 31, 2025 = 0.51, Mar 31, 2024 = 0.46, Growth % = 13.2"
+    ],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet_Q4_24-25\\tables\\page3_table2.png",
+    "token_usage": {
+        "prompt_tokens": 21112,
+        "completion_tokens": 662,
+        "total_tokens": 21774
+    }
+}

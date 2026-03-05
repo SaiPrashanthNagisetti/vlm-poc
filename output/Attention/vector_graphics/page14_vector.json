@@ -1,19 +1,21 @@
 {
     "file_name": "Attention",
     "page_number": 14,
-    "image_title": "Attention Heads in Anaphora Resolution",
+    "image_title": "Attention Heads in Layer 5",
     "image_keywords": [
         "attention heads",
         "anaphora resolution",
         "layer 5",
-        "data visualization"
+        "neural networks",
+        "NLP"
     ],
-    "summary": "This visual illustrates two attention heads from layer 5 of a neural network, focusing on their roles in anaphora resolution. The top section displays full attentions for head 5, while the bottom section isolates attentions for the word 'its' from both attention heads 5 and 6. The connections between words are represented by purple lines, indicating the strength of attention between them. Notably, the word 'Law' receives significant attention, as indicated by the highlighted area, suggesting its importance in the context. The visual emphasizes the sharp attentions for the word 'its', indicating a strong correlation with the surrounding words. The figure is labeled as Figure 4 and includes a note about the sharpness of the attentions.",
+    "summary": "This visual is a diagram illustrating the attention mechanisms of two attention heads in layer 5 of a neural network, specifically focusing on their role in anaphora resolution. The top section displays full attention mappings for head 5, while the bottom section isolates attentions for the word 'its' from both attention heads 5 and 6. The connections between words highlight how certain terms, such as 'The Law' and 'its application', are emphasized, indicating the sharp focus of the attention heads on these key phrases. This representation provides insights into how the model processes language and resolves references within text.",
+    "table_rows": [],
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\Attention\\vector_graphics\\page14_vector.png",
     "token_usage": {
-        "prompt_tokens": 26341,
-        "completion_tokens": 202,
-        "total_tokens": 26543
+        "prompt_tokens": 26779,
+        "completion_tokens": 185,
+        "total_tokens": 26964
     }
 }

@@ -1,7 +1,7 @@
 {
     "file_name": "Attention",
     "page_number": 10,
-    "image_title": "The Transformer Generalizes Well to English Constituency Parsing",
+    "image_title": "Transformer Performance in English Constituency Parsing",
     "image_keywords": [
         "Transformer",
         "English constituency parsing",
@@ -12,12 +12,26 @@
         "multi-task",
         "generative"
     ],
-    "summary": "This table presents results on the performance of various parsers in English constituency parsing, specifically focusing on the WSJ 23 F1 score. The parsers listed include Vinyals & Kaiser (2014), Petrov et al. (2006), Zhu et al. (2013), Dyer et al. (2016), and the Transformer with 4 layers. The training methods vary between WSJ only, semi-supervised, and generative approaches. The F1 scores achieved are as follows: Vinyals & Kaiser (2014) with 88.3, Petrov et al. (2006) with 90.4, Zhu et al. (2013) with 90.4, Dyer et al. (2016) with 91.7, the Transformer (WSJ only, discriminative) with 91.3, and others achieving scores up to 93.0. The results indicate that the Transformer outperforms previous models, particularly in the semi-supervised setting, highlighting its effectiveness in this domain.",
-    "confidence_score": 0.9,
+    "summary": "This table presents the performance of various parsers on English constituency parsing, specifically focusing on the Wall Street Journal (WSJ) dataset. It compares different training methods, including discriminative and semi-supervised approaches, across several models. The F1 scores for the WSJ 23 dataset are listed, highlighting the Transformer model's superior performance with a score of 93.3 under generative training, surpassing other models such as the Berkeley Parser and RNN sequence-to-sequence models. The data indicates that task-specific tuning significantly enhances model performance, with the Transformer consistently yielding better results than previous architectures.",
+    "table_rows": [
+        "Vinyals & Kaiser et al. (2014) = WSJ only, discriminative, 88.3",
+        "Petrov et al. (2006) = WSJ only, discriminative, 90.4",
+        "Zhu et al. (2013) = WSJ only, discriminative, 90.4",
+        "Dyer et al. (2016) = WSJ only, discriminative, 91.7",
+        "Transformer (4 layers) = WSJ only, discriminative, 91.3",
+        "Zhu et al. (2013) = semi-supervised, 91.3",
+        "Huang & Harper (2009) = semi-supervised, 91.3",
+        "McClosky et al. (2006) = semi-supervised, 92.1",
+        "Vinyals & Kaiser et al. (2014) = semi-supervised, 92.1",
+        "Transformer (4 layers) = semi-supervised, 92.7",
+        "Luong et al. (2015) = multi-task, 93.0",
+        "Dyer et al. (2016) = generative, 93.3"
+    ],
+    "confidence_score": 0.95,
     "image_citation": "extracted_assets\\Attention\\vector_graphics\\page10_vector.png",
     "token_usage": {
-        "prompt_tokens": 26341,
-        "completion_tokens": 290,
-        "total_tokens": 26631
+        "prompt_tokens": 26779,
+        "completion_tokens": 462,
+        "total_tokens": 27241
     }
 }

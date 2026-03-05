@@ -9,12 +9,13 @@
         "self-attention",
         "tasks"
     ],
-    "summary": "This visual illustrates the behavior of attention heads in a neural network, specifically focusing on two examples from layer 5 of 6. The diagram shows connections between words in a sentence, with green lines representing one attention head and red lines representing another. The words 'The', 'Law', 'will', 'never', 'be', 'perfect', 'but', 'its', 'application', 'should', 'be', 'just', 'this', 'is', 'what', 'we', 'are', 'missing', 'in', 'my', 'opinion', '<EOS>', and '<pad>' are connected in various ways, indicating that the heads have learned to perform different tasks related to the sentence structure. The caption notes that many attention heads exhibit behavior related to the structure of the sentence, highlighting the distinct functions of the heads.",
+    "summary": "This visual is a diagram illustrating the behavior of attention heads in a neural network, specifically focusing on their relationship to sentence structure. It presents two examples from different attention heads at layer 5 of 6, showcasing how these heads exhibit distinct behaviors related to the input sentence. The connections between words are represented by lines, with green lines indicating one attention head's focus and red lines indicating another's. This differentiation highlights that the attention heads have learned to perform different tasks, emphasizing the complexity of their roles in processing language.",
+    "table_rows": [],
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\Attention\\vector_graphics\\page15_vector.png",
     "token_usage": {
-        "prompt_tokens": 26341,
-        "completion_tokens": 225,
-        "total_tokens": 26566
+        "prompt_tokens": 26779,
+        "completion_tokens": 165,
+        "total_tokens": 26944
     }
 }

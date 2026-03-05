@@ -3,17 +3,17 @@
   "page": 38,
   "text": "38 G. Fouilhé et al.\nGoal Translator Prompt\nYou will be given a goal and a list of allowed predicates and objects\nfrom a planning problem and domain. Return the LTLf formula corre-\nspondingtothegoal,followedbyashortsummaryofthegoalinnatural\nlanguage(thefewerwordsthebetter)thatwillbeusedtorefertoit.The\nLTLfformulamustbewell-formedandmustonlycontainthepredicates\nand objects given to you. Users might reference previous messages they\nsent or implicit objects. You should infer that when possible based on\nthe provided information and previous messages. If it is not possible to\nexpress the property in LTL using the provided objects and predicates,\nreturn UNSUPPORTED ; Unsupported property.\nExamples :\nGoal : make sure p1 visits the packingstation at some point\nPredicates : [(at ?o - object ?l - location), (in ?p - package ?t - truck),\n(empty ?t - truck), (fuel ?truck - truck ?level - fuellevel)]\nObjects:[postoffice,supermarket,taylor,cafe,bank,lopez,jones,smith,\npackingstation, t1, t2, p0, p1, p2, p3, p4]\nReturn:{\"formula\":\"Fat(p1,packingstation)\",\"shortName\":\"p1visits\npackingstation\",\"reverseTranslation\":\"p1mustbeatthepackingstation\nat some point during the plan\", \"feedback\": null}\n[Additional examples omitted for brevity]\nEnd of the examples.\nFormatting of Goal Translator Input\nGoal: ${GOAL_DESCRIPTION}\nPredicates: ${PREDICATES}\nObjects: ${OBJECTS}\nReturn:\nC.7 Explanation Translator\nExplanation Translator Prompt\nYou will receive a question that you need to answer, a question type of\nthe following list :\n##Unsolvableiterationstep(toomuchgoalsareenforced,someofthem\nare conflicting)\n- US-WHY: \"Why is the task unsolvable?\"\n- US-HOW: \"How can I make the task solvable?\"\n## Solvable iteration step (a plan exists but the user wants to under-\nstand potential conflicts when enforcing new goals/ )\n- S-WHY-NOT: \"Why are Q not satisfied?\"\n- S-WHAT-IF: \"What happens if we enforce Q?\"\n- S-CAN: \"Can Q be satisfied?\"",
   "keywords": [
-    "possible",
-    "packingstation",
-    "predicates",
     "return",
+    "goal",
+    "p1",
+    "translator",
+    "possible",
     "examples",
     "prompt",
+    "predicates",
     "objects",
-    "p1",
-    "goal",
-    "truck",
+    "packingstation",
     "point",
-    "translator"
+    "truck"
   ]
 }

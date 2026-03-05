@@ -1,0 +1,38 @@
+{
+    "file_name": "fact-sheet_Q3_25-26",
+    "page_number": 4,
+    "image_title": "Consolidated Financial Data - Third Quarter, Fiscal 2026",
+    "image_keywords": [
+        "Infosys",
+        "financial data",
+        "operating profit",
+        "net profit",
+        "EPS",
+        "revenues",
+        "comprehensive income"
+    ],
+    "summary": "This table presents the consolidated financial data for Infosys for the third quarter of Fiscal 2026, comparing reported IFRS measures to adjusted non-IFRS financial measures for both nine months and three months ended December 31, 2025, and December 31, 2024. Key metrics include operating profit, net profit, and earnings per share (EPS), with notable figures such as an operating profit of $8,355 million for the three months ended December 31, 2025, and a basic EPS of \u20b916.17. The data highlights growth percentages year-over-year and quarter-over-quarter, indicating trends in revenues and operating expenses, with a focus on adjustments made for labor costs. Overall, the financial performance shows a mix of growth and declines across various metrics.",
+    "table_rows": [
+        "Operating Profit: Dec 31 2025 = 3,030, Dec 31 2024 = 3,080",
+        "Operating Margin %: Dec 31 2025 = 20.0, Dec 31 2024 = 21.2",
+        "Profit before income taxes: Dec 31 2025 = 3,338, Dec 31 2024 = 3,329",
+        "Income tax expense: Dec 31 2025 = 942, Dec 31 2024 = 981",
+        "Net Profit (after non-controlling interests): Dec 31 2025 = 2,393, Dec 31 2024 = 2,345",
+        "Basic EPS ($): Dec 31 2025 = 0.58, Dec 31 2024 = 0.57",
+        "Revenues: Dec 31 2025 = 45,479, Dec 31 2024 = 41,764",
+        "Cost of sales: Dec 31 2025 = 32,652, Dec 31 2024 = 29,120",
+        "Gross Profit: Dec 31 2025 = 12,827, Dec 31 2024 = 12,644",
+        "Total Operating Expenses: Dec 31 2025 = 4,472, Dec 31 2024 = 3,732",
+        "Operating Margin %: Dec 31 2025 = 18.4, Dec 31 2024 = 21.3",
+        "Profit before income taxes: Dec 31 2025 = 9,229, Dec 31 2024 = 9,670",
+        "Net Profit (after non-controlling interests): Dec 31 2025 = 6,654, Dec 31 2024 = 6,806",
+        "Basic EPS (\u20b9): Dec 31 2025 = 16.17, Dec 31 2024 = 16.43"
+    ],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet_Q3_25-26\\vector_graphics\\page4_vector.png",
+    "token_usage": {
+        "prompt_tokens": 26779,
+        "completion_tokens": 663,
+        "total_tokens": 27442
+    }
+}

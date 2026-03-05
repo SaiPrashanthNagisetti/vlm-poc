@@ -1,0 +1,33 @@
+{
+    "file_name": "fact-sheet_Q4_24-25",
+    "page_number": 3,
+    "image_title": "Consolidated Financial Data - Fourth Quarter, Fiscal 2025",
+    "image_keywords": [
+        "Revenues",
+        "Cost of sales",
+        "Gross Profit",
+        "Operating Expenses",
+        "Net Profit",
+        "EPS",
+        "Fiscal 2025",
+        "Quarterly Financials"
+    ],
+    "summary": "This table presents the consolidated statement of comprehensive income for Infosys for the three months ended March 31, 2025, and the year ended March 31, 2025, compared to the same periods in the previous year. Key metrics include revenues, cost of sales, gross profit, operating expenses, and net profit, with year-over-year growth percentages provided. For the quarter, revenues increased by 3.6% to $4,730 million, while net profit after minority interest decreased by 15.2% to $813 million. The operating margin remained stable at 21.0%. For the year, revenues rose by 3.9% to $19,277 million, with a slight decrease in net profit after minority interest by 0.2% to $3,162 million. The data highlights trends in revenue growth and profitability, indicating a mixed performance across the fiscal year.",
+    "table_rows": [
+        "Revenues: Mar 31 2025 = 4,730, Mar 31 2024 = 4,564, Growth % YoY = 3.6%",
+        "Cost of sales: Mar 31 2025 = 3,302, Mar 31 2024 = 3,219, Growth % YoY = 2.6%",
+        "Gross Profit: Mar 31 2025 = 1,428, Mar 31 2024 = 1,345, Growth % YoY = 6.2%",
+        "Total Operating Expenses: Mar 31 2025 = 436, Mar 31 2024 = 428, Growth % YoY = 1.9%",
+        "Net Profit (after minority interest): Mar 31 2025 = 813, Mar 31 2024 = 958, Growth % YoY = -15.2%",
+        "Basic EPS ($): Mar 31 2025 = 0.20, Mar 31 2024 = 0.23, Growth % YoY = -15.2%",
+        "Revenues (Year): Mar 31 2025 = 19,277, Mar 31 2024 = 18,562, Growth % = 3.9%",
+        "Net Profit (after minority interest) (Year): Mar 31 2025 = 3,162, Mar 31 2024 = 3,169, Growth % = -0.2%"
+    ],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet_Q4_24-25\\vector_graphics\\page3_vector.png",
+    "token_usage": {
+        "prompt_tokens": 26779,
+        "completion_tokens": 585,
+        "total_tokens": 27364
+    }
+}

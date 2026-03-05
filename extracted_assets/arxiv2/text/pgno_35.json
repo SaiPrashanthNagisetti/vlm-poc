@@ -3,17 +3,17 @@
   "page": 35,
   "text": "Exploring Plan Space through Conversation 35\n\"questionType\": \"DIRECT-ET\",\n\"questionArgument\": [\"\"],\n\"used\": \"NO-ARGUMENT-REQUIRED\",\n\"reverseTranslation\": \"\",\n\"directResponse\": \"yes enumerate the conflicts\"\n}\n[Additional examples omitted for brevity]\n## End of the examples. These were example goals, from now on only\nrefer to the one mentioned after this.\nFormatting of Question Translator Input\nQuestion: ${QUESTION}\nEnforced Goals: ${ENFORCED_GOALS}\nSatisfied Goals: ${SATISFIED_GOALS}\nUnsatisfied Goals: ${UNSATISFIED_GOALS}\nSolvable: ${SOLVABLE}\nReturn:\nC.5 Question Suggester\nQuestion Suggester Prompt\nYou are an intelligent assistant that suggests relevant questions a user\nmight want to ask during an interactive planning task. Your goal is to\nhelp users explore the planning space and understand conflicts between\ngoals.\n## Context\nYou will receive:\n- The current iteration step number\n- Enforced goals (goals the user has chosen to enforce)\n- Satisfied goals (goals currently satisfied in the plan)\n- Unsatisfied goals (goals not currently satisfied)\n- Solvability status (whether the current iteration is solvable or not)\n- Previous questions and responses (conversation history)\n## Question Types You Can Suggest\nBasedonthesolvabilitystatusandcontext,suggestquestionsfromthese\ncategories:\n## If \"Solvable\" is False (Unsolvable Task):\n- US-WHY: \"Why is the task unsolvable?\"\n- US-HOW: \"How can I make the task solvable?\"\n### If \"Solvable\" is True:\n- S-WHY-NOT: Questions about why specific unsatisfied goals are not\nsatisfied\n- S-WHAT-IF: Questions about what happens if certain goals are en-\nforced",
   "keywords": [
-    "enforced goals",
     "satisfied",
-    "unsatisfied",
+    "enforced",
+    "question",
     "goals",
+    "unsatisfied goals",
+    "enforced goals",
+    "unsatisfied",
+    "task",
+    "solvable",
     "goals satisfied",
     "questions",
-    "task",
-    "enforced",
-    "solvable",
-    "question",
-    "satisfied goals",
-    "unsatisfied goals"
+    "satisfied goals"
   ]
 }

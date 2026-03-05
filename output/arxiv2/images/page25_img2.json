@@ -1,21 +1,21 @@
 {
     "file_name": "arxiv2",
     "page_number": 25,
-    "image_title": "Insights on Solvable Plans",
+    "image_title": "Insights on Goal Selection",
     "image_keywords": [
-        "solvable plan",
+        "goal selection",
         "properties",
-        "goals",
-        "soccer training",
-        "music lesson",
-        "grandma's groceries"
+        "solvable plan",
+        "sports",
+        "music lesson"
     ],
-    "summary": "This image presents insights regarding the conditions necessary to make a plan solvable. It outlines that to achieve a solvable plan, one must forgo one of the following combinations of properties: 'daughter does soccer training', 'parent does sports' and 'son attends music lesson', 'parent does sports' and 'bring grandma's groceries to her house', or 'son attends music lesson' and 'bring grandma's groceries to her house'. The context suggests a decision-making process involving conflicting goals or commitments.",
+    "summary": "This visual presents a discussion on the solvability of a plan based on specific enforced goals. It outlines a scenario where certain combinations of properties must be forfeited to achieve a solvable outcome. The properties include activities related to sports and music lessons for a daughter, as well as tasks involving a grandmother. The visual emphasizes the complexity of goal selection and the implications of enforcing certain combinations, suggesting that some goals may lead to unsolvable situations.",
+    "table_rows": [],
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\arxiv2\\images\\page25_img2.png",
     "token_usage": {
-        "prompt_tokens": 9340,
-        "completion_tokens": 163,
-        "total_tokens": 9503
+        "prompt_tokens": 9778,
+        "completion_tokens": 146,
+        "total_tokens": 9924
     }
 }

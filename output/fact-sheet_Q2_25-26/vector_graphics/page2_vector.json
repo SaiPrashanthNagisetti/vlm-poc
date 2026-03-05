@@ -1,0 +1,31 @@
+{
+    "file_name": "fact-sheet_Q2_25-26",
+    "page_number": 2,
+    "image_title": "Consolidated Financial Data - Second Quarter, Fiscal 2026",
+    "image_keywords": [
+        "Effort",
+        "Utilization",
+        "Employee Metrics",
+        "Cash Flow",
+        "Infosys",
+        "Financial Data",
+        "Quarter ended",
+        "Sep 30 2025",
+        "Jun 30 2025",
+        "Sep 30 2024"
+    ],
+    "summary": "This table presents the consolidated financial data for Infosys for the second quarter of Fiscal 2026, detailing metrics related to effort and utilization in IT services, employee statistics, and cash flow. Key metrics include onsite and offshore effort percentages, overall utilization rates, and employee counts across various categories. Notably, the utilization rate including trainees is reported at 82.2%, while the total number of employees stands at 331,991. The cash flow section indicates a free cash flow of $1,101 million and consolidated cash and investments totaling $6,173 million, reflecting a significant increase compared to the previous year. The data highlights trends in employee attrition and gender representation, with a voluntary attrition rate of 14.3% and 39.5% of employees being women.",
+    "table_rows": [
+        "Effort: Sep 30 2025 = Onsite 23.2%, Offshore 76.8%; Jun 30 2025 = Onsite 23.6%, Offshore 76.4%; Sep 30 2024 = Onsite 24.1%, Offshore 75.9%",
+        "Utilization: Sep 30 2025 = Including trainees 82.2%, Excluding trainees 85.1%; Jun 30 2025 = Including trainees 82.7%, Excluding trainees 85.2%; Sep 30 2024 = Including trainees 84.3%, Excluding trainees 85.9%",
+        "Employee Metrics: Sep 30 2025 = Total employees 331,991, S/W professionals 314,500, Sales & Support 17,491, Voluntary Attrition % 14.3%, % of Women Employees 39.5%; Jun 30 2025 = Total employees 323,788, S/W professionals 306,706, Sales & Support 17,082, Voluntary Attrition % 14.4%, % of Women Employees 39.1%; Sep 30 2024 = Total employees 317,788, S/W professionals 300,774, Sales & Support 17,014, Voluntary Attrition % 12.9%, % of Women Employees 39.0%",
+        "Cash Flow: Sep 30 2025 = Free cash flow $1,101 million, Consolidated cash and investments $6,173 million; Jun 30 2025 = Free cash flow $884 million, Consolidated cash and investments $5,271 million; Sep 30 2024 = Free cash flow $839 million, Consolidated cash and investments $4,626 million"
+    ],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet_Q2_25-26\\vector_graphics\\page2_vector.png",
+    "token_usage": {
+        "prompt_tokens": 26779,
+        "completion_tokens": 631,
+        "total_tokens": 27410
+    }
+}

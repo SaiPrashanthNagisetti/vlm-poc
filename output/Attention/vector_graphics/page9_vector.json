@@ -5,19 +5,34 @@
     "image_keywords": [
         "Transformer",
         "architecture",
-        "perplexities",
-        "BLEU",
         "English-to-German",
         "translation",
-        "development set",
-        "newsets2013"
+        "perplexities",
+        "BLEU",
+        "params"
     ],
-    "summary": "This table presents variations on the Transformer architecture, detailing metrics for English-to-German translation on the newsets2013 development set. It includes configurations labeled as base, (A), (B), (C), (D), and (E), with parameters such as N, dmodel, dff, h, dk, dv, Pdrop, \u03b5ls, train steps, PPL (perplexity), BLEU scores, and the number of parameters in millions. The base model has N=6, dmodel=512, dff=2048, h=8, dk=64, dv=64, Pdrop=0.1, \u03b5ls=0.1, with 100K train steps, achieving a PPL of 5.29 and a BLEU score of 28.8. Configuration (A) varies attention heads and dimensions, showing a PPL range from 4.91 to 5.29 and BLEU scores from 24.9 to 25.8. Configuration (B) explores attention key sizes with PPL from 5.01 to 6.11 and BLEU scores from 23.7 to 26.0. Configuration (C) modifies the number of attention heads, while (D) tests dropout rates, and (E) examines positional embeddings. The source of the data is the English-to-German translation development set, newsets2013.",
+    "summary": "This table presents variations on the Transformer architecture, specifically focusing on metrics related to English-to-German translation performance, as evaluated on the newstest2013 dataset. It includes configurations with different model parameters such as the number of layers, attention heads, and dimensions for key and value vectors. Key metrics displayed include perplexity (PPL) and BLEU scores across various configurations, highlighting the impact of model size and dropout rates on translation quality. Notably, the results suggest that larger models generally yield better performance, while careful tuning of dropout rates is essential to avoid overfitting.",
+    "table_rows": [
+        "base: N = 6, dmodel = 512, dff = 2048, h = 8, dk = 64, dv = 64, Pdrop = 0.1, train steps = 100K, PPL (dev) = 5.29, BLEU (dev) = 28.4, params = 65",
+        "(A): N = 1, dmodel = 512, dff = 512, PPL (dev) = 5.29, BLEU (dev) = 24.9",
+        "(A): N = 4, dmodel = 128, dff = 128, PPL (dev) = 5.00, BLEU (dev) = 25.5",
+        "(A): N = 16, dmodel = 32, dff = 32, PPL (dev) = 4.91, BLEU (dev) = 25.8",
+        "(A): N = 32, dmodel = 16, dff = 16, PPL (dev) = 5.01, BLEU (dev) = 25.4",
+        "(B): N = 2, PPL (dev) = 6.11, BLEU (dev) = 23.7",
+        "(B): N = 4, PPL (dev) = 5.19, BLEU (dev) = 25.3",
+        "(B): N = 8, PPL (dev) = 4.88, BLEU (dev) = 25.5",
+        "(C): N = 256, dmodel = 32, dff = 32, PPL (dev) = 5.75, BLEU (dev) = 24.5",
+        "(C): N = 1024, dmodel = 128, dff = 128, PPL (dev) = 4.66, BLEU (dev) = 26.0",
+        "(D): Pdrop = 0.0, PPL (dev) = 5.77, BLEU (dev) = 24.6",
+        "(D): Pdrop = 0.2, PPL (dev) = 4.95, BLEU (dev) = 25.5",
+        "(E): positional embedding instead of sinusoids, PPL (dev) = 4.92, BLEU (dev) = 25.7",
+        "big: N = 6, dmodel = 1024, dff = 4096, train steps = 300K, PPL (dev) = 4.33, BLEU (dev) = 26.4, params = 213"
+    ],
     "confidence_score": 0.95,
     "image_citation": "extracted_assets\\Attention\\vector_graphics\\page9_vector.png",
     "token_usage": {
-        "prompt_tokens": 26341,
-        "completion_tokens": 359,
-        "total_tokens": 26700
+        "prompt_tokens": 26779,
+        "completion_tokens": 776,
+        "total_tokens": 27555
     }
 }

@@ -1,21 +1,22 @@
 {
     "file_name": "arxiv1",
     "page_number": 7,
-    "image_title": "Query and Verification Process for Mathematical Computation",
+    "image_title": "Math Computation Verification Process",
     "image_keywords": [
-        "mathematics",
+        "math",
         "computation",
         "verification",
         "LLM",
         "query",
         "result"
     ],
-    "summary": "This image illustrates a process for computing the expression 992 + 99 + 1, highlighting the roles of a Language Model (LLM) and a Verifier. The LLM attempts to rewrite the expression as 992 + 99 + 1 = 1000, incorrectly concluding that the final answer is 1000. In contrast, the Verifier breaks down the computation into steps: first calculating 99 * 2 to get 198, then adding 1 to reach 199, and finally adding this to 9801 to arrive at the correct total of 9900. The image emphasizes the importance of step-by-step verification to ensure accuracy in mathematical computations.",
-    "confidence_score": 0.9,
+    "summary": "This flow diagram illustrates the process of verifying a mathematical computation involving the expression 992 + 99 + 1. It begins with a query to compute the expression, followed by two approaches: one using a language model (LLM) and the other a verifier. The LLM incorrectly rewrites the expression and arrives at an erroneous result of 10000, while the verifier correctly breaks down the computation into steps, ultimately arriving at the accurate result of 9901. The diagram highlights the importance of step-by-step verification to ensure accuracy in mathematical calculations.",
+    "table_rows": [],
+    "confidence_score": 0.95,
     "image_citation": "extracted_assets\\arxiv1\\images\\page7_img2.png",
     "token_usage": {
-        "prompt_tokens": 9340,
-        "completion_tokens": 196,
-        "total_tokens": 9536
+        "prompt_tokens": 9778,
+        "completion_tokens": 171,
+        "total_tokens": 9949
     }
 }

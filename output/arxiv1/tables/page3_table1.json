@@ -1,20 +1,26 @@
 {
     "file_name": "arxiv1",
     "page_number": 3,
-    "image_title": "Sampled Predictions and Estimated Rewards",
+    "image_title": "Predictions and Rewards Analysis",
     "image_keywords": [
-        "predictions",
-        "estimated rewards",
-        "true label",
-        "false-popular predictions",
-        "cycle of reinforced bias"
+        "True Label",
+        "Estimated Label",
+        "Sampled Predictions",
+        "Estimated Rewards",
+        "False-Popular Predictions",
+        "Cycle of Reinforced Bias"
     ],
-    "summary": "This image presents a table comparing sampled predictions and estimated rewards across different rounds for a true label 'C'. In the 1st round, the sampled predictions are A, B, B, B, C, D, with estimated rewards of 0, 0, 1, 1, 1, 1, 0, 0. In the Nth round, the sampled predictions remain A, B, B, B, C, D, but the estimated rewards change to 0, 1, 1, 1, 1, 1, 0, 0. The estimated label indicates that 'B is really good!' while 'B is good!' is noted in the first round. The context suggests a focus on the evaluation of predictions in a reinforcement learning framework.",
+    "summary": "This table presents an analysis of predictions and estimated rewards across different rounds of sampling. It includes a comparison of true labels and estimated labels, highlighting the performance of various predictions labeled A, B, C, and D. The first round shows sampled predictions and their corresponding estimated rewards, while subsequent rounds illustrate a cycle of reinforced bias, indicating how predictions evolve over time. Notably, the estimated label for B is marked as 'really good,' suggesting a significant improvement in its performance compared to others.",
+    "table_rows": [
+        "True Label: C",
+        "1st Round: Sampled Predictions: A, B, B, B, C, C, D; Estimated Rewards: 0, 0, 1, 1, 1, 1, 0, 0",
+        "N*th Round: Sampled Predictions: A, B, B, B, C, C, D; Estimated Rewards: 0, 1, 1, 1, 1, 1, 0, 0"
+    ],
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\arxiv1\\tables\\page3_table1.png",
     "token_usage": {
-        "prompt_tokens": 15007,
-        "completion_tokens": 223,
-        "total_tokens": 15230
+        "prompt_tokens": 15445,
+        "completion_tokens": 281,
+        "total_tokens": 15726
     }
 }

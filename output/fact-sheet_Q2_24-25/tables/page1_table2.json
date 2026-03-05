@@ -1,0 +1,36 @@
+{
+    "file_name": "fact-sheet_Q2_24-25",
+    "page_number": 1,
+    "image_title": "Quarterly Financial Services Overview",
+    "image_keywords": [
+        "Financial services",
+        "Retail",
+        "Communication",
+        "Energy",
+        "Manufacturing",
+        "Hi-Tech",
+        "Life Sciences",
+        "Others",
+        "YoY Growth",
+        "Quarter ended"
+    ],
+    "summary": "This table presents a quarterly overview of various sectors for the periods ending September 30, 2024, June 30, 2024, and September 30, 2023, along with year-over-year (YoY) growth percentages. The sectors include Financial Services, Retail, Communication, Energy, Utilities, Resources & Services, Manufacturing, Hi-Tech, Life Sciences, and Others. The total percentage for each quarter is consistently 100.0%. Notable YoY growth figures include Financial Services at 2.8% and a decline in Retail by 9.2%. The overall reported growth for the total is 3.7%, with a constant currency (CC) growth of 3.3%.",
+    "table_rows": [
+        "Financial services: Sep 30 2024 = 27.2, Jun 30 2024 = 27.5, Sep 30 2023 = 27.5, YoY Growth = 2.8",
+        "Retail: Sep 30 2024 = 13.3, Jun 30 2024 = 13.8, Sep 30 2023 = 15.2, YoY Growth = (9.2)",
+        "Communication: Sep 30 2024 = 11.9, Jun 30 2024 = 12.1, Sep 30 2023 = 11.4, YoY Growth = 7.9",
+        "Energy, Utilities, Resources & Services: Sep 30 2024 = 13.5, Jun 30 2024 = 13.3, Sep 30 2023 = 12.7, YoY Growth = 10.7",
+        "Manufacturing: Sep 30 2024 = 15.7, Jun 30 2024 = 14.7, Sep 30 2023 = 14.3, YoY Growth = 13.5",
+        "Hi-Tech: Sep 30 2024 = 8.0, Jun 30 2024 = 8.0, Sep 30 2023 = 7.8, YoY Growth = 5.6",
+        "Life Sciences: Sep 30 2024 = 7.3, Jun 30 2024 = 7.3, Sep 30 2023 = 7.3, YoY Growth = (2.8)",
+        "Others: Sep 30 2024 = 3.1, Jun 30 2024 = 3.3, Sep 30 2023 = 3.3, YoY Growth = (2.4)",
+        "Total: Sep 30 2024 = 100.0, Jun 30 2024 = 100.0, Sep 30 2023 = 100.0, YoY Growth = 3.7"
+    ],
+    "confidence_score": 0.9,
+    "image_citation": "extracted_assets\\fact-sheet_Q2_24-25\\tables\\page1_table2.png",
+    "token_usage": {
+        "prompt_tokens": 21112,
+        "completion_tokens": 676,
+        "total_tokens": 21788
+    }
+}

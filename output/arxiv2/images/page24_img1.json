@@ -6,17 +6,22 @@
         "unsatisfied goals",
         "additionally satisfied goals",
         "enforced goals",
-        "parent does sports",
-        "son attends music lesson",
-        "ensure son is home in the evening",
-        "bring groceries back home"
+        "parent",
+        "son",
+        "grandma",
+        "daughter"
     ],
-    "summary": "This visual presents a goal tracking overview categorized into three sections: Unsatisfied Goals, Additionally Satisfied Goals, and Enforced Goals. The Unsatisfied Goals section lists objectives such as 'parent does sports' with a count of 2, 'son attends music lesson' with a count of 1, 'ensure son is home in the evening' with a count of 1, 'bring friend to sports center' with a count of 1, 'bring groceries back home' with a count of 2, 'ensure grandma is at her house in the evening' with a count of 2, and 'do shopping before parent's sports' with a count of 2. The Additionally Satisfied Goals section includes 'grandma bags groceries' with a count of 0 and 'grandma and friend are not together in car' with a count of 1. The Enforced Goals section lists 'ensure daughter is home in the evening' with a count of 0, 'parent buys groceries' with a count of 2, 'daughter does soccer training' with a count of 0, and 'bring grandma's groceries to her house' with a count of 2. This structured overview helps in tracking goal fulfillment and identifying areas needing attention.",
+    "summary": "This visual presents a structured overview of various goals categorized into three sections: Unsatisfied Goals, Additionally Satisfied Goals, and Enforced Goals. The Unsatisfied Goals section lists specific objectives such as ensuring a parent does sports and confirming a son attends a music lesson, with associated counts indicating the number of times these goals were mentioned. The Additionally Satisfied Goals highlight tasks like grocery shopping and ensuring family members are home, while the Enforced Goals section emphasizes actions that have been successfully completed, such as ensuring a daughter is home in the evening and bringing groceries to a grandparent's house. The visual effectively categorizes and tracks the status of personal goals, providing insights into areas needing attention and those that have been successfully managed.",
+    "table_rows": [
+        "Unsatisfied Goals: parent does sports = 2, son attends music lesson = 1, ensure son is home in the evening = 1, bring friend to sports center = 1, bring groceries back home = 2, ensure grandma is at her house in the evening = 2, do shopping before parent's sports = 1",
+        "Additionally Satisfied Goals: grandma bags groceries = 1, grandma and friend are not together in car = 1",
+        "Enforced Goals: ensure daughter is home in the evening = 1, parent buys groceries = 1, daughter does soccer training = 1, bring grandma's groceries to her house = 1"
+    ],
     "confidence_score": 0.95,
     "image_citation": "extracted_assets\\arxiv2\\images\\page24_img1.png",
     "token_usage": {
-        "prompt_tokens": 9340,
-        "completion_tokens": 326,
-        "total_tokens": 9666
+        "prompt_tokens": 9778,
+        "completion_tokens": 352,
+        "total_tokens": 10130
     }
 }

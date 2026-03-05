@@ -1,22 +1,28 @@
 {
     "file_name": "arxiv1",
     "page_number": 1,
-    "image_title": "Test Time Reinforcement Learning Analysis",
+    "image_title": "Test Time Reinforcement Learning Evaluation",
     "image_keywords": [
+        "Reinforcement Learning",
         "AIME",
         "AMC",
         "MATH500",
-        "Reinforcement Learning",
-        "Data Analysis",
-        "Skewed",
-        "Reliable"
+        "data evaluation",
+        "reliability",
+        "skewed data"
     ],
-    "summary": "This image presents a structured analysis of test time reinforcement learning, featuring a table and a bar chart. The table categorizes data points labeled A, B, C, and D, with values indicating reliability: B is marked as 'Skewed' and C as 'Reliable'. The bar chart compares performance metrics across three categories: AIME, AMC, and MATH500. AIME shows values of 31.6 and 10.7, AMC has values of 4, 7.3, and 17.8, while MATH500 displays values of 2.2, 5.8, and 5.5. The average performance across these metrics is noted as 6.3, 4.7, and 9.3. The overall context emphasizes the application of reinforcement learning in evaluating model performance.",
+    "summary": "This visual presents an evaluation of test time reinforcement learning methodologies, focusing on the reliability of different models as indicated by the AIME, AMC, and MATH500 metrics. The left section categorizes models A, B, C, and D, with B marked as skewed and C as reliable. The right section features a bar chart comparing performance metrics across models, with AIME showing a peak value of 31.6, AMC with a maximum of 17.8, and MATH500 reaching 5.5. The average performance across these metrics is also highlighted, indicating a trend of varying reliability and effectiveness among the models.",
+    "table_rows": [
+        "Model A: 0 0 0 0 0",
+        "Model B: 0 1 1 0 0",
+        "Model C: 1 0 0 0 1",
+        "Model D: 0 0 1 0 0"
+    ],
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\arxiv1\\tables\\page1_table2.png",
     "token_usage": {
-        "prompt_tokens": 15007,
-        "completion_tokens": 236,
-        "total_tokens": 15243
+        "prompt_tokens": 15445,
+        "completion_tokens": 268,
+        "total_tokens": 15713
     }
 }

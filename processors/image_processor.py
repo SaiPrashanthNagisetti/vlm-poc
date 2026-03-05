@@ -26,6 +26,7 @@ def process_single_image(folder_name, image_file, input_folder_path, output_fold
         "image_title": model_output.get("image_title"),
         "image_keywords": model_output.get("image_keywords"),
         "summary": model_output.get("summary"),
+        "table_rows": model_output.get("table_rows", []),
         "confidence_score": model_output.get("confidence_score"),
         "image_citation": relative_image_path,
         "token_usage": {

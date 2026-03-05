@@ -1,0 +1,29 @@
+{
+    "file_name": "fact-sheet_Q4_24-25",
+    "page_number": 2,
+    "image_title": "Infosys Consolidated Financial Data - Fourth Quarter, Fiscal 2025",
+    "image_keywords": [
+        "Effort",
+        "Utilization",
+        "Employee Metrics",
+        "Cash Flow",
+        "Quarter ended",
+        "Mar 31 2025",
+        "Dec 31 2024",
+        "Mar 31 2024"
+    ],
+    "summary": "This table presents the consolidated financial data for Infosys for the fourth quarter of fiscal 2025, detailing metrics related to effort and utilization in IT services, employee statistics, and cash flow. Key metrics include onsite and offshore effort percentages, overall utilization rates, total employee counts, and voluntary attrition rates. The data spans three quarters: March 31, 2025, December 31, 2024, and March 31, 2024. Notable insights include a slight increase in offshore effort and a decrease in free cash flow compared to the previous quarter, indicating potential shifts in operational efficiency and financial health.",
+    "table_rows": [
+        "Effort: Mar 31 2025 = Onsite 23.6%, Offshore 76.4%; Dec 31 2024 = Onsite 24.0%, Offshore 76.0%; Mar 31 2024 = Onsite 24.2%, Offshore 75.8%",
+        "Utilization: Mar 31 2025 = Including trainees 81.9%, Excluding trainees 84.9%; Dec 31 2024 = Including trainees 83.4%, Excluding trainees 86.0%; Mar 31 2024 = Including trainees 82.0%, Excluding trainees 83.5%",
+        "Employee Metrics: Mar 31 2025 = Total employees 323,578, S/W professionals 306,599, Sales & Support 16,979, Voluntary Attrition % 14.1%, % of Women Employees 39.0%; Dec 31 2024 = Total employees 323,379, S/W professionals 306,528, Sales & Support 16,851, Voluntary Attrition % 13.7%, % of Women Employees 39.0%; Mar 31 2024 = Total employees 317,240, S/W professionals 299,814, Sales & Support 17,426, Voluntary Attrition % 12.6%, % of Women Employees 39.3%",
+        "Cash Flow: Mar 31 2025 = Free cash flow 892 million USD, Consolidated cash and investments 5,562 million USD; Dec 31 2024 = Free cash flow 1,263 million USD, Consolidated cash and investments 4,653 million USD; Mar 31 2024 = Free cash flow 848 million USD, Consolidated cash and investments 4,676 million USD"
+    ],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet_Q4_24-25\\vector_graphics\\page2_vector.png",
+    "token_usage": {
+        "prompt_tokens": 26779,
+        "completion_tokens": 596,
+        "total_tokens": 27375
+    }
+}

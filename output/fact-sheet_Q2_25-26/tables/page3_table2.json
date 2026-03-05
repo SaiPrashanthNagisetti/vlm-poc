@@ -1,0 +1,38 @@
+{
+    "file_name": "fact-sheet_Q2_25-26",
+    "page_number": 3,
+    "image_title": "Financial Performance Summary",
+    "image_keywords": [
+        "Revenues",
+        "Gross Profit",
+        "Operating Expenses",
+        "Net Profit",
+        "EPS",
+        "Financial Growth"
+    ],
+    "summary": "This table presents a financial performance summary comparing key metrics for the periods ending September 30, 2025, and September 30, 2024. It includes revenues, cost of sales, gross profit, operating expenses, and net profit, among other financial indicators. Notably, revenues increased by 4.3%, while gross profit saw a growth of 4.6%. Operating profit and net profit also reflect positive trends, with net profit before non-controlling interests rising by 6.9%. The table highlights the growth percentages for each metric, indicating overall financial improvement year-over-year.",
+    "table_rows": [
+        "Revenues: Sep 30 2025 = 10,018, Sep 30 2024 = 9,608, Growth % = 4.3",
+        "Cost of sales: Sep 30 2025 = 6,933, Sep 30 2024 = 6,659, Growth % = 4.1",
+        "Gross Profit: Sep 30 2025 = 3,085, Sep 30 2024 = 2,949, Growth % = 4.6",
+        "Selling and marketing expenses: Sep 30 2025 = 512, Sep 30 2024 = 454, Growth % = 12.8",
+        "Administrative expenses: Sep 30 2025 = 480, Sep 30 2024 = 469, Growth % = 2.3",
+        "Total Operating Expenses: Sep 30 2025 = 992, Sep 30 2024 = 923, Growth % = 7.5",
+        "Operating Profit: Sep 30 2025 = 2,093, Sep 30 2024 = 2,026, Growth % = 3.3",
+        "Operating Margin %: Sep 30 2025 = 20.9, Sep 30 2024 = 21.1, Growth % = -0.2",
+        "Other Income, net: Sep 30 2025 = 210, Sep 30 2024 = 160, Growth % = 31.3",
+        "Profit before income taxes: Sep 30 2025 = 2,303, Sep 30 2024 = 2,186, Growth % = 5.4",
+        "Net Profit (before non-controlling interests): Sep 30 2025 = 1,649, Sep 30 2024 = 1,542, Growth % = 6.9",
+        "Net Profit (after non-controlling interests): Sep 30 2025 = 1,647, Sep 30 2024 = 1,540, Growth % = 6.9",
+        "Basic EPS: Sep 30 2025 = 0.40, Sep 30 2024 = 0.37, Growth % = 6.9",
+        "Diluted EPS: Sep 30 2025 = 0.40, Sep 30 2024 = 0.37, Growth % = 6.9",
+        "Dividend Per Share: Sep 30 2025 = 0.26, Sep 30 2024 = 0.25, Growth % = 9.5"
+    ],
+    "confidence_score": 1.0,
+    "image_citation": "extracted_assets\\fact-sheet_Q2_25-26\\tables\\page3_table2.png",
+    "token_usage": {
+        "prompt_tokens": 21112,
+        "completion_tokens": 745,
+        "total_tokens": 21857
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "file_name": "fact-sheet_Q2_24-25",
+    "page_number": 1,
+    "image_title": "Quarterly Revenue Breakdown by Region",
+    "image_keywords": [
+        "North America",
+        "Europe",
+        "Rest of the world",
+        "India",
+        "Quarter ended",
+        "YoY Growth",
+        "Reported",
+        "CC"
+    ],
+    "summary": "This table presents the quarterly revenue breakdown by region for the periods ending September 30, 2023, June 30, 2024, and September 30, 2024, along with year-over-year (YoY) growth figures. The regions included are North America, Europe, the Rest of the World, and India, with a total revenue percentage of 100% across all periods. Notably, North America shows a decline in revenue from 61.1% in September 2023 to 57.4% in September 2024, while Europe exhibits significant growth from 16.7% YoY reported growth in September 2023 to 29.8% in September 2024. The total YoY growth reported is 3.7%, indicating a slight increase in overall revenue performance.",
+    "table_rows": [
+        "North America: Sep 30 2024 = 57.4, Jun 30 2024 = 58.9, Sep 30 2023 = 61.1, YoY Growth Reported = (2.6), CC = (2.7)",
+        "Europe: Sep 30 2024 = 29.8, Jun 30 2024 = 28.4, Sep 30 2023 = 26.5, YoY Growth Reported = 16.7, CC = 15.5",
+        "Rest of the world: Sep 30 2024 = 9.7, Jun 30 2024 = 9.6, Sep 30 2023 = 9.6, YoY Growth Reported = 4.8, CC = 3.8",
+        "India: Sep 30 2024 = 3.1, Jun 30 2024 = 3.1, Sep 30 2023 = 2.8, YoY Growth Reported = 14.7, CC = 16.0",
+        "Total: Sep 30 2024 = 100.0, Jun 30 2024 = 100.0, Sep 30 2023 = 100.0, YoY Growth Reported = 3.7, CC = 3.3"
+    ],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet_Q2_24-25\\tables\\page1_table3.png",
+    "token_usage": {
+        "prompt_tokens": 21112,
+        "completion_tokens": 535,
+        "total_tokens": 21647
+    }
+}

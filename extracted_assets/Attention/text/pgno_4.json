@@ -3,17 +3,17 @@
   "page": 4,
   "text": "ScaledDot-ProductAttention Multi-HeadAttention\nFigure 2: (left) Scaled Dot-Product Attention. (right) Multi-Head Attention consists of several\nattentionlayersrunninginparallel.\nofthevalues,wheretheweightassignedtoeachvalueiscomputedbyacompatibilityfunctionofthe\nquerywiththecorrespondingkey.\n3.2.1 ScaledDot-ProductAttention\nWecallourparticularattention\"ScaledDot-ProductAttention\"(Figure2). Theinputconsistsof\nqueriesandkeysofdimensiond ,a√ndvaluesofdimensiond\n. Wecomputethedotproductsofthe\nk v\nd\nquerywithallkeys,divideeachby ,andapplyasoftmaxfunctiontoobtaintheweightsonthe\nk\nvalues.\nInpractice,wecomputetheattentionfunctiononasetofqueriessimultaneously,packedtogether\nintoamatrixQ. ThekeysandvaluesarealsopackedtogetherintomatricesK andV.\nWecompute\nthematrixofoutputsas:\nQKT\n√\nAttention(Q,K,V)=softmax( )V\n(1)\nd\nk\nThetwomostcommonlyusedattentionfunctionsareadditiveattention[2],anddot-product(multi-\nplicative)attention. Dot-productattentionisidenticaltoouralgorithm,exceptforthescalingfactor\n√1\nof . Additiveattentioncomputesthecompatibilityfunctionusingafeed-forwardnetworkwith\ndk\nasinglehiddenlayer. Whilethetwoaresimilarintheoreticalcomplexity,dot-productattentionis\nmuchfasterandmorespace-efficientinpractice,sinceitcanbeimplementedusinghighlyoptimized\nmatrixmultiplicationcode.\nWhileforsmallvaluesofd\nthetwomechanismsperformsimilarly,additiveattentionoutperforms\nk\ndotproductattentionwithoutscalingforlargervaluesofd\n[3]. Wesuspectthatforlargevaluesof\nk\nd\n,thedotproductsgrowlargeinmagnitude,pushingthesoftmaxfunctionintoregionswhereithas\nk\n√1\nextremelysmallgradients4.\nTocounteractthiseffect,wescalethedotproductsby .\ndk\n3.2.2 Multi-HeadAttention\nInsteadofperformingasingleattentionfunctionwithd\n-dimensionalkeys,valuesandqueries,\nmodel\nwefounditbeneficialtolinearlyprojectthequeries,keysandvalueshtimeswithdifferent,learned\nlinearprojectionstod ,d andd\ndimensions,respectively. Oneachoftheseprojectedversionsof\nk k v\nqueries,keysandvalueswethenperformtheattentionfunctioninparallel,yieldingd\n-dimensional\nv\n4Toillustratewhythedotproductsgetlarge,assumethatthecomponentsofqandkareindependentrandom\n(cid:80)dk\nvariableswithmean0andvariance1.Thentheirdotproduct,q·k= q k ,hasmean0andvarianced\n.\ni i k\ni=1",
   "keywords": [
+    "dot",
+    "multi",
+    "scaleddot",
+    "product",
+    "wescalethedotproductsby dk",
+    "headattention",
+    "attention",
+    "productattention",
     "multi headattention",
     "scaleddot productattention",
-    "scaleddot",
-    "wescalethedotproductsby dk",
     "dk",
-    "multi",
-    "dot",
-    "wescalethedotproductsby",
-    "attention",
-    "headattention",
-    "product",
-    "productattention"
+    "wescalethedotproductsby"
   ]
 }

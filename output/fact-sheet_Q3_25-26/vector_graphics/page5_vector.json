@@ -1,0 +1,31 @@
+{
+    "file_name": "fact-sheet_Q3_25-26",
+    "page_number": 5,
+    "image_title": "Consolidated Statement of Comprehensive Income",
+    "image_keywords": [
+        "Revenues",
+        "Cost of sales",
+        "Gross Profit",
+        "Operating Profit",
+        "Net Profit",
+        "EPS",
+        "Fiscal 2026"
+    ],
+    "summary": "This table presents the Consolidated Statement of Comprehensive Income for Infosys for the nine months ending December 31, 2025, compared to the same period in 2024. Key metrics include revenues of \u20b9132,248 crore, reflecting an 8.3% growth from \u20b9122,064 crore in the previous year. The cost of sales increased to \u20b992,676 crore, resulting in a gross profit of \u20b939,572 crore. Operating profit showed a modest increase of 2.6% to \u20b926,511 crore, with an operating margin of 20.0%. The net profit after non-controlling interests was \u20b920,939 crore, with basic EPS rising to \u20b950.64, marking a 6.6% increase. The table also includes adjustments for labor codes affecting reported financial measures, highlighting the impact of regulatory changes on financial performance.",
+    "table_rows": [
+        "Revenues: Dec 31 2025 = 132,248, Dec 31 2024 = 122,064, Growth % = 8.3",
+        "Cost of sales: Dec 31 2025 = 92,676, Dec 31 2024 = 84,771, Growth % = 9.3",
+        "Gross Profit: Dec 31 2025 = 39,572, Dec 31 2024 = 37,293, Growth % = 6.1",
+        "Total Operating Expenses: Dec 31 2025 = 13,061, Dec 31 2024 = 11,444, Growth % = 14.1",
+        "Operating Profit: Dec 31 2025 = 26,511, Dec 31 2024 = 25,849, Growth % = 2.6",
+        "Net Profit (after non-controlling interests): Dec 31 2025 = 20,939, Dec 31 2024 = 19,680, Growth % = 6.4",
+        "Basic EPS (\u20b9): Dec 31 2025 = 50.64, Dec 31 2024 = 47.52, Growth % = 6.6"
+    ],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet_Q3_25-26\\vector_graphics\\page5_vector.png",
+    "token_usage": {
+        "prompt_tokens": 26779,
+        "completion_tokens": 519,
+        "total_tokens": 27298
+    }
+}

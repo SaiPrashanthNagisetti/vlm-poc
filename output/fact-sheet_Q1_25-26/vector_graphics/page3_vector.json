@@ -1,0 +1,31 @@
+{
+    "file_name": "fact-sheet_Q1_25-26",
+    "page_number": 3,
+    "image_title": "Consolidated Financial Data - First Quarter, Fiscal 2026",
+    "image_keywords": [
+        "Revenues",
+        "Cost of sales",
+        "Gross Profit",
+        "Operating Profit",
+        "Net Profit",
+        "EPS",
+        "Fiscal 2026",
+        "Financial Statement"
+    ],
+    "summary": "This table presents the consolidated statement of comprehensive income for Infosys for the three months ended June 30, 2025, and June 30, 2024, along with quarter-over-quarter comparisons for March 31, 2025. Key metrics include revenues, cost of sales, gross profit, operating profit, and net profit, with year-over-year growth percentages provided. Notably, revenues increased by 4.8% YoY, while net profit before non-controlling interests rose by 5.8% YoY. The operating margin remained stable at around 20.8%, indicating consistent profitability. The data highlights trends in financial performance, with a focus on growth in key areas such as operating expenses and net profit.",
+    "table_rows": [
+        "Revenues: Jun 30 2025 = 4,941, Jun 30 2024 = 4,714, Growth % YoY = 4.8%, Mar 31 2025 = 4,730, Growth % QoQ = 4.5%",
+        "Cost of sales: Jun 30 2025 = 3,416, Jun 30 2024 = 3,259, Growth % YoY = 4.8%, Mar 31 2025 = 3,302, Growth % QoQ = 3.5%",
+        "Gross Profit: Jun 30 2025 = 1,525, Jun 30 2024 = 1,455, Growth % YoY = 4.8%, Mar 31 2025 = 1,428, Growth % QoQ = 6.8%",
+        "Operating Profit: Jun 30 2025 = 1,028, Jun 30 2024 = 994, Growth % YoY = 3.4%, Mar 31 2025 = 992, Growth % QoQ = 3.6%",
+        "Net Profit (before non-controlling interests): Jun 30 2025 = 309, Jun 30 2024 = 764, Growth % YoY = 5.8%, Mar 31 2025 = 814, Growth % QoQ = -0.6%",
+        "Basic EPS ($): Jun 30 2025 = 0.20, Jun 30 2024 = 0.18, Growth % YoY = 5.8%, Mar 31 2025 = 0.20, Growth % QoQ = -0.6%"
+    ],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet_Q1_25-26\\vector_graphics\\page3_vector.png",
+    "token_usage": {
+        "prompt_tokens": 26779,
+        "completion_tokens": 596,
+        "total_tokens": 27375
+    }
+}

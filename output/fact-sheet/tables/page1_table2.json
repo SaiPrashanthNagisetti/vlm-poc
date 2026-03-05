@@ -1,20 +1,37 @@
 {
     "file_name": "fact-sheet",
     "page_number": 1,
-    "image_title": "Client Metrics Summary",
+    "image_title": "Client Metrics Overview",
     "image_keywords": [
-        "clients",
-        "revenue",
-        "quarterly data",
-        "2025",
-        "2024"
+        "Number of Clients",
+        "Active",
+        "Added during the period",
+        "Million dollar clients",
+        "Client contribution to revenues",
+        "Days Sales Outstanding",
+        "Dec 31 2025",
+        "Sep 30 2025",
+        "Dec 31 2024"
     ],
-    "summary": "This table presents client metrics for the quarter ended December 31, 2025. The total number of active clients is 1,949, with 121 added during the period. The breakdown of million-dollar clients includes 1,012 clients at 1 million dollars or more, 326 clients at 10 million dollars or more, 84 clients at 50 million dollars or more, and 41 clients at 100 million dollars or more. Client contributions to revenues show that the top 5 clients account for 12.8% of revenues, the top 10 clients account for 20.6%, and the top 25 clients account for 35.0%. The Days Sales Outstanding is reported at 74 days. Comparative data for September 30, 2025, and December 31, 2024, is also included, showing slight variations in client counts and revenue contributions.",
-    "confidence_score": 0.95,
+    "summary": "This table presents an overview of client metrics for the quarters ending December 31, 2025, September 30, 2025, and December 31, 2024. It includes the number of active clients, clients added during the period, and various categories of million-dollar clients. Notably, the number of active clients increased from 1,876 in December 2024 to 1,949 in December 2025. The table also details client contributions to revenues, showing a slight decrease in the percentage from the top 5 and top 10 clients over the observed periods. Additionally, the Days Sales Outstanding remained consistent at 41 days across the last two periods.",
+    "table_rows": [
+        "Active clients: Dec 31 2025 = 1949, Sep 30 2025 = 1896, Dec 31 2024 = 1876",
+        "Added during period: Dec 31 2025 = 121, Sep 30 2025 = 118, Dec 31 2024 = 101",
+        "Number of Million dollar clients: Dec 31 2025 = 1012, Sep 30 2025 = 1012, Dec 31 2024 = 997",
+        "1 Million dollar +: Dec 31 2025 = 1012, Sep 30 2025 = 1012, Dec 31 2024 = 997",
+        "10 Million dollar +: Dec 31 2025 = 326, Sep 30 2025 = 322, Dec 31 2024 = 301",
+        "50 Million dollar +: Dec 31 2025 = 84, Sep 30 2025 = 85, Dec 31 2024 = 89",
+        "100 Million dollar +: Dec 31 2025 = 41, Sep 30 2025 = 41, Dec 31 2024 = 41",
+        "Client contribution to revenues: Top 5 clients: Dec 31 2025 = 12.8%, Sep 30 2025 = 13.0%, Dec 31 2024 = 12.7%",
+        "Top 10 clients: Dec 31 2025 = 20.6%, Sep 30 2025 = 20.7%, Dec 31 2024 = 19.9%",
+        "Top 25 clients: Dec 31 2025 = 35.0%, Sep 30 2025 = 35.2%, Dec 31 2024 = 34.2%",
+        "Days Sales Outstanding: Dec 31 2025 = 74, Sep 30 2025 = 71, Dec 31 2024 = 74"
+    ],
+    "confidence_score": 1.0,
     "image_citation": "extracted_assets\\fact-sheet\\tables\\page1_table2.png",
     "token_usage": {
-        "prompt_tokens": 20674,
-        "completion_tokens": 234,
-        "total_tokens": 20908
+        "prompt_tokens": 21112,
+        "completion_tokens": 666,
+        "total_tokens": 21778
     }
 }

@@ -3,17 +3,17 @@
   "page": 11,
   "text": "[5] KyunghyunCho,BartvanMerrienboer,CaglarGulcehre,FethiBougares,HolgerSchwenk,\nandYoshuaBengio. Learningphraserepresentationsusingrnnencoder-decoderforstatistical\nCoRR,abs/1406.1078,2014.\nmachinetranslation.\narXiv\n[6] Francois Chollet. Xception: Deep learning with depthwise separable convolutions.\npreprintarXiv:1610.02357,2016.\n[7] JunyoungChung,ÇaglarGülçehre,KyunghyunCho,andYoshuaBengio. Empiricalevaluation\nCoRR,abs/1412.3555,2014.\nofgatedrecurrentneuralnetworksonsequencemodeling.\n[8] Chris Dyer, Adhiguna Kuncoro, Miguel Ballesteros, and Noah A. Smith. Recurrent neural\nInProc.ofNAACL,2016.\nnetworkgrammars.\n[9] JonasGehring,MichaelAuli,DavidGrangier,DenisYarats,andYannN.Dauphin. Convolu-\narXivpreprintarXiv:1705.03122v2,2017.\ntionalsequencetosequencelearning.\narXiv preprint\n[10] Alex Graves. Generating sequences with recurrent neural networks.\narXiv:1308.0850,2013.\n[11] Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learning for im-\nProceedings of the IEEE Conference on Computer Vision and Pattern\nage recognition. In\nRecognition,pages770–778,2016.\n[12] SeppHochreiter,YoshuaBengio,PaoloFrasconi,andJürgenSchmidhuber. Gradientflowin\nrecurrentnets: thedifficultyoflearninglong-termdependencies,2001.\nNeural computation,\n[13] Sepp Hochreiter and Jürgen Schmidhuber. Long short-term memory.\n9(8):1735–1780,1997.\n[14] ZhongqiangHuangandMaryHarper. Self-trainingPCFGgrammarswithlatentannotations\nInProceedingsofthe2009ConferenceonEmpiricalMethodsinNatural\nacrosslanguages.\nLanguageProcessing,pages832–841.ACL,August2009.\n[15] RafalJozefowicz,OriolVinyals,MikeSchuster,NoamShazeer,andYonghuiWu. Exploring\narXivpreprintarXiv:1602.02410,2016.\nthelimitsoflanguagemodeling.\nInAdvancesinNeural\n[16] ŁukaszKaiserandSamyBengio. Canactivememoryreplaceattention?\nInformationProcessingSystems,(NIPS),2016.\nInInternationalConference\n[17] ŁukaszKaiserandIlyaSutskever. NeuralGPUslearnalgorithms.\nonLearningRepresentations(ICLR),2016.\n[18] NalKalchbrenner,LasseEspeholt,KarenSimonyan,AaronvandenOord,AlexGraves,andKo-\nrayKavukcuoglu.Neuralmachinetranslationinlineartime.arXivpreprintarXiv:1610.10099v2,\n2017.\n[19] YoonKim,CarlDenton,LuongHoang,andAlexanderM.Rush. Structuredattentionnetworks.\nInInternationalConferenceonLearningRepresentations,2017.\nInICLR,2015.\n[20] DiederikKingmaandJimmyBa. Adam: Amethodforstochasticoptimization.\narXivpreprint\n[21] OleksiiKuchaievandBorisGinsburg. FactorizationtricksforLSTMnetworks.\narXiv:1703.10722,2017.\n[22] Zhouhan Lin, Minwei Feng, Cicero Nogueira dos Santos, Mo Yu, Bing Xiang, Bowen\narXiv preprint\nZhou, and Yoshua Bengio. A structured self-attentive sentence embedding.\narXiv:1703.03130,2017.\n[23] Minh-ThangLuong,QuocV.Le,IlyaSutskever,OriolVinyals,andLukaszKaiser. Multi-task\narXivpreprintarXiv:1511.06114,2015.\nsequencetosequencelearning.\n[24] Minh-ThangLuong,HieuPham,andChristopherDManning. Effectiveapproachestoattention-\narXivpreprintarXiv:1508.04025,2015.\nbasedneuralmachinetranslation.",
   "keywords": [
-    "2017",
+    "minh thangluong",
+    "learning",
+    "2016",
+    "thangluong",
     "neural",
     "minh",
-    "arxivpreprintarxiv",
     "oriolvinyals",
-    "learning",
-    "arxiv",
     "2015",
-    "minh thangluong",
-    "2016",
+    "arxiv",
     "preprint",
-    "thangluong"
+    "2017",
+    "arxivpreprintarxiv"
   ]
 }

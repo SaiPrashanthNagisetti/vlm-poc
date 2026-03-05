@@ -1,0 +1,95 @@
+{
+    "pdf_file_name": "fact-sheet_Q3_25-26.pdf",
+    "total_pages": 5,
+    "text_page_count": 5,
+    "image_page_count": 5,
+    "table_page_count": 5,
+    "vector_page_count": 5,
+    "page_results": [
+        {
+            "page_number": 1,
+            "has_text": true,
+            "has_images": true,
+            "has_tables": true,
+            "image_count": 1,
+            "table_count": 1,
+            "raster_images": 1,
+            "vector_graphics": true,
+            "content_types": [
+                "text",
+                "images",
+                "tables",
+                "vector_graphics"
+            ],
+            "requires_image_processing": true
+        },
+        {
+            "page_number": 2,
+            "has_text": true,
+            "has_images": true,
+            "has_tables": true,
+            "image_count": 1,
+            "table_count": 1,
+            "raster_images": 1,
+            "vector_graphics": true,
+            "content_types": [
+                "text",
+                "images",
+                "tables",
+                "vector_graphics"
+            ],
+            "requires_image_processing": true
+        },
+        {
+            "page_number": 3,
+            "has_text": true,
+            "has_images": true,
+            "has_tables": true,
+            "image_count": 1,
+            "table_count": 1,
+            "raster_images": 1,
+            "vector_graphics": true,
+            "content_types": [
+                "text",
+                "images",
+                "tables",
+                "vector_graphics"
+            ],
+            "requires_image_processing": true
+        },
+        {
+            "page_number": 4,
+            "has_text": true,
+            "has_images": true,
+            "has_tables": true,
+            "image_count": 1,
+            "table_count": 1,
+            "raster_images": 1,
+            "vector_graphics": true,
+            "content_types": [
+                "text",
+                "images",
+                "tables",
+                "vector_graphics"
+            ],
+            "requires_image_processing": true
+        },
+        {
+            "page_number": 5,
+            "has_text": true,
+            "has_images": true,
+            "has_tables": true,
+            "image_count": 1,
+            "table_count": 1,
+            "raster_images": 1,
+            "vector_graphics": true,
+            "content_types": [
+                "text",
+                "images",
+                "tables",
+                "vector_graphics"
+            ],
+            "requires_image_processing": true
+        }
+    ]
+}

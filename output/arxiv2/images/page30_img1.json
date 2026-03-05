@@ -8,12 +8,13 @@
         "LLM-based",
         "Template-based"
     ],
-    "summary": "This image features two line charts titled 'Utility Progression Over Iteration Steps' with the left chart representing LLM-based progression and the right chart depicting Template-based progression. Both charts plot 'Utility' on the vertical axis against 'Iteration Steps' on the horizontal axis. The LLM-based chart shows multiple colored lines representing different data series, with values reaching up to approximately 22 on the utility scale, while the Template-based chart similarly displays several lines, with utility values also peaking around 22. Both charts illustrate trends in utility progression across various iteration steps, highlighting differences in performance between the two methods.",
+    "summary": "This visual consists of two line charts titled 'Utility Progression Over Iteration Steps' that compare the utility progression across iteration steps for two different methodologies: LLM-based and Template-based. Each chart displays multiple data series, represented by distinct colored lines, illustrating how utility values change as the number of iteration steps increases. The left chart focuses on the LLM-based approach, while the right chart presents the Template-based approach. Both charts show a general upward trend in utility with increasing iteration steps, with some variations in the rate of progression among the different series. The charts provide insights into the effectiveness of each methodology over time.",
+    "table_rows": [],
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\arxiv2\\images\\page30_img1.png",
     "token_usage": {
-        "prompt_tokens": 15007,
-        "completion_tokens": 174,
-        "total_tokens": 15181
+        "prompt_tokens": 15445,
+        "completion_tokens": 182,
+        "total_tokens": 15627
     }
 }

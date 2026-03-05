@@ -3,17 +3,17 @@
   "page": 6,
   "text": "Figure 3: An overview of the Reflexion framework [42]\na causal Transformer architecture:\nn\n(cid:88)\nlogp(x)= logp(x |x )\ni <i\ni=1\nThe training sequence contains model outputs combined with feedback. To make sure the model will\nonly be trained to predict non-feedback tokens, a masking technique is adopted such that:\nn\n(cid:88)\n⊮\nlogp(x)= (x )logp(x |x )\ni i <i\nO(x)\ni=1\n⊮\nwhere (x ) is 1 if x is not part of the feedback and 0 otherwise. Comprehensive experiments on\ni i\nO(x)\nsummarization and dialogue datasets demonstrate that CoH significantly surpasses RLHF and other\nbaseline methods.\nMeta-learning [44] and continual learning [45] approaches allow agents to generalize across tasks and\naccumulate knowledge without catastrophic forgetting.\n4.4 Memory\nMemory processing in AI agents is crucial for enhancing their effectiveness. Much like human memory,\nit enables the acquisition, storage, retention, and retrieval of information for future use [36]. Memory\nis categorized into short-term or textual, constrained by the context window of the underlying trans-\nformermodels,andlong-termorparametric,encompassingdeclarative(factsandevents)andprocedural\n(unconscious skills) memory [46].\nMemory-enhanced agents have demonstrated significant capabilities in maintaining context, emulat-\ning human-like behavior, and tackling complex tasks by effectively utilizing both short-term and long-\nterm memory. However, despite these advancements, challenges remain in scalability, efficiency, and the\nseamless integration of external knowledge for LLM-based AI agents [48]. Addressing these limitations\nis crucial for advancing LLM-based agents toward artificial general intelligence (AGI), enhancing their\nrobustness and efficiency in real-world applications [49, 47].\n4.5 Tools\nOne of the hallmarks of human intelligence is the ability to use tools that reflect advanced cognitive\nfunctions such as problem-solving, adaptability, and foresight. Equipping LLMs with external tools can\nsignificantly extend model capabilities [36]. In fact, LLM-based AI agents can be defined as systems\nwhere LLMs dynamically direct their own processes and tool usage, maintaining control over how they",
   "keywords": [
-    "feedback",
+    "human",
     "tools",
-    "ai agents",
-    "agents",
-    "term",
-    "llm based",
-    "model",
-    "memory",
-    "llm",
     "based",
-    "logp",
-    "human"
+    "term",
+    "ai agents",
+    "feedback",
+    "agents",
+    "model",
+    "llm",
+    "memory",
+    "llm based",
+    "logp"
   ]
 }

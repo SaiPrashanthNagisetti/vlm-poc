@@ -1,0 +1,32 @@
+{
+    "file_name": "fact-sheet_Q4_25-26",
+    "page_number": 3,
+    "image_title": "Consolidated Financial Data - Third Quarter, Fiscal 2026",
+    "image_keywords": [
+        "Infosys",
+        "financial statement",
+        "revenues",
+        "operating profit",
+        "net profit",
+        "EPS",
+        "growth"
+    ],
+    "summary": "This table presents the consolidated statement of comprehensive income for Infosys for the three months ended December 31, 2025, compared to the same period in 2024, along with a nine-month summary. Key metrics include revenues, operating profit, and net profit, with growth percentages indicating a 3.2% increase in revenues year-over-year and a 7.2% decrease in net profit. The operating margin decreased from 21.3% to 18.4%, while the diluted EPS fell from $0.19 to $0.18. The data highlights trends in financial performance, including a notable decline in operating profit and net profit, alongside varying growth rates in expenses.",
+    "table_rows": [
+        "Revenues: Dec 31 2025 = 5099, Dec 31 2024 = 4939, Growth % = 3.2%",
+        "Cost of sales: Dec 31 2025 = 3660, Dec 31 2024 = 3444, Growth % = 6.3%",
+        "Gross Profit: Dec 31 2025 = 1439, Dec 31 2024 = 1495, Growth % = -3.7%",
+        "Total Operating Expenses: Dec 31 2025 = 502, Dec 31 2024 = 442, Growth % = 13.6%",
+        "Operating Profit: Dec 31 2025 = 937, Dec 31 2024 = 1053, Growth % = -11.0%",
+        "Operating Margin %: Dec 31 2025 = 18.4, Dec 31 2024 = 21.3, Growth % = -2.9%",
+        "Net Profit (after non-controlling interests): Dec 31 2025 = 747, Dec 31 2024 = 804, Growth % = -7.2%",
+        "Basic EPS ($): Dec 31 2025 = 0.18, Dec 31 2024 = 0.19, Growth % = -6.6%"
+    ],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet_Q4_25-26\\vector_graphics\\page3_vector.png",
+    "token_usage": {
+        "prompt_tokens": 26779,
+        "completion_tokens": 506,
+        "total_tokens": 27285
+    }
+}

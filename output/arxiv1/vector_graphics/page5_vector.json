@@ -1,23 +1,25 @@
 {
     "file_name": "arxiv1",
     "page_number": 5,
-    "image_title": "Tool Verification for Test-Time Reinforcement Learning",
+    "image_title": "Pseudo-code for TTRL",
     "image_keywords": [
-        "Test-Time Reinforcement Learning",
         "TTRL",
-        "benchmark",
-        "evaluation",
-        "Qwen",
-        "LLaMa",
-        "performance",
-        "results"
+        "pseudo-code",
+        "reinforcement learning",
+        "policy",
+        "verifier",
+        "sandbox",
+        "evidence",
+        "vote",
+        "majority pseudo-label"
     ],
-    "summary": "The image presents a pseudo-code listing for the Test-Time Reinforcement Learning (TTRL) method, detailing the function 'ttrl_reward_fn' which evaluates a policy using a verifier and sandbox. The code outlines steps for generating evidence, judging responses, and calculating weighted majority pseudo-labels. It highlights the evaluation setup for TTRL across mathematical benchmarks including AIMEE 2024, AMC, and Math, and discusses the implementation details, including training configurations and performance metrics. The results indicate consistent improvements across various benchmarks and models, demonstrating TTRL's effectiveness in enhancing performance in challenging scenarios. The image also references baseline comparisons with previous studies and provides insights into the evaluation methodology employed.",
+    "summary": "The visual presents pseudo-code for the Test-Time Reinforcement Learning (TTRL) method, illustrating the process of generating evidence and making decisions based on a policy and verifier. The code outlines the steps involved in executing a policy, verifying the output, and aggregating results through a weighted majority voting mechanism. Key components include the generation of evidence from the verifier, the execution of code snippets, and the calculation of a final vote based on the evidence collected. This method aims to enhance performance across various benchmarks in reinforcement learning by ensuring the accuracy of responses.",
+    "table_rows": [],
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\arxiv1\\vector_graphics\\page5_vector.png",
     "token_usage": {
-        "prompt_tokens": 26341,
-        "completion_tokens": 204,
-        "total_tokens": 26545
+        "prompt_tokens": 26779,
+        "completion_tokens": 185,
+        "total_tokens": 26964
     }
 }

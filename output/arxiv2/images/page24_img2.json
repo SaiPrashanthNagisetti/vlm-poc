@@ -1,19 +1,20 @@
 {
     "file_name": "arxiv2",
     "page_number": 24,
-    "image_title": "Task Management Insights",
+    "image_title": "Task Management Interface",
     "image_keywords": [
-        "insights",
-        "goals",
         "task management",
+        "goals",
+        "insights",
         "enforced goals"
     ],
-    "summary": "This image presents a task management interface titled 'Step 2' that outlines insights and enforced goals. The insights section includes a prompt for assistance with questions, while the enforced goals list consists of specific tasks: ensuring the daughter is home in the evening, preventing the purchase of groceries, attending soccer training, bringing grandma's groceries to her house, preventing the daughter from participating in sports, and ensuring the son attends music lessons. Each goal is accompanied by a numerical indicator, possibly representing priority or completion status. The overall context suggests a focus on managing family-related tasks effectively.",
+    "summary": "This visual represents a task management interface, specifically focusing on Step 2 of a process. It highlights insights and enforced goals related to personal tasks. The interface includes a section for insights, prompting users to ask questions for assistance, and lists several enforced goals such as ensuring a daughter is home in the evening, buying groceries, and attending soccer training. The layout suggests a structured approach to managing personal responsibilities, with a focus on actionable tasks and reminders.",
+    "table_rows": [],
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\arxiv2\\images\\page24_img2.png",
     "token_usage": {
-        "prompt_tokens": 9340,
-        "completion_tokens": 162,
-        "total_tokens": 9502
+        "prompt_tokens": 9778,
+        "completion_tokens": 144,
+        "total_tokens": 9922
     }
 }

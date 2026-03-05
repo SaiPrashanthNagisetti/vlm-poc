@@ -1,20 +1,25 @@
 {
     "file_name": "arxiv1",
     "page_number": 12,
-    "image_title": "Data Comparison Table",
+    "image_title": "Comparison of T3RL and TTRL Metrics",
     "image_keywords": [
         "T3RL",
-        "TTL",
-        "data comparison",
-        "values",
-        "percentages"
+        "TTRL",
+        "verifier",
+        "metrics",
+        "comparison"
     ],
-    "summary": "This table presents a comparison of values related to T3RL and TTRL metrics. The first row indicates the values for 'w/ T3RL (0.5B verifier)', showing 0.0, 10.8, 32.0, and 14.3 across four columns. The second row displays the differences (\u0394) between T3RL and TTRL, with values of -0.4, -1.2, -2.6, and -1.4. The final row shows the relative percentages over TTRL, marked as 100.0%, 10.0%, 7.5%, and 8.9%, with downward arrows indicating a decrease. The table effectively compares these metrics, highlighting the differences and relative performance.",
-    "confidence_score": 0.9,
+    "summary": "This table presents a comparison of metrics related to T3RL and TTRL, specifically focusing on the performance of T3RL with a 0.5B verifier. It includes values for T3RL, the difference between T3RL and TTRL, and the relative percentage over TTRL. The data shows that T3RL values range from 0.0 to 14.3 across different conditions, with the differences indicating a decline in performance as the values increase. Notably, the relative performance shows a significant drop of 100% for the lowest T3RL value, with subsequent values showing decreases of 10.0%, 7.5%, and 8.9%.",
+    "table_rows": [
+        "w/ T3RL (0.5B verifier): 0.0, 10.8, 32.0, 14.3",
+        "\u0394 (T3RL \u2013 TTRL): -0.4, -1.2, -2.6, -1.4",
+        "Rel. (% over TTRL): 100.0%, 10.0%, 7.5%, 8.9%"
+    ],
+    "confidence_score": 0.95,
     "image_citation": "extracted_assets\\arxiv1\\tables\\page12_table1.png",
     "token_usage": {
-        "prompt_tokens": 15007,
-        "completion_tokens": 209,
-        "total_tokens": 15216
+        "prompt_tokens": 15445,
+        "completion_tokens": 300,
+        "total_tokens": 15745
     }
 }

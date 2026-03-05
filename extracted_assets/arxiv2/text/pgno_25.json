@@ -3,17 +3,17 @@
   "page": 25,
   "text": "Exploring Plan Space through Conversation 25\na question is asked. If a question can be answered based on the conflicts or\ncorrections from a previous question, then the cashed result is used instead.\nTheaccesstotheexplanationsandtheirrepresentationdiffersdependingonthe\nchosen interface. Currently, two options are supported.\nInthetemplatebasedexplanationinterfacetheuserisrestricted\nTemplateBased\nto a predefined list of questions and the answer simply lists all explanations. To\nallow for a similar experience as in the LLM-based version described next, the\nquestionsandexplanationsaredepictedinachatinterfaceasshowninFigure11.\nFor an unsolvable step the questions refer to the entire selection of enforced\ngoals.Thus,theexplanationinterfaceisdisplayedabovethelistofenforcedgoals\n(see right Figure 10 and Figure 11).\nIn a solvable step the questions refer to individual unsatisfied reference gals\nGfalse(π).Thesegoalsaretheargumentsofthequestions.Thus,foreachunsatis-\nfiedreferencegoalthereisaseparateexplanationinterfaceaccessiblebyclicking\non the goal panel (see left Figure 11).\nFig.11: Screenshot of the template-based explanations for a solvable step (left)\nand an unsolvable step (right).\nTheLLM-Chatbasedexplanationinterfaceisdisplayedinthe\nLLM-Chat Based\ntop of the iteration step details view for both solvable and unsolvable steps (see\nFigure12).MoreexamplescanbefoundinSectionD.Userscanfreelyformulate\nquestions. If the question is answered by calling EF first the user is notified\nCC\nhowthequestionwasunderstood.Thisisimplementedbythequestiontranslator\nto the question similarly to the LLM-based goal translator\nreverse translate\ndescribedearlier.Thentheresponsefromtheexplanationtranslatorisdisplayed.\nIn case of direct answers by the question translator or answers to follow-up\nquestions from the explanation translator, the answer is given directly.",
   "keywords": [
+    "question",
+    "based",
+    "translator",
     "questions refer",
-    "step",
-    "questions",
     "unsolvable",
     "llm",
-    "solvable",
+    "figure",
+    "step",
     "11",
-    "question",
-    "translator",
+    "solvable",
     "refer",
-    "based",
-    "figure"
+    "questions"
   ]
 }

@@ -1,20 +1,21 @@
 {
     "file_name": "arxiv2",
     "page_number": 30,
-    "image_title": "Comparison of Max Utility Achieved Over Time",
+    "image_title": "Comparison of Max Utility Over Time",
     "image_keywords": [
         "max utility",
         "time",
         "LLM-based",
-        "Template-based",
+        "template-based",
         "utility comparison"
     ],
-    "summary": "This line chart illustrates the comparison of maximum utility achieved over time between two groups: LLM-based and Template-based interfaces. The x-axis represents time in minutes, ranging from 0 to 15, while the y-axis indicates max utility, ranging from 0 to 27. The LLM-based group is depicted with a solid line, while the Template-based group is represented with a different line. The chart includes shaded areas indicating \u00b11 standard deviation for both groups. The data shows a gradual increase in max utility over time, with LLM-based and Template-based groups achieving similar utility levels as time progresses. The source of the data is attributed to G. Fouilh\u00e9 et al.",
-    "confidence_score": 0.9,
+    "summary": "This line chart illustrates the comparison of maximum utility achieved over time between two groups: LLM-based and template-based interfaces. The x-axis represents time in minutes, while the y-axis shows the maximum utility values, reaching up to 27. The chart features multiple lines representing different configurations of the LLM-based group, with shaded areas indicating standard deviation. Notably, the LLM-based approach consistently shows a gradual increase in utility over time, while the template-based approach also demonstrates a similar trend, albeit with different performance characteristics. The visualization highlights the comparative effectiveness of the two methodologies in achieving utility as time progresses.",
+    "table_rows": [],
+    "confidence_score": 0.95,
     "image_citation": "extracted_assets\\arxiv2\\vector_graphics\\page30_vector.png",
     "token_usage": {
-        "prompt_tokens": 26341,
-        "completion_tokens": 195,
-        "total_tokens": 26536
+        "prompt_tokens": 26779,
+        "completion_tokens": 183,
+        "total_tokens": 26962
     }
 }

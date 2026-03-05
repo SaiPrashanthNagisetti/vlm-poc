@@ -1,0 +1,31 @@
+{
+    "file_name": "fact-sheet_Q1_25-26",
+    "page_number": 3,
+    "image_title": "Financial Performance Summary",
+    "image_keywords": [
+        "Revenues",
+        "Operating Profit",
+        "Net Profit",
+        "EPS",
+        "Growth % YoY",
+        "Growth % QoQ"
+    ],
+    "summary": "This table presents a financial performance summary for a company, comparing key metrics for the periods ending June 30, 2025, June 30, 2024, and March 31, 2025. Key metrics include revenues, gross profit, operating expenses, operating profit, and net profit, with growth percentages calculated year-over-year (YoY) and quarter-over-quarter (QoQ). Notably, revenues increased from 39,315 in June 2024 to 42,279 in June 2025, reflecting a 7.5% growth YoY. Operating profit showed a slight decline in margin percentage from 21.1% to 20.8% YoY, while net profit before non-controlling interests rose to 6,924, marking an 8.6% increase YoY. The table also includes earnings per share (EPS) figures, indicating a consistent growth trend across the reported periods.",
+    "table_rows": [
+        "Revenues: Jun 30 2025 = 42,279, Jun 30 2024 = 39,315, Growth % YoY = 7.5%",
+        "Cost of sales: Jun 30 2025 = 29,224, Jun 30 2024 = 27,177, Growth % YoY = 7.5%",
+        "Gross Profit: Jun 30 2025 = 13,055, Jun 30 2024 = 12,138, Growth % YoY = 7.6%",
+        "Total Operating Expenses: Jun 30 2025 = 4,252, Jun 30 2024 = 3,850, Growth % YoY = 10.4%",
+        "Operating Profit: Jun 30 2025 = 8,803, Jun 30 2024 = 8,288, Growth % YoY = 6.2%",
+        "Net Profit (before non-controlling interests): Jun 30 2025 = 6,924, Jun 30 2024 = 6,374, Growth % YoY = 8.6%",
+        "Basic EPS: Jun 30 2025 = 16.70, Jun 30 2024 = 15.38, Growth % YoY = 8.6%",
+        "Diluted EPS: Jun 30 2025 = 16.68, Jun 30 2024 = 15.35, Growth % YoY = 8.6%"
+    ],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet_Q1_25-26\\tables\\page3_table2.png",
+    "token_usage": {
+        "prompt_tokens": 38113,
+        "completion_tokens": 577,
+        "total_tokens": 38690
+    }
+}

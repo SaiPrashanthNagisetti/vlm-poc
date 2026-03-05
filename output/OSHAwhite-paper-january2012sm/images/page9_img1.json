@@ -7,14 +7,15 @@
         "foundry",
         "workers",
         "molten metal",
-        "industrial process"
+        "industrial"
     ],
-    "summary": "The image depicts a metal casting process in a foundry, showcasing two workers in protective gear pouring molten metal into molds. The scene is illuminated by overhead lights, with a significant amount of smoke and steam rising from the molten metal, indicating a high-temperature environment. The workers are focused on their task, ensuring the metal is directed accurately into the molds. The background features various industrial equipment typical of a foundry setting, emphasizing the operational nature of the environment.",
+    "summary": "The image depicts a metal casting process in a foundry, showcasing workers in protective gear pouring molten metal into molds. The scene is illuminated by the glow of the molten metal, creating a dramatic atmosphere. The workers are focused on their task, emphasizing the industrial nature of the environment. This visual highlights the critical steps involved in metal casting, including the handling of hot materials and the importance of safety measures in such a hazardous setting.",
+    "table_rows": [],
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\OSHAwhite-paper-january2012sm\\images\\page9_img1.png",
     "token_usage": {
-        "prompt_tokens": 15007,
-        "completion_tokens": 143,
-        "total_tokens": 15150
+        "prompt_tokens": 15445,
+        "completion_tokens": 142,
+        "total_tokens": 15587
     }
 }

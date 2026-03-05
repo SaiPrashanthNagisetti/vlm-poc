@@ -1,0 +1,39 @@
+{
+    "file_name": "fact-sheet_Q1_25-26",
+    "page_number": 3,
+    "image_title": "Financial Performance Overview",
+    "image_keywords": [
+        "Revenues",
+        "Gross Profit",
+        "Operating Expenses",
+        "Net Profit",
+        "EPS",
+        "Growth"
+    ],
+    "summary": "This table presents a financial performance overview for a company, comparing key metrics for the periods ending June 30, 2025, June 30, 2024, and March 31, 2025. Key metrics include revenues, gross profit, operating expenses, and net profit, with growth percentages year-over-year (YoY) and quarter-over-quarter (QoQ). Notably, revenues increased from $4,714 million in 2024 to $4,941 million in 2025, reflecting a 4.8% growth YoY. Operating profit showed a slight decline in margin percentage, while net profit before non-controlling interests rose to $809 million, marking a 5.8% increase YoY. The table also highlights trends in operating expenses, with selling and marketing expenses growing significantly by 11.2%. Overall, the data indicates a positive growth trajectory in revenues and profits despite some fluctuations in operating margins.",
+    "table_rows": [
+        "Revenues: Jun 30 2025 = 4941, Jun 30 2024 = 4714, Growth % YoY = 4.8%",
+        "Cost of sales: Jun 30 2025 = 3416, Jun 30 2024 = 3259, Growth % YoY = 4.8%",
+        "Gross Profit: Jun 30 2025 = 1525, Jun 30 2024 = 1455, Growth % YoY = 4.8%",
+        "Selling and marketing expenses: Jun 30 2025 = 258, Jun 30 2024 = 232, Growth % YoY = 11.2%",
+        "Administrative expenses: Jun 30 2025 = 239, Jun 30 2024 = 229, Growth % YoY = 4.4%",
+        "Total Operating Expenses: Jun 30 2025 = 497, Jun 30 2024 = 461, Growth % YoY = 7.8%",
+        "Operating Profit: Jun 30 2025 = 1028, Jun 30 2024 = 994, Growth % YoY = 3.4%",
+        "Operating Margin %: Jun 30 2025 = 20.8, Jun 30 2024 = 21.1, Growth % YoY = -0.3%",
+        "Other Income, net: Jun 30 2025 = 110, Jun 30 2024 = 88, Growth % YoY = 25.0%",
+        "Profit before income taxes: Jun 30 2025 = 1138, Jun 30 2024 = 1082, Growth % YoY = 5.2%",
+        "Income tax expense: Jun 30 2025 = 329, Jun 30 2024 = 318, Growth % YoY = 3.5%",
+        "Net Profit (before non-controlling interests): Jun 30 2025 = 809, Jun 30 2024 = 763, Growth % YoY = 5.8%",
+        "Net Profit (after non-controlling interests): Jun 30 2025 = 763, Jun 30 2024 = 0, Growth % YoY = -",
+        "Basic EPS: Jun 30 2025 = 0.20, Jun 30 2024 = 0.18, Growth % YoY = 5.8%",
+        "Diluted EPS: Jun 30 2025 = 0.19, Jun 30 2024 = 0.18, Growth % YoY = 5.8%",
+        "Dividend Per Share: Jun 30 2025 = -, Jun 30 2024 = -, Growth % YoY = -"
+    ],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet_Q1_25-26\\tables\\page3_table1.png",
+    "token_usage": {
+        "prompt_tokens": 38113,
+        "completion_tokens": 847,
+        "total_tokens": 38960
+    }
+}

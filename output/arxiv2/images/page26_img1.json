@@ -1,22 +1,21 @@
 {
     "file_name": "arxiv2",
     "page_number": 26,
-    "image_title": "Planning Task Insights",
+    "image_title": "Insights Planning Task Interface",
     "image_keywords": [
-        "Parent cleans home",
-        "Parent cooks dinner",
-        "conflicts",
-        "enforced goals",
-        "activities",
-        "Alice",
-        "Bob"
+        "planning",
+        "task management",
+        "goal enforcement",
+        "conflict resolution",
+        "user interface"
     ],
-    "summary": "This visual presents insights related to a planning task, highlighting the ability to enforce the goal 'Parent cleans home' without causing conflicts, as there are no conflicting goals currently enforced. However, enforcing 'Parent cooks dinner' may lead to conflicts with other goals, necessitating the potential removal of some activities associated with Alice, such as basketball training or other leisure activities. The visual suggests exploring specific combinations of activities to achieve a balanced plan without conflicts.",
+    "summary": "The visual represents an interactive insights planning task interface designed to assist users in managing and enforcing goals without conflicts. It features a dialogue box where users can ask questions related to their planning tasks, such as enforcing specific goals like 'Parent cleans home' or 'Parent cooks dinner.' The interface provides feedback on potential conflicts with existing goals, highlighting the importance of balancing multiple activities. Key elements include suggested questions for user engagement and a focus on resolving conflicts in goal enforcement, making it a useful tool for effective planning.",
+    "table_rows": [],
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\arxiv2\\images\\page26_img1.png",
     "token_usage": {
-        "prompt_tokens": 15007,
-        "completion_tokens": 148,
-        "total_tokens": 15155
+        "prompt_tokens": 15445,
+        "completion_tokens": 159,
+        "total_tokens": 15604
     }
 }

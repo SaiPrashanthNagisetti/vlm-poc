@@ -1,0 +1,28 @@
+{
+    "file_name": "fact-sheet_Q3_24-25",
+    "page_number": 1,
+    "image_title": "Infosys Consolidated Financial Data - Q3 2025",
+    "image_keywords": [
+        "Revenue Growth",
+        "Business Segments",
+        "Client Geography",
+        "Client Data",
+        "Financial Services",
+        "Operating Margin",
+        "EPS Increase",
+        "Free Cash Flow"
+    ],
+    "summary": "This document presents the consolidated financial data for Infosys for the third quarter of fiscal 2025. It highlights key metrics such as a 1.7% quarter-over-quarter growth and a 6.1% year-over-year growth in constant currency. The operating margin stands at 21.3%, with an 11.4% increase in earnings per share. Revenue is broken down by business segments, showing financial services as the largest contributor, followed by manufacturing and retail. The geographical revenue distribution indicates North America as the primary market. Client data reveals a total of 1,876 active clients, with significant contributions from top clients. The document provides a comprehensive overview of the company's financial performance and client engagement.",
+    "table_rows": [
+        "Revenue by Business Segments: Financial services: Dec 31 2024 = 27.8, Sep 30 2024 = 27.2, Dec 31 2023 = 27.8; Manufacturing: Dec 31 2024 = 15.5, Sep 30 2024 = 15.7, Dec 31 2023 = 14.9; Retail: Dec 31 2024 = 13.8, Sep 30 2024 = 13.3, Dec 31 2023 = 14.6; Energy, Utilities, Resources & Services: Dec 31 2024 = 13.5, Sep 30 2024 = 13.5, Dec 31 2023 = 13.2; Communication: Dec 31 2024 = 11.2, Sep 30 2024 = 11.9, Dec 31 2023 = 11.4; Hi-Tech: Dec 31 2024 = 7.9, Sep 30 2024 = 8.0, Dec 31 2023 = 7.7; Life Sciences: Dec 31 2024 = 7.6, Sep 30 2024 = 7.3, Dec 31 2023 = 7.6; Others: Dec 31 2024 = 2.7, Sep 30 2024 = 3.1, Dec 31 2023 = 2.9",
+        "Revenues by Client Geography: North America: Dec 31 2024 = 58.4, Sep 30 2024 = 57.4, Dec 31 2023 = 59.0; Europe: Dec 31 2024 = 29.8, Sep 30 2024 = 29.8, Dec 31 2023 = 28.2; Rest of the world: Dec 31 2024 = 8.7, Sep 30 2024 = 9.7, Dec 31 2023 = 10.4; India: Dec 31 2024 = 3.1, Sep 30 2024 = 3.1, Dec 31 2023 = 2.4",
+        "Client Data: Number of Clients: Active: Dec 31 2024 = 1,876, Sep 30 2024 = 1,870, Dec 31 2023 = 1,872; Added during the period: Dec 31 2024 = 101, Sep 30 2024 = 86, Dec 31 2023 = 88; Number of Million dollar clients: 1 Million dollar +: Dec 31 2024 = 997, Sep 30 2024 = 985, Dec 31 2023 = 944; 10 Million dollar +: Dec 31 2024 = 301, Sep 30 2024 = 307, Dec 31 2023 = 308; 50 Million dollar +: Dec 31 2024 = 89, Sep 30 2024 = 86, Dec 31 2023 = 82; 100 Million dollar +: Dec 31 2024 = 41, Sep 30 2024 = 41, Dec 31 2023 = 40"
+    ],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet_Q3_24-25\\vector_graphics\\page1_vector.png",
+    "token_usage": {
+        "prompt_tokens": 26779,
+        "completion_tokens": 943,
+        "total_tokens": 27722
+    }
+}

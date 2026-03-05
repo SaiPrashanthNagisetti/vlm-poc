@@ -10,12 +10,13 @@
         "AI agent",
         "study review"
     ],
-    "summary": "This flow diagram titled 'Identification through database search' outlines the process of identifying records for a study. It begins with 730 records identified through database search with queries and a recency filter. After removing duplicates, the total remains 730. All records are screened, resulting in 616 records excluded. Subsequently, 114 full-text articles are assessed for eligibility, leading to 50 articles excluded for being irrelevant to the definition of an AI agent. Ultimately, 64 studies are included in the review. The diagram visually represents the steps and decisions made throughout the identification process.",
+    "summary": "This flow diagram illustrates the process of identifying records through a database search related to AI agents. It begins with 730 records identified via queries and a recency filter, with duplicates removed, maintaining the same count. The screening process also involved 730 records, leading to the exclusion of 616 records. Subsequently, 114 full-text articles were assessed for eligibility, resulting in 64 studies included in the review. Additionally, 50 full-text articles were excluded for being irrelevant to the definition of an AI agent. The diagram effectively outlines the steps and decisions made throughout the identification and screening phases.",
+    "table_rows": [],
     "confidence_score": 0.95,
     "image_citation": "extracted_assets\\Sample\\images\\page3_img1.png",
     "token_usage": {
-        "prompt_tokens": 26341,
-        "completion_tokens": 170,
-        "total_tokens": 26511
+        "prompt_tokens": 26779,
+        "completion_tokens": 180,
+        "total_tokens": 26959
     }
 }

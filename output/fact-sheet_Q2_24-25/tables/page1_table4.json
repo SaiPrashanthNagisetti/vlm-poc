@@ -1,0 +1,36 @@
+{
+    "file_name": "fact-sheet_Q2_24-25",
+    "page_number": 1,
+    "image_title": "Client Metrics Overview",
+    "image_keywords": [
+        "Number of Clients",
+        "Active",
+        "Added during the period",
+        "Million dollar clients",
+        "Client contribution to revenues",
+        "Quarter ended",
+        "Sep 30 2024",
+        "Jun 30 2024",
+        "Sep 30 2023"
+    ],
+    "summary": "This table presents an overview of client metrics for the quarters ending September 30, 2024, June 30, 2024, and September 30, 2023. It includes the number of active clients, clients added during the period, and the count of million-dollar clients across various thresholds (1 million, 10 million, 50 million, and 100 million dollars). Additionally, it details client contributions to revenues, highlighting the percentage contributions from the top 5, top 10, and top 25 clients, as well as the Days Sales Outstanding metric. Notably, the number of active clients shows a slight increase from the previous year, while the contributions from top clients remain relatively stable.",
+    "table_rows": [
+        "Active clients: Sep 30 2024 = 1870, Jun 30 2024 = 1867, Sep 30 2023 = 1884",
+        "Added during period: Sep 30 2024 = 86, Jun 30 2024 = 87, Sep 30 2023 = 100",
+        "Number of Million dollar clients: 1 Million dollar +: Sep 30 2024 = 985, Jun 30 2024 = 987, Sep 30 2023 = 951",
+        "10 Million dollar +: Sep 30 2024 = 307, Jun 30 2024 = 309, Sep 30 2023 = 312",
+        "50 Million dollar +: Sep 30 2024 = 86, Jun 30 2024 = 84, Sep 30 2023 = 80",
+        "100 Million dollar +: Sep 30 2024 = 41, Jun 30 2024 = 40, Sep 30 2023 = 39",
+        "Client contribution to revenues: Top 5 clients: Sep 30 2024 = 13.7%, Jun 30 2024 = 13.5%, Sep 30 2023 = 13.3%",
+        "Top 10 clients: Sep 30 2024 = 20.9%, Jun 30 2024 = 20.9%, Sep 30 2023 = 19.9%",
+        "Top 25 clients: Sep 30 2024 = 34.7%, Jun 30 2024 = 34.9%, Sep 30 2023 = 34.1%",
+        "Days Sales Outstanding: Sep 30 2024 = 73, Jun 30 2024 = 72, Sep 30 2023 = 67"
+    ],
+    "confidence_score": 1.0,
+    "image_citation": "extracted_assets\\fact-sheet_Q2_24-25\\tables\\page1_table4.png",
+    "token_usage": {
+        "prompt_tokens": 21112,
+        "completion_tokens": 636,
+        "total_tokens": 21748
+    }
+}

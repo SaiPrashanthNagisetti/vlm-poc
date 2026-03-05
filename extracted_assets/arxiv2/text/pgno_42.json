@@ -3,17 +3,17 @@
   "page": 42,
   "text": "42 G. Fouilhé et al.\n(a) Template-based interface (Part 1) (b) Template-based interface (Part 2)\n(c) LLM-based interface\nFig.16: Here the LLM-based version gives information much more efficiently\nthan the Template-based version",
   "keywords": [
-    "template based",
-    "llm based",
-    "version",
-    "based interface",
-    "template",
     "interface",
-    "llm",
-    "information efficiently",
-    "information",
-    "interface template",
     "based",
-    "based version"
+    "version",
+    "based version",
+    "information efficiently",
+    "interface template",
+    "template",
+    "information",
+    "llm",
+    "llm based",
+    "template based",
+    "based interface"
   ]
 }

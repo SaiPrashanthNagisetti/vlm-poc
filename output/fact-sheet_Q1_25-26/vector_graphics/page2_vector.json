@@ -1,0 +1,33 @@
+{
+    "file_name": "fact-sheet_Q1_25-26",
+    "page_number": 2,
+    "image_title": "Consolidated Financial Data - First Quarter, Fiscal 2026",
+    "image_keywords": [
+        "Effort",
+        "Utilization",
+        "Employee Metrics",
+        "Cash Flow",
+        "Infosys",
+        "Fiscal 2026"
+    ],
+    "summary": "This table presents consolidated financial data for Infosys for the first quarter of Fiscal 2026, comparing metrics across three periods: June 30, 2025, March 31, 2025, and June 30, 2024. It includes key performance indicators such as effort and utilization percentages, employee metrics, and cash flow figures. Notably, the utilization rate including trainees is 82.7% for June 30, 2025, while total employees have increased to 323,788. The free cash flow for the quarter ended June 30, 2025, is reported at $884 million, showing a decrease from the previous quarter. The data highlights trends in employee attrition and cash management, providing insights into the company's operational efficiency and financial health.",
+    "table_rows": [
+        "Effort Onsite: Jun 30 2025 = 23.6, Mar 31 2025 = 23.6, Jun 30 2024 = 23.9",
+        "Effort Offshore: Jun 30 2025 = 76.4, Mar 31 2025 = 76.4, Jun 30 2024 = 76.1",
+        "Utilization Including trainees: Jun 30 2025 = 82.7, Mar 31 2025 = 81.9, Jun 30 2024 = 83.9",
+        "Utilization Excluding trainees: Jun 30 2025 = 85.2, Mar 31 2025 = 84.9, Jun 30 2024 = 85.3",
+        "Total employees: Jun 30 2025 = 323,788, Mar 31 2025 = 323,578, Jun 30 2024 = 315,332",
+        "S/W professionals: Jun 30 2025 = 306,706, Mar 31 2025 = 306,599, Jun 30 2024 = 298,123",
+        "Sales & Support: Jun 30 2025 = 17,082, Mar 31 2025 = 16,979, Jun 30 2024 = 17,209",
+        "Voluntary Attrition %: Jun 30 2025 = 14.4%, Mar 31 2025 = 14.1%, Jun 30 2024 = 12.7%",
+        "Free cash flow: Jun 30 2025 = 884, Mar 31 2025 = 892, Jun 30 2024 = 1,094",
+        "Consolidated cash and investments: Jun 30 2025 = 5,271, Mar 31 2025 = 5,562, Jun 30 2024 = 4,311"
+    ],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet_Q1_25-26\\vector_graphics\\page2_vector.png",
+    "token_usage": {
+        "prompt_tokens": 26779,
+        "completion_tokens": 658,
+        "total_tokens": 27437
+    }
+}

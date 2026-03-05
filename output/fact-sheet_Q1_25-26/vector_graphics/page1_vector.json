@@ -1,0 +1,39 @@
+{
+    "file_name": "fact-sheet_Q1_25-26",
+    "page_number": 1,
+    "image_title": "Infosys Consolidated Financial Data - Q1 2026",
+    "image_keywords": [
+        "Revenue Growth",
+        "Financial Services",
+        "Manufacturing",
+        "Retail",
+        "Client Data",
+        "North America",
+        "Europe",
+        "India"
+    ],
+    "summary": "This table presents the consolidated financial data for Infosys for the first quarter of fiscal 2026, highlighting key metrics such as quarter-over-quarter (QoQ) and year-over-year (YoY) growth rates. The revenue breakdown by business segments shows financial services leading with 27.9%, followed by manufacturing and retail. Client geography reveals North America as the largest contributor at 56.5%. The client data section indicates a total of 1,861 active clients, with significant contributions from million-dollar clients. Overall, the data reflects a steady growth trajectory with notable increases in operating margin and earnings per share.",
+    "table_rows": [
+        "QoQ growth (%): Reported = 4.5%, CC = 2.6%",
+        "YoY growth (%): Reported = 4.8%, CC = 3.8%",
+        "Financial services: Jun 30 2025 = 27.9%, Mar 31 2025 = 28.4%, Jun 30 2024 = 27.5%",
+        "Manufacturing: Jun 30 2025 = 16.1%, Mar 31 2025 = 15.9%, Jun 30 2024 = 14.8%",
+        "Retail: Jun 30 2025 = 13.4%, Mar 31 2025 = 13.3%, Jun 30 2024 = 13.8%",
+        "North America: Jun 30 2025 = 56.5%, Mar 31 2025 = 57.1%, Jun 30 2024 = 58.9%",
+        "Europe: Jun 30 2025 = 31.5%, Mar 31 2025 = 31.2%, Jun 30 2024 = 28.4%",
+        "India: Jun 30 2025 = 2.9%, Mar 31 2025 = 2.9%, Jun 30 2024 = 3.1%",
+        "Number of Clients: Jun 30 2025 = 1,861, Mar 31 2025 = 1,869, Jun 30 2024 = 1,867",
+        "Added during the period (gross): 93",
+        "1 Million dollar + clients: 1,011",
+        "10 Million dollar + clients: 317",
+        "50 Million dollar + clients: 85",
+        "100 Million dollar + clients: 41"
+    ],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet_Q1_25-26\\vector_graphics\\page1_vector.png",
+    "token_usage": {
+        "prompt_tokens": 26779,
+        "completion_tokens": 588,
+        "total_tokens": 27367
+    }
+}

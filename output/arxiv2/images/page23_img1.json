@@ -1,21 +1,22 @@
 {
     "file_name": "arxiv2",
     "page_number": 23,
-    "image_title": "Evening Home Requirement for Daughter",
+    "image_title": "Evening Curfew Reminder",
     "image_keywords": [
         "daughter",
         "home",
         "evening",
-        "18:00",
+        "curfew",
         "soccer training",
         "parent"
     ],
-    "summary": "The visual presents a guideline emphasizing that the daughter must be at home by 18:00. It specifies that if she leaves the house for soccer training, she must be brought back home by her parent. This instruction highlights the importance of ensuring the daughter's safety and adherence to the specified time.",
+    "summary": "The visual presents a reminder regarding a daughter's evening curfew, stating that she must be home by 18:00. It emphasizes that if she leaves for soccer training, a parent must ensure she is brought back home. This highlights the importance of parental supervision and adherence to curfew times.",
+    "table_rows": [],
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\arxiv2\\images\\page23_img1.png",
     "token_usage": {
-        "prompt_tokens": 15007,
-        "completion_tokens": 116,
-        "total_tokens": 15123
+        "prompt_tokens": 15445,
+        "completion_tokens": 120,
+        "total_tokens": 15565
     }
 }

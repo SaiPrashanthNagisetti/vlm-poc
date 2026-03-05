@@ -1,0 +1,32 @@
+{
+    "file_name": "fact-sheet_Q1_24-25",
+    "page_number": 1,
+    "image_title": "Infosys Consolidated Financial Data - Q1 2025",
+    "image_keywords": [
+        "Infosys",
+        "financial data",
+        "Q1 2025",
+        "revenue growth",
+        "operating margin",
+        "EPS increase",
+        "client data"
+    ],
+    "summary": "This table presents the consolidated financial data for Infosys for the first quarter of fiscal year 2025, highlighting key metrics such as quarter-over-quarter (QoQ) growth of 3.6% and year-over-year (YoY) growth of 2.5%. The operating margin stands at 21.1%, with a notable 7.0% increase in earnings per share (EPS) in rupee terms. Revenue is segmented by business areas, with financial services leading at 27.5%, followed by retail and communication. Geographically, North America contributes the most to revenue at 58.9%. The client data section reveals a total of 1,867 active clients, with significant contributions from the top client segments. Overall, the data reflects stable growth and a strong client base.",
+    "table_rows": [
+        "QoQ growth: 3.6%, YoY growth: 2.5%",
+        "Operating margin: 21.1%",
+        "EPS increase: 7.0% (in \u20b9 terms)",
+        "Large Deal TC: $4.1 Bn",
+        "Free Cash Flow: $1.1 Bn",
+        "Revenues by Business Segments: Financial services: 27.5%, Retail: 13.8%, Communication: 12.1%, Energy, Utilities, Resources & Services: 13.3%, Manufacturing: 14.7%, Hi-Tech: 8.0%, Life Sciences: 7.3%, Others: 3.3%",
+        "Revenues by Client Geography: North America: 58.9%, Europe: 28.4%, Rest of the world: 9.6%, India: 3.1%",
+        "Client Data: Active clients: 1,867, Added during the period (gross): 87, Number of Million dollar clients: 1 Million dollar +: 987, 10 Million dollar +: 309, 50 Million dollar +: 84, 100 Million dollar +: 40"
+    ],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet_Q1_24-25\\vector_graphics\\page1_vector.png",
+    "token_usage": {
+        "prompt_tokens": 26779,
+        "completion_tokens": 494,
+        "total_tokens": 27273
+    }
+}

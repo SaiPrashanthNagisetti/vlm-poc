@@ -1,0 +1,30 @@
+{
+    "file_name": "fact-sheet_Q3_25-26",
+    "page_number": 3,
+    "image_title": "Consolidated Financial Data - Third Quarter, Fiscal 2026",
+    "image_keywords": [
+        "Revenues",
+        "Operating Profit",
+        "Net Profit",
+        "EPS",
+        "Growth",
+        "Financial Statement"
+    ],
+    "summary": "This table presents the consolidated statement of comprehensive income for Infosys for the three months ended December 31, 2025, and December 31, 2024, along with growth percentages year-over-year (YoY) and quarter-over-quarter (QoQ). Key metrics include revenues, operating profit, and net profit, with revenues increasing by 3.2% YoY to $5,099 million, while operating profit decreased by 11.0% YoY to $937 million. The operating margin also saw a decline from 21.3% to 18.4%. Notably, the net profit after non-controlling interests was $747 million, reflecting a 7.2% decrease compared to the previous year. The table also includes a reconciliation of reported IFRS financial measures to adjusted non-IFRS financial measures, highlighting adjustments for labor codes and their impact on operating profit and net profit.",
+    "table_rows": [
+        "Revenues: Dec 31 2025 = 5099, Dec 31 2024 = 4939, Growth % YoY = 3.2%, Sep 30 2025 = 5076, Growth % QoQ = 0.5%",
+        "Cost of sales: Dec 31 2025 = 3660, Dec 31 2024 = 3444, Growth % YoY = 6.3%, Sep 30 2025 = 3516, Growth % QoQ = 4.1%",
+        "Gross Profit: Dec 31 2025 = 1439, Dec 31 2024 = 1495, Growth % YoY = -3.7%, Sep 30 2025 = 1560, Growth % QoQ = -7.8%",
+        "Operating Profit: Dec 31 2025 = 937, Dec 31 2024 = 1053, Growth % YoY = -11.0%, Sep 30 2025 = 1065, Growth % QoQ = -12.0%",
+        "Operating Margin %: Dec 31 2025 = 18.4, Dec 31 2024 = 21.3, Sep 30 2025 = 21.0",
+        "Net Profit (after non-controlling interests): Dec 31 2025 = 747, Dec 31 2024 = 804, Growth % YoY = -7.2%, Sep 30 2025 = 825, Growth % QoQ = -11.0%",
+        "Basic EPS ($): Dec 31 2025 = 0.18, Dec 31 2024 = 0.19, Growth % YoY = -6.6%, Sep 30 2025 = 0.20, Growth % QoQ = -10.4%"
+    ],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet_Q3_25-26\\vector_graphics\\page3_vector.png",
+    "token_usage": {
+        "prompt_tokens": 26779,
+        "completion_tokens": 654,
+        "total_tokens": 27433
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "file_name": "fact-sheet_Q2_25-26",
+    "page_number": 3,
+    "image_title": "Consolidated Financial Data - Second Quarter, Fiscal 2026",
+    "image_keywords": [
+        "Revenues",
+        "Cost of sales",
+        "Gross Profit",
+        "Operating Profit",
+        "Net Profit",
+        "EPS",
+        "Financial Statement",
+        "Infosys"
+    ],
+    "summary": "This table presents the consolidated statement of comprehensive income for Infosys for the three and six months ended September 30, 2025, compared to the same periods in 2024. Key metrics include revenues, cost of sales, gross profit, operating profit, and net profit, with growth percentages year-over-year and quarter-over-quarter. For the three months, revenues increased by 3.7% year-over-year to $5,076 million, while net profit rose by 8.0% to $840 million. For the six months, revenues grew by 4.3% to $10,018 million, with net profit increasing by 6.9% to $1,647 million. The data highlights a consistent upward trend in revenues and profits, indicating a positive financial performance.",
+    "table_rows": [
+        "Revenues: Sep 30 2025 = 5,076, Sep 30 2024 = 4,894, Jun 30 2025 = 4,941",
+        "Cost of sales: Sep 30 2025 = 3,516, Sep 30 2024 = 3,400, Jun 30 2025 = 3,416",
+        "Gross Profit: Sep 30 2025 = 1,560, Sep 30 2024 = 1,494, Jun 30 2025 = 1,525",
+        "Operating Profit: Sep 30 2025 = 1,065, Sep 30 2024 = 1,033, Jun 30 2025 = 1,028",
+        "Net Profit (after non-controlling interests): Sep 30 2025 = 839, Sep 30 2024 = 777, Jun 30 2025 = 809",
+        "Basic EPS ($): Sep 30 2025 = 0.20, Sep 30 2024 = 0.19, Jun 30 2025 = 0.20",
+        "Diluted EPS ($): Sep 30 2025 = 0.20, Sep 30 2024 = 0.19, Jun 30 2025 = 0.19"
+    ],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet_Q2_25-26\\vector_graphics\\page3_vector.png",
+    "token_usage": {
+        "prompt_tokens": 26779,
+        "completion_tokens": 533,
+        "total_tokens": 27312
+    }
+}

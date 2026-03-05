@@ -12,12 +12,21 @@
         "EPS",
         "growth"
     ],
-    "summary": "This image presents the consolidated statement of comprehensive income for Infosys for the three months ended December 31, 2025, and December 31, 2024, along with growth percentages. Revenues for Dec 31, 2025, are reported at $5,099 million, showing a year-over-year growth of 3.2%, compared to $4,939 million in Dec 31, 2024. The cost of sales is $3,660 million, with a 6.3% increase from $3,444 million. The gross profit is $1,439 million, reflecting a decrease of 3.7% from $1,495 million. Operating expenses total $502 million, up 13.6% from $442 million, with selling and marketing expenses at $257 million (17.9% increase) and administrative expenses at $245 million (9.4% increase). The operating profit stands at $937 million, down 11.0% from $1,053 million, resulting in an operating margin of 18.4%, a decrease of 2.9%. The profit before income taxes is $1,035 million, down 9.4%, with an income tax expense of $287 million. The net profit (after non-controlling interests) is $747 million, a decrease of 7.2%, leading to a basic EPS of $0.18, down 6.6%. The image also includes a reconciliation of reported IFRS financial measures to adjusted non-IFRS financial measures for the same period. The nine-month data shows revenues of $15,117 million for Dec 31, 2025, with a growth of 3.9%.",
+    "summary": "This table presents the consolidated statement of comprehensive income for Infosys for the three months ended December 31, 2025, compared to the same period in 2024, along with a nine-month summary. Key metrics include revenues, cost of sales, gross profit, operating profit, and net profit, with growth percentages indicating year-over-year and quarter-over-quarter changes. Notably, revenues increased by 3.2% year-over-year, while operating profit saw a decline of 11.0%. The operating margin decreased from 21.3% to 18.4%, and net profit also dropped by 7.2%. The table further details adjustments made to reported IFRS financial measures, highlighting the impact of labor codes on operating profit and net profit.",
+    "table_rows": [
+        "Revenues: Dec 31 2025 = 5099, Dec 31 2024 = 4939, Growth % YoY = 3.2%, Sep 30 2025 = 5050, Growth % QoQ = 0.5%",
+        "Cost of sales: Dec 31 2025 = 3660, Dec 31 2024 = 3444, Growth % YoY = 6.3%, Sep 30 2025 = 3516, Growth % QoQ = 4.1%",
+        "Gross Profit: Dec 31 2025 = 1439, Dec 31 2024 = 1495, Growth % YoY = -3.7%, Sep 30 2025 = 1560, Growth % QoQ = -7.8%",
+        "Operating Profit: Dec 31 2025 = 937, Dec 31 2024 = 1053, Growth % YoY = -11.0%, Sep 30 2025 = 1065, Growth % QoQ = -12.0%",
+        "Operating Margin %: Dec 31 2025 = 18.4, Dec 31 2024 = 21.3, Sep 30 2025 = 21.0",
+        "Net Profit: Dec 31 2025 = 747, Dec 31 2024 = 804, Growth % YoY = -7.2%, Sep 30 2025 = 825, Growth % QoQ = -11.0%",
+        "Basic EPS ($): Dec 31 2025 = 0.18, Dec 31 2024 = 0.19, Growth % YoY = -6.6%, Sep 30 2025 = 0.20, Growth % QoQ = -10.4%"
+    ],
     "confidence_score": 0.95,
     "image_citation": "extracted_assets\\fact-sheet\\vector_graphics\\page3_vector.png",
     "token_usage": {
-        "prompt_tokens": 26341,
-        "completion_tokens": 426,
-        "total_tokens": 26767
+        "prompt_tokens": 26779,
+        "completion_tokens": 627,
+        "total_tokens": 27406
     }
 }

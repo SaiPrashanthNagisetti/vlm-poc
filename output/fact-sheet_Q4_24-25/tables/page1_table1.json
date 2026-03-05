@@ -1,0 +1,24 @@
+{
+    "file_name": "fact-sheet_Q4_24-25",
+    "page_number": 1,
+    "image_title": "Quarterly and Yearly Growth Metrics",
+    "image_keywords": [
+        "QoQ growth",
+        "YoY growth",
+        "Reported",
+        "CC",
+        "percentage"
+    ],
+    "summary": "This table presents growth metrics comparing quarter-over-quarter (QoQ) and year-over-year (YoY) growth percentages. The QoQ growth is reported at -4.2%, indicating a decline, while the corresponding constant currency (CC) figure is -3.5%. In contrast, the YoY growth shows a positive increase of 3.6%, with the CC value at 4.8%, suggesting a favorable trend over the year despite the quarterly decline. The metrics provide insights into the company's performance across different time frames.",
+    "table_rows": [
+        "QoQ growth (%): Reported = -4.2%, CC = -3.5%",
+        "YoY growth (%): Reported = 3.6%, CC = 4.8%"
+    ],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet_Q4_24-25\\tables\\page1_table1.png",
+    "token_usage": {
+        "prompt_tokens": 21112,
+        "completion_tokens": 214,
+        "total_tokens": 21326
+    }
+}

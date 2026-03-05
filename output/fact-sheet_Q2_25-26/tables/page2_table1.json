@@ -1,0 +1,24 @@
+{
+    "file_name": "fact-sheet_Q2_25-26",
+    "page_number": 2,
+    "image_title": "Quarterly Financial Summary",
+    "image_keywords": [
+        "Free cash flow",
+        "Consolidated cash and investments",
+        "Sep 30 2025",
+        "Jun 30 2025",
+        "Sep 30 2024"
+    ],
+    "summary": "This table presents a quarterly financial summary detailing two key metrics: Free Cash Flow and Consolidated Cash and Investments, measured in millions of dollars. The data spans three quarters: September 30, 2025, June 30, 2025, and September 30, 2024. Notably, Free Cash Flow shows an increase from 839 million in September 2024 to 1,101 million in September 2025, indicating a positive trend. Similarly, Consolidated Cash and Investments also rise from 4,626 million in September 2024 to 6,173 million in September 2025, reflecting overall financial growth.",
+    "table_rows": [
+        "Free cash flow: Sep 30 2025 = 1,101, Jun 30 2025 = 884, Sep 30 2024 = 839",
+        "Consolidated cash and investments: Sep 30 2025 = 6,173, Jun 30 2025 = 5,271, Sep 30 2024 = 4,626"
+    ],
+    "confidence_score": 1.0,
+    "image_citation": "extracted_assets\\fact-sheet_Q2_25-26\\tables\\page2_table1.png",
+    "token_usage": {
+        "prompt_tokens": 21112,
+        "completion_tokens": 292,
+        "total_tokens": 21404
+    }
+}

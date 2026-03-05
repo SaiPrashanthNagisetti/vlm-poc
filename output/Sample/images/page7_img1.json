@@ -1,9 +1,9 @@
 {
     "file_name": "Sample",
     "page_number": 7,
-    "image_title": "Memory Operations and Tasks",
+    "image_title": "Memory Operations and Task Management",
     "image_keywords": [
-        "trip plan",
+        "trip planning",
         "movie recommendation",
         "memory sources",
         "textual memory",
@@ -11,12 +11,13 @@
         "agent",
         "environment"
     ],
-    "summary": "This visual presents a dual-task framework illustrating two distinct tasks: making a trip plan for Alice and recommending a movie for her. Task A involves booking tickets from Shanghai to Beijing, obtaining external knowledge from a magazine, and arranging the visiting order for Alice. Task B includes confirming Alice's availability, finding movies on Netflix that match her interests, and discussing her preferences. The diagram categorizes memory sources into external knowledge, cross-trial information, and inside-trial information, while detailing memory forms such as textual and parametric memory. It also highlights memory operations like writing, management, merging, reflection, and forgetting, demonstrating the interaction between the agent and the environment in processing information.",
+    "summary": "This diagram illustrates two tasks: making a trip plan for Alice and recommending a movie for her. It highlights the processes involved in each task, including booking tickets, gathering external knowledge, and confirming details. The visual categorizes memory sources into external knowledge and inside-trial information, while also detailing memory forms such as textual and parametric memory. Key operations of the agent, including writing, management, and reading, are depicted, emphasizing the interaction between the environment and the agent's memory operations. The diagram effectively conveys the complexity of task management and memory utilization in decision-making.",
+    "table_rows": [],
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\Sample\\images\\page7_img1.png",
     "token_usage": {
-        "prompt_tokens": 15007,
-        "completion_tokens": 196,
-        "total_tokens": 15203
+        "prompt_tokens": 15445,
+        "completion_tokens": 182,
+        "total_tokens": 15627
     }
 }

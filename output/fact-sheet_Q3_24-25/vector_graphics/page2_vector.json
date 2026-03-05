@@ -1,0 +1,36 @@
+{
+    "file_name": "fact-sheet_Q3_24-25",
+    "page_number": 2,
+    "image_title": "Consolidated Financial Data - Third Quarter, Fiscal 2025",
+    "image_keywords": [
+        "Effort",
+        "Utilization",
+        "Employee Metrics",
+        "Cash Flow",
+        "Infosys",
+        "Fiscal 2025"
+    ],
+    "summary": "This table presents consolidated financial data for Infosys for the third quarter of Fiscal 2025, detailing metrics related to effort and utilization in IT services, employee statistics, and cash flow. Key metrics include onsite and offshore effort percentages, overall employee counts, and voluntary attrition rates. The data spans three quarters, comparing figures from December 2024, September 2024, and December 2023. Notable insights include a slight increase in onsite effort and a stable percentage of women employees, while cash flow shows a significant increase from the previous quarter. The table provides a comprehensive overview of the company's operational efficiency and financial health.",
+    "table_rows": [
+        "Effort Onsite: Dec 31 2024 = 24.0, Sep 30 2024 = 24.1, Dec 31 2023 = 24.4",
+        "Effort Offshore: Dec 31 2024 = 76.0, Sep 30 2024 = 75.9, Dec 31 2023 = 75.6",
+        "Utilization Including trainees: Dec 31 2024 = 83.4, Sep 30 2024 = 84.3, Dec 31 2023 = 81.7",
+        "Utilization Excluding trainees: Dec 31 2024 = 86.0, Sep 30 2024 = 85.9, Dec 31 2023 = 82.7",
+        "Total employees: Dec 31 2024 = 323,379, Sep 30 2024 = 317,788, Dec 31 2023 = 322,663",
+        "S/W professionals: Dec 31 2024 = 306,528, Sep 30 2024 = 300,774, Dec 31 2023 = 304,590",
+        "Sales & Support: Dec 31 2024 = 16,851, Sep 30 2024 = 17,014, Dec 31 2023 = 18,073",
+        "Voluntary Attrition %: Dec 31 2024 = 13.7, Sep 30 2024 = 12.9, Dec 31 2023 = 12.9",
+        "Women Employees %: Dec 31 2024 = 39.0, Sep 30 2024 = 39.0, Dec 31 2023 = 39.3",
+        "Free cash flow (in US $ million): Dec 31 2024 = 1,263, Sep 30 2024 = 839, Dec 31 2023 = 665",
+        "Consolidated cash and investments (in US $ million): Dec 31 2024 = 4,653, Sep 30 2024 = 4,626, Dec 31 2023 = 3,903",
+        "Free cash flow (in \u20b9 crore): Dec 31 2024 = 10,647, Sep 30 2024 = 7,010, Dec 31 2023 = 5,548",
+        "Consolidated cash and investments (in \u20b9 crore): Dec 31 2024 = 39,836, Sep 30 2024 = 38,767, Dec 31 2023 = 32,476"
+    ],
+    "confidence_score": 1.0,
+    "image_citation": "extracted_assets\\fact-sheet_Q3_24-25\\vector_graphics\\page2_vector.png",
+    "token_usage": {
+        "prompt_tokens": 26779,
+        "completion_tokens": 773,
+        "total_tokens": 27552
+    }
+}

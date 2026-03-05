@@ -4,19 +4,19 @@
     "image_title": "Tool Verification for Test-Time Reinforcement Learning",
     "image_keywords": [
         "Test-Time Reinforcement Learning",
-        "T\u00b2RL",
         "Majority Voting",
         "Sampled Predictions",
         "Estimated Rewards",
         "Verification Results",
         "Relative Accuracy Gain"
     ],
-    "summary": "This image presents a visual representation of the concept of T\u00b2RL (Tool Verification for Test-Time Reinforcement Learning), illustrating the majority voting mechanism used to verify pseudo-labels. It includes a table showing sampled predictions (A, B, C), estimated rewards (0s and 1s), and verification results indicating skewed and reliable labels. The right side of the image features a bar chart comparing relative accuracy gains across various benchmarks, including MATH-1500, AMC, and AIME, with specific values noted for each method. The chart highlights the performance improvements of T\u00b2RL over traditional methods, emphasizing its role in stabilizing self-evolution in reinforcement learning. The image is sourced from a research paper authored by Ruotong Liao et al., dated March 2, 2026.",
+    "summary": "This visual presents a flow diagram illustrating the concept of Tool Verification for Test-Time Reinforcement Learning (T\u00b2RL). It highlights the process of verifying pseudo-labels generated through majority voting, emphasizing the importance of accurate sampled predictions and estimated rewards. The diagram includes key components such as the verifier, which utilizes external tools to enhance the reliability of predictions. Additionally, it showcases comparative results across various benchmarks, indicating significant improvements in accuracy when employing T\u00b2RL. The visual effectively communicates the methodology and benefits of integrating verification in reinforcement learning to mitigate issues related to spurious pseudo-labels.",
+    "table_rows": [],
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\arxiv1\\vector_graphics\\page1_vector.png",
     "token_usage": {
-        "prompt_tokens": 26341,
-        "completion_tokens": 234,
-        "total_tokens": 26575
+        "prompt_tokens": 26779,
+        "completion_tokens": 188,
+        "total_tokens": 26967
     }
 }

@@ -3,17 +3,17 @@
   "page": 43,
   "text": "Exploring Plan Space through Conversation 43\nFig.17: Example of a conversation in a solvable iteration step with the LLM-\nbased interface",
   "keywords": [
+    "space conversation",
     "conversation",
-    "llm based",
+    "llm",
+    "step llm",
+    "plan",
+    "space",
     "step",
     "plan space",
-    "space conversation",
-    "plan",
-    "iteration step",
-    "space",
-    "llm",
     "solvable",
     "solvable iteration",
-    "step llm"
+    "llm based",
+    "iteration step"
   ]
 }

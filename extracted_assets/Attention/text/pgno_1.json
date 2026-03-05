@@ -3,17 +3,17 @@
   "page": 1,
   "text": "Providedproperattributionisprovided,Googleherebygrantspermissionto\nreproducethetablesandfiguresinthispapersolelyforuseinjournalisticor\nscholarlyworks.\nAttention Is All You Need\n3202\nAshishVaswani∗ NoamShazeer∗ NikiParmar∗ JakobUszkoreit∗\nGoogleBrain GoogleBrain GoogleResearch GoogleResearch\navaswani@google.com noam@google.com nikip@google.com usz@google.com\nguA\nLlionJones∗ AidanN.Gomez∗ † ŁukaszKaiser∗\nGoogleResearch UniversityofToronto GoogleBrain\n2\nllion@google.com aidan@cs.toronto.edu lukaszkaiser@google.com\n]LC.sc[\nIlliaPolosukhin∗ ‡\nillia.polosukhin@gmail.com\nAbstract\n7v26730.6071:viXra\nThedominantsequencetransductionmodelsarebasedoncomplexrecurrentor\nconvolutionalneuralnetworksthatincludeanencoderandadecoder. Thebest\nperforming models also connect the encoder and decoder through an attention\nmechanism. We propose a new simple network architecture, the Transformer,\nbasedsolelyonattentionmechanisms,dispensingwithrecurrenceandconvolutions\nentirely. Experiments on two machine translation tasks show these models to\nbesuperiorinqualitywhilebeingmoreparallelizableandrequiringsignificantly\nless time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-\nto-German translation task, improving over the existing best results, including\nensembles,byover2BLEU.OntheWMT2014English-to-Frenchtranslationtask,\nourmodelestablishesanewsingle-modelstate-of-the-artBLEUscoreof41.8after\ntrainingfor3.5daysoneightGPUs,asmallfractionofthetrainingcostsofthe\nbestmodelsfromtheliterature. WeshowthattheTransformergeneralizeswellto\nothertasksbyapplyingitsuccessfullytoEnglishconstituencyparsingbothwith\nlargeandlimitedtrainingdata.\n∗Equalcontribution.Listingorderisrandom.JakobproposedreplacingRNNswithself-attentionandstarted\ntheefforttoevaluatethisidea.Ashish,withIllia,designedandimplementedthefirstTransformermodelsand\nhasbeencruciallyinvolvedineveryaspectofthiswork.Noamproposedscaleddot-productattention,multi-head\nattentionandtheparameter-freepositionrepresentationandbecametheotherpersoninvolvedinnearlyevery\ndetail.Nikidesigned,implemented,tunedandevaluatedcountlessmodelvariantsinouroriginalcodebaseand\ntensor2tensor.Llionalsoexperimentedwithnovelmodelvariants,wasresponsibleforourinitialcodebase,and\nefficientinferenceandvisualizations.LukaszandAidanspentcountlesslongdaysdesigningvariouspartsofand\nimplementingtensor2tensor,replacingourearliercodebase,greatlyimprovingresultsandmassivelyaccelerating\nourresearch.\n†WorkperformedwhileatGoogleBrain.\n‡WorkperformedwhileatGoogleResearch.",
   "keywords": [
-    "com",
-    "ashish",
-    "google",
-    "models",
-    "ashishvaswani",
-    "ashishvaswani noamshazeer",
-    "googleresearch",
-    "googlebrain",
     "translation",
-    "ashish withillia",
     "google com",
-    "attention"
+    "com",
+    "google",
+    "ashishvaswani noamshazeer",
+    "ashishvaswani",
+    "attention",
+    "ashish withillia",
+    "models",
+    "googlebrain",
+    "ashish",
+    "googleresearch"
   ]
 }

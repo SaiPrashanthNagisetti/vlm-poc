@@ -1,0 +1,33 @@
+{
+    "file_name": "fact-sheet_Q2_24-25",
+    "page_number": 1,
+    "image_title": "Infosys Consolidated Financial Data - Q2 Fiscal 2025",
+    "image_keywords": [
+        "Revenue Growth",
+        "Operating Margin",
+        "EPS Increase",
+        "Client Data",
+        "Financial Services",
+        "Retail",
+        "North America",
+        "Client Contribution"
+    ],
+    "summary": "This table presents the consolidated financial data for Infosys for the second quarter of fiscal 2025, highlighting key metrics such as a 3.1% quarter-over-quarter and 3.3% year-over-year growth in constant currency. The operating margin stands at 21.1%, with a 4.7% increase in earnings per share. Revenue is segmented by business areas, showing financial services as the largest contributor at 27.2%, followed by retail and communication. Geographically, North America leads with 57.4% of total revenue. The client data section indicates a total of 1,870 active clients, with significant contributions from the top client segments. Overall, the data reflects stable growth and a strong client base.",
+    "table_rows": [
+        "Revenue Growth: QoQ = 3.1%, YoY = 3.3%",
+        "Operating Margin: 21.1%",
+        "EPS Increase: 4.7% (in \u20b9 terms)",
+        "Large Deal TCV: $2.4 Billion",
+        "Free Cash Flow: $839 Million",
+        "Revenues by Business Segments: Financial Services = 27.2%, Retail = 13.3%, Communication = 11.9%, Energy, Utilities, Resources & Services = 13.5%, Manufacturing = 15.7%, Hi-Tech = 8.0%, Life Sciences = 7.3%, Others = 3.1%",
+        "Revenues by Client Geography: North America = 57.4%, Europe = 29.8%, Rest of the World = 9.7%, India = 3.1%",
+        "Client Data: Active Clients = 1,870, Added during period = 86, Million Dollar Clients = 985, 10 Million Dollar Clients = 307, 50 Million Dollar Clients = 86, 100 Million Dollar Clients = 41"
+    ],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet_Q2_24-25\\vector_graphics\\page1_vector.png",
+    "token_usage": {
+        "prompt_tokens": 26779,
+        "completion_tokens": 468,
+        "total_tokens": 27247
+    }
+}

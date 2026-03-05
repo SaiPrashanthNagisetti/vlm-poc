@@ -1,0 +1,36 @@
+{
+    "file_name": "fact-sheet_Q1_25-26",
+    "page_number": 1,
+    "image_title": "Client Metrics Overview",
+    "image_keywords": [
+        "Number of Clients",
+        "Active",
+        "Million dollar clients",
+        "Client contribution to revenues",
+        "Quarter ended",
+        "Jun 30 2025",
+        "Mar 31 2025",
+        "Jun 30 2024"
+    ],
+    "summary": "This table presents an overview of client metrics for the quarters ending June 30, 2025, March 31, 2025, and June 30, 2024. It includes the number of active clients, clients added during the period, and the count of million-dollar clients across various thresholds. Additionally, it details client contributions to revenues from the top client segments and days sales outstanding. Notably, the number of active clients slightly decreased from March 2025 to June 2025, while the number of million-dollar clients has shown an increase, particularly in the 1 Million dollar and 10 Million dollar categories. The client contribution percentages indicate a stable performance across the top client segments.",
+    "table_rows": [
+        "Active clients: Jun 30 2025 = 1861, Mar 31 2025 = 1869, Jun 30 2024 = 1867",
+        "Added during period: Jun 30 2025 = 93, Mar 31 2025 = 91, Jun 30 2024 = 87",
+        "Number of Million dollar clients: Jun 30 2025 = 1011, Mar 31 2025 = 992, Jun 30 2024 = 987",
+        "1 Million dollar +: Jun 30 2025 = 1011, Mar 31 2025 = 992, Jun 30 2024 = 987",
+        "10 Million dollar +: Jun 30 2025 = 317, Mar 31 2025 = 309, Jun 30 2024 = 309",
+        "50 Million dollar +: Jun 30 2025 = 85, Mar 31 2025 = 85, Jun 30 2024 = 84",
+        "100 Million dollar +: Jun 30 2025 = 41, Mar 31 2025 = 39, Jun 30 2024 = 40",
+        "Client contribution to revenues - Top 5 clients: Jun 30 2025 = 13.2%, Mar 31 2025 = 13.1%, Jun 30 2024 = 13.5%",
+        "Client contribution to revenues - Top 10 clients: Jun 30 2025 = 20.8%, Mar 31 2025 = 20.7%, Jun 30 2024 = 20.9%",
+        "Client contribution to revenues - Top 25 clients: Jun 30 2025 = 35.2%, Mar 31 2025 = 34.8%, Jun 30 2024 = 34.9%",
+        "Days Sales Outstanding: Jun 30 2025 = 70, Mar 31 2025 = 69, Jun 30 2024 = 72"
+    ],
+    "confidence_score": 1.0,
+    "image_citation": "extracted_assets\\fact-sheet_Q1_25-26\\tables\\page1_table2.png",
+    "token_usage": {
+        "prompt_tokens": 21112,
+        "completion_tokens": 670,
+        "total_tokens": 21782
+    }
+}

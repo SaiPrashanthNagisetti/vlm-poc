@@ -1,25 +1,30 @@
 {
     "file_name": "fact-sheet",
     "page_number": 4,
-    "image_title": "Financial Summary Table",
+    "image_title": "Financial Performance Summary",
     "image_keywords": [
         "Operating Profit",
-        "Operating Margin %",
+        "Operating Margin",
         "Profit before income taxes",
-        "Income tax expense",
         "Net Profit",
         "Basic EPS",
-        "2024",
-        "2025",
-        "IFRS",
-        "non-IFRS"
+        "Dec 31 2025",
+        "Dec 31 2024"
     ],
-    "summary": "This is a financial summary table comparing reported IFRS and adjusted non-IFRS values for various financial metrics as of December 31 for the years 2024 and 2025. The reported Operating Profit for 2025 is 8,355 with an adjustment for Labour Codes of 1,289, leading to an adjusted non-IFRS value of 9,644. The Operating Margin % is 18.4 for 2025, adjusted to 21.2. Profit before income taxes is reported at 9,229, with an adjustment of 1,289, resulting in an adjusted non-IFRS value of 10,518. The Income tax expense is 2,563, with an adjustment of 318, leading to an adjusted non-IFRS value of 2,881. The Net Profit after non-controlling interests is 6,654 for 2025, adjusted to 7,625. The Basic EPS is reported at 16.17, adjusted to 18.53. For 2024, the reported values are Operating Profit of 8,912, Operating Margin % of 21.3, Profit before income taxes of 9,670, Income tax expense of 2,848, Net Profit of 6,806, and Basic EPS of 16.43.",
-    "confidence_score": 0.95,
+    "summary": "This table presents a financial performance summary comparing key metrics for the years ending December 31, 2025, and December 31, 2024. It includes reported IFRS values and adjustments for labour codes, highlighting operating profit, operating margin percentage, profit before income taxes, income tax expense, net profit, and basic earnings per share (EPS). Notably, the operating profit for 2025 is reported at 8,355, with an operating margin of 18.4%, while the adjusted non-IFRS operating profit is 9,644. The net profit after non-controlling interests for 2025 is 6,654, showing a significant increase compared to the previous year\u2019s reported IFRS of 6,806. The basic EPS for 2025 is 16.17, reflecting a slight decrease from 16.43 in 2024.",
+    "table_rows": [
+        "Operating Profit: Dec 31 2025 = 8,355, Dec 31 2024 = 8,912",
+        "Operating Margin %: Dec 31 2025 = 18.4, Dec 31 2024 = 21.3",
+        "Profit before income taxes: Dec 31 2025 = 9,229, Dec 31 2024 = 9,670",
+        "Income tax expense: Dec 31 2025 = 2,563, Dec 31 2024 = 2,848",
+        "Net Profit (after non-controlling interests): Dec 31 2025 = 6,654, Dec 31 2024 = 6,806",
+        "Basic EPS (\u20b9): Dec 31 2025 = 16.17, Dec 31 2024 = 16.43"
+    ],
+    "confidence_score": 1.0,
     "image_citation": "extracted_assets\\fact-sheet\\tables\\page4_table1.png",
     "token_usage": {
-        "prompt_tokens": 20674,
-        "completion_tokens": 349,
-        "total_tokens": 21023
+        "prompt_tokens": 21112,
+        "completion_tokens": 442,
+        "total_tokens": 21554
     }
 }

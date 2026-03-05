@@ -1,0 +1,27 @@
+{
+    "file_name": "fact-sheet_Q3_25-26",
+    "page_number": 2,
+    "image_title": "Consolidated Financial Data - Third Quarter, Fiscal 2026",
+    "image_keywords": [
+        "Effort",
+        "Utilization",
+        "Employee Metrics",
+        "Cash Metrics",
+        "Infosys",
+        "Fiscal 2026"
+    ],
+    "summary": "This table presents the consolidated financial data for Infosys for the third quarter of Fiscal 2026, focusing on effort and utilization metrics, employee statistics, and cash metrics. Key metrics include onsite and offshore effort percentages, utilization rates including and excluding trainees, total employee counts, and financial figures such as free cash flow (FCF) and consolidated cash and investments. Notable trends include a slight decrease in utilization rates from the previous quarter and a significant increase in total employees compared to the same period last year. The cash metrics indicate a decrease in FCF and consolidated cash and investments over the year, reflecting changes in financial performance.",
+    "table_rows": [
+        "Effort: Dec 31 2025 = Onsite 23.1, Offshore 76.9; Utilization Including trainees 80.0, Excluding trainees 84.1",
+        "Employee Metrics: Total employees Dec 31 2025 = 337,034, S/W professionals 319,864, Sales & Support 17,670, Voluntary Attrition % 12.3, % of Women Employees 39.5",
+        "Cash Metrics: FCF Dec 31 2025 = 915, Adjusted FCF 965, Consolidated cash and investments 3,917",
+        "Cash Metrics (in crore): FCF Dec 31 2025 = 8,176, Adjusted FCF 8,626, Consolidated cash and investments 35,206"
+    ],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet_Q3_25-26\\vector_graphics\\page2_vector.png",
+    "token_usage": {
+        "prompt_tokens": 26779,
+        "completion_tokens": 372,
+        "total_tokens": 27151
+    }
+}

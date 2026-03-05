@@ -1,0 +1,33 @@
+{
+    "file_name": "fact-sheet_Q3_24-25",
+    "page_number": 3,
+    "image_title": "Consolidated Financial Data - Third Quarter, Fiscal 2025",
+    "image_keywords": [
+        "Revenues",
+        "Cost of sales",
+        "Gross Profit",
+        "Operating Profit",
+        "Net Profit",
+        "EPS",
+        "Dividend Per Share",
+        "Fiscal 2025",
+        "Financial Statement"
+    ],
+    "summary": "This table presents the consolidated statement of comprehensive income for Infosys for the three months and nine months ended December 31, 2024, and December 31, 2023. It details key financial metrics such as revenues, cost of sales, gross profit, operating profit, and net profit, along with their year-over-year growth percentages. For the three-month period, revenues decreased slightly from $4,939 million to $4,663 million, while net profit before minority interest showed a growth of 9.8%. The nine-month data indicates a revenue increase from $14,547 million to $13,997 million, with a notable growth in operating margin. The table also includes earnings per share and dividend per share figures, highlighting the company's financial performance over these periods.",
+    "table_rows": [
+        "Revenues: Dec 31 2024 = 4939, Dec 31 2023 = 4663, Growth % YoY = 5.9%, Sep 30 2024 = 4894, Growth % QoQ = 0.9%",
+        "Cost of sales: Dec 31 2024 = 3444, Dec 31 2023 = 3274, Growth % YoY = 5.2%, Sep 30 2024 = 3400, Growth % QoQ = 1.3%",
+        "Gross Profit: Dec 31 2024 = 1495, Dec 31 2023 = 1389, Growth % YoY = 7.6%, Sep 30 2024 = 1494, Growth % QoQ = 0.1%",
+        "Operating Profit: Dec 31 2024 = 1053, Dec 31 2023 = 956, Growth % YoY = 10.1%, Sep 30 2024 = 1033, Growth % QoQ = 1.9%",
+        "Net Profit (before minority interest): Dec 31 2024 = 806, Dec 31 2023 = 734, Growth % YoY = 9.8%, Sep 30 2024 = 778, Growth % QoQ = 3.6%",
+        "Basic EPS ($): Dec 31 2024 = 0.19, Dec 31 2023 = 0.18, Growth % YoY = 9.6%, Sep 30 2024 = 0.19, Growth % QoQ = 3.5%",
+        "Dividend Per Share ($): Dec 31 2024 = -, Dec 31 2023 = -, Sep 30 2024 = 0.25"
+    ],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet_Q3_24-25\\vector_graphics\\page3_vector.png",
+    "token_usage": {
+        "prompt_tokens": 26779,
+        "completion_tokens": 634,
+        "total_tokens": 27413
+    }
+}

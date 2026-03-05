@@ -3,17 +3,17 @@
   "page": 40,
   "text": "40 G. Fouilhé et al.\n-Usebold(markdown)tohighlightgoalsfromyourresponses,orsimilar\nformatting if it can help.\n## Examples\nQuestion: why is it unsolvable?\nQuestion Type: US-WHY\nQuestion Arguments: []\nConflicts: [[Alice does basketball training, Alice hangs out, Parent does\nlaundry], [Alice hangs out, Parent cooks lunch], [Parent does laundry,\nParentcookslunch],[Alicedoesbasketballtraining,Parentcookslunch],\n[Alice does homework, Alice hangs out]]\nResolutions: [[Alice does basketball training, Alice hangs out, Parent\ndoeslaundry],[Alicedoesbasketballtraining,Alicedoeshomework,Par-\nentcookslunch],[Alicedoeshomework,Parentcookslunch,Parentdoes\nlaundry], [Alice hangs out, Parent cooks lunch]]\nEnforced Goals: [Alice does basketball training, Alice does homework,\nAlice hangs out, Parent cooks lunch, Parent does sports, Parent goes\nshopping, Parent does laundry]\nSatisfied Goals: []\nUnsatisfied Goals: [Alice takes violin lessons, Bob does homework, Bob\ntakes piano lessons, Bob does tennis training, Bob hangs out, Parent\ncleans home, Parent cooks dinner, Parent does groceries, Parent visits\nhairdresser]\nReturn: {\n\"output\":\"Theplanningtaskisunsolvablebecausethereareseveralcon-\nflicting enforced goals. Here are the existing conflicts that are causing\ntheissue:1.[Alicedoesbasketballtraining,Alicehangsout,Parentdoes\nlaundry] 2.[Alice hangs out, Parent cooks lunch] 3.[Parent does laun-\ndry, Parent cooks lunch] 4. [Alice does basketball training, Parent cooks\nlunch]5.[Alicedoeshomework,Alicehangsout]Theseconflictsindicate\nthatsomegoalscannotcoexisttogether:forexample,enforcingbothAl-\nice does basketball training and Parent cooks lunch at the same time\nwill never be possible. To make the task solvable, you would need to\nstop enforcing at least one of the conflicting goals in each of the conflict\nsets. For example, if you stop enforcing **Parent cooks lunch**, some\nconflicts could be resolved. If you need specific options for which goals\nto stop enforcing, let me know!\"\n}\nInput:WhatconflictswouldberemainingifIstopenforcingParentcooks\nlunch?\nOutput: {\n\"output\":\"Conflicts 2,3 and 4 would be solved but there will still be the\nconflictsbetween**[Alicedoesbasketballtraining,Alicehangsout,Par-\nent does laundry]** and between **[Alice does homework, Alice hangs\nout]**.Additionallystoppingtoenforce**Alicehangsout**willleadto\na solvable iteration step.\"\n}",
   "keywords": [
-    "parent",
-    "alice does",
     "parent does",
-    "hangs",
+    "parent",
     "cooks",
     "cooks lunch",
-    "hangs parent",
+    "hangs",
     "alice",
     "alice hangs",
-    "parent cooks",
+    "lunch",
     "does",
-    "lunch"
+    "hangs parent",
+    "parent cooks",
+    "alice does"
   ]
 }

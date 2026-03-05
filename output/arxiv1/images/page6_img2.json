@@ -1,22 +1,23 @@
 {
     "file_name": "arxiv1",
     "page_number": 6,
-    "image_title": "Comparison of AIME and MATH Scores",
+    "image_title": "Comparison of Scores in AIME and MATH",
     "image_keywords": [
         "AIME",
         "MATH",
         "TTRL",
-        "No Code (1.5B)",
-        "No Code (7B)",
-        "With Code (7B)",
-        "Scores"
+        "No Code",
+        "Scores",
+        "1.5B",
+        "7B"
     ],
-    "summary": "This bar chart compares scores in AIME and MATH across different categories. For AIME, the scores are as follows: TTRL scored 20.0, No Code (1.5B) scored 18.3, and No Code (7B) scored 15.8. For MATH, the scores are: No Code (1.5B) scored 73.6, No Code (7B) scored 73.1, and With Code (7B) scored 74.9. The chart highlights the performance differences between the categories, with TTRL achieving the highest score in AIME and With Code (7B) showing a notable score in MATH. The overall trend indicates that TTRL consistently outperforms the No Code categories in AIME, while the With Code category in MATH also shows a competitive edge.",
+    "summary": "This bar chart compares scores in two assessments, AIME and MATH, across different categories. The left section displays scores for TTRL and various 'No Code' categories, with TTRL achieving a score of 20.0 in AIME and 73.6 in MATH. The middle section shows the same 'No Code' categories, with scores of 18.3 for AIME and 73.1 for MATH. The right section introduces a new category, 'With Code', showing a score of 21.7 in AIME and 74.9 in MATH. The data indicates a trend where the 'With Code' category outperforms the 'No Code' categories in both assessments, highlighting the impact of coding on performance.",
+    "table_rows": [],
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\arxiv1\\images\\page6_img2.png",
     "token_usage": {
-        "prompt_tokens": 9340,
-        "completion_tokens": 250,
-        "total_tokens": 9590
+        "prompt_tokens": 9778,
+        "completion_tokens": 227,
+        "total_tokens": 10005
     }
 }

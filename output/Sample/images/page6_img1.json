@@ -3,21 +3,21 @@
     "page_number": 6,
     "image_title": "Reinforcement Learning Algorithm with Self-Reflection",
     "image_keywords": [
-        "Reinforcement Learning",
+        "Agent",
         "Self-reflection",
-        "Actor",
         "Evaluator",
-        "Experience",
+        "Actor",
         "Trajectory",
         "Environment",
-        "Algorithm"
+        "Algorithm 1"
     ],
-    "summary": "This diagram illustrates a reinforcement learning algorithm that incorporates self-reflection. It features an 'Agent' composed of components such as 'Actor', 'Evaluator', 'Self-reflection', and 'Experience', with 'Trajectory' representing short-term memory. The 'Environment' interacts with the agent through observations and rewards, leading to actions. The algorithm, detailed on the right, initializes the Actor, Evaluator, and Self-Reflection components, generates an initial trajectory, evaluates it, and iteratively generates self-reflections while updating the memory until a maximum number of trials is reached. The process emphasizes the integration of feedback loops for improved learning outcomes.",
-    "confidence_score": 0.9,
+    "summary": "This diagram illustrates a reinforcement learning algorithm that incorporates self-reflection within an agent framework. The agent consists of several components: the Actor, Evaluator, and Self-reflection modules, which interact with both short-term and long-term memory. The process begins with the agent observing the environment and taking actions based on its policy. Feedback is received from both internal and external sources, which informs the Evaluator and facilitates self-reflection. The algorithm outlines a loop where trajectories are generated, evaluated, and refined through self-reflection, ultimately enhancing the agent's learning process. Key elements include the iterative nature of the algorithm and the integration of reflective practices to improve decision-making.",
+    "table_rows": [],
+    "confidence_score": 0.95,
     "image_citation": "extracted_assets\\Sample\\images\\page6_img1.png",
     "token_usage": {
-        "prompt_tokens": 15007,
-        "completion_tokens": 194,
-        "total_tokens": 15201
+        "prompt_tokens": 15445,
+        "completion_tokens": 201,
+        "total_tokens": 15646
     }
 }

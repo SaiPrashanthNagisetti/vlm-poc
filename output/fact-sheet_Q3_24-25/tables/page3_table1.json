@@ -1,0 +1,38 @@
+{
+    "file_name": "fact-sheet_Q3_24-25",
+    "page_number": 3,
+    "image_title": "Financial Performance Summary",
+    "image_keywords": [
+        "Revenues",
+        "Operating Expenses",
+        "Net Profit",
+        "EPS",
+        "Growth %"
+    ],
+    "summary": "This table presents a financial performance summary for a company, comparing key metrics across three time periods: December 31, 2024, December 31, 2023, and September 30, 2024. Key metrics include revenues, cost of sales, gross profit, operating expenses, operating profit, and net profit, along with their respective year-over-year (YoY) and quarter-over-quarter (QoQ) growth percentages. Notably, revenues increased by 5.9% YoY to $4,939 million in 2024, while net profit before minority interest rose by 10.4% YoY. The operating margin improved slightly to 21.3% in 2024. The table also highlights trends in operating expenses, with selling and marketing expenses showing a 6.9% increase YoY, while administrative expenses decreased by 2.2%. Overall, the data indicates a positive growth trajectory in key financial metrics.",
+    "table_rows": [
+        "Revenues: Dec 31 2024 = 4939, Dec 31 2023 = 4663, Sep 30 2024 = 4894",
+        "Cost of sales: Dec 31 2024 = 3444, Dec 31 2023 = 3274, Sep 30 2024 = 3400",
+        "Gross Profit: Dec 31 2024 = 1495, Dec 31 2023 = 1389, Sep 30 2024 = 1494",
+        "Selling and marketing expenses: Dec 31 2024 = 218, Dec 31 2023 = 204, Sep 30 2024 = 221",
+        "Administrative expenses: Dec 31 2024 = 224, Dec 31 2023 = 229, Sep 30 2024 = 240",
+        "Total Operating Expenses: Dec 31 2024 = 442, Dec 31 2023 = 433, Sep 30 2024 = 461",
+        "Operating Profit: Dec 31 2024 = 1053, Dec 31 2023 = 956, Sep 30 2024 = 1033",
+        "Operating Margin %: Dec 31 2024 = 21.3, Dec 31 2023 = 20.5, Sep 30 2024 = 21.1",
+        "Other Income, net: Dec 31 2024 = 90, Dec 31 2023 = 79, Sep 30 2024 = 72",
+        "Profit before income taxes: Dec 31 2024 = 1143, Dec 31 2023 = 1035, Sep 30 2024 = 1105",
+        "Income tax expense: Dec 31 2024 = 337, Dec 31 2023 = 301, Sep 30 2024 = 327",
+        "Net Profit (before minority interest): Dec 31 2024 = 806, Dec 31 2023 = 734, Sep 30 2024 = 778",
+        "Net Profit (after minority interest): Dec 31 2024 = 804, Dec 31 2023 = 733, Sep 30 2024 = 777",
+        "Basic EPS ($): Dec 31 2024 = 0.19, Dec 31 2023 = 0.18, Sep 30 2024 = 0.19",
+        "Diluted EPS ($): Dec 31 2024 = 0.19, Dec 31 2023 = 0.18, Sep 30 2024 = 0.19",
+        "Dividend Per Share ($): Dec 31 2024 = -, Dec 31 2023 = -, Sep 30 2024 = -"
+    ],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet_Q3_24-25\\tables\\page3_table1.png",
+    "token_usage": {
+        "prompt_tokens": 38113,
+        "completion_tokens": 862,
+        "total_tokens": 38975
+    }
+}

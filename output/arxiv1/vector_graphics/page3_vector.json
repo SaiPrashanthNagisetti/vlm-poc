@@ -1,20 +1,21 @@
 {
     "file_name": "arxiv1",
     "page_number": 3,
-    "image_title": "Tool Verification for Test Time Reinforcement Learning",
+    "image_title": "Tool Verification for Test-Time Reinforcement Learning",
     "image_keywords": [
         "Reinforcement Learning",
         "Tool Verification",
         "LLM Verifier",
-        "Consensus",
-        "Reward Signals"
+        "Code Interpreter",
+        "Pseudo Label"
     ],
-    "summary": "The image titled 'Tool Verification for Test Time Reinforcement Learning' illustrates a process involving a verifier that parses each sampled rollout and yields a validity flag for each result. The tool integrates a code interpreter to obtain executable evidence of the sampled outputs. It highlights the concept of verification-aware pseudo-labeling, where verified rollouts receive a vote mass and unverified rollouts receive a unit vote. The image also depicts a cycle of reinforcement bias, showcasing how self-consensus can estimate reward labels and the implications of spurious rewards in reinforcement learning. The overall process emphasizes the need for reliable reward signals to ensure stable online learning in self-evolving AI systems. The source of the image is from a research paper discussing the challenges of spurious reward estimation in reinforcement learning.",
+    "summary": "This visual is a flow diagram illustrating the process of tool verification for test-time reinforcement learning (TRL). It depicts how an LLM verifier parses sampled outputs from a model, yielding validity flags for each output. The diagram shows the integration of a code interpreter that executes the sampled outputs to validate them. Key components include the sampling of predictions, the generation of estimated rewards, and the use of majority voting to derive consensus outputs. The process highlights the challenges of spurious reward estimation in self-evolving AI systems, emphasizing the importance of reliable reward signals for stable online learning.",
+    "table_rows": [],
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\arxiv1\\vector_graphics\\page3_vector.png",
     "token_usage": {
-        "prompt_tokens": 26341,
-        "completion_tokens": 211,
-        "total_tokens": 26552
+        "prompt_tokens": 26779,
+        "completion_tokens": 180,
+        "total_tokens": 26959
     }
 }

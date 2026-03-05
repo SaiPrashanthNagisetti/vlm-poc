@@ -1,0 +1,30 @@
+{
+    "file_name": "fact-sheet_Q3_24-25",
+    "page_number": 2,
+    "image_title": "Employee Metrics Overview",
+    "image_keywords": [
+        "Total employees",
+        "S/W professionals",
+        "Sales & Support",
+        "Voluntary Attrition %",
+        "% of Women Employees",
+        "Dec 31 2024",
+        "Sep 30 2024",
+        "Dec 31 2023"
+    ],
+    "summary": "This table presents an overview of employee metrics for a company across three quarters: December 31, 2024, September 30, 2024, and December 31, 2023. Key metrics include total employees, software professionals, sales and support staff, voluntary attrition percentage, and the percentage of women employees. Notably, total employees increased from 322,663 in December 2023 to 323,379 in December 2024, while the voluntary attrition rate remained stable at 12.9% for both December 2024 and September 2024. The percentage of women employees also saw a slight increase from 39.0% in September 2024 to 39.3% in December 2024, indicating a positive trend in gender representation within the workforce.",
+    "table_rows": [
+        "Total employees: Dec 31 2024 = 323,379, Sep 30 2024 = 317,788, Dec 31 2023 = 322,663",
+        "S/W professionals: Dec 31 2024 = 306,528, Sep 30 2024 = 300,774, Dec 31 2023 = 304,590",
+        "Sales & Support: Dec 31 2024 = 16,851, Sep 30 2024 = 17,014, Dec 31 2023 = 18,073",
+        "Voluntary Attrition %: Dec 31 2024 = 13.7%, Sep 30 2024 = 12.9%, Dec 31 2023 = 12.9%",
+        "% of Women Employees: Dec 31 2024 = 39.0%, Sep 30 2024 = 39.0%, Dec 31 2023 = 39.3%"
+    ],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet_Q3_24-25\\tables\\page2_table2.png",
+    "token_usage": {
+        "prompt_tokens": 21112,
+        "completion_tokens": 464,
+        "total_tokens": 21576
+    }
+}

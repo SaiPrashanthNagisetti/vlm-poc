@@ -25,18 +25,23 @@ def call_openai(prompt: str, image_base64: str):
                 ]
             }
         ],
-        "temperature": 0.2,
-        "max_tokens": 600
+        "temperature": 0,
+        "max_tokens": 2000
     }
 
     response = requests.post(API_URL, headers=HEADERS, json=payload)
     response.raise_for_status()
 
     data = response.json()
-    #return json.loads(data["choices"][0]["message"]["content"])
-    structured_output = json.loads(
-        data["choices"][0]["message"]["content"]
-    )
+
+
+    try:    
+       response_text = data["choices"][0]["message"]["content"]
+       structured_output = json.loads(response_text)
+    except json.JSONDecodeError as e:
+        print("⚠️ Invalid JSON returned by model")
+        print(response_text)
+        raise e
 
     usage = data.get("usage", {})
 

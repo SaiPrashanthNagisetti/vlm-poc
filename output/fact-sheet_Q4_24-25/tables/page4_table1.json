@@ -1,0 +1,34 @@
+{
+    "file_name": "fact-sheet_Q4_24-25",
+    "page_number": 4,
+    "image_title": "Financial Performance Summary",
+    "image_keywords": [
+        "Revenues",
+        "Operating Profit",
+        "Net Profit",
+        "EPS",
+        "Growth % YoY",
+        "Growth % QoQ"
+    ],
+    "summary": "This table presents a financial performance summary for a company, comparing key metrics for the periods ending March 31, 2025, and March 31, 2024, along with growth percentages year-over-year (YoY) and quarter-over-quarter (QoQ) for December 31, 2024. Key metrics include revenues, cost of sales, gross profit, operating profit, and net profit, with notable growth in gross profit of 10.5% YoY. The operating margin shows a slight increase to 21.0%, while net profit after minority interest decreased by 11.7% QoQ. The table also includes earnings per share (EPS) figures, indicating a decline in both basic and diluted EPS compared to the previous year. Overall, the data reflects a mixed performance with some growth in revenues and gross profit but declines in net profit and EPS.",
+    "table_rows": [
+        "Revenues: Mar 31 2025 = 40,925, Mar 31 2024 = 37,923, Growth % YoY = 7.9%",
+        "Cost of sales: Mar 31 2025 = 28,575, Mar 31 2024 = 26,748, Growth % YoY = 6.8%",
+        "Gross Profit: Mar 31 2025 = 12,350, Mar 31 2024 = 11,175, Growth % YoY = 10.5%",
+        "Total Operating Expenses: Mar 31 2025 = 3,775, Mar 31 2024 = 3,554, Growth % YoY = 6.2%",
+        "Operating Profit: Mar 31 2025 = 8,575, Mar 31 2024 = 7,621, Growth % YoY = 12.5%",
+        "Operating Margin %: Mar 31 2025 = 21.0, Mar 31 2024 = 20.1",
+        "Net Profit (before minority interest): Mar 31 2025 = 7,038, Mar 31 2024 = 7,975, Growth % YoY = -11.7%",
+        "Net Profit (after minority interest): Mar 31 2025 = 7,033, Mar 31 2024 = 7,969, Growth % YoY = -11.7%",
+        "Basic EPS: Mar 31 2025 = 16.98, Mar 31 2024 = 19.25, Growth % YoY = -11.7%",
+        "Diluted EPS: Mar 31 2025 = 16.94, Mar 31 2024 = 19.22, Growth % YoY = -11.7%",
+        "Dividend Per Share: Mar 31 2025 = 22.00, Mar 31 2024 = 20.00, Growth % YoY = 10.0%"
+    ],
+    "confidence_score": 1.0,
+    "image_citation": "extracted_assets\\fact-sheet_Q4_24-25\\tables\\page4_table1.png",
+    "token_usage": {
+        "prompt_tokens": 38113,
+        "completion_tokens": 676,
+        "total_tokens": 38789
+    }
+}

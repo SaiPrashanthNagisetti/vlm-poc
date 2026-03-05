@@ -1,0 +1,33 @@
+{
+    "file_name": "fact-sheet_Q3_25-26",
+    "page_number": 1,
+    "image_title": "Infosys Consolidated Financial Data - Q3 2026",
+    "image_keywords": [
+        "Revenue Growth",
+        "Business Segments",
+        "Client Geography",
+        "Client Data",
+        "Financial Services",
+        "Manufacturing",
+        "North America",
+        "Europe",
+        "India"
+    ],
+    "summary": "This document presents the consolidated financial data for Infosys for the third quarter of fiscal 2026. It highlights key metrics such as a 0.6% quarter-over-quarter growth and a 1.7% year-over-year growth in consolidated revenue. The revenue breakdown by business segments shows financial services leading with 28.2%, followed by manufacturing at 16.7% and retail at 12.8%. Geographically, North America accounts for 55.9% of revenues, with Europe at 32.7% and India at 2.8%. The client data section indicates a total of 1,949 active clients, with significant contributions from the top 5 and top 10 clients. Overall, the document provides a comprehensive overview of Infosys's financial performance and client distribution.",
+    "table_rows": [
+        "Revenue Growth: Dec 31 2025 = 0.6%, Sep 30 2025 = 0.5%, Dec 31 2024 = 3.2%",
+        "Financial Services: Dec 31 2025 = 28.2%, Sep 30 2025 = 27.7%, Dec 31 2024 = 27.8%",
+        "Manufacturing: Dec 31 2025 = 16.7%, Sep 30 2025 = 16.5%, Dec 31 2024 = 15.5%",
+        "Retail: Dec 31 2025 = 12.8%, Sep 30 2025 = 12.7%, Dec 31 2024 = 13.8%",
+        "North America: Dec 31 2025 = 55.9%, Sep 30 2025 = 56.3%, Dec 31 2024 = 58.4%",
+        "Active Clients: Dec 31 2025 = 1949, Sep 30 2025 = 1896, Dec 31 2024 = 1876",
+        "Top 5 Clients Contribution: Dec 31 2025 = 12.8%, Sep 30 2025 = 13.0%, Dec 31 2024 = 12.7%"
+    ],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet_Q3_25-26\\vector_graphics\\page1_vector.png",
+    "token_usage": {
+        "prompt_tokens": 26779,
+        "completion_tokens": 532,
+        "total_tokens": 27311
+    }
+}
