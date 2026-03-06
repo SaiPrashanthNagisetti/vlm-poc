@@ -96,7 +96,7 @@ def evaluate():
                 "expected_answer": expected,
                 "predicted_answer": predicted,
                 "status": status,
-                "similarity_score": score,
+                #"similarity_score": score,
                 "sources": sources
             })
 

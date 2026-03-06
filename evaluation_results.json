@@ -1,729 +1,1661 @@
 {
   "summary": {
     "total_questions": 90,
-    "correct_answers": 84,
-    "accuracy": 93.33
+    "correct_answers": 82,
+    "accuracy": 91.11
   },
   "results": [
     {
       "question": "What was the CC revenue growth in Q2 FY26?",
       "expected_answer": "2.2%",
-      "predicted_answer": "ERROR",
+      "predicted_answer": "The CC revenue growth in Q2 FY26 is 2.9%.",
       "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q1_24-25",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "Did operating margin exceed 20% in Q2 FY26?",
       "expected_answer": "Yes",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "Yes, the operating margin exceeded 20% in Q2 FY26. The operating margin for September 30, 2025, was 21.0%.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 3
+        }
+      ]
     },
     {
       "question": "What was the operating margin in Q2 FY26?",
       "expected_answer": "21.0%",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "The operating margin in Q2 FY26 was 21.0%.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "Was EPS increase above 10% YoY in Q2 FY26?",
       "expected_answer": "Yes",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "Yes, the EPS increase was above 10% YoY in Q2 FY26.\n\nFor Basic EPS:\n- Sep 30, 2025 = \u20b934.47\n- Sep 30, 2024 = \u20b931.09\n\nCalculation:\n\\[\n\\text{Growth \\%} = \\left(\\frac{34.47 - 31.09}{31.09}\\right) \\times 100 = 10.9\\%\n\\]\n\nFor Diluted EPS:\n- Sep 30, 2025 = \u20b934.41\n- Sep 30, 2024 = \u20b931.02\n\nCalculation:\n\\[\n\\text{Growth \\%} = \\left(\\frac{34.41 - 31.02}{31.02}\\right) \\times 100 = 10.9\\%\n\\]\n\nBoth Basic and Diluted EPS increased by 10.9% YoY.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 4
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 4
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 4
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 3
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 4
+        }
+      ]
     },
     {
       "question": "What was the large deal TCV in Q2 FY26?",
       "expected_answer": "$3.1 Bn",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "The large deal Total Contract Value (TCV) in Q2 FY26 was $3.1 billion.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "What was the free cash flow in Q2 FY26?",
       "expected_answer": "$1.1 Bn",
-      "predicted_answer": "ERROR",
+      "predicted_answer": "The free cash flow in Q2 FY26 (September 30, 2025) was 9,677 crore.",
       "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 2
+        }
+      ]
     },
     {
       "question": "Did Financial Services have the largest revenue share in Q2 FY26?",
       "expected_answer": "Yes",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "Yes, Financial Services had the largest revenue share in Q2 FY26. According to the data provided, for the quarter ending September 30, 2025 (Q2 FY26), Financial Services had a revenue share of 27.7%, which is the highest among all sectors listed.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "What percentage revenue share did Financial Services have in Q2 FY26?",
       "expected_answer": "27.7%",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "The percentage revenue share for Financial Services in Q2 FY26 (which corresponds to the quarter ending September 30, 2025) is 27.7%.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_25-26",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "Was Manufacturing revenue share above 16% in Q2 FY26?",
       "expected_answer": "Yes",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "Yes, the Manufacturing revenue share was above 16% in Q2 FY26. According to the data provided, the Manufacturing revenue share for the quarter ending September 30, 2025 (Q2 FY26) was 16.5%.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "Did Retail revenue decline YoY in Q2 FY26?",
       "expected_answer": "Yes",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "Yes, Retail revenue declined YoY in Q2 FY26. The Retail revenue for September 30, 2025, was 12.7, compared to 13.3 on September 30, 2024. The reported YoY growth for Retail was -1.0%.\n\nCalculation:\n- Retail revenue on Sep 30, 2025 = 12.7\n- Retail revenue on Sep 30, 2024 = 13.3\n- Decline = 13.3 - 12.7 = 0.6\n\nThe decline is confirmed by the negative reported YoY growth of -1.0%.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 4
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 4
+        }
+      ]
     },
     {
       "question": "What revenue share did Communication segment have in Q2 FY26?",
       "expected_answer": "12.1%",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "The revenue share for the Communication segment in Q2 FY26 (September 30, 2025) was 12.1%.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "Was Hi-Tech revenue share greater than 8% in Q2 FY26?",
       "expected_answer": "Yes",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "Yes, the Hi-Tech revenue share was 8.3% in Q2 FY26.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "Did Life Sciences revenue decline YoY in Q2 FY26?",
       "expected_answer": "Yes",
-      "predicted_answer": "ERROR",
+      "predicted_answer": "Yes, Life Sciences revenue declined YoY in Q2 FY26. The data shows that for the quarter ending September 30, 2025, Life Sciences had a reported YoY growth of -8.9%.",
       "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 4
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "What percentage share did Others segment contribute in Q2 FY26?",
       "expected_answer": "2.9%",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "The percentage share that the Others segment contributed in Q2 FY26 (September 30, 2025) is 2.9%.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "Did North America contribute more than 50% revenue in Q2 FY26?",
       "expected_answer": "Yes",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "The context provides revenue data for North America for Q2 FY26, which corresponds to the quarter ending on September 30, 2024. According to the data:\n\n- North America: Sep 30, 2024 = 57.4\n\nThis indicates that North America contributed 57.4% of the total revenue in Q2 FY26. Since 57.4% is greater than 50%, North America did contribute more than 50% of the revenue in Q2 FY26.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "What revenue share came from North America in Q2 FY26?",
       "expected_answer": "56.3%",
-      "predicted_answer": "ERROR",
+      "predicted_answer": "The revenue share from North America in Q2 FY26 (which corresponds to the quarter ending September 30, 2024) is 57.4.",
       "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "Was Europe revenue share above 30% in Q2 FY26?",
       "expected_answer": "Yes",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "To determine if Europe's revenue share was above 30% in Q2 FY26, we need to find the revenue share for Europe for the quarter ending September 30, 2025 (Q2 FY26).\n\nFrom the context:\n- Europe: Sep 30, 2025 = 31.7\n\nSince 31.7% is above 30%, Europe's revenue share was indeed above 30% in Q2 FY26.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "What percentage revenue came from Europe in Q2 FY26?",
       "expected_answer": "31.7%",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "The percentage revenue from Europe in Q2 FY26 (which corresponds to the quarter ending September 30, 2025) is 31.7%.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "Did Rest of World contribute less than 10% revenue in Q2 FY26?",
       "expected_answer": "Yes",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "To determine if the Rest of the World contributed less than 10% revenue in Q2 FY26, we need to find the revenue percentage for the Rest of the World for the quarter ending June 30, 2025 (Q2 FY26).\n\nFrom the context provided:\n\n- Rest of the World: Jun 30, 2025 = 9.1\n\nThe Rest of the World contributed 9.1% of the revenue in Q2 FY26, which is indeed less than 10%.\n\nTherefore, the answer is yes, the Rest of the World contributed less than 10% revenue in Q2 FY26.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q1_25-26",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "What revenue share came from India in Q2 FY26?",
       "expected_answer": "3.1%",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "The revenue share from India in Q2 FY26 (September 30, 2025) is 3.1.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "How many active clients were reported in Sep 2025?",
       "expected_answer": "1896",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "The number of active clients reported in September 2025 is 1,896.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q3_25-26",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "Were more than 100 clients added during Sep 2025 quarter?",
       "expected_answer": "Yes",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "Yes, more than 100 clients were added during the Sep 2025 quarter. According to the context, 118 clients were added during this period.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q3_25-26",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "How many clients were added during Sep 2025 quarter?",
       "expected_answer": "118",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "To find the number of clients added during the September 2025 quarter, we look at the data provided for the \"Added during the period\" metric for the September 2025 quarter.\n\nFrom the context:\n- Added during the period: Sep 30 2025 = 118\n\nTherefore, the number of clients added during the September 2025 quarter is 118.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "Did million-dollar clients exceed 1000 in Sep 2025?",
       "expected_answer": "Yes",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "Yes, million-dollar clients exceeded 1000 in September 2025. The number of 1 Million dollar + clients was 1,012.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_25-26",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "How many 1M+ clients existed in Sep 2025?",
       "expected_answer": "1012",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "The number of 1 Million dollar + clients in September 2025 was 1,012.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "How many 10M+ clients existed in Sep 2025?",
       "expected_answer": "322",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "The number of 10 Million dollar + clients in September 2025 is 322.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q3_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "Did 50M+ clients exceed 80 in Sep 2025?",
       "expected_answer": "Yes",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "Yes, the number of 50 Million dollar + clients was 85 in September 2025, which exceeds 80.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "How many 50M+ clients existed in Sep 2025?",
       "expected_answer": "85",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "The number of 50 Million dollar + clients in September 2025 is 85.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q3_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "How many 100M+ clients existed in Sep 2025?",
       "expected_answer": "41",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "The number of 100 Million dollar + clients in September 2025 is 41.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q3_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "Did top 5 clients contribute above 13% revenue in Sep 2025?",
       "expected_answer": "Yes",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "Yes, the top 5 clients contributed 13.0% to revenue in September 2025.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "What revenue percentage came from top 10 clients in Sep 2025?",
       "expected_answer": "20.7%",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "The revenue percentage from the top 10 clients in September 2025 is 20.7%.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_25-26",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "What revenue percentage came from top 25 clients in Sep 2025?",
       "expected_answer": "35.2%",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "The revenue percentage from the top 25 clients in September 2025 is 35.2%.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "What were the Days Sales Outstanding in Sep 2025?",
       "expected_answer": "71",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "The Days Sales Outstanding in Sep 2025 was 71.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "Did onsite effort exceed 20% in Q2 FY26?",
       "expected_answer": "Yes",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "Yes, onsite effort exceeded 20% in Q2 FY26. The onsite effort for the quarter ending September 30, 2025, was 23.2%.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 2
+        }
+      ]
     },
     {
       "question": "What was onsite effort percentage in Q2 FY26?",
       "expected_answer": "23.2%",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "The onsite effort percentage in Q2 FY26 (ending September 30, 2025) was 23.2.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 2
+        }
+      ]
     },
     {
       "question": "What was offshore effort percentage in Q2 FY26?",
       "expected_answer": "76.8%",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "The offshore effort percentage in Q2 FY26 (quarter ending September 30, 2025) was 76.8%.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 2
+        }
+      ]
     },
     {
       "question": "Was utilization above 80% excluding trainees in Q2 FY26?",
       "expected_answer": "Yes",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "To determine if utilization was above 80% excluding trainees in Q2 FY26, we need to find the utilization rate excluding trainees for the quarter ending September 30, 2025 (Q2 FY26).\n\nFrom the context:\n- Utilization Excluding trainees: Sep 30, 2025 = 85.1%\n\nSince 85.1% is above 80%, the utilization excluding trainees in Q2 FY26 was indeed above 80%.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet",
+          "page": 2
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 2
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 2
+        },
+        {
+          "pdf": "fact-sheet_Q1_25-26",
+          "page": 2
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 2
+        },
+        {
+          "pdf": "fact-sheet_Q1_24-25",
+          "page": 2
+        }
+      ]
     },
     {
       "question": "What was utilization excluding trainees in Q2 FY26?",
       "expected_answer": "85.1%",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "The utilization excluding trainees in Q2 FY26 (quarter ended September 30, 2025) was 85.1%.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 2
+        }
+      ]
     },
     {
       "question": "What was total employee count in Sep 2025?",
       "expected_answer": "331991",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "The total employee count in September 2025 was 331,991.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 2
+        }
+      ]
     },
     {
       "question": "Did employee count exceed 330000 in Sep 2025?",
       "expected_answer": "Yes",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "Yes, the employee count exceeded 330,000 in September 2025. The total number of employees on September 30, 2025, was 331,991.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 2
+        }
+      ]
     },
     {
       "question": "How many software professionals worked at Infosys in Sep 2025?",
       "expected_answer": "314500",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "The number of software professionals at Infosys in September 2025 was 314,500.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q1_25-26",
+          "page": 2
+        }
+      ]
     },
     {
       "question": "How many sales and support employees were there in Sep 2025?",
       "expected_answer": "17491",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "The number of sales and support employees in September 2025 was 17,491.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet",
+          "page": 2
+        }
+      ]
     },
     {
       "question": "Was voluntary attrition above 14% in Sep 2025?",
       "expected_answer": "Yes",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "Yes, voluntary attrition was above 14% in Sep 2025. The voluntary attrition percentage for Sep 30, 2025, was 14.3%.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 2
+        }
+      ]
     },
     {
       "question": "What percentage of employees were women in Sep 2025?",
       "expected_answer": "39.5%",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "The percentage of women employees in September 2025 was 39.5%.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q1_24-25",
+          "page": 2
+        }
+      ]
     },
     {
       "question": "What was free cash flow in Sep 2025?",
       "expected_answer": "1101",
-      "predicted_answer": "ERROR",
+      "predicted_answer": "Unavailable",
       "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 2
+        }
+      ]
     },
     {
       "question": "Did free cash flow exceed $1B in Sep 2025?",
       "expected_answer": "Yes",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "To determine if the free cash flow exceeded $1 billion in September 2025, we need to locate the free cash flow value for that period in the context.\n\nFrom the context provided, the free cash flow for September 30, 2025, is not explicitly mentioned. Therefore, based on the available information, the value is unavailable.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 2
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 2
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 2
+        }
+      ]
     },
     {
       "question": "What was consolidated cash and investments in Sep 2025?",
       "expected_answer": "6173",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "Consolidated cash and investments in September 2025 were 6,173 million US dollars.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 2
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 2
+        }
+      ]
     },
     {
       "question": "Did consolidated cash exceed $6B in Sep 2025?",
       "expected_answer": "Yes",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "Unavailable. The context does not provide information about consolidated cash and investments for September 2025.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 2
+        }
+      ]
     },
     {
       "question": "What was CC growth in Q3 FY25?",
       "expected_answer": "1.7%",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "The CC growth in Q3 FY25 is highlighted in the context as a quarter-over-quarter (QoQ) growth rate of 1.7% and a year-over-year (YoY) growth rate of 6.1%.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q1_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q1_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "Did operating margin exceed 21% in Q3 FY25?",
       "expected_answer": "Yes",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "To determine if the operating margin exceeded 21% in Q3 FY25, we need to locate the operating margin for the period ending September 30, 2024 (Q3 FY25).\n\nFrom the context provided:\n\n- Operating Margin %: Sep 30, 2024 = 21.1\n\nThe operating margin for Q3 FY25 was 21.1%, which exceeds 21%.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 4
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 3
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 3
+        }
+      ]
     },
     {
       "question": "What was operating margin in Q3 FY25?",
       "expected_answer": "21.3%",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "The operating margin for Q3 FY25 (Dec 31, 2024) is 21.3%.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 3
+        }
+      ]
     },
     {
       "question": "Was EPS increase above 10% in Q3 FY25?",
       "expected_answer": "Yes",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "To determine if the EPS increase was above 10% in Q3 FY25, we need to compare the EPS values for Q3 FY25 and Q3 FY24.\n\nFrom the context:\n- Basic EPS for Sep 30, 2025 (Q3 FY25) = \u20b917.76\n- Basic EPS for Sep 30, 2024 (Q3 FY24) = \u20b915.71\n\nNow, calculate the percentage increase:\n\\[\n\\text{Percentage Increase} = \\left( \\frac{17.76 - 15.71}{15.71} \\right) \\times 100 = \\left( \\frac{2.05}{15.71} \\right) \\times 100 \\approx 13.1\\%\n\\]\n\nThe EPS increase was approximately 13.1%, which is above 10%.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 4
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 4
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 4
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 4
+        }
+      ]
     },
     {
       "question": "What large deal TCV was reported in Q3 FY25?",
       "expected_answer": "$2.5 Bn",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "The large deal Total Contract Value (TCV) reported in Q3 FY25 was $2.5 billion.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q3_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "What free cash flow was reported in Q3 FY25?",
       "expected_answer": "$1.3 Bn",
-      "predicted_answer": "ERROR",
+      "predicted_answer": "The free cash flow reported in Q3 FY25 (September 30, 2024) is $839 million.",
       "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 2
+        }
+      ]
     },
     {
       "question": "Did Financial Services exceed 27% revenue share in Q3 FY25?",
       "expected_answer": "Yes",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "To determine if Financial Services exceeded a 27% revenue share in Q3 FY25, we need to look at the data for the quarter ending December 31, 2024, which corresponds to Q3 FY25.\n\nFrom the context provided:\n- Financial Services: Dec 31 2024 = 27.8\n\nSince 27.8% is greater than 27%, Financial Services did exceed a 27% revenue share in Q3 FY25.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "What revenue share did Financial Services have in Q3 FY25?",
       "expected_answer": "27.8%",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "To find the revenue share of Financial Services in Q3 FY25, we need to look at the data for the quarter ending September 30, 2024, which corresponds to Q3 FY25.\n\nFrom the context provided:\n- Financial Services: Sep 30 2024 = 27.2\n\nTherefore, the revenue share of Financial Services in Q3 FY25 was 27.2%.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "Did Manufacturing revenue share exceed 15% in Q3 FY25?",
       "expected_answer": "Yes",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "To determine if the Manufacturing revenue share exceeded 15% in Q3 FY25, we need to look at the data for the quarter ending December 31, 2024, which corresponds to Q3 FY25.\n\nFrom the context provided:\n- Manufacturing: Dec 31, 2024 = 15.5\n\nThe Manufacturing revenue share for Q3 FY25 is 15.5%, which exceeds 15%.\n\nTherefore, the answer is yes, the Manufacturing revenue share exceeded 15% in Q3 FY25.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 4
+        },
+        {
+          "pdf": "fact-sheet",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q1_25-26",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "Was Retail share above 13% in Q3 FY25?",
       "expected_answer": "Yes",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "To determine if the Retail share was above 13% in Q3 FY25, we need to find the Retail share for the quarter ending December 31, 2024 (Q3 FY25).\n\nFrom the context:\n- Retail: Dec 31, 2024 = 13.8\n\nSince 13.8% is above 13%, the Retail share was indeed above 13% in Q3 FY25.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 4
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "Did Hi-Tech exceed 7% share in Q3 FY25?",
       "expected_answer": "Yes",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "Yes, Hi-Tech exceeded a 7% share in Q3 FY25. According to the data provided, the share of Hi-Tech for the quarter ending September 30, 2024 (Q3 FY25) was 8.0%.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 4
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 4
+        }
+      ]
     },
     {
       "question": "What revenue share did Life Sciences have in Q3 FY25?",
       "expected_answer": "7.6%",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "To find the revenue share of Life Sciences in Q3 FY25, we need to look at the data for the quarter ending December 31, 2024, which corresponds to Q3 FY25.\n\nFrom the context provided:\n- Life Sciences: Dec 31, 2024 = 7.6\n\nTherefore, the revenue share of Life Sciences in Q3 FY25 was 7.6%.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "Did Others segment contribute less than 3% revenue in Q3 FY25?",
       "expected_answer": "Yes",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "To determine if the Others segment contributed less than 3% revenue in Q3 FY25, we need to look at the data for the quarter ending September 30, 2024 (Q3 FY25).\n\nFrom the context provided:\n- Others: Sep 30, 2024 = 3.1\n\nThe contribution of the Others segment in Q3 FY25 was 3.1%, which is not less than 3%.\n\nTherefore, the Others segment did not contribute less than 3% revenue in Q3 FY25.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "Did North America exceed 55% share in Q3 FY25?",
       "expected_answer": "Yes",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "To determine if North America exceeded a 55% share in Q3 FY25, we need to look at the data for the quarter ending December 31, 2024 (Q3 FY25).\n\nFrom the context:\n- North America: Dec 31, 2024 = 58.4\n\nSince 58.4% is greater than 55%, North America did exceed a 55% share in Q3 FY25.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "What revenue share came from North America in Q3 FY25?",
       "expected_answer": "58.4%",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "The revenue share from North America in Q3 FY25 (which corresponds to the quarter ending December 31, 2024) is 58.4.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "Did Europe exceed 29% revenue share in Q3 FY25?",
       "expected_answer": "Yes",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "To determine if Europe exceeded a 29% revenue share in Q3 FY25, we need to look at the revenue share for Europe for the quarter ending September 30, 2025.\n\nFrom the context provided:\n- Europe: Sep 30, 2025 = 31.7\n\nSince 31.7% is greater than 29%, Europe did exceed a 29% revenue share in Q3 FY25.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "What share came from Europe in Q3 FY25?",
       "expected_answer": "29.8%",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "To find the share from Europe in Q3 FY25, we need to locate the data for Europe for the quarter ending September 30, 2025.\n\nFrom the context provided:\n\n- Europe: Sep 30 2025 = 31.7\n\nTherefore, the share from Europe in Q3 FY25 is 31.7.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "Did Rest of World contribute below 9% revenue in Q3 FY25?",
       "expected_answer": "Yes",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "To determine if the Rest of the World contributed below 9% revenue in Q3 FY25, we need to look at the revenue percentage for the Rest of the World for the quarter ending September 30, 2025.\n\nFrom the context provided:\n- Rest of the World: Sep 30 2025 = 8.9\n\nThe Rest of the World contributed 8.9% revenue in Q3 FY25, which is below 9%.\n\nAnswer: Yes, Rest of World contributed below 9% revenue in Q3 FY25.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "What share came from India in Q3 FY25?",
       "expected_answer": "3.1%",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "To find the share from India in Q3 FY25, we need to locate the value for India for the quarter ending December 31, 2024, which corresponds to Q3 FY25.\n\nFrom the context provided:\n- India: Dec 31, 2024 = 3.1\n\nTherefore, the share from India in Q3 FY25 is 3.1%.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "How many active clients existed in Dec 2024?",
       "expected_answer": "1876",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "The number of active clients in December 2024 was 1,876.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "Were more than 100 clients added in Dec 2024 quarter?",
       "expected_answer": "Yes",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "Yes, more than 100 clients were added in the December 2024 quarter. The number of clients added during this period was 101.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_25-26",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "How many clients were added in Dec 2024 quarter?",
       "expected_answer": "101",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "The number of clients added during the December 2024 quarter is 101.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "Did 1M+ clients exceed 990 in Dec 2024?",
       "expected_answer": "Yes",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "Yes, the number of 1 Million dollar + clients in December 2024 was 997, which exceeds 990.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "How many 10M+ clients existed in Dec 2024?",
       "expected_answer": "301",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "The number of 10 Million dollar + clients in December 2024 is 301.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "Did 50M+ clients exceed 85 in Dec 2024?",
       "expected_answer": "Yes",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "No, the number of 50 Million dollar + clients in December 31, 2024, was 89, which exceeds 85.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "How many 50M+ clients existed in Dec 2024?",
       "expected_answer": "89",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "The number of 50 Million dollar + clients in December 2024 was 89.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "How many 100M+ clients existed in Dec 2024?",
       "expected_answer": "41",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "The number of 100 Million dollar + clients in December 2024 was 41.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "What revenue share came from top 5 clients in Dec 2024?",
       "expected_answer": "12.7%",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "The revenue share from the top 5 clients in December 2024 was 12.7%.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "What revenue share came from top 10 clients in Dec 2024?",
       "expected_answer": "19.9%",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "The revenue share from the top 10 clients in December 2024 was 19.9%.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "What revenue share came from top 25 clients in Dec 2024?",
       "expected_answer": "34.2%",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "The revenue share from the top 25 clients in December 2024 is 34.2%.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "What were Days Sales Outstanding in Dec 2024?",
       "expected_answer": "74",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "Days Sales Outstanding in December 2024 were 74.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        }
+      ]
     },
     {
       "question": "What was onsite effort in Q3 FY25?",
       "expected_answer": "24.0%",
-      "predicted_answer": "ERROR",
+      "predicted_answer": "The onsite effort in Q3 FY25 (quarter ending September 30, 2024) was 24.1.",
       "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 2
+        }
+      ]
     },
     {
       "question": "What was offshore effort in Q3 FY25?",
       "expected_answer": "76.0%",
-      "predicted_answer": "ERROR",
+      "predicted_answer": "The offshore effort in Q3 FY25 (September 30, 2024) was 75.9.",
       "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 2
+        }
+      ]
     },
     {
       "question": "What utilization excluding trainees was reported in Q3 FY25?",
       "expected_answer": "86.0%",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "The utilization excluding trainees reported in Q3 FY25 (September 30, 2024) was 85.9%.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q1_24-25",
+          "page": 2
+        }
+      ]
     },
     {
       "question": "What was total employee count in Dec 2024?",
       "expected_answer": "323379",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "The total employee count in December 2024 was 323,379.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 2
+        }
+      ]
     },
     {
       "question": "Did employee count exceed 320000 in Dec 2024?",
       "expected_answer": "Yes",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "Yes, the employee count exceeded 320,000 in December 2024. The total number of employees on December 31, 2024, was 323,379.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q1_24-25",
+          "page": 2
+        }
+      ]
     },
     {
       "question": "How many software professionals worked at Infosys in Dec 2024?",
       "expected_answer": "306528",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "The number of software professionals at Infosys in December 2024 was 306,528.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q1_25-26",
+          "page": 2
+        }
+      ]
     },
     {
       "question": "How many sales and support employees were there in Dec 2024?",
       "expected_answer": "16851",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "The number of sales and support employees in December 2024 was 16,851.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 2
+        }
+      ]
     },
     {
       "question": "What voluntary attrition rate was reported in Dec 2024?",
       "expected_answer": "13.7%",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "The voluntary attrition rate reported in December 2024 was 13.7%.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 2
+        }
+      ]
     },
     {
       "question": "What percentage of employees were women in Dec 2024?",
       "expected_answer": "39.0%",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "The percentage of women employees in December 2024 was 39.0%.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q1_24-25",
+          "page": 2
+        }
+      ]
     },
     {
       "question": "What free cash flow was reported in Dec 2024?",
       "expected_answer": "1263",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "The free cash flow reported in December 2024 was $1,263 million.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 2
+        }
+      ]
     },
     {
       "question": "What consolidated cash and investments existed in Dec 2024?",
       "expected_answer": "4653",
-      "predicted_answer": "ERROR",
-      "status": "FAIL",
-      "error": "name 'score' is not defined",
-      "sources": []
+      "predicted_answer": "The consolidated cash and investments in December 2024 were $4,653 million.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 2
+        }
+      ]
     }
   ]
 }
