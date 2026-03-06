@@ -3,29 +3,44 @@
     "page_number": 2,
     "image_title": "Consolidated Financial Data - First Quarter, Fiscal 2025",
     "image_keywords": [
-        "Effort & Utilization",
+        "Effort",
+        "Utilization",
         "Employee Metrics",
         "Cash Flow",
-        "Infosys",
-        "Fiscal 2025"
+        "Jun 30 2024",
+        "Mar 31 2024",
+        "Jun 30 2023",
+        "Onsite",
+        "Offshore",
+        "Total employees",
+        "S/W professionals",
+        "Sales & Support",
+        "Voluntary Attrition",
+        "Women Employees",
+        "Free cash flow",
+        "Consolidated cash and investments"
     ],
-    "summary": "This table presents consolidated financial data for Infosys for the first quarter of Fiscal 2025, comparing metrics across three quarters: June 30, 2024, March 31, 2024, and June 30, 2023. It includes key performance indicators such as effort and utilization percentages, employee metrics, and cash flow figures. Notably, the utilization rate including trainees shows a decrease from 83.9% to 83.3% over the quarters, while the percentage of women employees remains relatively stable around 39%. The free cash flow increased significantly from $699 million in June 2023 to $1,094 million in June 2024, indicating improved liquidity. The table also details total employees and attrition rates, highlighting a slight decrease in voluntary attrition from 17.3% to 12.7%. Overall, the data reflects a positive trend in cash flow and stable employee metrics.",
+    "summary": "The document is a fact sheet titled 'Consolidated Financial Data - First Quarter, Fiscal 2025' from Infosys, presenting key metrics on effort and utilization, employee metrics, and cash flow. The effort and utilization section shows percentages for onsite and offshore efforts, with utilization rates including and excluding trainees for the quarters ending June 30, 2024, March 31, 2024, and June 30, 2023. Employee metrics detail the number of total employees, software professionals, sales and support staff, voluntary attrition percentage, and the percentage of women employees over the same periods. The cash flow section provides figures for free cash flow and consolidated cash and investments in both US dollars and Indian rupees. Notable trends include a slight increase in onsite effort and a decrease in offshore effort over the periods, as well as a consistent percentage of women employees.",
     "table_rows": [
-        "Effort: Onsite: Jun 30 2024 = 23.9%, Mar 31 2024 = 24.2%, Jun 30 2023 = 24.7%",
-        "Effort: Offshore: Jun 30 2024 = 76.1%, Mar 31 2024 = 75.8%, Jun 30 2023 = 75.3%",
-        "Utilization: Including trainees: Jun 30 2024 = 83.9%, Mar 31 2024 = 82.0%, Jun 30 2023 = 78.9%",
-        "Utilization: Excluding trainees: Jun 30 2024 = 85.3%, Mar 31 2024 = 83.5%, Jun 30 2023 = 81.1%",
-        "Employee Metrics: Total employees: Jun 30 2024 = 315,332, Mar 31 2024 = 317,240, Jun 30 2023 = 336,294",
-        "Employee Metrics: S/W professionals: Jun 30 2024 = 298,123, Mar 31 2024 = 299,814, Jun 30 2023 = 317,611",
-        "Employee Metrics: Voluntary Attrition %: Jun 30 2024 = 12.7%, Mar 31 2024 = 12.6%, Jun 30 2023 = 17.3%",
-        "Cash Flow: Free cash flow: Jun 30 2024 = 1,094 million, Mar 31 2024 = 848 million, Jun 30 2023 = 699 million",
-        "Cash Flow: Consolidated cash and investments: Jun 30 2024 = 4,311 million, Mar 31 2024 = 4,676 million, Jun 30 2023 = 3,593 million"
+        "Effort: Jun 30 2024 = 23.9, Mar 31 2024 = 24.2, Jun 30 2023 = 24.7",
+        "Offshore: Jun 30 2024 = 76.1, Mar 31 2024 = 75.8, Jun 30 2023 = 75.3",
+        "Utilization including trainees: Jun 30 2024 = 83.9, Mar 31 2024 = 82.0, Jun 30 2023 = 78.9",
+        "Utilization excluding trainees: Jun 30 2024 = 85.3, Mar 31 2024 = 83.5, Jun 30 2023 = 81.1",
+        "Total employees: Jun 30 2024 = 315,332, Mar 31 2024 = 317,240, Jun 30 2023 = 336,294",
+        "S/W professionals: Jun 30 2024 = 298,123, Mar 31 2024 = 299,814, Jun 30 2023 = 317,611",
+        "Sales & Support: Jun 30 2024 = 17,209, Mar 31 2024 = 17,426, Jun 30 2023 = 18,683",
+        "Voluntary Attrition % (LTM - IT Services): Jun 30 2024 = 12.7%, Mar 31 2024 = 12.6%, Jun 30 2023 = 17.3%",
+        "% of Women Employees: Jun 30 2024 = 39.2%, Mar 31 2024 = 39.3%, Jun 30 2023 = 39.5%",
+        "Free cash flow (US $ million): Jun 30 2024 = 1,094, Mar 31 2024 = 848, Jun 30 2023 = 699",
+        "Consolidated cash and investments (US $ million): Jun 30 2024 = 4,311, Mar 31 2024 = 4,676, Jun 30 2023 = 3,593",
+        "Free cash flow (\u20b9 crore): Jun 30 2024 = 9,155, Mar 31 2024 = 7,032, Jun 30 2023 = 5,749",
+        "Consolidated cash and investments (\u20b9 crore): Jun 30 2024 = 35,943, Mar 31 2024 = 39,005, Jun 30 2023 = 29,469"
     ],
     "confidence_score": 0.95,
     "image_citation": "extracted_assets\\fact-sheet_Q1_24-25\\vector_graphics\\page2_vector.png",
     "token_usage": {
-        "prompt_tokens": 26779,
-        "completion_tokens": 669,
-        "total_tokens": 27448
+        "prompt_tokens": 2043,
+        "completion_tokens": 900,
+        "total_tokens": 2943
     }
 }

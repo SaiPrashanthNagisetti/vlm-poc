@@ -1,19 +1,19 @@
 {
   "pdf": "arxiv2",
   "page": 14,
-  "text": "14 G. Fouilhé et al.\n27\n24\n21\n18\nytilitu\nLLM-based\n15\n± 1 std\n12\nTemplate-based\nxaM\n± 1 std\n9\n6\n: : : : : :\ne e e e e e\nlu lu lu lu lu lu\np-va p-va p-va p-va p-va p-va\n6 3 3 8 3 4\n3\n.0 .3 .1 .1 .3 .4\n0 0 0 0 0 0\n0\n0 3 6 9 12 15 18\nIteration steps\nFig.3: Comparison of maximum utility achieved over iteration steps between\nand GTPL. Scores are averaged by group at each iteration step.\nGLLM\ndescribed in Section 5. We did not include a group without explanations, as\nan earlier study [12] had already examined that goal-conflict explanations were\nmore effective than no explanations.\n6.2 User Groups Comparison\nWe compared the two groups using quantitative analysis and a feedback ques-\ntionnaire.Quantitativemetricsincludethetimespentonthetask,themaximum\nutility reached, and the number of questions asked.\nUsers took on average mins in and\nGLLM\nTime and maximum utility 13.9 ± 2.6\nmins in to complete the evaluation task. (15.2%) users in\nGTPL\n14.0 ± 2.5 10/66",
+  "text": "14 G. Fouilh\u00e9 et al.\nFig.3: Comparison of maximum utility achieved over iteration steps between\nand GTPL. Scores are averaged by group at each iteration step.\nGLLM\ndescribed in Section 5. We did not include a group without explanations, as\nan earlier study [12] had already examined that goal-conflict explanations were\nmore effective than no explanations.\n6.2 User Groups Comparison\nWe compared the two groups using quantitative analysis and a feedback ques-\ntionnaire.Quantitativemetricsincludethetimespentonthetask,themaximum\nutility reached, and the number of questions asked.\nUsers took on average mins in and\nGLLM\nTime and maximum utility 13.9 \u00b1 2.6\nmins in to complete the evaluation task. (15.2%) users in\nGTPL\n14.0 \u00b1 2.5 10/66\nand (13.8%) in reached the maximum utility of 27. On average,\nGLLM GTPL\n9/65\nusers achieved a utility, and 20.5\u00b14.4. In Figure 3, the\nGLLM GTPL\n20.8\u00b14.3\nobtain a higher utility with a similar number of steps, in particular in\nGLLM\nthe beginning. However, the variance of scores prevents statistically significant\nresults.\nasked on average significantly less questions\nGLLM\nQuestion types and quantity\n(11.4 5.9) vs. (22.8 19.6) for but because the LLM-based question\nGTPL\n\u00b1 \u00b1\ntranslator can perform several queries to respond a single question, these ques-\ntions were equivalent to queries to the explanation framework. The\n41.7 \u00b1 29.2\ntwo groups adopted different question strategies, as shown in Figure 4.\nGLLM\nusers relied a lot more on questions than any other type, which may be\nS-can\nattributed to the question\nCan I enforce any other goals while keeping the cur-\nbeing often suggested by and picked by users; such a\nrent goals enforced? SQ\nquestion is for EF equivalent to questions if there is non-enforced\nkkS-can\nCC\ngoals at the present iteration step.\nAfter completing the evaluation task, participants were\nFeedback questionnaire\naskedtofilloutafeedbackquestionnaireassessingtheperceiveddifficultyofthe",
   "keywords": [
-    "va va",
-    "explanations",
-    "maximum utility",
-    "15",
-    "lu",
-    "iteration",
-    "steps",
-    "va",
-    "users",
     "utility",
-    "lu lu",
-    "12"
+    "maximum",
+    "goals",
+    "question",
+    "iteration",
+    "gtpl",
+    "users",
+    "maximum utility",
+    "questions",
+    "explanations",
+    "groups",
+    "gllm"
   ]
 }

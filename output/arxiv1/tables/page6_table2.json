@@ -1,0 +1,24 @@
+{
+    "file_name": "arxiv1",
+    "page_number": 6,
+    "image_title": "Performance Comparison Table",
+    "image_keywords": [
+        "w/T^RL",
+        "w/TRL",
+        "performance",
+        "comparison",
+        "metrics"
+    ],
+    "summary": "The table presents a performance comparison between two configurations labeled 'w/TRL' and 'w/T^RL' across four metrics. The values indicate that the 'w/T^RL' configuration generally outperforms the 'w/TRL' configuration, with higher scores in all listed metrics. This suggests an improvement in performance when using the 'w/T^RL' setup.",
+    "table_rows": [
+        "w/TRL: Metric1 = 15.8, Metric2 = 48.9, Metric3 = 73.0, Metric4 = 45.9",
+        "w/T^RL: Metric1 = 20.8, Metric2 = 50.9, Metric3 = 74.6, Metric4 = 48.8"
+    ],
+    "confidence_score": 0.9,
+    "image_citation": "extracted_assets\\arxiv1\\tables\\page6_table2.png",
+    "token_usage": {
+        "prompt_tokens": 1703,
+        "completion_tokens": 212,
+        "total_tokens": 1915
+    }
+}

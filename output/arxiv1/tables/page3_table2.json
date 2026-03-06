@@ -1,0 +1,21 @@
+{
+    "file_name": "arxiv1",
+    "page_number": 3,
+    "image_title": "Hierarchical Structure Diagram",
+    "image_keywords": [
+        "hierarchy",
+        "structure",
+        "y1",
+        "y2",
+        "y3"
+    ],
+    "summary": "The image is a diagram illustrating a hierarchical structure with a top-level node labeled '{y_i}' followed by sequential nodes labeled 'y1', 'y2', and 'y3'. The diagram represents a descending order of elements, indicating a structured breakdown or categorization from a general set to specific components. The use of ellipsis suggests the continuation of the sequence beyond the visible nodes.",
+    "table_rows": [],
+    "confidence_score": 0.9,
+    "image_citation": "extracted_assets\\arxiv1\\tables\\page3_table2.png",
+    "token_usage": {
+        "prompt_tokens": 1533,
+        "completion_tokens": 135,
+        "total_tokens": 1668
+    }
+}

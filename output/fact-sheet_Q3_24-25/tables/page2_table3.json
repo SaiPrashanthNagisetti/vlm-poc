@@ -1,24 +1,26 @@
 {
     "file_name": "fact-sheet_Q3_24-25",
     "page_number": 2,
-    "image_title": "Quarterly Financial Metrics",
+    "image_title": "Quarterly Financial Data",
     "image_keywords": [
         "Free cash flow",
         "Consolidated cash and investments",
         "Dec 31 2024",
         "Sep 30 2024",
-        "Dec 31 2023"
+        "Dec 31 2023",
+        "financial data",
+        "quarter ended"
     ],
-    "summary": "This table presents key financial metrics for a company, specifically focusing on free cash flow and consolidated cash and investments over three quarters: December 31, 2024, September 30, 2024, and December 31, 2023. The free cash flow shows a decline from 1,263 million in December 2024 to 665 million in December 2023, indicating a significant drop in liquidity. In contrast, consolidated cash and investments also decreased from 4,653 million in December 2024 to 3,903 million in December 2023, reflecting a downward trend in overall cash reserves. These metrics highlight the company's financial performance and liquidity position over the specified periods.",
+    "summary": "The table titled 'Quarterly Financial Data' presents financial metrics for the quarters ending December 31, 2024, September 30, 2024, and December 31, 2023. It compares 'Free cash flow' and 'Consolidated cash and investments' across these periods, measured in millions of dollars. Notably, free cash flow shows a decreasing trend from $1,263 million in December 2024 to $665 million in December 2023. Similarly, consolidated cash and investments decrease from $4,653 million to $3,903 million over the same period.",
     "table_rows": [
         "Free cash flow: Dec 31 2024 = 1263, Sep 30 2024 = 839, Dec 31 2023 = 665",
         "Consolidated cash and investments: Dec 31 2024 = 4653, Sep 30 2024 = 4626, Dec 31 2023 = 3903"
     ],
-    "confidence_score": 0.95,
+    "confidence_score": 1.0,
     "image_citation": "extracted_assets\\fact-sheet_Q3_24-25\\tables\\page2_table3.png",
     "token_usage": {
-        "prompt_tokens": 21112,
-        "completion_tokens": 298,
-        "total_tokens": 21410
+        "prompt_tokens": 1873,
+        "completion_tokens": 297,
+        "total_tokens": 2170
     }
 }

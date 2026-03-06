@@ -1,21 +1,22 @@
 {
     "file_name": "Attention",
     "page_number": 14,
-    "image_title": "Attention Heads in Layer 5",
+    "image_title": "Attention Visualization in NLP Model",
     "image_keywords": [
         "attention heads",
         "anaphora resolution",
+        "NLP",
         "layer 5",
-        "neural networks",
-        "NLP"
+        "head 5",
+        "word connections"
     ],
-    "summary": "This visual is a diagram illustrating the attention mechanisms of two attention heads in layer 5 of a neural network, specifically focusing on their role in anaphora resolution. The top section displays full attention mappings for head 5, while the bottom section isolates attentions for the word 'its' from both attention heads 5 and 6. The connections between words highlight how certain terms, such as 'The Law' and 'its application', are emphasized, indicating the sharp focus of the attention heads on these key phrases. This representation provides insights into how the model processes language and resolves references within text.",
+    "summary": "This diagram illustrates the attention mechanism within a natural language processing (NLP) model, specifically focusing on two attention heads in layer 5 of 6. The visualization shows how words in a sentence are connected through attention weights, highlighting the model's involvement in anaphora resolution. The top section displays all attentions for head 5, while the bottom section isolates attentions from the word 'its' for the same head. The diagram effectively demonstrates the model's ability to track word relationships and resolve references within a sentence, providing insights into the internal workings of attention layers in NLP models.",
     "table_rows": [],
-    "confidence_score": 0.9,
+    "confidence_score": 0.95,
     "image_citation": "extracted_assets\\Attention\\vector_graphics\\page14_vector.png",
     "token_usage": {
-        "prompt_tokens": 26779,
-        "completion_tokens": 185,
-        "total_tokens": 26964
+        "prompt_tokens": 2383,
+        "completion_tokens": 195,
+        "total_tokens": 2578
     }
 }

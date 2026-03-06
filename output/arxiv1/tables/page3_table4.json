@@ -1,0 +1,31 @@
+{
+    "file_name": "arxiv1",
+    "page_number": 3,
+    "image_title": "False-Popular Predictions Table",
+    "image_keywords": [
+        "True Label",
+        "Estimated Label",
+        "Sampled Predictions",
+        "Estimated Rewards",
+        "False-Popular Predictions",
+        "Round 1",
+        "A",
+        "B",
+        "C",
+        "D"
+    ],
+    "summary": "The image is a table titled 'False-Popular Predictions Table' that illustrates a comparison between true labels, sampled predictions, and estimated labels in a prediction model. The table shows data for the first round, where the true label is 'C'. Sampled predictions include categories A, B, C, and D, with B being highlighted as the most favorable prediction. Estimated rewards are shown as binary values, indicating the success of each prediction. The table highlights that 'B' is considered a good prediction despite the true label being 'C'. This visual represents the concept of false-popular predictions in a model evaluation context.",
+    "table_rows": [
+        "True Label: 1st Round = C",
+        "Sampled Predictions: A = 0, A = 0, B = 1, B = 1, B = 1, C = 0, C = 0, D = 0",
+        "Estimated Rewards: A = 0, A = 0, B = 1, B = 1, B = 1, C = 0, C = 0, D = 0",
+        "Estimated Label: B is good!"
+    ],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\arxiv1\\tables\\page3_table4.png",
+    "token_usage": {
+        "prompt_tokens": 1533,
+        "completion_tokens": 334,
+        "total_tokens": 1867
+    }
+}

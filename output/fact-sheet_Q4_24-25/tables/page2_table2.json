@@ -1,30 +1,30 @@
 {
     "file_name": "fact-sheet_Q4_24-25",
     "page_number": 2,
-    "image_title": "Employee Metrics Table",
+    "image_title": "Employee Statistics by Quarter",
     "image_keywords": [
         "Total employees",
         "S/W professionals",
         "Sales & Support",
-        "Voluntary Attrition %",
-        "% of Women Employees",
+        "Voluntary Attrition",
+        "Women Employees",
         "Mar 31 2025",
         "Dec 31 2024",
         "Mar 31 2024"
     ],
-    "summary": "This table presents key employee metrics for a company over three quarters ending on March 31, 2025, December 31, 2024, and March 31, 2024. It includes total employees, software professionals, sales and support staff, voluntary attrition percentage, and the percentage of women employees. Notably, total employees increased from 317,240 in March 2024 to 323,578 in March 2025, while the voluntary attrition percentage rose from 12.6% to 14.1% during the same period. The percentage of women employees remained relatively stable at around 39%.",
+    "summary": "The table presents employee statistics for three quarters ending on March 31, 2025, December 31, 2024, and March 31, 2024. It includes metrics such as total employees, software professionals, sales and support staff, voluntary attrition percentage in IT services, and the percentage of women employees. Notable trends include a steady increase in total employees and software professionals over the periods, while the voluntary attrition rate shows a slight increase. The percentage of women employees remains relatively stable, with a slight increase in March 2024.",
     "table_rows": [
         "Total employees: Mar 31 2025 = 323,578, Dec 31 2024 = 323,379, Mar 31 2024 = 317,240",
         "S/W professionals: Mar 31 2025 = 306,599, Dec 31 2024 = 306,528, Mar 31 2024 = 299,814",
         "Sales & Support: Mar 31 2025 = 16,979, Dec 31 2024 = 16,851, Mar 31 2024 = 17,426",
-        "Voluntary Attrition %: Mar 31 2025 = 14.1%, Dec 31 2024 = 13.7%, Mar 31 2024 = 12.6%",
+        "Voluntary Attrition % (LTM - IT Services): Mar 31 2025 = 14.1%, Dec 31 2024 = 13.7%, Mar 31 2024 = 12.6%",
         "% of Women Employees: Mar 31 2025 = 39.0%, Dec 31 2024 = 39.0%, Mar 31 2024 = 39.3%"
     ],
-    "confidence_score": 0.95,
+    "confidence_score": 1.0,
     "image_citation": "extracted_assets\\fact-sheet_Q4_24-25\\tables\\page2_table2.png",
     "token_usage": {
-        "prompt_tokens": 21112,
+        "prompt_tokens": 1873,
         "completion_tokens": 430,
-        "total_tokens": 21542
+        "total_tokens": 2303
     }
 }

@@ -1,23 +1,24 @@
 {
     "file_name": "arxiv1",
     "page_number": 8,
-    "image_title": "Comparison of Scores in AIME, AMC, and MATH",
+    "image_title": "Performance Comparison of T3RL and TTRL",
     "image_keywords": [
         "AIME",
         "AMC",
         "MATH",
-        "TTRL",
         "T3RL",
-        "scores",
-        "verifier"
+        "TTRL",
+        "1.5B Verifier",
+        "7B Verifier",
+        "Score"
     ],
-    "summary": "This bar chart compares the scores achieved in three assessments: AIME, AMC, and MATH. Each assessment displays scores for three categories: TTRL, T3RL (1.5B Verifier), and T3RL (7B Verifier). In AIME, the highest score is 21.7 for T3RL (7B Verifier), while TTRL scored 15.8. For AMC, T3RL (7B Verifier) also leads with a score of 51.5, compared to TTRL's 48.9. In MATH, T3RL (7B Verifier) again shows the highest score at 74.9, with TTRL at 73.0. The chart illustrates a trend of increasing scores with the T3RL verifiers across all assessments.",
+    "summary": "The bar chart compares the performance scores of TTRL and T3RL models across three different tests: AIME, AMC, and MATH. Each test has three bars representing the scores achieved by TTRL, T3RL with a 1.5B Verifier, and T3RL with a 7B Verifier. In the AIME test, TTRL scored 15.8, T3RL (1.5B Verifier) scored 20.8, and T3RL (7B Verifier) scored 21.7. For the AMC test, TTRL scored 48.9, T3RL (1.5B Verifier) scored 50.9, and T3RL (7B Verifier) scored 51.5. In the MATH test, TTRL scored 73.0, T3RL (1.5B Verifier) scored 74.6, and T3RL (7B Verifier) scored 74.9. The chart highlights that T3RL models consistently outperform TTRL across all tests, with the 7B Verifier achieving the highest scores.",
     "table_rows": [],
-    "confidence_score": 0.95,
+    "confidence_score": 1.0,
     "image_citation": "extracted_assets\\arxiv1\\images\\page8_img2.png",
     "token_usage": {
-        "prompt_tokens": 9778,
-        "completion_tokens": 242,
-        "total_tokens": 10020
+        "prompt_tokens": 1533,
+        "completion_tokens": 327,
+        "total_tokens": 1860
     }
 }

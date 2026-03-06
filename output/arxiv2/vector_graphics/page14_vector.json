@@ -1,22 +1,22 @@
 {
     "file_name": "arxiv2",
     "page_number": 14,
-    "image_title": "Comparison of Maximum Utility Achieved Over Iteration Steps",
+    "image_title": "Max Utility vs Iteration Steps",
     "image_keywords": [
-        "maximum utility",
-        "iteration steps",
-        "GLM",
-        "GTP",
         "LLM-based",
-        "template-based"
+        "Template-based",
+        "Max utility",
+        "Iteration steps",
+        "p-value",
+        "standard deviation"
     ],
-    "summary": "This line chart illustrates the comparison of maximum utility achieved over iteration steps between two groups: GLM and GTP. The y-axis represents the maximum utility scores, while the x-axis denotes the number of iteration steps. The chart features two main lines representing LLM-based and template-based approaches, with shaded areas indicating standard deviation. The data shows that GLM users generally achieved higher utility scores compared to GTP users, particularly in the initial steps, although the variance in scores suggests that the differences may not be statistically significant. The chart provides insights into the effectiveness of different question strategies employed by users across the iterations.",
+    "summary": "This line chart compares the maximum utility achieved by LLM-based and Template-based methods over a series of iteration steps. The x-axis represents iteration steps ranging from 0 to 20, while the y-axis shows the maximum utility values, peaking around 24. The chart includes p-values at specific iteration steps, indicating statistical significance. The LLM-based method consistently outperforms the Template-based method, as shown by the higher utility values. Shaded areas around each line represent the standard deviation, providing a visual indication of variability. The chart highlights the effectiveness of LLM-based methods in achieving higher utility across iterations.",
     "table_rows": [],
-    "confidence_score": 0.9,
+    "confidence_score": 0.95,
     "image_citation": "extracted_assets\\arxiv2\\vector_graphics\\page14_vector.png",
     "token_usage": {
-        "prompt_tokens": 26779,
-        "completion_tokens": 192,
-        "total_tokens": 26971
+        "prompt_tokens": 1703,
+        "completion_tokens": 199,
+        "total_tokens": 1902
     }
 }

@@ -1,23 +1,27 @@
 {
     "file_name": "Sample",
     "page_number": 7,
-    "image_title": "Memory Operations and Task Management",
+    "image_title": "Memory System Diagram for Task Management",
     "image_keywords": [
-        "trip planning",
-        "movie recommendation",
-        "memory sources",
-        "textual memory",
-        "parametric memory",
-        "agent",
-        "environment"
+        "Task A",
+        "Task B",
+        "Making a trip plan",
+        "Recommending a movie",
+        "Textual Memory",
+        "Parametric Memory",
+        "Memory Sources",
+        "Memory Forms",
+        "Memory Operations",
+        "Environment",
+        "Agent"
     ],
-    "summary": "This diagram illustrates two tasks: making a trip plan for Alice and recommending a movie for her. It highlights the processes involved in each task, including booking tickets, gathering external knowledge, and confirming details. The visual categorizes memory sources into external knowledge and inside-trial information, while also detailing memory forms such as textual and parametric memory. Key operations of the agent, including writing, management, and reading, are depicted, emphasizing the interaction between the environment and the agent's memory operations. The diagram effectively conveys the complexity of task management and memory utilization in decision-making.",
+    "summary": "This diagram illustrates a memory system for managing tasks, specifically focusing on 'Making a trip plan for Alice' and 'Recommending a movie for Alice.' It shows the process flow for each task, including steps like booking tickets and confirming movie choices. The diagram categorizes memory into Textual and Parametric forms, detailing interactions and knowledge management. Memory Sources are divided into External Knowledge, Cross-trial Information, and Inside-trial Information, while Memory Operations include Writing, Reading, and Management tasks such as Merging and Forgetting. The Environment and Agent components interact to facilitate these processes, highlighting the integration of external knowledge and internal memory management for task execution.",
     "table_rows": [],
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\Sample\\images\\page7_img1.png",
     "token_usage": {
-        "prompt_tokens": 15445,
-        "completion_tokens": 182,
-        "total_tokens": 15627
+        "prompt_tokens": 1703,
+        "completion_tokens": 236,
+        "total_tokens": 1939
     }
 }

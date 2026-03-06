@@ -1,0 +1,47 @@
+{
+    "file_name": "OSHAwhite-paper-january2012sm",
+    "page_number": 10,
+    "image_title": "Summary of Existing State Programs",
+    "image_keywords": [
+        "state programs",
+        "mandatory regulation",
+        "safety committees",
+        "consulting",
+        "insurance",
+        "premium reductions",
+        "employers",
+        "hazardous",
+        "employees"
+    ],
+    "summary": "The table titled 'Summary of Existing State Programs' outlines various state-level programs related to mandatory regulation, safety committees, consulting or recognition, and insurance premium reductions. It specifies which employers are covered under mandatory programs, with distinctions made for 'hazardous' employers and those with a certain number of employees. The table includes states such as Alabama, California, Connecticut, and others, highlighting differences in coverage requirements. For example, Connecticut mandates coverage for employers with more than 25 employees and 'hazardous' small employers, while Oregon covers all construction employers and those with more than 10 employees, excluding logging and agriculture. The table provides a comparative view of state-specific regulations and coverage criteria.",
+    "table_rows": [
+        "Alabama: Mandatory Regulation = Yes, If mandatory, who is covered? = All employers",
+        "Arkansas: Mandatory Regulation = Yes, If mandatory, who is covered? = 'Hazardous' employers",
+        "California: Mandatory Regulation = Yes, If mandatory, who is covered? = All employers",
+        "Connecticut: Mandatory Regulation = Yes, If mandatory, who is covered? = Employers with >25 employees, 'Hazardous' small employers",
+        "Hawaii: Mandatory Regulation = Yes, If mandatory, who is covered? = All employers",
+        "Louisiana: Mandatory Regulation = Yes, If mandatory, who is covered? = Employers with >15 employees",
+        "Michigan: Mandatory Regulation = Yes, If mandatory, who is covered? = Employers in construction industry",
+        "Minnesota: Mandatory Regulation = Yes, If mandatory, who is covered? = Employers with >25 employees, Committees required for 'Hazardous' employers",
+        "Mississippi: Mandatory Regulation = Yes, If mandatory, who is covered? = All employers",
+        "Montana: Mandatory Regulation = Yes, If mandatory, who is covered? = Employers with >5 employees",
+        "North Carolina: Mandatory Regulation = Yes, If mandatory, who is covered? = 'Hazardous' employers, Committees required for employers with >5 employees",
+        "Nebraska: Mandatory Regulation = Yes, If mandatory, who is covered? = All employers",
+        "New Hampshire: Mandatory Regulation = Yes, If mandatory, who is covered? = Employers with >10 employees, Committees required for employers with >5 employees",
+        "New Mexico: Mandatory Regulation = Yes, If mandatory, who is covered? = Employers with >10 employees, Committees required for employers with >25 employees",
+        "Nevada: Mandatory Regulation = Yes, If mandatory, who is covered? = Employers with payroll >$800K, Other 'hazardous' employers",
+        "Oregon: Mandatory Regulation = Yes, If mandatory, who is covered? = All construction employers, All other employers with >10 employees (except logging and agriculture)",
+        "Tennessee: Mandatory Regulation = Yes, If mandatory, who is covered? = 'Hazardous' employers",
+        "Utah: Mandatory Regulation = Yes, If mandatory, who is covered? = 'Hazardous' employers",
+        "Vermont: Mandatory Regulation = Yes, If mandatory, who is covered? = 'Hazardous' employers",
+        "Washington: Mandatory Regulation = Yes, If mandatory, who is covered? = All employers",
+        "West Virginia: Mandatory Regulation = Yes, If mandatory, who is covered? = 'Hazardous' employers"
+    ],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\OSHAwhite-paper-january2012sm\\tables\\page10_table1.png",
+    "token_usage": {
+        "prompt_tokens": 2043,
+        "completion_tokens": 788,
+        "total_tokens": 2831
+    }
+}

@@ -1,22 +1,23 @@
 {
     "file_name": "Attention",
     "page_number": 4,
-    "image_title": "Scaled Dot-Product Attention Diagram",
+    "image_title": "Scaled Dot-Product Attention Mechanism",
     "image_keywords": [
-        "Scaled Dot-Product Attention",
         "Linear",
         "Concat",
+        "Scaled Dot-Product Attention",
         "V",
         "K",
-        "Q"
+        "Q",
+        "h"
     ],
-    "summary": "This diagram illustrates the architecture of the Scaled Dot-Product Attention mechanism, a key component in transformer models. It shows the flow of data through linear transformations applied to the input vectors labeled as V (Value), K (Key), and Q (Query). The outputs of these linear layers are concatenated before being processed by the Scaled Dot-Product Attention block. The diagram highlights the relationships between these components, emphasizing the importance of attention in processing sequences of data.",
+    "summary": "This diagram illustrates the Scaled Dot-Product Attention mechanism, a key component in transformer models used in natural language processing. The process begins with inputs labeled as V (Value), K (Key), and Q (Query), each passing through a Linear transformation. These are then fed into the Scaled Dot-Product Attention block, which computes attention scores to focus on relevant parts of the input data. The output is then concatenated and passed through another Linear transformation. This mechanism allows the model to weigh the importance of different input elements dynamically, enhancing its ability to understand context and relationships in data.",
     "table_rows": [],
-    "confidence_score": 0.9,
+    "confidence_score": 1.0,
     "image_citation": "extracted_assets\\Attention\\images\\page4_img2.png",
     "token_usage": {
-        "prompt_tokens": 9778,
-        "completion_tokens": 156,
-        "total_tokens": 9934
+        "prompt_tokens": 1533,
+        "completion_tokens": 195,
+        "total_tokens": 1728
     }
 }

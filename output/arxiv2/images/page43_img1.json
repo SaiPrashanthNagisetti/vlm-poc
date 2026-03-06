@@ -3,22 +3,21 @@
     "page_number": 43,
     "image_title": "Planning Task Insights",
     "image_keywords": [
-        "Parent",
-        "Alice",
-        "Bob",
-        "cooking dinner",
-        "shopping",
-        "violin lesson",
-        "basketball training",
-        "tennis training"
+        "Parent cooks dinner",
+        "Parent goes shopping",
+        "Alice does basketball training",
+        "Alice takes violin lesson",
+        "Bob does tennis training",
+        "conflict resolution",
+        "goal enforcement"
     ],
-    "summary": "This visual presents a dialogue interface designed to assist users in managing conflicting schedules and goals for family members. It highlights specific scenarios involving a Parent, Alice, and Bob, where the Parent's goals of cooking dinner or going shopping may conflict with Alice's activities, such as basketball training or violin lessons. The interface suggests that enforcing one goal may require the cancellation of another to avoid conflicts. Additionally, it addresses the feasibility of enforcing Bob's tennis training without causing further scheduling issues. The overall context emphasizes the importance of balancing multiple goals while minimizing conflicts.",
+    "summary": "The image is a diagram illustrating a planning task focused on resolving conflicts between various goals. It provides insights into how different activities such as 'Parent cooks dinner', 'Parent goes shopping', 'Alice does basketball training', 'Alice takes violin lesson', and 'Bob does tennis training' can be enforced without creating conflicts. The diagram suggests that enforcing 'Parent cooks dinner' or 'Parent goes shopping' requires stopping either 'Alice does basketball training' or 'Alice takes violin lesson' to avoid conflicts. However, 'Bob does tennis training' can be enforced without causing new conflicts. The diagram serves as a guide to help users understand how to manage and prioritize these activities effectively.",
     "table_rows": [],
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\arxiv2\\images\\page43_img1.png",
     "token_usage": {
-        "prompt_tokens": 15445,
-        "completion_tokens": 178,
-        "total_tokens": 15623
+        "prompt_tokens": 1703,
+        "completion_tokens": 218,
+        "total_tokens": 1921
     }
 }

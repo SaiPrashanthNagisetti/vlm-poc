@@ -4,29 +4,41 @@
     "image_title": "Financial Performance Summary",
     "image_keywords": [
         "Revenues",
+        "Cost of sales",
         "Gross Profit",
         "Operating Expenses",
+        "Operating Profit",
         "Net Profit",
         "EPS",
-        "Growth Percentage"
+        "Dividend",
+        "Dec 31 2024",
+        "Dec 31 2023",
+        "Growth"
     ],
-    "summary": "This table presents a financial performance summary comparing key metrics for the years ending December 31, 2024, and December 31, 2023. It includes revenues, cost of sales, gross profit, operating expenses, and net profit, among other financial indicators. Notably, revenues increased by 5.5%, while gross profit saw a growth of 6.3%. Operating profit and net profit also demonstrated positive growth rates of 7.1% and 7.9%, respectively. The table highlights significant increases in basic and diluted earnings per share (EPS), with growth rates of 7.5% and 16.7%, respectively, indicating a strong financial performance year-over-year.",
+    "summary": "The table titled 'Financial Performance Summary' presents a comparison of key financial metrics for the years ending December 31, 2024, and December 31, 2023, along with their growth percentages. It includes revenues, cost of sales, gross profit, operating expenses, and net profit figures. Notable insights include a revenue growth of 5.5% and a net profit increase of 7.9% before minority interest. The table also details operating margin percentages, basic and diluted earnings per share (EPS), and dividend per share, highlighting a significant dividend growth of 16.7%. This summary provides a comprehensive view of the company's financial performance over the specified period.",
     "table_rows": [
-        "Revenues: Dec 31 2024 = 122,064, Dec 31 2023 = 115,748, Growth % = 5.5%",
-        "Cost of sales: Dec 31 2024 = 84,771, Dec 31 2023 = 80,666, Growth % = 5.1%",
-        "Gross Profit: Dec 31 2024 = 37,293, Dec 31 2023 = 35,082, Growth % = 6.3%",
-        "Total Operating Expenses: Dec 31 2024 = 11,444, Dec 31 2023 = 10,956, Growth % = 4.5%",
-        "Operating Profit: Dec 31 2024 = 25,849, Dec 31 2023 = 24,126, Growth % = 7.1%",
-        "Net Profit (before minority interest): Dec 31 2024 = 19,712, Dec 31 2023 = 18,274, Growth % = 7.9%",
-        "Basic EPS (\u20b9): Dec 31 2024 = 47.52, Dec 31 2023 = 44.13, Growth % = 7.5%",
-        "Diluted EPS (\u20b9): Dec 31 2024 = 47.52, Dec 31 2023 = 44.08, Growth % = 7.5%",
-        "Dividend Per Share (\u20b9): Dec 31 2024 = 21.00, Dec 31 2023 = 18.00, Growth % = 16.7%"
+        "Revenues: Dec 31 2024 = 122,064, Dec 31 2023 = 115,748, Growth % = 5.5",
+        "Cost of sales: Dec 31 2024 = 84,771, Dec 31 2023 = 80,666, Growth % = 5.1",
+        "Gross Profit: Dec 31 2024 = 37,293, Dec 31 2023 = 35,082, Growth % = 6.3",
+        "Selling and marketing expenses: Dec 31 2024 = 5,631, Dec 31 2023 = 5,238, Growth % = 7.5",
+        "Administrative expenses: Dec 31 2024 = 5,813, Dec 31 2023 = 5,718, Growth % = 1.7",
+        "Total Operating Expenses: Dec 31 2024 = 11,444, Dec 31 2023 = 10,956, Growth % = 4.5",
+        "Operating Profit: Dec 31 2024 = 25,849, Dec 31 2023 = 24,126, Growth % = 7.1",
+        "Operating Margin %: Dec 31 2024 = 21.2, Dec 31 2023 = 20.8, Growth % = 0.3",
+        "Other Income, net: Dec 31 2024 = 2,096, Dec 31 2023 = 1,622, Growth % = 29.2",
+        "Profit before income taxes: Dec 31 2024 = 27,945, Dec 31 2023 = 25,748, Growth % = 8.5",
+        "Income tax expense: Dec 31 2024 = 8,233, Dec 31 2023 = 7,474, Growth % = 10.2",
+        "Net Profit (before minority interest): Dec 31 2024 = 19,712, Dec 31 2023 = 18,274, Growth % = 7.9",
+        "Net Profit (after minority interest): Dec 31 2024 = 19,680, Dec 31 2023 = 18,264, Growth % = 7.8",
+        "Basic EPS (\u20b9): Dec 31 2024 = 47.52, Dec 31 2023 = 44.13, Growth % = 7.7",
+        "Diluted EPS (\u20b9): Dec 31 2024 = 47.40, Dec 31 2023 = 44.08, Growth % = 7.5",
+        "Dividend Per Share (\u20b9): Dec 31 2024 = 21.00, Dec 31 2023 = 18.00, Growth % = 16.7"
     ],
     "confidence_score": 1.0,
     "image_citation": "extracted_assets\\fact-sheet_Q3_24-25\\tables\\page4_table2.png",
     "token_usage": {
-        "prompt_tokens": 21112,
-        "completion_tokens": 552,
-        "total_tokens": 21664
+        "prompt_tokens": 1873,
+        "completion_tokens": 860,
+        "total_tokens": 2733
     }
 }

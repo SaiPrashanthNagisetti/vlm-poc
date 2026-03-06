@@ -1,19 +1,19 @@
 {
   "pdf": "arxiv2",
   "page": 32,
-  "text": "32 G. Fouilhé et al.\nTable 1: Input, Provider, and Outputs structure of each translator. is the\nτ\nplanning task ⟨P,O,A,I,G⟩, is the current iteration step ⟨Gref,Genf,π⟩,\nGref\nδ\nall\nisthesetofreferencegoals(cid:83) (cid:83)\nacrossalliterationsteps∆= .E∗(args)is\nGref\nδ\ni\ni\nthesetofexplanationsfortheargumentargsthatcontainsinformationtoanswer\nall question types (to anticipate follow-up questions). The different outputs of\nare defined in Figure 2 of the main paper.\nT\nQ\nComponent Input Provider Output\nUser\nQ\nNL\nOne of :\nGenf\nδ\nQuestion (1) Response\nGtrue(π)\nδ\nTranslator (2)\nQ\nNL\nGfalse(π)\nδ\n(T ) (3)\n⟨µ ,G⟩\nQ Q\nGr e f\n∆\n(4)\na l l\nµ ,G\nQ NL\nSolvability\nδ\nName\nδ δ\nGenf\nδ\nQuestion\nArray of\nGtrue(π)\nδ\nSuggester\nQuestions (NL)\nGfalse(π)\nδ\n(S )\nQ\nSolvability\nδ\nPrevious Questions δ/∆\nGoal/Topic User/T\nG\nNL Q\nϕ\nTranslator\nP τ\nGoal Name\n(T /T )\nO τ\nG T\nUser\nQ\nNL\nµ T\nQ Q\nG T\nQ\nEF\nE∗(args)\nCC\nExplanation\nP τ\nTranslator Expl. (NL)\nO τ\n(T )\nE\nGenf\nδ\nGtrue(π)\nδ\nGfalse(π)\nδ\nGref\n∆\nall\n## If \"Solvable\" is True:\n- S-WHY-NOT: \"Why are Q not satisfied?\"\n- S-WHAT-IF: \"What happens if we enforce Q?\"\n- S-CAN: \"Can Q be satisfied?\"\n- S-HOW: \"How can Q be satisfied?\" or \"How can I improve the plan\nwith respect to o?\"\nYouwillalsoreceivelistsofgoalsandtheirstateinthecurrentiteration\nstep:\n- Enforced goals (enforced by the user)\n- Satisfied goals (currently satisfied)\n- Unsatisfied goals (not currently satisfied)\nReturn the question type and the goal or plan property the user is re-\nferring to, without any additional comments of any kind. First, try to",
+  "text": "32 G. Fouilh\u00e9 et al.\nTable 1: Input, Provider, and Outputs structure of each translator. is the\n\u03c4\nplanning task \u27e8P,O,A,I,G\u27e9, is the current iteration step \u27e8Gref,Genf,\u03c0\u27e9,\nGref\n\u03b4\nall\nisthesetofreferencegoals(cid:83) (cid:83)\nacrossalliterationsteps\u2206= .E\u2217(args)is\nGref\n\u03b4\nii\nthesetofexplanationsfortheargumentargsthatcontainsinformationtoanswer\nall question types (to anticipate follow-up questions). The different outputs of\nare defined in Figure 2 of the main paper.\nTQ\nComponent Input Provider Output\nUser\nQ\nNL\nOne of :\nGenf\n\u03b4\nQuestion (1) Response\nGtrue(\u03c0)\n\u03b4\nTranslator (2)\nQ\nNL\nGfalse(\u03c0)\n\u03b4\n(T ) (3)\n\u27e8\u00b5 ,G\u27e9\nQQ\nGr ef\n\u2206\n(4)\nall\n\u00b5 ,GQ NL\nSolvability\n\u03b4\nName\n\u03b4 \u03b4\nGenf\n\u03b4\nQuestion\nArray of\nGtrue(\u03c0)\n\u03b4\nSuggester\nQuestions (NL)\nGfalse(\u03c0)\n\u03b4\n(S )\nQ\nSolvability\n\u03b4\nPrevious Questions \u03b4/\u2206\nGoal/Topic User/TG\nNL Q\n\u03d5\nTranslator\nP \u03c4\nGoal Name\n(T /T )\nO \u03c4\nGT\nUser\nQ\nNL\n\u00b5 TQQGTQ\nEF\nE\u2217(args)\nCC\nExplanation\nP \u03c4\nTranslator Expl. (NL)\nO \u03c4\n(T )\nE\nGenf\n\u03b4\nGtrue(\u03c0)\n\u03b4\nGfalse(\u03c0)\n\u03b4\nGref\n\u2206\nall\n## If \"Solvable\" is True:\n- S-WHY-NOT: \"Why are Q not satisfied?\"\n- S-WHAT-IF: \"What happens if we enforce Q?\"\n- S-CAN: \"Can Q be satisfied?\"\n- S-HOW: \"How can Q be satisfied?\" or \"How can I improve the plan\nwith respect to o?\"\nYouwillalsoreceivelistsofgoalsandtheirstateinthecurrentiteration\nstep:\n- Enforced goals (enforced by the user)\n- Satisfied goals (currently satisfied)\n- Unsatisfied goals (not currently satisfied)\nReturn the question type and the goal or plan property the user is re-\nferring to, without any additional comments of any kind. First, try to",
   "keywords": [
-    "gref",
-    "user",
-    "genf",
-    "questions",
-    "translator",
     "goals",
-    "goal",
+    "question",
     "satisfied",
-    "nl",
+    "user",
     "gtrue",
-    "user nl",
-    "question"
+    "gfalse",
+    "gref",
+    "translator",
+    "goal",
+    "questions",
+    "genf",
+    "nl"
   ]
 }

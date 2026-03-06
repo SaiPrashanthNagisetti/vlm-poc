@@ -1,0 +1,26 @@
+{
+    "file_name": "arxiv2",
+    "page_number": 10,
+    "image_title": "Question and Explanation Translation Process",
+    "image_keywords": [
+        "Goal Translator",
+        "Question Suggester",
+        "Question Translator",
+        "Explanation Translator",
+        "Dispatcher",
+        "natural language",
+        "formal language",
+        "goal creation",
+        "explanations protocol",
+        "LLM Agent"
+    ],
+    "summary": "This flow diagram illustrates the process of translating questions and explanations within a system involving multiple components such as a Goal Translator, Question Suggester, Question Translator, Explanation Translator, and Dispatcher. The process begins with a goal description provided by the Question Suggester, which is then translated into a formal language question by the Question Translator. The Dispatcher routes the question to the Goal Translator for topic identification and further processing. The Explanation Translator provides explanations and prior information based on follow-up questions. The diagram highlights the flow of information between natural and formal languages, goal creation, and explanation protocols, with specific pathways for direct responses and follow-up questions. The system is designed to facilitate communication between natural language inputs and formal language outputs, managed by an LLM Agent.",
+    "table_rows": [],
+    "confidence_score": 1.0,
+    "image_citation": "extracted_assets\\arxiv2\\vector_graphics\\page10_vector.png",
+    "token_usage": {
+        "prompt_tokens": 1703,
+        "completion_tokens": 247,
+        "total_tokens": 1950
+    }
+}

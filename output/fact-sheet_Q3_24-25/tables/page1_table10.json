@@ -1,0 +1,24 @@
+{
+    "file_name": "fact-sheet_Q3_24-25",
+    "page_number": 1,
+    "image_title": "Growth Comparison Table",
+    "image_keywords": [
+        "QoQ growth",
+        "YoY growth",
+        "Reported",
+        "CC",
+        "growth percentage"
+    ],
+    "summary": "This table presents a comparison of growth percentages, specifically quarter-over-quarter (QoQ) and year-over-year (YoY) growth, across two categories: Reported and Constant Currency (CC). The QoQ growth is shown as 0.9% for Reported and 1.7% for CC, while the YoY growth is 5.9% for Reported and 6.1% for CC. This data highlights the differences in growth rates when considering reported figures versus those adjusted for constant currency, providing insights into financial performance over different time frames.",
+    "table_rows": [
+        "QoQ growth (%): Reported = 0.9%, CC = 1.7%",
+        "YoY growth (%): Reported = 5.9%, CC = 6.1%"
+    ],
+    "confidence_score": 1.0,
+    "image_citation": "extracted_assets\\fact-sheet_Q3_24-25\\tables\\page1_table10.png",
+    "token_usage": {
+        "prompt_tokens": 1873,
+        "completion_tokens": 227,
+        "total_tokens": 2100
+    }
+}

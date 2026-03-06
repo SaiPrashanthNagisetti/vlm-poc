@@ -1,0 +1,36 @@
+{
+    "file_name": "fact-sheet_Q1_25-26",
+    "page_number": 1,
+    "image_title": "Quarterly Client and Revenue Metrics",
+    "image_keywords": [
+        "Number of Clients",
+        "Active",
+        "Added during the period",
+        "Million dollar clients",
+        "Client contribution to revenues",
+        "Days Sales Outstanding",
+        "Jun 30 2025",
+        "Mar 31 2025",
+        "Jun 30 2024"
+    ],
+    "summary": "The table presents quarterly metrics related to client numbers and revenue contributions for the periods ending June 30, 2025, March 31, 2025, and June 30, 2024. It details the number of active clients and those added during each period, alongside the count of clients contributing over one million dollars in revenue, segmented into various tiers. Additionally, it shows the percentage of revenue contributed by the top 5, 10, and 25 clients, as well as the Days Sales Outstanding. Notable trends include a consistent number of active clients and a slight increase in clients contributing over one million dollars. The Days Sales Outstanding shows minor fluctuations across the periods.",
+    "table_rows": [
+        "Active: Jun 30 2025 = 1861, Mar 31 2025 = 1869, Jun 30 2024 = 1867",
+        "Added during the period: Jun 30 2025 = 93, Mar 31 2025 = 91, Jun 30 2024 = 87",
+        "1 Million dollar +: Jun 30 2025 = 1011, Mar 31 2025 = 992, Jun 30 2024 = 987",
+        "10 Million dollar +: Jun 30 2025 = 317, Mar 31 2025 = 309, Jun 30 2024 = 309",
+        "50 Million dollar +: Jun 30 2025 = 85, Mar 31 2025 = 85, Jun 30 2024 = 84",
+        "100 Million dollar +: Jun 30 2025 = 41, Mar 31 2025 = 39, Jun 30 2024 = 40",
+        "Top 5 clients: Jun 30 2025 = 13.2%, Mar 31 2025 = 13.1%, Jun 30 2024 = 13.5%",
+        "Top 10 clients: Jun 30 2025 = 20.8%, Mar 31 2025 = 20.7%, Jun 30 2024 = 20.9%",
+        "Top 25 clients: Jun 30 2025 = 35.2%, Mar 31 2025 = 34.8%, Jun 30 2024 = 34.9%",
+        "Days Sales Outstanding: Jun 30 2025 = 70, Mar 31 2025 = 69, Jun 30 2024 = 72"
+    ],
+    "confidence_score": 1.0,
+    "image_citation": "extracted_assets\\fact-sheet_Q1_25-26\\tables\\page1_table11.png",
+    "token_usage": {
+        "prompt_tokens": 1873,
+        "completion_tokens": 634,
+        "total_tokens": 2507
+    }
+}

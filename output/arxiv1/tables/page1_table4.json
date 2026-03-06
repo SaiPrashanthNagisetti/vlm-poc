@@ -1,0 +1,21 @@
+{
+    "file_name": "arxiv1",
+    "page_number": 1,
+    "image_title": "Horizontal Bar Chart",
+    "image_keywords": [
+        "bar chart",
+        "data values",
+        "4.1",
+        "7.3",
+        "17.8"
+    ],
+    "summary": "This is a horizontal bar chart displaying three data values: 4.1, 7.3, and 17.8. The chart uses different shades of blue to represent each value, with the largest value being 17.8. The chart likely compares these values across a specific category or metric, although the exact labels and context are not visible.",
+    "table_rows": [],
+    "confidence_score": 0.8,
+    "image_citation": "extracted_assets\\arxiv1\\tables\\page1_table4.png",
+    "token_usage": {
+        "prompt_tokens": 1533,
+        "completion_tokens": 133,
+        "total_tokens": 1666
+    }
+}

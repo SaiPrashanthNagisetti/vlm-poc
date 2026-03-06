@@ -1,31 +1,30 @@
 {
     "file_name": "fact-sheet_Q2_24-25",
     "page_number": 2,
-    "image_title": "Employee Metrics Overview",
+    "image_title": "Employee Statistics by Quarter",
     "image_keywords": [
         "Total employees",
         "S/W professionals",
         "Sales & Support",
-        "Voluntary Attrition %",
-        "% of Women Employees",
-        "Quarter ended",
+        "Voluntary Attrition",
+        "Women Employees",
         "Sep 30 2024",
         "Jun 30 2024",
         "Sep 30 2023"
     ],
-    "summary": "This table presents an overview of key employee metrics for three quarters ending on September 30, 2023, June 30, 2024, and September 30, 2024. It includes total employees, software professionals, sales and support staff, voluntary attrition percentage, and the percentage of women employees. Notably, total employees increased from 328,764 in September 2023 to 317,788 in September 2024, while the percentage of women employees remained relatively stable around 39%. The voluntary attrition percentage shows a slight decrease from 14.6% in September 2023 to 12.9% in September 2024, indicating improved employee retention.",
+    "summary": "The table presents employee statistics for three quarters ending on September 30, 2024, June 30, 2024, and September 30, 2023. It includes metrics such as total employees, software professionals, sales and support staff, voluntary attrition percentage in IT services, and the percentage of women employees. Notable trends include a steady increase in total employees and software professionals over the periods, with a slight rise in voluntary attrition percentage. The percentage of women employees shows a gradual increase, indicating a positive trend in gender diversity.",
     "table_rows": [
         "Total employees: Sep 30 2024 = 317,788, Jun 30 2024 = 315,332, Sep 30 2023 = 328,764",
         "S/W professionals: Sep 30 2024 = 300,774, Jun 30 2024 = 298,123, Sep 30 2023 = 310,375",
         "Sales & Support: Sep 30 2024 = 17,014, Jun 30 2024 = 17,209, Sep 30 2023 = 18,389",
-        "Voluntary Attrition %: Sep 30 2024 = 12.9%, Jun 30 2024 = 12.7%, Sep 30 2023 = 14.6%",
+        "Voluntary Attrition % (LTM - IT Services): Sep 30 2024 = 12.9%, Jun 30 2024 = 12.7%, Sep 30 2023 = 14.6%",
         "% of Women Employees: Sep 30 2024 = 39.0%, Jun 30 2024 = 39.2%, Sep 30 2023 = 39.4%"
     ],
-    "confidence_score": 0.95,
+    "confidence_score": 1.0,
     "image_citation": "extracted_assets\\fact-sheet_Q2_24-25\\tables\\page2_table2.png",
     "token_usage": {
-        "prompt_tokens": 21112,
-        "completion_tokens": 446,
-        "total_tokens": 21558
+        "prompt_tokens": 1873,
+        "completion_tokens": 428,
+        "total_tokens": 2301
     }
 }

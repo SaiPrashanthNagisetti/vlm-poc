@@ -3,35 +3,43 @@
     "page_number": 4,
     "image_title": "Consolidated Financial Data - Third Quarter, Fiscal 2025",
     "image_keywords": [
+        "Consolidated statement",
+        "Comprehensive Income",
         "Revenues",
         "Cost of sales",
         "Gross Profit",
-        "Operating Profit",
+        "Operating Expenses",
         "Net Profit",
         "EPS",
-        "Dividend Per Share",
-        "Fiscal 2025",
-        "Infosys"
+        "Dividend",
+        "Dec 31 2024",
+        "Dec 31 2023",
+        "Sep 30 2024"
     ],
-    "summary": "This table presents the consolidated statement of comprehensive income for Infosys for the three months and nine months ended December 31, 2024, and December 31, 2023. It includes key financial metrics such as revenues, cost of sales, gross profit, operating profit, and net profit, along with their year-over-year growth rates. For the three months, revenues decreased from \u20b941,764 crore to \u20b938,821 crore, while net profit after minority interest showed a decline from \u20b96,806 crore to \u20b96,106 crore, reflecting a year-over-year growth of 11.6%. The nine-month figures indicate a similar trend, with revenues of \u20b9122,064 crore for 2024 compared to \u20b9115,748 crore for 2023, marking a growth of 5.5%. The operating margin percentage and earnings per share (EPS) are also detailed, highlighting the company's financial performance over these periods.",
+    "summary": "The image is a table titled 'Consolidated Financial Data - Third Quarter, Fiscal 2025' showing the comprehensive income statements for three and nine months ending December 31, 2024, and December 31, 2023. It details financial metrics such as revenues, cost of sales, gross profit, operating expenses, and net profit, with growth percentages year-over-year (YoY) and quarter-over-quarter (QoQ). Notable insights include a 7.6% YoY growth in revenues for the three-month period and a 5.5% growth for the nine-month period. The table also highlights operating profit margins and earnings per share (EPS), with a significant increase in other income YoY. The dividend per share is noted for the nine-month period ending December 31, 2024.",
     "table_rows": [
-        "Revenues: Dec 31 2024 = 41,764, Dec 31 2023 = 38,821, Growth % YoY = 7.6%",
-        "Cost of sales: Dec 31 2024 = 29,120, Dec 31 2023 = 27,253, Growth % YoY = 6.9%",
-        "Gross Profit: Dec 31 2024 = 12,644, Dec 31 2023 = 11,568, Growth % YoY = 9.3%",
-        "Operating Profit: Dec 31 2024 = 8,912, Dec 31 2023 = 7,961, Growth % YoY = 11.9%",
-        "Net Profit (after minority interest): Dec 31 2024 = 6,806, Dec 31 2023 = 6,106, Growth % YoY = 11.4%",
-        "Basic EPS: Dec 31 2024 = 16.43, Dec 31 2023 = 14.76, Growth % YoY = 11.4%",
-        "Dividend Per Share: Dec 31 2024 = -, Dec 31 2023 = -",
-        "Revenues (nine months): Dec 31 2024 = 122,064, Dec 31 2023 = 115,748, Growth % = 5.5%",
-        "Net Profit (after minority interest) (nine months): Dec 31 2024 = 19,680, Dec 31 2023 = 18,264, Growth % = 7.8%",
-        "Basic EPS (nine months): Dec 31 2024 = 47.52, Dec 31 2023 = 44.08, Growth % = 7.5%",
-        "Dividend Per Share (nine months): Dec 31 2024 = 21.00, Dec 31 2023 = 18.00, Growth % = 16.7%"
+        "Revenues: Dec 31 2024 = 41,764, Dec 31 2023 = 38,821, Sep 30 2024 = 40,986",
+        "Cost of sales: Dec 31 2024 = 29,120, Dec 31 2023 = 27,253, Sep 30 2024 = 28,474",
+        "Gross Profit: Dec 31 2024 = 12,644, Dec 31 2023 = 11,568, Sep 30 2024 = 12,512",
+        "Selling and marketing expenses: Dec 31 2024 = 1,839, Dec 31 2023 = 1,700, Sep 30 2024 = 1,855",
+        "Administrative expenses: Dec 31 2024 = 1,893, Dec 31 2023 = 1,907, Sep 30 2024 = 2,008",
+        "Total Operating Expenses: Dec 31 2024 = 3,732, Dec 31 2023 = 3,607, Sep 30 2024 = 3,863",
+        "Operating Profit: Dec 31 2024 = 8,912, Dec 31 2023 = 7,961, Sep 30 2024 = 8,649",
+        "Operating Margin %: Dec 31 2024 = 21.3, Dec 31 2023 = 20.5, Sep 30 2024 = 21.1",
+        "Other Income: Dec 31 2024 = 758, Dec 31 2023 = 658, Sep 30 2024 = 804",
+        "Profit before income taxes: Dec 31 2024 = 9,670, Dec 31 2023 = 8,619, Sep 30 2024 = 9,253",
+        "Income tax expense: Dec 31 2024 = 2,848, Dec 31 2023 = 2,506, Sep 30 2024 = 2,737",
+        "Net Profit (before minority interest): Dec 31 2024 = 6,822, Dec 31 2023 = 6,113, Sep 30 2024 = 6,516",
+        "Net Profit (after minority interest): Dec 31 2024 = 6,806, Dec 31 2023 = 6,106, Sep 30 2024 = 6,506",
+        "Basic EPS: Dec 31 2024 = 16.43, Dec 31 2023 = 14.76, Sep 30 2024 = 15.71",
+        "Diluted EPS: Dec 31 2024 = 16.39, Dec 31 2023 = 14.74, Sep 30 2024 = 15.68",
+        "Dividend Per Share: Sep 30 2024 = 21.00"
     ],
     "confidence_score": 0.95,
     "image_citation": "extracted_assets\\fact-sheet_Q3_24-25\\vector_graphics\\page4_vector.png",
     "token_usage": {
-        "prompt_tokens": 26779,
-        "completion_tokens": 706,
-        "total_tokens": 27485
+        "prompt_tokens": 2043,
+        "completion_tokens": 938,
+        "total_tokens": 2981
     }
 }

@@ -1,22 +1,27 @@
 {
     "file_name": "arxiv2",
     "page_number": 16,
-    "image_title": "Feedback Questionnaire Results Comparison",
+    "image_title": "Comparison of Template-based and LLM-based Responses",
     "image_keywords": [
-        "Feedback questionnaire",
-        "template-based",
+        "Template-based",
         "LLM-based",
         "Likert scale",
-        "user study",
-        "planning"
+        "questions",
+        "p-value",
+        "plan improvement",
+        "difficulty reduction",
+        "goal selection",
+        "confidence",
+        "satisfaction",
+        "task ease"
     ],
-    "summary": "This line chart compares feedback questionnaire results between two groups: template-based and LLM-based approaches. It displays the distribution and mean scores of various questions answered on a Likert scale from 1 to 7. Key metrics include the effectiveness of questions in improving plans, reducing difficulty, and user confidence in goal selection. The LLM-based method significantly outperforms the template-based method in helping participants with their plans and reducing difficulty, as indicated by the varying mean scores and confidence intervals across the questions.",
+    "summary": "This bar chart compares responses to various questions using Template-based and LLM-based methods, measured on a Likert scale from 1 to 7. The questions assess the impact of asking questions on goal selection, plan improvement, difficulty reduction, and overall satisfaction. Notable p-values indicate statistical significance, with questions about plan improvement and difficulty reduction showing significant differences (p-values of 0.01 and 0.02, respectively). The chart highlights differences in response patterns between the two methods, with Template-based responses generally showing more variability.",
     "table_rows": [],
-    "confidence_score": 0.9,
+    "confidence_score": 0.95,
     "image_citation": "extracted_assets\\arxiv2\\vector_graphics\\page16_vector.png",
     "token_usage": {
-        "prompt_tokens": 26779,
-        "completion_tokens": 164,
-        "total_tokens": 26943
+        "prompt_tokens": 1533,
+        "completion_tokens": 210,
+        "total_tokens": 1743
     }
 }

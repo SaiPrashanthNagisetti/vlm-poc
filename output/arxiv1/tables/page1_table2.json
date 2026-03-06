@@ -1,28 +1,28 @@
 {
     "file_name": "arxiv1",
     "page_number": 1,
-    "image_title": "Test Time Reinforcement Learning Evaluation",
+    "image_title": "Prediction and Verification Results Table",
     "image_keywords": [
-        "Reinforcement Learning",
-        "AIME",
-        "AMC",
-        "MATH500",
-        "data evaluation",
-        "reliability",
-        "skewed data"
+        "True Label",
+        "Sampled Predictions",
+        "Verification Results",
+        "Estimated Rewards",
+        "Estimated Label",
+        "Skewed",
+        "Reliable"
     ],
-    "summary": "This visual presents an evaluation of test time reinforcement learning methodologies, focusing on the reliability of different models as indicated by the AIME, AMC, and MATH500 metrics. The left section categorizes models A, B, C, and D, with B marked as skewed and C as reliable. The right section features a bar chart comparing performance metrics across models, with AIME showing a peak value of 31.6, AMC with a maximum of 17.8, and MATH500 reaching 5.5. The average performance across these metrics is also highlighted, indicating a trend of varying reliability and effectiveness among the models.",
+    "summary": "The table presents a comparison between sampled predictions and verification results for a classification task, highlighting the true label 'C'. It includes columns for sampled predictions and verification results, each with associated estimated rewards. The sampled predictions show a sequence of labels 'A', 'B', 'C', and 'D', with corresponding estimated rewards. Verification results confirm the reliability of label 'C' and indicate skewness in label 'B'. The table provides insights into the accuracy and reliability of predictions, with 'C' being marked as reliable and 'B' as skewed.",
     "table_rows": [
-        "Model A: 0 0 0 0 0",
-        "Model B: 0 1 1 0 0",
-        "Model C: 1 0 0 0 1",
-        "Model D: 0 0 1 0 0"
+        "Sampled Predictions: A = 0, A = 0, B = 1, B = 1, B = 1, C = 0, C = 0, D = 0",
+        "Estimated Rewards: A = 0, A = 0, B = 1, B = 1, B = 1, C = 0, C = 0, D = 0",
+        "Verification Results: A = 0, A = 0, B = 0, B = 0, B = 0, C = 1, C = 1, D = 0",
+        "Estimated Rewards: A = 0, A = 0, B = 0, B = 0, B = 0, C = 1, C = 1, D = 0"
     ],
-    "confidence_score": 0.9,
+    "confidence_score": 0.95,
     "image_citation": "extracted_assets\\arxiv1\\tables\\page1_table2.png",
     "token_usage": {
-        "prompt_tokens": 15445,
-        "completion_tokens": 268,
-        "total_tokens": 15713
+        "prompt_tokens": 1703,
+        "completion_tokens": 374,
+        "total_tokens": 2077
     }
 }

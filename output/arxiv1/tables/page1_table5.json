@@ -1,0 +1,21 @@
+{
+    "file_name": "arxiv1",
+    "page_number": 1,
+    "image_title": "Partial Bar Chart",
+    "image_keywords": [
+        "bar chart",
+        "data values",
+        "2,2",
+        "2,8",
+        "5,5"
+    ],
+    "summary": "This is a partial bar chart displaying a series of data values. The visible values include 2,2, 2,8, and 5,5, which likely represent different categories or time periods. The chart uses varying shades of blue to differentiate between the data points, suggesting a comparison of quantities or metrics. The exact context or axis labels are not visible, limiting the ability to fully interpret the chart's purpose or the specific variables being compared.",
+    "table_rows": [],
+    "confidence_score": 0.5,
+    "image_citation": "extracted_assets\\arxiv1\\tables\\page1_table5.png",
+    "token_usage": {
+        "prompt_tokens": 1533,
+        "completion_tokens": 152,
+        "total_tokens": 1685
+    }
+}

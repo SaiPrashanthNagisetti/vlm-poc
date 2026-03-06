@@ -1,0 +1,21 @@
+{
+    "file_name": "arxiv1",
+    "page_number": 1,
+    "image_title": "Vertical List Diagram",
+    "image_keywords": [
+        "y1",
+        "y2",
+        "y3",
+        "list",
+        "vertical"
+    ],
+    "summary": "The image is a vertical list diagram displaying a sequence of elements labeled as y1, y2, y3, and so on. Each element is represented in a colored box, with y1 and y3 in green and y2 in red, indicating a possible distinction or emphasis on y2. The diagram suggests a simple ordered list or sequence, potentially used for categorization or prioritization purposes.",
+    "table_rows": [],
+    "confidence_score": 0.9,
+    "image_citation": "extracted_assets\\arxiv1\\tables\\page1_table7.png",
+    "token_usage": {
+        "prompt_tokens": 1533,
+        "completion_tokens": 136,
+        "total_tokens": 1669
+    }
+}

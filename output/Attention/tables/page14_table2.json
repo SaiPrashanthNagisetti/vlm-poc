@@ -1,0 +1,22 @@
+{
+    "file_name": "Attention",
+    "page_number": 14,
+    "image_title": "Attention Heads Visualization",
+    "image_keywords": [
+        "attention heads",
+        "layer 5",
+        "anaphora resolution",
+        "head 5",
+        "word its",
+        "sharp attentions"
+    ],
+    "summary": "This diagram visualizes the attention heads in layer 5 of a neural network, specifically focusing on anaphora resolution. It highlights the attention distribution for the word 'its' across attention heads 5 and 6. The visualization shows sharp attention for this word, indicating its significance in the context. The diagram is part of a study on how attention mechanisms function in language models, with a specific focus on the phrase 'The Law will never be perfect, but its application should be just.'",
+    "table_rows": [],
+    "confidence_score": 0.9,
+    "image_citation": "extracted_assets\\Attention\\tables\\page14_table2.png",
+    "token_usage": {
+        "prompt_tokens": 1703,
+        "completion_tokens": 175,
+        "total_tokens": 1878
+    }
+}

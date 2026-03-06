@@ -2,19 +2,19 @@
   {
     "pdf": "arxiv2",
     "page": 1,
-    "text": "Exploring Plan Space through Conversation:\nAn Agentic Framework for LLM-Mediated\nExplanations in Planning\nGuilhem Fouilhé1, Rebecca Eifler2, Antonin Poché1,3,\nSylvie Thiébaux2,5, and Nicholas Asher1,4\nIRIT, Toulouse, France\n1\n6202\nLAAS-CNRS, Toulouse, France\n2\nIRT Saint Exupery, Toulouse, France\n3\nCNRS, Toulouse, France\n4\nAustralian National University, Canberra, Australia\n5\nraM\nWhenautomatingplangenerationforareal-worldsequential\nAbstract.\n2\ndecision problem, the goal is often not to replace the human planner,\nbuttofacilitateaniterativereasoningandelicitationprocess,wherethe\n]IA.sc[\nhuman’sroleistoguidetheAIplanneraccordingtotheirpreferencesand\nexpertise. In this context, explanations that respond to users’ questions\nare crucial to improve their understanding of potential solutions and\nincrease their trust in the system. To enable natural interaction with\nsuch a system, we present a multi-agent Large Language Model (LLM)\narchitecture that is agnostic to the explanation framework and enables\n1v07020.3062:viXra\nuser- and context-dependent interactive explanations. We also describe\nan instantiation of this framework for goal-conflict explanations, which\nweusetoconductauserstudycomparingtheLLM-poweredinteraction\nwith a baseline template-based explanation interface.\nConversational Explanations · AI Planning · LLM Agents\nKeywords:\n1 Introduction\nOne can think of planning as the task of finding a plan that satisfies a set of\nproperties, but also as the iterative process that starts before the goals, ob-\njectives, and preferences are fully defined [37], and ends when a plan is found\nthat is satisfactory for all parties involved. From this perspective, explanations\nserve the purpose of accelerating the convergence of preferences elicitation by\nhumans. Explanations are by nature interactive; an explanation is something\nthat one person (the explainer) does—it’s a speech act [34]— for the sake of\nanother (the explainee).\nButwhileinteractiveplanninghasbecomearelativelywell-acceptedparadigm,\nthe crucial role of interactive in that process has been less widely\nexplanations\ninvestigated.\nThe interactive process of finding suitable goals and constraints can go off\ntrackwhenagentAproposesapropertythatagentBrejects.TogetAtoaccept",
+    "text": "Exploring Plan Space through Conversation:\nAn Agentic Framework for LLM-Mediated\nExplanations in Planning\nGuilhem Fouilhé1, Rebecca Eifler2, Antonin Poché1,3,\nSylvie Thiébaux2,5, and Nicholas Asher1,4\nIRIT, Toulouse, France\n1\n6202\nLAAS-CNRS, Toulouse, France\n2\nIRT Saint Exupery, Toulouse, France\n3\nCNRS, Toulouse, France\n4\nAustralian National University, Canberra, Australia\n5\nraM\nWhenautomatingplangenerationforareal-worldsequential\nAbstract.\n2\ndecision problem, the goal is often not to replace the human planner,\nbuttofacilitateaniterativereasoningandelicitationprocess,wherethe\n]IA.sc[\nhuman’sroleistoguidetheAIplanneraccordingtotheirpreferencesand\nexpertise. In this context, explanations that respond to users’ questions\nare crucial to improve their understanding of potential solutions and\nincrease their trust in the system. To enable natural interaction with\nsuch a system, we present a multi-agent Large Language Model (LLM)\narchitecture that is agnostic to the explanation framework and enables\n1v07020.3062:viXra\nuser- and context-dependent interactive explanations. We also describe\nan instantiation of this framework for goal-conflict explanations, which\nweusetoconductauserstudycomparingtheLLM-poweredinteraction\nwith a baseline template-based explanation interface.\nConversational Explanations · AI Planning · LLM Agents\nKeywords:\n1 Introduction\nOne can think of planning as the task of finding a plan that satisfies a set of\nproperties, but also as the iterative process that starts before the goals, ob-\njectives, and preferences are fully defined [37], and ends when a plan is found\nthat is satisfactory for all parties involved. From this perspective, explanations\nserve the purpose of accelerating the convergence of preferences elicitation by\nhumans. Explanations are by nature interactive; an explanation is something\nthat one person (the explainer) does—it’sa speech act [34]— for the sake of\nanother (the explainee).\nButwhileinteractiveplanninghasbecomearelativelywell-acceptedparadigm,\nthe crucial role of interactive in that process has been less widely\nexplanations\ninvestigated.\nThe interactive process of finding suitable goals and constraints can go off\ntrackwhenagentAproposesapropertythatagentBrejects.TogetAtoaccept",
     "keywords": [
-      "llm",
-      "explanation",
-      "interactive",
-      "france",
-      "explanations",
-      "toulouse france",
-      "planning",
       "framework",
+      "toulouse",
       "preferences",
       "process",
-      "toulouse",
+      "interactive",
+      "planning",
+      "toulouse france",
+      "france",
+      "llm",
+      "explanation",
+      "explanations",
       "plan"
     ],
     "visual_summaries": []
@@ -24,18 +24,18 @@
     "page": 2,
     "text": "2 G. Fouilhé et al.\nNaturalLanguage FormalLanguage\nQuestion Question\nComputation\nTranslator\nAgents\nAgents\nPlanner\nLLMs\nExplanation Explanation\nUser\nExplainer\nFig.1: Architecture of our approach to interactive planning with explanations.\nTranslator agents based on LLMs translate the user input into the formal lan-\nguage required by the computation agents.\nthis judgment, B can explain why the property can’t be included in the plan.\nOr A may request an explanation from B to clear up their conceptual problem\n[2,1]. Explanations can get the interactive process back on track.\nHowever, fixing a conceptual problem may not be a one-shot deal; it may\ntake several interactions to arrive at an explanation that is satisfactory for the\nexplainee.Suchinteractionisbeneficial;previousworkinpsychologyandhuman-\nmachineinteraction[25,9,24,44]providesevidencethatinteractiveexplanations\nare more interpretable and effective than static ones [28].\nExplanations between humans are interactive; hence, to provide appropriate\nexplanations,weneedconversationalcapacitiesthatsupportaninitialrequestfor\nanexplanation,aswellasfollow-upquestionsandremarks,inaconversationally\nfluid manner. State-of-the-art LLMs address this need; symbolic planners, even\nwhencoupledwithatemplateinterface,cannotmatchtheirfluencyorflexibility\nin translating natural language into formal languages.\nLLMscannotdoeverything.Theycannothandlethefullinteractiveplanning\ntask. [42,7] provide empirical evidence that LLMs cannot reliably perform com-\nplex planning tasks independently, despite remarkable progress with reasoning\nmodels,and[31]givestheoreticalreasonstosuspectmodelsusingcurrenttrans-\nformer architectures never will. Our work extends the view of [21] that LLMs\ncan nevertheless serve valuable supporting roles in a hybrid planning system.\nFigure1,showshowweintegrateLLMsintotheplanningprocesswhiledelegat-\ningthecorecomputationalplanningtaskstospecializedalgorithmsdesignedfor\nthat purpose.\nTo enable reliable natural interactions between users and planning systems,\nwe need to accommodate different ways in which a user formulates their ques-\ntion.Tothisend,weleverageLLMsinseveraldistinctroles:asaclassifierofthe\nquestion type, as a translator of the question topic, and as a question suggester\nthatgeneratesexamplerelevantquestionstohelpusersarticulatetheirinforma-\ntion needs. These LLM agents can then query an explanation system that can\nproduce a formal explanation. To deliver this explanation to the user, we use\nan LLM as an explanation translator. It converts this formal explanation into a\nnatural language response that can serve as the basis for an extended dialogue,\nin which the original explanation is refined to meet the user’s needs.",
     "keywords": [
-      "explanation",
-      "user",
-      "interactive",
-      "need",
-      "planning",
-      "explanations",
-      "translator",
       "llms",
-      "formal",
-      "agents",
+      "question",
       "natural",
-      "question"
+      "agents",
+      "user",
+      "explanation",
+      "translator",
+      "planning",
+      "interactive",
+      "formal",
+      "explanations",
+      "need"
     ],
     "visual_summaries": []
   },
@@ -44,57 +44,57 @@
     "page": 3,
     "text": "Exploring Plan Space through Conversation 3\nOur evaluation, based on a user study with lay participants, focuses on hu-\nman perception and objective improvements at helping individuals to achieve a\nplanning task.\nOur contributions are the following :\nWe formalize a framework for iterative planning with natural language ques-\n–\ntions and explanations (Section 3).\nWeinstantiatethisframeworkwithgoal-conflictexplanations[13]andextend\n–\nthe diversity of questions that can be handled with the latter (Section 4).\nWe introduce an LLM-based implementation of our framework for natural\n–\nlanguage interaction (Section 5).\nWeevaluateandvalidateourframeworkinauserstudy,comparingourLLM-\n–\nbased interface with a template-based baseline (Section 6).\n2 Background\n2.1 Conversational Explanations\nSocial science and XAI research suggest explanations are most effective when\ndelivered conversationally or interactively. Other methods have been proposed\nforinteractiveexplanations[30,35,36,41,15,5];theyemployasimilarhigh-level\narchitecture, as shown in Figure 1, but none of them are specifically designed\nfor planning systems.\n2.2 Multi-Agent LLM Approaches\nMulti-agent LLM approaches involve multiple LLMs working collaboratively\nto solve complex tasks [18]. These systems typically leverage individual LLM\nstrengths by assigning specific roles to each agent, allowing for specialization\nand improved performance through in-context learning tailored to particular\nfunctions.\nWhile a single LLM can be fine-tuned for complex planning tasks, this faces\nkey challenges: insufficient task-specific training data and limited generalization\nbeyond the training distribution. To address these limitations, we propose de-\ncomposing complex tasks into specialized subtasks handled by different LLM\nagents working in concert. This architecture leverages LLMs’ natural strengths\nin language understanding and translation while mitigating their weaknesses in\ncomplex reasoning tasks. Such approaches often show significant performance\ngains over single-agent approaches, resulting in a \"greater-than-the-sum-of-its-\nparts\" system [33,6].\n2.3 Planning Formalism\nWedefinealiftedplanningtaskasatupleτ =⟨P,O,A,I,G⟩whereP isafinite\nset of first-order predicates and a set of individual constants or names for\nO",
     "keywords": [
+      "natural",
       "approaches",
-      "llm",
-      "complex",
-      "planning",
-      "explanations",
-      "agent",
-      "language",
       "section",
-      "based",
+      "planning",
       "tasks",
+      "based",
+      "llm",
       "working",
-      "natural"
+      "explanations",
+      "complex",
+      "language",
+      "agent"
     ],
     "visual_summaries": []
   },
   {
     "pdf": "arxiv2",
     "page": 4,
-    "text": "4 G. Fouilhé et al.\nobjects. is a ground predicate or if all variables have been replaced by\nP atom\nindividualconstantsornamesobjects.ThegoalsGisasetofatoms.Astateis\na setof atoms; atomsnot in the setare assumed tobe false inthe state. is the\nI\nstate. Each action schema has a list of parameter variables\ninitial A ∈ A X\nA\nand a , an and a which are\nprecondition pre add list add delete list del\nA A\nA\nsetsofpredicatesfromP whereallvariablesarereplacedbyanelementinX ∪O.\nA\nWeobtaina(ground)actionafromanactionschemaAbyreplacingallvariables\nin , , and with an object from O. A action is\nX pre add del a applicable\nA A A\nA\nin a state if and denotes the set of all applicable actions in s.\ns pre ⊆ s A(s)\na\nApplying action in state s, results in the state . The\na s a (s\\del )∪add\n=\na a\nstateresultingfromaniterativelyapplicablesequen(cid:74)ce(cid:75)ofactionsπ=⟨a\n,...,a ⟩\nn\n1\nis denoted by . A is an action sequence such that . A task\ns π plan π G⊆I π\nif(cid:74)a(cid:75)plan plans(cid:74)fo(cid:75)r\nis exists. By we denote the set of all task\nτ solvable Π(τ) τ\nand by we denote the task\nτ(G′) τ′=⟨P,O,A,I,G′⟩\n2.4 Goal-Conflict Explanations\nIn the following, we consider a setting similar to oversubscription planning [38,\n11],wherenotallgoalscanbesatisfied,forexample,duetoinsufficientresources.\nWithin this framework, the objective is to find a subset of goals that maximizes\nutility;here,weexaminetheconflictsbetweenasetofreferencegoalsGref.Fora\ntaskτ,theseconflictsandpossibleresolutionsaregivenbyminimalunsolvable\n(MUS) [13] and (MCS) respectively.\nsubsets minimal correction sets\nDefinition 1 (Minimal Unsolvable Subset (MUS)). A set of goals C ⊆\nGref\nis a MUS if τ(C) is unsolvable but for all G⊂C, τ(G) is solvable.\nR⊆Gref\nDefinition 2 (Minimal Correction Set (MCS)). A set of goals is\nτ(Gref\\R) τ(Gref\\G)\na MCS if is solvable but for all G⊂R, is unsolvable.\nBy and we denote the set of all MUS and MCS\nGMUS(τ,Gref) GMCS(τ,Gref)\nfortaskτ withrespecttothereferencegoalsGref.Bothsetscanbeexponentially\nlargewhen|Gref|increases.ThefollowingrelationholdsbetweenMUSandMCS\nover the same set of goals G: GMCS(τ,G)=HIT(GMUS(τ,G)), where is\nHIT(S)\nthe set of all minimal hitting sets of the sets in S. For algorithms to compute\nwe refer to [13,14].\nGMUS(τ,G)\n2.5 Temporal Goals\n[14]introducedalgorithmsthatemployacompilationapproachtocomputecon-\nflictsovergoalfactsandtemporalplanproperties.Suchpropertiesaredescribed\nusingLinearTemporalLogiconfinitetraces(LTL)overatoms[10].Ourframe-\nf\nwork also supports temporal goals and bridges a gap with previous work by en-\nabling natural language-based temporal goal creation. Translating natural lan-\nguage to LTL or LTL has been explored with different approaches [3]. More\nf\nrecently, prompting-based LLM methods implement tools such as [16],\nNL2LTL",
+    "text": "4 G. Fouilhé et al.\nobjects. is a ground predicate or if all variables have been replaced by\nP atom\nindividualconstantsornamesobjects.ThegoalsGisasetofatoms.Astateis\na setof atoms; atomsnot in the setare assumed tobe false inthe state. is the\nI\nstate. Each action schema has a list of parameter variables\ninitial A ∈ AXA\nand a , an and a which are\nprecondition pre add list add delete list del\nAAA\nsetsofpredicatesfromP whereallvariablesarereplacedbyanelementinX ∪O.\nA\nWeobtaina(ground)actionafromanactionschemaAbyreplacingallvariables\nin , , and with an object from O. A action is\nX pre add del a applicable\nAAAA\nin a state if and denotes the set of all applicable actions in s.\ns pre ⊆ sA(s)\na\nApplying action in state s, results in the state . The\nasa (s\\del )∪add\n=\naa\nstateresultingfromaniterativelyapplicablesequen(cid:74)ce(cid:75)ofactionsπ=⟨a\n,...,a ⟩\nn\n1\nis denoted by . A is an action sequence such that . A task\ns π plan π G⊆I π\nif(cid:74)a(cid:75)plan plans(cid:74)fo(cid:75)r\nis exists. By we denote the set of all task\nτ solvable Π(τ) τ\nand by we denote the task\nτ(G′) τ′=⟨P,O,A,I,G′⟩\n2.4 Goal-Conflict Explanations\nIn the following, we consider a setting similar to oversubscription planning [38,\n11],wherenotallgoalscanbesatisfied,forexample,duetoinsufficientresources.\nWithin this framework, the objective is to find a subset of goals that maximizes\nutility;here,weexaminetheconflictsbetweenasetofreferencegoalsGref.Fora\ntaskτ,theseconflictsandpossibleresolutionsaregivenbyminimalunsolvable\n(MUS) [13] and (MCS) respectively.\nsubsets minimal correction sets\nDefinition 1 (Minimal Unsolvable Subset (MUS)). A set of goals C ⊆\nGref\nis a MUS if τ(C) is unsolvable but for all G⊂C, τ(G) is solvable.\nR⊆Gref\nDefinition 2 (Minimal Correction Set (MCS)). A set of goals is\nτ(Gref\\R) τ(Gref\\G)\na MCS if is solvable but for all G⊂R, is unsolvable.\nBy and we denote the set of all MUS and MCS\nGMUS(τ,Gref) GMCS(τ,Gref)\nfortaskτ withrespecttothereferencegoalsGref.Bothsetscanbeexponentially\nlargewhen|Gref|increases.ThefollowingrelationholdsbetweenMUSandMCS\nover the same set of goals G: GMCS(τ,G)=HIT(GMUS(τ,G)), where is\nHIT(S)\nthe set of all minimal hitting sets of the sets in S. For algorithms to compute\nwe refer to [13,14].\nGMUS(τ,G)\n2.5 Temporal Goals\n[14]introducedalgorithmsthatemployacompilationapproachtocomputecon-\nflictsovergoalfactsandtemporalplanproperties.Suchpropertiesaredescribed\nusingLinearTemporalLogiconfinitetraces(LTL)overatoms[10].Ourframe-\nf\nwork also supports temporal goals and bridges a gap with previous work by en-\nabling natural language-based temporal goal creation. Translating natural lan-\nguage to LTL or LTL has been explored with different approaches [3]. More\nf\nrecently, prompting-based LLM methods implement tools such as [16],\nNL2LTL",
     "keywords": [
-      "gref",
-      "minimal",
-      "mus",
-      "pre",
-      "set",
-      "action",
-      "task",
       "goals",
-      "mcs",
       "cid",
       "state",
-      "add"
+      "action",
+      "minimal",
+      "gref",
+      "add",
+      "sets",
+      "mcs",
+      "set",
+      "task",
+      "mus"
     ],
     "visual_summaries": []
   },
   {
     "pdf": "arxiv2",
     "page": 5,
-    "text": "Exploring Plan Space through Conversation 5\na template-based classifier, [27], which works without templates and\nLang2LTL\nonlyprovidestheavailableliteralstotheLLM,andnl2spec[8],whichaddresses\nsub-formulas iteratively to counteract ambiguities.\nis the set of well-formed LTL formulas of task τ.\nL(τ)\nf\n2.6 Running Example\nTo illustrate the different concepts of our framework, we introduce a small run-\nning example based on the Parents’ Afternoon task used in the user study de-\ntailedinSec.6.Weintroducethreegoalswithconflictingpriorities:shopping(S),\ncooking dinner (C), and taking the kids to their sports match (M). The match\nand cooking are both evening activities, leading to a conflict between the two\ngoals. Formally, the reference goals are {S,C,M}, there is one MUS:\nGref\n=\nex\n(cid:8) (cid:9), (cid:8) (cid:9).\nand two MCS:\nGMUS GMCS\n{C,M} {C},{M}\n= =\nex ex\n3 Iterative Planning with Natural Language\nIn this section, we provide an abstract description of iterative planning with\nconversation. We define a generic framework for iterative planning with expla-\nnations, focusing on user interaction points.\nIn our framework, users refine their preferences through iterative steps (Def-\ninition 3). Each step is associated with a solution plan if it exists. In a step, the\nuser can ask questions (5) to refine or modify the current plan. As seen earlier,\nquestionshavebothatypeandatopic.Intherestofthispaper,wewillconsider\nas question topics. The question is translated (6) to a particular type and\ngoals\nlinked to a formal goal (4), which may or may not already be known to the\nsystem. Once the system has a formal goal and a question type, it computes a\nformal explanation and translates it (8) into natural language for the user.\nMoreformally,theiterativeprocessofdeterminingafinalplanisdividedinto\nindividual steps. Each step represents one snapshot of the user’s exploration\nδ\ni\nof the plan space, defined by a set of reference goals Gref, a set of enforced goals\ni\n⊆Gref, and a sample plan satisfying Genf:\nGenf\nπ\ni\ni i i\nDefinition 3 (Iteration Step). Given a planning task τ, an iteration step\n⟨Gref,Genf,π⟩, Gref\nis a tuple δ where is a set of (temporal) goals for τ,\n=\nGenf ⊆Gref, ∈Π(τ(Genf)) τ(Genf)\nand π if is solvable and π =ϵ otherwise.\nBased on previous plans , the user defines the set of reference goals\nGref\nπ\ni\ni+1\nfor the next step, representing the goals and preferences they want the plan to\nsatisfy.TheuseralsoselectsasubsetofgoalsGenf thatmustbesatisfied\n⊆Gref\ni+1 i+1\nby the sample plan in the next iteration.\nπ\ni+1\nThereferencegoalsmustbedefinedinalanguagetheplannerunderstands.\nGoals\nFor this we use LTL. However, this language is not suitable for a lay person as\nf\nan input language. Thus, we require a goal translator.6\nIn the code now, we use only simple LTL formulas consisting of an atom modified\n6\nby temporal or negation operators.",
+    "text": "Exploring Plan Space through Conversation 5\na template-based classifier, [27], which works without templates and\nLang2LTL\nonlyprovidestheavailableliteralstotheLLM,andnl2spec[8],whichaddresses\nsub-formulas iteratively to counteract ambiguities.\nis the set of well-formed LTL formulas of task τ.\nL(τ)\nf\n2.6 Running Example\nTo illustrate the different concepts of our framework, we introduce a small run-\nning example based on the Parents’ Afternoon task used in the user study de-\ntailedinSec.6.Weintroducethreegoalswithconflictingpriorities:shopping(S),\ncooking dinner (C), and taking the kids to their sports match (M). The match\nand cooking are both evening activities, leading to a conflict between the two\ngoals. Formally, the reference goals are {S,C,M}, there is one MUS:\nGref\n=\nex\n(cid:8) (cid:9), (cid:8) (cid:9).\nand two MCS:\nGMUS GMCS\n{C,M} {C},{M}\n= =\nex ex\n3 Iterative Planning with Natural Language\nIn this section, we provide an abstract description of iterative planning with\nconversation. We define a generic framework for iterative planning with expla-\nnations, focusing on user interaction points.\nIn our framework, users refine their preferences through iterative steps (Def-\ninition 3). Each step is associated with a solution plan if it exists. In a step, the\nuser can ask questions (5) to refine or modify the current plan. As seen earlier,\nquestionshavebothatypeandatopic.Intherestofthispaper,wewillconsider\nas question topics. The question is translated (6) to a particular type and\ngoals\nlinked to a formal goal (4), which may or may not already be known to the\nsystem. Once the system has a formal goal and a question type, it computes a\nformal explanation and translates it (8) into natural language for the user.\nMoreformally,theiterativeprocessofdeterminingafinalplanisdividedinto\nindividual steps. Each step represents one snapshot of the user’s exploration\nδ\ni\nof the plan space, defined by a set of reference goals Gref, a set of enforced goals\ni\n⊆Gref, and a sample plan satisfying Genf:\nGenf\nπ\niiii\nDefinition 3 (Iteration Step). Given a planning task τ, an iteration step\n⟨Gref,Genf,π⟩, Gref\nis a tuple δ where is a set of (temporal) goals for τ,\n=\nGenf ⊆Gref, ∈Π(τ(Genf)) τ(Genf)\nand π if is solvable and π =ϵ otherwise.\nBased on previous plans , the user defines the set of reference goals\nGref\nπ\nii+1\nfor the next step, representing the goals and preferences they want the plan to\nsatisfy.TheuseralsoselectsasubsetofgoalsGenf thatmustbesatisfied\n⊆Gref\ni+1 i+1\nby the sample plan in the next iteration.\nπ\ni+1\nThereferencegoalsmustbedefinedinalanguagetheplannerunderstands.\nGoals\nFor this we use LTL. However, this language is not suitable for a lay person as\nf\nan input language. Thus, we require a goal translator.6\nIn the code now, we use only simple LTL formulas consisting of an atom modified\n6\nby temporal or negation operators.",
     "keywords": [
-      "gref",
+      "iterative",
+      "goals",
+      "language",
+      "cid",
+      "iteration",
       "user",
+      "gref",
       "step",
       "planning",
-      "genf",
       "set",
-      "language",
-      "goals",
-      "task",
-      "iterative",
-      "cid",
+      "genf",
       "plan"
     ],
     "visual_summaries": []
@@ -102,19 +102,19 @@
   {
     "pdf": "arxiv2",
     "page": 6,
-    "text": "6 G. Fouilhé et al.\nDefinition 4 (Goal Translator). Given a task τ with well-formed temporal\ngoals L(τ), a goal translator is a function T NL (cid:55)→ L(τ)∪ϵ, that maps\n:\nG\na natural language input to a goal ϕ ∈ L(τ) and to ϵ if the natural language\ndescription does not describe a goal represented by any formula in L(τ).\nInourrunningexampleofSection2.6,thegoaltranslatorallowsustocreate\na new goal, converting e.g. \"never bring kids shopping\" to \"□¬at(kid,store)\".\nThis new goal adds a constraint to the planner and subject to questions.\nAmoreadvancedgoaltranslatorcouldincludeafeedbackloopwiththeuser\nto recover from misunderstandings or alert them about similar goals already\nbeing considered. These features rely on the interaction context, which captures\nprevious interactions.\nExplanationshelptheuserdecidewhichgoalstoenforceinthenextiteration.\nThey can clarify the model [39], identify trade-offs between plan quality mea-\nsures [22], or improve understanding of dependencies between the goals, which\nis the focus of this paper. Explanations are provided as answers to specific user\nquestions. Depending on whether the enforced goals are (i) satisfiable —a\nGenf\ni\nsample plan exists— or (ii) unsolvable, the user’s questions will differ: given (i),\nthey may ask how the sample plan solves the task; given (ii), they will ask why\ncannot be satisfied.\nGenf\ni\nFormally, we define a question as follows.\nQuestions\nDefinition 5 (Question). Given a task τ and a set of question types M , a\nQ\nquestion is a tuple Q ⟨µ ,args⟩ where µ ∈ M is the question type and\n=\nQ Q Q\nargs⊆℘(L(τ)) (the powerset of L(τ)) are the question arguments.\nThe question types depend on the explanation framework. In Section 4\nM\nQ\nweintroducethetypesourframeworksupports.Anexampleisµ =S-why-not,\nQ\ni.e. “Why is not satisfied by plan π?”, which requires one argument. Roughly,\ng\neach question word in natural language, e.g. maps to a\nwho, what, why, how\ndifferent type of question.\nThisisthesecondpointofinteraction.Again,werequireatranslatortoallow\nthe user to ask their question in natural language, which is then translated into\na formal question.\nDefinition 6 (Question Translator). Given a task τ, and a set of question\ntypes M , a question translator is a function T :NL(cid:55)→(M ×℘(L(τ)))∪ϵ,\nQ Q Q\nthat maps a natural language expression to a question type and its arguments\nand to ϵ if no matching question type exists.\nIn our running example introduced in Section 2.6, the question translator\nwould map \"Do I have the time to buy shoes\" to \"S-can{S}\". Simultaneously\nclassifying the question type and mapping the arguments to a known goal. See\n4 for question types details.\nQuestion translation can be divided into two steps. First, the question type\nis identified. Then, the question topic, i.e. the arguments, are translated. The\ngoal translator can perform this last step, as the translation tasks are the same.",
+    "text": "6 G. Fouilhé et al.\nDefinition 4 (Goal Translator). Given a task τ with well-formed temporal\ngoals L(τ), a goal translator is a function T NL (cid:55)→ L(τ)∪ϵ, that maps\n:\nGa natural language input to a goal ϕ ∈ L(τ) and to ϵ if the natural language\ndescription does not describe a goal represented by any formula in L(τ).\nInourrunningexampleofSection2.6,thegoaltranslatorallowsustocreate\na new goal, converting e.g. \"never bring kids shopping\" to \"□¬at(kid,store)\".\nThis new goal adds a constraint to the planner and subject to questions.\nAmoreadvancedgoaltranslatorcouldincludeafeedbackloopwiththeuser\nto recover from misunderstandings or alert them about similar goals already\nbeing considered. These features rely on the interaction context, which captures\nprevious interactions.\nExplanationshelptheuserdecidewhichgoalstoenforceinthenextiteration.\nThey can clarify the model [39], identify trade-offs between plan quality mea-\nsures [22], or improve understanding of dependencies between the goals, which\nis the focus of this paper. Explanations are provided as answers to specific user\nquestions. Depending on whether the enforced goals are (i) satisfiable —a\nGenf\ni\nsample plan exists— or (ii) unsolvable, the user’s questions will differ: given (i),\nthey may ask how the sample plan solves the task; given (ii), they will ask why\ncannot be satisfied.\nGenf\ni\nFormally, we define a question as follows.\nQuestions\nDefinition 5 (Question). Given a task τ and a set of question types M , aQ\nquestion is a tuple Q ⟨µ ,args⟩ where µ ∈ M is the question type and\n=\nQQQ\nargs⊆℘(L(τ)) (the powerset of L(τ)) are the question arguments.\nThe question types depend on the explanation framework. In Section 4\nMQ\nweintroducethetypesourframeworksupports.Anexampleisµ =S-why-not,\nQi.e. “Why is not satisfied by plan π?”, which requires one argument. Roughly,\ng\neach question word in natural language, e.g. maps to a\nwho, what, why, how\ndifferent type of question.\nThisisthesecondpointofinteraction.Again,werequireatranslatortoallow\nthe user to ask their question in natural language, which is then translated into\na formal question.\nDefinition 6 (Question Translator). Given a task τ, and a set of question\ntypes M , a question translator is a function T :NL(cid:55)→(M ×℘(L(τ)))∪ϵ,\nQQQ\nthat maps a natural language expression to a question type and its arguments\nand to ϵ if no matching question type exists.\nIn our running example introduced in Section 2.6, the question translator\nwould map \"Do I have the time to buy shoes\" to \"S-can{S}\". Simultaneously\nclassifying the question type and mapping the arguments to a known goal. See\n4 for question types details.\nQuestion translation can be divided into two steps. First, the question type\nis identified. Then, the question topic, i.e. the arguments, are translated. The\ngoal translator can perform this last step, as the translation tasks are the same.",
     "keywords": [
-      "natural language",
-      "type",
-      "question type",
-      "question types",
-      "translator",
-      "language",
-      "given",
-      "goals",
-      "goal",
-      "natural",
       "question",
+      "given",
+      "natural",
+      "natural language",
+      "goal",
+      "translator",
+      "type",
+      "arguments",
+      "question type",
+      "language",
+      "task",
       "plan"
     ],
     "visual_summaries": []
@@ -122,19 +122,19 @@
   {
     "pdf": "arxiv2",
     "page": 7,
-    "text": "Exploring Plan Space through Conversation 7\nA context-dependent question translator with access to previous questions\nenablesfollow-upswithimplicitreferences.Forexample,in“WhycanInotvisit\nAlice?” and“Canyouenforceit?”,thevisitedlocationoreventheentirequestion\nargument depends on the context.\nIn a pilot user study, lay users often struggled to formu-\nSelecting Questions\nlate questions. As a result, they made less use of the explanation interface than\nintended and produced only a narrow range of questions. This suggests that a\ncrucial task for an explanation interface is to support users in generating mean-\ningful, diverse inquiries, for instance, by suggesting questions. While allowing\nusers to ask any natural language question is a desirable feature of a conver-\nsational interface, it can increase cognitive load [29]. The Question Suggester\nprovides a sample of relevant questions to mitigate this.\nDefinition 7 (Question Suggester). A Question Suggester is a function\nNLk\nS δ (cid:55)→ that maps a given iteration step to k relevant natural language\n:\nQ\nquestions.\nTheexplanationframeworkcomputesasetofformalexplanations\nExplanations\nbased on the translated question and additional required\nE(Q) Q ⟨µ ,args⟩\n=\nQ\ndata, such as the planning task and the current iteration step . We do\nτ δ\ni\nnot place any restrictions on the exact format or language of an explanation\n∈explanations(Q), and will refer to the language as . However, we assume\nE L\nE\nthat each explanation is sufficient in itself to answer the question.\nE ∈ E(Q)\nis regarded as a selection of possible explanations.\nE(Q)\nThese explanations must be communicated to the user, and thus, we again\nneed a translator function.\nDefinition 8 (Explanation Translator). An explanation translator is a\nfunction T :℘(L(E))(cid:55)→NL, that maps a set of formal explanations to a natural\nE\nlanguage explanation.\nAs an example of goal-conflict explanations, following the running example:\nsuppose the current iteration step achieves goal M. The question “How can I\nfindtimetocookdinner?”,translatedas⟨S-how,{C}⟩,yieldsE(⟨S-how,{C}⟩)=\n{{M}}.ThismeansthatC isachievableonlyifatleastM isdroppedinthenext\niteration step. Hence, an explanation translator would respond: “You’d need to\ncancel the sports match.”. How this explanation is computed is detailed in the\nnext section.\nThis is a simple version of an explanation translator that does not provide\nuser-orcontext-dependenttranslation.User-dependenttranslationiscrucialfor\ncustomizing the vocabulary to the user and providing an answer with the ex-\npected level of detail. Incorporating the interaction context can have several\nbenefits, from the possibility of asking follow-up questions, which naturally in-\ncreasesinteractivity,totheinclusionofpreviousinteractionsintheselectionand\nsummarization of explanations.",
+    "text": "Exploring Plan Space through Conversation 7\nA context-dependent question translator with access to previous questions\nenablesfollow-upswithimplicitreferences.Forexample,in“WhycanInotvisit\nAlice?” and“Canyouenforceit?”,thevisitedlocationoreventheentirequestion\nargument depends on the context.\nIn a pilot user study, lay users often struggled to formu-\nSelecting Questions\nlate questions. As a result, they made less use of the explanation interface than\nintended and produced only a narrow range of questions. This suggests that a\ncrucial task for an explanation interface is to support users in generating mean-\ningful, diverse inquiries, for instance, by suggesting questions. While allowing\nusers to ask any natural language question is a desirable feature of a conver-\nsational interface, it can increase cognitive load [29]. The Question Suggester\nprovides a sample of relevant questions to mitigate this.\nDefinition 7 (Question Suggester). A Question Suggester is a function\nNLk\nS δ (cid:55)→ that maps a given iteration step to k relevant natural language\n:\nQ\nquestions.\nTheexplanationframeworkcomputesasetofformalexplanations\nExplanations\nbased on the translated question and additional required\nE(Q) Q ⟨µ ,args⟩\n=\nQ\ndata, such as the planning task and the current iteration step . We do\nτ δ\ni\nnot place any restrictions on the exact format or language of an explanation\n∈explanations(Q), and will refer to the language as . However, we assume\nELE\nthat each explanation is sufficient in itself to answer the question.\nE ∈ E(Q)\nis regarded as a selection of possible explanations.\nE(Q)\nThese explanations must be communicated to the user, and thus, we again\nneed a translator function.\nDefinition 8 (Explanation Translator). An explanation translator is a\nfunction T :℘(L(E))(cid:55)→NL, that maps a set of formal explanations to a natural\nE\nlanguage explanation.\nAs an example of goal-conflict explanations, following the running example:\nsuppose the current iteration step achieves goal M. The question “How can I\nfindtimetocookdinner?”,translatedas⟨S-how,{C}⟩,yieldsE(⟨S-how,{C}⟩)=\n{{M}}.ThismeansthatC isachievableonlyifatleastM isdroppedinthenext\niteration step. Hence, an explanation translator would respond: “You’d need to\ncancel the sports match.”. How this explanation is computed is detailed in the\nnext section.\nThis is a simple version of an explanation translator that does not provide\nuser-orcontext-dependenttranslation.User-dependenttranslationiscrucialfor\ncustomizing the vocabulary to the user and providing an answer with the ex-\npected level of detail. Incorporating the interaction context can have several\nbenefits, from the possibility of asking follow-up questions, which naturally in-\ncreasesinteractivity,totheinclusionofpreviousinteractionsintheselectionand\nsummarization of explanations.",
     "keywords": [
-      "question suggester",
-      "explanation",
-      "user",
-      "step",
-      "explanations",
-      "questions",
-      "translator",
-      "language",
-      "iteration",
       "explanation translator",
       "question",
+      "iteration",
+      "user",
+      "step",
+      "explanation",
+      "translator",
+      "suggester",
+      "questions",
+      "language",
+      "explanations",
       "iteration step"
     ],
     "visual_summaries": []
@@ -142,39 +142,39 @@
   {
     "pdf": "arxiv2",
     "page": 8,
-    "text": "8 G. Fouilhé et al.\nThe explanation framework provides a set of explana-\nSelecting Explanations\ntions, each of which addresses the question independently. It may be prefer-\nQ\nable to convey multiple explanations Eˆ E(Q), in cases where the effect has\n⊆\nmultiple sufficient causes, neither of which is necessary (over-determination). In\ncases without over-determination, some causes or properties will not be as rele-\nvantasothersormaynotfitintotheinteractioncontext.Inlinewiththeinsight\nfrom social science [28] that humans tend to select small, relevant explanations\ngiven the context, using only a subset of explanations can be advantageous.\nOftenthesizeoftheexplanationsischosenasselectioncriteria[4].[20]selects\nexplanations based on an upstream or interleaved process to collect a\npreferred\npreference ranking over the goals.\nIncasethemodelreturnsalargesetofexplanations\nSummarizing Explanations\nand these are at different levels and expressing their logical relation results in\nan overly lengthy response, it is often simpler to provide a summary of the\nexplanationsEˆ.Inlinewithhowhumansgiveexplanations[28],suchasummary\nshould convey only relevant information as effectively as possible in the given\ncontext. As for the explanation selection, the user questions can provide an\nindicationofthelevelofdetailexpected.Also,theinteractioncontextcanbeused\nto enable or facilitate the summarization by referring to previously addressed\nquestions or explanations.\nSelecting the correct abstraction level for the explanations [40], or only com-\nmunicatingviaapredefinedvocabulary[43]alsoleadstoasummarizationinthe\nsense of leaving out details that are not required or known.\n4 Richer Goal Conflict Explanations\nWeaddressthefollowingquestiontypes,allowingarichuserinteraction:US-why\n(Why is the task unsolvable?), (How can I make the task solvable?),\nUS-how\n(Why are not satisfied?), (What if I enforce args?),\nargs\nS-why-not S-what-if\n(Can be satisfied?), (How can be achieved?). This signif-\nargs args\nS-can S-how\nicantly extends the framework by [13] which focused on questions.\nS-why-not\nThesequestiontypeswerecollectedduringaninterviewconductedataman-\nufacturing company (Airbus) with the end-users of a future explainable plan-\nningsystem.WecallthisExplanationFrameworkwithConflictsandCorrections\n(EF ), in line with the fact that all answers are based on either the minimal\nCC\nconflicts (MUS) or minimal corrections (MCS) of the reference goals and\nGref\nthe arguments of the question.\nIn the following definitions, we assume the user asks questions about goals\nalready included in Gref. We list all supported question types and the corre-\nsponding formal explanations (prefaced by bullets). To clarify the meaning of\nthe question and answer, we include one possible natural language version of\nboth. As an input, we require the task τ, the iteration step\n⟨Gref,Genf,π⟩\nδ\n=\nand the question ,args⟩. The produced explanations are subsets\nQ ⟨µ E(Q)\n=\nQ\nof Gref, thus explanations’ formal language is =℘(L(τ)).\nL\nE",
+    "text": "8 G. Fouilhé et al.\nThe explanation framework provides a set of explana-\nSelecting Explanations\ntions, each of which addresses the question independently. It may be prefer-\nQ\nable to convey multiple explanations Eˆ E(Q), in cases where the effect has\n⊆\nmultiple sufficient causes, neither of which is necessary (over-determination). In\ncases without over-determination, some causes or properties will not be as rele-\nvantasothersormaynotfitintotheinteractioncontext.Inlinewiththeinsight\nfrom social science [28] that humans tend to select small, relevant explanations\ngiven the context, using only a subset of explanations can be advantageous.\nOftenthesizeoftheexplanationsischosenasselectioncriteria[4].[20]selects\nexplanations based on an upstream or interleaved process to collect a\npreferred\npreference ranking over the goals.\nIncasethemodelreturnsalargesetofexplanations\nSummarizing Explanations\nand these are at different levels and expressing their logical relation results in\nan overly lengthy response, it is often simpler to provide a summary of the\nexplanationsEˆ.Inlinewithhowhumansgiveexplanations[28],suchasummary\nshould convey only relevant information as effectively as possible in the given\ncontext. As for the explanation selection, the user questions can provide an\nindicationofthelevelofdetailexpected.Also,theinteractioncontextcanbeused\nto enable or facilitate the summarization by referring to previously addressed\nquestions or explanations.\nSelecting the correct abstraction level for the explanations [40], or only com-\nmunicatingviaapredefinedvocabulary[43]alsoleadstoasummarizationinthe\nsense of leaving out details that are not required or known.\n4 Richer Goal Conflict Explanations\nWeaddressthefollowingquestiontypes,allowingarichuserinteraction:US-why\n(Why is the task unsolvable?), (How can I make the task solvable?),\nUS-how\n(Why are not satisfied?), (What if I enforce args?),\nargs\nS-why-not S-what-if\n(Can be satisfied?), (How can be achieved?). This signif-\nargs args\nS-can S-how\nicantly extends the framework by [13] which focused on questions.\nS-why-not\nThesequestiontypeswerecollectedduringaninterviewconductedataman-\nufacturing company (Airbus) with the end-users of a future explainable plan-\nningsystem.WecallthisExplanationFrameworkwithConflictsandCorrections\n(EF ), in line with the fact that all answers are based on either the minimal\nCC\nconflicts (MUS) or minimal corrections (MCS) of the reference goals and\nGref\nthe arguments of the question.\nIn the following definitions, we assume the user asks questions about goals\nalready included in Gref. We list all supported question types and the corre-\nsponding formal explanations (prefaced by bullets). To clarify the meaning of\nthe question and answer, we include one possible natural language version of\nboth. As an input, we require the task τ, the iteration step\n⟨Gref,Genf,π⟩\nδ\n=\nand the question ,args⟩. The produced explanations are subsets\nQ ⟨µ E(Q)\n=\nQ\nof Gref, thus explanations’ formal language is =℘(L(τ)).\nLE",
     "keywords": [
-      "gref",
-      "minimal",
+      "multiple",
       "provide",
-      "explanations",
-      "questions",
-      "task",
       "goals",
-      "relevant",
-      "args",
       "selecting",
       "question",
-      "multiple"
+      "minimal",
+      "relevant",
+      "gref",
+      "args",
+      "questions",
+      "task",
+      "explanations"
     ],
     "visual_summaries": []
   },
   {
     "pdf": "arxiv2",
     "page": 9,
-    "text": "Exploring Plan Space through Conversation 9\n4.1 Unsolvable\nIf is unsolvable we support the following two question types:\nτ(Genf)\nUS-why: “Why is the task unsolvable?”\n–\nE(⟨US-why,∅⟩)=GMUS(τ,Genf)\nThe task is unsolvable because it is not possible to satisfy any of the conflicts\nin E(⟨US-why,∅⟩).\nUS-how: “How can I make the task solvable?”\n–\nE(⟨US-how,∅⟩)=GMCS(τ,Genf)\nTomakethetasksolvableyouhavetoforegooneofthegoalsetsinE(⟨US-how,∅⟩).\n4.2 Solvable\nIf is solvable, we support question types referring to goals not satis-\nτ(Genf)\nfied by the sample plan π. By we denote\nGtrue(π) Gref\n{ϕ ∈ | σ(π,I) |= ϕ}\n=\nthe goals satisfied by π, and by the goals not sat-\nGfalse(π) Gref \\Gtrue(π)\n=\nisfied by π. For all the following question types, the arguments must not be\nsatisfied by the current plan, i.e. Gfalse(π). Answers to question types\nargs ⊆\nuse the same information, but are phrased dif-\n{S-why-not,S-what-if,S-can}\nferently.\n∈GMUS(τ,Gref),C ⊆Gtrue(π)∪args})\nE(⟨µ ,args⟩)=min({C\\args| C\nQ\n⊆\nwhere filters the sets in that are subset-minimal.\n(S) S\nmin\n⊆\nS-why-not: “Why are not satisfied?”\n– args\nIf E(⟨S-why-not,args⟩)=∅:\n• args can be satisfied without foregoing any of\nthe already satisfied goals.\nIf ∅∈E(⟨S-why-not,args⟩):\n• The goals in args cannot be satisfied together.\nOtherwise:\n• There is a conflict between args and all the goal subsets in\nE(⟨S-why-not,args⟩).\nS-what-if: “What happens if we enforce args?”\n–\nIf ∅:\n• E(⟨S-what-if,args⟩) args can be satisfied without foregoing any\n=\ngoal satisfied by the plan.\nIf ∅∈E(⟨S-what-if,args⟩):\n• Then the problem would be unsolvable.\nOtherwise:YoucouldnolongersatisfyanyofthegoalsetsinE(⟨S-what-if,args⟩).\n•\nS-can: “Can be satisfied?”\n– args\nIn this yes/no question type, it is implicit that no currently satisfied goal\nshould be given up. This is supported by human planners’ sample responses,\nwhich never considered foregoing goals in Gtrue(π).\nIf E(⟨S-can,args⟩)=∅:\n• args can be satisfied.",
+    "text": "Exploring Plan Space through Conversation 9\n4.1 Unsolvable\nIf is unsolvable we support the following two question types:\nτ(Genf)\nUS-why: “Why is the task unsolvable?”\n–\nE(⟨US-why,∅⟩)=GMUS(τ,Genf)\nThe task is unsolvable because it is not possible to satisfy any of the conflicts\nin E(⟨US-why,∅⟩).\nUS-how: “How can I make the task solvable?”\n–\nE(⟨US-how,∅⟩)=GMCS(τ,Genf)\nTomakethetasksolvableyouhavetoforegooneofthegoalsetsinE(⟨US-how,∅⟩).\n4.2 Solvable\nIf is solvable, we support question types referring to goals not satis-\nτ(Genf)\nfied by the sample plan π. By we denote\nGtrue(π) Gref\n{ϕ ∈ | σ(π,I) |= ϕ}\n=\nthe goals satisfied by π, and by the goals not sat-\nGfalse(π) Gref \\Gtrue(π)\n=\nisfied by π. For all the following question types, the arguments must not be\nsatisfied by the current plan, i.e. Gfalse(π). Answers to question types\nargs ⊆\nuse the same information, but are phrased dif-\n{S-why-not,S-what-if,S-can}\nferently.\n∈GMUS(τ,Gref),C ⊆Gtrue(π)∪args})\nE(⟨µ ,args⟩)=min({C\\args| CQ\n⊆\nwhere filters the sets in that are subset-minimal.\n(S) S\nmin\n⊆\nS-why-not: “Why are not satisfied?”\n– args\nIf E(⟨S-why-not,args⟩)=∅:\n• args can be satisfied without foregoing any of\nthe already satisfied goals.\nIf ∅∈E(⟨S-why-not,args⟩):\n• The goals in args cannot be satisfied together.\nOtherwise:\n• There is a conflict between args and all the goal subsets in\nE(⟨S-why-not,args⟩).\nS-what-if: “What happens if we enforce args?”\n–\nIf ∅:\n• E(⟨S-what-if,args⟩) args can be satisfied without foregoing any\n=\ngoal satisfied by the plan.\nIf ∅∈E(⟨S-what-if,args⟩):\n• Then the problem would be unsolvable.\nOtherwise:YoucouldnolongersatisfyanyofthegoalsetsinE(⟨S-what-if,args⟩).\n•\nS-can: “Can be satisfied?”\n– args\nIn this yes/no question type, it is implicit that no currently satisfied goal\nshould be given up. This is supported by human planners’ sample responses,\nwhich never considered foregoing goals in Gtrue(π).\nIf E(⟨S-can,args⟩)=∅:\n• args can be satisfied.",
     "keywords": [
-      "unsolvable",
+      "goals",
       "genf",
       "question types",
-      "args satisfied",
-      "goals",
-      "types",
-      "satisfied",
-      "args args",
-      "gtrue",
-      "args",
       "question",
+      "satisfied",
+      "gtrue",
+      "args satisfied",
+      "args args",
+      "unsolvable",
+      "args",
+      "types",
       "plan"
     ],
     "visual_summaries": []
@@ -182,112 +182,130 @@
   {
     "pdf": "arxiv2",
     "page": 10,
-    "text": "10 G. Fouilhé et al.\nϕ,goalname\nGoal\nGoal\nQuestion\nTranslator\nTG\n⟨µQ,args={ϕ}⟩\nGNL\nGoalDescription\nQuestion\nQuestionTopic\nSuggester GNL\nSQ\nEFQUERY-GT\nQNL,µQ\n⟨µQ,a r g s { ϕ}/∅⟩\nR / G /ϕ /∅\n=\nQ\nQ u e s t io n\nE x p la n a t i o n\nN L N L\nN L\nEFQUERY-noGT\nDi sp a t ch er\nT ra n s l a to r\nF r a m e w o r k\nD µ\n( )\nQ\nQu e st ion Q u es t io n T yp e Q u e s tio n\nT\nE F\nQ\nC C\nUser\nDIRECT\nFOLLOW-UP\nResponse\nQNL Question\nRNL\nExplanation\nExplanation Explanations&priorInformation\nTranslator\nE∗(args),QNL,⟨µQ,args⟩\nTE\nENL\nmessage\nnaturallanguage formallanguage goalcreation explanationsprotocol LLMAgent\nFig.2:Communicationprotocolbetweentheuser,thetranslatorsandtheexpla-\nnationframework.Inadditiontotheinformationprovidedinthemessages,each\nagent has access to the planning task and the iteration step. For a goal trans-\nlation (green, top left) the user directly communicates with . If the user asks\nT\nG\na question (black) the dispatcher chooses one of four routing options (DIRECT,\nFOLLOW-UP, and EFQUERY-GT) depending on the question type\nEFQUERY-noGT\nidentified by .\nT\nQ\nOtherwise:\n• It is not possible.\nS-how: “How can be satisfied?”\n– args\nE(⟨S-how,args⟩)=min({C\\Gfalse(π)| ∈GMCS(τ,Gref),C∩args=∅})\nC\n⊆\nIf E(⟨S-how,args⟩):\n• ∅ ∈ args can be satisfied without foregoing any goals\nsatisfied by the plan.\nIf E(⟨S-how,args⟩)=∅:\n• It is not possible.\nOtherwise:\n• You have to forego one of the goal sets in E(⟨S-how,args⟩).\nThenumbersofMUSsandMCSscanbeexponentialinthenumberofgoals.For\nany question type , however, a single goal subset suffices. Since\nM E ∈ E(Q)\nQ\nsome conflicts are more relevant or some corrections easier to forego, selecting\nEˆ⊆E(Q) and summarizing Eˆis desirable.\n5 LLMs-based Interactive Framework\nWith all components in place, we now describe the implementation of our in-\nteractive framework using LLM-based translators to communicate with EF .\nCC\nEach translator, as well as the planner and EF (treated as black boxes that\nCC\ngenerateplansandexplanationsgivenacorrectinputmessage),isanagent that\ncommunicates with the others. We first present the communication protocol be-\ntween these agents by following the processing of different user question cases,\nand then discuss the specifics of each translator agent.",
+    "text": "10 G. Fouilhé et al.\nExp la nationFrameworkEFCC\nFig.2:Communicationprotocolbetweentheuser,thetranslatorsandtheexpla-\nnationframework.Inadditiontotheinformationprovidedinthemessages,each\nagent has access to the planning task and the iteration step. For a goal trans-\nlation (green, top left) the user directly communicates with . If the user asks\nTGa question (black) the dispatcher chooses one of four routing options (DIRECT,\nFOLLOW-UP, and EFQUERY-GT) depending on the question type\nEFQUERY-noGT\nidentified by .\nTQ\nOtherwise:\n• It is not possible.\nS-how: “How can be satisfied?”\n– args\nE(⟨S-how,args⟩)=min({C\\Gfalse(π)| ∈GMCS(τ,Gref),C∩args=∅})\nC\n⊆\nIf E(⟨S-how,args⟩):\n• ∅ ∈ args can be satisfied without foregoing any goals\nsatisfied by the plan.\nIf E(⟨S-how,args⟩)=∅:\n• It is not possible.\nOtherwise:\n• You have to forego one of the goal sets in E(⟨S-how,args⟩).\nThenumbersofMUSsandMCSscanbeexponentialinthenumberofgoals.For\nany question type , however, a single goal subset suffices. Since\nME ∈ E(Q)\nQ\nsome conflicts are more relevant or some corrections easier to forego, selecting\nEˆ⊆E(Q) and summarizing Eˆis desirable.\n5 LLMs-based Interactive Framework\nWith all components in place, we now describe the implementation of our in-\nteractive framework using LLM-based translators to communicate with EF .\nCC\nEach translator, as well as the planner and EF (treated as black boxes that\nCC\ngenerateplansandexplanationsgivenacorrectinputmessage),isanagent that\ncommunicates with the others. We first present the communication protocol be-\ntween these agents by following the processing of different user question cases,\nand then discuss the specifics of each translator agent.\n\n[VISUAL CONTENT - VECTOR_GRAPHICS]\nTitle: Question and Explanation Translation Process\nSummary: This flow diagram illustrates the process of translating questions and explanations within a system involving multiple components such as a Goal Translator, Question Suggester, Question Translator, Explanation Translator, and Dispatcher. The process begins with a goal description provided by the Question Suggester, which is then translated into a formal language question by the Question Translator. The Dispatcher routes the question to the Goal Translator for topic identification and further processing. The Explanation Translator provides explanations and prior information based on follow-up questions. The diagram highlights the flow of information between natural and formal languages, goal creation, and explanation protocols, with specific pathways for direct responses and follow-up questions. The system is designed to facilitate communication between natural language inputs and formal language outputs, managed by an LLM Agent.\n",
     "keywords": [
-      "efquery",
-      "user",
-      "translator",
-      "goal",
-      "qnl",
-      "satisfied",
-      "args args",
-      "io",
-      "args",
-      "black",
+      "framework",
       "question",
-      "possible"
+      "satisfied",
+      "user",
+      "goal",
+      "translator",
+      "type",
+      "args args",
+      "forego",
+      "args",
+      "question type",
+      "communicates"
     ],
-    "visual_summaries": []
+    "visual_summaries": [
+      {
+        "type": "vector_graphics",
+        "image_title": "Question and Explanation Translation Process",
+        "image_keywords": [
+          "Goal Translator",
+          "Question Suggester",
+          "Question Translator",
+          "Explanation Translator",
+          "Dispatcher",
+          "natural language",
+          "formal language",
+          "goal creation",
+          "explanations protocol",
+          "LLM Agent"
+        ],
+        "image_citation": "extracted_assets\\arxiv2\\vector_graphics\\page10_vector.png"
+      }
+    ]
   },
   {
     "pdf": "arxiv2",
     "page": 11,
-    "text": "Exploring Plan Space through Conversation 11\nAs illustrated in Figure 2, everything begins with a question from the user.\nThis question can be selected from the Question Suggester or directly ex-\nS\nQ\npressed in Natural Language. Then, the Question Translator determines\nT\nQ\nwhether the question can be answered directly or requires an explanation from\nEF .TocallEF ,eitherT ortheGoalTranslatorT translatesthequestion\nCC CC Q G\nfrom natural to formal language. Then, the formal explanation is translated by\nthe Explanation Translator and returned to the user.\nT\nE\n5.1 Question Processing\nFigure 2 shows the communication protocol between the user, translators, and\nEF .Fromtheuser’squestionQ ,differentroutesarepossible.ADispatcher\nCC NL\nroutes the response of depending on the identified question type .\nT µ\nQ Q\n: If is classified as one of the question types in . Therefore,\n– µ ∈M Q M\nQ Q NL Q\nan explanation from EF is necessary, and the resulting formal explanation\nCC\nis then translated by . Nonetheless, depending on the question topic, there\nT\nE\nare two possibilities:\nEFQUERY-noGT: The question does not mention goals, or the question argu-\n•\n(cid:83)\nment goals were mapped to known goals (i.e, in Gref). Hence,\nGref\nT\n=\nG\ni\nall\nis bypassed, and the (already known) formula corresponding to the\nLTL\nf\ngoal is used.\nEFQUERY-GT: The goals mentioned in the question cannot be mapped to\n•\nknown goals. Hence, the translates the natural expression of the goal\nT\nG\n, creates a new formal goal, and constructs the corresponding\nG LTL\nNL f\nformula to pass to the EF .\nCC\n=DIRECT:IfT cananswerthequestion,thentheanswerisgivendirectly\n– µ\nQ Q\nto the user. This includes, for example, questions like “Which questions can I\nask?” but also incomprehensible messages or unsupported questions.\nFOLLOW-UP: If is identified as a follow-up question, not requiring\n– µ Q\n=\nQ NL\nnewinputfromEF ,thenQ isdirectlysenttotheExplanationTranslator\nCC NL\n.\nT\nE\n5.2 LLM Agent Implementations\nAll agents are instantiated from the same base model GPT-4.1-mini, with their\ninput and output histories maintained separately. Each LLM agent receives a\nstructured string consisting of the prompts described in the technical appendix\nand the input components listed in Figure 2. A translator based only on these\ninputs can provide only context-independent translations and cannot handle\nfollow-up questions. To enable context-dependent translators, we leverage the\nLLMcontextmemory,allowingthemtobuildonandreferencepreviousinterac-\ntions, and thus provide the benefits listed in Section 3. Although LLM contexts\ncan, in principle, retain all prior user interactions, we maintain separate con-\ntexts for each iteration step to avoid mixing information, preserve clarity, and",
+    "text": "Exploring Plan Space through Conversation 11\nAs illustrated in Figure 2, everything begins with a question from the user.\nThis question can be selected from the Question Suggester or directly ex-\nSQ\npressed in Natural Language. Then, the Question Translator determines\nTQ\nwhether the question can be answered directly or requires an explanation from\nEF .TocallEF ,eitherT ortheGoalTranslatorT translatesthequestion\nCC CC QG\nfrom natural to formal language. Then, the formal explanation is translated by\nthe Explanation Translator and returned to the user.\nTE\n5.1 Question Processing\nFigure 2 shows the communication protocol between the user, translators, and\nEF .Fromtheuser’squestionQ ,differentroutesarepossible.ADispatcher\nCC NL\nroutes the response of depending on the identified question type .\nT µ\nQQ\n: If is classified as one of the question types in . Therefore,\n– µ ∈MQMQQ NL Q\nan explanation from EF is necessary, and the resulting formal explanation\nCC\nis then translated by . Nonetheless, depending on the question topic, there\nTE\nare two possibilities:\nEFQUERY-noGT: The question does not mention goals, or the question argu-\n•\n(cid:83)\nment goals were mapped to known goals (i.e, in Gref). Hence,\nGref\nT\n=\nGi\nall\nis bypassed, and the (already known) formula corresponding to the\nLTL\nf\ngoal is used.\nEFQUERY-GT: The goals mentioned in the question cannot be mapped to\n•\nknown goals. Hence, the translates the natural expression of the goal\nTG\n, creates a new formal goal, and constructs the corresponding\nG LTL\nNL f\nformula to pass to the EF .\nCC\n=DIRECT:IfT cananswerthequestion,thentheanswerisgivendirectly\n– µ\nQQ\nto the user. This includes, for example, questions like “Which questions can I\nask?” but also incomprehensible messages or unsupported questions.\nFOLLOW-UP: If is identified as a follow-up question, not requiring\n– µ Q\n=\nQ NL\nnewinputfromEF ,thenQ isdirectlysenttotheExplanationTranslator\nCC NL\n.\nTE\n5.2 LLM Agent Implementations\nAll agents are instantiated from the same base model GPT-4.1-mini, with their\ninput and output histories maintained separately. Each LLM agent receives a\nstructured string consisting of the prompts described in the technical appendix\nand the input components listed in Figure 2. A translator based only on these\ninputs can provide only context-independent translations and cannot handle\nfollow-up questions. To enable context-dependent translators, we leverage the\nLLMcontextmemory,allowingthemtobuildonandreferencepreviousinterac-\ntions, and thus provide the benefits listed in Section 3. Although LLM contexts\ncan, in principle, retain all prior user interactions, we maintain separate con-\ntexts for each iteration step to avoid mixing information, preserve clarity, and",
     "keywords": [
-      "explanation",
-      "user",
-      "questions",
-      "figure",
-      "ef",
-      "translator",
       "goals",
-      "formal",
-      "nl",
-      "natural",
+      "known",
       "question",
-      "cc"
+      "cc",
+      "natural",
+      "user",
+      "explanation",
+      "formal",
+      "llm",
+      "questions",
+      "ef",
+      "nl"
     ],
     "visual_summaries": []
   },
   {
     "pdf": "arxiv2",
     "page": 12,
-    "text": "12 G. Fouilhé et al.\nreducehallucinations.Examplesofcontext-dependentinteractions,selections,or\nsummarization of explanations are given in the technical appendix.\nNext, we address the tasks of the individual agents and the specific details\nof their implementation.\nis automatically called to analyze every new iteration\nQuestion Suggester S\nQ\nstep δ. Its task is to generate one to three relevant questions for the context.\nThese questions are provided to the user via clickable buttons above the input\nfield. To generate the suggestions, it receives the current iteration step context\n(Genf, Gtrue, Gfalse, and previous user interactions) and is prompted to propose\nnatural questions that could help. Like all other agents, relies on few-shot\nS\nQ\nlearning and explicit instructions.\nis the first step in question processing. Its tasks go\nQuestion Translator T\nQ\nbeyond identifying the question type . For it directly generates the\nµ\nDIRECT\nQ\nresponse . For and EFQUERY-noGT, it extracts one or more goal\nR\nEFQUERY-GT\nNL\ndescriptions and checks whether they match any Gref. Question\nG′\nG ∈\nNL\nNL all\ntranslations can contain multiple goals, either explicitly (\"How can I achieve\nor M?\" becomes \"S-how{S,M}\") or implicitly (\"Can I enforce more goals?\"\nS\nbecomes\"S-can{G ∈Gref\\Genf\").ThesearetreatedbyEF\n,G ,...}∀G ,G\nCC\n1 2 1 2\nall\nas separate requests. can detect questions to route them to .\nT T\nFOLLOW-UP\nQ E\nThe goal translator produces both the LTL formula and\nGoal Translator T\nG f\na concise natural language description of the goal (used in the UI and in com-\nmunication between LLM agents). Since our evaluation focuses on the question\nclassification and explanation translation, we use a simple base implementation\nsimilar to of [27]. The LLM prompt lists the predicates\nEnd-to-End Approach\nand objects that can compose the literals and includes a few worked examples;\nsee the Appendix for details.\nAn LLM-based translator can provide user-dependent\nExplanation Translator\ntranslation, select explanations, and summarize them. Instead of only providing\nexplanations, we give both conflicts and corrections E∗(Q), anticipating follow-\nup questions (e.g. a “how” question after a “why” question). The translator also\nreceivestheuser’squestion,Q ,anditsformalversion,Q.µ indicateshowto\nNL Q\ninterpret E∗(Q), while guide generation of a natural response. The trans-\nQ\nNL\nlator is expected to use prompt examples to learn how to select or summarize\nexplanations. It is thus a domain-specific design choice to provide examples of\ntheexpectedselection/summarizationstrategy.WithFOLLOW-UPquestions,users\ncan explicitly request a summary or selection.",
+    "text": "12 G. Fouilhé et al.\nreducehallucinations.Examplesofcontext-dependentinteractions,selections,or\nsummarization of explanations are given in the technical appendix.\nNext, we address the tasks of the individual agents and the specific details\nof their implementation.\nis automatically called to analyze every new iteration\nQuestion Suggester SQ\nstep δ. Its task is to generate one to three relevant questions for the context.\nThese questions are provided to the user via clickable buttons above the input\nfield. To generate the suggestions, it receives the current iteration step context\n(Genf, Gtrue, Gfalse, and previous user interactions) and is prompted to propose\nnatural questions that could help. Like all other agents, relies on few-shot\nSQ\nlearning and explicit instructions.\nis the first step in question processing. Its tasks go\nQuestion Translator TQ\nbeyond identifying the question type . For it directly generates the\nµ\nDIRECT\nQ\nresponse . For and EFQUERY-noGT, it extracts one or more goal\nR\nEFQUERY-GT\nNL\ndescriptions and checks whether they match any Gref. Question\nG′\nG ∈\nNL\nNL all\ntranslations can contain multiple goals, either explicitly (\"How can I achieve\nor M?\" becomes \"S-how{S,M}\") or implicitly (\"Can I enforce more goals?\"\nS\nbecomes\"S-can{G ∈Gref\\Genf\").ThesearetreatedbyEF\n,G ,...}∀G ,G\nCC\n1 2 1 2\nall\nas separate requests. can detect questions to route them to .\nTT\nFOLLOW-UP\nQE\nThe goal translator produces both the LTL formula and\nGoal Translator TGfa concise natural language description of the goal (used in the UI and in com-\nmunication between LLM agents). Since our evaluation focuses on the question\nclassification and explanation translation, we use a simple base implementation\nsimilar to of [27]. The LLM prompt lists the predicates\nEnd-to-End Approach\nand objects that can compose the literals and includes a few worked examples;\nsee the Appendix for details.\nAn LLM-based translator can provide user-dependent\nExplanation Translator\ntranslation, select explanations, and summarize them. Instead of only providing\nexplanations, we give both conflicts and corrections E∗(Q), anticipating follow-\nup questions (e.g. a “how” question after a “why” question). The translator also\nreceivestheuser’squestion,Q ,anditsformalversion,Q.µ indicateshowto\nNL Q\ninterpret E∗(Q), while guide generation of a natural response. The trans-\nQ\nNL\nlator is expected to use prompt examples to learn how to select or summarize\nexplanations. It is thus a domain-specific design choice to provide examples of\ntheexpectedselection/summarizationstrategy.WithFOLLOW-UPquestions,users\ncan explicitly request a summary or selection.",
     "keywords": [
-      "llm",
+      "question",
+      "natural",
+      "agents",
       "user",
       "step",
-      "examples",
-      "explanations",
-      "questions",
       "translator",
       "goal",
-      "nl",
-      "agents",
-      "natural",
-      "question"
+      "examples",
+      "llm",
+      "questions",
+      "explanations",
+      "nl"
     ],
     "visual_summaries": []
   },
   {
     "pdf": "arxiv2",
     "page": 13,
-    "text": "Exploring Plan Space through Conversation 13\n6 Evaluation\nWedevelopedaweb-basedplatformtoevaluateourLLM-basedframework7.We\nthen used this tool to conduct a user study aiming at evaluating the effective-\nness of some of our LLM agents and the impact of our LLM-based explanation\ninterface on users’ ability to solve a planning task.\nImportantly, the goal translator was completely disabled during the user\nT\nG\nstudytoensurethatallparticipantsweretryingtosolvethesameplanningtask.\n6.1 User Study Design\nSimilarlyto[12],weusedaparent’safternoonplanningtaskasthescenario.The\nparticipantsweretaskedwithplanningafternoonactivitiesforafamily,butdue\ntotimeconstraints,notalloftheactivitiescouldbecarriedout.Toillustrate,in\nour running example from Section 2.6, the parent cannot do both, cook dinner\nand bring the kids to their match.\nAs a proxy for user preference, each goal is associated with a utility. The\nobjective of the participants was to select a subset of the goals to maximize the\ntotal utility of the plan. In our example, let’s say the parent favors their kids,\nassigningutility3tothematchM,2tocookingC,and1toshoppingS.Knowing\nthat and are in conflict, the goal subset with maximum utility would be\nM C\n{M,S}. Naturally, participants’ evaluated instance was far more complex.\nParticipants (recruited via Prolific8) were encouraged to pursue that objec-\ntive by a bonus reward depending on how close they were to the maximum pos-\nsible utility. The goal utility is unknown to all other agents (planner, explainer,\nand LLMs). Consequently, these agents are capable of providing information re-\ngarding the solvability of a set of goals, as well as the conflicts and corrections,\nbut they are unable to provide direct assistance in maximizing utility.\nThe study was divided into three parts. First, participants were introduced\ntothetoolthroughavideotutorialandanintroductiontask(8goals,2conflicts,\n6corrections).Second,amorecomplextask(19goalswith224conflictsand313\ncorrections) was used to compare the effect of the different interfaces used on\nmaximizing the utility within min. Finally, participants completed a post-\n15\nexperiment questionnaire.\nTo evaluate the effectiveness of LLM agents in an interactive explanation\nframework, we divided the participants into two groups. Our control group\n131\nincluded participants utilizing a interface, which al-\nGTPL\ntemplate-based\n65\nlowed them to select from the predefined set of questions introduced in Sec-\ntion4andreceiveanswersbasedonsimplenaturallanguagetemplates.Thesec-\nond group included participants given the interface, which\nGLLM\nLLM-based\n66\ncould either select questions from ’s suggestions, or freely formulate them in\nS\nQ\nnatural language. These questions were processed by LLM-based translators as\nSignificantly extending [12] and an entirely redesigned UI. The source code will be\n7\npublished upon acceptance.\nhttps://www.prolific.com/\n8",
+    "text": "Exploring Plan Space through Conversation 13\n6 Evaluation\nWedevelopedaweb-basedplatformtoevaluateourLLM-basedframework7.We\nthen used this tool to conduct a user study aiming at evaluating the effective-\nness of some of our LLM agents and the impact of our LLM-based explanation\ninterface on users’ ability to solve a planning task.\nImportantly, the goal translator was completely disabled during the user\nTG\nstudytoensurethatallparticipantsweretryingtosolvethesameplanningtask.\n6.1 User Study Design\nSimilarlyto[12],weusedaparent’safternoonplanningtaskasthescenario.The\nparticipantsweretaskedwithplanningafternoonactivitiesforafamily,butdue\ntotimeconstraints,notalloftheactivitiescouldbecarriedout.Toillustrate,in\nour running example from Section 2.6, the parent cannot do both, cook dinner\nand bring the kids to their match.\nAs a proxy for user preference, each goal is associated with a utility. The\nobjective of the participants was to select a subset of the goals to maximize the\ntotal utility of the plan. In our example, let’s say the parent favors their kids,\nassigningutility3tothematchM,2tocookingC,and1toshoppingS.Knowing\nthat and are in conflict, the goal subset with maximum utility would be\nMC\n{M,S}. Naturally, participants’ evaluated instance was far more complex.\nParticipants (recruited via Prolific8) were encouraged to pursue that objec-\ntive by a bonus reward depending on how close they were to the maximum pos-\nsible utility. The goal utility is unknown to all other agents (planner, explainer,\nand LLMs). Consequently, these agents are capable of providing information re-\ngarding the solvability of a set of goals, as well as the conflicts and corrections,\nbut they are unable to provide direct assistance in maximizing utility.\nThe study was divided into three parts. First, participants were introduced\ntothetoolthroughavideotutorialandanintroductiontask(8goals,2conflicts,\n6corrections).Second,amorecomplextask(19goalswith224conflictsand313\ncorrections) was used to compare the effect of the different interfaces used on\nmaximizing the utility within min. Finally, participants completed a post-\n15\nexperiment questionnaire.\nTo evaluate the effectiveness of LLM agents in an interactive explanation\nframework, we divided the participants into two groups. Our control group\n131\nincluded participants utilizing a interface, which al-\nGTPL\ntemplate-based\n65\nlowed them to select from the predefined set of questions introduced in Sec-\ntion4andreceiveanswersbasedonsimplenaturallanguagetemplates.Thesec-\nond group included participants given the interface, which\nGLLM\nLLM-based\n66\ncould either select questions from ’s suggestions, or freely formulate them in\nSQ\nnatural language. These questions were processed by LLM-based translators as\nSignificantly extending [12] and an entirely redesigned UI. The source code will be\n7\npublished upon acceptance.\nhttps://www.prolific.com/\n8",
     "keywords": [
-      "llm",
-      "user",
-      "questions",
-      "participants",
-      "used",
-      "interface",
-      "goal",
+      "study",
       "utility",
-      "llm based",
+      "participants",
       "agents",
+      "user",
+      "goal",
       "based",
-      "study"
+      "llm",
+      "select",
+      "questions",
+      "llm based",
+      "used"
     ],
     "visual_summaries": []
   },
   {
     "pdf": "arxiv2",
     "page": 14,
-    "text": "14 G. Fouilhé et al.\n27\n24\n21\n18\nytilitu\nLLM-based\n15\n± 1 std\n12\nTemplate-based\nxaM\n± 1 std\n9\n6\n: : : : : :\ne e e e e e\nlu lu lu lu lu lu\np-va p-va p-va p-va p-va p-va\n6 3 3 8 3 4\n3\n.0 .3 .1 .1 .3 .4\n0 0 0 0 0 0\n0\n0 3 6 9 12 15 18\nIteration steps\nFig.3: Comparison of maximum utility achieved over iteration steps between\nand GTPL. Scores are averaged by group at each iteration step.\nGLLM\ndescribed in Section 5. We did not include a group without explanations, as\nan earlier study [12] had already examined that goal-conflict explanations were\nmore effective than no explanations.\n6.2 User Groups Comparison\nWe compared the two groups using quantitative analysis and a feedback ques-\ntionnaire.Quantitativemetricsincludethetimespentonthetask,themaximum\nutility reached, and the number of questions asked.\nUsers took on average mins in and\nGLLM\nTime and maximum utility 13.9 ± 2.6\nmins in to complete the evaluation task. (15.2%) users in\nGTPL\n14.0 ± 2.5 10/66\n\n[VISUAL CONTENT - VECTOR_GRAPHICS]\nTitle: Comparison of Maximum Utility Achieved Over Iteration Steps\nSummary: This line chart illustrates the comparison of maximum utility achieved over iteration steps between two groups: GLM and GTP. The y-axis represents the maximum utility scores, while the x-axis denotes the number of iteration steps. The chart features two main lines representing LLM-based and template-based approaches, with shaded areas indicating standard deviation. The data shows that GLM users generally achieved higher utility scores compared to GTP users, particularly in the initial steps, although the variance in scores suggests that the differences may not be statistically significant. The chart provides insights into the effectiveness of different question strategies employed by users across the iterations.\n",
+    "text": "14 G. Fouilhé et al.\nFig.3: Comparison of maximum utility achieved over iteration steps between\nand GTPL. Scores are averaged by group at each iteration step.\nGLLM\ndescribed in Section 5. We did not include a group without explanations, as\nan earlier study [12] had already examined that goal-conflict explanations were\nmore effective than no explanations.\n6.2 User Groups Comparison\nWe compared the two groups using quantitative analysis and a feedback ques-\ntionnaire.Quantitativemetricsincludethetimespentonthetask,themaximum\nutility reached, and the number of questions asked.\nUsers took on average mins in and\nGLLM\nTime and maximum utility 13.9 ± 2.6\nmins in to complete the evaluation task. (15.2%) users in\nGTPL\n14.0 ± 2.5 10/66\nand (13.8%) in reached the maximum utility of 27. On average,\nGLLM GTPL\n9/65\nusers achieved a utility, and 20.5±4.4. In Figure 3, the\nGLLM GTPL\n20.8±4.3\nobtain a higher utility with a similar number of steps, in particular in\nGLLM\nthe beginning. However, the variance of scores prevents statistically significant\nresults.\nasked on average significantly less questions\nGLLM\nQuestion types and quantity\n(11.4 5.9) vs. (22.8 19.6) for but because the LLM-based question\nGTPL\n± ±\ntranslator can perform several queries to respond a single question, these ques-\ntions were equivalent to queries to the explanation framework. The\n41.7 ± 29.2\ntwo groups adopted different question strategies, as shown in Figure 4.\nGLLM\nusers relied a lot more on questions than any other type, which may be\nS-can\nattributed to the question\nCan I enforce any other goals while keeping the cur-\nbeing often suggested by and picked by users; such a\nrent goals enforced? SQ\nquestion is for EF equivalent to questions if there is non-enforced\nkkS-can\nCC\ngoals at the present iteration step.\nAfter completing the evaluation task, participants were\nFeedback questionnaire\naskedtofilloutafeedbackquestionnaireassessingtheperceiveddifficultyofthe\n\n[VISUAL CONTENT - VECTOR_GRAPHICS]\nTitle: Max Utility vs Iteration Steps\nSummary: This line chart compares the maximum utility achieved by LLM-based and Template-based methods over a series of iteration steps. The x-axis represents iteration steps ranging from 0 to 20, while the y-axis shows the maximum utility values, peaking around 24. The chart includes p-values at specific iteration steps, indicating statistical significance. The LLM-based method consistently outperforms the Template-based method, as shown by the higher utility values. Shaded areas around each line represent the standard deviation, providing a visual indication of variability. The chart highlights the effectiveness of LLM-based methods in achieving higher utility across iterations.\n",
     "keywords": [
-      "va va",
-      "explanations",
-      "maximum utility",
-      "15",
-      "lu",
-      "iteration",
-      "steps",
-      "va",
-      "users",
       "utility",
-      "lu lu",
-      "12"
+      "maximum",
+      "goals",
+      "question",
+      "iteration",
+      "gtpl",
+      "users",
+      "maximum utility",
+      "questions",
+      "explanations",
+      "groups",
+      "gllm"
     ],
     "visual_summaries": [
       {
         "type": "vector_graphics",
-        "image_title": "Comparison of Maximum Utility Achieved Over Iteration Steps",
+        "image_title": "Max Utility vs Iteration Steps",
         "image_keywords": [
-          "maximum utility",
-          "iteration steps",
-          "GLM",
-          "GTP",
           "LLM-based",
-          "template-based"
+          "Template-based",
+          "Max utility",
+          "Iteration steps",
+          "p-value",
+          "standard deviation"
         ],
         "image_citation": "extracted_assets\\arxiv2\\vector_graphics\\page14_vector.png"
       }
@@ -296,52 +314,98 @@
   {
     "pdf": "arxiv2",
     "page": 15,
-    "text": "Exploring Plan Space through Conversation 15\n)%(\n60\nresU\nLLM-based\nTemplate-based\nrep\n40\negatnecreP\n20\negarevA\n0\nN W HAT-IF W HY DIRECT UP\nOT\nS-CA\nO O\nW-\nW\nN\nH\nH\nHY-\nUS-\nS- US-\nO\nW\nOLL\nW\nS-\nS-\nF\nFig.4: Comparison of question types used by and GTPL. See Sec. 4 for the\nGLLM\ndescription of questions.\ntask and the usefulness of the tool. The Figure 5 lists the questions as well as\nthe Likert score [26] distributions for the group-question pairs. The group\nGLLM\nmeansscoresareabovethoseoftheGTPLgroupforallquestions.Inparticular,the\ntwo questions on the helpfulness of the explanation interface show statistically\nsignificant differences.\n6.3 Evaluation of LLM Agents\nWe first evaluated the usefulness of the question suggester . The questions\nS\nQ\npicked from suggested questions represented of the 1679 questions col-\n61.7%\nlected from GLLM, suggesting a strong adoption that did not completely replace\nmanual questions. We then manually reviewed randomly selected questions\n100\nto evaluate the question translator . The classification of both the question\nT\nQ\ntype and the question argument was correct in of cases. Observed failures\n91%\naremainlybadroutingdecisions,wherethequestiontranslatorT unnecessarily\nQ\nasks for clarification or forwards questions directly as a question to\nFOLLOW-UP\nwhen a call to EF was required. These failures typically result in the user\nT\nE CC\nasking for an additional clarification.\nAs described in the introduction of this section, was disabled during the\nT\nG\nuser study for practical reasons and so was not evaluated. As for the main\nT\nE\nchallenge is to measure the correctness of a summarized explanation, which is\nout of scope of this paper.\n6.4 Limitations and Discussion\nWhileouruserstudyprovidesevidenceofbetterperformance\nInstanceandTask\nof over GTPL, we note that these results were obtained on a single planning\nGLLM\ntask instance of moderate difficulty. Although we chose this setup to align with\na previous user study in which template-based goal-conflict explanations were\nfound useful, it remains an open question how the proposed architecture would\nhelp on a wider range of problems. Another limitation of our study is that it",
+    "text": "Exploring Plan Space through Conversation 15\nFig.4: Comparison of question types used by and GTPL. See Sec. 4 for the\nGLLM\ndescription of questions.\ntask and the usefulness of the tool. The Figure 5 lists the questions as well as\nthe Likert score [26] distributions for the group-question pairs. The group\nGLLM\nmeansscoresareabovethoseoftheGTPLgroupforallquestions.Inparticular,the\ntwo questions on the helpfulness of the explanation interface show statistically\nsignificant differences.\n6.3 Evaluation of LLM Agents\nWe first evaluated the usefulness of the question suggester . The questions\nSQ\npicked from suggested questions represented of the 1679 questions col-\n61.7%\nlected from GLLM, suggesting a strong adoption that did not completely replace\nmanual questions. We then manually reviewed randomly selected questions\n100\nto evaluate the question translator . The classification of both the question\nTQ\ntype and the question argument was correct in of cases. Observed failures\n91%\naremainlybadroutingdecisions,wherethequestiontranslatorT unnecessarily\nQ\nasks for clarification or forwards questions directly as a question to\nFOLLOW-UP\nwhen a call to EF was required. These failures typically result in the user\nTE CC\nasking for an additional clarification.\nAs described in the introduction of this section, was disabled during the\nTG\nuser study for practical reasons and so was not evaluated. As for the main\nTE\nchallenge is to measure the correctness of a summarized explanation, which is\nout of scope of this paper.\n6.4 Limitations and Discussion\nWhileouruserstudyprovidesevidenceofbetterperformance\nInstanceandTask\nof over GTPL, we note that these results were obtained on a single planning\nGLLM\ntask instance of moderate difficulty. Although we chose this setup to align with\na previous user study in which template-based goal-conflict explanations were\nfound useful, it remains an open question how the proposed architecture would\nhelp on a wider range of problems. Another limitation of our study is that it\n\n[VISUAL CONTENT - TABLES]\nTitle: Comparison of LLM-based and Template-based Methods\nSummary: The bar chart compares the performance or usage of LLM-based and Template-based methods. The chart features two categories, with LLM-based represented by orange bars and Template-based by blue bars. The LLM-based method shows a significantly higher value compared to the Template-based method, indicating a notable difference in performance or preference between the two approaches.\n\n\n[VISUAL CONTENT - TABLES]\nTitle: Bar Chart Comparison\nSummary: The visual is a bar chart comparing two categories represented by an orange bar and a blue bar. The chart does not display specific labels or values, making it difficult to determine the exact metrics or categories being compared. The orange bar is slightly taller than the blue bar, indicating a higher value for the category it represents. Without axis labels or a legend, the specific context or data source remains unclear.\n\n\n[VISUAL CONTENT - VECTOR_GRAPHICS]\nTitle: Comparison of LLM-based and Template-based Methods\nSummary: The bar chart compares the average percentage per user for LLM-based and Template-based methods across various categories, including S-CAN, S-HOW, S-WHAT-IF, S-WHY-NOT, US-HOW, US-WHY, DIRECT, and FOLLOW-UP. The LLM-based method shows a significantly higher percentage in the S-CAN category, while the Template-based method leads in the US-HOW category. Other categories such as S-HOW, S-WHAT-IF, and US-WHY show varied performance between the two methods. The chart highlights differences in user engagement or effectiveness between the two approaches across these categories.\n",
     "keywords": [
-      "usefulness",
-      "llm",
+      "study",
+      "group",
+      "user study",
+      "question",
       "user",
+      "gtpl",
+      "explanation",
+      "te",
+      "failures",
       "questions",
       "task",
-      "question",
-      "gllm",
-      "user study",
-      "template based",
-      "based",
-      "template",
-      "study"
+      "gllm"
     ],
-    "visual_summaries": []
+    "visual_summaries": [
+      {
+        "type": "tables",
+        "image_title": "Comparison of LLM-based and Template-based Methods",
+        "image_keywords": [
+          "LLM-based",
+          "Template-based",
+          "comparison",
+          "bar chart"
+        ],
+        "image_citation": "extracted_assets\\arxiv2\\tables\\page15_table1.png"
+      },
+      {
+        "type": "tables",
+        "image_title": "Bar Chart Comparison",
+        "image_keywords": [
+          "bar chart",
+          "comparison",
+          "orange bar",
+          "blue bar"
+        ],
+        "image_citation": "extracted_assets\\arxiv2\\tables\\page15_table2.png"
+      },
+      {
+        "type": "vector_graphics",
+        "image_title": "Comparison of LLM-based and Template-based Methods",
+        "image_keywords": [
+          "LLM-based",
+          "Template-based",
+          "S-CAN",
+          "S-HOW",
+          "S-WHAT-IF",
+          "S-WHY-NOT",
+          "US-HOW",
+          "US-WHY",
+          "DIRECT",
+          "FOLLOW-UP",
+          "Average Percentage per User"
+        ],
+        "image_citation": "extracted_assets\\arxiv2\\vector_graphics\\page15_vector.png"
+      }
+    ]
   },
   {
     "pdf": "arxiv2",
     "page": 16,
-    "text": "16 G. Fouilhé et al.\nDid questions help in the\nselection of unsolvable goals?\n(p-value: 0.34)\nDid questions help to improve a plan?\n(p value:0.01)\nDid the possibility to ask questions\nreduce the level of difficulty?\n(p value:0.02)\nDid the possibility to ask questions help?\n(p-value: 0.07)\nHow confident are you that you\nknow which plans are possible/which\ngoals can be achieved together?\n(p-value: 0.67)\nHow satisfied are you with\nyour achieved result?\n(p-value: 0.51)\nHow easy was the task to you?\n(p-value: 0.26)\nTemplate-based\n1 2 3 4 5 6 7\nLLM-based\nLikert scale score\nFig.5: Feedback questionnaire results comparison for the two groups: and\nGTPL\nGLLM. Violin plots show the distribution and mean score of the answers on a Lik-\nert scale. LLM-based significantly outperforms template-based in helping par-\nticipants improve their plans and reduce difficulty.\nwas conducted with lay users. Whether similar results hold for the target users\nof such tools (domain experts) remains open. We suspect that domain experts\nwill ask more complex questions than lay persons.\n\n[VISUAL CONTENT - VECTOR_GRAPHICS]\nTitle: Feedback Questionnaire Results Comparison\nSummary: This line chart compares feedback questionnaire results between two groups: template-based and LLM-based approaches. It displays the distribution and mean scores of various questions answered on a Likert scale from 1 to 7. Key metrics include the effectiveness of questions in improving plans, reducing difficulty, and user confidence in goal selection. The LLM-based method significantly outperforms the template-based method in helping participants with their plans and reducing difficulty, as indicated by the varying mean scores and confidence intervals across the questions.\n",
+    "text": "16 G. Fouilhé et al.\nFig.5: Feedback questionnaire results comparison for the two groups: and\nGTPL\nGLLM. Violin plots show the distribution and mean score of the answers on a Lik-\nert scale. LLM-based significantly outperforms template-based in helping par-\nticipants improve their plans and reduce difficulty.\nwas conducted with lay users. Whether similar results hold for the target users\nof such tools (domain experts) remains open. We suspect that domain experts\nwill ask more complex questions than lay persons.\nWe used two explanation interfaces to\nExplanation Interface is also about UI\ncompare high-level features: a chat-based interface against a more traditional\nGUI. However, more practical features, like the design of menus and buttons,\nthe presence of visual elements, or other UX-related elements, also could have a\nsignificant impact. While we did not focus on this aspect, we used a pilot study\ntohelpdesignagoodUIforbothinterfaces;thepilotstudyledustoincludethe\nquestion suggester, for example. Notably, many participants from both groups\nvoluntarilycommentedafterthestudythattheyfoundtheinteractionenjoyable.\n7 Conclusion and Future Work\nInthispaperwepresentedahigh-levelarchitectureforinteractive\nContributions\nexplanationsinthecontextofiterativeplanning.Weinstantiatedthisframework\nwith goal-conflict explanations and provided an easy-to-use implementation via\na web platform. Finally, we conducted a user study to evaluate the effect of\nthe LLM-based explanation interface over a more conventional template-based\ninterface.\n\n[VISUAL CONTENT - VECTOR_GRAPHICS]\nTitle: Comparison of Template-based and LLM-based Responses\nSummary: This bar chart compares responses to various questions using Template-based and LLM-based methods, measured on a Likert scale from 1 to 7. The questions assess the impact of asking questions on goal selection, plan improvement, difficulty reduction, and overall satisfaction. Notable p-values indicate statistical significance, with questions about plan improvement and difficulty reduction showing significant differences (p-values of 0.01 and 0.02, respectively). The chart highlights differences in response patterns between the two methods, with Template-based responses generally showing more variability.\n",
     "keywords": [
-      "ask",
-      "did",
-      "questions help",
-      "questions",
-      "value",
-      "score",
-      "users",
-      "results",
-      "scale",
-      "possibility",
+      "domain experts",
+      "experts",
+      "template",
+      "interface",
+      "explanation",
+      "template based",
       "based",
-      "help"
+      "users",
+      "features",
+      "lay",
+      "llm based",
+      "used"
     ],
     "visual_summaries": [
       {
         "type": "vector_graphics",
-        "image_title": "Feedback Questionnaire Results Comparison",
+        "image_title": "Comparison of Template-based and LLM-based Responses",
         "image_keywords": [
-          "Feedback questionnaire",
-          "template-based",
+          "Template-based",
           "LLM-based",
           "Likert scale",
-          "user study",
-          "planning"
+          "questions",
+          "p-value",
+          "plan improvement",
+          "difficulty reduction",
+          "goal selection",
+          "confidence",
+          "satisfaction",
+          "task ease"
         ],
         "image_citation": "extracted_assets\\arxiv2\\vector_graphics\\page16_vector.png"
       }
@@ -352,17 +416,17 @@
     "page": 17,
     "text": "Exploring Plan Space through Conversation 17\nWefoundevidenceofasignificantsubjectiveimprovementwhenusing\nFindings\nLLM-basedexplanationinterfacescomparedtothebaselineinterface.Moreover,\nwe observed a consistent trend suggesting that this subjective gain may be sup-\nportedbyanobjectiveimprovement,namelyaconvergencetowardanacceptable\nplan in fewer iteration steps.\nFuture work will assess LLM-translated explanations on a wider\nFuture Work\nrange of tasks, including more realistic planning uses cases with end users. In\nsuch contexts, the goal translator will becomes a more important part of our\nframework and will be evaluated accordingly. Similarly, we will carefully assess\nsummarization capabilities of LLMs and their capacity to respond to different\nusers requirements.\nWe also plan on investigating the extension of this approach to other ex-\nplanations frameworks. This includes MUS and MCS based approaches used in\nConstraintProgramming[32,17]butalsootherapproachesusedinplanning[23,\n39].Inadditiontotheclassificationofthequestiontype,thisaddsthechallenge\nof deciding which explanation approach is most suitable to answer the question.\nReferences\n1. Achinstein, P.: The Nature of Explanation. Oxford University Press (1980)\n2. Bromberger,S.:Anapproachtoexplanation.In:Butler,R.(ed.)AnalyticalPhils-\nophy. Oxford University Press (1962)\n3. Brunello, A., Montanari, A., Reynolds, M.: Synthesis of ltl formulas from natural\nlanguage texts: State of the art and research directions. In: Proc. TIME. Schloss\nDagstuhl-Leibniz-Zentrum fuer Informatik (2019)\n4. Chakraborti, T., Sreedharan, S., Zhang, Y., Kambhampati, S.: Plan explanations\nasmodelreconciliation:Movingbeyondexplanationassoliloquy.In:IJCAI(2017)\n5. Chen,H.,Constante-Flores,G.E.,Mantri,K.S.I.,Kompalli,S.M.,Ahluwalia,A.S.,\nLi, C.: Optichat: Bridging optimization models and practitioners with large lan-\nguage models (2025),\nhttps://arxiv.org/abs/2501.08406\n6. Chen, W., Su, Y., Zuo, J., Yang, C., Yuan, C., Chan, C.M., Yu, H., Lu, Y.,\nHung, Y.H., Qian, C., Qin, Y., Cong, X., Xie, R., Liu, Z., Sun, M., Zhou,\nJ.: AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emer-\ngent Behaviors. International Conference on Representation Learning 2024,\n20094–20136 (May 2024),\nhttps://proceedings.iclr.cc/paper_files/paper/\n2024/hash/578e65cdee35d00c708d4c64bce32971-Abstract-Conference.html\n7. Corrêa,A.B.,Pereira,A.G.,Seipp,J.:The2025PlanningPerformanceofFrontier\nLarge Language Models (Nov 2025). https://doi.org/10.48550/arXiv.2511.09378\n8. Cosler,M.,Hahn,C.,Mendoza,D.,Schmitt,F.,Trippel,C.:nl2spec:interactively\ntranslating unstructured natural language to temporal logics with large language\nmodels. In: Proc. CAV (2023)\n9. Dazeley, R., Vamplew, P., Foale, C., Young, C., Aryal, S., Cruz, F.: Levels of\nexplainable artificial intelligence for human-aligned conversational explanations.\nAIJ (2021)\n10. DeGiacomo,G.,DeMasellis,R.,Montali,M.:ReasoningonLTLonfinitetraces:\nInsensitivity to infiniteness. In: AAAI (2014)",
     "keywords": [
-      "natural language",
-      "explanations",
-      "https",
-      "paper",
-      "language",
       "models",
+      "2024",
       "oxford",
       "large",
       "proc",
+      "natural language",
       "oxford university",
-      "2024",
+      "paper",
+      "https",
+      "language",
+      "explanations",
       "plan"
     ],
     "visual_summaries": []
@@ -372,17 +436,17 @@
     "page": 18,
     "text": "18 G. Fouilhé et al.\n11. Domshlak, C., Mirkis, V.: Deterministic oversubscription planning as heuristic\nsearch: Abstractions and reformulations. JAIR (2015)\n12. Eifler, R., Brandao, M., Coles, A., Frank, J., Hoffmann, J.: Evaluating plan-\nproperty dependencies: A web-based platform and user study. In: ICAPS (2022)\n13. Eifler, R., Cashmore, M., Hoffmann, J., Magazzeni, D., Steinmetz, M.: A new ap-\nproach to plan-space explanation: Analyzing plan-property dependencies in over-\nsubscription planning. In: AAAI (2020)\n14. Eifler, R., Steinmetz, M., Torralba, A., Hoffmann, J.: Plan-space explanation via\nplan-property dependencies: Faster algorithms & more powerful properties. In:\nIJCAI (2020)\n15. Feldhus, N., Wang, Q., Anikina, T., Chopra, S., Oguz, C., Möller, S.: Interrolang:\nExploringnlpmodelsanddatasetsthroughdialogue-basedexplanations.In:Proc.\nEMNLP (2023)\n16. Fuggitti, F., Chakraborti, T.: NL2LTL – a python package for converting natural\nlanguage (NL) instructions to linear temporal logic (LTL) formulas. In: ICAPS\n(2023)\n17. Gamba, E., Bogaerts, B., Guns, T.: Efficiently explaining csps with unsatisfiable\nsubset optimization. JAIR (2023)\n18. Guo,T.,Chen,X.,Wang,Y.,Chang,R.,Pei,S.,Chawla,N.V.,Wiest,O.,Zhang,\nX.:Largelanguagemodelbasedmulti-agents:Asurveyofprogressandchallenges.\narXiv:2402.01680 (2024)\n19. Helmert, M.: The Fast Downward planning system. JAIR 26, 191–246 (2006)\n20. Junker, U.: Preferred explanations and relaxations for over-constrained problems.\nIn: Proc. AAAI (2004)\n21. Kambhampati, S., Valmeekam, K., Guan, L., Verma, M., Stechly, K., Bhambri,\nS., Saldyt, L., Murthy, A.: Position: Llms can’t plan, but can help planning in\nllm-modulo frameworks. In: ICML (2024)\n22. Krarup,B.,Coles,A.J.,Long,D.,Smith,D.E.:Explainingplanqualitydifferences.\nIn: ICAPS (2024)\n23. Krarup,B.,Krivic,S.,Magazzeni,D.,Long,D.,Cashmore,M.,Smith,D.E.:Con-\ntrastive explanations of plans through model restrictions. JAIR (2021)\n24. Lakkaraju, H., Slack, D., Chen, Y., Tan, C., Singh, S.: Rethinking explainabil-\nity as a dialogue: A practitioner’s perspective. In: NeurIPS Workshop on Human\nCentered AI (2022)\n25. Liao, Q.V., Gruen, D., Miller, S.: Questioning the ai: informing design practices\nfor explainable ai user experiences. In: Proc. CHI (2020)\n26. Likert, R.: A technique for the measurement of attitudes. Archives of Psychology\n(1932)\n27. Liu, J.X., Yang, Z., Schornstein, B., Liang, S., Idrees, I., Tellex, S., Shah, A.:\nLang2ltl: Translating natural language commands to temporal specification with\nlarge language models. In: Workshop on Language and Robotics at CoRL (2022)\n28. Miller, T.: Explanation in artificial intelligence: Insights from the social sciences.\nAI (2019)\n29. Nguyen, Q.N., Sidorova, A., Torres, R.: User interactions with chatbot interfaces\nvs. Menu-based interfaces: An empirical study. Computers in Human Behavior\n128, 107093 (Mar 2022). https://doi.org/10.1016/j.chb.2021.107093\n30. Nguyen, V.B., Schlötterer, J., Seifert, C.: From black boxes to conversations: In-\ncorporating xai in a conversational agent. In: XAI (2023)\n31. Peng, B., Narayanan, S., Papadimitriou, C.: On limitations of the transformer\narchitecture. COLM (2024)",
     "keywords": [
-      "jair",
-      "explanation",
-      "icaps",
-      "planning",
-      "2022",
-      "ai",
-      "language",
-      "eifler",
-      "2023",
-      "hoffmann",
       "2024",
+      "jair",
+      "ai",
+      "hoffmann",
+      "icaps",
+      "eifler",
+      "planning",
+      "explanation",
+      "2023",
+      "language",
+      "2022",
       "plan"
     ],
     "visual_summaries": []
@@ -392,85 +456,115 @@
     "page": 19,
     "text": "Exploring Plan Space through Conversation 19\n32. Povéda, G., Strahl, A., Hall, M., Boumazouza, R., Quintana-Amate, S., Alvarez,\nN.,Bleukx,I.,Tsouros,D.,Verhaeghe,H.,Guns,T.:Trustworthyandexplainable\ndecision-making for workforce allocation. In: Workshop on Progress Towards the\nHoly Grail at CP (2024)\n33. Riedl, C.: Emergent Coordination in Multi-Agent Language Models (Oct 2025).\nhttps://doi.org/10.48550/arXiv.2510.05174\n34. Searle, J.R.: Expression and meaning: Studies in the theory of speech acts. Cam-\nbridge University Press (1979)\n35. Shen, H., Huang, C., Wu, T., Huang, T.K.: Convxai: Delivering heterogeneous\nAI explanations via conversations to support human-ai scientific writing. CoRR\n(2023)\n36. Slack,D.,Krishna,S.,Lakkaraju,H.,Singh,S.:Explainingmachinelearningmod-\nelswithinteractivenaturallanguageconversationsusingtalktomodel.NatureMa-\nchine Intelligence (2023)\n37. Smith, D.: Planning as an iterative process. In: AAAI (2012)\n38. Smith,D.E.:Choosingobjectivesinover-subscriptionplanning.In:ICAPS(2004)\n39. Sreedharan, S., Chakraborti, T., Kambhampati, S.: Foundations of explanations\nas model reconciliation. AIJ (2021)\n40. Sreedharan, S., Srivastava, S., Smith, D.E., Kambhampati, S.: Why can’t you do\nthat hal? explaining unsolvability of planning tasks. In: IJCAI (2019)\n41. State,L.,Ruggieri,S.,Turini,F.:Reasontoexplain:Interactivecontrastiveexpla-\nnations (reasonx). In: XAI (2023)\n42. Valmeekam,K.,Marquez,M.,Sreedharan,S.,Kambhampati,S.:Ontheplanning\nabilities of large language models-a critical investigation. NeurIPS (2023)\n43. Vasileiou, S.L., Yeoh, W.: PLEASE: generating personalized explanations in\nhuman-aware planning. In: Proc. ECAI (2023)\n44. Zhang, T., Yang, X.J., Li, B.: May i ask a follow-up question? understanding the\nbenefitsofconversationsinneuralnetworkexplainability.InternationalJournalof\nHuman–Computer Interaction (2024)",
     "keywords": [
+      "models",
       "huang",
-      "planning",
-      "explanations",
-      "language models",
       "ai",
       "kambhampati",
-      "language",
-      "models",
-      "2023",
       "human",
+      "smith",
+      "language models",
+      "planning",
       "sreedharan",
-      "smith"
+      "2023",
+      "language",
+      "explanations"
     ],
     "visual_summaries": []
   },
   {
     "pdf": "arxiv2",
     "page": 20,
-    "text": "20 G. Fouilhé et al.\nA Platform for Iterative Planning with Explanations\nThe source code and pre-built docker images will be published upon acceptance.\nFirst we describe the platform architecture, then we give an overview over the\nsupported features covering the iterative planning process, the interface options\nand the adaptations for conducting user studies.\nA.1 Architecture\nThe tool is a web platform, meaning it runs directly in the browser and does\nnot require installation on individual users’ machines. This feature is especially\nbeneficial for conducting user studies.\nWe are using Angular9 for the front-end and Node.js10 with express11 and a\nMongoDB12 database for the back-end. Figure 6 depicts the architecture of the\nplatform.\nDatabase\n...\nBack-end\nExplanation\nService\nEFCC\nRestAPI&AgentManagement\nFront-end\nPlanning\nService\nFD\nQuestion\nQuestion\nGoal Explanation\n...\nType\nSuggester\nTranslator Translator\nClassifier\nOpenAI\nFig.6: Architecture of the web platform\nThesystemhasamodulararchitecture.Explanationsandplansareprovided\nby individual services that in the future can be extended with explanations and\nhttps://angular.dev/\n9\nhttps://nodejs.org\n10\nhttps://expressjs.com/\n11\nhttps://www.mongodb.com/\n12",
+    "text": "20 G. Fouilhé et al.\nA Platform for Iterative Planning with Explanations\nThe source code and pre-built docker images will be published upon acceptance.\nFirst we describe the platform architecture, then we give an overview over the\nsupported features covering the iterative planning process, the interface options\nand the adaptations for conducting user studies.\nA.1 Architecture\nThe tool is a web platform, meaning it runs directly in the browser and does\nnot require installation on individual users’ machines. This feature is especially\nbeneficial for conducting user studies.\nWe are using Angular9 for the front-end and Node.js10 with express11 and a\nMongoDB12 database for the back-end. Figure 6 depicts the architecture of the\nplatform.\nDatabase\n...\nService\nEFCC\nPlanning\nService\nFD\n...\nand\nhttps://angular.dev/\n9\nhttps://nodejs.org\n10\nhttps://expressjs.com/\n11\nhttps://www.mongodb.com/\n12\n\n[VISUAL CONTENT - TABLES]\nTitle: Flow Diagram with Arrows\nSummary: This image is a flow diagram illustrating a process with multiple steps connected by arrows. The diagram features two main nodes at the top, each with arrows pointing downwards to a central node, indicating a convergence of processes or information. The arrows suggest a directional flow from the top nodes to the central node, representing a step-by-step workflow or decision-making process. The diagram is likely used to visualize a process where multiple inputs lead to a single outcome or decision point.\n\n\n[VISUAL CONTENT - VECTOR_GRAPHICS]\nTitle: Architecture of the Web Platform\nSummary: This diagram illustrates the architecture of a web platform, highlighting the interaction between the front-end and back-end components. The central component is the 'Rest API & Agent Management' which interfaces with the front-end and several modules including 'Question Type Classifier', 'Question Suggester', 'Goal Translator', and 'Explanation Translator'. These modules are connected to an 'OpenAI' component, indicating a modular design that facilitates various functionalities such as question classification, suggestion, goal translation, and explanation translation. The architecture supports a flexible and extendable system structure.\n",
     "keywords": [
-      "studies",
-      "user",
-      "planning",
-      "https",
-      "architecture",
-      "translator",
-      "question",
-      "service",
-      "iterative planning",
+      "iterative",
       "platform",
+      "end",
+      "user",
       "user studies",
-      "end"
+      "planning",
+      "iterative planning",
+      "https",
+      "conducting user",
+      "studies",
+      "architecture",
+      "conducting"
     ],
-    "visual_summaries": []
+    "visual_summaries": [
+      {
+        "type": "tables",
+        "image_title": "Flow Diagram with Arrows",
+        "image_keywords": [
+          "flow diagram",
+          "arrows",
+          "process",
+          "workflow"
+        ],
+        "image_citation": "extracted_assets\\arxiv2\\tables\\page20_table1.png"
+      },
+      {
+        "type": "vector_graphics",
+        "image_title": "Architecture of the Web Platform",
+        "image_keywords": [
+          "Front-end",
+          "Back-end",
+          "Rest API",
+          "Agent Management",
+          "Question Type Classifier",
+          "Question Suggester",
+          "Goal Translator",
+          "Explanation Translator",
+          "OpenAI"
+        ],
+        "image_citation": "extracted_assets\\arxiv2\\vector_graphics\\page20_vector.png"
+      }
+    ]
   },
   {
     "pdf": "arxiv2",
     "page": 21,
-    "text": "Exploring Plan Space through Conversation 21\nplans based on different approaches. The back-end and the explanation and\nplanningservicesimplementRESTAPIs.Thecommunicationbetweentheback-\nend and a service is asynchronous. This means the service notifies the back-end\nwhen a job has been completed. The services themselves maintain a queue for\nincoming jobs and schedule them based on resource availability.\nThecurrentlyusedplannerserviceisbasedonFastDownward[19]extended\nwith a compilation approach to handle temporal goal as described in [14]. The\nexplanations service computes the MUS and the MCS using the algorithms in-\ntroduced in [14] implemented on top of Fast Downward [19].\nA.2 Planning Process\nThe main feature of the platform is the iterative planning process with expla-\nnations. In the following we explain how a planning task is provided, how goals\ncan be defined and how the interface for the iterative planning process and the\nexplanations is designed.\nEachplanningprocessstartswiththecreationofaproject.\nPlanning Project\nThe planning task is given by a PDDL domain and problem file. The domain\ndefinition, the actions, and the initial state are fixed, they cannot be modified\nduringtheplanningprocess.Fromtheproblemfileonlytheinitialstatedefinition\nis considered, the goals are disregarded. The exploration of the plan space is\nguided by the enforced goals. Goal are defined during the planning process via\ndifferent interface options, which are described in the following section.\nIngeneraltheplatformfocusesondomainindependentfeatures.However,for\nsome features (e.g. templates for goals and prompts for the LLM-based transla-\ntors) domain dependent information can be added. Thus, each project is associ-\nated with a domain, e.g. blocksworld, or parents-afternoon.\ntransport\nAt the beginning of the planning process the user must define\nGoal Creation\nall known goals and potential preferences they are already aware of. During the\nplanning process, after having inspected some samples plans, the goals can be\nextended to account for any new goals and preferences.\nGoals are defined by LTL formulas with literal based on the predicates and\nf\nobjects of the planning task. In order to facilitate the creation of goals, the\nrequirement to write LTL is circumvented, as it is not suitable for laypeople\nf\nand is generally an error-prone process. Two options are supported.\nIt is possible to define templates for each domain to cover commonly\nTemplates\nused goals and temporal preferences. Such a template maps a natural language\ndescription,e.g.“Loadpackage$P beforepackage$P intotruck$T” toanLTL\nf\ni j\nformula¬in(P U ,T).Toinstantiateagoalonthebasisofatemplate,\n,T) in(P\nj i\nit is then only necessary to select the specific objects, in this example the two\npackages and the truck. To restrict the selection of objects offered for selection\ntheallowedtypes(e.g.$P mustbeoftypepackage)andfactsthatmust/must\ni",
+    "text": "Exploring Plan Space through Conversation 21\nplans based on different approaches. The back-end and the explanation and\nplanningservicesimplementRESTAPIs.Thecommunicationbetweentheback-\nend and a service is asynchronous. This means the service notifies the back-end\nwhen a job has been completed. The services themselves maintain a queue for\nincoming jobs and schedule them based on resource availability.\nThecurrentlyusedplannerserviceisbasedonFastDownward[19]extended\nwith a compilation approach to handle temporal goal as described in [14]. The\nexplanations service computes the MUS and the MCS using the algorithms in-\ntroduced in [14] implemented on top of Fast Downward [19].\nA.2 Planning Process\nThe main feature of the platform is the iterative planning process with expla-\nnations. In the following we explain how a planning task is provided, how goals\ncan be defined and how the interface for the iterative planning process and the\nexplanations is designed.\nEachplanningprocessstartswiththecreationofaproject.\nPlanning Project\nThe planning task is given by a PDDL domain and problem file. The domain\ndefinition, the actions, and the initial state are fixed, they cannot be modified\nduringtheplanningprocess.Fromtheproblemfileonlytheinitialstatedefinition\nis considered, the goals are disregarded. The exploration of the plan space is\nguided by the enforced goals. Goal are defined during the planning process via\ndifferent interface options, which are described in the following section.\nIngeneraltheplatformfocusesondomainindependentfeatures.However,for\nsome features (e.g. templates for goals and prompts for the LLM-based transla-\ntors) domain dependent information can be added. Thus, each project is associ-\nated with a domain, e.g. blocksworld, or parents-afternoon.\ntransport\nAt the beginning of the planning process the user must define\nGoal Creation\nall known goals and potential preferences they are already aware of. During the\nplanning process, after having inspected some samples plans, the goals can be\nextended to account for any new goals and preferences.\nGoals are defined by LTL formulas with literal based on the predicates and\nf\nobjects of the planning task. In order to facilitate the creation of goals, the\nrequirement to write LTL is circumvented, as it is not suitable for laypeople\nf\nand is generally an error-prone process. Two options are supported.\nIt is possible to define templates for each domain to cover commonly\nTemplates\nused goals and temporal preferences. Such a template maps a natural language\ndescription,e.g.“Loadpackage$P beforepackage$P intotruck$T” toanLTL\nfij\nformula¬in(PU ,T).Toinstantiateagoalonthebasisofatemplate,\n,T) in(Pji\nit is then only necessary to select the specific objects, in this example the two\npackages and the truck. To restrict the selection of objects offered for selection\ntheallowedtypes(e.g.$P mustbeoftypepackage)andfactsthatmust/must\ni",
     "keywords": [
-      "domain",
-      "planning",
-      "objects",
-      "task",
+      "templates",
       "goals",
-      "service",
       "planning process",
       "preferences",
       "planning task",
       "process",
+      "service",
+      "planning",
       "based",
-      "end"
+      "task",
+      "objects",
+      "domain"
     ],
     "visual_summaries": []
   },
   {
     "pdf": "arxiv2",
     "page": 22,
-    "text": "22 G. Fouilhé et al.\nFig.7: Screenshot of the goal creation using templates baseline (left) and LLM-\nbased goal translator (right).\nnot be satisfied in the initial state (e.g. ,T)) can be specified. This helps\n¬in(P\nj\nto ensure that only well-formed and meaningful goals can be instantiated.\nIn Figure 7 on the left the list of available templates for a transport domain\nis show. The first step in creating a goal is choosing one of those templates. In\nthe second step the objects are selected.\nThe second option is to use a LLM-based goal\nLLM-Based Goal Translator\ntranslator, that translates a natural language description of the goal into an\nLTL formula.AnexampleisgivenontherightinFigure7.TheLLMinfersthe\nf\ndeliverylocationfromtheplanningtask.Themulti-stepinteractiontorefinethe\ngoal is only possible with a context-dependent translator. The translated LTL\nf\nformulas shown in this figure are intended to be shown exclusively to expert\nusers. An alternative approach involves the use of a of the\nreverse translation\nusers’ question, which is then converted back into natural language without\nambiguities. (e.g.“deliver p2 before p0”\n→ I understood this goal as \"p0 is not\njones\"). The summary of the goal\ndelivered to lopez until p2 is delivered to\ndescription, here “p2 delivered before p0 and same truck for p0” is used as the\ndescription of the goal in the interface.\nIn the interface goals are depicted as shown\nGoal Properties and Visualization\nin Figure 8. Each goal has a natural language description and is associated with\na color and icon. These can be used to visually group goals by for example the\ntype of temporal property (e.g. delivery order) or the involved objects (e.g.\ntruck ). If the panel is opened it gives access to a more detailed description of\nT\n1\nthe goal.\nGoals can be (indicated by a small lock as shown in the top right in\nlocked\nFigure 8). This means they are automatically enforced in each iteration step.\n\n[VISUAL CONTENT - IMAGES]\nTitle: Create New Plan Property Interface\nSummary: The visual represents a user interface for creating a new plan property, featuring a selection process for templates and objects. Users can choose from options labeled 'Deliver', 'Gather', and 'Order' under the 'Select Template' section. Additionally, there is a 'Same' category with conditions regarding truck assignments, specifically stating 'Never different trucks for $Pi and $Pj' and 'Never same trucks for $Pi and $Pj'. The interface is designed to facilitate the configuration of planning properties.\n\n\n[VISUAL CONTENT - IMAGES]\nTitle: Delivery Planning Instructions\nSummary: The visual presents a set of instructions for delivery planning, emphasizing the need to deliver item p2 before item p0. It specifies that p2 should not be transported in different trucks from p0, ensuring both items are delivered together. The instructions include logical conditions for the delivery sequence, highlighting the importance of maintaining the order and method of transportation for these items.\n",
+    "text": "22 G. Fouilhé et al.\nFig.7: Screenshot of the goal creation using templates baseline (left) and LLM-\nbased goal translator (right).\nnot be satisfied in the initial state (e.g. ,T)) can be specified. This helps\n¬in(Pj\nto ensure that only well-formed and meaningful goals can be instantiated.\nIn Figure 7 on the left the list of available templates for a transport domain\nis show. The first step in creating a goal is choosing one of those templates. In\nthe second step the objects are selected.\nThe second option is to use a LLM-based goal\nLLM-Based Goal Translator\ntranslator, that translates a natural language description of the goal into an\nLTL formula.AnexampleisgivenontherightinFigure7.TheLLMinfersthe\nf\ndeliverylocationfromtheplanningtask.Themulti-stepinteractiontorefinethe\ngoal is only possible with a context-dependent translator. The translated LTL\nf\nformulas shown in this figure are intended to be shown exclusively to expert\nusers. An alternative approach involves the use of a of the\nreverse translation\nusers’ question, which is then converted back into natural language without\nambiguities. (e.g.“deliver p2 before p0”\n→ I understood this goal as \"p0 is not\njones\"). The summary of the goal\ndelivered to lopez until p2 is delivered to\ndescription, here “p2 delivered before p0 and same truck for p0” is used as the\ndescription of the goal in the interface.\nIn the interface goals are depicted as shown\nGoal Properties and Visualization\nin Figure 8. Each goal has a natural language description and is associated with\na color and icon. These can be used to visually group goals by for example the\ntype of temporal property (e.g. delivery order) or the involved objects (e.g.\ntruck ). If the panel is opened it gives access to a more detailed description of\nT\n1\nthe goal.\nGoals can be (indicated by a small lock as shown in the top right in\nlocked\nFigure 8). This means they are automatically enforced in each iteration step.\n\n[VISUAL CONTENT - IMAGES]\nTitle: Create New Plan Property Interface\nSummary: The image depicts a user interface for creating a new plan property, featuring a step-by-step process with two main steps: 'Select Template' and 'Select Objects.' The interface includes dropdown options for actions such as 'Deliver,' 'Gather,' 'Order,' and 'Use.' Additionally, there are conditions labeled 'Same,' with specific constraints like 'Never different trucks for $Pi and $Pj' and 'Never same trucks for $Pi and $Pj.' The interface is designed to allow users to configure and customize planning properties, likely for logistics or scheduling purposes, with options to cancel or create the plan.\n\n\n[VISUAL CONTENT - IMAGES]\nTitle: Create Plan Property Interface\nSummary: The image depicts a user interface for creating a plan property, focusing on the delivery sequence of items labeled p2 and p0. The interface includes text inputs and logical expressions that specify conditions such as 'deliver p2 before p0' and 'never transport them in different trucks.' The logical expression shown includes conditions like 'U I at(p0,jopez) at(p2,jones)' and 'p2 delivered before p0 and same truck as p0.' This interface is likely used for planning or scheduling tasks where specific delivery and transportation conditions must be met.\n",
     "keywords": [
       "templates",
-      "p2",
-      "llm",
-      "p0",
-      "figure",
-      "translator",
       "goals",
-      "language",
+      "shown",
+      "natural",
+      "figure",
+      "natural language",
       "goal",
       "description",
-      "llm based",
-      "shown"
+      "translator",
+      "llm",
+      "language",
+      "p0"
     ],
     "visual_summaries": [
       {
         "type": "images",
         "image_title": "Create New Plan Property Interface",
         "image_keywords": [
+          "Create New Plan Property",
           "Select Template",
+          "Select Objects",
           "Deliver",
           "Gather",
           "Order",
@@ -483,15 +577,15 @@
       },
       {
         "type": "images",
-        "image_title": "Delivery Planning Instructions",
+        "image_title": "Create Plan Property Interface",
         "image_keywords": [
-          "delivery",
-          "planning",
-          "transportation",
-          "constraints",
-          "p0",
-          "p2",
-          "trucks"
+          "plan property",
+          "deliver p2 before p0",
+          "transport",
+          "trucks",
+          "UI",
+          "at(p0,jopez)",
+          "at(p2,jones)"
         ],
         "image_citation": "extracted_assets\\arxiv2\\images\\page22_img2.png"
       }
@@ -500,30 +594,30 @@
   {
     "pdf": "arxiv2",
     "page": 23,
-    "text": "Exploring Plan Space through Conversation 23\nFig.8: Screenshot of an open goal panel.\nThe iterative planning process interface must\nIterative Planning Process\nsupport the user in taking an informed decision about which goals they should\nenforceinthenextiteration.Totakethisdecision,usersneedanoverviewofthe\nexisting iteration steps and access to more detailed information for each step.\nAt the same time user should be able to select the enforced goals for the next\niteration step. Our tool implements this process as follows.\nThe overview of the iteration steps is shown in the left in Figure 9. It allows\ntoquicklyidentifywhichstepsweresolvableandunsolvableandtheutilitythey\nachieved (More about the utility in Section A.3).\nFig.9:Screenshotoftheiterationstepsoverviewleftwiththeinterfacetocreate\nnew steps on the right.\nThe details view for a step is shown in Figure 10. In addition to the infor-\nmation in the overview it gives access to the following information:\nSolvable Step :\n– δ\ni\n\n[VISUAL CONTENT - IMAGES]\nTitle: Evening Curfew Reminder\nSummary: The visual presents a reminder regarding a daughter's evening curfew, stating that she must be home by 18:00. It emphasizes that if she leaves for soccer training, a parent must ensure she is brought back home. This highlights the importance of parental supervision and adherence to curfew times.\n\n\n[VISUAL CONTENT - IMAGES]\nTitle: Plan Iterations Interface\nSummary: The visual represents a user interface for managing plan iterations within a task management application. It displays the current status of two steps in the iteration process, with Step 1 marked as 'Ideal' and Step 2 as 'Unviable'. Each step shows the number of enforced goals, with Step 1 having 4 goals and Step 2 having 6 goals. The interface allows users to perform a new plan computation or fork an existing one, and it includes a section for creating a new iteration with enforced and reference goals. Key goals include ensuring a daughter is home, grocery shopping, and attending a sports lesson, indicating a focus on family-related tasks.\n",
+    "text": "Exploring Plan Space through Conversation 23\nFig.8: Screenshot of an open goal panel.\nThe iterative planning process interface must\nIterative Planning Process\nsupport the user in taking an informed decision about which goals they should\nenforceinthenextiteration.Totakethisdecision,usersneedanoverviewofthe\nexisting iteration steps and access to more detailed information for each step.\nAt the same time user should be able to select the enforced goals for the next\niteration step. Our tool implements this process as follows.\nThe overview of the iteration steps is shown in the left in Figure 9. It allows\ntoquicklyidentifywhichstepsweresolvableandunsolvableandtheutilitythey\nachieved (More about the utility in Section A.3).\nFig.9:Screenshotoftheiterationstepsoverviewleftwiththeinterfacetocreate\nnew steps on the right.\nThe details view for a step is shown in Figure 10. In addition to the infor-\nmation in the overview it gives access to the following information:\nSolvable Step :\n– δ\ni\n\n[VISUAL CONTENT - IMAGES]\nTitle: Evening Home Rule for Daughter\nSummary: The image is a diagram illustrating a rule for ensuring a daughter is home in the evening. It specifies that the daughter must be at home by 18:00. If she leaves for soccer training, she must be brought back home by her parent. This rule emphasizes the importance of parental responsibility in ensuring the daughter's timely return home.\n\n\n[VISUAL CONTENT - IMAGES]\nTitle: Plan Iterations and Create Iteration Interface\nSummary: The image displays a user interface for managing plan iterations within a software application by IPEXCO. The 'Plan Iterations' section shows two steps: Step 1, which is labeled as 'Schedulable' with 13 out of 18 goals met, and Step 2, marked as 'Unachievable' with 6 out of 18 goals met. Each step includes enforced goals, with Step 1 having 4 and Step 2 having 6. The 'Create Iteration' panel on the right allows users to name a new iteration and add enforced and reference goals, such as ensuring a daughter is home or a parent buys groceries. This interface facilitates the planning and adjustment of tasks to meet specific goals.\n",
     "keywords": [
+      "goals",
+      "planning process",
+      "shown",
+      "process",
+      "iteration",
+      "figure",
       "user",
       "step",
       "planning",
-      "figure",
-      "iteration",
-      "access",
-      "steps",
-      "goals",
-      "planning process",
       "fig",
-      "process",
-      "shown"
+      "steps",
+      "access"
     ],
     "visual_summaries": [
       {
         "type": "images",
-        "image_title": "Evening Curfew Reminder",
+        "image_title": "Evening Home Rule for Daughter",
         "image_keywords": [
           "daughter",
           "home",
           "evening",
-          "curfew",
+          "18:00",
           "soccer training",
           "parent"
         ],
@@ -531,14 +625,15 @@
       },
       {
         "type": "images",
-        "image_title": "Plan Iterations Interface",
+        "image_title": "Plan Iterations and Create Iteration Interface",
         "image_keywords": [
-          "iterations",
-          "goals",
-          "task management",
-          "step 3",
-          "enforced goals",
-          "reference goals"
+          "Plan Iterations",
+          "Step 1",
+          "Step 2",
+          "Enforced Goals",
+          "Reference Goals",
+          "Iteration Name",
+          "IPEXCO"
         ],
         "image_citation": "extracted_assets\\arxiv2\\images\\page23_img2.png"
       }
@@ -547,25 +642,25 @@
   {
     "pdf": "arxiv2",
     "page": 24,
-    "text": "24 G. Fouilhé et al.\nthe plan:\n• π\ni\nthe additional satisfied reference goals:\nGtrue(π)\\Genf\n•\ni\nthe not satisfied reference goals:\nGfalse(π)\n•\nthe enforced goals:\nGenf\n•\ni\nUnsolvable Step :\n– δ\ni\nthe enforced goals:\nGenf\n•\ni\nFig.10: Screenshot of the details view of a solvable iteration step (left) and an\nunsolvable step (right).\nUsers can create the next iteration step by either starting from scratch or\nby forking from an existing step. To allow the creation of the next step while\nsimultaneously having access to the information described above and the expla-\nnations (presented in the next Section), the interface is located in a sidebar as\nshown on the right in Figure 9.\nTocreateanewstepausermustselectatleastoneenforcedgoal.Thiscanbe\nan already existing or a newly created goal. In addition, the user can also select\nor create new reference goals . If the user is satisfied with their selection\nGref\ni+1\nthey can create a new step. This automatically triggers the computation of a\nplan that must satisfy the enforced goals.\nExplanations are provided in the details view of\nExplanations Interfaces\nthe iteration steps. The computation of an explanation is triggered as soon as\n\n[VISUAL CONTENT - IMAGES]\nTitle: Goal Tracking Overview\nSummary: This visual presents a structured overview of various goals categorized into three sections: Unsatisfied Goals, Additionally Satisfied Goals, and Enforced Goals. The Unsatisfied Goals section lists specific objectives such as ensuring a parent does sports and confirming a son attends a music lesson, with associated counts indicating the number of times these goals were mentioned. The Additionally Satisfied Goals highlight tasks like grocery shopping and ensuring family members are home, while the Enforced Goals section emphasizes actions that have been successfully completed, such as ensuring a daughter is home in the evening and bringing groceries to a grandparent's house. The visual effectively categorizes and tracks the status of personal goals, providing insights into areas needing attention and those that have been successfully managed.\nUnsatisfied Goals: parent does sports = 2, son attends music lesson = 1, ensure son is home in the evening = 1, bring friend to sports center = 1, bring groceries back home = 2, ensure grandma is at her house in the evening = 2, do shopping before parent's sports = 1\nAdditionally Satisfied Goals: grandma bags groceries = 1, grandma and friend are not together in car = 1\nEnforced Goals: ensure daughter is home in the evening = 1, parent buys groceries = 1, daughter does soccer training = 1, bring grandma's groceries to her house = 1\n\n[VISUAL CONTENT - IMAGES]\nTitle: Task Management Interface\nSummary: This visual represents a task management interface, specifically focusing on Step 2 of a process. It highlights insights and enforced goals related to personal tasks. The interface includes a section for insights, prompting users to ask questions for assistance, and lists several enforced goals such as ensuring a daughter is home in the evening, buying groceries, and attending soccer training. The layout suggests a structured approach to managing personal responsibilities, with a focus on actionable tasks and reminders.\n",
+    "text": "24 G. Fouilhé et al.\nthe plan:\n• π\ni\nthe additional satisfied reference goals:\nGtrue(π)\\Genf\n•\ni\nthe not satisfied reference goals:\nGfalse(π)\n•\nthe enforced goals:\nGenf\n•\ni\nUnsolvable Step :\n– δ\ni\nthe enforced goals:\nGenf\n•\ni\nFig.10: Screenshot of the details view of a solvable iteration step (left) and an\nunsolvable step (right).\nUsers can create the next iteration step by either starting from scratch or\nby forking from an existing step. To allow the creation of the next step while\nsimultaneously having access to the information described above and the expla-\nnations (presented in the next Section), the interface is located in a sidebar as\nshown on the right in Figure 9.\nTocreateanewstepausermustselectatleastoneenforcedgoal.Thiscanbe\nan already existing or a newly created goal. In addition, the user can also select\nor create new reference goals . If the user is satisfied with their selection\nGref\ni+1\nthey can create a new step. This automatically triggers the computation of a\nplan that must satisfy the enforced goals.\nExplanations are provided in the details view of\nExplanations Interfaces\nthe iteration steps. The computation of an explanation is triggered as soon as\n\n[VISUAL CONTENT - IMAGES]\nTitle: Task Management Dashboard\nSummary: The image is a screenshot of a task management dashboard titled 'Step 1' from a system named IPXICO. It categorizes tasks into 'Unsatisfied Goals,' 'Additionally Satisfied Goals,' and 'Enforced Goals.' Each category lists specific tasks such as 'parent does sports,' 'son attends music lesson,' and 'grandma buys groceries,' along with associated priority or status indicators. The dashboard is designed to track and manage various personal and family-related tasks, ensuring that certain goals are met while highlighting those that are not yet achieved. The interface provides a structured overview of task completion and prioritization, aiding in effective task management.\n\n\n[VISUAL CONTENT - IMAGES]\nTitle: Task Management Interface\nSummary: The image depicts a task management interface titled 'Step 2' with a focus on insights and enforced goals. The interface includes a section for insights with questions like 'How can I make it available?' and 'Why is the selection of enforced goals unscalable?'. Below, a list of enforced goals is displayed, including tasks such as ensuring the daughter is home in the evening, the parent buying groceries, and the daughter attending soccer training. Each goal is accompanied by a numerical indicator, possibly representing priority or completion status. The interface is designed to help users manage and prioritize tasks effectively.\n",
     "keywords": [
-      "unsolvable",
-      "enforced",
-      "step",
-      "unsolvable step",
-      "genf",
+      "enforced goals",
       "goals",
-      "iteration",
+      "reference",
       "reference goals",
       "satisfied",
-      "enforced goals",
-      "reference",
-      "create"
+      "iteration",
+      "create",
+      "unsolvable step",
+      "step",
+      "enforced",
+      "unsolvable",
+      "genf"
     ],
     "visual_summaries": [
       {
         "type": "images",
-        "image_title": "Goal Tracking Overview",
+        "image_title": "Task Management Dashboard",
         "image_keywords": [
           "unsatisfied goals",
           "additionally satisfied goals",
@@ -573,7 +668,11 @@
           "parent",
           "son",
           "grandma",
-          "daughter"
+          "groceries",
+          "sports",
+          "music lesson",
+          "evening",
+          "IPXICO"
         ],
         "image_citation": "extracted_assets\\arxiv2\\images\\page24_img1.png"
       },
@@ -581,10 +680,15 @@
         "type": "images",
         "image_title": "Task Management Interface",
         "image_keywords": [
-          "task management",
-          "goals",
-          "insights",
-          "enforced goals"
+          "Step 2",
+          "Insights",
+          "Enforced Goals",
+          "ensure daughter is home in the evening",
+          "parent buys groceries",
+          "daughter does soccer training",
+          "bring grandma's groceries to her house",
+          "parent does sports",
+          "son attends music lesson"
         ],
         "image_citation": "extracted_assets\\arxiv2\\images\\page24_img2.png"
       }
@@ -593,44 +697,47 @@
   {
     "pdf": "arxiv2",
     "page": 25,
-    "text": "Exploring Plan Space through Conversation 25\na question is asked. If a question can be answered based on the conflicts or\ncorrections from a previous question, then the cashed result is used instead.\nTheaccesstotheexplanationsandtheirrepresentationdiffersdependingonthe\nchosen interface. Currently, two options are supported.\nInthetemplatebasedexplanationinterfacetheuserisrestricted\nTemplateBased\nto a predefined list of questions and the answer simply lists all explanations. To\nallow for a similar experience as in the LLM-based version described next, the\nquestionsandexplanationsaredepictedinachatinterfaceasshowninFigure11.\nFor an unsolvable step the questions refer to the entire selection of enforced\ngoals.Thus,theexplanationinterfaceisdisplayedabovethelistofenforcedgoals\n(see right Figure 10 and Figure 11).\nIn a solvable step the questions refer to individual unsatisfied reference gals\nGfalse(π).Thesegoalsaretheargumentsofthequestions.Thus,foreachunsatis-\nfiedreferencegoalthereisaseparateexplanationinterfaceaccessiblebyclicking\non the goal panel (see left Figure 11).\nFig.11: Screenshot of the template-based explanations for a solvable step (left)\nand an unsolvable step (right).\nTheLLM-Chatbasedexplanationinterfaceisdisplayedinthe\nLLM-Chat Based\ntop of the iteration step details view for both solvable and unsolvable steps (see\nFigure12).MoreexamplescanbefoundinSectionD.Userscanfreelyformulate\nquestions. If the question is answered by calling EF first the user is notified\nCC\nhowthequestionwasunderstood.Thisisimplementedbythequestiontranslator\nto the question similarly to the LLM-based goal translator\nreverse translate\ndescribedearlier.Thentheresponsefromtheexplanationtranslatorisdisplayed.\nIn case of direct answers by the question translator or answers to follow-up\nquestions from the explanation translator, the answer is given directly.\n\n[VISUAL CONTENT - IMAGES]\nTitle: Parent and Son Music Lesson Scenario\nSummary: This visual presents a scenario involving a parent bringing their son to a music lesson at a specified time of 14:00. The parent is responsible for transporting both the son and his guitar, which occupies one unit of space in the car. The visual highlights the need for the parent to ensure that the son attends the lesson while also addressing potential conflicts with other activities, such as sports. The context suggests a focus on scheduling and the logistics of managing multiple commitments.\n\n\n[VISUAL CONTENT - IMAGES]\nTitle: Insights on Goal Selection\nSummary: This visual presents a discussion on the solvability of a plan based on specific enforced goals. It outlines a scenario where certain combinations of properties must be forfeited to achieve a solvable outcome. The properties include activities related to sports and music lessons for a daughter, as well as tasks involving a grandmother. The visual emphasizes the complexity of goal selection and the implications of enforcing certain combinations, suggesting that some goals may lead to unsolvable situations.\n",
+    "text": "Exploring Plan Space through Conversation 25\na question is asked. If a question can be answered based on the conflicts or\ncorrections from a previous question, then the cashed result is used instead.\nTheaccesstotheexplanationsandtheirrepresentationdiffersdependingonthe\nchosen interface. Currently, two options are supported.\nInthetemplatebasedexplanationinterfacetheuserisrestricted\nTemplateBased\nto a predefined list of questions and the answer simply lists all explanations. To\nallow for a similar experience as in the LLM-based version described next, the\nquestionsandexplanationsaredepictedinachatinterfaceasshowninFigure11.\nFor an unsolvable step the questions refer to the entire selection of enforced\ngoals.Thus,theexplanationinterfaceisdisplayedabovethelistofenforcedgoals\n(see right Figure 10 and Figure 11).\nIn a solvable step the questions refer to individual unsatisfied reference gals\nGfalse(π).Thesegoalsaretheargumentsofthequestions.Thus,foreachunsatis-\nfiedreferencegoalthereisaseparateexplanationinterfaceaccessiblebyclicking\non the goal panel (see left Figure 11).\nFig.11: Screenshot of the template-based explanations for a solvable step (left)\nand an unsolvable step (right).\nTheLLM-Chatbasedexplanationinterfaceisdisplayedinthe\nLLM-Chat Based\ntop of the iteration step details view for both solvable and unsolvable steps (see\nFigure12).MoreexamplescanbefoundinSectionD.Userscanfreelyformulate\nquestions. If the question is answered by calling EF first the user is notified\nCC\nhowthequestionwasunderstood.Thisisimplementedbythequestiontranslator\nto the question similarly to the LLM-based goal translator\nreverse translate\ndescribedearlier.Thentheresponsefromtheexplanationtranslatorisdisplayed.\nIn case of direct answers by the question translator or answers to follow-up\nquestions from the explanation translator, the answer is given directly.\n\n[VISUAL CONTENT - IMAGES]\nTitle: Unsatisfied Goals Analysis\nSummary: The image is a diagram titled 'Unsatisfied Goals Analysis' that outlines a scenario where a parent takes their son to a music school for a one-hour guitar lesson at 14:00. The diagram highlights unsatisfied goals, specifically focusing on the goal 'son attends music lesson.' It presents a situation where both the son and the guitar occupy one unit of space in the car, and the parent does not need to stay during the lesson. The diagram includes questions and conditions that need to be addressed to satisfy the goal, such as 'daughter does soccer training' and 'grandma buys groceries.' The visual is structured to analyze and resolve the unsatisfied goal by exploring related conditions and questions.\n\n\n[VISUAL CONTENT - IMAGES]\nTitle: Problem Solving Insights\nSummary: The image is a diagram titled 'Problem Solving Insights' that provides guidance on making a plan solvable by suggesting the removal of certain combinations of properties. It lists combinations such as 'daughter does soccer training,' 'parent does sports and son attends music lesson,' and 'bring grandma's groceries to her house.' The diagram aims to address the question of why the selection of enforced goals is unsolvable by offering alternative combinations to consider.\n",
     "keywords": [
-      "unsolvable",
-      "llm",
-      "step",
-      "solvable",
-      "questions",
+      "question",
       "figure",
-      "translator",
       "refer",
-      "questions refer",
-      "11",
+      "step",
+      "translator",
       "based",
-      "question"
+      "llm",
+      "unsolvable",
+      "questions refer",
+      "questions",
+      "11",
+      "solvable"
     ],
     "visual_summaries": [
       {
         "type": "images",
-        "image_title": "Parent and Son Music Lesson Scenario",
+        "image_title": "Unsatisfied Goals Analysis",
         "image_keywords": [
-          "parent",
-          "son",
-          "music lesson",
+          "parent does sports",
+          "son attends music lesson",
+          "music school",
+          "14:00",
           "guitar",
-          "schedule",
-          "transportation"
+          "one hour",
+          "space in car",
+          "unsatisfied goals"
         ],
         "image_citation": "extracted_assets\\arxiv2\\images\\page25_img1.png"
       },
       {
         "type": "images",
-        "image_title": "Insights on Goal Selection",
+        "image_title": "Problem Solving Insights",
         "image_keywords": [
-          "goal selection",
+          "solvable",
           "properties",
-          "solvable plan",
+          "soccer training",
+          "music lesson",
           "sports",
-          "music lesson"
+          "groceries"
         ],
         "image_citation": "extracted_assets\\arxiv2\\images\\page25_img2.png"
       }
@@ -639,31 +746,33 @@
   {
     "pdf": "arxiv2",
     "page": 26,
-    "text": "26 G. Fouilhé et al.\nFig.12: Screenshot of the LLM-based explanations.\nA.3 User Study Adaptations\nIn order to facilitate the execution of a user study within a controlled environ-\nment, the following adaptations were made.\nThecomputationofexplanationsrequiresasignificantamount\nDemoEnvironment\nof time. In order to provide a responsive experience for the users, all conflicts\nand corrections are precomputed. This requires to fix the set of reference goals.\nAdemo iscreatedbasedonaprojectbyselectingasetofgoals.Eachgoalis\nassigned a utility that acts as a proxy for an intrinsic preference. Then all MUS\nand MCS for these goals are computed.\nFixing the set of reference goals also provides a controlled environment for a\nuserstudy.Allusersmustsolvethesameoptimizationproblem,whichallowsto\nuse the maximal achieved utility as a metric.\nDuringauserstudysomefeaturesoftheiterative\nAdaptationsIterativePlanning\nplanningprocessaredisabled.Usersdonothaveaccesstothesampleplans,but\nonlytotheinformationdisplayedintheiterationstepdetailview.Sincethegoals\nare fixed, users cannot create any new goals. If a user creates a new iteration\nstep, then they must only select the enforced goals. All not enforced goals are\nautomatically selected as reference goals. To motivate users to perform well, to\nachieveahighutility,themaximalachievableutilityforthedemoandtheutility\nof the best iteration step are displayed.\nFigure 13 shows an example list of iteration steps for the demo used in the\nuserstudy.Overallautilityof16outof18isachieved.Inthetoptheindividual\npartsoftheuserstudyareshownandbelowthetimerfortheavailableprocessing\ntime.\n\n[VISUAL CONTENT - IMAGES]\nTitle: Insights Planning Task Interface\nSummary: The visual represents an interactive insights planning task interface designed to assist users in managing and enforcing goals without conflicts. It features a dialogue box where users can ask questions related to their planning tasks, such as enforcing specific goals like 'Parent cleans home' or 'Parent cooks dinner.' The interface provides feedback on potential conflicts with existing goals, highlighting the importance of balancing multiple activities. Key elements include suggested questions for user engagement and a focus on resolving conflicts in goal enforcement, making it a useful tool for effective planning.\n",
+    "text": "26 G. Fouilhé et al.\nFig.12: Screenshot of the LLM-based explanations.\nA.3 User Study Adaptations\nIn order to facilitate the execution of a user study within a controlled environ-\nment, the following adaptations were made.\nThecomputationofexplanationsrequiresasignificantamount\nDemoEnvironment\nof time. In order to provide a responsive experience for the users, all conflicts\nand corrections are precomputed. This requires to fix the set of reference goals.\nAdemo iscreatedbasedonaprojectbyselectingasetofgoals.Eachgoalis\nassigned a utility that acts as a proxy for an intrinsic preference. Then all MUS\nand MCS for these goals are computed.\nFixing the set of reference goals also provides a controlled environment for a\nuserstudy.Allusersmustsolvethesameoptimizationproblem,whichallowsto\nuse the maximal achieved utility as a metric.\nDuringauserstudysomefeaturesoftheiterative\nAdaptationsIterativePlanning\nplanningprocessaredisabled.Usersdonothaveaccesstothesampleplans,but\nonlytotheinformationdisplayedintheiterationstepdetailview.Sincethegoals\nare fixed, users cannot create any new goals. If a user creates a new iteration\nstep, then they must only select the enforced goals. All not enforced goals are\nautomatically selected as reference goals. To motivate users to perform well, to\nachieveahighutility,themaximalachievableutilityforthedemoandtheutility\nof the best iteration step are displayed.\nFigure 13 shows an example list of iteration steps for the demo used in the\nuserstudy.Overallautilityof16outof18isachieved.Inthetoptheindividual\npartsoftheuserstudyareshownandbelowthetimerfortheavailableprocessing\ntime.\n\n[VISUAL CONTENT - IMAGES]\nTitle: Planning Task Insights\nSummary: The image is a screenshot of a planning task insights interface, where a virtual assistant provides guidance on enforcing specific goals without causing conflicts. It addresses whether 'Parent cleans home' or 'Parent cooks dinner' can be enforced without conflicts. The assistant confirms that 'Parent cleans home' can be enforced without issues, but 'Parent cooks dinner' may conflict with other goals, requiring adjustments in Alice's or Bob's activities. The interface allows users to ask questions or choose from suggested queries to better understand the planning task and explore goal combinations.\n",
     "keywords": [
-      "user",
-      "userstudy",
-      "step",
-      "set reference",
-      "set",
-      "iteration",
       "goals",
-      "time",
-      "users",
+      "reference",
+      "userstudy",
       "reference goals",
+      "iteration",
+      "user",
+      "step",
+      "users",
+      "time",
       "user study",
-      "reference"
+      "set",
+      "set reference"
     ],
     "visual_summaries": [
       {
         "type": "images",
-        "image_title": "Insights Planning Task Interface",
+        "image_title": "Planning Task Insights",
         "image_keywords": [
-          "planning",
-          "task management",
-          "goal enforcement",
-          "conflict resolution",
-          "user interface"
+          "Parent cleans home",
+          "Parent cooks dinner",
+          "conflicts",
+          "enforced goals",
+          "Alice activities",
+          "Bob activities",
+          "planning task"
         ],
         "image_citation": "extracted_assets\\arxiv2\\images\\page26_img1.png"
       }
@@ -672,26 +781,27 @@
   {
     "pdf": "arxiv2",
     "page": 27,
-    "text": "Exploring Plan Space through Conversation 27\nFig.13: Iteration steps list for a demo during the user study.\nB User Study\nB.1 Detailed Process\nWe recruited (after filtering) fluent in english participants through Prolific\n131\n(www.prolific.com), keeping only the submissions of participants that reached\ntheendoftheuserstudy,achievedatleasttwoiterationstepsincludingasolvable\none, and used the explanation interface at least one. The estimated time to\ncompletethestudywasbetween30and35minutes.Participantswererandomly\nassignedtooneoftwogroups,resultingin65participantsinGTPL and66inGLLM.\nThe participants were rewarded with a base payment of £4.20 and a bonus\npayment of £0 to £5 depending of achieved maximum utility.\nThe user study was divided into three main parts:\nAfter consenting to participate in our online user-\nIntroduction to the Task\nstudy, the tool and its possibilities were presented via a 1mn30 video tutorial.\nAfterwards,participantswerepresentedatoyexampleoftheParentsAfternoon\ndomain, more details in Section B.2. Subsequently, they were given 10 minutes\ntointeractwiththesystemandexploretheexplanationinterface.Theobjective\nof this first part was to familiarize participants with the tool and the domain.\n\n[VISUAL CONTENT - IMAGES]\nTitle: Plan Iterations Overview\nSummary: This visual is a structured overview of plan iterations in a user study, detailing the progress across seven steps. Each step is labeled with its status, indicating whether it is 'Saved' or 'Unsubmitted.' The visual displays the number of goals set and the number of goals achieved for each step, with specific values noted for Steps 1, 2, 3, and 7. Notably, Steps 4, 5, and 6 are marked as 'Unsubmitted,' indicating incomplete tasks. The overall evaluation shows a total of three successful steps and four unsuccessful ones, with the final step achieving 16 out of 18 goals, suggesting a high level of completion in that area.\nStep 1: Saved, 10/18 goals achieved\nStep 2: Saved, 10/18 goals achieved\nStep 3: Unsubmitted, 11/18 goals achieved\nStep 4: Unsubmitted, 7/18 goals achieved\nStep 5: Unsubmitted, 6/18 goals achieved\nStep 6: Unsubmitted, 0/18 goals achieved\nStep 7: Saved, 16/18 goals achieved",
+    "text": "Exploring Plan Space through Conversation 27\nFig.13: Iteration steps list for a demo during the user study.\nB User Study\nB.1 Detailed Process\nWe recruited (after filtering) fluent in english participants through Prolific\n131\n(www.prolific.com), keeping only the submissions of participants that reached\ntheendoftheuserstudy,achievedatleasttwoiterationstepsincludingasolvable\none, and used the explanation interface at least one. The estimated time to\ncompletethestudywasbetween30and35minutes.Participantswererandomly\nassignedtooneoftwogroups,resultingin65participantsinGTPL and66inGLLM.\nThe participants were rewarded with a base payment of £4.20 and a bonus\npayment of £0 to £5 depending of achieved maximum utility.\nThe user study was divided into three main parts:\nAfter consenting to participate in our online user-\nIntroduction to the Task\nstudy, the tool and its possibilities were presented via a 1mn30 video tutorial.\nAfterwards,participantswerepresentedatoyexampleoftheParentsAfternoon\ndomain, more details in Section B.2. Subsequently, they were given 10 minutes\ntointeractwiththesystemandexploretheexplanationinterface.Theobjective\nof this first part was to familiarize participants with the tool and the domain.\n\n[VISUAL CONTENT - IMAGES]\nTitle: Plan Iterations Workflow\nSummary: The image is a diagram titled 'Plan Iterations Workflow' that illustrates a multi-step process for evaluating and saving plans. It consists of seven steps, each represented by a box with labels indicating whether the step is saved or unsaved. Steps 1, 2, and 7 are marked as saved, while Steps 3, 4, 5, and 6 are unsaved. Each step includes a visual gauge showing progress towards a goal, with specific enforced goals and values displayed. The diagram provides a structured overview of the planning process, highlighting the status and progress of each step, and includes options for performing a new plan computation or forking an existing one.\n",
     "keywords": [
-      "user",
-      "domain",
-      "video tutorial",
-      "payment",
-      "participants",
-      "tool",
-      "video",
+      "study",
       "utility",
+      "participants",
+      "payment",
+      "tool",
+      "video tutorial",
+      "user",
+      "video",
       "www prolific",
       "user study",
       "prolific",
-      "study"
+      "domain"
     ],
     "visual_summaries": [
       {
         "type": "images",
-        "image_title": "Plan Iterations Overview",
+        "image_title": "Plan Iterations Workflow",
         "image_keywords": [
+          "Plan Iterations",
           "Step 1",
           "Step 2",
           "Step 3",
@@ -699,9 +809,9 @@
           "Step 5",
           "Step 6",
           "Step 7",
-          "evaluation",
-          "goals",
-          "user study"
+          "Saved",
+          "Unsaved",
+          "Enforced Goals"
         ],
         "image_citation": "extracted_assets\\arxiv2\\images\\page27_img1.png"
       }
@@ -712,18 +822,18 @@
     "page": 28,
     "text": "28 G. Fouilhé et al.\nIf they reached the maximum utility before 10 minutes, they were proposed to\ncontinue with the next part.\nThe second part consist of a more complex scenario, as\nEvaluation Scenario\ndescribed in Section B.2. This scenario was introduced to the participants simi-\nlarly to the toy example. Then they were given 15 minutes to interact with the\nsystem. Users were aware of the maximum achievable utility and notified when\nthey reached it.\nFinally,participantswereaskedtofilloutaques-\nPost-experimentQuestionnaire\ntionnairetoevaluate.Questiondetailsandsummaryofanswersarepresentedin\nSection B.3. The evaluated points were:\nThe perception of the task difficulty;\n–\nThe perception of the usefulness of the question interface;\n–\nB.2 Instance\n:\nIntroduction instance specifics\nPeople: a parent (the only one who can drive the car), alice and bob (kids)\n–\nItems: groceries (required for cooking lunch and dinner) tennis racket (re-\n–\nquired for tennis training)\nLocations: home, groceries store, sport center, and city center\n–\nActivities (utility) : do groceries (1) , clean home (1), cook lunch (4), cook\n–\ndinner (3), bob does tennis training (2), bob does homework (3), alice does\nviolin lesson (1), alice does homework (2),\nTime: tracked in 10 levels (08h00-18h00)\n–\nThecarhasacapacityof2,andinitiallyeveryoneisfree(notbusy)athome.\n–\nThere is only two global conflicts ; removing the goal with the least utility\nin these two conflicts (alice’s violin lesson and clean home) was the optimal\nsolution.\nThe maximum utility was 15.\n:\nEvaluation instance specifics\nPeople:aparent(theonlyonewhocandrivethecar),AliceandBob(kids)\n–\nnone currently active\n– Items:\nhome, gymnasium, city center, and music center\n– Locations:\n– Activities (with utility):\n• Alice’s activities:\n∗ does homework [3] (2h, 08:00–10:00, at home)\n∗ hangs out [2] (2h, 11:00–13:00, at city center)\n∗ plays video games [2] (2h, 11:00–13:00, at home)\n∗ does basketball training [3] (2h, 14:00–16:00, at gymnasium)\n∗ takes violin lesson [2] (1h, 17:00–18:00, at music center)",
     "keywords": [
-      "violin",
-      "city center",
+      "activities",
       "00",
-      "violin lesson",
-      "center",
+      "utility",
       "does",
       "home",
-      "tennis",
-      "2h",
       "alice",
-      "utility",
-      "activities"
+      "violin lesson",
+      "violin",
+      "2h",
+      "center",
+      "city center",
+      "tennis"
     ],
     "visual_summaries": []
   },
@@ -732,38 +842,38 @@
     "page": 29,
     "text": "Exploring Plan Space through Conversation 29\n• Bob’s activities:\n∗ does homework [3] (2h, 08:00–10:00, at home)\n∗ hangs out [2] (2h, 11:00–13:00, at city center)\n∗ paints [2] (2h, 11:00–13:00, at home)\n∗ does tennis training [2] (2h, 14:00–16:00, at gymnasium)\n∗ takes piano lesson [3] (1h, 17:00–18:00, at music center)\n• Parent’s activities:\n∗ cleans home [2] (2h, 08:00–10:00, at home)\n∗ does laundry [1] (1h, 10:00–11:00, at home)\n∗ mows grass [1] (1h, 11:00–12:00, at home)\n∗ cooks lunch [1] (1h, 12:00–13:00, at home)\n∗ cooks dinner [1] (1h, 17:00–18:00, at home)\n∗ does sports [2] (2h, 14:00–16:00, at gymnasium)\n∗ goes to the hairdresser [1] (1h, 14:00–15:00, at city center)\n∗ has a drink with friends [3] (2h, 15:00–17:00, at city center)\n∗ goes shopping [1] (1h, 17:00–18:00, at city center)\ntracked in 11 levels (08:00–18:00, i.e., 10 hours)\n– Time:\nConstraints:Thecarhasacapacityof3,andinitiallyeveryoneisfree(not\n–\nbusy) at home.\nThere was 224 Conflicts and 313 Corrections.\nThe maximum utility was 27 and was obtained by removing : Alice hangs\nout, Bob hangs out, Parent cooks dinner, Parent goes shopping, Parent goes to\nthe hairdresser, Parent has a drink with friends.\nB.3 Additional Results\nSimilarlytothecomparisonoftheutilityscoreoveriteration\nUtilityoverTime\nsteps, we also analyzed it across time. However, no significant difference was\nobserved.Wecanhypothesizethatthetimebenefitsofachievingahigherutility\nper iteration steps were balanced by users spending more time in each iteration\nstep engaging in a conversation with the explanation interface.\nWealsoprovide(Figure15)non-averaged\nNon-Averaged Utility over Steps\nfigures of the maximum achieved utility over iteration steps: each accepted par-\nticipant of the user study is one trajectory.",
     "keywords": [
-      "00 city",
-      "parent",
-      "city center",
       "00",
-      "center",
+      "00 home",
       "home",
       "1h",
+      "parent",
+      "00 city",
       "2h",
-      "11",
+      "center",
       "11 00",
+      "city center",
       "00 18",
-      "00 home"
+      "11"
     ],
     "visual_summaries": []
   },
   {
     "pdf": "arxiv2",
     "page": 30,
-    "text": "30 G. Fouilhé et al.\n27\n24\n21\n18\nytilitu\nLLM-based\n15\n± 1 std\n12\nTemplate-based\nxaM\n± 1 std\n9\n6\n: : : : : : : :\ne e e e e e e e\nlu lu lu lu lu lu lu lu\np-va p-va p-va p-va p-va p-va p-va -va\n5 4 9 6 3 2 5 3\n3\n.7 .6 .3 .7 .8 .9 .9 .7\np\n0 0 0 0 0 0 0 0\n0\n0 2 4 6 8 10 12 14 1155\nTime (minutes)\n!ht\nFig.14: Comparison of max utility achieved over time between the two groups:\nand GLLM.\nGTPL\n\n[VISUAL CONTENT - IMAGES]\nTitle: Utility Progression Over Iteration Steps\nSummary: This visual consists of two line charts titled 'Utility Progression Over Iteration Steps' that compare the utility progression across iteration steps for two different methodologies: LLM-based and Template-based. Each chart displays multiple data series, represented by distinct colored lines, illustrating how utility values change as the number of iteration steps increases. The left chart focuses on the LLM-based approach, while the right chart presents the Template-based approach. Both charts show a general upward trend in utility with increasing iteration steps, with some variations in the rate of progression among the different series. The charts provide insights into the effectiveness of each methodology over time.\n\n\n[VISUAL CONTENT - VECTOR_GRAPHICS]\nTitle: Comparison of Max Utility Over Time\nSummary: This line chart illustrates the comparison of maximum utility achieved over time between two groups: LLM-based and template-based interfaces. The x-axis represents time in minutes, while the y-axis shows the maximum utility values, reaching up to 27. The chart features multiple lines representing different configurations of the LLM-based group, with shaded areas indicating standard deviation. Notably, the LLM-based approach consistently shows a gradual increase in utility over time, while the template-based approach also demonstrates a similar trend, albeit with different performance characteristics. The visualization highlights the comparative effectiveness of the two methodologies in achieving utility as time progresses.\n",
+    "text": "30 G. Fouilhé et al.\n!ht\nFig.14: Comparison of max utility achieved over time between the two groups:\nand GLLM.\nGTPL\n(a) LLM-based interface (b) Template-based interface\nFig.15\n\n[VISUAL CONTENT - IMAGES]\nTitle: Utility Progression Over Iteration Steps\nSummary: The image contains two line charts titled 'Utility Progression Over Iteration Steps' comparing LLM-based and Template-based methods. Both charts display utility values on the y-axis against iteration steps on the x-axis, ranging from 0 to 40 steps. Each line represents a different data series, showing how utility progresses over time. The LLM-based chart shows a more gradual increase in utility values, while the Template-based chart demonstrates a steeper initial rise. These charts illustrate the differences in utility progression between the two methods, highlighting variations in performance and efficiency over the iteration steps.\n\n\n[VISUAL CONTENT - VECTOR_GRAPHICS]\nTitle: Max Utility Over Time Comparison\nSummary: This line chart compares the maximum utility achieved over time between LLM-based and Template-based methods. The x-axis represents time in minutes, while the y-axis shows the maximum utility. The chart includes two lines, one for each method, with shaded areas indicating the standard deviation. Key p-values are marked at various time intervals, highlighting statistical significance. The LLM-based method generally shows a slightly higher utility over time compared to the Template-based method, with both methods converging towards similar utility levels by the 15-minute mark.\n",
     "keywords": [
-      "va va",
-      "lu",
-      "va 10",
-      "ytilitu llm",
-      "time",
-      "va",
-      "14",
-      "xam",
-      "std",
-      "lu lu",
+      "utility",
+      "max",
+      "utility achieved",
+      "interface",
+      "template based",
+      "based interface",
       "based",
-      "12"
+      "fig",
+      "time",
+      "time groups",
+      "llm based",
+      "max utility"
     ],
     "visual_summaries": [
       {
@@ -773,19 +883,22 @@
           "Utility",
           "Iteration Steps",
           "LLM-based",
-          "Template-based"
+          "Template-based",
+          "Utility Progression"
         ],
         "image_citation": "extracted_assets\\arxiv2\\images\\page30_img1.png"
       },
       {
         "type": "vector_graphics",
-        "image_title": "Comparison of Max Utility Over Time",
+        "image_title": "Max Utility Over Time Comparison",
         "image_keywords": [
-          "max utility",
-          "time",
+          "Max utility",
+          "Time",
           "LLM-based",
-          "template-based",
-          "utility comparison"
+          "Template-based",
+          "p-value",
+          "minutes",
+          "std"
         ],
         "image_citation": "extracted_assets\\arxiv2\\vector_graphics\\page30_vector.png"
       }
@@ -796,38 +909,38 @@
     "page": 31,
     "text": "Exploring Plan Space through Conversation 31\nC LLM Agents\nC.1 Implementation Details\nAll agents are instantiated from the same base model GPT-4.1-mini13, accessed\nvia the OpenAI Responses API14. The context management is done locally. For\nthe output we use the structured outputs option15, provided by newer OpenAI\nmodels, that ensures that the response adheres to a fixed JSON schema.\nThe complete list of input, provider of the input, and output is available in\nTable 1.\nC.2 Prompts\nEach agent has an associated instruction prompt that precedes a few (5-12)\ndomain-specificexamplesofthetaskcoveringdifferentscenarios.Inthissection,\nwewillonlyshowtheinstructionpromptandoneexamplefromonedomain(par-\nents afternoon or transport). The full prompts including all provided examples\nwill be made available in the code repository associated with this paper.\nC.3 System Prompt\nThis prompt is used as a prefix for each LLM agent below.\nYou are helping a user to solve a planning task. Your role is to help the\nuser to understand the conflicts between some goals and the way they\ncan resolve them. Be nice, try to adapt to what the user wants while re-\nspectingtheinstructions.Trytogettheusertoengageinaconversation\nwith you. This means you can leave the door open to a followup ques-\ntion, and even make suggestions for these followup questions. However,\nbe as concise as possible.\nC.4 Question Translator\nQuestion Translator Prompt\nYou are provided with a user question, which you have to classify as:\n- a direct question for you (DIRECT-USER),\n- a direct question for the explanation translator (DIRECT-ET),\n- or a question semantically equivalent to some preset question types\n(listed below).\n## If \"Solvable\" is False:\n- US-WHY: \"Why is the task unsolvable?\"\n- US-HOW: \"How can I make the task solvable?\"\n13\ngpt-4.1-mini-2025-04-14\n14\nhttps://platform.openai.com/docs/api-reference/responses\nhttps://platform.openai.com/docs/guides/structured-outputs\n15",
     "keywords": [
-      "direct",
       "provided",
-      "user",
-      "task",
-      "translator",
       "openai",
+      "prompt",
+      "question",
+      "user",
       "outputs",
       "openai com",
+      "translator",
       "structured outputs",
-      "structured",
-      "prompt",
-      "question"
+      "task",
+      "direct",
+      "structured"
     ],
     "visual_summaries": []
   },
   {
     "pdf": "arxiv2",
     "page": 32,
-    "text": "32 G. Fouilhé et al.\nTable 1: Input, Provider, and Outputs structure of each translator. is the\nτ\nplanning task ⟨P,O,A,I,G⟩, is the current iteration step ⟨Gref,Genf,π⟩,\nGref\nδ\nall\nisthesetofreferencegoals(cid:83) (cid:83)\nacrossalliterationsteps∆= .E∗(args)is\nGref\nδ\ni\ni\nthesetofexplanationsfortheargumentargsthatcontainsinformationtoanswer\nall question types (to anticipate follow-up questions). The different outputs of\nare defined in Figure 2 of the main paper.\nT\nQ\nComponent Input Provider Output\nUser\nQ\nNL\nOne of :\nGenf\nδ\nQuestion (1) Response\nGtrue(π)\nδ\nTranslator (2)\nQ\nNL\nGfalse(π)\nδ\n(T ) (3)\n⟨µ ,G⟩\nQ Q\nGr e f\n∆\n(4)\na l l\nµ ,G\nQ NL\nSolvability\nδ\nName\nδ δ\nGenf\nδ\nQuestion\nArray of\nGtrue(π)\nδ\nSuggester\nQuestions (NL)\nGfalse(π)\nδ\n(S )\nQ\nSolvability\nδ\nPrevious Questions δ/∆\nGoal/Topic User/T\nG\nNL Q\nϕ\nTranslator\nP τ\nGoal Name\n(T /T )\nO τ\nG T\nUser\nQ\nNL\nµ T\nQ Q\nG T\nQ\nEF\nE∗(args)\nCC\nExplanation\nP τ\nTranslator Expl. (NL)\nO τ\n(T )\nE\nGenf\nδ\nGtrue(π)\nδ\nGfalse(π)\nδ\nGref\n∆\nall\n## If \"Solvable\" is True:\n- S-WHY-NOT: \"Why are Q not satisfied?\"\n- S-WHAT-IF: \"What happens if we enforce Q?\"\n- S-CAN: \"Can Q be satisfied?\"\n- S-HOW: \"How can Q be satisfied?\" or \"How can I improve the plan\nwith respect to o?\"\nYouwillalsoreceivelistsofgoalsandtheirstateinthecurrentiteration\nstep:\n- Enforced goals (enforced by the user)\n- Satisfied goals (currently satisfied)\n- Unsatisfied goals (not currently satisfied)\nReturn the question type and the goal or plan property the user is re-\nferring to, without any additional comments of any kind. First, try to",
+    "text": "32 G. Fouilhé et al.\nTable 1: Input, Provider, and Outputs structure of each translator. is the\nτ\nplanning task ⟨P,O,A,I,G⟩, is the current iteration step ⟨Gref,Genf,π⟩,\nGref\nδ\nall\nisthesetofreferencegoals(cid:83) (cid:83)\nacrossalliterationsteps∆= .E∗(args)is\nGref\nδ\nii\nthesetofexplanationsfortheargumentargsthatcontainsinformationtoanswer\nall question types (to anticipate follow-up questions). The different outputs of\nare defined in Figure 2 of the main paper.\nTQ\nComponent Input Provider Output\nUser\nQ\nNL\nOne of :\nGenf\nδ\nQuestion (1) Response\nGtrue(π)\nδ\nTranslator (2)\nQ\nNL\nGfalse(π)\nδ\n(T ) (3)\n⟨µ ,G⟩\nQQ\nGr ef\n∆\n(4)\nall\nµ ,GQ NL\nSolvability\nδ\nName\nδ δ\nGenf\nδ\nQuestion\nArray of\nGtrue(π)\nδ\nSuggester\nQuestions (NL)\nGfalse(π)\nδ\n(S )\nQ\nSolvability\nδ\nPrevious Questions δ/∆\nGoal/Topic User/TG\nNL Q\nϕ\nTranslator\nP τ\nGoal Name\n(T /T )\nO τ\nGT\nUser\nQ\nNL\nµ TQQGTQ\nEF\nE∗(args)\nCC\nExplanation\nP τ\nTranslator Expl. (NL)\nO τ\n(T )\nE\nGenf\nδ\nGtrue(π)\nδ\nGfalse(π)\nδ\nGref\n∆\nall\n## If \"Solvable\" is True:\n- S-WHY-NOT: \"Why are Q not satisfied?\"\n- S-WHAT-IF: \"What happens if we enforce Q?\"\n- S-CAN: \"Can Q be satisfied?\"\n- S-HOW: \"How can Q be satisfied?\" or \"How can I improve the plan\nwith respect to o?\"\nYouwillalsoreceivelistsofgoalsandtheirstateinthecurrentiteration\nstep:\n- Enforced goals (enforced by the user)\n- Satisfied goals (currently satisfied)\n- Unsatisfied goals (not currently satisfied)\nReturn the question type and the goal or plan property the user is re-\nferring to, without any additional comments of any kind. First, try to",
     "keywords": [
-      "gref",
-      "user",
-      "genf",
-      "questions",
-      "translator",
       "goals",
-      "goal",
+      "question",
       "satisfied",
-      "nl",
+      "user",
       "gtrue",
-      "user nl",
-      "question"
+      "gfalse",
+      "gref",
+      "translator",
+      "goal",
+      "questions",
+      "genf",
+      "nl"
     ],
     "visual_summaries": []
   },
@@ -836,38 +949,38 @@
     "page": 33,
     "text": "Exploring Plan Space through Conversation 33\nsee if the question is about a goal that is already existing. If it is, return\nALREADY-USED as the \"used\" part of your answer and use the exact\nsamenameinthe\"questionArgument\"partofyouranswer.Youdosup-\nport questions about multiple goals/plan-properties in a single question\nand you can infer them when it’s implicit. If you are asked to answer\na question about several goals (e.g. \"Can I enforce the two groceries\ngoals?\") you should reply by listing all the relevant arguments of the\nquestionintheappropriatefield.Whenreplyingdirectlytotheuseryou\nshouldsetthequestionTypefieldtoDIRECT-USER.Whenthequestion\nseems to be a followup question about the explanation, or after at least\none S- or US- type question with the same context of enforced goals the\nuserwantstoenumeratetheconflictsorclarifythings,usetheDIRECT-\nET question type and simply copy the question in the directResponse\nfield.\nReturn the following fields:\n- \"questionType\": Detected question type\n- \"questionArgument\": The goals or plan properties referenced by the\nuser’s question, if any. If about several goals, include them all. You can\ninfer them when it’s implicit, but they should always be exactly part of\nthecurrentlyprovidedEnforced,Satisfied,orUnsatisfiedgoals.-\"used\":\nSet to \"ALREADY-USED\" if the question is about an existing goal.\n- If the question is unsolvable task related (US-*, Solvable: False), or a\n\"DIRECT-USER\"or\"DIRECT-ET\"question,set\"questionArgument\"\nto [\"\"] and \"used\" to NO-ARGUMENT-REQUIRED.\n-Whenreplyingdirectlytotheuser,onlyset\"questionType\"to\"DIRECT-\nUSER\" and use the field \"directResponse\".\n- When the question seems to be a followup question about an explana-\ntionoriftheuseraskstoclarify/enumerateconflicts,set\"questionType\"\nto \"DIRECT-ET\" and use the field \"directResponse\".\nLast instructions :\n- You do not know the utility of goals; maximizing utility is the user’s\nresponsibility. Avoid suggesting user to give you utility.\n- You do not know the plan, if the iteration step is solved or not and\nwhich goals are achieved in a solved iteration step.\n- Use DIRECT-USER whenever you’re not sure of the intention of the\nuser. It should be the default.\n- Help the user to understand your capabilities. You are here to help\nthem understand the conflicts between the goals during a planning task\nwhere they have to find a combination of enforced goals that maximizes\nutility. Be helpful and avoid repeating yourself.\nExamples of valid outputs and their input contexts are provided below\nfor reference. In practice, you will always be interacting with the same\nuser during multiple questions, and different iteration steps of the same\nplanningtaskbutdifferentgoalenforced,andthusdifferentconflictsand\npossible questions.\n## Examples",
     "keywords": [
-      "direct",
-      "user",
-      "type",
-      "use",
-      "direct user",
-      "used",
-      "goals",
-      "iteration",
       "utility",
-      "field",
+      "goals",
       "question",
-      "plan"
+      "iteration",
+      "user",
+      "field",
+      "type",
+      "direct user",
+      "use",
+      "plan",
+      "used",
+      "direct"
     ],
     "visual_summaries": []
   },
   {
     "pdf": "arxiv2",
     "page": 34,
-    "text": "34 G. Fouilhé et al.\nQuestion: What do I have to do ?\nEnforced Goals: [do sports, do bring kid1 home]\nSatisfied Goals: []\nUnsatisfied Goals: [do shopping]\nSolvable: False\nReturn: {\n\"questionType\": \"DIRECT-USER\",\n\"questionArgument\": [\"\"],\n\"used\": \"NO-ARGUMENT-REQUIRED\",\n\"reverseTranslation\": \"What do I have to do?\",\n\"directResponse\": \"You have to find a combination of goals to enforce\nthat leads to a solvable plan with the highest utility you can. It seems\nthat you enforced too much goals and that this iteration step is unsolv-\nable. Try to ask me how to make this iteration step solvable!\"\n}\nQuestion: Why is the task unsolvable ?\nEnforced Goals: [do sports, do bring kid1 home]\nSatisfied Goals: []\nUnsatisfied Goals: [do shopping]\nSolvable: False\nReturn: {\n\"questionType\": \"US-WHY\",\n\"questionArgument\": [\"\"],\n\"used\": \"NO-ARGUMENT-REQUIRED\",\n\"reverseTranslation\": \"Why is the planning task unsolvable?\",\n\"directResponse\": null\n}\nQuestion: Why can’t I do music lesson ?\nEnforced Goals: [do sports, do shopping grandma]\nSatisfied Goals: [do bring kid1 home, bring food to home]\nUnsatisfied Goals: [do music lesson]\nSolvable: True\nReturn: {\n\"questionType\": \"S-WHY-NOT\",\n\"questionArgument\": [\"do music lesson\"],\n\"used\": \"ALREADY-USED\",\n\"reverseTranslation\": \"Why is the goal **do music lesson** not satis-\nfied?\",\n\"directResponse\": null\n}\nQuestion: yes enumerate the conflicts\nEnforced Goals: [do sports, do shopping grandma]\nSatisfied Goals: [do bring kid1 home, bring food to home]\nUnsatisfied Goals: [do music lesson]\nSolvable: True\nReturn: {",
+    "text": "34 G. Fouilhé et al.\nQuestion: What do I have to do ?\nEnforced Goals: [do sports, do bring kid1 home]\nSatisfied Goals: []\nUnsatisfied Goals: [do shopping]\nSolvable: False\nReturn: {\n\"questionType\": \"DIRECT-USER\",\n\"questionArgument\": [\"\"],\n\"used\": \"NO-ARGUMENT-REQUIRED\",\n\"reverseTranslation\": \"What do I have to do?\",\n\"directResponse\": \"You have to find a combination of goals to enforce\nthat leads to a solvable plan with the highest utility you can. It seems\nthat you enforced too much goals and that this iteration step is unsolv-\nable. Try to ask me how to make this iteration step solvable!\"\n}\nQuestion: Why is the task unsolvable ?\nEnforced Goals: [do sports, do bring kid1 home]\nSatisfied Goals: []\nUnsatisfied Goals: [do shopping]\nSolvable: False\nReturn: {\n\"questionType\": \"US-WHY\",\n\"questionArgument\": [\"\"],\n\"used\": \"NO-ARGUMENT-REQUIRED\",\n\"reverseTranslation\": \"Why is the planning task unsolvable?\",\n\"directResponse\": null\n}\nQuestion: Why can’tI do music lesson ?\nEnforced Goals: [do sports, do shopping grandma]\nSatisfied Goals: [do bring kid1 home, bring food to home]\nUnsatisfied Goals: [do music lesson]\nSolvable: True\nReturn: {\n\"questionType\": \"S-WHY-NOT\",\n\"questionArgument\": [\"do music lesson\"],\n\"used\": \"ALREADY-USED\",\n\"reverseTranslation\": \"Why is the goal **do music lesson** not satis-\nfied?\",\n\"directResponse\": null\n}\nQuestion: yes enumerate the conflicts\nEnforced Goals: [do sports, do shopping grandma]\nSatisfied Goals: [do bring kid1 home, bring food to home]\nUnsatisfied Goals: [do music lesson]\nSolvable: True\nReturn: {",
     "keywords": [
+      "enforced goals",
       "bring",
-      "solvable",
-      "enforced",
-      "kid1",
-      "home",
       "goals",
       "music lesson",
-      "goals sports",
+      "home",
+      "return",
+      "enforced",
+      "lesson",
+      "kid1",
+      "used",
       "music",
-      "enforced goals",
-      "sports",
-      "lesson"
+      "solvable"
     ],
     "visual_summaries": []
   },
@@ -876,18 +989,18 @@
     "page": 35,
     "text": "Exploring Plan Space through Conversation 35\n\"questionType\": \"DIRECT-ET\",\n\"questionArgument\": [\"\"],\n\"used\": \"NO-ARGUMENT-REQUIRED\",\n\"reverseTranslation\": \"\",\n\"directResponse\": \"yes enumerate the conflicts\"\n}\n[Additional examples omitted for brevity]\n## End of the examples. These were example goals, from now on only\nrefer to the one mentioned after this.\nFormatting of Question Translator Input\nQuestion: ${QUESTION}\nEnforced Goals: ${ENFORCED_GOALS}\nSatisfied Goals: ${SATISFIED_GOALS}\nUnsatisfied Goals: ${UNSATISFIED_GOALS}\nSolvable: ${SOLVABLE}\nReturn:\nC.5 Question Suggester\nQuestion Suggester Prompt\nYou are an intelligent assistant that suggests relevant questions a user\nmight want to ask during an interactive planning task. Your goal is to\nhelp users explore the planning space and understand conflicts between\ngoals.\n## Context\nYou will receive:\n- The current iteration step number\n- Enforced goals (goals the user has chosen to enforce)\n- Satisfied goals (goals currently satisfied in the plan)\n- Unsatisfied goals (goals not currently satisfied)\n- Solvability status (whether the current iteration is solvable or not)\n- Previous questions and responses (conversation history)\n## Question Types You Can Suggest\nBasedonthesolvabilitystatusandcontext,suggestquestionsfromthese\ncategories:\n## If \"Solvable\" is False (Unsolvable Task):\n- US-WHY: \"Why is the task unsolvable?\"\n- US-HOW: \"How can I make the task solvable?\"\n### If \"Solvable\" is True:\n- S-WHY-NOT: Questions about why specific unsatisfied goals are not\nsatisfied\n- S-WHAT-IF: Questions about what happens if certain goals are en-\nforced",
     "keywords": [
-      "enforced",
-      "solvable",
-      "questions",
+      "enforced goals",
       "unsatisfied goals",
-      "task",
       "goals",
+      "goals satisfied",
+      "question",
+      "satisfied",
       "satisfied goals",
       "unsatisfied",
-      "goals satisfied",
-      "satisfied",
-      "enforced goals",
-      "question"
+      "enforced",
+      "questions",
+      "task",
+      "solvable"
     ],
     "visual_summaries": []
   },
@@ -896,18 +1009,18 @@
     "page": 36,
     "text": "36 G. Fouilhé et al.\n- S-CAN: Questions about whether specific goals can be satisfied/en-\nforced\n- S-HOW: Questions about how to satisfy specific goals or improve the\nplan\nYou can also suggest more complex questions that derives from them :\n- \"What are the conflicts ? Give me a simple way of addressing them\nall\"\n- \"What other goals can I enforce without creating new conflicts ?\"\n## Guidelines for Suggesting Questions\n1. **Context-Aware**: Base suggestions on the current state (enforced,\nsatisfied, unsatisfied goals)\n2. **Conversation-Aware**: Consider what has already been discussed\nto avoid repetition\n3. **Actionable**: Suggest questions that help the user make progress\ntoward finding an optimal combination of goals\n4.**NaturalLanguage**:Usenatural,conversationalphrasingthatsounds\nlike a real user\n5. **Diverse**: Provide 1-3 questions covering different aspects or ques-\ntion types when possible\n6.**Goal-Specific**:Referenceactualgoalsfromthecurrentcontextby\nname\n7. **Progressive**: If the user just learned something, suggest logical\nfollow-up questions\n## Suggestion Strategy\n- You can take inspiration from questions the user previously asked\n### For Unsolvable Tasks:\n- Prioritize understanding why it’s unsolvable\n- Suggest questions about how to make it solvable\n- Suggest questions about which goals are conflicting\n### For Solvable Tasks:\n- If there are unsatisfied goals, suggest questions about why they aren’t\nsatisfied or how to satisfy them\n- Suggest questions about enforcing additional goals\n- Suggest \"what if\" questions about potential changes\n- If previous explanations were given, suggest follow-up questions for\nclarification\n### After Explanations:\n- Suggest questions that dig deeper into conflicts\n- Suggest questions about alternatives or trade-offs\n- Suggest questions about specific goals mentioned in the explanation\n## Output Format\nReturn ONLY a valid JSON array of 1-3 suggested questions as strings:\n[ \"question1\",\n\"question2\",\n\"question3\" ]\n## Examples",
     "keywords": [
-      "unsolvable",
       "suggest questions",
-      "user",
-      "questions",
-      "specific goals",
-      "conflicts",
-      "suggest",
       "goals",
-      "unsatisfied",
       "satisfied",
+      "user",
+      "suggest",
+      "conflicts",
+      "unsatisfied",
+      "tasks",
+      "unsolvable",
       "specific",
-      "tasks"
+      "questions",
+      "specific goals"
     ],
     "visual_summaries": []
   },
@@ -916,18 +1029,18 @@
     "page": 37,
     "text": "Exploring Plan Space through Conversation 37\n### Example\nContext:\n- Iteration step: Step 3\n-EnforcedGoals:[Parentdoessports,Alicedoeshomework,Parentvisits\nhairdresser, Parent cooks lunch]\n- Satisfied Goals: [Parent does sports, Parent cooks lunch, Bob does\nhomework, Parent goes shopping]\n- Unsatisfied Goals: [Alice takes violin lessons, Bob takes piano lessons,\nAlice does basketball training, Bob does tennis training, Parent cooks\ndinner, Alice hangs out, Bob hangs out, Parent does laundry, Parent\ncleans home, Parent does groceries, Bob never in car without parent,\nAlice never in car without parent, Alice and Bob never together in car]\n- Solvable: true\n- Previous questions:\nUser: \"How can I make the task solvable?\"\nAssistant: \"You have to remove some goals, like Bob hangs out.\"\nSuggested Questions: [ \"Can I enforce any other Bob related goals ?\",\n\"What are the conflicts with the remaining Parents goals ?\",\n\"Why are the music goals not satisfied ?\" ]\n[Additional examples omitted for brevity]\n## Important Notes\n-Prioritizequestions aboutthecurrent problem(unsolvabilityorunsat-\nisfied goals)\n- Keep questions concise and natural\n- Avoid technical jargon; use conversational language\nFormatting of Question Suggester Input\n- Iteration step: $ {NAME}\n- Enforced Goals: $ {ENFORCED_GOALS}\n- Satisfied Goals: $ {SATISFIED_GOALS}\n- Unsatisfied Goals: $ {UNSATISFIED_GOALS}\n- Solvable: $ {SOLVABLE}\n- Previous questions:\nUser: $ {PREVIOUS_USER_MESSAGES}\nAssistant: $ {PREVIOUS_ASSISTANT_MESSAGES}\nC.6 Goal Translator\nNote that since the goal translator is disabled in the user study, the following\npromptiscraftedforatransportsplanningdomain,andnotParent’sAfternoon\nlike the others.",
     "keywords": [
-      "user",
-      "solvable",
-      "parent",
-      "bob",
-      "questions",
-      "previous",
-      "does",
       "goals",
-      "satisfied goals",
+      "does",
+      "parent",
       "alice",
       "satisfied",
-      "parent cooks"
+      "satisfied goals",
+      "user",
+      "bob",
+      "parent cooks",
+      "questions",
+      "previous",
+      "solvable"
     ],
     "visual_summaries": []
   },
@@ -936,18 +1049,18 @@
     "page": 38,
     "text": "38 G. Fouilhé et al.\nGoal Translator Prompt\nYou will be given a goal and a list of allowed predicates and objects\nfrom a planning problem and domain. Return the LTLf formula corre-\nspondingtothegoal,followedbyashortsummaryofthegoalinnatural\nlanguage(thefewerwordsthebetter)thatwillbeusedtorefertoit.The\nLTLfformulamustbewell-formedandmustonlycontainthepredicates\nand objects given to you. Users might reference previous messages they\nsent or implicit objects. You should infer that when possible based on\nthe provided information and previous messages. If it is not possible to\nexpress the property in LTL using the provided objects and predicates,\nreturn UNSUPPORTED ; Unsupported property.\nExamples :\nGoal : make sure p1 visits the packingstation at some point\nPredicates : [(at ?o - object ?l - location), (in ?p - package ?t - truck),\n(empty ?t - truck), (fuel ?truck - truck ?level - fuellevel)]\nObjects:[postoffice,supermarket,taylor,cafe,bank,lopez,jones,smith,\npackingstation, t1, t2, p0, p1, p2, p3, p4]\nReturn:{\"formula\":\"Fat(p1,packingstation)\",\"shortName\":\"p1visits\npackingstation\",\"reverseTranslation\":\"p1mustbeatthepackingstation\nat some point during the plan\", \"feedback\": null}\n[Additional examples omitted for brevity]\nEnd of the examples.\nFormatting of Goal Translator Input\nGoal: ${GOAL_DESCRIPTION}\nPredicates: ${PREDICATES}\nObjects: ${OBJECTS}\nReturn:\nC.7 Explanation Translator\nExplanation Translator Prompt\nYou will receive a question that you need to answer, a question type of\nthe following list :\n##Unsolvableiterationstep(toomuchgoalsareenforced,someofthem\nare conflicting)\n- US-WHY: \"Why is the task unsolvable?\"\n- US-HOW: \"How can I make the task solvable?\"\n## Solvable iteration step (a plan exists but the user wants to under-\nstand potential conflicts when enforcing new goals/ )\n- S-WHY-NOT: \"Why are Q not satisfied?\"\n- S-WHAT-IF: \"What happens if we enforce Q?\"\n- S-CAN: \"Can Q be satisfied?\"",
     "keywords": [
-      "point",
+      "possible",
+      "p1",
+      "packingstation",
+      "prompt",
+      "truck",
+      "return",
+      "translator",
+      "goal",
       "predicates",
       "examples",
-      "objects",
-      "packingstation",
-      "translator",
-      "p1",
-      "goal",
-      "return",
-      "truck",
-      "prompt",
-      "possible"
+      "point",
+      "objects"
     ],
     "visual_summaries": []
   },
@@ -956,18 +1069,18 @@
     "page": 39,
     "text": "Exploring Plan Space through Conversation 39\n- S-HOW: \"How can Q be satisfied?\" or \"How can I improve the plan\nwith respect to o?\"\nYouwillalsoreceivelistsofgoalsandtheirstateinthecurrentiteration\nstep:\n- Enforced goals (enforced by the user)\n- Satisfied goals (currently satisfied)\n- Unsatisfied goals (currently not satisfied)\nYou will also receive a conflict list. Each conflict is a set of goals that\ncannot all be achieved at the same time, but any strict subset can be.\nFor example, a conflict [a, b, c] means you can achieve any two of these\ngoals together, but not all three. Each resolution describes a set of goals\nwhich,ifnotenforcedanymore,wouldallowtherequestedgoaltobecome\nachievable. If the conflicts list is empty (\"[]\"), there are no conflicts\nblocking the requested goal and it can be enforced without issue. A\nplanning task is unsolvable when there is conflicts, and solvable when\nthere is no conflicts. This means that to make a planning task solvable\nthe user have to stop enforcing goals until all conflicts are solved.\nYouwillalsoreceivearesolutionlistwhichpresentsthesameinformation\nas the conflict list but under the point of view of the possible actions to\nsolve all the conflicts. Each resolution is a subset of the enforced goals\nthat it is sufficient to stop enforcing to make the planning task solvable.\nWith this information and only this information you can always give a\ngood explanation to respond to the user’s question.\nAnswer the question using only the conflicts and the resolutions to help\nusers to understand what conflict causes their problem and what they\ncan do to solve it. It is crucial to base anwsers on provided conflicts or\nresolutions, to ensure providing faithful explanations.\nLast instructions :\n- You do not know the utility of goals; maximizing utility is the user’s\nresponsibility.\n-Youdonotknowtheplan,youonlyknowiftheiterationstepissolved\nor not and which goals are achieved in a solved iteration step.\n- The task is impossible to change, nothing can be rescheduled, the only\nthing that can change is what goals the user enforces and you can help\nby explaining the conflicts.\n- Question Type starting with \"S-\" : solvable iteration step, the user\nneeds guidance on satisfying additional goals ; Question Type starting\nwith\"US-\":unsolvableiterationstep,theuserneedshelptounderstand\nwhy and how to restore feasibility.\n- Use clear, user-friendly language and avoid technical terms.\n- Removing enforced goals can solve conflicts, never create new ones.\n- The user does not have access to the list of conflicts and resolutions\nyou are provided. They only see the enforced, satisfied and unsatisfied\ngoals and it is your role to give the relevent conflicts or resolutions in\ntime. This means you should NOT mention \"the list of conflicts\" or\n\"resolutions\" and expect users to understand.",
     "keywords": [
-      "user",
-      "enforced",
-      "solvable",
-      "conflicts",
-      "goals",
       "conflicts resolutions",
+      "goals",
       "resolutions",
-      "task",
       "satisfied",
+      "question",
       "list",
+      "user",
+      "conflicts",
+      "enforced",
       "conflict",
-      "question"
+      "task",
+      "solvable"
     ],
     "visual_summaries": []
   },
@@ -976,18 +1089,18 @@
     "page": 40,
     "text": "40 G. Fouilhé et al.\n-Usebold(markdown)tohighlightgoalsfromyourresponses,orsimilar\nformatting if it can help.\n## Examples\nQuestion: why is it unsolvable?\nQuestion Type: US-WHY\nQuestion Arguments: []\nConflicts: [[Alice does basketball training, Alice hangs out, Parent does\nlaundry], [Alice hangs out, Parent cooks lunch], [Parent does laundry,\nParentcookslunch],[Alicedoesbasketballtraining,Parentcookslunch],\n[Alice does homework, Alice hangs out]]\nResolutions: [[Alice does basketball training, Alice hangs out, Parent\ndoeslaundry],[Alicedoesbasketballtraining,Alicedoeshomework,Par-\nentcookslunch],[Alicedoeshomework,Parentcookslunch,Parentdoes\nlaundry], [Alice hangs out, Parent cooks lunch]]\nEnforced Goals: [Alice does basketball training, Alice does homework,\nAlice hangs out, Parent cooks lunch, Parent does sports, Parent goes\nshopping, Parent does laundry]\nSatisfied Goals: []\nUnsatisfied Goals: [Alice takes violin lessons, Bob does homework, Bob\ntakes piano lessons, Bob does tennis training, Bob hangs out, Parent\ncleans home, Parent cooks dinner, Parent does groceries, Parent visits\nhairdresser]\nReturn: {\n\"output\":\"Theplanningtaskisunsolvablebecausethereareseveralcon-\nflicting enforced goals. Here are the existing conflicts that are causing\ntheissue:1.[Alicedoesbasketballtraining,Alicehangsout,Parentdoes\nlaundry] 2.[Alice hangs out, Parent cooks lunch] 3.[Parent does laun-\ndry, Parent cooks lunch] 4. [Alice does basketball training, Parent cooks\nlunch]5.[Alicedoeshomework,Alicehangsout]Theseconflictsindicate\nthatsomegoalscannotcoexisttogether:forexample,enforcingbothAl-\nice does basketball training and Parent cooks lunch at the same time\nwill never be possible. To make the task solvable, you would need to\nstop enforcing at least one of the conflicting goals in each of the conflict\nsets. For example, if you stop enforcing **Parent cooks lunch**, some\nconflicts could be resolved. If you need specific options for which goals\nto stop enforcing, let me know!\"\n}\nInput:WhatconflictswouldberemainingifIstopenforcingParentcooks\nlunch?\nOutput: {\n\"output\":\"Conflicts 2,3 and 4 would be solved but there will still be the\nconflictsbetween**[Alicedoesbasketballtraining,Alicehangsout,Par-\nent does laundry]** and between **[Alice does homework, Alice hangs\nout]**.Additionallystoppingtoenforce**Alicehangsout**willleadto\na solvable iteration step.\"\n}",
     "keywords": [
-      "parent",
       "cooks lunch",
-      "hangs parent",
-      "hangs",
       "does",
-      "cooks",
-      "alice hangs",
-      "lunch",
+      "parent",
       "alice",
       "alice does",
-      "parent cooks",
-      "parent does"
+      "hangs parent",
+      "alice hangs",
+      "lunch",
+      "hangs",
+      "cooks",
+      "parent does",
+      "parent cooks"
     ],
     "visual_summaries": []
   },
@@ -996,49 +1109,52 @@
     "page": 41,
     "text": "Exploring Plan Space through Conversation 41\n[Additional examples omitted for brevity]\n## End of the examples\nFormatting of Goal Translator Input (via Explanation Framework)\nQuestion: ${QUESTION}\nQuestion Type: ${QUESTION_TYPE}\nQuestion Arguments: ${QUESTION_ARGUMENTS}\nConflicts: ${CONFLICTS}\nResolutions: ${RESOLUTIONS}\nEnforced Goals: ${ENFORCED_GOALS}\nSatisfied Goals: ${SATISFIED_GOALS}\nUnsatisfied Goals: ${UNSATISFIED_GOALS}\nReturn:\nTheinputscomingfromFOLLOW-UPquestionsarenotformattedandprovided\nas-is to the explanation translator.\nD Examples LLM Interaction\nInthissection,weshowexamplesoftheLLMconversationsasseenbytheuser16.\nThese are not examples from the user study, but they use the same instance and\n16\ndomain.",
     "keywords": [
+      "question question",
+      "goals",
+      "question",
+      "satisfied goals",
+      "satisfied",
+      "resolutions",
+      "unsatisfied",
+      "translator",
       "explanation",
       "type",
       "examples",
-      "goals unsatisfied",
-      "translator",
-      "goals",
-      "satisfied goals",
-      "unsatisfied",
-      "resolutions",
-      "question question",
-      "satisfied",
-      "question"
+      "goals unsatisfied"
     ],
     "visual_summaries": []
   },
   {
     "pdf": "arxiv2",
     "page": 42,
-    "text": "42 G. Fouilhé et al.\n(a) Template-based interface (Part 1) (b) Template-based interface (Part 2)\n(c) LLM-based interface\nFig.16: Here the LLM-based version gives information much more efficiently\nthan the Template-based version\n\n[VISUAL CONTENT - IMAGES]\nTitle: Template-based Interface Insights\nSummary: This visual presents a template-based interface designed to assist users in understanding and managing planning tasks. It features two parts: the first part lists various suggested questions that users can ask to clarify their goals and conflicts, while the second part illustrates a conversational interaction where the system explains the complexities of conflicting goals among family members. Key topics include the resolution of conflicts, specific examples of goals, and the importance of prioritizing preferences. The interface aims to guide users in navigating their planning challenges effectively.\n",
+    "text": "42 G. Fouilhé et al.\n(a) Template-based interface (Part 1) (b) Template-based interface (Part 2)\n(c) LLM-based interface\nFig.16: Here the LLM-based version gives information much more efficiently\nthan the Template-based version\n\n[VISUAL CONTENT - IMAGES]\nTitle: Template-based Interface for Task Planning\nSummary: The visual depicts a template-based interface designed to assist users in understanding and resolving task planning conflicts. It highlights how various enforced goals, such as family activities and personal tasks, can conflict with each other, making the task unsolvable. The interface provides insights into these conflicts and suggests possible combinations of goals that can be stopped to make the task solvable. Examples include stopping goals like 'Alice does basketball training' and 'Parent cooks dinner' to resolve scheduling conflicts. The interface aims to help users prioritize and choose which goals to enforce or relax, thereby optimizing task management and planning.\n",
     "keywords": [
-      "llm",
-      "information efficiently",
-      "interface",
-      "based version",
       "interface template",
+      "based version",
+      "information efficiently",
+      "template",
       "version",
-      "information",
-      "based interface",
-      "llm based",
+      "interface",
       "template based",
+      "based interface",
       "based",
-      "template"
+      "llm",
+      "information",
+      "llm based"
     ],
     "visual_summaries": [
       {
         "type": "images",
-        "image_title": "Template-based Interface Insights",
+        "image_title": "Template-based Interface for Task Planning",
         "image_keywords": [
           "template-based interface",
-          "planning task",
+          "task planning",
           "conflicting goals",
-          "suggested questions",
-          "user interaction"
+          "insights",
+          "Alice does basketball training",
+          "Bob does tennis training",
+          "Parent cooks dinner",
+          "Parent goes to the hairdresser"
         ],
         "image_citation": "extracted_assets\\arxiv2\\images\\page42_img1.png"
       }
@@ -1047,34 +1163,33 @@
   {
     "pdf": "arxiv2",
     "page": 43,
-    "text": "Exploring Plan Space through Conversation 43\nFig.17: Example of a conversation in a solvable iteration step with the LLM-\nbased interface\n\n[VISUAL CONTENT - IMAGES]\nTitle: Planning Task Insights\nSummary: This visual presents a dialogue interface designed to assist users in managing conflicting schedules and goals for family members. It highlights specific scenarios involving a Parent, Alice, and Bob, where the Parent's goals of cooking dinner or going shopping may conflict with Alice's activities, such as basketball training or violin lessons. The interface suggests that enforcing one goal may require the cancellation of another to avoid conflicts. Additionally, it addresses the feasibility of enforcing Bob's tennis training without causing further scheduling issues. The overall context emphasizes the importance of balancing multiple goals while minimizing conflicts.\n",
+    "text": "Exploring Plan Space through Conversation 43\nFig.17: Example of a conversation in a solvable iteration step with the LLM-\nbased interface\n\n[VISUAL CONTENT - IMAGES]\nTitle: Planning Task Insights\nSummary: The image is a diagram illustrating a planning task focused on resolving conflicts between various goals. It provides insights into how different activities such as 'Parent cooks dinner', 'Parent goes shopping', 'Alice does basketball training', 'Alice takes violin lesson', and 'Bob does tennis training' can be enforced without creating conflicts. The diagram suggests that enforcing 'Parent cooks dinner' or 'Parent goes shopping' requires stopping either 'Alice does basketball training' or 'Alice takes violin lesson' to avoid conflicts. However, 'Bob does tennis training' can be enforced without causing new conflicts. The diagram serves as a guide to help users understand how to manage and prioritize these activities effectively.\n",
     "keywords": [
-      "step llm",
-      "llm",
-      "step",
-      "solvable iteration",
-      "solvable",
-      "space",
       "space conversation",
-      "llm based",
-      "iteration step",
+      "step llm",
       "conversation",
+      "step",
       "plan space",
-      "plan"
+      "llm based",
+      "llm",
+      "space",
+      "plan",
+      "solvable iteration",
+      "iteration step",
+      "solvable"
     ],
     "visual_summaries": [
       {
         "type": "images",
         "image_title": "Planning Task Insights",
         "image_keywords": [
-          "Parent",
-          "Alice",
-          "Bob",
-          "cooking dinner",
-          "shopping",
-          "violin lesson",
-          "basketball training",
-          "tennis training"
+          "Parent cooks dinner",
+          "Parent goes shopping",
+          "Alice does basketball training",
+          "Alice takes violin lesson",
+          "Bob does tennis training",
+          "conflict resolution",
+          "goal enforcement"
         ],
         "image_citation": "extracted_assets\\arxiv2\\images\\page43_img1.png"
       }

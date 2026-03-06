@@ -1,0 +1,21 @@
+{
+    "file_name": "fact-sheet_Q2_25-26",
+    "page_number": 1,
+    "image_title": "EPS Year-over-Year Increase",
+    "image_keywords": [
+        "EPS",
+        "13.1%",
+        "YoY",
+        "Increase",
+        "\u20b9 terms"
+    ],
+    "summary": "The image is a diagram highlighting a 13.1% year-over-year increase in earnings per share (EPS) measured in Indian Rupee terms. This indicates a significant growth in EPS compared to the previous year, reflecting improved financial performance.",
+    "table_rows": [],
+    "confidence_score": 1.0,
+    "image_citation": "extracted_assets\\fact-sheet_Q2_25-26\\tables\\page1_table7.png",
+    "token_usage": {
+        "prompt_tokens": 1533,
+        "completion_tokens": 107,
+        "total_tokens": 1640
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "file_name": "fact-sheet_Q3_25-26",
+    "page_number": 1,
+    "image_title": "Financial Metrics Overview",
+    "image_keywords": [
+        "Large Deal TCV",
+        "Free Cash Flow",
+        "57% Net New",
+        "$4.8 Bn",
+        "$0.9 Bn",
+        "$1 Bn Adjusted"
+    ],
+    "summary": "The image presents key financial metrics, highlighting a Large Deal Total Contract Value (TCV) of $4.8 billion, with 57% being net new. Additionally, it shows a Free Cash Flow (FCF) of $0.9 billion, with an adjusted figure of $1 billion. These figures provide insight into the company's financial performance, focusing on significant deals and cash flow adjustments.",
+    "table_rows": [],
+    "confidence_score": 1.0,
+    "image_citation": "extracted_assets\\fact-sheet_Q3_25-26\\tables\\page1_table4.png",
+    "token_usage": {
+        "prompt_tokens": 1533,
+        "completion_tokens": 165,
+        "total_tokens": 1698
+    }
+}

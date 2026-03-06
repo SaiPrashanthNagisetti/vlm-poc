@@ -1,0 +1,25 @@
+{
+    "file_name": "arxiv2",
+    "page_number": 20,
+    "image_title": "Architecture of the Web Platform",
+    "image_keywords": [
+        "Front-end",
+        "Back-end",
+        "Rest API",
+        "Agent Management",
+        "Question Type Classifier",
+        "Question Suggester",
+        "Goal Translator",
+        "Explanation Translator",
+        "OpenAI"
+    ],
+    "summary": "This diagram illustrates the architecture of a web platform, highlighting the interaction between the front-end and back-end components. The central component is the 'Rest API & Agent Management' which interfaces with the front-end and several modules including 'Question Type Classifier', 'Question Suggester', 'Goal Translator', and 'Explanation Translator'. These modules are connected to an 'OpenAI' component, indicating a modular design that facilitates various functionalities such as question classification, suggestion, goal translation, and explanation translation. The architecture supports a flexible and extendable system structure.",
+    "table_rows": [],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\arxiv2\\vector_graphics\\page20_vector.png",
+    "token_usage": {
+        "prompt_tokens": 2043,
+        "completion_tokens": 202,
+        "total_tokens": 2245
+    }
+}

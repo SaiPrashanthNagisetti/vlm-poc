@@ -1,0 +1,19 @@
+{
+    "file_name": "fact-sheet_Q3_24-25",
+    "page_number": 1,
+    "image_title": "Operating Margin Overview",
+    "image_keywords": [
+        "Operating Margin",
+        "21.3%",
+        "0.8% YoY increase"
+    ],
+    "summary": "This image presents an overview of the operating margin, highlighting a value of 21.3% with a year-over-year increase of 0.8%. It succinctly conveys the financial performance metric, indicating a positive trend in operating efficiency over the specified period.",
+    "table_rows": [],
+    "confidence_score": 1.0,
+    "image_citation": "extracted_assets\\fact-sheet_Q3_24-25\\tables\\page1_table6.png",
+    "token_usage": {
+        "prompt_tokens": 1533,
+        "completion_tokens": 108,
+        "total_tokens": 1641
+    }
+}

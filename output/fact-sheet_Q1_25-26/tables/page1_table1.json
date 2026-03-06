@@ -1,30 +1,19 @@
 {
     "file_name": "fact-sheet_Q1_25-26",
     "page_number": 1,
-    "image_title": "Quarterly Revenue Distribution by Region",
+    "image_title": "CC Growth Metrics",
     "image_keywords": [
-        "North America",
-        "Europe",
-        "Rest of the world",
-        "India",
-        "Quarter ended",
-        "YoY Growth",
-        "Reported",
-        "CC"
+        "2.6% QoQ",
+        "3.8% YoY",
+        "CC Growth"
     ],
-    "summary": "This table presents the revenue distribution across different regions for the quarter ended June 30, 2025, along with comparisons to previous quarters and year-over-year (YoY) growth percentages. The regions included are North America, Europe, Rest of the World, and India, with total revenue percentages summing to 100% for each quarter. Notably, North America shows a slight decrease from 57.1% in March 2025 to 56.5% in June 2025, while Europe experiences significant growth from 31.2% to 31.5%. The total YoY growth reported is 4.8%, indicating a positive trend overall despite some regional fluctuations.",
-    "table_rows": [
-        "North America: Jun 30 2025 = 56.5, Mar 31 2025 = 57.1, Jun 30 2024 = 58.9, YoY Growth Reported = 0.5, CC = 0.4",
-        "Europe: Jun 30 2025 = 31.5, Mar 31 2025 = 31.2, Jun 30 2024 = 28.4, YoY Growth Reported = 16.2, CC = 12.3",
-        "Rest of the world: Jun 30 2025 = 9.1, Mar 31 2025 = 8.8, Jun 30 2024 = 9.6, YoY Growth Reported = -, CC = 0.4",
-        "India: Jun 30 2025 = 2.9, Mar 31 2025 = 2.9, Jun 30 2024 = 3.1, YoY Growth Reported = (3.1), CC = (1.0)",
-        "Total: Jun 30 2025 = 100.0, Mar 31 2025 = 100.0, Jun 30 2024 = 100.0, YoY Growth Reported = 4.8, CC = 3.8"
-    ],
-    "confidence_score": 0.95,
+    "summary": "This image presents key growth metrics for a category labeled 'CC Growth,' highlighting a quarter-over-quarter (QoQ) growth rate of 2.6% and a year-over-year (YoY) growth rate of 3.8%. These percentages indicate the rate of change in the specified category over the respective time periods, providing insight into the performance and trends in growth.",
+    "table_rows": [],
+    "confidence_score": 1.0,
     "image_citation": "extracted_assets\\fact-sheet_Q1_25-26\\tables\\page1_table1.png",
     "token_usage": {
-        "prompt_tokens": 21112,
-        "completion_tokens": 504,
-        "total_tokens": 21616
+        "prompt_tokens": 1533,
+        "completion_tokens": 133,
+        "total_tokens": 1666
     }
 }

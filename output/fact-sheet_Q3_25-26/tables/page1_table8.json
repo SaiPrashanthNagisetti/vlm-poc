@@ -1,0 +1,19 @@
+{
+    "file_name": "fact-sheet_Q3_25-26",
+    "page_number": 1,
+    "image_title": "Operating Margin Comparison",
+    "image_keywords": [
+        "18.4% Reported",
+        "21.2% Adjusted",
+        "Operating Margin"
+    ],
+    "summary": "This image presents a comparison of operating margins, highlighting a reported margin of 18.4% and an adjusted margin of 21.2%. The visual emphasizes the difference between the reported and adjusted figures, providing insight into financial performance metrics. The context suggests a focus on financial analysis, possibly for a business or corporate setting, where understanding the distinction between reported and adjusted margins is crucial for accurate financial assessment.",
+    "table_rows": [],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet_Q3_25-26\\tables\\page1_table8.png",
+    "token_usage": {
+        "prompt_tokens": 1533,
+        "completion_tokens": 145,
+        "total_tokens": 1678
+    }
+}

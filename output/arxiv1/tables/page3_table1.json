@@ -1,26 +1,24 @@
 {
     "file_name": "arxiv1",
     "page_number": 3,
-    "image_title": "Predictions and Rewards Analysis",
+    "image_title": "Tool Verification for Test-Time Reinforcement Learning",
     "image_keywords": [
-        "True Label",
-        "Estimated Label",
-        "Sampled Predictions",
-        "Estimated Rewards",
-        "False-Popular Predictions",
-        "Cycle of Reinforced Bias"
+        "T3RL",
+        "Tool Verification",
+        "Reinforcement Learning",
+        "LLM",
+        "Verifier",
+        "Code Interpreter",
+        "Pseudo Label",
+        "Test Data"
     ],
-    "summary": "This table presents an analysis of predictions and estimated rewards across different rounds of sampling. It includes a comparison of true labels and estimated labels, highlighting the performance of various predictions labeled A, B, C, and D. The first round shows sampled predictions and their corresponding estimated rewards, while subsequent rounds illustrate a cycle of reinforced bias, indicating how predictions evolve over time. Notably, the estimated label for B is marked as 'really good,' suggesting a significant improvement in its performance compared to others.",
-    "table_rows": [
-        "True Label: C",
-        "1st Round: Sampled Predictions: A, B, B, B, C, C, D; Estimated Rewards: 0, 0, 1, 1, 1, 1, 0, 0",
-        "N*th Round: Sampled Predictions: A, B, B, B, C, C, D; Estimated Rewards: 0, 1, 1, 1, 1, 1, 0, 0"
-    ],
-    "confidence_score": 0.9,
+    "summary": "The diagram titled 'Tool Verification for Test-Time Reinforcement Learning' illustrates a process for verifying outputs in reinforcement learning using a tool-integrated LLM (Large Language Model). The process begins with a query from unlabeled test data, which is processed by the LLM to generate potential outputs. These outputs are then verified by a tool that interprets the code to check the correctness of computations. The verifier assigns a validity flag to each output based on the execution results. The process includes a weighted majority voting system to form a verification-aware pseudo-label, which influences the reinforcement learning updates. Key components include the query, LLM, verifier, code interpreter, and pseudo label, highlighting the integration of tool verification in reinforcement learning.",
+    "table_rows": [],
+    "confidence_score": 0.95,
     "image_citation": "extracted_assets\\arxiv1\\tables\\page3_table1.png",
     "token_usage": {
-        "prompt_tokens": 15445,
-        "completion_tokens": 281,
-        "total_tokens": 15726
+        "prompt_tokens": 2383,
+        "completion_tokens": 232,
+        "total_tokens": 2615
     }
 }

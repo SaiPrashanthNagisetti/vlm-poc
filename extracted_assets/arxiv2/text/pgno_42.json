@@ -1,19 +1,19 @@
 {
   "pdf": "arxiv2",
   "page": 42,
-  "text": "42 G. Fouilhé et al.\n(a) Template-based interface (Part 1) (b) Template-based interface (Part 2)\n(c) LLM-based interface\nFig.16: Here the LLM-based version gives information much more efficiently\nthan the Template-based version",
+  "text": "42 G. Fouilh\u00e9 et al.\n(a) Template-based interface (Part 1) (b) Template-based interface (Part 2)\n(c) LLM-based interface\nFig.16: Here the LLM-based version gives information much more efficiently\nthan the Template-based version",
   "keywords": [
-    "llm",
-    "information efficiently",
-    "interface",
-    "based version",
     "interface template",
+    "based version",
+    "information efficiently",
+    "template",
     "version",
-    "information",
-    "based interface",
-    "llm based",
+    "interface",
     "template based",
+    "based interface",
     "based",
-    "template"
+    "llm",
+    "information",
+    "llm based"
   ]
 }

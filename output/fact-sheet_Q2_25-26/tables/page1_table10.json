@@ -1,0 +1,42 @@
+{
+    "file_name": "fact-sheet_Q2_25-26",
+    "page_number": 1,
+    "image_title": "Quarterly Sector Performance and YoY Growth",
+    "image_keywords": [
+        "Financial services",
+        "Manufacturing",
+        "Energy",
+        "Utilities",
+        "Resources",
+        "Retail",
+        "Communication",
+        "Hi-Tech",
+        "Life Sciences",
+        "Others",
+        "Sep 30 2025",
+        "Jun 30 2025",
+        "Sep 30 2024",
+        "YoY Growth",
+        "Reported",
+        "CC"
+    ],
+    "summary": "The table presents the quarterly performance of various sectors for the periods ending September 30, 2025, June 30, 2025, and September 30, 2024, along with year-over-year (YoY) growth in both reported and constant currency (CC) terms. Key sectors include Financial Services, Manufacturing, Energy, Utilities, Resources & Services, Retail, Communication, Hi-Tech, Life Sciences, and Others. Financial Services consistently leads in percentage contribution across all quarters, while Manufacturing shows the highest YoY growth in reported terms at 9.3%. Life Sciences experienced a decline in YoY growth, with a reported decrease of 8.9%. The total percentage for each quarter sums to 100%, indicating a comprehensive sectoral distribution. The table highlights sectoral performance trends and growth comparisons over the specified periods.",
+    "table_rows": [
+        "Financial services: Sep 30 2025 = 27.7, Jun 30 2025 = 27.9, Sep 30 2024 = 27.2, Reported = 5.6, CC = 5.4",
+        "Manufacturing: Sep 30 2025 = 16.5, Jun 30 2025 = 16.1, Sep 30 2024 = 15.7, Reported = 9.3, CC = 6.6",
+        "Energy, Utilities, Resources & Services: Sep 30 2025 = 13.4, Jun 30 2025 = 13.6, Sep 30 2024 = 13.5, Reported = 2.4, CC = 1.1",
+        "Retail: Sep 30 2025 = 12.7, Jun 30 2025 = 13.4, Sep 30 2024 = 13.3, Reported = (1.0), CC = (2.3)",
+        "Communication: Sep 30 2025 = 12.1, Jun 30 2025 = 12.0, Sep 30 2024 = 11.9, Reported = 5.7, CC = 4.7",
+        "Hi-Tech: Sep 30 2025 = 8.3, Jun 30 2025 = 7.8, Sep 30 2024 = 8.0, Reported = 8.3, CC = 8.6",
+        "Life Sciences: Sep 30 2025 = 6.4, Jun 30 2025 = 6.5, Sep 30 2024 = 7.3, Reported = (8.9), CC = (10.5)",
+        "Others: Sep 30 2025 = 2.9, Jun 30 2025 = 2.7, Sep 30 2024 = 3.1, Reported = (3.6), CC = (2.4)",
+        "Total: Sep 30 2025 = 100.0, Jun 30 2025 = 100.0, Sep 30 2024 = 100.0, Reported = 3.7, CC = 2.9"
+    ],
+    "confidence_score": 1.0,
+    "image_citation": "extracted_assets\\fact-sheet_Q2_25-26\\tables\\page1_table10.png",
+    "token_usage": {
+        "prompt_tokens": 1873,
+        "completion_tokens": 807,
+        "total_tokens": 2680
+    }
+}

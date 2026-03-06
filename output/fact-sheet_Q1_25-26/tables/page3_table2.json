@@ -4,28 +4,42 @@
     "image_title": "Financial Performance Summary",
     "image_keywords": [
         "Revenues",
-        "Operating Profit",
+        "Cost of sales",
+        "Gross Profit",
+        "Operating Expenses",
         "Net Profit",
         "EPS",
-        "Growth % YoY",
-        "Growth % QoQ"
+        "Dividend",
+        "Jun 30 2025",
+        "Jun 30 2024",
+        "Mar 31 2025",
+        "Growth YoY",
+        "Growth QoQ"
     ],
-    "summary": "This table presents a financial performance summary for a company, comparing key metrics for the periods ending June 30, 2025, June 30, 2024, and March 31, 2025. Key metrics include revenues, gross profit, operating expenses, operating profit, and net profit, with growth percentages calculated year-over-year (YoY) and quarter-over-quarter (QoQ). Notably, revenues increased from 39,315 in June 2024 to 42,279 in June 2025, reflecting a 7.5% growth YoY. Operating profit showed a slight decline in margin percentage from 21.1% to 20.8% YoY, while net profit before non-controlling interests rose to 6,924, marking an 8.6% increase YoY. The table also includes earnings per share (EPS) figures, indicating a consistent growth trend across the reported periods.",
+    "summary": "The table titled 'Financial Performance Summary' presents a comparative analysis of key financial metrics for the periods ending June 30, 2025, June 30, 2024, and March 31, 2025. It includes revenues, cost of sales, gross profit, operating expenses, and net profit, along with growth percentages year-over-year (YoY) and quarter-over-quarter (QoQ). Notable insights include a 7.5% YoY growth in revenues from June 2024 to June 2025 and a 3.3% QoQ increase by March 2025. Operating expenses and net profit also show significant growth, with operating profit increasing by 6.2% YoY. The table highlights financial performance trends and provides a detailed breakdown of earnings per share (EPS) and dividend per share metrics.",
     "table_rows": [
-        "Revenues: Jun 30 2025 = 42,279, Jun 30 2024 = 39,315, Growth % YoY = 7.5%",
-        "Cost of sales: Jun 30 2025 = 29,224, Jun 30 2024 = 27,177, Growth % YoY = 7.5%",
-        "Gross Profit: Jun 30 2025 = 13,055, Jun 30 2024 = 12,138, Growth % YoY = 7.6%",
-        "Total Operating Expenses: Jun 30 2025 = 4,252, Jun 30 2024 = 3,850, Growth % YoY = 10.4%",
-        "Operating Profit: Jun 30 2025 = 8,803, Jun 30 2024 = 8,288, Growth % YoY = 6.2%",
-        "Net Profit (before non-controlling interests): Jun 30 2025 = 6,924, Jun 30 2024 = 6,374, Growth % YoY = 8.6%",
-        "Basic EPS: Jun 30 2025 = 16.70, Jun 30 2024 = 15.38, Growth % YoY = 8.6%",
-        "Diluted EPS: Jun 30 2025 = 16.68, Jun 30 2024 = 15.35, Growth % YoY = 8.6%"
+        "Revenues: Jun 30 2025 = 42,279, Jun 30 2024 = 39,315, Growth YoY = 7.5%, Mar 31 2025 = 40,925, Growth QoQ = 3.3%",
+        "Cost of sales: Jun 30 2025 = 29,224, Jun 30 2024 = 27,177, Growth YoY = 7.5%, Mar 31 2025 = 28,575, Growth QoQ = 2.3%",
+        "Gross Profit: Jun 30 2025 = 13,055, Jun 30 2024 = 12,138, Growth YoY = 7.6%, Mar 31 2025 = 12,350, Growth QoQ = 5.7%",
+        "Selling and marketing expenses: Jun 30 2025 = 2,208, Jun 30 2024 = 1,937, Growth YoY = 14.0%, Mar 31 2025 = 1,957, Growth QoQ = 12.8%",
+        "Administrative expenses: Jun 30 2025 = 2,044, Jun 30 2024 = 1,913, Growth YoY = 6.8%, Mar 31 2025 = 1,818, Growth QoQ = 12.4%",
+        "Total Operating Expenses: Jun 30 2025 = 4,252, Jun 30 2024 = 3,850, Growth YoY = 10.4%, Mar 31 2025 = 3,775, Growth QoQ = 12.6%",
+        "Operating Profit: Jun 30 2025 = 8,803, Jun 30 2024 = 8,288, Growth YoY = 6.2%, Mar 31 2025 = 8,575, Growth QoQ = 2.7%",
+        "Operating Margin %: Jun 30 2025 = 20.8, Jun 30 2024 = 21.1, Growth YoY = -0.3%, Mar 31 2025 = 21.0, Growth QoQ = -0.2%",
+        "Other Income, net: Jun 30 2025 = 937, Jun 30 2024 = 733, Growth YoY = 27.8%, Mar 31 2025 = 1,088, Growth QoQ = -13.9%",
+        "Profit before income taxes: Jun 30 2025 = 9,740, Jun 30 2024 = 9,021, Growth YoY = 8.0%, Mar 31 2025 = 9,663, Growth QoQ = 0.8%",
+        "Income tax expense: Jun 30 2025 = 2,816, Jun 30 2024 = 2,647, Growth YoY = 6.4%, Mar 31 2025 = 2,625, Growth QoQ = 7.3%",
+        "Net Profit (before non-controlling interests): Jun 30 2025 = 6,924, Jun 30 2024 = 6,374, Growth YoY = 8.6%, Mar 31 2025 = 7,038, Growth QoQ = -1.6%",
+        "Net Profit (after non-controlling interests): Jun 30 2025 = 6,921, Jun 30 2024 = 6,368, Growth YoY = 8.7%, Mar 31 2025 = 7,033, Growth QoQ = -1.6%",
+        "Basic EPS (\u20b9): Jun 30 2025 = 16.70, Jun 30 2024 = 15.38, Growth YoY = 8.6%, Mar 31 2025 = 16.98, Growth QoQ = -1.6%",
+        "Diluted EPS (\u20b9): Jun 30 2025 = 16.68, Jun 30 2024 = 15.35, Growth YoY = 8.6%, Mar 31 2025 = 16.94, Growth QoQ = -1.6%",
+        "Dividend Per Share (\u20b9): Mar 31 2025 = 22.00"
     ],
-    "confidence_score": 0.95,
+    "confidence_score": 1.0,
     "image_citation": "extracted_assets\\fact-sheet_Q1_25-26\\tables\\page3_table2.png",
     "token_usage": {
-        "prompt_tokens": 38113,
-        "completion_tokens": 577,
-        "total_tokens": 38690
+        "prompt_tokens": 2383,
+        "completion_tokens": 1214,
+        "total_tokens": 3597
     }
 }

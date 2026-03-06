@@ -1,0 +1,21 @@
+{
+    "file_name": "fact-sheet_Q2_25-26",
+    "page_number": 1,
+    "image_title": "Financial Metrics Overview",
+    "image_keywords": [
+        "Large Deal TCV",
+        "Free Cash Flow",
+        "$3.1 Bn",
+        "$1.1 Bn",
+        "67% Net New"
+    ],
+    "summary": "The image presents two key financial metrics: Large Deal Total Contract Value (TCV) and Free Cash Flow. The Large Deal TCV is valued at $3.1 billion, with 67% of it being net new. The Free Cash Flow is reported at $1.1 billion. These figures highlight significant financial achievements, with the Large Deal TCV indicating substantial new business and the Free Cash Flow reflecting the company's liquidity position.",
+    "table_rows": [],
+    "confidence_score": 1.0,
+    "image_citation": "extracted_assets\\fact-sheet_Q2_25-26\\tables\\page1_table4.png",
+    "token_usage": {
+        "prompt_tokens": 1533,
+        "completion_tokens": 156,
+        "total_tokens": 1689
+    }
+}

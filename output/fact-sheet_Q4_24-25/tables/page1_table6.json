@@ -1,0 +1,21 @@
+{
+    "file_name": "fact-sheet_Q4_24-25",
+    "page_number": 1,
+    "image_title": "EPS Increase Overview",
+    "image_keywords": [
+        "EPS",
+        "8.3% FY",
+        "10.1% Q4",
+        "increase",
+        "\u20b9 terms"
+    ],
+    "summary": "The image presents a summary of the Earnings Per Share (EPS) increase, highlighting an 8.3% increase for the fiscal year (FY) and a 10.1% increase for the fourth quarter (Q4), expressed in rupee terms. This indicates a positive financial performance over these periods.",
+    "table_rows": [],
+    "confidence_score": 0.9,
+    "image_citation": "extracted_assets\\fact-sheet_Q4_24-25\\tables\\page1_table6.png",
+    "token_usage": {
+        "prompt_tokens": 1533,
+        "completion_tokens": 125,
+        "total_tokens": 1658
+    }
+}

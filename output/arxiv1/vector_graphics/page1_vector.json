@@ -3,20 +3,21 @@
     "page_number": 1,
     "image_title": "Tool Verification for Test-Time Reinforcement Learning",
     "image_keywords": [
-        "Test-Time Reinforcement Learning",
+        "Test-Time Verification",
         "Majority Voting",
-        "Sampled Predictions",
-        "Estimated Rewards",
-        "Verification Results",
+        "Reinforcement Learning",
+        "T3RL",
+        "LLM",
+        "Verifier",
         "Relative Accuracy Gain"
     ],
-    "summary": "This visual presents a flow diagram illustrating the concept of Tool Verification for Test-Time Reinforcement Learning (T\u00b2RL). It highlights the process of verifying pseudo-labels generated through majority voting, emphasizing the importance of accurate sampled predictions and estimated rewards. The diagram includes key components such as the verifier, which utilizes external tools to enhance the reliability of predictions. Additionally, it showcases comparative results across various benchmarks, indicating significant improvements in accuracy when employing T\u00b2RL. The visual effectively communicates the methodology and benefits of integrating verification in reinforcement learning to mitigate issues related to spurious pseudo-labels.",
+    "summary": "The visual is a diagram illustrating the concept of Tool Verification for Test-Time Reinforcement Learning (T3RL). It shows a process where test data is input into a language model (LLM) and then verified using an external tool, such as a code interpreter, to produce reliable pseudo-labels for reinforcement learning. The diagram highlights the issue of spurious pseudo-labels from majority voting and introduces T3RL as a solution to stabilize training with verified rollouts. Additionally, a bar chart on the right compares the relative accuracy gain of different models, including Qwen-Math-2.5-1.5B and Llama-3.2-1B-Instruct, across various math difficulties, demonstrating consistent gains with T3RL.",
     "table_rows": [],
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\arxiv1\\vector_graphics\\page1_vector.png",
     "token_usage": {
-        "prompt_tokens": 26779,
-        "completion_tokens": 188,
-        "total_tokens": 26967
+        "prompt_tokens": 2043,
+        "completion_tokens": 236,
+        "total_tokens": 2279
     }
 }

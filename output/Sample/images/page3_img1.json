@@ -1,22 +1,28 @@
 {
     "file_name": "Sample",
     "page_number": 3,
-    "image_title": "Identification through Database Search",
+    "image_title": "Identification through Database Search Flow",
     "image_keywords": [
+        "Identification",
+        "Screening",
+        "Eligibility",
+        "Included",
         "database search",
         "records",
-        "screening",
+        "duplicates",
+        "screened",
+        "excluded",
+        "full-text articles",
         "eligibility",
-        "AI agent",
-        "study review"
+        "review"
     ],
-    "summary": "This flow diagram illustrates the process of identifying records through a database search related to AI agents. It begins with 730 records identified via queries and a recency filter, with duplicates removed, maintaining the same count. The screening process also involved 730 records, leading to the exclusion of 616 records. Subsequently, 114 full-text articles were assessed for eligibility, resulting in 64 studies included in the review. Additionally, 50 full-text articles were excluded for being irrelevant to the definition of an AI agent. The diagram effectively outlines the steps and decisions made throughout the identification and screening phases.",
+    "summary": "This flow diagram titled 'Identification through Database Search' illustrates the process of selecting studies for review through a systematic database search. The process begins with the identification of 730 records using queries and a recency filter. After removing duplicates, 730 records remain for screening. During the screening phase, 616 records are excluded, leaving 114 full-text articles to be assessed for eligibility. Of these, 50 articles are excluded for not being relevant to the definition of an AI agent, resulting in 64 studies included in the final review. The diagram effectively outlines the sequential steps of identification, screening, eligibility assessment, and inclusion, highlighting the reduction in records at each stage.",
     "table_rows": [],
-    "confidence_score": 0.95,
+    "confidence_score": 1.0,
     "image_citation": "extracted_assets\\Sample\\images\\page3_img1.png",
     "token_usage": {
-        "prompt_tokens": 26779,
-        "completion_tokens": 180,
-        "total_tokens": 26959
+        "prompt_tokens": 2043,
+        "completion_tokens": 231,
+        "total_tokens": 2274
     }
 }

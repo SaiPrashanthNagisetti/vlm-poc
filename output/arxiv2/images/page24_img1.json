@@ -1,7 +1,7 @@
 {
     "file_name": "arxiv2",
     "page_number": 24,
-    "image_title": "Goal Tracking Overview",
+    "image_title": "Task Management Dashboard",
     "image_keywords": [
         "unsatisfied goals",
         "additionally satisfied goals",
@@ -9,19 +9,19 @@
         "parent",
         "son",
         "grandma",
-        "daughter"
+        "groceries",
+        "sports",
+        "music lesson",
+        "evening",
+        "IPXICO"
     ],
-    "summary": "This visual presents a structured overview of various goals categorized into three sections: Unsatisfied Goals, Additionally Satisfied Goals, and Enforced Goals. The Unsatisfied Goals section lists specific objectives such as ensuring a parent does sports and confirming a son attends a music lesson, with associated counts indicating the number of times these goals were mentioned. The Additionally Satisfied Goals highlight tasks like grocery shopping and ensuring family members are home, while the Enforced Goals section emphasizes actions that have been successfully completed, such as ensuring a daughter is home in the evening and bringing groceries to a grandparent's house. The visual effectively categorizes and tracks the status of personal goals, providing insights into areas needing attention and those that have been successfully managed.",
-    "table_rows": [
-        "Unsatisfied Goals: parent does sports = 2, son attends music lesson = 1, ensure son is home in the evening = 1, bring friend to sports center = 1, bring groceries back home = 2, ensure grandma is at her house in the evening = 2, do shopping before parent's sports = 1",
-        "Additionally Satisfied Goals: grandma bags groceries = 1, grandma and friend are not together in car = 1",
-        "Enforced Goals: ensure daughter is home in the evening = 1, parent buys groceries = 1, daughter does soccer training = 1, bring grandma's groceries to her house = 1"
-    ],
+    "summary": "The image is a screenshot of a task management dashboard titled 'Step 1' from a system named IPXICO. It categorizes tasks into 'Unsatisfied Goals,' 'Additionally Satisfied Goals,' and 'Enforced Goals.' Each category lists specific tasks such as 'parent does sports,' 'son attends music lesson,' and 'grandma buys groceries,' along with associated priority or status indicators. The dashboard is designed to track and manage various personal and family-related tasks, ensuring that certain goals are met while highlighting those that are not yet achieved. The interface provides a structured overview of task completion and prioritization, aiding in effective task management.",
+    "table_rows": [],
     "confidence_score": 0.95,
     "image_citation": "extracted_assets\\arxiv2\\images\\page24_img1.png",
     "token_usage": {
-        "prompt_tokens": 9778,
-        "completion_tokens": 352,
-        "total_tokens": 10130
+        "prompt_tokens": 1533,
+        "completion_tokens": 226,
+        "total_tokens": 1759
     }
 }

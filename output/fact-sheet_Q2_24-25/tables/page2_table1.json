@@ -1,7 +1,7 @@
 {
     "file_name": "fact-sheet_Q2_24-25",
     "page_number": 2,
-    "image_title": "Quarterly Effort and Utilization Metrics",
+    "image_title": "Effort and Utilization Metrics by Quarter",
     "image_keywords": [
         "Effort",
         "Utilization",
@@ -13,18 +13,18 @@
         "Jun 30 2024",
         "Sep 30 2023"
     ],
-    "summary": "This table presents the quarterly metrics for effort and utilization as of September 30, 2024, alongside previous quarters. It categorizes effort into onsite and offshore percentages, with onsite effort at 24.1% for the latest quarter, showing a slight increase from 23.9% in June 2024 but a decrease from 24.6% in September 2023. Offshore effort is reported at 75.9%, a minor decline from 76.1% in the previous quarter and an increase from 75.4% a year prior. Utilization metrics are also provided, with 'Including trainees' at 84.3%, up from 83.9% in June 2024 and significantly higher than 80.4% in September 2023. 'Excluding trainees' shows a similar trend, reported at 85.9%, compared to 85.3% in the previous quarter and 81.8% a year ago, indicating a positive trend in workforce efficiency over the year.",
+    "summary": "The table presents metrics related to effort and utilization for three quarters ending on September 30, 2024, June 30, 2024, and September 30, 2023. It compares onsite and offshore effort percentages, as well as utilization rates including and excluding trainees. Notably, offshore effort remains consistently higher than onsite effort across all quarters. Utilization rates, both including and excluding trainees, show a slight decline over the observed periods.",
     "table_rows": [
-        "Effort: Onsite: Sep 30 2024 = 24.1, Jun 30 2024 = 23.9, Sep 30 2023 = 24.6",
-        "Effort: Offshore: Sep 30 2024 = 75.9, Jun 30 2024 = 76.1, Sep 30 2023 = 75.4",
-        "Utilization: Including trainees: Sep 30 2024 = 84.3, Jun 30 2024 = 83.9, Sep 30 2023 = 80.4",
-        "Utilization: Excluding trainees: Sep 30 2024 = 85.9, Jun 30 2024 = 85.3, Sep 30 2023 = 81.8"
+        "Effort Onsite: Sep 30 2024 = 24.1, Jun 30 2024 = 23.9, Sep 30 2023 = 24.6",
+        "Effort Offshore: Sep 30 2024 = 75.9, Jun 30 2024 = 76.1, Sep 30 2023 = 75.4",
+        "Utilization Including trainees: Sep 30 2024 = 84.3, Jun 30 2024 = 83.9, Sep 30 2023 = 80.4",
+        "Utilization Excluding trainees: Sep 30 2024 = 85.9, Jun 30 2024 = 85.3, Sep 30 2023 = 81.8"
     ],
     "confidence_score": 1.0,
     "image_citation": "extracted_assets\\fact-sheet_Q2_24-25\\tables\\page2_table1.png",
     "token_usage": {
-        "prompt_tokens": 21112,
-        "completion_tokens": 478,
-        "total_tokens": 21590
+        "prompt_tokens": 1873,
+        "completion_tokens": 369,
+        "total_tokens": 2242
     }
 }

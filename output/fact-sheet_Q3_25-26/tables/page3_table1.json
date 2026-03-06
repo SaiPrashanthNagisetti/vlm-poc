@@ -4,33 +4,38 @@
     "image_title": "Financial Performance Summary",
     "image_keywords": [
         "Revenues",
+        "Cost of sales",
         "Gross Profit",
         "Operating Expenses",
+        "Operating Profit",
         "Net Profit",
         "EPS",
-        "2025",
-        "2024"
+        "Dec 31 2025",
+        "Dec 31 2024",
+        "Growth"
     ],
-    "summary": "This table presents a financial performance summary comparing key metrics for the years ending December 31, 2025, and December 31, 2024. It includes revenues, cost of sales, gross profit, operating expenses, and net profit, among other financial indicators. Notably, revenues increased by 3.9% from 2024 to 2025, while gross profit saw a modest rise of 1.8%. Operating expenses grew significantly, particularly selling and marketing expenses, which rose by 14.6%. The net profit after non-controlling interests increased by 2.1%, reflecting a positive trend despite a slight decline in operating profit margin. The table also provides earnings per share (EPS) figures, indicating a growth in both basic and diluted EPS.",
+    "summary": "The table presents a financial performance summary comparing key financial metrics for the years ending December 31, 2025, and December 31, 2024. It includes revenues, cost of sales, gross profit, operating expenses, operating profit, and net profit, along with basic and diluted earnings per share (EPS). The table highlights a revenue growth of 3.9% and a net profit increase of 2.1% from 2024 to 2025. Notable changes include a 14.6% rise in selling and marketing expenses and a 23.7% increase in other income. The operating margin slightly decreased by 1.2%.",
     "table_rows": [
-        "Revenues: Dec 31 2025 = 15117, Dec 31 2024 = 14547, Growth % = 3.9",
-        "Cost of sales: Dec 31 2025 = 10593, Dec 31 2024 = 10103, Growth % = 4.9",
-        "Gross Profit: Dec 31 2025 = 4524, Dec 31 2024 = 4444, Growth % = 1.8",
-        "Selling and marketing expenses: Dec 31 2025 = 769, Dec 31 2024 = 671, Growth % = 14.6",
-        "Administrative expenses: Dec 31 2025 = 725, Dec 31 2024 = 693, Growth % = 4.6",
-        "Total Operating Expenses: Dec 31 2025 = 1494, Dec 31 2024 = 1364, Growth % = 9.5",
-        "Operating Profit: Dec 31 2025 = 3030, Dec 31 2024 = 3080, Growth % = -1.6",
-        "Operating Margin %: Dec 31 2025 = 20.0, Dec 31 2024 = 21.2, Growth % = -1.2",
-        "Profit before income taxes: Dec 31 2025 = 308, Dec 31 2024 = 249, Growth % = 23.7",
-        "Net Profit (after non-controlling interests): Dec 31 2025 = 2393, Dec 31 2024 = 2345, Growth % = 2.1",
-        "Basic EPS ($): Dec 31 2025 = 0.58, Dec 31 2024 = 0.57, Growth % = 2.3",
-        "Diluted EPS ($): Dec 31 2025 = 0.58, Dec 31 2024 = 0.56, Growth % = 3.6"
+        "Revenues: Dec 31 2025 = 15117, Dec 31 2024 = 14547, Growth % = 3.9%",
+        "Cost of sales: Dec 31 2025 = 10593, Dec 31 2024 = 10103, Growth % = 4.9%",
+        "Gross Profit: Dec 31 2025 = 4524, Dec 31 2024 = 4444, Growth % = 1.8%",
+        "Selling and marketing expenses: Dec 31 2025 = 769, Dec 31 2024 = 671, Growth % = 14.6%",
+        "Administrative expenses: Dec 31 2025 = 725, Dec 31 2024 = 693, Growth % = 4.6%",
+        "Total Operating Expenses: Dec 31 2025 = 1494, Dec 31 2024 = 1364, Growth % = 9.5%",
+        "Operating Profit: Dec 31 2025 = 3030, Dec 31 2024 = 3080, Growth % = -1.6%",
+        "Operating Margin %: Dec 31 2025 = 20.0, Dec 31 2024 = 21.2, Growth % = -1.2%",
+        "Other Income, net of finance cost: Dec 31 2025 = 308, Dec 31 2024 = 249, Growth % = 23.7%",
+        "Profit before income taxes: Dec 31 2025 = 3338, Dec 31 2024 = 3329, Growth % = 0.3%",
+        "Income tax expense: Dec 31 2025 = 942, Dec 31 2024 = 981, Growth % = -4.0%",
+        "Net Profit (after non-controlling interests): Dec 31 2025 = 2393, Dec 31 2024 = 2345, Growth % = 2.1%",
+        "Basic EPS ($): Dec 31 2025 = 0.58, Dec 31 2024 = 0.57, Growth % = 2.3%",
+        "Diluted EPS ($): Dec 31 2025 = 0.58, Dec 31 2024 = 0.56, Growth % = 2.3%"
     ],
-    "confidence_score": 0.95,
+    "confidence_score": 1.0,
     "image_citation": "extracted_assets\\fact-sheet_Q3_25-26\\tables\\page3_table1.png",
     "token_usage": {
-        "prompt_tokens": 21112,
-        "completion_tokens": 659,
-        "total_tokens": 21771
+        "prompt_tokens": 1873,
+        "completion_tokens": 746,
+        "total_tokens": 2619
     }
 }

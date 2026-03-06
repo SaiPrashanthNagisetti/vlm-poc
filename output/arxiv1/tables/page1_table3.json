@@ -1,0 +1,21 @@
+{
+    "file_name": "arxiv1",
+    "page_number": 1,
+    "image_title": "Performance Comparison of AI Models",
+    "image_keywords": [
+        "Qwen-Math-2.5-1.5B",
+        "Qwen2.5-1.5B",
+        "Llama-3.2-1B-Instruct",
+        "performance",
+        "comparison"
+    ],
+    "summary": "The bar chart titled 'Performance Comparison of AI Models' illustrates the performance metrics of three AI models: Qwen-Math-2.5-1.5B, Qwen2.5-1.5B, and Llama-3.2-1B-Instruct. The chart compares the models using horizontal bars, with each bar representing a specific performance value. Qwen-Math-2.5-1.5B shows the highest performance at 31.6, followed by Qwen2.5-1.5B at 17.8, and Llama-3.2-1B-Instruct at 9.3. The chart provides a clear visual comparison of the models' capabilities, highlighting Qwen-Math-2.5-1.5B as the leading performer.",
+    "table_rows": [],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\arxiv1\\tables\\page1_table3.png",
+    "token_usage": {
+        "prompt_tokens": 1533,
+        "completion_tokens": 261,
+        "total_tokens": 1794
+    }
+}

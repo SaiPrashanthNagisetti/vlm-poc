@@ -1,0 +1,20 @@
+{
+    "file_name": "arxiv1",
+    "page_number": 3,
+    "image_title": "Vertical List of Variables",
+    "image_keywords": [
+        "variables",
+        "y1",
+        "y2",
+        "y3"
+    ],
+    "summary": "The image is a diagram showing a vertical list of variables labeled as y1, y2, and y3. Each variable is contained within a colored box, with y2 highlighted in red, indicating a possible emphasis or error. The list suggests a sequence or set of related variables, possibly used in a mathematical or statistical context.",
+    "table_rows": [],
+    "confidence_score": 0.9,
+    "image_citation": "extracted_assets\\arxiv1\\tables\\page3_table3.png",
+    "token_usage": {
+        "prompt_tokens": 1533,
+        "completion_tokens": 120,
+        "total_tokens": 1653
+    }
+}

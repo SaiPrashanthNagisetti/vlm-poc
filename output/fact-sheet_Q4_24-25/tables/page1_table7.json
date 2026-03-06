@@ -1,0 +1,20 @@
+{
+    "file_name": "fact-sheet_Q4_24-25",
+    "page_number": 1,
+    "image_title": "Large Deal TCV Summary",
+    "image_keywords": [
+        "11.6 Bn FY",
+        "2.6 Bn Q4",
+        "Large Deal",
+        "TCV"
+    ],
+    "summary": "The image presents a summary of large deal total contract value (TCV) for a fiscal year and a specific quarter. It highlights a total of $11.6 billion for the fiscal year and $2.6 billion for the fourth quarter, indicating significant financial metrics related to large deals. This information is crucial for understanding the scale and impact of large contracts within the specified time frames.",
+    "table_rows": [],
+    "confidence_score": 1.0,
+    "image_citation": "extracted_assets\\fact-sheet_Q4_24-25\\tables\\page1_table7.png",
+    "token_usage": {
+        "prompt_tokens": 1533,
+        "completion_tokens": 149,
+        "total_tokens": 1682
+    }
+}

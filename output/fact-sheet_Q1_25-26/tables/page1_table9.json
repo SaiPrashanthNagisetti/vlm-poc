@@ -1,0 +1,18 @@
+{
+    "file_name": "fact-sheet_Q1_25-26",
+    "page_number": 1,
+    "image_title": "Operating Margin",
+    "image_keywords": [
+        "Operating Margin",
+        "20.8%"
+    ],
+    "summary": "This image displays a single data point representing the operating margin, which is 20.8%. The operating margin is a financial metric that indicates the percentage of revenue that exceeds the operating costs, reflecting the efficiency and profitability of a company's core business operations.",
+    "table_rows": [],
+    "confidence_score": 1.0,
+    "image_citation": "extracted_assets\\fact-sheet_Q1_25-26\\tables\\page1_table9.png",
+    "token_usage": {
+        "prompt_tokens": 1533,
+        "completion_tokens": 97,
+        "total_tokens": 1630
+    }
+}

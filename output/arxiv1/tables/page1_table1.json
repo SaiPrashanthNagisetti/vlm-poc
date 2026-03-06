@@ -1,26 +1,26 @@
 {
     "file_name": "arxiv1",
     "page_number": 1,
-    "image_title": "Label Verification Results",
+    "image_title": "Test-Time Verification and Reinforcement Learning",
     "image_keywords": [
-        "True Label",
-        "Sampled Predictions",
-        "Verification Results",
-        "Estimated Rewards",
-        "Skewed",
-        "Reliable"
+        "Test-Time Verification",
+        "Majority Voting",
+        "Reinforcement Learning",
+        "T3RL",
+        "LLM",
+        "Verifier",
+        "Relative Accuracy Gain",
+        "AIME",
+        "AMC",
+        "MATH500"
     ],
-    "summary": "This table presents the verification results of sampled predictions against true labels, focusing on the reliability of estimated labels. The true label is indicated as 'C', with sampled predictions showing various classifications (A, B, C, D) and their corresponding estimated rewards. The verification results highlight the accuracy of these predictions, with 'A' being marked as reliable and 'B' as skewed. The table effectively compares the predicted labels and their reliability, providing insights into the performance of the classification model.",
-    "table_rows": [
-        "True Label: C",
-        "Sampled Predictions: A A B B B B C C C D, Estimated Rewards: 0 0 1 1 1 0 0 0",
-        "Verification Results: A A B B B C C C D, Estimated Rewards: 0 0 0 0 0 1 1 1 0"
-    ],
+    "summary": "The visual illustrates a process of test-time verification using majority voting and its application in reinforcement learning, specifically through a tool verification method called T3RL. The diagram shows how sampled predictions and verification results are compared against true labels to determine reliability. The process involves a query being processed by a large language model (LLM), followed by verification using a code interpreter integrated LLM. The bar chart on the right displays the relative accuracy gain percentages for different models, including Qwen-Math-2.5-1.5B and Llama-3.2-1B-Instruct, across various tests such as AIME, AMC, and MATH500. The chart highlights significant accuracy improvements, with the highest gain observed in the AIME test.",
+    "table_rows": [],
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\arxiv1\\tables\\page1_table1.png",
     "token_usage": {
-        "prompt_tokens": 15445,
-        "completion_tokens": 244,
-        "total_tokens": 15689
+        "prompt_tokens": 1703,
+        "completion_tokens": 251,
+        "total_tokens": 1954
     }
 }

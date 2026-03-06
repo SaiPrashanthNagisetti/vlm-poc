@@ -1,0 +1,24 @@
+{
+    "file_name": "arxiv1",
+    "page_number": 6,
+    "image_title": "Performance Comparison Table",
+    "image_keywords": [
+        "w/T1RL",
+        "w/T2RL",
+        "performance",
+        "comparison",
+        "metrics"
+    ],
+    "summary": "The table presents a performance comparison between two configurations, labeled as w/T1RL and w/T2RL, across five different metrics. Each configuration shows a series of numeric values indicating performance levels, with w/T2RL generally showing slightly higher values than w/T1RL across most metrics. This suggests a potential improvement in performance with the T2RL configuration.",
+    "table_rows": [
+        "w/T1RL: Metric 1 = 95.0, Metric 2 = 88.0, Metric 3 = 85.0, Metric 4 = 69.7, Metric 5 = 47.0",
+        "w/T2RL: Metric 1 = 95.2, Metric 2 = 88.2, Metric 3 = 87.3, Metric 4 = 72.0, Metric 5 = 49.0"
+    ],
+    "confidence_score": 0.9,
+    "image_citation": "extracted_assets\\arxiv1\\tables\\page6_table1.png",
+    "token_usage": {
+        "prompt_tokens": 1533,
+        "completion_tokens": 245,
+        "total_tokens": 1778
+    }
+}

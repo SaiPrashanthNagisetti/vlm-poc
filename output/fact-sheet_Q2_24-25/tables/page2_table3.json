@@ -1,24 +1,26 @@
 {
     "file_name": "fact-sheet_Q2_24-25",
     "page_number": 2,
-    "image_title": "Quarterly Financial Overview",
+    "image_title": "Quarterly Financial Data",
     "image_keywords": [
         "Free cash flow",
         "Consolidated cash and investments",
         "Sep 30 2024",
         "Jun 30 2024",
-        "Sep 30 2023"
+        "Sep 30 2023",
+        "financial data",
+        "quarter ended"
     ],
-    "summary": "This table presents a quarterly financial overview, specifically focusing on 'Free cash flow' and 'Consolidated cash and investments' for the periods ending September 30, 2024, June 30, 2024, and September 30, 2023. The free cash flow shows a decrease from 1,094 million in June 2024 to 839 million in September 2024, while the consolidated cash and investments reflect a slight decline from 4,626 million in September 2024 to 4,170 million in September 2023. This indicates a trend of decreasing free cash flow over the observed quarters, alongside a relatively stable but slightly declining cash position.",
+    "summary": "The table presents quarterly financial data for free cash flow and consolidated cash and investments over three periods: September 30, 2024, June 30, 2024, and September 30, 2023. It shows a decrease in free cash flow from $1,094 million in June 2024 to $839 million in September 2024, and further down to $670 million in September 2023. Consolidated cash and investments also show a declining trend from $4,626 million in September 2024 to $4,311 million in June 2024, and $4,170 million in September 2023. This data highlights a downward trend in both metrics over the specified periods.",
     "table_rows": [
         "Free cash flow: Sep 30 2024 = 839, Jun 30 2024 = 1,094, Sep 30 2023 = 670",
         "Consolidated cash and investments: Sep 30 2024 = 4,626, Jun 30 2024 = 4,311, Sep 30 2023 = 4,170"
     ],
-    "confidence_score": 0.95,
+    "confidence_score": 1.0,
     "image_citation": "extracted_assets\\fact-sheet_Q2_24-25\\tables\\page2_table3.png",
     "token_usage": {
-        "prompt_tokens": 21112,
-        "completion_tokens": 300,
-        "total_tokens": 21412
+        "prompt_tokens": 1873,
+        "completion_tokens": 324,
+        "total_tokens": 2197
     }
 }

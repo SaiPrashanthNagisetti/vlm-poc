@@ -18,6 +18,6 @@ MERGED_OUTPUT = "merged_output"
 
 VECTOR_DB_PATH = "vector_store"
 
-CHUNK_SIZE = 600
+CHUNK_SIZE = 800
 CHUNK_OVERLAP = 80
 TOP_K = 8

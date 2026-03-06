@@ -1,33 +1,44 @@
 {
     "file_name": "fact-sheet_Q1_25-26",
     "page_number": 2,
-    "image_title": "Consolidated Financial Data - First Quarter, Fiscal 2026",
+    "image_title": "Infosys Consolidated Financial Data - First Quarter, Fiscal 2026",
     "image_keywords": [
-        "Effort",
-        "Utilization",
+        "Effort & Utilization",
         "Employee Metrics",
         "Cash Flow",
-        "Infosys",
-        "Fiscal 2026"
+        "Jun 30, 2025",
+        "Mar 31, 2025",
+        "Jun 30, 2024",
+        "Onsite",
+        "Offshore",
+        "Utilization",
+        "Total employees",
+        "S/W professionals",
+        "Sales & Support",
+        "Voluntary Attrition",
+        "Women Employees",
+        "Free cash flow",
+        "Consolidated cash and investments"
     ],
-    "summary": "This table presents consolidated financial data for Infosys for the first quarter of Fiscal 2026, comparing metrics across three periods: June 30, 2025, March 31, 2025, and June 30, 2024. It includes key performance indicators such as effort and utilization percentages, employee metrics, and cash flow figures. Notably, the utilization rate including trainees is 82.7% for June 30, 2025, while total employees have increased to 323,788. The free cash flow for the quarter ended June 30, 2025, is reported at $884 million, showing a decrease from the previous quarter. The data highlights trends in employee attrition and cash management, providing insights into the company's operational efficiency and financial health.",
+    "summary": "The document is a fact sheet titled 'Infosys Consolidated Financial Data - First Quarter, Fiscal 2026' and presents key metrics related to effort and utilization, employee metrics, and cash flow. The effort and utilization section details percentages for onsite and offshore efforts, as well as utilization rates for the quarters ending June 30, 2025, March 31, 2025, and June 30, 2024. Employee metrics include total employees, software professionals, sales and support staff, voluntary attrition percentage, and the percentage of women employees for the same periods. The cash flow section provides figures for free cash flow and consolidated cash and investments in both US dollars and Indian rupees. Notable trends include a consistent utilization rate and a slight increase in voluntary attrition over the periods shown.",
     "table_rows": [
-        "Effort Onsite: Jun 30 2025 = 23.6, Mar 31 2025 = 23.6, Jun 30 2024 = 23.9",
-        "Effort Offshore: Jun 30 2025 = 76.4, Mar 31 2025 = 76.4, Jun 30 2024 = 76.1",
-        "Utilization Including trainees: Jun 30 2025 = 82.7, Mar 31 2025 = 81.9, Jun 30 2024 = 83.9",
-        "Utilization Excluding trainees: Jun 30 2025 = 85.2, Mar 31 2025 = 84.9, Jun 30 2024 = 85.3",
+        "Effort: Jun 30 2025 = Onsite 23.6, Offshore 76.4; Mar 31 2025 = Onsite 23.6, Offshore 76.4; Jun 30 2024 = Onsite 23.9, Offshore 76.1",
+        "Utilization: Jun 30 2025 = Including trainees 82.7, Excluding trainees 85.2; Mar 31 2025 = Including trainees 81.9, Excluding trainees 84.9; Jun 30 2024 = Including trainees 83.9, Excluding trainees 85.3",
         "Total employees: Jun 30 2025 = 323,788, Mar 31 2025 = 323,578, Jun 30 2024 = 315,332",
         "S/W professionals: Jun 30 2025 = 306,706, Mar 31 2025 = 306,599, Jun 30 2024 = 298,123",
         "Sales & Support: Jun 30 2025 = 17,082, Mar 31 2025 = 16,979, Jun 30 2024 = 17,209",
-        "Voluntary Attrition %: Jun 30 2025 = 14.4%, Mar 31 2025 = 14.1%, Jun 30 2024 = 12.7%",
-        "Free cash flow: Jun 30 2025 = 884, Mar 31 2025 = 892, Jun 30 2024 = 1,094",
-        "Consolidated cash and investments: Jun 30 2025 = 5,271, Mar 31 2025 = 5,562, Jun 30 2024 = 4,311"
+        "Voluntary Attrition % (LTM - IT Services): Jun 30 2025 = 14.4%, Mar 31 2025 = 14.1%, Jun 30 2024 = 12.7%",
+        "% of Women Employees: Jun 30 2025 = 39.1%, Mar 31 2025 = 39.0%, Jun 30 2024 = 39.2%",
+        "Free cash flow (US $ million): Jun 30 2025 = 884, Mar 31 2025 = 892, Jun 30 2024 = 1,094",
+        "Consolidated cash and investments (US $ million): Jun 30 2025 = 5,271, Mar 31 2025 = 5,562, Jun 30 2024 = 4,311",
+        "Free cash flow (\u20b9 crore): Jun 30 2025 = 7,533, Mar 31 2025 = 7,737, Jun 30 2024 = 9,155",
+        "Consolidated cash and investments (\u20b9 crore): Jun 30 2025 = 45,204, Mar 31 2025 = 47,549, Jun 30 2024 = 35,943"
     ],
     "confidence_score": 0.95,
     "image_citation": "extracted_assets\\fact-sheet_Q1_25-26\\vector_graphics\\page2_vector.png",
     "token_usage": {
-        "prompt_tokens": 26779,
-        "completion_tokens": 658,
-        "total_tokens": 27437
+        "prompt_tokens": 2043,
+        "completion_tokens": 860,
+        "total_tokens": 2903
     }
 }

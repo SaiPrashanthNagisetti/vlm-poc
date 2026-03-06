@@ -1,0 +1,20 @@
+{
+    "file_name": "arxiv2",
+    "page_number": 20,
+    "image_title": "Flow Diagram with Arrows",
+    "image_keywords": [
+        "flow diagram",
+        "arrows",
+        "process",
+        "workflow"
+    ],
+    "summary": "This image is a flow diagram illustrating a process with multiple steps connected by arrows. The diagram features two main nodes at the top, each with arrows pointing downwards to a central node, indicating a convergence of processes or information. The arrows suggest a directional flow from the top nodes to the central node, representing a step-by-step workflow or decision-making process. The diagram is likely used to visualize a process where multiple inputs lead to a single outcome or decision point.",
+    "table_rows": [],
+    "confidence_score": 0.8,
+    "image_citation": "extracted_assets\\arxiv2\\tables\\page20_table1.png",
+    "token_usage": {
+        "prompt_tokens": 1533,
+        "completion_tokens": 146,
+        "total_tokens": 1679
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "file_name": "fact-sheet_Q1_25-26",
+    "page_number": 1,
+    "image_title": "Free Cash Flow Highlight",
+    "image_keywords": [
+        "Free Cash Flow",
+        "$884 Mn"
+    ],
+    "summary": "The image is a simple visual representation highlighting a financial metric, specifically the free cash flow amounting to $884 million. This figure is prominently displayed against a blue background, emphasizing its significance in the financial context. The visual serves to underscore the importance of free cash flow as a key financial indicator, likely within a broader financial report or presentation.",
+    "table_rows": [],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet_Q1_25-26\\tables\\page1_table8.png",
+    "token_usage": {
+        "prompt_tokens": 1533,
+        "completion_tokens": 116,
+        "total_tokens": 1649
+    }
+}

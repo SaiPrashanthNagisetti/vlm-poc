@@ -3,29 +3,48 @@
     "page_number": 3,
     "image_title": "Consolidated Financial Data - First Quarter, Fiscal 2025",
     "image_keywords": [
+        "Consolidated statement",
+        "Comprehensive Income",
         "Revenues",
         "Cost of sales",
         "Gross Profit",
         "Operating Expenses",
+        "Operating Profit",
+        "Operating Margin",
         "Net Profit",
         "EPS",
-        "Fiscal 2025",
-        "Infosys"
+        "Diluted EPS",
+        "Dividend Per Share",
+        "Jun 30, 2024",
+        "Jun 30, 2023",
+        "Mar 31, 2024"
     ],
-    "summary": "This document presents the consolidated statement of comprehensive income for Infosys for the three months ended June 30, 2024, and June 30, 2023, along with quarter-over-quarter comparisons for March 31, 2024. Key metrics include revenues, cost of sales, gross profit, operating expenses, and net profit, with year-over-year growth percentages provided. Notably, revenues increased from 4,617 million to 4,714 million, reflecting a 2.1% growth, while net profit before minority interest rose to 764 million, marking a 5.6% increase. The operating margin remained stable at around 21%, indicating consistent operational efficiency. The document also highlights significant changes in expenses and earnings per share, providing a comprehensive overview of the company's financial performance during this period.",
+    "summary": "The document is a table titled 'Consolidated Financial Data - First Quarter, Fiscal 2025' showing the comprehensive income statement for Infosys over three months ending June 30, 2024, and June 30, 2023, with additional data for March 31, 2024. It presents financial metrics in both US dollars and Indian rupees, including revenues, cost of sales, gross profit, operating expenses, and net profit. The table highlights growth percentages year-over-year and quarter-over-quarter. Notable insights include a 3.6% year-over-year revenue growth in rupees and a 3.3% quarter-over-quarter growth in dollars. Operating profit and net profit figures are also detailed, with operating margins remaining stable at 21.1% and 20.8% for the respective periods. The table provides a comprehensive view of the company's financial performance, emphasizing growth trends and profitability metrics.",
     "table_rows": [
-        "Revenues: Jun 30 2024 = 4714, Jun 30 2023 = 4617, Growth % YoY = 2.1%, Mar 31 2024 = 4564, Growth % QoQ = 3.3%",
-        "Cost of sales: Jun 30 2024 = 3259, Jun 30 2023 = 3211, Growth % YoY = 1.5%, Mar 31 2024 = 3219, Growth % QoQ = 1.2%",
-        "Gross Profit: Jun 30 2024 = 1455, Jun 30 2023 = 1406, Growth % YoY = 3.5%, Mar 31 2024 = 1345, Growth % QoQ = 8.2%",
-        "Total Operating Expenses: Jun 30 2024 = 461, Jun 30 2023 = 445, Growth % YoY = 3.6%, Mar 31 2024 = 428, Growth % QoQ = 7.7%",
-        "Net Profit (after minority interest): Jun 30 2024 = 763, Jun 30 2023 = 724, Growth % YoY = 5.6%, Mar 31 2024 = 958, Growth % QoQ = -20.4%",
-        "Basic EPS ($): Jun 30 2024 = 0.18, Jun 30 2023 = 0.17, Growth % YoY = 5.4%, Mar 31 2024 = 0.23, Growth % QoQ = -20.4%"
+        "Revenues: Jun 30 2024 = 4,714, Jun 30 2023 = 4,617, Mar 31 2024 = 4,763",
+        "Cost of sales: Jun 30 2024 = 3,259, Jun 30 2023 = 3,211, Mar 31 2024 = 3,219",
+        "Gross Profit: Jun 30 2024 = 1,455, Jun 30 2023 = 1,406, Mar 31 2024 = 1,345",
+        "Operating Expenses: Jun 30 2024 = 461, Jun 30 2023 = 445, Mar 31 2024 = 428",
+        "Operating Profit: Jun 30 2024 = 994, Jun 30 2023 = 961, Mar 31 2024 = 917",
+        "Operating Margin %: Jun 30 2024 = 21.1, Jun 30 2023 = 20.8, Mar 31 2024 = 20.1",
+        "Net Profit (after minority interest): Jun 30 2024 = 763, Jun 30 2023 = 724, Mar 31 2024 = 958",
+        "Basic EPS ($): Jun 30 2024 = 0.18, Jun 30 2023 = 0.17, Mar 31 2024 = 0.23",
+        "Diluted EPS ($): Jun 30 2024 = 0.18, Jun 30 2023 = 0.17, Mar 31 2024 = 0.23",
+        "Revenues: Jun 30 2024 = 39,315, Jun 30 2023 = 37,933, Mar 31 2024 = 37,923",
+        "Cost of sales: Jun 30 2024 = 27,177, Jun 30 2023 = 26,382, Mar 31 2024 = 26,743",
+        "Gross Profit: Jun 30 2024 = 12,138, Jun 30 2023 = 11,551, Mar 31 2024 = 11,175",
+        "Operating Expenses: Jun 30 2024 = 3,850, Jun 30 2023 = 3,660, Mar 31 2024 = 3,554",
+        "Operating Profit: Jun 30 2024 = 8,288, Jun 30 2023 = 7,891, Mar 31 2024 = 7,621",
+        "Operating Margin %: Jun 30 2024 = 21.1, Jun 30 2023 = 20.8, Mar 31 2024 = 20.1",
+        "Net Profit (after minority interest): Jun 30 2024 = 6,368, Jun 30 2023 = 5,945, Mar 31 2024 = 7,969",
+        "Basic EPS (\u20b9): Jun 30 2024 = 15.35, Jun 30 2023 = 14.37, Mar 31 2024 = 19.22",
+        "Diluted EPS (\u20b9): Jun 30 2024 = 15.35, Jun 30 2023 = 14.35, Mar 31 2024 = 19.22"
     ],
     "confidence_score": 0.95,
     "image_citation": "extracted_assets\\fact-sheet_Q1_24-25\\vector_graphics\\page3_vector.png",
     "token_usage": {
-        "prompt_tokens": 26779,
-        "completion_tokens": 601,
-        "total_tokens": 27380
+        "prompt_tokens": 2043,
+        "completion_tokens": 1076,
+        "total_tokens": 3119
     }
 }

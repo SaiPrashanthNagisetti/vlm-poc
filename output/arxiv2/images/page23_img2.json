@@ -1,22 +1,23 @@
 {
     "file_name": "arxiv2",
     "page_number": 23,
-    "image_title": "Plan Iterations Interface",
+    "image_title": "Plan Iterations and Create Iteration Interface",
     "image_keywords": [
-        "iterations",
-        "goals",
-        "task management",
-        "step 3",
-        "enforced goals",
-        "reference goals"
+        "Plan Iterations",
+        "Step 1",
+        "Step 2",
+        "Enforced Goals",
+        "Reference Goals",
+        "Iteration Name",
+        "IPEXCO"
     ],
-    "summary": "The visual represents a user interface for managing plan iterations within a task management application. It displays the current status of two steps in the iteration process, with Step 1 marked as 'Ideal' and Step 2 as 'Unviable'. Each step shows the number of enforced goals, with Step 1 having 4 goals and Step 2 having 6 goals. The interface allows users to perform a new plan computation or fork an existing one, and it includes a section for creating a new iteration with enforced and reference goals. Key goals include ensuring a daughter is home, grocery shopping, and attending a sports lesson, indicating a focus on family-related tasks.",
+    "summary": "The image displays a user interface for managing plan iterations within a software application by IPEXCO. The 'Plan Iterations' section shows two steps: Step 1, which is labeled as 'Schedulable' with 13 out of 18 goals met, and Step 2, marked as 'Unachievable' with 6 out of 18 goals met. Each step includes enforced goals, with Step 1 having 4 and Step 2 having 6. The 'Create Iteration' panel on the right allows users to name a new iteration and add enforced and reference goals, such as ensuring a daughter is home or a parent buys groceries. This interface facilitates the planning and adjustment of tasks to meet specific goals.",
     "table_rows": [],
-    "confidence_score": 0.9,
+    "confidence_score": 0.95,
     "image_citation": "extracted_assets\\arxiv2\\images\\page23_img2.png",
     "token_usage": {
-        "prompt_tokens": 15445,
-        "completion_tokens": 196,
-        "total_tokens": 15641
+        "prompt_tokens": 1703,
+        "completion_tokens": 233,
+        "total_tokens": 1936
     }
 }

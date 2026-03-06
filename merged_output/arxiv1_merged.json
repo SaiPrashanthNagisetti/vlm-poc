@@ -2,58 +2,121 @@
   {
     "pdf": "arxiv1",
     "page": 1,
-    "text": "Tool Verification for Test-Time Reinforcement Learning\nRuotongLiao*1 NikolaiRo¨hrich*1 XiaohanWang2 YuhuiZhang2 YasamanSamadzadeh1\nVolkerTresp1 SerenaYeung-Levy2\nTest-Time Verification (e.g. Majority Voting)\n0 20 40\nEMIA\n6202\nCMA\nraM\nT3RL:\nTool Verification for Test Time Reinforcement Learning\n005-HTAM\n{\"!} {\"!}\nQuery\nLLM\n\"$\n2\n!\n\"\" \"\"\nTest Data \"# \"#\n]IA.sc[\nVerifier\n(Unlabeled)\n\"$ \"$\ngvA\n(e.g. Code Interpreter\n… …\nIntegrated LLM )\nRelative Accuracy Gain (%)\nReinforcement Learning\nTheconceptofT3RL.Top:Majority-votepseudo-labelscanbespurious.T3RLintroducesverificationtosuppressfalse-popular\nFigure1.\n1v30220.3062:viXra\npseudo-labels.Bottom:T3RLintroducestest-timeverificationintoself-evolvementviatool-executedevidence(e.g.,codeinterpreter)to\nstabilizetrainingwithverifiedrollouts.Right:T3RLachievesconsistentgains,yieldingevidence-groundedself-evolution.\n\n[VISUAL CONTENT - TABLES]\nTitle: Label Verification Results\nSummary: This table presents the verification results of sampled predictions against true labels, focusing on the reliability of estimated labels. The true label is indicated as 'C', with sampled predictions showing various classifications (A, B, C, D) and their corresponding estimated rewards. The verification results highlight the accuracy of these predictions, with 'A' being marked as reliable and 'B' as skewed. The table effectively compares the predicted labels and their reliability, providing insights into the performance of the classification model.\nTrue Label: C\nSampled Predictions: A A B B B B C C C D, Estimated Rewards: 0 0 1 1 1 0 0 0\nVerification Results: A A B B B C C C D, Estimated Rewards: 0 0 0 0 0 1 1 1 0\n\n[VISUAL CONTENT - TABLES]\nTitle: Test Time Reinforcement Learning Evaluation\nSummary: This visual presents an evaluation of test time reinforcement learning methodologies, focusing on the reliability of different models as indicated by the AIME, AMC, and MATH500 metrics. The left section categorizes models A, B, C, and D, with B marked as skewed and C as reliable. The right section features a bar chart comparing performance metrics across models, with AIME showing a peak value of 31.6, AMC with a maximum of 17.8, and MATH500 reaching 5.5. The average performance across these metrics is also highlighted, indicating a trend of varying reliability and effectiveness among the models.\nModel A: 0 0 0 0 0\nModel B: 0 1 1 0 0\nModel C: 1 0 0 0 1\nModel D: 0 0 1 0 0\n\n[VISUAL CONTENT - VECTOR_GRAPHICS]\nTitle: Tool Verification for Test-Time Reinforcement Learning\nSummary: This visual presents a flow diagram illustrating the concept of Tool Verification for Test-Time Reinforcement Learning (T²RL). It highlights the process of verifying pseudo-labels generated through majority voting, emphasizing the importance of accurate sampled predictions and estimated rewards. The diagram includes key components such as the verifier, which utilizes external tools to enhance the reliability of predictions. Additionally, it showcases comparative results across various benchmarks, indicating significant improvements in accuracy when employing T²RL. The visual effectively communicates the methodology and benefits of integrating verification in reinforcement learning to mitigate issues related to spurious pseudo-labels.\n",
-    "keywords": [
-      "llm",
-      "verification test",
-      "test time",
-      "tool",
-      "verification",
-      "time",
-      "reinforcement learning",
-      "reinforcement",
-      "learning",
-      "tool verification",
-      "test",
-      "time reinforcement"
-    ],
+    "text": "\n\n[VISUAL CONTENT - TABLES]\nTitle: Test-Time Verification and Reinforcement Learning\nSummary: The visual illustrates a process of test-time verification using majority voting and its application in reinforcement learning, specifically through a tool verification method called T3RL. The diagram shows how sampled predictions and verification results are compared against true labels to determine reliability. The process involves a query being processed by a large language model (LLM), followed by verification using a code interpreter integrated LLM. The bar chart on the right displays the relative accuracy gain percentages for different models, including Qwen-Math-2.5-1.5B and Llama-3.2-1B-Instruct, across various tests such as AIME, AMC, and MATH500. The chart highlights significant accuracy improvements, with the highest gain observed in the AIME test.\n\n\n[VISUAL CONTENT - TABLES]\nTitle: Prediction and Verification Results Table\nSummary: The table presents a comparison between sampled predictions and verification results for a classification task, highlighting the true label 'C'. It includes columns for sampled predictions and verification results, each with associated estimated rewards. The sampled predictions show a sequence of labels 'A', 'B', 'C', and 'D', with corresponding estimated rewards. Verification results confirm the reliability of label 'C' and indicate skewness in label 'B'. The table provides insights into the accuracy and reliability of predictions, with 'C' being marked as reliable and 'B' as skewed.\nSampled Predictions: A = 0, A = 0, B = 1, B = 1, B = 1, C = 0, C = 0, D = 0\nEstimated Rewards: A = 0, A = 0, B = 1, B = 1, B = 1, C = 0, C = 0, D = 0\nVerification Results: A = 0, A = 0, B = 0, B = 0, B = 0, C = 1, C = 1, D = 0\nEstimated Rewards: A = 0, A = 0, B = 0, B = 0, B = 0, C = 1, C = 1, D = 0\n\n[VISUAL CONTENT - TABLES]\nTitle: Performance Comparison of AI Models\nSummary: The bar chart titled 'Performance Comparison of AI Models' illustrates the performance metrics of three AI models: Qwen-Math-2.5-1.5B, Qwen2.5-1.5B, and Llama-3.2-1B-Instruct. The chart compares the models using horizontal bars, with each bar representing a specific performance value. Qwen-Math-2.5-1.5B shows the highest performance at 31.6, followed by Qwen2.5-1.5B at 17.8, and Llama-3.2-1B-Instruct at 9.3. The chart provides a clear visual comparison of the models' capabilities, highlighting Qwen-Math-2.5-1.5B as the leading performer.\n\n\n[VISUAL CONTENT - TABLES]\nTitle: Horizontal Bar Chart\nSummary: This is a horizontal bar chart displaying three data values: 4.1, 7.3, and 17.8. The chart uses different shades of blue to represent each value, with the largest value being 17.8. The chart likely compares these values across a specific category or metric, although the exact labels and context are not visible.\n\n\n[VISUAL CONTENT - TABLES]\nTitle: Partial Bar Chart\nSummary: This is a partial bar chart displaying a series of data values. The visible values include 2,2, 2,8, and 5,5, which likely represent different categories or time periods. The chart uses varying shades of blue to differentiate between the data points, suggesting a comparison of quantities or metrics. The exact context or axis labels are not visible, limiting the ability to fully interpret the chart's purpose or the specific variables being compared.\n\n\n[VISUAL CONTENT - TABLES]\nTitle: Sequential Process Diagram\nSummary: This diagram represents a sequential process flow, starting with an initial state labeled '{y1}' and proceeding through a series of steps labeled y1, y2, y3, and so on. The process is linear, indicating a straightforward progression from one step to the next without any branching or decision points. The diagram is likely used to illustrate a simple, ordered sequence of actions or states.\n\n\n[VISUAL CONTENT - TABLES]\nTitle: Vertical List Diagram\nSummary: The image is a vertical list diagram displaying a sequence of elements labeled as y1, y2, y3, and so on. Each element is represented in a colored box, with y1 and y3 in green and y2 in red, indicating a possible distinction or emphasis on y2. The diagram suggests a simple ordered list or sequence, potentially used for categorization or prioritization purposes.\n\n\n[VISUAL CONTENT - TABLES]\nTitle: Stacked Bar Chart\nSummary: This is a stacked bar chart displaying three distinct data values: 6.3, 4.7, and 9.3. Each value is represented by a different shade of blue, indicating a comparison or distribution of quantities. The chart likely compares these values across a single category or metric, though specific labels or axes are not visible. The visual suggests a cumulative or segmented representation of data, typical in stacked bar charts to show parts of a whole.\n\n\n[VISUAL CONTENT - VECTOR_GRAPHICS]\nTitle: Tool Verification for Test-Time Reinforcement Learning\nSummary: The visual is a diagram illustrating the concept of Tool Verification for Test-Time Reinforcement Learning (T3RL). It shows a process where test data is input into a language model (LLM) and then verified using an external tool, such as a code interpreter, to produce reliable pseudo-labels for reinforcement learning. The diagram highlights the issue of spurious pseudo-labels from majority voting and introduces T3RL as a solution to stabilize training with verified rollouts. Additionally, a bar chart on the right compares the relative accuracy gain of different models, including Qwen-Math-2.5-1.5B and Llama-3.2-1B-Instruct, across various math difficulties, demonstrating consistent gains with T3RL.\n",
+    "keywords": [],
     "visual_summaries": [
       {
         "type": "tables",
-        "image_title": "Label Verification Results",
+        "image_title": "Test-Time Verification and Reinforcement Learning",
         "image_keywords": [
-          "True Label",
-          "Sampled Predictions",
-          "Verification Results",
-          "Estimated Rewards",
-          "Skewed",
-          "Reliable"
+          "Test-Time Verification",
+          "Majority Voting",
+          "Reinforcement Learning",
+          "T3RL",
+          "LLM",
+          "Verifier",
+          "Relative Accuracy Gain",
+          "AIME",
+          "AMC",
+          "MATH500"
         ],
         "image_citation": "extracted_assets\\arxiv1\\tables\\page1_table1.png"
       },
       {
         "type": "tables",
-        "image_title": "Test Time Reinforcement Learning Evaluation",
+        "image_title": "Prediction and Verification Results Table",
         "image_keywords": [
-          "Reinforcement Learning",
-          "AIME",
-          "AMC",
-          "MATH500",
-          "data evaluation",
-          "reliability",
-          "skewed data"
+          "True Label",
+          "Sampled Predictions",
+          "Verification Results",
+          "Estimated Rewards",
+          "Estimated Label",
+          "Skewed",
+          "Reliable"
         ],
         "image_citation": "extracted_assets\\arxiv1\\tables\\page1_table2.png"
+      },
+      {
+        "type": "tables",
+        "image_title": "Performance Comparison of AI Models",
+        "image_keywords": [
+          "Qwen-Math-2.5-1.5B",
+          "Qwen2.5-1.5B",
+          "Llama-3.2-1B-Instruct",
+          "performance",
+          "comparison"
+        ],
+        "image_citation": "extracted_assets\\arxiv1\\tables\\page1_table3.png"
+      },
+      {
+        "type": "tables",
+        "image_title": "Horizontal Bar Chart",
+        "image_keywords": [
+          "bar chart",
+          "data values",
+          "4.1",
+          "7.3",
+          "17.8"
+        ],
+        "image_citation": "extracted_assets\\arxiv1\\tables\\page1_table4.png"
+      },
+      {
+        "type": "tables",
+        "image_title": "Partial Bar Chart",
+        "image_keywords": [
+          "bar chart",
+          "data values",
+          "2,2",
+          "2,8",
+          "5,5"
+        ],
+        "image_citation": "extracted_assets\\arxiv1\\tables\\page1_table5.png"
+      },
+      {
+        "type": "tables",
+        "image_title": "Sequential Process Diagram",
+        "image_keywords": [
+          "process",
+          "sequence",
+          "y1",
+          "y2",
+          "y3"
+        ],
+        "image_citation": "extracted_assets\\arxiv1\\tables\\page1_table6.png"
+      },
+      {
+        "type": "tables",
+        "image_title": "Vertical List Diagram",
+        "image_keywords": [
+          "y1",
+          "y2",
+          "y3",
+          "list",
+          "vertical"
+        ],
+        "image_citation": "extracted_assets\\arxiv1\\tables\\page1_table7.png"
+      },
+      {
+        "type": "tables",
+        "image_title": "Stacked Bar Chart",
+        "image_keywords": [
+          "stacked bar chart",
+          "6.3",
+          "4.7",
+          "9.3"
+        ],
+        "image_citation": "extracted_assets\\arxiv1\\tables\\page1_table8.png"
       },
       {
         "type": "vector_graphics",
         "image_title": "Tool Verification for Test-Time Reinforcement Learning",
         "image_keywords": [
-          "Test-Time Reinforcement Learning",
+          "Test-Time Verification",
           "Majority Voting",
-          "Sampled Predictions",
-          "Estimated Rewards",
-          "Verification Results",
+          "Reinforcement Learning",
+          "T3RL",
+          "LLM",
+          "Verifier",
           "Relative Accuracy Gain"
         ],
         "image_citation": "extracted_assets\\arxiv1\\vector_graphics\\page1_vector.png"
@@ -65,75 +128,122 @@
     "page": 2,
     "text": "T3RLhasthreecorecomponents:\n(1)TheVerifier,anLLM\nadvancements in Large Reasoning Models (LRMs) such\nasDeepSeek-R1(Guoetal.,2025)andOpenAI’so-series thatextractsthefinalanswerfromeachrollout,transforms\n(OpenAI,2024),Test-TimeReinforcementLearning(TTRL)\ntherolloutintoPythoncode,andjudgesitsvaliditybasedon\nitsoutput;(2)TheVerificationTool,acodeinterpreterthat\n(Zuo et al., 2025) takes this further by removing the de-\npendenceonlabeleddata. Specifically,inatypicalTTRL executesPythonprogramstovalidatethegivenreasoning\nsetting,LRMsfirstgeneratemultiplereasoningtraces,as- trace, and returns the tool answer to the Verifier; (3) The\nVerificationWeight,ascalarfactorassignedtoeachverified\nsumethecorrectanswerviamajorityvoting, labelitasa\npseudo-label,andderiveRLrewards. LRMsevolvebased rollout during the majority vote, effectively boosting the\noncertainonlineRLtrainingonunlabeledtestinputs. This votingpowerofverifiedcomparedoverun-verifiedrollouts.\nmirrors a basic pattern of human learning: improving by\nT3RL\nshows significant performance gains across three\ngeneratingcandidatesolutionstonovelproblems,commit-\nmathbenchmarksofvariousdifficulties,namelyMATH500,\ntingtothemostplausibleone,andupdatingthereafter.\nAMC,andAIME2024. Notably, weachieveamaximum\nrelativeimprovementof31.6%onthehardestbenchmark,\nHowever,anyself-consistency-basedrewardexposesafun-\ndamentalvulnerability:whenthemodel’sinternalreasoning AIME2024, andshowthattheharderthebenchmark, the\nbiggerthegainsachievedbyT3RL(§5.2).Wepointoutthat\nisbiased,consensusnolongercorrelateswithcorrectness.\nT3RLisimplicitlyaverifiedsyntheticdatageneratoron\nWenamethisfalse-popularmodecollapse.\nAsillustrated\nthefly(§6.1).\ninFigure1,majorityvotingcanselectafrequentbutwrong Extensiveablationsvalidatetheimportance\nVerifier, Verification Tool, Verification\nanswer (B) over the true answer (C), assigning positive of the the and the\nT3RL\nWeight\nrewardstoincorrectrollouts. Duetotheprobabilisticpit- (§5.3). We also demonstrate that is more\nfallnatureofLRMs(Bachmann&Nagarajan,2024),this robust(§8b),test-timecompute-efficient(§6.1),andcanbe\nWeenvisionT3RL\neffectisinevitableinonlineRLtraining. Worse,induced improvedbystrongerverifiers(§6.2).\nbiasesarefurtherreinforcedandamplifiedinaviciouscycle,\nto have a broader impact by integrating various forms of\nshowninFigure3: themodelgrowsincreasinglyconfident test-timeverificationmethodstolabel-freeself-evolvement.\ninincorrectestimations,reinforcingtheveryerrorsthatlead\ntofalse-popularmodecollapse(Lietal.,2024b).\n2.RelatedWorks\nThisraisesabroaderquestion:Canlabel-freeself-evolution\nVerification for Test Time Scaling Verification in test\nbemaderobusttofalse-popularmodecollapse?\nHumans\ntimescalingusesexternalverifierstoevaluatethequalityof\navoid this failure mode naturally by seeking external evi-\nadditionalcomputationandselectthebestoutputfrommul-\ndence when introspection alone is unreliable: They filter\ntiplecandidatesduringinference. Verificationmechanisms\nout false hypotheses by interacting with the environment\nincluderewardmodels(Uesatoetal.,2022;Lightmanetal.,\nandgettingfeedback. Thissuggestsakeymissingingredi-\n2023;Cobbeetal.,2021),generativeverifiers(Zhangetal.,\nent: anexternalverificationmechanismthatcanbreakthe\n2024),symbolicchecks(Lingetal.,2023),ormulti-agent\nclosed loop of self-concensus. We emphasize Test-Time\nsystems (Jin et al., 2025; Lifshitz et al.). Recently, tool-\nVerification (TTV):\nmechanisms in inference that evalu-\nintegratedreasoning(TIR)(Gouetal.,2024)hasbrought\natethequalityandplausibilityofreasoningpathsfromthe\na new perspective to tool-integrated verification (Mekala\nLRMs,enablingefficientsearchorreliableselectionamong\net al., 2024; Kang et al., 2025a), formalizing tool use as\nthem (Venktesh et al., 2025). Recent advances in tool-\nanadditionalrobustevidence. However,noneoftheprior\nintegrated reasoning (Schick et al., 2023; Venktesh et al.,\nworksexploreverificationintest-timetraining;wearethe\n2025; Feng et al., 2025) and tool-for-verifier paradigms\nfirsttoturnsampledrolloutsintoonline,evidence-labeled\n(Kang et al., 2025b; Mekala et al., 2024; Lifshitz et al.,\ntraininginstancesthroughverificationandshapethetraining\n2025)pointtoaconcreterealizationforprovidingverifica-\nprocessasaverifieddatasynthesizeron-the-fly.\ntionforlabel-freeself-evolving.\nWeproposeT3RL,ToolVerificationforTest-TimeRein-\nTest-Time Training\nTest Time Training (TTT) adapts\nforcementLearning.\nOurmethodintegratestoolverifica-\nmodel parameters duringinference tohandle distribution\ntionforrewardestimationviaverification-weightedvoting,\nshiftsonnewtasks(Sunetal.,2020;2024b;a;Behrouzetal.,\nshiftinglearningfromfrequenttoverifiedmodes(Figure7).\n2024; Liu et al., 2021), in domains like video generation\nSpecifically,takingmathproblemsasaninstantiation,T3RL\nandunderstanding(Wangetal.,2025a;Dalaletal.,2025),\nutilizeanexternalLLMasaverifier,withtool-integrated\norlargelanguagemodels(Hardt&Sun,2023). Recently,\nverificationthattransformstherolloutsduringtrainingto\nTTTadvancedtotest-timereinforcementlearning(TTRL)\ncode and offloads the computation in reasoning traces to\n(Zuoetal.,2025)thatcombinesunsupervisedreinforcement\nthecodeinterpreter. Thisway,chancesthatfalse-popular\nlearning (Prasadetal.,2024;Zhangetal.,2025)andrein-\nrolloutsdominatingtherewardsignalarereduced.\nforcementlearningwithverifiablerewards(RLVR)(Zeng",
     "keywords": [
+      "2024",
       "2025",
       "et al",
-      "test time",
-      "tool",
       "verification",
+      "tool",
+      "test time",
       "al",
+      "al 2025",
       "time",
       "2023",
-      "et",
-      "al 2025",
       "test",
-      "2024"
+      "et"
     ],
     "visual_summaries": []
   },
   {
     "pdf": "arxiv1",
     "page": 3,
-    "text": "T3RL:\nTool Verification for Test Time Reinforcement Learning\nPseudo\nTool\nLabel\nVerifier\nw\n%\n{\" }\nQuery\ny%*\nLLM\nThink step\n!\n{\"}\n!\nby step …\nTool Integrated LLM\nVerification\n\"\n\"\n\"\nWeight\n\"\nCode Interpreter\nTest Data\n\"\n# a = 2\nA d d in g 2 and 3\n\"\n(Unlabeled)\n#\nb = 3\neq u a ls 5 …\n\"\nc = a + b\nT h e n m u l t ip ly by\n$\n\"\n4 e q u al s 2 0 …\np r i n t ( c * 4 == 20)\n$\n…\n…\nAdding 2 and 3\na = 2\nequals 6 …\nb = 3\nThen multiply by\nc = a + b\n4 equals 24\nprint(c*4 == 24)\nReinforcement Learning\nFigure2.T3RL:ToolVerificationforTest-TimeReinforcementLearning.Verifier:anLLMverifierparseseachsampledrollouty\ni\nintoanansweraˆ andexaminethereturnedexecutionresulta ,yieldingavalidityflagv foreachrollout.Toolverification:theverifier\ni i i\ncompilestherollout’sclaimedcomputationsintolightweightPythonandqueriesacodeinterpretertoobtainexecutableevidenceofa\n.\ni\nAverification-awarepseudo-labely˜∗isformedthatverifiedrolloutsreceivew\nVerificationweightedmajorityvoting:\nvotemassand\ni\n=1[a\nunverifiedrolloutsreceiveaunitvote,andassignbinaryrewardsrv =y˜∗]fortest-timeRLupdates.\ni\ni\net al., 2025; Wang et al., 2025b), which has been widely\ndiscussedintheeraofself-evolvingartificialintelligence.\nHowever,inthefaceofthechallengethatspuriousreward\nestimationpresentstoself-evolvement,noneoftheexisting\nworkhasdiscussedverification. Tothebestofourknowl-\nedge, wearethefirsttoproposetest-timeverificationfor\nself-evolvement,especiallytoolverificationforevidence-\ngroundedself-evolution. Thishasabroaderimpactonagen-\nFigure3.SpuriousrewardinreinforcedcycleofTTRL.\ntic systems that increasingly rely on tool interaction, yet\nrequirereliablerewardsignalstoturnexperienceintostable\nonlinelearning.\nandparametersθareupdatedthroughgradientascent:\n\n[VISUAL CONTENT - IMAGES]\nTitle: Code Interpreter Tool Flow Diagram\nSummary: This flow diagram illustrates the process of using a Code Interpreter tool. It begins with the tool itself, which is represented by a box labeled 'Code Interpreter.' The diagram shows two possible outcomes: a successful execution, indicated by a green checkmark, and a failure, indicated by a red cross. The flow is directed by arrows, indicating the decision-making process involved in utilizing the tool. The diagram effectively communicates the binary outcomes of using the Code Interpreter, highlighting the potential for both success and failure.\n\n\n[VISUAL CONTENT - TABLES]\nTitle: Predictions and Rewards Analysis\nSummary: This table presents an analysis of predictions and estimated rewards across different rounds of sampling. It includes a comparison of true labels and estimated labels, highlighting the performance of various predictions labeled A, B, C, and D. The first round shows sampled predictions and their corresponding estimated rewards, while subsequent rounds illustrate a cycle of reinforced bias, indicating how predictions evolve over time. Notably, the estimated label for B is marked as 'really good,' suggesting a significant improvement in its performance compared to others.\nTrue Label: C\n1st Round: Sampled Predictions: A, B, B, B, C, C, D; Estimated Rewards: 0, 0, 1, 1, 1, 1, 0, 0\nN*th Round: Sampled Predictions: A, B, B, B, C, C, D; Estimated Rewards: 0, 1, 1, 1, 1, 1, 0, 0\n\n[VISUAL CONTENT - VECTOR_GRAPHICS]\nTitle: Tool Verification for Test-Time Reinforcement Learning\nSummary: This visual is a flow diagram illustrating the process of tool verification for test-time reinforcement learning (TRL). It depicts how an LLM verifier parses sampled outputs from a model, yielding validity flags for each output. The diagram shows the integration of a code interpreter that executes the sampled outputs to validate them. Key components include the sampling of predictions, the generation of estimated rewards, and the use of majority voting to derive consensus outputs. The process highlights the challenges of spurious reward estimation in self-evolving AI systems, emphasizing the importance of reliable reward signals for stable online learning.\n",
-    "keywords": [
-      "llm",
-      "step",
-      "evolvement",
-      "tool",
-      "t3rl",
-      "verification",
-      "al",
-      "reinforcement learning",
-      "reinforcement",
-      "learning",
-      "test",
-      "verifier"
-    ],
+    "text": "\n\n[VISUAL CONTENT - IMAGES]\nTitle: Code Interpreter Flow Diagram\nSummary: This flow diagram illustrates the process involving a 'Code Interpreter' tool. The diagram starts with a 'Tool' node, which leads to a 'Code Interpreter' step. From the 'Code Interpreter', the process branches into two outcomes: a successful path indicated by a checkmark and an unsuccessful path indicated by a cross. The diagram visually represents the decision-making process and outcomes when using the code interpreter tool.\n\n\n[VISUAL CONTENT - TABLES]\nTitle: Tool Verification for Test-Time Reinforcement Learning\nSummary: The diagram titled 'Tool Verification for Test-Time Reinforcement Learning' illustrates a process for verifying outputs in reinforcement learning using a tool-integrated LLM (Large Language Model). The process begins with a query from unlabeled test data, which is processed by the LLM to generate potential outputs. These outputs are then verified by a tool that interprets the code to check the correctness of computations. The verifier assigns a validity flag to each output based on the execution results. The process includes a weighted majority voting system to form a verification-aware pseudo-label, which influences the reinforcement learning updates. Key components include the query, LLM, verifier, code interpreter, and pseudo label, highlighting the integration of tool verification in reinforcement learning.\n\n\n[VISUAL CONTENT - TABLES]\nTitle: Hierarchical Structure Diagram\nSummary: The image is a diagram illustrating a hierarchical structure with a top-level node labeled '{y_i}' followed by sequential nodes labeled 'y1', 'y2', and 'y3'. The diagram represents a descending order of elements, indicating a structured breakdown or categorization from a general set to specific components. The use of ellipsis suggests the continuation of the sequence beyond the visible nodes.\n\n\n[VISUAL CONTENT - TABLES]\nTitle: Vertical List of Variables\nSummary: The image is a diagram showing a vertical list of variables labeled as y1, y2, and y3. Each variable is contained within a colored box, with y2 highlighted in red, indicating a possible emphasis or error. The list suggests a sequence or set of related variables, possibly used in a mathematical or statistical context.\n\n\n[VISUAL CONTENT - TABLES]\nTitle: False-Popular Predictions Table\nSummary: The image is a table titled 'False-Popular Predictions Table' that illustrates a comparison between true labels, sampled predictions, and estimated labels in a prediction model. The table shows data for the first round, where the true label is 'C'. Sampled predictions include categories A, B, C, and D, with B being highlighted as the most favorable prediction. Estimated rewards are shown as binary values, indicating the success of each prediction. The table highlights that 'B' is considered a good prediction despite the true label being 'C'. This visual represents the concept of false-popular predictions in a model evaluation context.\nTrue Label: 1st Round = C\nSampled Predictions: A = 0, A = 0, B = 1, B = 1, B = 1, C = 0, C = 0, D = 0\nEstimated Rewards: A = 0, A = 0, B = 1, B = 1, B = 1, C = 0, C = 0, D = 0\nEstimated Label: B is good!\n\n[VISUAL CONTENT - TABLES]\nTitle: Cycle of Reinforced Bias Table\nSummary: This table illustrates the 'Cycle of Reinforced Bias' in a decision-making process, showing sampled predictions and estimated rewards across different options labeled A, B, C, and D. The table highlights a bias towards option B, which is repeatedly selected in multiple rounds, as indicated by the red color. The estimated rewards show that option B consistently receives a reward of 1, reinforcing the perception that 'B is really good!' This visual demonstrates how bias can be perpetuated in predictive models, leading to skewed outcomes.\nSampled Predictions: A = 0, B = 1, B = 1, B = 1, B = 1, B = 1, C = 0, D = 0\nEstimated Rewards: A = 0, B = 1, B = 1, B = 1, B = 1, B = 1, C = 0, D = 0\n\n[VISUAL CONTENT - VECTOR_GRAPHICS]\nTitle: Tool Verification for Test-Time Reinforcement Learning\nSummary: The diagram titled 'Tool Verification for Test-Time Reinforcement Learning' illustrates a process where a verifier, using a large language model (LLM), parses sampled rollouts from test data to produce a validity flag for each rollout. The tool verification involves compiling the rollout's computations into Python code and querying a code interpreter for executable evidence. This process results in a verification-aware pseudo-label, where verified rollouts receive weighted votes, and unverified ones receive unit votes. The diagram highlights the integration of a tool with an LLM to enhance the reliability of reinforcement learning by ensuring accurate pseudo-labeling and reducing spurious rewards. Key components include the query, LLM, tool, and pseudo label, with connections showing the flow from test data to the final verification weight.\n",
+    "keywords": [],
     "visual_summaries": [
       {
         "type": "images",
-        "image_title": "Code Interpreter Tool Flow Diagram",
+        "image_title": "Code Interpreter Flow Diagram",
         "image_keywords": [
-          "Code Interpreter",
           "Tool",
-          "Process",
-          "Decision",
-          "Success",
-          "Failure"
+          "Code Interpreter",
+          "checkmark",
+          "cross",
+          "process"
         ],
         "image_citation": "extracted_assets\\arxiv1\\images\\page3_img1.png"
       },
       {
         "type": "tables",
-        "image_title": "Predictions and Rewards Analysis",
+        "image_title": "Tool Verification for Test-Time Reinforcement Learning",
+        "image_keywords": [
+          "T3RL",
+          "Tool Verification",
+          "Reinforcement Learning",
+          "LLM",
+          "Verifier",
+          "Code Interpreter",
+          "Pseudo Label",
+          "Test Data"
+        ],
+        "image_citation": "extracted_assets\\arxiv1\\tables\\page3_table1.png"
+      },
+      {
+        "type": "tables",
+        "image_title": "Hierarchical Structure Diagram",
+        "image_keywords": [
+          "hierarchy",
+          "structure",
+          "y1",
+          "y2",
+          "y3"
+        ],
+        "image_citation": "extracted_assets\\arxiv1\\tables\\page3_table2.png"
+      },
+      {
+        "type": "tables",
+        "image_title": "Vertical List of Variables",
+        "image_keywords": [
+          "variables",
+          "y1",
+          "y2",
+          "y3"
+        ],
+        "image_citation": "extracted_assets\\arxiv1\\tables\\page3_table3.png"
+      },
+      {
+        "type": "tables",
+        "image_title": "False-Popular Predictions Table",
         "image_keywords": [
           "True Label",
           "Estimated Label",
           "Sampled Predictions",
           "Estimated Rewards",
           "False-Popular Predictions",
-          "Cycle of Reinforced Bias"
+          "Round 1",
+          "A",
+          "B",
+          "C",
+          "D"
         ],
-        "image_citation": "extracted_assets\\arxiv1\\tables\\page3_table1.png"
+        "image_citation": "extracted_assets\\arxiv1\\tables\\page3_table4.png"
+      },
+      {
+        "type": "tables",
+        "image_title": "Cycle of Reinforced Bias Table",
+        "image_keywords": [
+          "Sampled Predictions",
+          "Estimated Rewards",
+          "Cycle of Reinforced Bias",
+          "A",
+          "B",
+          "C",
+          "D",
+          "Nth Round"
+        ],
+        "image_citation": "extracted_assets\\arxiv1\\tables\\page3_table5.png"
       },
       {
         "type": "vector_graphics",
         "image_title": "Tool Verification for Test-Time Reinforcement Learning",
         "image_keywords": [
-          "Reinforcement Learning",
-          "Tool Verification",
-          "LLM Verifier",
+          "T3RL",
+          "Verifier",
+          "LLM",
+          "Tool Integrated LLM",
           "Code Interpreter",
-          "Pseudo Label"
+          "Pseudo Label",
+          "Reinforcement Learning",
+          "Verification Weight",
+          "Test Data"
         ],
         "image_citation": "extracted_assets\\arxiv1\\vector_graphics\\page3_vector.png"
       }
@@ -142,55 +252,61 @@
   {
     "pdf": "arxiv1",
     "page": 4,
-    "text": "4.Method: ToolVerificationforTestTime\nTheverifierthencontraststhetoolresultwiththerollout’s\nextractedcandidateansweraˆ\nandproducesatool-verified\nReinforcementLearning\ni\nvalidityindicator\nTopreventthisfailuremode,wepresentT3RL,anRLframe-\n1[a\nworkwhichintegratestoolverificationintotheaggregation\nv = =aˆ ].\n(6)\ni i i\nmechanismoftest-timeRL,thusachievinggroundedand\nmorerobustrewardestimation.Specifically,T3RLhasthree\n4.3.VerificationWeight\n(1)AnexternalVerifier,anLLMthatis\ncorecomponents:\nHeuristicWeighting.\nInstandardTTRL,theconsensus\ntaskedwithverifyingagivenreasoningtracebycompiling\nlabel is derived via simple majority voting, where every\nthetraceintoexecutablePythoncode,andjudgingitsvalid-\nreasoningpathcontributesequallyregardlessofitslogical\nitybasedontheexecutionoutput(§4.1);(2)TheVerification\nsoundness. However,inourframework,rolloutsthatpass\nTool,acodeinterpreterthatexecutesthegeneratedPython\nforwhichv =1,areheuristically\nthetoolverification,i.e.\nprogramandreturnssignalstotheverifier(§4.2);(3)The\ni\nassumedtobemorereliablethanthosethatdonot.Sincethe\nVerificationWeight,whichisusedtoreplacethemajority\ngroundtruthisinaccessibleattesttime,wecannotcalculate\nvotewithaverification-awareweightedvotethatbooststhe\ntheexactprobabilityofcorrectnessforverifiedrollouts. In-\nvotingpowerofverifiedrollouts. (§4.3).\nstead,weintroduceaVerificationWeighthyperparameter,ω,\ntoquantifythevotingpoweroftool-verifiedtracesrelative\n4.1.Verifier\ntounverifiedones.\nverifier V\nA is designed to evaluate each rollout before\naggregationderivestheestimatedconsensuslabely∗:\nVerification-AwareConsensus.\nWemodifytheaggrega-\ntionmechanismtouseaverification-weightedmajorityvote.\nGivenaninputpromptx,wesampleN\nVerifier.\nrollouts\nForasetofrollouts,weassignaweightw\ntoeachderived\ni\n}N\n{y ∼ π (· | x)\nand extract a candidate final answer\nanswera basedontheverificationindicatorv\n:\ni θ\ni=1\ni i\nfromeachrollout,\nw = (1−v )·1 + v ·ω,\n(7)\ni i i\naˆ =Extract(y )\n(3)\ni i\nwhereω ≥1isafixedscalarhyperparameter.\nThisensures\nV\nthenevaluateseachrolloutandreturnsatriplet\nthatunverifiedrolloutsretainaunitvote,whileverifiedroll-\noutscontributeωvotes. Theverification-awareconsensus\n(a , v ) = V(x,y ),\n(4)\nlabely˜∗isthenobtainedbymaximizingthetotalweighted\ni i i\nvotemass:\nwherea ∈Aistheverifier-derivedanswer,andv ∈{0,1}\ni i\nN\nindicateswhethertherolloutpassesexecutablechecks.\n(cid:88)\n·1[a\ny˜∗\n= argmax w =a].\n(8)\ni i\nT3RL,\na∈A\nV\nIn is implemented as an LLM-based verifier\ni=1\nthat performs the following tasks: 1) generating the tool-\nThismechanismallowsT3RLtoshifttheconsensusfrom\ncallingquery,bytransformingtherolloutrationaleintoa\nthemostfrequentanswertowardstheverifiedanswer(see\nlightweightpythonprogram;2)theexecutionoftheverifi-\nFigure7),providedthattheverifiedgrouppossessessuffi-\ncationtool(§4.2),and3)returningtheverificationresults.\ncientcumulativeweight.\n4.2.VerificationTool\nReward Calculation.\nConsistent with standard TTRL,\nAverificationtoolT\nprovidesexternal,deterministic,and\nthefinalrewardsignalremainsbinarybutisnowanchored\nV\nexecutable evidence to assist the verifier by offloading\ntotherobust,verification-awareconsensusy˜∗.\nThereward\nspecificverificationtasksfromV\ntoanexternallogic.\nforthei-throlloutiscomputedas:\n1[a\n=y˜∗].\nrv\n=\n(9)\nToolexecutionasexternalevidence. Formathproblems,\ni\ni\nmanyrolloutshingeonintermediatecorrectness(e.g.,arith-\nmetic computations, calculation hallucinations, etc). In\nTraining objective.\nWe keep the TTRL objective un-\nT3RL,\ntool verification\nis initiated as a code interpreter\nchangedinform,replacingthepseudo-labelwithEq.(9):\nT,\nthat is an executable checker that evaluates a verifier-\nE\n[rv(x,y)],\ngenerated Python program and returns the output of the\nmax\n(10)\ny∼πθ(·|x)\nθ\nexecutedcode\nE[rv(x,y)].\nθ ←θ+η∇\n(11)\nθ\na = T(Code(x,y )).\n(5)\ni i",
+    "text": "4.Method: ToolVerificationforTestTime\nTheverifierthencontraststhetoolresultwiththerollout’s\nextractedcandidateansweraˆ\nandproducesatool-verified\nReinforcementLearning\ni\nvalidityindicator\nTopreventthisfailuremode,wepresentT3RL,anRLframe-\n1[a\nworkwhichintegratestoolverificationintotheaggregation\nv = =aˆ ].\n(6)\niii\nmechanismoftest-timeRL,thusachievinggroundedand\nmorerobustrewardestimation.Specifically,T3RLhasthree\n4.3.VerificationWeight\n(1)AnexternalVerifier,anLLMthatis\ncorecomponents:\nHeuristicWeighting.\nInstandardTTRL,theconsensus\ntaskedwithverifyingagivenreasoningtracebycompiling\nlabel is derived via simple majority voting, where every\nthetraceintoexecutablePythoncode,andjudgingitsvalid-\nreasoningpathcontributesequallyregardlessofitslogical\nitybasedontheexecutionoutput(§4.1);(2)TheVerification\nsoundness. However,inourframework,rolloutsthatpass\nTool,acodeinterpreterthatexecutesthegeneratedPython\nforwhichv =1,areheuristically\nthetoolverification,i.e.\nprogramandreturnssignalstotheverifier(§4.2);(3)The\ni\nassumedtobemorereliablethanthosethatdonot.Sincethe\nVerificationWeight,whichisusedtoreplacethemajority\ngroundtruthisinaccessibleattesttime,wecannotcalculate\nvotewithaverification-awareweightedvotethatbooststhe\ntheexactprobabilityofcorrectnessforverifiedrollouts. In-\nvotingpowerofverifiedrollouts. (§4.3).\nstead,weintroduceaVerificationWeighthyperparameter,ω,\ntoquantifythevotingpoweroftool-verifiedtracesrelative\n4.1.Verifier\ntounverifiedones.\nverifier VA is designed to evaluate each rollout before\naggregationderivestheestimatedconsensuslabely∗:\nVerification-AwareConsensus.\nWemodifytheaggrega-\ntionmechanismtouseaverification-weightedmajorityvote.\nGivenaninputpromptx,wesampleN\nVerifier.\nrollouts\nForasetofrollouts,weassignaweightw\ntoeachderived\ni\n}N\n{y ∼ π (· | x)\nand extract a candidate final answer\nanswera basedontheverificationindicatorv\n:\ni θ\ni=1\nii\nfromeachrollout,\nw = (1−v )·1 + v ·ω,\n(7)\niii\naˆ =Extract(y )\n(3)\nii\nwhereω ≥1isafixedscalarhyperparameter.\nThisensures\nV\nthenevaluateseachrolloutandreturnsatriplet\nthatunverifiedrolloutsretainaunitvote,whileverifiedroll-\noutscontributeωvotes. Theverification-awareconsensus\n(a , v ) = V(x,y ),\n(4)\nlabely˜∗isthenobtainedbymaximizingthetotalweighted\niii\nvotemass:\nwherea ∈Aistheverifier-derivedanswer,andv ∈{0,1}\niiN\nindicateswhethertherolloutpassesexecutablechecks.\n(cid:88)\n·1[ay˜∗\n= argmax w =a].\n(8)\nii\nT3RL,\na∈AV\nIn is implemented as an LLM-based verifier\ni=1\nthat performs the following tasks: 1) generating the tool-\nThismechanismallowsT3RLtoshifttheconsensusfrom\ncallingquery,bytransformingtherolloutrationaleintoa\nthemostfrequentanswertowardstheverifiedanswer(see\nlightweightpythonprogram;2)theexecutionoftheverifi-\nFigure7),providedthattheverifiedgrouppossessessuffi-\ncationtool(§4.2),and3)returningtheverificationresults.\ncientcumulativeweight.\n4.2.VerificationTool\nReward Calculation.\nConsistent with standard TTRL,\nAverificationtoolT\nprovidesexternal,deterministic,and\nthefinalrewardsignalremainsbinarybutisnowanchored\nV\nexecutable evidence to assist the verifier by offloading\ntotherobust,verification-awareconsensusy˜∗.\nThereward\nspecificverificationtasksfromV\ntoanexternallogic.\nforthei-throlloutiscomputedas:\n1[a\n=y˜∗].\nrv\n=\n(9)\nToolexecutionasexternalevidence. Formathproblems,\nii\nmanyrolloutshingeonintermediatecorrectness(e.g.,arith-\nmetic computations, calculation hallucinations, etc). In\nTraining objective.\nWe keep the TTRL objective un-\nT3RL,\ntool verification\nis initiated as a code interpreter\nchangedinform,replacingthepseudo-labelwithEq.(9):\nT,\nthat is an executable checker that evaluates a verifier-\nE\n[rv(x,y)],\ngenerated Python program and returns the output of the\nmax\n(10)\ny∼πθ(·|x)\nθ\nexecutedcode\nE[rv(x,y)].\nθ ←θ+η∇\n(11)\nθ\na = T(Code(x,y )).\n(5)\nii",
     "keywords": [
-      "awareconsensus",
-      "rv",
-      "executable",
-      "verificationweight",
       "objective",
+      "ttrl",
+      "verification",
       "tool",
       "t3rl",
-      "verification",
       "extract",
+      "ii",
+      "verificationweight",
+      "verifier",
       "theverification",
-      "ttrl",
-      "verifier"
+      "rv",
+      "iii"
     ],
     "visual_summaries": []
   },
   {
     "pdf": "arxiv1",
     "page": 5,
-    "text": "Listing1.Pseudo-codeforT3RL\nwherep indicatesifresponseiiscorrect.\nIncontrast,for\ni\nanalysisandadditionalexperimentsonQwen-2.5-MATH,\nfrom import\ncollections defaultdict\n1\nwe employ standard greedy decoding to report pass@1,\n2\npreservingfairnessagainstpreviousworks.\ndef\nt3rl_reward_fn(x, policy, verifier,\n3\nsandbox, N, omega):\nY = policy.sample_rollouts(x, n=N)\n4\nBaselines\nWecompareourmethodagainstbasemodels,\ndefaultdict(float),\nvote, A = []\n5\naswellasagainstTTRL(Zuoetal.,2025),wherewereport\n6\ntheoriginalresultswherepossible. Forexperimentswhere\nfor in\ny Y:\n7\nTTRLresultsarenotavailable,wereproducetrainingruns\n# (1) verifier generates code\n8\ncode = verifier.generate(x, y)\nusingtheimplementationdetailsin(Zuoetal.,2025).\n9\n# (2) sandbox executes the code and\n10\nreturns evidence\nT3RL\nImplementation Details We implement using\nevidence = sandbox.execute(code)\n11\nGRPO (Shao et al., 2024) on each benchmark, training\n# (3) verifier parses evidence\n12\na, v = verifier.judge(x, y,\nthepolicymodelviaAdamWwithacosineschedule(peak\n13\nevidence) # v in {0,1}\n5×10−7).\nlearningrate: Weutilize1Band1.5Bverifiers.\nif else\nvote[a] += (1.0 v == 0\n14\nTobalanceperformancewithcomputationalefficiency,we\nomega) # unverified=1,\nfollowTTRL(Zuoetal.,2025)inemployingavote-then-\nverified=omega\nsamplestrategy:64responsesaregeneratedforlabelestima-\nA.append(a)\n15\ntion(temperature0.6)anddownsampledto32fortraining.\n16\nmax(vote,\ny_star = key=vote.get)\n17\nThemaximumtokenlengthis2,560. Regardingtheverifier\n# weighted majority pseudo-label\nmodel, we find that we can restrict the generation length\nif else\nrewards = [1.0 a == y_star 0.0\n18\n1,024\nto tokens, since code snippets are relatively short.\nfor in\na A]\nWealsouseatemperatureof0.6fortheverifieracrossall\nreturn\ny_star, rewards\n19\nbenchmarks. Training runs are conducted on 8 NVIDIA\nA100GPUs,withvaryingepisodecountsbasedondataset\n5.Experiments\nsize: 10(MATH-500),30(AMC),and80(AIME2024).\n5.1.ExperimentalSetup\n5.2.MainResults\nWeevaluateT3RLon3mathematicalrea-\nBenchmarks\nT3RL\nTable 1 shows that repeatedly outperforms TTRL\nsoningbenchmarks:AIME2024(Lietal.,2024a),AMC(Li\nacrossallevaluatedmodelsandbenchmarks,supportingour\netal.,2024a),andMATH-500(Hendrycksetal.,2021).\n\n[VISUAL CONTENT - VECTOR_GRAPHICS]\nTitle: Pseudo-code for TTRL\nSummary: The visual presents pseudo-code for the Test-Time Reinforcement Learning (TTRL) method, illustrating the process of generating evidence and making decisions based on a policy and verifier. The code outlines the steps involved in executing a policy, verifying the output, and aggregating results through a weighted majority voting mechanism. Key components include the generation of evidence from the verifier, the execution of code snippets, and the calculation of a final vote based on the evidence collected. This method aims to enhance performance across various benchmarks in reinforcement learning by ensuring the accuracy of responses.\n",
-    "keywords": [
-      "code",
-      "vote",
-      "2025",
-      "zuoetal",
-      "t3rl",
-      "10",
-      "sandbox",
-      "evidence",
-      "zuoetal 2025",
-      "star",
-      "verifier",
-      "omega"
-    ],
+    "text": "\n\n[VISUAL CONTENT - TABLES]\nTitle: Python Code Snippet for Reward Function\nSummary: This image is a diagram of a Python code snippet defining a function named 't3rl_reward_fn'. The function takes parameters such as 'x', 'policy', 'verifier', 'sandbox', 'N', and 'omega'. It utilizes the 'defaultdict' from the 'collections' module to manage votes and actions. The function involves generating code through a verifier, executing it in a sandbox, and parsing the evidence to judge the outcome. Votes are accumulated based on the verifier's judgment, and the function returns the most voted outcome and associated rewards. This code is likely part of a reinforcement learning or decision-making system, focusing on evaluating and rewarding actions based on evidence and verification.\n\n\n[VISUAL CONTENT - VECTOR_GRAPHICS]\nTitle: Pseudo-code for T3RL\nSummary: The image contains a pseudo-code listing for T3RL, a method involving a policy, verifier, and sandbox to generate and evaluate code. The process includes generating code, executing it in a sandbox, parsing evidence, and judging the output to form a weighted majority pseudo-label. The code snippet highlights the use of a default dictionary to store votes and calculate rewards based on the majority vote. The pseudo-code is part of a broader discussion on experimental setups and results for T3RL, which is evaluated on mathematical reasoning benchmarks, demonstrating improvements over previous models in terms of accuracy and computational efficiency.\n",
+    "keywords": [],
     "visual_summaries": [
       {
-        "type": "vector_graphics",
-        "image_title": "Pseudo-code for TTRL",
+        "type": "tables",
+        "image_title": "Python Code Snippet for Reward Function",
         "image_keywords": [
-          "TTRL",
-          "pseudo-code",
-          "reinforcement learning",
+          "t3rl_reward_fn",
           "policy",
           "verifier",
           "sandbox",
-          "evidence",
+          "defaultdict",
+          "sample_rollouts",
+          "generate",
+          "execute",
+          "judge",
           "vote",
-          "majority pseudo-label"
+          "rewards"
+        ],
+        "image_citation": "extracted_assets\\arxiv1\\tables\\page5_table1.png"
+      },
+      {
+        "type": "vector_graphics",
+        "image_title": "Pseudo-code for T3RL",
+        "image_keywords": [
+          "T3RL",
+          "pseudo-code",
+          "verifier",
+          "sandbox",
+          "policy",
+          "reward function",
+          "vote",
+          "evidence",
+          "y_star",
+          "rewards"
         ],
         "image_citation": "extracted_assets\\arxiv1\\vector_graphics\\page5_vector.png"
       }
@@ -199,61 +315,140 @@
   {
     "pdf": "arxiv1",
     "page": 6,
-    "text": "Table1.Mainresults. Table2.MATH-500difficultybreakdown.\nL1 L2 L3 L4 L5\nModel/Method AIME2024 AMC MATH-500 Avg\nQwen-Math-1.5B 25.9 33.0 36.3 32.5 22.3\nMathModel\nw/TTRL 95.0 88.0 85.0 69.7 47.0\nQwen-2.5-Math-1.5B(Baseline) 7.7 28.6 32.7 23.0\nw/T3RL\n95.2 88.2 87.3 72.0 49.0\nw/TTRL 15.8 48.9 73.0 45.9\n↑267.6% ↑166.7% ↑140.5% ↑121.2% ↑119.7%\nRel.(%overBaseline)\nw/T3RL\n20.8 50.9 74.6 48.8\n↑0.2% ↑0.2% ↑2.7% ↑3.3% ↑4.3%\nRel.(%overTTRL)\nVanillaModel\nFigure4.Relativegainoverbaselinetrend(T3RLvsTTRL).\nQwen-2.5-1.5B(Baseline) 0.2 0.6 7.7 2.8\nw/TTRL 3.5 28.6 63.2 31.8\nw/T3RL\n4.1 30.7 65.0 33.3\nQwen-3-4B(Baseline) 0.0 12.5 50.4 21.0\nT3RL\nw/TTRL 36.4 71.7 88.4 65.5\nw/T3RL\n40.0 74.2 89.5 68.1\nInstructModel\nLlama-3.2-1B-Instruct(Baseline) 0.8 4.2 4.4 3.1\nw/TTRL 7.5 16.9 40.0 21.5\nw/T3RL\n8.3 19.9 42.2 23.5\nLlama-3-3B-Instruct(Baseline) 6.0 19.4 43.9 23.1\nw/TTRL 13.3 31.3 61.6 35.4\nw/T3RL\n17.1 34.2 63.3 38.2\nTable3.MainperformanceofT3RL.(a)Improvementacrossbenchmarkandbackbonemodels.(b)Difficultybreakdownperformance\nonMATH-500(L5isthehardest).(c)RelativeimprovementdifferenceofT3RLoverTTRLtobaselines,increaseswithdifficultylevel.\n5.3.AblationStudies\ntoolverificationisnottiedtoaspecificpretrainingrecipe,\nbut works across model families and alignment regimes.\nThis section presents an analysis of the three key fac-\nNevertheless,ourexperimentsrevealthefollowingtrends:\ntorsthatsupportT3RL:(1)test-timeverification,(2)tool-\nassistedverification,and(3)verification-weightedmajority\nMath-specialized backbones and harder benchmarks\nvoting. Unless otherwise specified, we run ablations on\nparticularlybenefitfromtoolverification.\nQwen-Math-1.5B\nN=64\nwith rollout size and report\nPass@1performance.\n(i) Math-specialized models benefit more:\n•\nAcross all benchmarks, the math-specialized\n\n[VISUAL CONTENT - IMAGES]\nTitle: Comparison of Improvement Metrics for Math Levels\nSummary: This bar chart compares the improvement percentages across different math levels (MATH-L1 to MATH-L5) for two methods: TTRL and T³RL. The y-axis represents the percentage of improvement, while the x-axis lists the math levels. MATH-L1 shows the highest improvement at over 250%, followed by MATH-L2 with a modest increase of 0.5%. The T³RL method demonstrates a consistent upward trend in additional gain, peaking at 8.9% for MATH-L5. Overall, the chart highlights the effectiveness of the T³RL method in achieving higher improvements across the math levels compared to TTRL.\n\n\n[VISUAL CONTENT - IMAGES]\nTitle: Comparison of Scores in AIME and MATH\nSummary: This bar chart compares scores in two assessments, AIME and MATH, across different categories. The left section displays scores for TTRL and various 'No Code' categories, with TTRL achieving a score of 20.0 in AIME and 73.6 in MATH. The middle section shows the same 'No Code' categories, with scores of 18.3 for AIME and 73.1 for MATH. The right section introduces a new category, 'With Code', showing a score of 21.7 in AIME and 74.9 in MATH. The data indicates a trend where the 'With Code' category outperforms the 'No Code' categories in both assessments, highlighting the impact of coding on performance.\n\n\n[VISUAL CONTENT - VECTOR_GRAPHICS]\nTitle: Tool Verification for Test-Time Reinforcement Learning\nSummary: The visual consists of two tables and a figure illustrating the performance of various models in the context of test-time reinforcement learning (TRL). Table 1 presents main results across different models, highlighting the performance metrics such as AIMEE 2024, AMC, and MATH-500, with a focus on the relative improvement of TRL over baseline models. Table 2 breaks down the performance on the MATH-500 dataset by difficulty level, showing the percentage of improvement for each level. The figure further emphasizes the relative gain in performance when using TRL compared to the baseline, particularly noting that math-specialized models benefit significantly from tool verification, especially on harder benchmarks. Key insights include the observation that the hardest difficulty level (L5) shows the largest gains, indicating that tool execution enhances verification reliability on challenging tasks.\nModel/Method | AIMEE 2024 | AMC | MATH-500 | Avg | Queen-Math-1.5B (Baseline) = 7.7, 28.6, 32.7, 23.0; w/ TRL = 15.8, 48.9, 73.0, 45.9; w/ TRL = 20.8, 50.9, 74.6, 48.8\nQueen-Math-1.5B | L1 = 25.9, L2 = 36.3, L3 = 32.5, L4 = 95.0, w/ TRL = 88.0, 85.0, 69.7, 47.0",
+    "text": "Table3.MainperformanceofT3RL.(a)Improvementacrossbenchmarkandbackbonemodels.(b)Difficultybreakdownperformance\nonMATH-500(L5isthehardest).(c)RelativeimprovementdifferenceofT3RLoverTTRLtobaselines,increaseswithdifficultylevel.\n5.3.AblationStudies\ntoolverificationisnottiedtoaspecificpretrainingrecipe,\nbut works across model families and alignment regimes.\nThis section presents an analysis of the three key fac-\nNevertheless,ourexperimentsrevealthefollowingtrends:\ntorsthatsupportT3RL:(1)test-timeverification,(2)tool-\nassistedverification,and(3)verification-weightedmajority\nMath-specialized backbones and harder benchmarks\nvoting. Unless otherwise specified, we run ablations on\nparticularlybenefitfromtoolverification.\nQwen-Math-1.5B\nN=64\nwith rollout size and report\nPass@1performance.\n(i) Math-specialized models benefit more:\n•\nAcross all benchmarks, the math-specialized\nQwen-Math-1.5B\nachieves a larger rela-\ntive improvement over TTRL than the vanilla\nQwen-2.5-1.5B\n(+6.3% +4.7%),\nvs. which is\nconsistent with the finding that math-specialized\nmath-like\nbackbones more often generate reasoning\ntraces which contain more calculation steps. Those\nstepsarepotentiallyderailedbysmall,tool-detectable\nexecutionmistakesinarithmeticoralgebraslipsand\ncanthusbenefitmorefromexecutableverification.\n(a)Ablatingverification. (b)Ablatingtoolexecution.\n(ii)Hardbenchmarksbenefitmore:\n• withineachback-\nFigure5.Ablationonverifierandverificationtool.Left:Adding\nbone, the relative gains are largest on AIME 2024\nan LLM verifier improves TTRL even without tool execution.\nand smaller on the easier benchmarks AMC and\nRight:Codeexecutionsignificantlystrengthensverification.\nForinstance,Qwen-2.5-Math-1.5B\nMATH-500.\n+31.6% 15.8%\nTheContributionofTest-TimeVerification.\nachieves a gain of on AIME (from Weisolate\n20.8%). theeffectoftest-timeverificationbycomparing(i)vanilla\nto Similarly,withinthedifficulty-levelbreak-\nT3RL\nwithout\ndownofMATH-500,thehardestL5exhibitsthelargest TTRL against (ii) code execution, i.e., us-\ngainbecausehardermathdatasetsrequirelongercom- ingasame-sizeLLMaloneforself-verification. Asshown\nputation chains, so rollouts accumulate errors as the in Figure 5a, improvements are seen on both AIME and\nstepcountincreases,makingrationalesmorevulnera- MATH with 1.5B or 7B verifier. These results showcase\nble. Toolexecutionprovidesdeterministicchecksof thatintroducingself-verificationonrolloutsyieldsbetteron-\nintermediate computations, preserving high verifica- lineupdateswithimprovedrewardestimation,evenbefore\ntionreliabilityonharderbenchmarks. introducingtool-assistedverification.\n\n[VISUAL CONTENT - IMAGES]\nTitle: Improvement and Additional Gain in MATH Levels\nSummary: The bar and line chart illustrates the percentage improvement and additional gain across different MATH levels, labeled MATH-L1 to MATH-L5. The improvement is shown in percentage on the left axis, while the additional gain is on the right axis. The chart compares two methods: TTRL and T3RL. TTRL shows a significant improvement in MATH-L1 with a 0.8% gain, while T3RL shows a steady increase in additional gain, peaking at 8.9% in MATH-L5. The trend indicates that while TTRL has higher initial improvements, T3RL provides increasing additional gains across the levels.\n\n\n[VISUAL CONTENT - IMAGES]\nTitle: AIME and MATH Score Comparison\nSummary: The image contains two bar charts comparing scores for AIME and MATH under different conditions. The first chart shows scores for TTRL, No Code (1.5B), and No Code (7B), with AIME scores ranging from 15.8 to 20.0 and MATH scores from 73.0 to 73.6. The second chart compares No Code (1.5B), No Code (7B), and With Code (1.5B and 7B), with AIME scores ranging from 18.3 to 21.7 and MATH scores from 73.1 to 74.9. The charts illustrate the impact of coding on performance, with 'With Code' conditions generally showing higher scores.\n\n\n[VISUAL CONTENT - TABLES]\nTitle: Performance Comparison Table\nSummary: The table presents a performance comparison between two configurations, labeled as w/T1RL and w/T2RL, across five different metrics. Each configuration shows a series of numeric values indicating performance levels, with w/T2RL generally showing slightly higher values than w/T1RL across most metrics. This suggests a potential improvement in performance with the T2RL configuration.\nw/T1RL: Metric 1 = 95.0, Metric 2 = 88.0, Metric 3 = 85.0, Metric 4 = 69.7, Metric 5 = 47.0\nw/T2RL: Metric 1 = 95.2, Metric 2 = 88.2, Metric 3 = 87.3, Metric 4 = 72.0, Metric 5 = 49.0\n\n[VISUAL CONTENT - TABLES]\nTitle: Performance Comparison Table\nSummary: The table presents a performance comparison between two configurations labeled 'w/TRL' and 'w/T^RL' across four metrics. The values indicate that the 'w/T^RL' configuration generally outperforms the 'w/TRL' configuration, with higher scores in all listed metrics. This suggests an improvement in performance when using the 'w/T^RL' setup.\nw/TRL: Metric1 = 15.8, Metric2 = 48.9, Metric3 = 73.0, Metric4 = 45.9\nw/T^RL: Metric1 = 20.8, Metric2 = 50.9, Metric3 = 74.6, Metric4 = 48.8\n\n[VISUAL CONTENT - TABLES]\nTitle: Performance Metrics Table\nSummary: The table presents performance metrics comparing two configurations, labeled 'w/TRL' and 'w/T^3RL'. Each configuration is evaluated across four metrics, with 'w/TRL' showing values of 5.5, 28.6, 65.2, and 51.6, while 'w/T^3RL' shows values of 4.1, 30.7, 65.0, and 33.3. The table highlights differences in performance between the two configurations, with 'w/T^3RL' generally showing higher values in some metrics.\nw/TRL: Metric1 = 5.5, Metric2 = 28.6, Metric3 = 65.2, Metric4 = 51.6\nw/T^3RL: Metric1 = 4.1, Metric2 = 30.7, Metric3 = 65.0, Metric4 = 33.3\n\n[VISUAL CONTENT - TABLES]\nTitle: Performance Metrics Table\nSummary: The table presents performance metrics comparing two configurations, 'w/TRL' and 'w/T^3RL', across four different criteria. The values indicate a comparison of performance levels, with 'w/T^3RL' showing higher values in most categories, suggesting improved performance over 'w/TRL'. This table is useful for evaluating the effectiveness of the configurations in achieving better results.\nw/TRL: 36.4, 71.7, 88.4, 68.5\nw/T^3RL: 40.0, 74.2, 89.5, 68.1\n\n[VISUAL CONTENT - TABLES]\nTitle: Performance Metrics Table\nSummary: The table presents performance metrics comparing two configurations labeled 'w/TRL' and 'w/T^RL'. It includes four columns of numeric values, indicating different performance measures for each configuration. The values for 'w/TRL' are 7.5, 16.9, 40.0, and 21.5, while 'w/T^RL' shows 8.3, 19.9, 42.2, and 23.5. This comparison highlights the differences in performance between the two setups, with 'w/T^RL' generally showing higher values across the metrics.\nw/TRL: 7.5, 16.9, 40.0, 21.5\nw/T^RL: 8.3, 19.9, 42.2, 23.5\n\n[VISUAL CONTENT - TABLES]\nTitle: Comparison of TRL and T^3RL\nSummary: The table presents a comparison between two metrics, TRL and T^3RL, across four different data points. The values for TRL are 15.5, 31.5, 61.0, and 33.4, while the values for T^3RL are 17.1, 34.2, 63.3, and 38.2. This comparison highlights the differences in performance or measurement between the two metrics, with T^3RL showing consistently higher values across all data points.\nw/ TRL: 15.5, 31.5, 61.0, 33.4\nw/ T^3RL: 17.1, 34.2, 63.3, 38.2\n\n[VISUAL CONTENT - VECTOR_GRAPHICS]\nTitle: Model Performance and MATH-500 Difficulty Breakdown\nSummary: The visual consists of two tables and a line chart. Table 1 presents the main results of different models, including Math, Vanilla, and Instruct models, across three metrics: AIME 2024, AMC, and MATH-500, with average scores. The models are compared with and without T3RL, showing significant improvements in performance when T3RL is applied. Table 2 breaks down the MATH-500 difficulty levels (L1 to L5) for the Qwen-Math-1.5B model, highlighting relative improvements over baseline and TTRL. The line chart illustrates the relative gain over baseline trend for T3RL versus TTRL across MATH difficulty levels, showing incremental improvements from L1 to L5, with the highest additional gain at L5. The data indicates that T3RL consistently enhances model performance across various metrics and difficulty levels.\nQwen-2.5-Math-1.5B (Baseline): AIME 2024 = 7.7, AMC = 28.6, MATH-500 = 32.7, Avg = 23.0\nQwen-2.5-Math-1.5B w/ TTRL: AIME 2024 = 15.8, AMC = 48.9, MATH-500 = 73.0, Avg = 45.9\nQwen-2.5-Math-1.5B w/ T3RL: AIME 2024 = 20.8, AMC = 50.9, MATH-500 = 74.6, Avg = 48.5\nQwen-2.5-1.5B (Baseline): AIME 2024 = 0.2, AMC = 0.6, MATH-500 = 7.7, Avg = 2.8\nQwen-2.5-1.5B w/ TTRL: AIME 2024 = 3.5, AMC = 28.6, MATH-500 = 63.0, Avg = 31.7\nQwen-2.5-1.5B w/ T3RL: AIME 2024 = 4.1, AMC = 30.7, MATH-500 = 65.0, Avg = 33.3\nQwen-3-4B (Baseline): AIME 2024 = 0.0, AMC = 12.5, MATH-500 = 8.5, Avg = 7.0\nQwen-3-4B w/ TTRL: AIME 2024 = 36.4, AMC = 71.1, MATH-500 = 87.5, Avg = 65.0\nQwen-3-4B w/ T3RL: AIME 2024 = 40.0, AMC = 74.2, MATH-500 = 89.5, Avg = 67.9\nLlama-2-3B-Instruct (Baseline): AIME 2024 = 0.8, AMC = 4.4, MATH-500 = 4.2, Avg = 3.1\nLlama-2-3B-Instruct w/ TTRL: AIME 2024 = 8.3, AMC = 19.9, MATH-500 = 42.2, Avg = 23.5\nLlama-2-3B-Instruct w/ T3RL: AIME 2024 = 13.3, AMC = 31.3, MATH-500 = 43.3, Avg = 29.3\nQwen-Math-1.5B L1: Baseline = 25.9, TTRL = 95.0, T3RL = 95.0\nQwen-Math-1.5B L2: Baseline = 33.0, TTRL = 88.0, T3RL = 88.0\nQwen-Math-1.5B L3: Baseline = 36.3, TTRL = 85.0, T3RL = 85.0\nQwen-Math-1.5B L4: Baseline = 32.5, TTRL = 69.7, T3RL = 69.7\nQwen-Math-1.5B L5: Baseline = 22.3, TTRL = 47.0, T3RL = 47.0\nRel. (% over Baseline) L1: 267.6%\nRel. (% over Baseline) L2: 166.7%\nRel. (% over Baseline) L3: 140.5%\nRel. (% over Baseline) L4: 121.2%\nRel. (% over Baseline) L5: 119.7%\nRel. (% over TTRL) L1: 0.2%\nRel. (% over TTRL) L2: 0.2%\nRel. (% over TTRL) L3: 2.7%\nRel. (% over TTRL) L4: 3.3%\nRel. (% over TTRL) L5: 4.3%",
     "keywords": [
-      "5b",
-      "math",
-      "math specialized",
-      "t3rl",
-      "23",
-      "qwen math",
-      "88",
-      "specialized",
-      "math 5b",
-      "baseline",
+      "qwen",
       "ttrl",
-      "qwen"
+      "benchmarks",
+      "tool",
+      "qwen math",
+      "500",
+      "5b",
+      "specialized",
+      "aime",
+      "math specialized",
+      "math",
+      "math 5b"
     ],
     "visual_summaries": [
       {
         "type": "images",
-        "image_title": "Comparison of Improvement Metrics for Math Levels",
+        "image_title": "Improvement and Additional Gain in MATH Levels",
         "image_keywords": [
           "Improvement",
+          "Additional Gain",
           "MATH-L1",
           "MATH-L2",
           "MATH-L3",
           "MATH-L4",
           "MATH-L5",
           "TTRL",
-          "T3RL",
-          "Additional Gain"
+          "T3RL"
         ],
         "image_citation": "extracted_assets\\arxiv1\\images\\page6_img1.png"
       },
       {
         "type": "images",
-        "image_title": "Comparison of Scores in AIME and MATH",
+        "image_title": "AIME and MATH Score Comparison",
         "image_keywords": [
           "AIME",
           "MATH",
           "TTRL",
           "No Code",
-          "Scores",
+          "With Code",
           "1.5B",
-          "7B"
+          "7B",
+          "Score"
         ],
         "image_citation": "extracted_assets\\arxiv1\\images\\page6_img2.png"
       },
       {
-        "type": "vector_graphics",
-        "image_title": "Tool Verification for Test-Time Reinforcement Learning",
+        "type": "tables",
+        "image_title": "Performance Comparison Table",
         "image_keywords": [
+          "w/T1RL",
+          "w/T2RL",
+          "performance",
+          "comparison",
+          "metrics"
+        ],
+        "image_citation": "extracted_assets\\arxiv1\\tables\\page6_table1.png"
+      },
+      {
+        "type": "tables",
+        "image_title": "Performance Comparison Table",
+        "image_keywords": [
+          "w/T^RL",
+          "w/TRL",
+          "performance",
+          "comparison",
+          "metrics"
+        ],
+        "image_citation": "extracted_assets\\arxiv1\\tables\\page6_table2.png"
+      },
+      {
+        "type": "tables",
+        "image_title": "Performance Metrics Table",
+        "image_keywords": [
+          "w/TRL",
+          "w/T^3RL",
+          "metrics",
+          "performance"
+        ],
+        "image_citation": "extracted_assets\\arxiv1\\tables\\page6_table3.png"
+      },
+      {
+        "type": "tables",
+        "image_title": "Performance Metrics Table",
+        "image_keywords": [
+          "w/TRL",
+          "w/T^3RL",
+          "performance",
+          "metrics"
+        ],
+        "image_citation": "extracted_assets\\arxiv1\\tables\\page6_table4.png"
+      },
+      {
+        "type": "tables",
+        "image_title": "Performance Metrics Table",
+        "image_keywords": [
+          "w/TRL",
+          "w/T^RL",
+          "performance",
+          "metrics",
+          "values"
+        ],
+        "image_citation": "extracted_assets\\arxiv1\\tables\\page6_table5.png"
+      },
+      {
+        "type": "tables",
+        "image_title": "Comparison of TRL and T^3RL",
+        "image_keywords": [
+          "TRL",
+          "T^3RL",
+          "comparison",
+          "data values"
+        ],
+        "image_citation": "extracted_assets\\arxiv1\\tables\\page6_table6.png"
+      },
+      {
+        "type": "vector_graphics",
+        "image_title": "Model Performance and MATH-500 Difficulty Breakdown",
+        "image_keywords": [
+          "Qwen-2.5-Math-1.5B",
+          "Qwen-2.5-1.5B",
+          "Qwen-3-4B",
+          "Llama-2-3B-Instruct",
+          "AIME 2024",
+          "AMC",
           "MATH-500",
-          "test-time reinforcement learning",
-          "tool verification",
-          "benchmark performance",
-          "math-specialized backbones"
+          "T3RL",
+          "TTRL",
+          "MATH-L1",
+          "MATH-L2",
+          "MATH-L3",
+          "MATH-L4",
+          "MATH-L5"
         ],
         "image_citation": "extracted_assets\\arxiv1\\vector_graphics\\page6_vector.png"
       }
@@ -262,31 +457,37 @@
   {
     "pdf": "arxiv1",
     "page": 7,
-    "text": "TheContributionofTool-AssistedVerification.\nWenext\ncontrolforthecodeexecutioneffectbycomparingverifi-\ncationinT3RLwithouttoolexecutionversusverification\nwithtoolexecution.\nThisablationdirectlytestswhetherexe-\ncutablechecksprovideadditionalreliableevidencebeyond\nLLM-onlyself-verification. TheresultsinFigure5bshow\nverificationtoolcontributesaclearadditionalliftbeyond\nverifier-onlychecking,improvingAIMEfrom18.3to20.8\nforthe1.5Bverifierandfrom20.0to21.7forthe7Bveri-\nfier. Thissuggeststhatexecutableevidencereducesverifier\nuncertainty,makingtheverificationsignalmorereliable.\nTheContributionofVerification-WeightedVoting. We\nFigure7.Successcase.Toolverificationcanadjusttheestimated\nT3RL\nverification weight\nfurther ablate the role of the in\nlabelincaseswhereanincorrectmodeisinthemajority.Simpli-\nbysweepingtheverified-rewardweightω,whichcontrols\nfiedexamplefromQwen2.5-Math-1.5BonMATH500.\nthevotingpowerofrolloutsthatpassthetool-verifiercheck.\nNotably,aweightofω =1degeneratestostandardmajority-\nvotingTTRL,andω→∞approximatesbinaryhardfiltering\nT3RL\nT3RL\nofallunverifiedrollouts.\nAs shown in Figure 6,\nmoderateweightingyields\nc=5\nthe best trade-off:\nachieves the strongest\nperformance(AIME20.8,\n74.6),\nMATH while both\n(a)Toolcallingvs.verification (b)Trainingrobustnesscompar-\nunder-weighting (e.g.,\n(relativetoTTRL). ison.\nc=2)\nand over-weighting\nc=10 c=∞)\n(e.g., or\nFigure8.\nAblationsontoolpositionandtrainingrobustness.\npolicy\nLeft: allowing the to call tools during rollouts (TTRL-\ndegradeaccuracy.\nAGENT)canhurtperformance,whileT3RLimprovesbyrestrict-\nFigure 6.\nThe effect of the\nThis indicates that verifi-\nverifier\ning tool use to the for reward shaping. Right: verifier-\nchoiceofthevoteweight.\nshapedrewardsreducerun-to-runvariability,indicatingmoresta-\ncationshouldactasasoft\nbleoptimizationunderunlabeledtest-timeRL.\npreferencerewardingsignal: amoderateconfidenceboost\nis sufficient to prevent false-popular rollouts from domi-\nT3RL\nnatingthepseudo-reward. Incontrast,overlyimbalanced\nSetting.\nTo further examine why works, we com-\nweightingcollapseslearningontoasmallsubsetofverified\npare(i)TTRL;(ii)TTRL-AGENT,whichextendsTTRL\nrolloutsandbecomesbrittletoverifierortoolimperfections,\nandgrantsthetrainedpolicyaccesstotoolcallingdirectly\nwithmajorityvotingoverexecutionresults,and(iii)T3RL,\nreducingthediversityoflearningsignals.\nwhichtrainsanon-agentialpolicywithatool-assistedveri-\nfieranditsverification-refactoredmajorityvote.\n6.DiscussionsandAnalysis\nObservation&analysis.\nFig.8ashowsTTRL-AGENTde-\nWhyDoesT3RLWork?\n6.1.Q1:\nT3RL\ngrades vs. TTRL, while yields consistent positive\nT3RLasasyntheticverifieddatageneratoronthefly.\ngains,thatincreaserelativetobenchmarkdifficulty. Weat-\nIntheemergingeraofexperience,tool-useisincreasingly tributeTTRL-AGENT’sfailuretoerror-signalmixture:\ntool\nlearnedfromexecutionfeedbackandimprovedthroughin- callsinsiderolloutsconflatereasoningerrorswithtool-usage\nteraction with the environment ratherthan onlyimitating errors(e.g.,malformedcodegenerationorbrittleexecution\nhumandemonstrations(Silver&Sutton,2025). Therefore, artifacts), and self-consensus rewards amplify this noise\nIncontrast,T3RLdecouplesrea-\ninthetest-timeRLloop,there’sanopendesignchoicefor inalargeractionspace.\nself-evolution:toolsaspolicyactionsortoolsasverification\nsoningfromtoolexecution: theverifierprovidesevidence\nevidence. aftergenerationandconvertsitintoaverification-informed\nTheimpressivecontributionoftoolverification\ninT3RLraisesthequestionofwhethertoolaccessissuf-\nreward,turningrolloutsintoverifiedlabeledtrainingdata\nonthefly,whichservesasanimplicitverifiedonlinedata\nficienttogettheimprovement,orwhetherthepositionof\nsynthesizerthatstabilizesself-evolution.\nverificationintheframeworkalsomatters.\n\n[VISUAL CONTENT - IMAGES]\nTitle: Ablations on Tool Position and Training Robustness\nSummary: This visual consists of two charts illustrating the accuracy gains associated with different methodologies in a machine learning context. The left chart depicts the accuracy gain percentages for two models, TTRL and MATH, across varying verified voting weights, with TTRL achieving a peak gain of +31.6% at a weight of 1. The right chart compares the performance of TTRL-Agent and T^3RL against three categories: AIME, AMC, and MATH500, highlighting that T^3RL shows a significant drop in accuracy for AIME (-5.7%) and AMC (-19.0%), while MATH500 experiences a decrease of -23.0%. Additionally, the right chart presents training robustness metrics, showing TTRL's performance against standard deviation and variance, with values of 2.638 and 6.959 respectively. Overall, the visual emphasizes the impact of tool position and training robustness on accuracy gains.\n\n\n[VISUAL CONTENT - IMAGES]\nTitle: Math Computation Verification Process\nSummary: This flow diagram illustrates the process of verifying a mathematical computation involving the expression 992 + 99 + 1. It begins with a query to compute the expression, followed by two approaches: one using a language model (LLM) and the other a verifier. The LLM incorrectly rewrites the expression and arrives at an erroneous result of 10000, while the verifier correctly breaks down the computation into steps, ultimately arriving at the accurate result of 9901. The diagram highlights the importance of step-by-step verification to ensure accuracy in mathematical calculations.\n",
+    "text": "TheContributionofTool-AssistedVerification.\nWenext\ncontrolforthecodeexecutioneffectbycomparingverifi-\ncationinT3RLwithouttoolexecutionversusverification\nwithtoolexecution.\nThisablationdirectlytestswhetherexe-\ncutablechecksprovideadditionalreliableevidencebeyond\nLLM-onlyself-verification. TheresultsinFigure5bshow\nverificationtoolcontributesaclearadditionalliftbeyond\nverifier-onlychecking,improvingAIMEfrom18.3to20.8\nforthe1.5Bverifierandfrom20.0to21.7forthe7Bveri-\nfier. Thissuggeststhatexecutableevidencereducesverifier\nuncertainty,makingtheverificationsignalmorereliable.\nTheContributionofVerification-WeightedVoting. We\nFigure7.Successcase.Toolverificationcanadjusttheestimated\nT3RL\nverification weight\nfurther ablate the role of the in\nlabelincaseswhereanincorrectmodeisinthemajority.Simpli-\nbysweepingtheverified-rewardweightω,whichcontrols\nfiedexamplefromQwen2.5-Math-1.5BonMATH500.\nthevotingpowerofrolloutsthatpassthetool-verifiercheck.\nNotably,aweightofω =1degeneratestostandardmajority-\nvotingTTRL,andω→∞approximatesbinaryhardfiltering\nT3RL\nT3RL\nofallunverifiedrollouts.\nAs shown in Figure 6,\nmoderateweightingyields\nc=5\nthe best trade-off:\nachieves the strongest\nperformance(AIME20.8,\n74.6),\nMATH while both\n(a)Toolcallingvs.verification (b)Trainingrobustnesscompar-\nunder-weighting (e.g.,\n(relativetoTTRL). ison.\nc=2)\nand over-weighting\nc=10 c=∞)\n(e.g., or\nFigure8.\nAblationsontoolpositionandtrainingrobustness.\npolicy\nLeft: allowing the to call tools during rollouts (TTRL-\ndegradeaccuracy.\nAGENT)canhurtperformance,whileT3RLimprovesbyrestrict-\nFigure 6.\nThe effect of the\nThis indicates that verifi-\nverifier\ning tool use to the for reward shaping. Right: verifier-\nchoiceofthevoteweight.\nshapedrewardsreducerun-to-runvariability,indicatingmoresta-\ncationshouldactasasoft\nbleoptimizationunderunlabeledtest-timeRL.\npreferencerewardingsignal: amoderateconfidenceboost\nis sufficient to prevent false-popular rollouts from domi-\nT3RL\nnatingthepseudo-reward. Incontrast,overlyimbalanced\nSetting.\nTo further examine why works, we com-\nweightingcollapseslearningontoasmallsubsetofverified\npare(i)TTRL;(ii)TTRL-AGENT,whichextendsTTRL\nrolloutsandbecomesbrittletoverifierortoolimperfections,\nandgrantsthetrainedpolicyaccesstotoolcallingdirectly\nwithmajorityvotingoverexecutionresults,and(iii)T3RL,\nreducingthediversityoflearningsignals.\nwhichtrainsanon-agentialpolicywithatool-assistedveri-\nfieranditsverification-refactoredmajorityvote.\n6.DiscussionsandAnalysis\nObservation&analysis.\nFig.8ashowsTTRL-AGENTde-\nWhyDoesT3RLWork?\n6.1.Q1:\nT3RL\ngrades vs. TTRL, while yields consistent positive\nT3RLasasyntheticverifieddatageneratoronthefly.\ngains,thatincreaserelativetobenchmarkdifficulty. Weat-\nIntheemergingeraofexperience,tool-useisincreasingly tributeTTRL-AGENT’sfailuretoerror-signalmixture:\ntool\nlearnedfromexecutionfeedbackandimprovedthroughin- callsinsiderolloutsconflatereasoningerrorswithtool-usage\nteraction with the environment ratherthan onlyimitating errors(e.g.,malformedcodegenerationorbrittleexecution\nhumandemonstrations(Silver&Sutton,2025). Therefore, artifacts), and self-consensus rewards amplify this noise\nIncontrast,T3RLdecouplesrea-\ninthetest-timeRLloop,there’sanopendesignchoicefor inalargeractionspace.\nself-evolution:toolsaspolicyactionsortoolsasverification\nsoningfromtoolexecution: theverifierprovidesevidence\nevidence. aftergenerationandconvertsitintoaverification-informed\nTheimpressivecontributionoftoolverification\ninT3RLraisesthequestionofwhethertoolaccessissuf-\nreward,turningrolloutsintoverifiedlabeledtrainingdata\nonthefly,whichservesasanimplicitverifiedonlinedata\nficienttogettheimprovement,orwhetherthepositionof\nsynthesizerthatstabilizesself-evolution.\nverificationintheframeworkalsomatters.\n\n[VISUAL CONTENT - IMAGES]\nTitle: Ablations on Tool Position and Training Robustness\nSummary: The image contains two bar charts and one line chart analyzing the impact of tool position and training robustness on accuracy gain. The line chart on the left shows the relationship between verified voting weight and accuracy gain for AIME and MATH, with notable gains of +31.6% and +2.2% respectively. The bar chart in the center compares tool calling versus verification relative to TTRL, highlighting a significant accuracy gain of +31.6% for TTRL-Agent in AIME, while AMC and MATH500 show negative gains. The bar chart on the right compares training robustness, showing higher variance for T3RL with a value of 6.959 compared to TTRL's 3.572. These visuals collectively illustrate the effects of different strategies on performance metrics.\n\n\n[VISUAL CONTENT - IMAGES]\nTitle: LLM and Verifier Calculation Process\nSummary: The diagram illustrates the process of computing the expression 992 + 99 + 1 using two different methods: a language model (LLM) and a verifier. The LLM provides multiple incorrect solutions, initially calculating the expression as 10000 through various erroneous steps. In contrast, the verifier correctly computes the expression as 9901 using straightforward arithmetic operations. The diagram highlights the discrepancies between the LLM's complex reasoning and the verifier's accurate calculation, emphasizing the importance of verification in ensuring computational accuracy.\n",
     "keywords": [
-      "weighting",
-      "incontrast",
-      "math",
-      "rollouts",
-      "agent",
-      "t3rl",
+      "ttrl",
       "verification",
       "tool",
-      "self",
+      "t3rl",
       "reward",
-      "ttrl",
-      "verifier"
+      "weighting",
+      "math",
+      "self",
+      "incontrast",
+      "verifier",
+      "rollouts",
+      "agent"
     ],
     "visual_summaries": [
       {
         "type": "images",
         "image_title": "Ablations on Tool Position and Training Robustness",
         "image_keywords": [
+          "Ablations",
+          "Tool Position",
+          "Training Robustness",
           "Accuracy Gain",
-          "TTRL",
+          "Verified Voting Weight",
           "AIME",
           "MATH",
           "AMC",
+          "MATH500",
+          "TTRL-Agent",
+          "T3RL",
           "STD",
           "Variance"
         ],
@@ -294,14 +495,18 @@
       },
       {
         "type": "images",
-        "image_title": "Math Computation Verification Process",
+        "image_title": "LLM and Verifier Calculation Process",
         "image_keywords": [
-          "math",
-          "computation",
-          "verification",
           "LLM",
-          "query",
-          "result"
+          "Verifier",
+          "Query",
+          "Compute",
+          "992 + 99 + 1",
+          "result",
+          "sum",
+          "print",
+          "9901",
+          "10000"
         ],
         "image_citation": "extracted_assets\\arxiv1\\images\\page7_img2.png"
       }
@@ -310,19 +515,19 @@
   {
     "pdf": "arxiv1",
     "page": 8,
-    "text": "T3RL\nis more robust than TTRL under verifier-\nrefactored voting.\nTool verification further stabilizes\ntraining, as shown in Figure 8b. Across multiple runs,\nTTRLexhibitsnoticeablerun-to-runvariability,consistent\nwith the sensitivity of self-induced rewards to sampling\nIncontrast,T3RLan-\nnoiseandpseudo-labelestimation.\nT3RL\nchorsrewardconstructionwithtoolverification, yielding\n(a)Rolloutsizeandcomputationallocation.\nsubstantiallylowerdispersioninpeakperformance:thestan-\ndarddeviationofthebestaccuracyafter100stepsdecreases\nfrom2.638to1.890,andthevariancedropsfrom6.959to\nT3RLproduces\n3.572.\nOverall, moreconsistentlearning\ndynamicsandmorereliablebest-runaccuracyonAIME.\nTest time computation allocation in both verification\nandscaling. Verificationimprovesrolloutqualityand\nWenextstudyhowtest-time\nreducesscalingcompute.\nT3RL T3RL\ncomputationshouldbeallocatedbetweenTTSandTTV,i.e.\n(i)samplingmorerolloutsforself-consensusand(ii)veri-\n(b)Verifiersizeablation\nfyingrolloutstomakeeachsamplemoreinformative.\nWe\nT3RL.\nFigure 9.\nImproving (a)\nIncreasing the rollout budget\ncompareTTRLwithalargerolloutbudget(N=64)against\nimprovesperformance.(b)Scalingtheverifierstrengthensperfor-\nT3RLwithsmallerrolloutsizes(N\n∈16,32,64),keeping\nmanceacrossbenchmarks.\nFigure9ashowsthatT3RLalready\nallothersettingsfixed.\nN=16\nsurpasses TTRL@64 with only rollouts and satu-\nWhenMightT3RLFail?\n6.3.Q3:\nratesbyN=32,matchingtheN=64performanceonAIME.\nWeakverifierscaninjectadditionalnoiseandbiasthe\nThisindicatesthatverification-shapedrewardsimprovethe\nT3RLreliesontheverifierV\nreward.\ntoprovideamean-\nqualityperrollout,allowingT3RLtoachievehigheraccu-\nV\ningful correctness signal; when is underpowered, e.g.,\nracywithsubstantiallyfewertest-timecomputations,mean-\nQwen-0.5Bwithbareminimumcodingcapability,itstool-\ningverificationcontributesmorethanbrute-forcescaling.\ncallingbecomesnoisy. Inthisregime, verification-aware\nvotingmaymis-weightrollouts(e.g.,upweightingspurious\nAsshowninFigure7,T3RLcor-\nSuccesscaseexample.\nbutconfidentlypredictedanswers),effectivelyaddingan-\nrectsthefalsepopularlabelwithtoolverification,thecode\notherstochasticlayerontopofself-consensus. Asaresult,\nverificationcanadjusttheesti-matedlabelincaseswhere\ntheestimatedpseudo-labely˜∗canbecomelessstablethan\nanincorrectcalculationisthemajority.\nthevanillamajorityvote.\nWhatCanFurtherBoostT3RL’s\n6.2.Q2:\nOn simple tasks, tool verification provides limited\nPerformance?\nmarginal benefit.\nWhen tasks are easy enough that\nT3RL\nStronger Verifier improves performance.\nWe\nrollouts are already highly accurate and consistent, self-\nvaryonlytheverifiersizeforQwen-Math-2.5from1.5B\nconsensusrarelyselectsafalselabel. Insuchsettings,veri-\nto7B(Figure9b).Alargerverifieryieldsconsistentlyhigher\nficationaddsoverheadbutdoesnotsubstantiallychangethe\nT3RLimprovesfrom20.8→21.7onAIME\nperformance:\npseudo-labeldistribution,sotheimprovementoverTTRL\n2024,50.9→51.5onAMC,and74.4→74.9onMATH-\ncanbesmall.\n500,suggestingthatstrongerverifiersprovidemorereliable\nanswernormalizationandconfidenceestimates,strengthen-\n7.Conclusion\ningverification-awarevotingandrewardsignals.\nWeproposeT3RL,introducingtest-timeverificationtothe\nLargerrolloutbudgetsimproveT3RL.\nWevaryonlythe test-timereinforcementlearningframeworkthatlearnsfrom\n{16,32,64}withinT3RL.Asshown\nrolloutbudgetN ∈\nunlabeledtestdatabysuppressingsupriousrewardswith\nincreases,T3RLconsistentlyimproves\ninFigure9a,asN\ntoolverification. Experimentsacrossheterogeneousback-\nbonesandmathbenchmarksshowconsistentgainsoftool\nbecausealargercandidatesetincreasessolutiondiversity\nOverall,T3RLpositionstest-timeRLasveri-\nverification.\nandmakesverification-awarevotingmoresample-efficient:\nfiedonlinedatasynthesis:\nverifiedrolloutsaremorelikelytoappearandreceivehigher sampledrolloutsbecomereliable\nvotemass,yieldingamorereliablepseudo-labelandthus traininginstancesonceverifiedwithexecutableevidence,\nmorestablerewardsfortest-timeRLupdates. enablingmorestableself-evolutionintheeraofexperience.\n\n[VISUAL CONTENT - IMAGES]\nTitle: Comparison of AIME and MATH Scores\nSummary: This bar chart compares the scores of two metrics, AIME and MATH, across different configurations of a variable labeled 'r'. The AIME scores show values of 15.8 for r=64, and 20.0 for both r=16 and r=32, indicating a notable increase as r decreases. In contrast, the MATH scores are higher overall, with values of 73.0 for r=64, and 74.3, 74.4, and 74.6 for r=16, r=32, and r=64 respectively, demonstrating a consistent performance across these configurations. The chart distinguishes between two methods, TTRL and T³RL, with T³RL represented in a darker shade, suggesting a comparative analysis of their effectiveness.\n\n\n[VISUAL CONTENT - IMAGES]\nTitle: Comparison of Scores in AIME, AMC, and MATH\nSummary: This bar chart compares the scores achieved in three assessments: AIME, AMC, and MATH. Each assessment displays scores for three categories: TTRL, T3RL (1.5B Verifier), and T3RL (7B Verifier). In AIME, the highest score is 21.7 for T3RL (7B Verifier), while TTRL scored 15.8. For AMC, T3RL (7B Verifier) also leads with a score of 51.5, compared to TTRL's 48.9. In MATH, T3RL (7B Verifier) again shows the highest score at 74.9, with TTRL at 73.0. The chart illustrates a trend of increasing scores with the T3RL verifiers across all assessments.\n",
+    "text": "T3RL\nis more robust than TTRL under verifier-\nrefactored voting.\nTool verification further stabilizes\ntraining, as shown in Figure 8b. Across multiple runs,\nTTRLexhibitsnoticeablerun-to-runvariability,consistent\nwith the sensitivity of self-induced rewards to sampling\nIncontrast,T3RLan-\nnoiseandpseudo-labelestimation.\nT3RL\nchorsrewardconstructionwithtoolverification, yielding\n(a)Rolloutsizeandcomputationallocation.\nsubstantiallylowerdispersioninpeakperformance:thestan-\ndarddeviationofthebestaccuracyafter100stepsdecreases\nfrom2.638to1.890,andthevariancedropsfrom6.959to\nT3RLproduces\n3.572.\nOverall, moreconsistentlearning\ndynamicsandmorereliablebest-runaccuracyonAIME.\nTest time computation allocation in both verification\nandscaling. Verificationimprovesrolloutqualityand\nWenextstudyhowtest-time\nreducesscalingcompute.\nT3RL T3RL\ncomputationshouldbeallocatedbetweenTTSandTTV,i.e.\n(i)samplingmorerolloutsforself-consensusand(ii)veri-\n(b)Verifiersizeablation\nfyingrolloutstomakeeachsamplemoreinformative.\nWe\nT3RL.\nFigure 9.\nImproving (a)\nIncreasing the rollout budget\ncompareTTRLwithalargerolloutbudget(N=64)against\nimprovesperformance.(b)Scalingtheverifierstrengthensperfor-\nT3RLwithsmallerrolloutsizes(N\n∈16,32,64),keeping\nmanceacrossbenchmarks.\nFigure9ashowsthatT3RLalready\nallothersettingsfixed.\nN=16\nsurpasses TTRL@64 with only rollouts and satu-\nWhenMightT3RLFail?\n6.3.Q3:\nratesbyN=32,matchingtheN=64performanceonAIME.\nWeakverifierscaninjectadditionalnoiseandbiasthe\nThisindicatesthatverification-shapedrewardsimprovethe\nT3RLreliesontheverifierV\nreward.\ntoprovideamean-\nqualityperrollout,allowingT3RLtoachievehigheraccu-\nV\ningful correctness signal; when is underpowered, e.g.,\nracywithsubstantiallyfewertest-timecomputations,mean-\nQwen-0.5Bwithbareminimumcodingcapability,itstool-\ningverificationcontributesmorethanbrute-forcescaling.\ncallingbecomesnoisy. Inthisregime, verification-aware\nvotingmaymis-weightrollouts(e.g.,upweightingspurious\nAsshowninFigure7,T3RLcor-\nSuccesscaseexample.\nbutconfidentlypredictedanswers),effectivelyaddingan-\nrectsthefalsepopularlabelwithtoolverification,thecode\notherstochasticlayerontopofself-consensus. Asaresult,\nverificationcanadjusttheesti-matedlabelincaseswhere\ntheestimatedpseudo-labely˜∗canbecomelessstablethan\nanincorrectcalculationisthemajority.\nthevanillamajorityvote.\nWhatCanFurtherBoostT3RL’s\n6.2.Q2:\nOn simple tasks, tool verification provides limited\nPerformance?\nmarginal benefit.\nWhen tasks are easy enough that\nT3RL\nStronger Verifier improves performance.\nWe\nrollouts are already highly accurate and consistent, self-\nvaryonlytheverifiersizeforQwen-Math-2.5from1.5B\nconsensusrarelyselectsafalselabel. Insuchsettings,veri-\nto7B(Figure9b).Alargerverifieryieldsconsistentlyhigher\nficationaddsoverheadbutdoesnotsubstantiallychangethe\nT3RLimprovesfrom20.8→21.7onAIME\nperformance:\npseudo-labeldistribution,sotheimprovementoverTTRL\n2024,50.9→51.5onAMC,and74.4→74.9onMATH-\ncanbesmall.\n500,suggestingthatstrongerverifiersprovidemorereliable\nanswernormalizationandconfidenceestimates,strengthen-\n7.Conclusion\ningverification-awarevotingandrewardsignals.\nWeproposeT3RL,introducingtest-timeverificationtothe\nLargerrolloutbudgetsimproveT3RL.\nWevaryonlythe test-timereinforcementlearningframeworkthatlearnsfrom\n{16,32,64}withinT3RL.Asshown\nrolloutbudgetN ∈\nunlabeledtestdatabysuppressingsupriousrewardswith\nincreases,T3RLconsistentlyimproves\ninFigure9a,asN\ntoolverification. Experimentsacrossheterogeneousback-\nbonesandmathbenchmarksshowconsistentgainsoftool\nbecausealargercandidatesetincreasessolutiondiversity\nOverall,T3RLpositionstest-timeRLasveri-\nverification.\nandmakesverification-awarevotingmoresample-efficient:\nfiedonlinedatasynthesis:\nverifiedrolloutsaremorelikelytoappearandreceivehigher sampledrolloutsbecomereliable\nvotemass,yieldingamorereliablepseudo-labelandthus traininginstancesonceverifiedwithexecutableevidence,\nmorestablerewardsfortest-timeRLupdates. enablingmorestableself-evolutionintheeraofexperience.\n\n[VISUAL CONTENT - IMAGES]\nTitle: Comparison of AIME and MATH Scores\nSummary: The image contains two bar charts comparing scores for AIME and MATH under different conditions labeled as TTRL and T3RL. The AIME chart shows scores of 15.8 for TTRL at r=64, and 20.0, 20.8, and 20.8 for T3RL at r=16, r=32, and r=64 respectively. The MATH chart displays scores of 73.0 for TTRL at r=64, and 74.3, 74.4, and 74.6 for T3RL at r=16, r=32, and r=64 respectively. The charts illustrate that T3RL consistently achieves higher scores than TTRL across both AIME and MATH, with the highest scores observed at r=64 for both metrics.\n\n\n[VISUAL CONTENT - IMAGES]\nTitle: Performance Comparison of T3RL and TTRL\nSummary: The bar chart compares the performance scores of TTRL and T3RL models across three different tests: AIME, AMC, and MATH. Each test has three bars representing the scores achieved by TTRL, T3RL with a 1.5B Verifier, and T3RL with a 7B Verifier. In the AIME test, TTRL scored 15.8, T3RL (1.5B Verifier) scored 20.8, and T3RL (7B Verifier) scored 21.7. For the AMC test, TTRL scored 48.9, T3RL (1.5B Verifier) scored 50.9, and T3RL (7B Verifier) scored 51.5. In the MATH test, TTRL scored 73.0, T3RL (1.5B Verifier) scored 74.6, and T3RL (7B Verifier) scored 74.9. The chart highlights that T3RL models consistently outperform TTRL across all tests, with the 7B Verifier achieving the highest scores.\n",
     "keywords": [
       "16",
       "64",
-      "tool",
-      "t3rl",
-      "verification",
-      "overall",
-      "performance",
-      "veri",
-      "tool verification",
       "32",
       "ttrl",
+      "verification",
+      "performance",
+      "veri",
+      "t3rl",
+      "overall",
+      "tool",
+      "tool verification",
       "verifier"
     ],
     "visual_summaries": [
@@ -332,26 +537,27 @@
         "image_keywords": [
           "AIME",
           "MATH",
-          "TTRL",
-          "T³RL",
           "Score",
+          "TTRL",
+          "T3RL",
+          "r=64",
           "r=16",
-          "r=32",
-          "r=64"
+          "r=32"
         ],
         "image_citation": "extracted_assets\\arxiv1\\images\\page8_img1.png"
       },
       {
         "type": "images",
-        "image_title": "Comparison of Scores in AIME, AMC, and MATH",
+        "image_title": "Performance Comparison of T3RL and TTRL",
         "image_keywords": [
           "AIME",
           "AMC",
           "MATH",
-          "TTRL",
           "T3RL",
-          "scores",
-          "verifier"
+          "TTRL",
+          "1.5B Verifier",
+          "7B Verifier",
+          "Score"
         ],
         "image_citation": "extracted_assets\\arxiv1\\images\\page8_img2.png"
       }
@@ -362,18 +568,18 @@
     "page": 9,
     "text": "ImpactStatement\nGuo,D.,Yang,D.,Zhang,H.,Song,J.,Zhang,R.,Xu,R.,\nZhu,Q.,Ma,S.,Wang,P.,Bi,X.,etal. Deepseek-r1: In-\nThispaperaimstoadvancethefieldofmachinelearning.\ncentivizingreasoningcapabilityinllmsviareinforcement\nOurworkintroducestest-timeverificationasamechanism\narXivpreprintarXiv:2501.12948,2025.\nlearning.\nforstabilizingself-evolutioninlargereasoningmodelsbyre-\nducingerrorreinforcementandmitigatingself-consistency-\nHardt, M. and Sun, Y. Test-time training on nearest\ndrivenfailuremodes. Ifdeployedresponsibly,suchverifica-\narXiv preprint\nneighbors for large language models.\ntioncanimprovereliabilityandrobustnessinhigh-stakesap-\narXiv:2305.18466,2023.\nplicationsbyencouragingmodelstoseekandcheckexternal\nHendrycks,D.,Burns,C.,Kadavath,S.,Arora,A.,Basart,\nevidenceratherthanrelyingsolelyoninternalconsistency.\nS.,Tang,E.,Song,D.,andSteinhardt,J.Measuringmath-\nPotentialrisksincludeover-relianceonimperfectverifiers\narXiv\nematicalproblemsolvingwiththemathdataset.\nandthepossibilitythatverificationpipelinesinheritbiasesor\npreprintarXiv:2103.03874,2021.\nvulnerabilitiesfromtheirunderlyingtoolsanddatasources.\nJin,C.,Peng,H.,Zhang,Q.,Tang,Y.,Metaxas,D.N.,and\nTomitigatetheserisks,futureworkshouldinvestigateim-\nChe,T. Twoheadsarebetterthanone: Test-timescaling\nprovements to verifiers and robustness to adversarial or\narXiv preprint\nof multi-agent collaborative reasoning.\nnoisyfeedback. Morebroadly,theproposedframeworkis\narXiv:2504.09772,2025.\nmodularandcanincorporateimprovedtest-timeverification\nmethodsastheybecomeavailable.\nKang,M.,Jeong,J.,andCho,J. T1: Tool-integratedself-\nverification for test-time compute scaling in small lan-\nReferences\narXivpreprintarXiv:2504.04718,2025a.\nguagemodels.\nAkyu¨rek,\nE., Damani, M., Zweiger, A., Qiu, L., Guo, H.,\nKang,M.,Jeong,J.,andCho,J. T1: Tool-integratedself-\nPari, J., Kim, Y., andAndreas, J. Thesurprisingeffec-\nverification for test-time compute scaling in small lan-\ntivenessoftest-timetrainingforfew-shotlearning,2025.\nURLhttps://arxiv.org/\nguagemodels,2025b.\nURLhttps://arxiv.org/abs/2411.07279.\nabs/2504.04718.\nBachmann,G.andNagarajan,V. Thepitfallsofnext-token\nLi,J.,Beeching,E.,Tunstall,L.,Lipkin,B.,Soletskyi,R.,\narXivpreprintarXiv:2403.06963,2024.\nprediction.\nHuang,S.,Rasul,K.,Yu,L.,Jiang,A.Q.,Shen,Z.,etal.\nNuminamath: Thelargestpublicdatasetinai4mathswith\nBehrouz,A.,Zhong,P.,andMirrokni,V. Titans: Learning\n860kpairsofcompetitionmathproblemsandsolutions.\ntomemorizeattesttime,2024.URLhttps://arxiv.\nHuggingFacerepository,13(9):9,2024a.\norg/abs/2501.00663.\nLi,X.,Yu,Z.,andXiong,C. Montessori-instruct: Gener-\nCobbe,K.,Kosaraju,V.,Bavarian,M.,Chen,M.,Jun,H.,\nateinfluentialtrainingdatatailoredforstudentlearning.\nKaiser,L.,Plappert,M.,Tworek,J.,Hilton,J.,Nakano,\narXivpreprintarXiv:2410.14208,2024b.\nR.,etal. Trainingverifierstosolvemathwordproblems.\narXivpreprintarXiv:2110.14168,2021.\nLifshitz,S.,McIlraith,S.A.,andDu,Y. Multi-agentverifi-\ncation: Scalingtest-timecomputewithmultipleverifiers\nDalal, K., Koceja, D., Xu, J., Zhao, Y., Han, S., Cheung,\nInWorkshoponReasoningandPlanningfor\n(abridged).\nK.C.,Kautz,J.,Choi,Y.,Sun,Y.,andWang,X. One-\nLargeLanguageModels.\nInPro-\nminutevideogenerationwithtest-timetraining.\nLifshitz, S., McIlraith, S. A., and Du, Y. Multi-agent\nceedingsoftheComputerVisionandPatternRecognition\nverification: Scaling test-time compute with multiple\nConference,pp.17702–17711,2025.\nhttps://arxiv.org/abs/\nverifiers, 2025. URL\nFeng,J.,Huang,S.,Qu,X.,Zhang,G.,Qin,Y.,Zhong,B.,\n2502.20379.\nJiang,C.,Chi,J.,andZhong,W. Retool: Reinforcement\nLightman,H.,Kosaraju,V.,Burda,Y.,Edwards,H.,Baker,\narXiv preprint\nlearning for strategic tool use in llms.\nB., Lee, T., Leike, J., Schulman, J., Sutskever, I., and\narXiv:2504.11536,2025.\nThe Twelfth\nCobbe, K. Let’s verify step by step. In\nGou, Z., Shao, Z., Gong, Y., Shen, Y., Yang, Y., Huang,\nInternationalConferenceonLearningRepresentations,\nM., Duan, N., and Chen, W. Tora: A tool-integrated\n2023.\nreasoningagentformathematicalproblemsolving,2024.\nLing,Z.,Fang,Y.,Li,X.,Huang,Z.,Lee,M.,Memisevic,\nURLhttps://arxiv.org/abs/2309.17452.\nR.,andSu,H. Deductiveverificationofchain-of-thought\nAdvancesinNeuralInformationProcessing\nGrattafiori,A.andelal. Thellama3herdofmodels,2024. reasoning.\nURLhttps://arxiv.org/abs/2407.21783.\nSystems,36:36407–36433,2023.",
     "keywords": [
-      "org abs",
-      "urlhttps arxiv",
+      "abs",
       "2025",
-      "urlhttps",
       "test time",
       "tool",
-      "arxivpreprintarxiv",
       "arxiv",
-      "arxiv org",
-      "test",
+      "arxivpreprintarxiv",
+      "org abs",
       "org",
-      "abs"
+      "urlhttps arxiv",
+      "arxiv org",
+      "urlhttps",
+      "test"
     ],
     "visual_summaries": []
   },
@@ -382,18 +588,18 @@
     "page": 10,
     "text": "Liu,Y.,Kothari,P.,VanDelft,B.,Bellot-Gurlet,B.,Mordan, Sun, Y., Li, X., Dalal, K., Xu, J., Vikram, A., Zhang, G.,\nT., and Alahi, A. Ttt++: When does self-supervised Dubois,Y.,Chen,X.,Wang,X.,Koyejo,S.,etal. Learn-\nAdvances in Neural\ntest-time training fail or thrive? ingto(learnattesttime): Rnnswithexpressivehidden\nInformationProcessingSystems,34:21808–21820,2021. arXivpreprintarXiv:2407.04620,2024b.\nstates.\nMekala, D., Weston, J. E., Lanchantin, J., Raileanu, R.,\nhttps:\nTeam, Q. Qwen3 technical report, 2025. URL\nLomeli,M.,Shang,J.,andDwivedi-Yu,J. Toolverifier:\n//arxiv.org/abs/2505.09388.\nInFind-\nGeneralizationtonewtoolsviaself-verification.\nUesato,J.,Kushman,N.,Kumar,R.,Song,F.,Siegel,N.,\nings of the Association for Computational Linguistics:\nWang,L.,Creswell,A.,Irving,G.,andHiggins,I. Solv-\nEMNLP2024,pp.5026–5041,2024.\ningmathwordproblemswithprocess-andoutcome-based\nURLhttps://chat.\nOpenAI. ChatGPT(gpt-4),2024.\narXivpreprintarXiv:2211.14275,2022.\nfeedback.\nopenai.com/.\nVenktesh,V.,Rathee,M.,andAnand,A. Trustbutverify! a\nPrasad, A., Yuan, W., Pang, R. Y., Xu, J., Fazel-Zarandi,\nsurveyonverificationdesignfortest-timescaling,2025.\nM., Bansal, M., Sukhbaatar, S., Weston, J., and Yu, J.\nURLhttps://arxiv.org/abs/2508.16665.\narXivpreprint\nSelf-consistencypreferenceoptimization.\nWang,R.,Sun,Y.,Tandon,A.,Gandelsman,Y.,Chen,X.,\narXiv:2411.04109,2024.\nEfros,A.A.,andWang,X. Test-timetrainingonvideo\nQwenandelal. Qwen2.5: Apartyoffoundationmodels,\nJournalofMachineLearningResearch,26(9):\nstreams.\nURLhttps://qwenlm.github.\nSeptember2024.\n1–29,2025a.\nio/blog/qwen2.5/.\nWang, Y., Yang, Q., Zeng, Z., Ren, L., Liu, L., Peng, B.,\nSchick,T.,Dwivedi-Yu,J.,Dess`ı,R.,Raileanu,R.,Lomeli,\nCheng,H.,He,X.,Wang,K.,Gao,J.,etal. Reinforce-\nM., Hambro, E., Zettlemoyer, L., Cancedda, N., and\nmentlearningforreasoninginlargelanguagemodelswith\nScialom, T. Toolformer: Language models can teach\narXivpreprintarXiv:2504.20571,\nonetrainingexample.\nAdvancesinNeuralInformation\nthemselvestousetools.\n2025b.\nProcessingSystems,36:68539–68551,2023.\nYuksekgonul,M.,Koceja,D.,Li,X.,Bianchi,F.,McCaleb,\nShao,R.,Li,S.S.,Xin,R.,Geng,S.,Wang,Y.,Oh,S.,Du,\nJ., Wang, X., Kautz, J., Choi, Y., Zou, J., Guestrin, C.,\nS. S., Lambert, N., Min, S., Krishna, R., Tsvetkov, Y.,\nandSun,Y. Learningtodiscoverattesttime,2026. URL\nHajishirzi,H.,Koh,P.W.,andZettlemoyer,L. Spurious\nhttps://arxiv.org/abs/2601.16175.\nrewards: Rethinkingtrainingsignalsinrlvr,2025. URL\nhttps://arxiv.org/abs/2506.10947.\nZeng, W., Huang, Y., Liu, Q., Liu, W., He, K., Ma, Z.,\nandHe,J. Simplerl-zoo: Investigatingandtamingzero\nShao,Z.,Wang,P.,Zhu,Q.,Xu,R.,Song,J.,Bi,X.,Zhang,\nreinforcementlearningforopenbasemodelsinthewild.\nH.,Zhang,M.,Li,Y.,Wu,Y.,etal. Deepseekmath: Push-\narXivpreprintarXiv:2503.18892,2025.\ningthelimitsofmathematicalreasoninginopenlanguage\narXivpreprintarXiv:2402.03300,2024.\nmodels.\nZhang,K.,Yao,Q.,Liu,S.,Wang,Y.,Lai,B.,Ye,J.,Song,\nM., and Tao, D. Consistent paths lead to truth: Self-\nSilver,D.andSutton,R.S. Welcometotheeraofexperi-\nrewardingreinforcementlearningforllmreasoning,2025.\nGoogleAI,1,2025.\nence.\nURLhttps://arxiv.org/abs/2506.08745.\nSnell,C.,Lee,J.,Xu,K.,andKumar,A. Scalingllmtest-\nZhang, L., Hosseini, A., Bansal, H., Kazemi, M., Ku-\ntimecomputeoptimallycanbemoreeffectivethanscal-\nmar, A., and Agarwal, R. Generative verifiers: Re-\narXivpreprintarXiv:2408.03314,\ningmodelparameters.\narXivpreprint\nwardmodelingasnext-tokenprediction.\n2024.\narXiv:2408.15240,2024.\nSun,Y.,Wang,X.,Liu,Z.,Miller,J.,Efros,A.,andHardt,\nZuo,Y.,Zhang,K.,Sheng,L.,Qu,S.,Cui,G.,Zhu,X.,Li,\nM.Test-timetrainingwithself-supervisionforgeneraliza-\nH.,Zhang,Y.,Long,X.,Hua,E.,etal. Ttrl: Test-time\nInInternationalconference\ntionunderdistributionshifts.\nreinforcementlearning.arXivpreprintarXiv:2504.16084,\nonmachinelearning,pp.9229–9248.PMLR,2020.\n2025.\nSun, Y., Li, X., Dalal, K., Xu, J., Vikram, A., Zhang, G.,\nDubois,Y.,Chen,X.,Wang,X.,Koyejo,O.,Hashimoto,\nT.,andGuestrin,C. Learningto(learnattesttime): Rnns\nArXiv,\nwith expressive hidden states. abs/2407.04620,\nhttps://api.semanticscholar.\n2024a. URL\norg/CorpusID:271039606.",
     "keywords": [
-      "org abs",
-      "2025",
       "liu",
-      "li",
-      "xu",
-      "arxiv",
-      "arxivpreprintarxiv",
-      "wang",
+      "abs",
       "2024",
+      "2025",
+      "arxivpreprintarxiv",
+      "arxiv",
+      "li",
+      "wang",
       "org",
-      "zhang",
-      "abs"
+      "org abs",
+      "xu",
+      "zhang"
     ],
     "visual_summaries": []
   },
@@ -402,51 +608,66 @@
     "page": 11,
     "text": "A.VerifierSystemPrompt\nThesystempromptusedtoguidetheexternalLLMverifierisshowninFigure10. Wecarefullydesignedtheinstructionsto\nensurereliable,independent,andeasilyparsabletool-assistedverification. Thekeydesignchoicesinourpromptinclude:\n• RoleAssignment: Instructingthemodeltoactasan“expertmathematicianandPythonprogrammer”setsastrong\npriorforgeneratingrigorous,high-qualityscriptformulations.\nIndependentRecomputation:\n• Byexplicitlystating“DONOTassumethereasoningtraceiscorrect”and“Prefer\nrecomputingtheanswerdirectly,”wemitigateconfirmationbias. Thispreventstheverifierfromblindlytranslatinga\nflawedreasoningtraceintocode,forcingittoindependentlyverifytheunderlyinglogicbasedontheoriginalproblem\nstatement.\nTraceasaHint:\n• Allowingtheverifiertousethecandidatetraceasa“hint”helpsitnavigatecomplexproblems. Itcan\nleveragethepolicymodel’smathematicalintuitionwithoutbeingstrictlyboundtoits(potentiallyflawed)arithmetic\nexecution.\nYouareanexpertmathematicianandPythonprogrammer.\nYouwillbegiven:\n-amathproblemstatement\n-acandidatereasoningtracethatclaimstosolveit\nYour task is to VERIFY the candidate answer against the problem by\nwritingPythoncode.\nRules:\n-DONOTassumethereasoningtraceiscorrect.\n-PreferrecomputingtheanswerdirectlyfromthePROBLEMSTATEMENT.\n-Youmayusethereasoningtraceasahintforwhatmethodtotry.\nCodeRequirements:\n-UseaSINGLEPythonblockformattedexactlyas:```pythonCODE```\n-Allowedmodules:math,sympy,numpy,fractions\n- Your code MUST print ONLY your final, computed result, e.g.\nprint(result).Donotprinthardcodedvalues.\nFigure10.SystemPromptfortheVerifier.\nB.FailureCase: SmallVerifiers\nAsquantitativeresultsinTable4demonstrate,deployinganundersizedverifierlikeQwen-Coder-0.5Bactivelydegrades\nperformancecomparedtothestandardTTRLbaseline. Thisperformancedropstemsfromthesmallmodel’slimitedcapacity\ntostrictlyadheretotheverificationinstructions,whichinjectsnoiseratherthanreliableevidenceintotherewardsignal.\nQualitativeanalysisofthegeneratedverificationscriptsrevealstwoprimaryfailuremodes:\nBlindCopyingandHardcodedOutputs:\n• Despiteexplicitinstructionsinthesystempromptto”DONOTassume\nthe reasoning trace is correct” and to strictly outputting hardcoded values, the 0.5B verifier frequently exhibits\nsevereinstruction-followingfailures. Insteadofformulatinganindependentcomputationalcheck,themodeloften\ndefersentirelytotheprovidedcandidatetrace. Ittypicallyhallucinatespseudo-reasoningwithinPythoncomments\nandbypassesactualcomputation, yieldingascriptthatmerelyexecutesahardcodedprintstatementofthetrace’s\nfinalanswer(seeFigure11a). Thisconfirmationbiasneutralizesthebenefitsofexecutableverification,creatinga\nfalse-positivesignalthatsimplyreinforcestheunverifiedconsensus.",
     "keywords": [
-      "print",
-      "youwillbegiven amathproblemstatement",
-      "result",
-      "writingpythoncode rules",
-      "youareanexpertmathematicianandpythonprogrammer",
       "yieldingascriptthatmerelyexecutesahardcodedprintstatementofthetrace finalanswer",
-      "whichinjectsnoiseratherthanreliableevidenceintotherewardsignal qualitativeanalysisofthegeneratedverificationscriptsrevealstwoprimaryfailuremodes",
+      "print",
       "youareanexpertmathematicianandpythonprogrammer youwillbegiven",
+      "result",
       "yieldingascriptthatmerelyexecutesahardcodedprintstatementofthetrace",
       "whichinjectsnoiseratherthanreliableevidenceintotherewardsignal",
-      "writingpythoncode",
-      "donotassumethereasoningtraceiscorrect"
+      "whichinjectsnoiseratherthanreliableevidenceintotherewardsignal qualitativeanalysisofthegeneratedverificationscriptsrevealstwoprimaryfailuremodes",
+      "youareanexpertmathematicianandpythonprogrammer",
+      "donotassumethereasoningtraceiscorrect",
+      "youwillbegiven amathproblemstatement",
+      "writingpythoncode rules",
+      "writingpythoncode"
     ],
     "visual_summaries": []
   },
   {
     "pdf": "arxiv1",
     "page": 12,
-    "text": "# Given the problem statement and reasoning trace,\n# Given values\nwe need to determine how many initial\na_3D = 6\nconfigurations will lead to a transformed grid\nangle_A = 120\nconsisting of a single filled square in the center\nside_lengths = [a_minus_3d, a_minus_3d, a_3D]\nafter a single transformation.\n# Calculate the area using the Law of Cosines\n# The transformation rule states that a single\n# a^2 + b^2 = c^2\nfill in the center of the grid means all the\n# c = a + b\nsquare in this center remains filled, and none of\n# a^2 + b^2 = 36\nthe surrounding empty squares become filled.\n# a^2 + b^2 = 36\n# The only square that remains filled in this\n# a^2 + b^2 = 6^2\ncenter could be the center, but since it must form\n# a^2 + b^2 = 36\nthe border of another empty square, the center\n# a^2 + b^2 = 6^2\nmust be surrounded by exactly three filled\n# a^2 + b^2 = 36\nneighbors.\n# a^2 + b^2 = 6^2\n# a^2 + b^2 = 36\n# The number of initial configurations that will\n# a^2 + b^2 = 6^2\nlead to a transformed grid consisting of a single\n# a^2 + b^2 = 36\nfilled square in the center after a single\n# a^2 + b^2 = 6^2\ntransformation is 1.\n# a^2 + b^2 = 6^2\nprint(1) ...\n(a)Blindcopyingandhardcodedoutputs. (b)\nThemodelhallu- Formatting and compilation errors. The model fails to\ncinates reasoning in code comments and simply prints the generateexecutablePythonsyntaxandproducesendlesscom-\nunverifiedfinalanswergiveninthereasoningtrace. ments,resultingincompilationerrors.\nFigure11.Qualitativeexamplesofthetwoprimaryfailuremodesencounteredwhendeployinganundersizedverifier.\nFormattingandCompilationErrors:\n• Asecondary,yetpervasive,issueisthesmallmodel’sinabilitytoconsistently\nfollowstructuralguidelines. The0.5BverifierstrugglestomaintainvalidPythonsyntaxandadheretothestrictcode-\nblockformattingconstraintsrequiredforautomatedextraction. Thismanifestsasanincreasedfrequencyofcompilation\nandexecutionerrors,drivenbymissingimportstatements,malformedblockdelimiters,syntacticalhallucinations,or\nendlesscomments(seeFigure11b). Consequently,theverificationtoolreturnsexecutionfailuresratherthanreliable\nvaliditychecks,furtherdestabilizingtherewardestimationprocess.\nCombined,theselimitationsdemonstratethatT3RLrequiresaminimumthresholdofverifiercapacitytofunctioneffectively;\nbelowthisthreshold,theverifieractsasanadditionalsourceofstochasticnoiseratherthanareliablegroundingmechanism.\nModel/Method AIME2024 AMC MATH-500 Avg\nQwen-2.5-0.5BVanilla(Baseline) 0.0 4.8 7.9 4.2\nw/TTRL 0.4 12.0 34.6 15.7\nTable4.Performancecomparisonillustratingfailurecaseswithaweak(0.5B)verifier.\n\n[VISUAL CONTENT - TABLES]\nTitle: Comparison of T3RL and TTRL Metrics\nSummary: This table presents a comparison of metrics related to T3RL and TTRL, specifically focusing on the performance of T3RL with a 0.5B verifier. It includes values for T3RL, the difference between T3RL and TTRL, and the relative percentage over TTRL. The data shows that T3RL values range from 0.0 to 14.3 across different conditions, with the differences indicating a decline in performance as the values increase. Notably, the relative performance shows a significant drop of 100% for the lowest T3RL value, with subsequent values showing decreases of 10.0%, 7.5%, and 8.9%.\nw/ T3RL (0.5B verifier): 0.0, 10.8, 32.0, 14.3\nΔ (T3RL – TTRL): -0.4, -1.2, -2.6, -1.4\nRel. (% over TTRL): 100.0%, 10.0%, 7.5%, 8.9%",
+    "text": "Table4.Performancecomparisonillustratingfailurecaseswithaweak(0.5B)verifier.\n\n[VISUAL CONTENT - TABLES]\nTitle: Performance Metrics Table\nSummary: The table presents performance metrics comparing T3RL with a 0.5B verifier across different scenarios. It includes columns for values such as 0.0, 10.8, 32.0, and 14.3, and rows detailing the difference (Δ) between T3RL and TTRL, as well as the relative percentage over TTRL. The data highlights changes in performance, with Δ values of -0.4, -1.2, -2.6, and -1.4, and relative percentages showing decreases of 100.0%, 10.0%, 7.5%, and 8.9%. This table is useful for analyzing the impact of T3RL on performance metrics.\nw/ T3RL (0.5B verifier): 0.0, 10.8, 32.0, 14.3\nΔ (T3RL – TTRL): -0.4, -1.2, -2.6, -1.4\nRel. (% over TTRL): 100.0%, 10.0%, 7.5%, 8.9%\n\n[VISUAL CONTENT - VECTOR_GRAPHICS]\nTitle: Qualitative Examples of Model Failure Modes\nSummary: The image presents qualitative examples of two primary failure modes encountered when deploying an undersized verifier in a model. The left side illustrates blind copying and hardcoded outputs, where the model hallucinates reasoning in code comments and outputs an unverified final answer. The right side shows formatting and compilation errors, highlighting the model's struggle to maintain valid Python syntax, leading to endless comments and compilation errors. The table below compares the performance of different models and methods, including Qwen-2.5-0.5B Vanilla and T3RL, across metrics such as AIME 2024, AMC, and MATH-500. The results indicate that T3RL requires a minimum verifier capacity to function effectively, as undersized verifiers contribute to stochastic noise rather than reliable grounding.\nModel/Method: Qwen-2.5-0.5B Vanilla (Baseline), AIME 2024 = 0.0, AMC = 4.8, MATH-500 = 7.9, Avg = 4.2\nModel/Method: w/ TTRL, AIME 2024 = 0.4, AMC = 12.0, MATH-500 = 34.6, Avg = 15.7\nModel/Method: w/ T3RL (0.5B verifier), AIME 2024 = 0.0, AMC = 10.8, MATH-500 = 32.0, Avg = 14.3\nModel/Method: Δ (T3RL - TTRL), AIME 2024 = -0.4, AMC = -1.2, MATH-500 = -2.6, Avg = -1.4\nModel/Method: Rel. (% over TTRL), AIME 2024 = ↓100.0%, AMC = ↓10.0%, MATH-500 = ↓7.5%, Avg = ↓8.9%",
     "keywords": [
-      "grid",
-      "3d",
-      "square",
-      "36",
-      "square center",
-      "filled 36",
-      "center",
-      "filled",
-      "transformation",
-      "single",
-      "minus 3d",
-      "remains filled"
+      "table4 performancecomparisonillustratingfailurecaseswithaweak",
+      "table4",
+      "5b verifier",
+      "5b",
+      "performancecomparisonillustratingfailurecaseswithaweak 5b",
+      "verifier",
+      "performancecomparisonillustratingfailurecaseswithaweak"
     ],
     "visual_summaries": [
       {
         "type": "tables",
-        "image_title": "Comparison of T3RL and TTRL Metrics",
+        "image_title": "Performance Metrics Table",
         "image_keywords": [
           "T3RL",
-          "TTRL",
+          "TTTRL",
           "verifier",
+          "performance",
           "metrics",
-          "comparison"
+          "0.5B",
+          "delta",
+          "relative"
         ],
         "image_citation": "extracted_assets\\arxiv1\\tables\\page12_table1.png"
+      },
+      {
+        "type": "vector_graphics",
+        "image_title": "Qualitative Examples of Model Failure Modes",
+        "image_keywords": [
+          "blind copying",
+          "hardcoded outputs",
+          "formatting errors",
+          "compilation errors",
+          "Python syntax",
+          "T3RL",
+          "verifier capacity",
+          "AIME 2024",
+          "AMC",
+          "MATH-500"
+        ],
+        "image_citation": "extracted_assets\\arxiv1\\vector_graphics\\page12_vector.png"
       }
     ]
   }

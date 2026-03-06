@@ -3,18 +3,23 @@
     "page_number": 24,
     "image_title": "Task Management Interface",
     "image_keywords": [
-        "task management",
-        "goals",
-        "insights",
-        "enforced goals"
+        "Step 2",
+        "Insights",
+        "Enforced Goals",
+        "ensure daughter is home in the evening",
+        "parent buys groceries",
+        "daughter does soccer training",
+        "bring grandma's groceries to her house",
+        "parent does sports",
+        "son attends music lesson"
     ],
-    "summary": "This visual represents a task management interface, specifically focusing on Step 2 of a process. It highlights insights and enforced goals related to personal tasks. The interface includes a section for insights, prompting users to ask questions for assistance, and lists several enforced goals such as ensuring a daughter is home in the evening, buying groceries, and attending soccer training. The layout suggests a structured approach to managing personal responsibilities, with a focus on actionable tasks and reminders.",
+    "summary": "The image depicts a task management interface titled 'Step 2' with a focus on insights and enforced goals. The interface includes a section for insights with questions like 'How can I make it available?' and 'Why is the selection of enforced goals unscalable?'. Below, a list of enforced goals is displayed, including tasks such as ensuring the daughter is home in the evening, the parent buying groceries, and the daughter attending soccer training. Each goal is accompanied by a numerical indicator, possibly representing priority or completion status. The interface is designed to help users manage and prioritize tasks effectively.",
     "table_rows": [],
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\arxiv2\\images\\page24_img2.png",
     "token_usage": {
-        "prompt_tokens": 9778,
-        "completion_tokens": 144,
-        "total_tokens": 9922
+        "prompt_tokens": 1533,
+        "completion_tokens": 221,
+        "total_tokens": 1754
     }
 }

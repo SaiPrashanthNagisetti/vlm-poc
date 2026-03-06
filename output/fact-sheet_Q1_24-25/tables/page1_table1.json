@@ -1,31 +1,19 @@
 {
     "file_name": "fact-sheet_Q1_24-25",
     "page_number": 1,
-    "image_title": "Quarterly Revenue Distribution and Year-over-Year Growth",
+    "image_title": "CC Growth Metrics",
     "image_keywords": [
-        "North America",
-        "Europe",
-        "Rest of the world",
-        "India",
-        "Quarter ended",
-        "YoY Growth",
-        "Jun 30, 2024",
-        "Mar 31, 2024",
-        "Jun 30, 2023"
+        "3.6% QoQ",
+        "2.5% YoY",
+        "CC Growth"
     ],
-    "summary": "This table presents the revenue distribution across different regions for the quarters ending June 30, 2024, March 31, 2024, and June 30, 2023, along with the year-over-year (YoY) growth percentages. The regions include North America, Europe, the Rest of the World, and India, with North America contributing the highest percentage at 58.9% for June 30, 2024. The table also shows a total revenue percentage of 100.0% across all regions for each quarter. Notably, India shows significant growth with a YoY increase of 18.4% reported for June 30, 2024, while Europe and the Rest of the World also demonstrate positive growth rates. Overall, the data indicates varying performance across regions, with India showing the most substantial growth.",
-    "table_rows": [
-        "North America: Jun 30 2024 = 58.9, Mar 31 2024 = 59.6, Jun 30 2023 = 60.8, YoY Growth Reported = (1.2), CC = (1.2)",
-        "Europe: Jun 30 2024 = 28.4, Mar 31 2024 = 28.6, Jun 30 2023 = 26.8, YoY Growth Reported = 8.6, CC = 9.1",
-        "Rest of the world: Jun 30 2024 = 9.6, Mar 31 2024 = 9.6, Jun 30 2023 = 9.7, YoY Growth Reported = 0.6, CC = 2.3",
-        "India: Jun 30 2024 = 3.1, Mar 31 2024 = 2.2, Jun 30 2023 = 2.7, YoY Growth Reported = 18.4, CC = 19.9",
-        "Total: Jun 30 2024 = 100.0, Mar 31 2024 = 100.0, Jun 30 2023 = 100.0, YoY Growth Reported = 2.1, CC = 2.5"
-    ],
-    "confidence_score": 0.95,
+    "summary": "The image presents key growth metrics for CC, highlighting a quarter-over-quarter (QoQ) growth rate of 3.6% and a year-over-year (YoY) growth rate of 2.5%. These figures indicate the percentage increase in CC over the respective time periods, providing insight into the company's performance and growth trends.",
+    "table_rows": [],
+    "confidence_score": 1.0,
     "image_citation": "extracted_assets\\fact-sheet_Q1_24-25\\tables\\page1_table1.png",
     "token_usage": {
-        "prompt_tokens": 21112,
-        "completion_tokens": 563,
-        "total_tokens": 21675
+        "prompt_tokens": 1533,
+        "completion_tokens": 125,
+        "total_tokens": 1658
     }
 }

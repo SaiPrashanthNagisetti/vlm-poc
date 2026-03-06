@@ -1,0 +1,18 @@
+{
+    "file_name": "fact-sheet_Q2_24-25",
+    "page_number": 1,
+    "image_title": "Operating Margin",
+    "image_keywords": [
+        "Operating Margin",
+        "21.1%"
+    ],
+    "summary": "This image displays a key financial metric, the operating margin, which is shown as 21.1%. Operating margin is a measure of profitability that indicates what percentage of revenue is left over after paying for variable costs of production. This figure is crucial for assessing a company's operational efficiency and financial health.",
+    "table_rows": [],
+    "confidence_score": 1.0,
+    "image_citation": "extracted_assets\\fact-sheet_Q2_24-25\\tables\\page1_table6.png",
+    "token_usage": {
+        "prompt_tokens": 1533,
+        "completion_tokens": 106,
+        "total_tokens": 1639
+    }
+}

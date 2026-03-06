@@ -1,0 +1,20 @@
+{
+    "file_name": "arxiv1",
+    "page_number": 1,
+    "image_title": "Stacked Bar Chart",
+    "image_keywords": [
+        "stacked bar chart",
+        "6.3",
+        "4.7",
+        "9.3"
+    ],
+    "summary": "This is a stacked bar chart displaying three distinct data values: 6.3, 4.7, and 9.3. Each value is represented by a different shade of blue, indicating a comparison or distribution of quantities. The chart likely compares these values across a single category or metric, though specific labels or axes are not visible. The visual suggests a cumulative or segmented representation of data, typical in stacked bar charts to show parts of a whole.",
+    "table_rows": [],
+    "confidence_score": 0.8,
+    "image_citation": "extracted_assets\\arxiv1\\tables\\page1_table8.png",
+    "token_usage": {
+        "prompt_tokens": 1533,
+        "completion_tokens": 152,
+        "total_tokens": 1685
+    }
+}

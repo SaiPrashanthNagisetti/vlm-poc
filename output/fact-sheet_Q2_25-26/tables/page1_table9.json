@@ -1,0 +1,18 @@
+{
+    "file_name": "fact-sheet_Q2_25-26",
+    "page_number": 1,
+    "image_title": "Free Cash Flow Highlight",
+    "image_keywords": [
+        "$1.1 Bn",
+        "Free Cash Flow"
+    ],
+    "summary": "The image is a simple visual representation highlighting a financial metric, specifically the free cash flow amounting to $1.1 billion. This figure is prominently displayed against a blue background, emphasizing its significance in a financial context. The visual serves to underscore the company's liquidity and financial health by showcasing the available cash flow after capital expenditures.",
+    "table_rows": [],
+    "confidence_score": 1.0,
+    "image_citation": "extracted_assets\\fact-sheet_Q2_25-26\\tables\\page1_table9.png",
+    "token_usage": {
+        "prompt_tokens": 1533,
+        "completion_tokens": 117,
+        "total_tokens": 1650
+    }
+}

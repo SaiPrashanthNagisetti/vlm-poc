@@ -1,22 +1,26 @@
 {
     "file_name": "arxiv1",
     "page_number": 7,
-    "image_title": "Math Computation Verification Process",
+    "image_title": "LLM and Verifier Calculation Process",
     "image_keywords": [
-        "math",
-        "computation",
-        "verification",
         "LLM",
-        "query",
-        "result"
+        "Verifier",
+        "Query",
+        "Compute",
+        "992 + 99 + 1",
+        "result",
+        "sum",
+        "print",
+        "9901",
+        "10000"
     ],
-    "summary": "This flow diagram illustrates the process of verifying a mathematical computation involving the expression 992 + 99 + 1. It begins with a query to compute the expression, followed by two approaches: one using a language model (LLM) and the other a verifier. The LLM incorrectly rewrites the expression and arrives at an erroneous result of 10000, while the verifier correctly breaks down the computation into steps, ultimately arriving at the accurate result of 9901. The diagram highlights the importance of step-by-step verification to ensure accuracy in mathematical calculations.",
+    "summary": "The diagram illustrates the process of computing the expression 992 + 99 + 1 using two different methods: a language model (LLM) and a verifier. The LLM provides multiple incorrect solutions, initially calculating the expression as 10000 through various erroneous steps. In contrast, the verifier correctly computes the expression as 9901 using straightforward arithmetic operations. The diagram highlights the discrepancies between the LLM's complex reasoning and the verifier's accurate calculation, emphasizing the importance of verification in ensuring computational accuracy.",
     "table_rows": [],
-    "confidence_score": 0.95,
+    "confidence_score": 1.0,
     "image_citation": "extracted_assets\\arxiv1\\images\\page7_img2.png",
     "token_usage": {
-        "prompt_tokens": 9778,
-        "completion_tokens": 171,
-        "total_tokens": 9949
+        "prompt_tokens": 1533,
+        "completion_tokens": 195,
+        "total_tokens": 1728
     }
 }

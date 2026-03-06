@@ -1,41 +1,21 @@
 {
     "file_name": "fact-sheet_Q4_24-25",
     "page_number": 1,
-    "image_title": "Quarterly Financial Performance by Sector",
+    "image_title": "Operating Margin Summary",
     "image_keywords": [
-        "Financial services",
-        "Manufacturing",
-        "Retail",
-        "Energy",
-        "Utilities",
-        "Resources",
-        "Communication",
-        "Hi-Tech",
-        "Life Sciences",
-        "Others",
-        "YoY Growth",
-        "Quarter ended",
-        "Mar 31 2025",
-        "Dec 31 2024",
-        "Mar 31 2024"
+        "21.1% FY",
+        "21.0% Q4",
+        "Operating Margin",
+        "0.5% Increase",
+        "FY"
     ],
-    "summary": "This table presents the quarterly financial performance across various sectors for the periods ending March 31, 2025, December 31, 2024, and March 31, 2024. The sectors include Financial Services, Manufacturing, Retail, Energy, Utilities, Resources & Services, Communication, Hi-Tech, Life Sciences, and Others. The table also shows year-over-year (YoY) growth percentages for each sector, with Financial Services leading at 11.4% reported growth. The total percentage for all sectors is consistently 100% across the periods. Notably, the Hi-Tech sector shows a decline in growth from 8.7% to 7.9%, while the Others category has the lowest values across all periods.",
-    "table_rows": [
-        "Financial services: Mar 31 2025 = 28.4, Dec 31 2024 = 27.8, Mar 31 2024 = 26.4, YoY Growth Reported = 11.4, CC = 12.6",
-        "Manufacturing: Mar 31 2025 = 15.9, Dec 31 2024 = 15.5, Mar 31 2024 = 14.7, YoY Growth Reported = 12.1, CC = 14.0",
-        "Retail: Mar 31 2025 = 13.3, Dec 31 2024 = 13.8, Mar 31 2024 = 14.3, YoY Growth Reported = (3.8), CC = (2.6)",
-        "Energy, Utilities, Resources & Services: Mar 31 2025 = 13.0, Dec 31 2024 = 13.5, Mar 31 2024 = 13.4, YoY Growth Reported = 0.6, CC = 1.5",
-        "Communication: Mar 31 2025 = 11.7, Dec 31 2024 = 11.2, Mar 31 2024 = 12.3, YoY Growth Reported = (1.3), CC = 0.0",
-        "Hi-Tech: Mar 31 2025 = 8.3, Dec 31 2024 = 7.9, Mar 31 2024 = 8.7, YoY Growth Reported = (1.6), CC = (1.1)",
-        "Life Sciences: Mar 31 2025 = 6.8, Dec 31 2024 = 7.6, Mar 31 2024 = 7.3, YoY Growth Reported = (3.9), CC = (3.4)",
-        "Others: Mar 31 2025 = 2.6, Dec 31 2024 = 2.7, Mar 31 2024 = 2.9, YoY Growth Reported = (4.6), CC = (2.8)",
-        "Total: Mar 31 2025 = 100.0, Dec 31 2024 = 100.0, Mar 31 2024 = 100.0"
-    ],
-    "confidence_score": 0.95,
+    "summary": "This image presents a summary of the operating margin, highlighting a 21.1% margin for the fiscal year (FY) and a 21.0% margin for the fourth quarter (Q4). It notes a 0.5% increase in the operating margin for the fiscal year, indicating a positive trend in financial performance over the period.",
+    "table_rows": [],
+    "confidence_score": 1.0,
     "image_citation": "extracted_assets\\fact-sheet_Q4_24-25\\tables\\page1_table2.png",
     "token_usage": {
-        "prompt_tokens": 21112,
-        "completion_tokens": 773,
-        "total_tokens": 21885
+        "prompt_tokens": 1533,
+        "completion_tokens": 145,
+        "total_tokens": 1678
     }
 }

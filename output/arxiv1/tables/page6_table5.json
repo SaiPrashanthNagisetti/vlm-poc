@@ -1,0 +1,24 @@
+{
+    "file_name": "arxiv1",
+    "page_number": 6,
+    "image_title": "Performance Metrics Table",
+    "image_keywords": [
+        "w/TRL",
+        "w/T^RL",
+        "performance",
+        "metrics",
+        "values"
+    ],
+    "summary": "The table presents performance metrics comparing two configurations labeled 'w/TRL' and 'w/T^RL'. It includes four columns of numeric values, indicating different performance measures for each configuration. The values for 'w/TRL' are 7.5, 16.9, 40.0, and 21.5, while 'w/T^RL' shows 8.3, 19.9, 42.2, and 23.5. This comparison highlights the differences in performance between the two setups, with 'w/T^RL' generally showing higher values across the metrics.",
+    "table_rows": [
+        "w/TRL: 7.5, 16.9, 40.0, 21.5",
+        "w/T^RL: 8.3, 19.9, 42.2, 23.5"
+    ],
+    "confidence_score": 0.9,
+    "image_citation": "extracted_assets\\arxiv1\\tables\\page6_table5.png",
+    "token_usage": {
+        "prompt_tokens": 1703,
+        "completion_tokens": 244,
+        "total_tokens": 1947
+    }
+}

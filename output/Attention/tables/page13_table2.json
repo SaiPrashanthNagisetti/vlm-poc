@@ -1,21 +1,20 @@
 {
     "file_name": "Attention",
     "page_number": 13,
-    "image_title": "Text Analysis Visualization",
+    "image_title": "Pie Chart with Labels",
     "image_keywords": [
-        "American government",
-        "voting process",
-        "registration",
-        "laws",
-        "2009"
+        "pie chart",
+        "proportions",
+        "labels",
+        "slices"
     ],
-    "summary": "The visual presents a text analysis related to the American government's actions regarding voting and registration laws since 2009. It highlights the sentiment that a majority of these new laws have made the voting process more difficult. The arrangement of words suggests a focus on the impact of legislative changes on voter registration and participation, indicating a trend of increasing challenges in the electoral process.",
+    "summary": "The visual is a pie chart representing different proportions of a whole, with each slice labeled with a specific category. The chart includes labels such as '12', 's', '2', '9', and '6', indicating different segments. The chart visually compares these categories, showing their relative sizes within the whole. The colors and angles of the slices help differentiate between the categories, providing a clear visual representation of the data distribution.",
     "table_rows": [],
     "confidence_score": 0.8,
     "image_citation": "extracted_assets\\Attention\\tables\\page13_table2.png",
     "token_usage": {
-        "prompt_tokens": 15445,
-        "completion_tokens": 128,
-        "total_tokens": 15573
+        "prompt_tokens": 1533,
+        "completion_tokens": 141,
+        "total_tokens": 1674
     }
 }

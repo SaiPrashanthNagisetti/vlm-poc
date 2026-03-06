@@ -4,28 +4,43 @@
     "image_title": "Financial Performance Summary",
     "image_keywords": [
         "Revenues",
+        "Cost of sales",
         "Gross Profit",
         "Operating Expenses",
+        "Operating Profit",
         "Net Profit",
         "EPS",
-        "Growth %"
+        "Dividend",
+        "Dec 31 2024",
+        "Dec 31 2023",
+        "Sep 30 2024",
+        "Growth YoY",
+        "Growth QoQ"
     ],
-    "summary": "This table presents a financial performance summary for a company, comparing key metrics across three time periods: December 31, 2024, December 31, 2023, and September 30, 2024. Key metrics include revenues, gross profit, operating expenses, and net profit, with growth percentages calculated year-over-year (YoY) and quarter-over-quarter (QoQ). Notably, revenues increased from \u20b938,821 million in 2023 to \u20b941,764 million in 2024, reflecting a 7.6% growth YoY. The gross profit also saw a rise of 9.3% YoY, indicating improved profitability. Operating profit margins and net profit figures are highlighted, with net profit before minority interest reaching \u20b99,670 million in 2024, up 12.2% from the previous year. The table also includes earnings per share (EPS) metrics, showing a slight increase in both basic and diluted EPS.",
+    "summary": "The table titled 'Financial Performance Summary' presents a comparative analysis of financial metrics for the periods ending December 31, 2024, December 31, 2023, and September 30, 2024. Key metrics include revenues, cost of sales, gross profit, operating expenses, and net profit, with growth percentages year-over-year (YoY) and quarter-over-quarter (QoQ) also highlighted. Notable insights include a 7.6% YoY growth in revenues from 2023 to 2024 and a 1.9% QoQ growth as of September 2024. Operating profit increased by 11.9% YoY, while net profit after minority interest showed an 11.4% YoY growth. The table provides a detailed view of the company's financial health and performance trends over the specified periods.",
     "table_rows": [
-        "Revenues: Dec 31 2024 = 41,764, Dec 31 2023 = 38,821, Growth % YoY = 7.6%",
-        "Cost of sales: Dec 31 2024 = 29,120, Dec 31 2023 = 27,253, Growth % YoY = 6.9%",
-        "Gross Profit: Dec 31 2024 = 12,644, Dec 31 2023 = 11,568, Growth % YoY = 9.3%",
-        "Total Operating Expenses: Dec 31 2024 = 3,732, Dec 31 2023 = 3,607, Growth % YoY = 3.5%",
-        "Operating Profit: Dec 31 2024 = 8,912, Dec 31 2023 = 7,961, Growth % YoY = 11.9%",
-        "Net Profit (before minority interest): Dec 31 2024 = 9,670, Dec 31 2023 = 8,619, Growth % YoY = 12.2%",
-        "Basic EPS: Dec 31 2024 = 16.43, Dec 31 2023 = 14.76, Growth % YoY = 11.4%",
-        "Diluted EPS: Dec 31 2024 = 16.39, Dec 31 2023 = 14.74, Growth % YoY = 11.2%"
+        "Revenues: Dec 31 2024 = 41,764, Dec 31 2023 = 38,821, Growth % YoY = 7.6%, Sep 30 2024 = 40,986, Growth % QoQ = 1.9%",
+        "Cost of sales: Dec 31 2024 = 29,120, Dec 31 2023 = 27,253, Growth % YoY = 6.9%, Sep 30 2024 = 28,474, Growth % QoQ = 2.3%",
+        "Gross Profit: Dec 31 2024 = 12,644, Dec 31 2023 = 11,568, Growth % YoY = 9.3%, Sep 30 2024 = 12,512, Growth % QoQ = 1.1%",
+        "Selling and marketing expenses: Dec 31 2024 = 1,839, Dec 31 2023 = 1,700, Growth % YoY = 8.2%, Sep 30 2024 = 1,855, Growth % QoQ = -0.9%",
+        "Administrative expenses: Dec 31 2024 = 1,893, Dec 31 2023 = 1,907, Growth % YoY = -0.7%, Sep 30 2024 = 2,008, Growth % QoQ = -5.7%",
+        "Total Operating Expenses: Dec 31 2024 = 3,732, Dec 31 2023 = 3,607, Growth % YoY = 3.5%, Sep 30 2024 = 3,863, Growth % QoQ = -3.4%",
+        "Operating Profit: Dec 31 2024 = 8,912, Dec 31 2023 = 7,961, Growth % YoY = 11.9%, Sep 30 2024 = 8,649, Growth % QoQ = 3.0%",
+        "Operating Margin %: Dec 31 2024 = 21.3, Dec 31 2023 = 20.5, Growth % YoY = 0.8%, Sep 30 2024 = 21.1, Growth % QoQ = 0.2%",
+        "Other Income, net: Dec 31 2024 = 758, Dec 31 2023 = 658, Growth % YoY = 15.2%, Sep 30 2024 = 604, Growth % QoQ = 25.5%",
+        "Profit before income taxes: Dec 31 2024 = 9,670, Dec 31 2023 = 8,619, Growth % YoY = 12.2%, Sep 30 2024 = 9,253, Growth % QoQ = 4.5%",
+        "Income tax expense: Dec 31 2024 = 2,848, Dec 31 2023 = 2,506, Growth % YoY = 13.6%, Sep 30 2024 = 2,737, Growth % QoQ = 4.1%",
+        "Net Profit (before minority interest): Dec 31 2024 = 6,822, Dec 31 2023 = 6,113, Growth % YoY = 11.6%, Sep 30 2024 = 6,516, Growth % QoQ = 4.7%",
+        "Net Profit (after minority interest): Dec 31 2024 = 6,806, Dec 31 2023 = 6,106, Growth % YoY = 11.4%, Sep 30 2024 = 6,506, Growth % QoQ = 4.6%",
+        "Basic EPS (\u20b9): Dec 31 2024 = 16.43, Dec 31 2023 = 14.76, Growth % YoY = 11.4%, Sep 30 2024 = 15.71, Growth % QoQ = 4.6%",
+        "Diluted EPS (\u20b9): Dec 31 2024 = 16.39, Dec 31 2023 = 14.74, Growth % YoY = 11.2%, Sep 30 2024 = 15.68, Growth % QoQ = 4.6%",
+        "Dividend Per Share (\u20b9): Sep 30 2024 = 21.00"
     ],
-    "confidence_score": 0.95,
+    "confidence_score": 1.0,
     "image_citation": "extracted_assets\\fact-sheet_Q3_24-25\\tables\\page4_table1.png",
     "token_usage": {
-        "prompt_tokens": 38113,
-        "completion_tokens": 578,
-        "total_tokens": 38691
+        "prompt_tokens": 2383,
+        "completion_tokens": 1245,
+        "total_tokens": 3628
     }
 }

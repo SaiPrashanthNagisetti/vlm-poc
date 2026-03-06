@@ -1,0 +1,18 @@
+{
+    "file_name": "fact-sheet_Q2_24-25",
+    "page_number": 1,
+    "image_title": "Free Cash Flow Highlight",
+    "image_keywords": [
+        "Free Cash Flow",
+        "$839 Mn"
+    ],
+    "summary": "The image is a diagram highlighting a financial metric, specifically the free cash flow, which is valued at $839 million. This visual emphasizes the importance of cash flow in financial analysis, providing a clear and concise representation of the company's liquidity position. The use of a bold, large font against a blue background draws attention to the significant figure, indicating its relevance in financial reporting or presentations.",
+    "table_rows": [],
+    "confidence_score": 1.0,
+    "image_citation": "extracted_assets\\fact-sheet_Q2_24-25\\tables\\page1_table9.png",
+    "token_usage": {
+        "prompt_tokens": 1533,
+        "completion_tokens": 124,
+        "total_tokens": 1657
+    }
+}

@@ -9,15 +9,16 @@
         "Scale",
         "Q",
         "K",
-        "V"
+        "V",
+        "attention mechanism"
     ],
-    "summary": "This flow diagram illustrates the process of an attention mechanism, commonly used in machine learning models. The diagram outlines the sequence of operations starting with the input matrices Q (Query), K (Key), and V (Value). The first step involves a matrix multiplication (MatMul) between Q and K, followed by a scaling operation. An optional masking step is included before applying the SoftMax function, which normalizes the scores. The final step is another matrix multiplication with V, resulting in the output of the attention mechanism. This structured flow highlights the key components and their interconnections in the attention process.",
+    "summary": "This flow diagram illustrates the attention mechanism used in neural networks, specifically highlighting the sequence of operations involved in computing attention scores. The process begins with a matrix multiplication (MatMul) of query (Q) and key (K) vectors, followed by a scaling operation. An optional masking step is included to handle specific attention scenarios. The resulting values are then passed through a SoftMax function to generate attention weights. Finally, another matrix multiplication with value (V) vectors is performed to produce the output. This diagram effectively captures the sequential steps and transformations in the attention mechanism, which is crucial for tasks like machine translation and natural language processing.",
     "table_rows": [],
-    "confidence_score": 0.95,
+    "confidence_score": 1.0,
     "image_citation": "extracted_assets\\Attention\\images\\page4_img1.png",
     "token_usage": {
-        "prompt_tokens": 9778,
-        "completion_tokens": 182,
-        "total_tokens": 9960
+        "prompt_tokens": 1533,
+        "completion_tokens": 204,
+        "total_tokens": 1737
     }
 }

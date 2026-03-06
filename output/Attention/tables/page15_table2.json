@@ -1,0 +1,22 @@
+{
+    "file_name": "Attention",
+    "page_number": 15,
+    "image_title": "Text Alignment Diagram",
+    "image_keywords": [
+        "text alignment",
+        "law",
+        "application",
+        "opinion",
+        "missing",
+        "perfect"
+    ],
+    "summary": "The visual is a diagram illustrating the alignment of text segments between two sets of sentences. It shows how words and phrases from one sentence align with corresponding parts in another, using lines to connect related words. The diagram includes phrases such as 'The Law will never be perfect' and 'its application should be just,' highlighting the relationship between these concepts. This type of diagram is often used in natural language processing to demonstrate sentence structure and alignment. The connections are color-coded, indicating different types of relationships or alignments between the text segments.",
+    "table_rows": [],
+    "confidence_score": 0.9,
+    "image_citation": "extracted_assets\\Attention\\tables\\page15_table2.png",
+    "token_usage": {
+        "prompt_tokens": 1703,
+        "completion_tokens": 173,
+        "total_tokens": 1876
+    }
+}

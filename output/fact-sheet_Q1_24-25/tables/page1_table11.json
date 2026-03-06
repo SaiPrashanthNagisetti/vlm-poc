@@ -1,0 +1,36 @@
+{
+    "file_name": "fact-sheet_Q1_24-25",
+    "page_number": 1,
+    "image_title": "Client and Revenue Metrics by Quarter",
+    "image_keywords": [
+        "Number of Clients",
+        "Active",
+        "Added during the period",
+        "Number of Million dollar clients",
+        "Client contribution to revenues",
+        "Days Sales Outstanding",
+        "Jun 30 2024",
+        "Mar 31 2024",
+        "Jun 30 2023"
+    ],
+    "summary": "The table titled 'Client and Revenue Metrics by Quarter' presents data on client numbers and revenue contributions for the quarters ending June 30, 2024, March 31, 2024, and June 30, 2023. It includes metrics such as the number of active clients, clients added during the period, and the number of million-dollar clients across various thresholds. Additionally, it details client contributions to revenues from the top 5, 10, and 25 clients, as well as Days Sales Outstanding. Notable trends include a consistent number of active clients and a slight increase in million-dollar clients over the periods. The Days Sales Outstanding shows a gradual increase from June 2023 to June 2024.",
+    "table_rows": [
+        "Active: Jun 30 2024 = 1867, Mar 31 2024 = 1882, Jun 30 2023 = 1883",
+        "Added during the period (gross): Jun 30 2024 = 87, Mar 31 2024 = 98, Jun 30 2023 = 99",
+        "1 Million dollar +: Jun 30 2024 = 987, Mar 31 2024 = 959, Jun 30 2023 = 940",
+        "10 Million dollar +: Jun 30 2024 = 309, Mar 31 2024 = 315, Jun 30 2023 = 312",
+        "50 Million dollar +: Jun 30 2024 = 84, Mar 31 2024 = 83, Jun 30 2023 = 79",
+        "100 Million dollar +: Jun 30 2024 = 40, Mar 31 2024 = 40, Jun 30 2023 = 38",
+        "Top 5 clients: Jun 30 2024 = 13.5%, Mar 31 2024 = 13.6%, Jun 30 2023 = 13.4%",
+        "Top 10 clients: Jun 30 2024 = 20.9%, Mar 31 2024 = 20.4%, Jun 30 2023 = 20.4%",
+        "Top 25 clients: Jun 30 2024 = 34.9%, Mar 31 2024 = 34.3%, Jun 30 2023 = 34.6%",
+        "Days Sales Outstanding: Jun 30 2024 = 72, Mar 31 2024 = 71, Jun 30 2023 = 63"
+    ],
+    "confidence_score": 1.0,
+    "image_citation": "extracted_assets\\fact-sheet_Q1_24-25\\tables\\page1_table11.png",
+    "token_usage": {
+        "prompt_tokens": 1873,
+        "completion_tokens": 646,
+        "total_tokens": 2519
+    }
+}

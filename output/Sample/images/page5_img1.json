@@ -4,24 +4,28 @@
     "image_title": "Agent Workflow Diagram",
     "image_keywords": [
         "Agent",
+        "Tools",
         "Memory",
         "Planning",
         "Action",
-        "Tools",
         "Short-term memory",
         "Long-term memory",
+        "Calendar",
+        "Calculator",
+        "CodeInterpreter",
+        "Search",
         "Reflection",
         "Self-critics",
         "Chain of thoughts",
         "Subgoal decomposition"
     ],
-    "summary": "This flow diagram illustrates the workflow of an 'Agent' system, highlighting its interaction with various components such as memory, tools, and planning. The diagram shows two types of memory: short-term and long-term, which feed into the central 'Agent' box. The 'Agent' is responsible for action and utilizes tools like Calendar, Calculator, CodeInterpreter, and Search. The planning process branches into reflection, self-critics, chain of thoughts, and subgoal decomposition, indicating a structured approach to decision-making and task execution. The connections between these elements demonstrate a comprehensive framework for managing tasks and cognitive processes.",
+    "summary": "This flow diagram illustrates the workflow of an 'Agent' system, highlighting its interaction with various components such as tools, memory, and planning processes. The agent is central to the diagram, connecting to tools like Calendar, Calculator, CodeInterpreter, and Search, which assist in its operations. Memory is divided into short-term and long-term, feeding into the agent's planning and action capabilities. Planning involves processes like reflection, self-critics, chain of thoughts, and subgoal decomposition, indicating a complex decision-making and problem-solving framework. The diagram shows a structured approach to how the agent utilizes resources and processes to achieve its objectives.",
     "table_rows": [],
-    "confidence_score": 0.95,
+    "confidence_score": 1.0,
     "image_citation": "extracted_assets\\Sample\\images\\page5_img1.png",
     "token_usage": {
-        "prompt_tokens": 15445,
-        "completion_tokens": 204,
-        "total_tokens": 15649
+        "prompt_tokens": 1703,
+        "completion_tokens": 239,
+        "total_tokens": 1942
     }
 }

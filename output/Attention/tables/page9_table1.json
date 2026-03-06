@@ -1,0 +1,47 @@
+{
+    "file_name": "Attention",
+    "page_number": 9,
+    "image_title": "Transformer Model Hyperparameters",
+    "image_keywords": [
+        "N",
+        "d_model",
+        "d_ff",
+        "h",
+        "d_k",
+        "d_v",
+        "P_drop",
+        "epsilon_ls",
+        "train steps",
+        "positional embedding",
+        "sinusoids"
+    ],
+    "summary": "The table presents various hyperparameters for a transformer model configuration. It includes parameters such as the number of layers (N), model dimension (d_model), feed-forward dimension (d_ff), number of attention heads (h), key and value dimensions (d_k, d_v), dropout probability (P_drop), label smoothing (epsilon_ls), and training steps. The table compares different configurations, including a setup with positional embedding instead of sinusoids, highlighting variations in dimensions and training steps. Notable configurations include a model with 6 layers, 512 model dimension, and 100K training steps, and another with 6 layers, 1024 model dimension, and 300K training steps.",
+    "table_rows": [
+        "N = 6, d_model = 512, d_ff = 2048, h = 8, d_k = 64, d_v = 64, P_drop = 0.1, epsilon_ls = 0.1, train steps = 100K",
+        "N = 1, d_model = 512, d_ff = 512",
+        "N = 4, d_model = 128, d_ff = 128",
+        "N = 16, d_model = 32, d_ff = 32",
+        "N = 32, d_model = 16, d_ff = 16",
+        "N = 16, d_model = 32",
+        "N = 32, d_model = 16",
+        "N = 2",
+        "N = 4",
+        "N = 8",
+        "d_model = 256, d_k = 32, d_v = 32",
+        "d_model = 1024, d_k = 128, d_v = 128",
+        "d_model = 1024",
+        "d_model = 4096",
+        "P_drop = 0.0",
+        "P_drop = 0.2",
+        "epsilon_ls = 0.0",
+        "epsilon_ls = 0.2",
+        "positional embedding instead of sinusoids, N = 6, d_model = 1024, d_ff = 4096, h = 16, P_drop = 0.3, train steps = 300K"
+    ],
+    "confidence_score": 0.9,
+    "image_citation": "extracted_assets\\Attention\\tables\\page9_table1.png",
+    "token_usage": {
+        "prompt_tokens": 2043,
+        "completion_tokens": 571,
+        "total_tokens": 2614
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "file_name": "arxiv2",
+    "page_number": 15,
+    "image_title": "Comparison of LLM-based and Template-based Methods",
+    "image_keywords": [
+        "LLM-based",
+        "Template-based",
+        "S-CAN",
+        "S-HOW",
+        "S-WHAT-IF",
+        "S-WHY-NOT",
+        "US-HOW",
+        "US-WHY",
+        "DIRECT",
+        "FOLLOW-UP",
+        "Average Percentage per User"
+    ],
+    "summary": "The bar chart compares the average percentage per user for LLM-based and Template-based methods across various categories, including S-CAN, S-HOW, S-WHAT-IF, S-WHY-NOT, US-HOW, US-WHY, DIRECT, and FOLLOW-UP. The LLM-based method shows a significantly higher percentage in the S-CAN category, while the Template-based method leads in the US-HOW category. Other categories such as S-HOW, S-WHAT-IF, and US-WHY show varied performance between the two methods. The chart highlights differences in user engagement or effectiveness between the two approaches across these categories.",
+    "table_rows": [],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\arxiv2\\vector_graphics\\page15_vector.png",
+    "token_usage": {
+        "prompt_tokens": 1703,
+        "completion_tokens": 246,
+        "total_tokens": 1949
+    }
+}

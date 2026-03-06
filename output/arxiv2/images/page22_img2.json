@@ -1,23 +1,23 @@
 {
     "file_name": "arxiv2",
     "page_number": 22,
-    "image_title": "Delivery Planning Instructions",
+    "image_title": "Create Plan Property Interface",
     "image_keywords": [
-        "delivery",
-        "planning",
-        "transportation",
-        "constraints",
-        "p0",
-        "p2",
-        "trucks"
+        "plan property",
+        "deliver p2 before p0",
+        "transport",
+        "trucks",
+        "UI",
+        "at(p0,jopez)",
+        "at(p2,jones)"
     ],
-    "summary": "The visual presents a set of instructions for delivery planning, emphasizing the need to deliver item p2 before item p0. It specifies that p2 should not be transported in different trucks from p0, ensuring both items are delivered together. The instructions include logical conditions for the delivery sequence, highlighting the importance of maintaining the order and method of transportation for these items.",
+    "summary": "The image depicts a user interface for creating a plan property, focusing on the delivery sequence of items labeled p2 and p0. The interface includes text inputs and logical expressions that specify conditions such as 'deliver p2 before p0' and 'never transport them in different trucks.' The logical expression shown includes conditions like 'U I at(p0,jopez) at(p2,jones)' and 'p2 delivered before p0 and same truck as p0.' This interface is likely used for planning or scheduling tasks where specific delivery and transportation conditions must be met.",
     "table_rows": [],
-    "confidence_score": 0.85,
+    "confidence_score": 0.9,
     "image_citation": "extracted_assets\\arxiv2\\images\\page22_img2.png",
     "token_usage": {
-        "prompt_tokens": 9778,
-        "completion_tokens": 135,
-        "total_tokens": 9913
+        "prompt_tokens": 1533,
+        "completion_tokens": 200,
+        "total_tokens": 1733
     }
 }

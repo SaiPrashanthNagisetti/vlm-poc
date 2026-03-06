@@ -5,19 +5,21 @@
     "image_keywords": [
         "attention",
         "visualization",
-        "text",
+        "American",
+        "governments",
+        "laws",
         "2000",
-        "voting",
         "registration",
-        "laws"
+        "voting",
+        "process"
     ],
-    "summary": "This visual represents an attention visualization related to the topic of voting registration and laws passed since 2000. The chart displays individual words along a horizontal axis, with varying attention levels indicated by the height of the bars. Notably, the word 'making' in 2000 has a significantly higher attention score, suggesting its importance in the context of the discussion. Other words such as 'American', 'governments', and 'difficult' also appear, indicating a focus on the challenges surrounding voting processes and legislation.",
+    "summary": "The image titled 'Attention Visualizations' is a bar chart illustrating the emphasis placed on specific words within a sentence related to American governments and voting laws. The chart highlights the word 'making' with the highest attention, indicating its significance in the context of the sentence. The sentence discusses the actions of American governments since 2000 in passing new laws that have made the registration or voting process more difficult. This visualization is likely used to demonstrate how attention mechanisms in models focus on particular words to understand the meaning of a sentence.",
     "table_rows": [],
-    "confidence_score": 0.85,
+    "confidence_score": 0.9,
     "image_citation": "extracted_assets\\Attention\\tables\\page13_table1.png",
     "token_usage": {
-        "prompt_tokens": 15445,
-        "completion_tokens": 166,
-        "total_tokens": 15611
+        "prompt_tokens": 1703,
+        "completion_tokens": 186,
+        "total_tokens": 1889
     }
 }

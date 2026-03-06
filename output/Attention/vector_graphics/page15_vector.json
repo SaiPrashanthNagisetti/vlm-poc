@@ -1,21 +1,22 @@
 {
     "file_name": "Attention",
     "page_number": 15,
-    "image_title": "Attention Heads Behavior in Sentence Structure",
+    "image_title": "Attention Head Behavior Visualization",
     "image_keywords": [
         "attention heads",
         "sentence structure",
-        "layer 5",
-        "self-attention",
-        "tasks"
+        "encoder self-attention",
+        "The Law will never be perfect",
+        "application should be just",
+        "missing in my opinion"
     ],
-    "summary": "This visual is a diagram illustrating the behavior of attention heads in a neural network, specifically focusing on their relationship to sentence structure. It presents two examples from different attention heads at layer 5 of 6, showcasing how these heads exhibit distinct behaviors related to the input sentence. The connections between words are represented by lines, with green lines indicating one attention head's focus and red lines indicating another's. This differentiation highlights that the attention heads have learned to perform different tasks, emphasizing the complexity of their roles in processing language.",
+    "summary": "This diagram visualizes the behavior of attention heads in a neural network, specifically related to sentence structure. It shows two examples of how different attention heads from the encoder self-attention layer connect words in a sentence. The sentences 'The Law will never be perfect, but its application should be just' and 'this is what we are missing, in my opinion' are used to illustrate the connections. The lines represent the attention weights, with varying thickness indicating the strength of the connection between words. This visualization helps in understanding how attention mechanisms focus on different parts of a sentence to capture contextual relationships.",
     "table_rows": [],
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\Attention\\vector_graphics\\page15_vector.png",
     "token_usage": {
-        "prompt_tokens": 26779,
-        "completion_tokens": 165,
-        "total_tokens": 26944
+        "prompt_tokens": 2043,
+        "completion_tokens": 200,
+        "total_tokens": 2243
     }
 }

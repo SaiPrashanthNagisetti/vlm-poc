@@ -1,19 +1,14 @@
 {
   "pdf": "arxiv1",
   "page": 12,
-  "text": "# Given the problem statement and reasoning trace,\n# Given values\nwe need to determine how many initial\na_3D = 6\nconfigurations will lead to a transformed grid\nangle_A = 120\nconsisting of a single filled square in the center\nside_lengths = [a_minus_3d, a_minus_3d, a_3D]\nafter a single transformation.\n# Calculate the area using the Law of Cosines\n# The transformation rule states that a single\n# a^2 + b^2 = c^2\nfill in the center of the grid means all the\n# c = a + b\nsquare in this center remains filled, and none of\n# a^2 + b^2 = 36\nthe surrounding empty squares become filled.\n# a^2 + b^2 = 36\n# The only square that remains filled in this\n# a^2 + b^2 = 6^2\ncenter could be the center, but since it must form\n# a^2 + b^2 = 36\nthe border of another empty square, the center\n# a^2 + b^2 = 6^2\nmust be surrounded by exactly three filled\n# a^2 + b^2 = 36\nneighbors.\n# a^2 + b^2 = 6^2\n# a^2 + b^2 = 36\n# The number of initial configurations that will\n# a^2 + b^2 = 6^2\nlead to a transformed grid consisting of a single\n# a^2 + b^2 = 36\nfilled square in the center after a single\n# a^2 + b^2 = 6^2\ntransformation is 1.\n# a^2 + b^2 = 6^2\nprint(1) ...\n(a)Blindcopyingandhardcodedoutputs. (b)\nThemodelhallu- Formatting and compilation errors. The model fails to\ncinates reasoning in code comments and simply prints the generateexecutablePythonsyntaxandproducesendlesscom-\nunverifiedfinalanswergiveninthereasoningtrace. ments,resultingincompilationerrors.\nFigure11.Qualitativeexamplesofthetwoprimaryfailuremodesencounteredwhendeployinganundersizedverifier.\nFormattingandCompilationErrors:\n• Asecondary,yetpervasive,issueisthesmallmodel’sinabilitytoconsistently\nfollowstructuralguidelines. The0.5BverifierstrugglestomaintainvalidPythonsyntaxandadheretothestrictcode-\nblockformattingconstraintsrequiredforautomatedextraction. Thismanifestsasanincreasedfrequencyofcompilation\nandexecutionerrors,drivenbymissingimportstatements,malformedblockdelimiters,syntacticalhallucinations,or\nendlesscomments(seeFigure11b). Consequently,theverificationtoolreturnsexecutionfailuresratherthanreliable\nvaliditychecks,furtherdestabilizingtherewardestimationprocess.\nCombined,theselimitationsdemonstratethatT3RLrequiresaminimumthresholdofverifiercapacitytofunctioneffectively;\nbelowthisthreshold,theverifieractsasanadditionalsourceofstochasticnoiseratherthanareliablegroundingmechanism.\nModel/Method AIME2024 AMC MATH-500 Avg\nQwen-2.5-0.5BVanilla(Baseline) 0.0 4.8 7.9 4.2\nw/TTRL 0.4 12.0 34.6 15.7\nTable4.Performancecomparisonillustratingfailurecaseswithaweak(0.5B)verifier.",
+  "text": "Table4.Performancecomparisonillustratingfailurecaseswithaweak(0.5B)verifier.",
   "keywords": [
-    "grid",
-    "3d",
-    "square",
-    "36",
-    "square center",
-    "filled 36",
-    "center",
-    "filled",
-    "transformation",
-    "single",
-    "minus 3d",
-    "remains filled"
+    "table4 performancecomparisonillustratingfailurecaseswithaweak",
+    "table4",
+    "5b verifier",
+    "5b",
+    "performancecomparisonillustratingfailurecaseswithaweak 5b",
+    "verifier",
+    "performancecomparisonillustratingfailurecaseswithaweak"
   ]
 }

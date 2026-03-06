@@ -3,7 +3,9 @@
     "page_number": 22,
     "image_title": "Create New Plan Property Interface",
     "image_keywords": [
+        "Create New Plan Property",
         "Select Template",
+        "Select Objects",
         "Deliver",
         "Gather",
         "Order",
@@ -12,13 +14,13 @@
         "Never same trucks",
         "Use"
     ],
-    "summary": "The visual represents a user interface for creating a new plan property, featuring a selection process for templates and objects. Users can choose from options labeled 'Deliver', 'Gather', and 'Order' under the 'Select Template' section. Additionally, there is a 'Same' category with conditions regarding truck assignments, specifically stating 'Never different trucks for $Pi and $Pj' and 'Never same trucks for $Pi and $Pj'. The interface is designed to facilitate the configuration of planning properties.",
+    "summary": "The image depicts a user interface for creating a new plan property, featuring a step-by-step process with two main steps: 'Select Template' and 'Select Objects.' The interface includes dropdown options for actions such as 'Deliver,' 'Gather,' 'Order,' and 'Use.' Additionally, there are conditions labeled 'Same,' with specific constraints like 'Never different trucks for $Pi and $Pj' and 'Never same trucks for $Pi and $Pj.' The interface is designed to allow users to configure and customize planning properties, likely for logistics or scheduling purposes, with options to cancel or create the plan.",
     "table_rows": [],
-    "confidence_score": 0.9,
+    "confidence_score": 0.95,
     "image_citation": "extracted_assets\\arxiv2\\images\\page22_img1.png",
     "token_usage": {
-        "prompt_tokens": 9778,
-        "completion_tokens": 169,
-        "total_tokens": 9947
+        "prompt_tokens": 1533,
+        "completion_tokens": 215,
+        "total_tokens": 1748
     }
 }

@@ -8,29 +8,29 @@
         "Gross Profit",
         "Operating Expenses",
         "Net Profit",
-        "Dividend Per Share",
-        "Fiscal 2025",
-        "Financial Statement"
+        "EPS",
+        "Dividend",
+        "Mar 31, 2025",
+        "Mar 31, 2024",
+        "Dec 31, 2024",
+        "Growth YoY",
+        "Growth QoQ"
     ],
-    "summary": "This table presents the consolidated statement of comprehensive income for Infosys for the three months ended March 31, 2025, and the year ended March 31, 2025, extracted from the IFRS financial statement. It details key financial metrics such as revenues, cost of sales, gross profit, operating expenses, and net profit, comparing figures from the current year to the previous year. Notable insights include a year-over-year revenue growth of 7.9% for the quarter and 6.1% for the year, alongside a decline in net profit for the quarter by 11.7%. The operating margin for the quarter is reported at 21.0%, with a slight decrease from the previous year. The table also highlights the dividend per share, which increased by 13.2% for the year.",
+    "summary": "The image is a table titled 'Consolidated Financial Data - Fourth Quarter, Fiscal 2025' showing the comprehensive income for Infosys over three months and a year. It compares financial metrics such as revenues, cost of sales, gross profit, operating expenses, and net profit for the periods ending March 31, 2025, March 31, 2024, and December 31, 2024. Key insights include a year-over-year revenue growth of 7.9% for the quarter ending March 31, 2025, and a 6.1% growth for the year. The table also highlights a decline in net profit and EPS for the quarter, with a notable decrease in other income. The dividend per share remained constant at \u20b922.00 for the quarter.",
     "table_rows": [
-        "Revenues: Mar 31 2025 = 40,925, Mar 31 2024 = 37,923",
-        "Cost of sales: Mar 31 2025 = 28,575, Mar 31 2024 = 26,748",
-        "Gross Profit: Mar 31 2025 = 12,350, Mar 31 2024 = 11,175",
-        "Selling and marketing expenses: Mar 31 2025 = 1,957, Mar 31 2024 = 1,735",
-        "Administrative expenses: Mar 31 2025 = 1,818, Mar 31 2024 = 1,819",
-        "Total Operating Expenses: Mar 31 2025 = 3,775, Mar 31 2024 = 3,554",
-        "Operating Profit: Mar 31 2025 = 8,575, Mar 31 2024 = 7,621",
-        "Operating Margin %: Mar 31 2025 = 21.0, Mar 31 2024 = 20.1",
-        "Net Profit (after minority interest): Mar 31 2025 = 7,038, Mar 31 2024 = 7,975",
-        "Basic EPS (\u20b9): Mar 31 2025 = 16.38, Mar 31 2024 = 19.25",
-        "Dividend Per Share (\u20b9): Mar 31 2025 = 43.00, Mar 31 2024 = 38.00"
+        "Revenues: Mar 31, 2025 = 40,925, Mar 31, 2024 = 37,923, Growth YoY = 7.9%, Dec 31, 2024 = 41,764, Growth QoQ = -2.0%",
+        "Cost of sales: Mar 31, 2025 = 28,575, Mar 31, 2024 = 26,748, Growth YoY = 6.8%, Dec 31, 2024 = 29,120, Growth QoQ = -1.9%",
+        "Gross Profit: Mar 31, 2025 = 12,350, Mar 31, 2024 = 11,175, Growth YoY = 10.5%, Dec 31, 2024 = 12,644, Growth QoQ = -2.3%",
+        "Operating Expenses: Mar 31, 2025 = 3,775, Mar 31, 2024 = 3,554, Growth YoY = 6.2%, Dec 31, 2024 = 3,732, Growth QoQ = 1.2%",
+        "Net Profit (after minority interest): Mar 31, 2025 = 7,038, Mar 31, 2024 = 7,969, Growth YoY = -11.7%, Dec 31, 2024 = 8,606, Growth QoQ = -3.3%",
+        "Basic EPS (\u20b9): Mar 31, 2025 = 16.98, Mar 31, 2024 = 19.25, Growth YoY = -11.8%, Dec 31, 2024 = 16.43, Growth QoQ = 3.3%",
+        "Dividend Per Share (\u20b9): Mar 31, 2025 = 22.00, Mar 31, 2024 = 20.00, Growth YoY = 10.0%"
     ],
     "confidence_score": 0.95,
     "image_citation": "extracted_assets\\fact-sheet_Q4_24-25\\vector_graphics\\page4_vector.png",
     "token_usage": {
-        "prompt_tokens": 26779,
-        "completion_tokens": 586,
-        "total_tokens": 27365
+        "prompt_tokens": 2043,
+        "completion_tokens": 713,
+        "total_tokens": 2756
     }
 }

@@ -14,13 +14,13 @@
         "2007",
         "Losses per $1,000 of Payroll"
     ],
-    "summary": "This visual presents a comprehensive analysis of payroll and losses over a span of years from 1998 to 2007. The top section illustrates payroll figures in millions of dollars, showing a steady increase from approximately $1.5 million in 1998 to around $2 million in 2007. The middle section depicts losses in thousands of dollars, peaking at nearly $35,000 in 1999, followed by a significant decline in subsequent years, reaching minimal losses by 2007. The bottom section details losses per $1,000 of payroll, which started at $18.20 in 1998 and decreased dramatically to $0.30 by 2007, indicating a substantial improvement in loss management relative to payroll. Overall, the data reveals a positive trend in payroll growth alongside a significant reduction in losses over the analyzed period.",
+    "summary": "The visual consists of three charts analyzing payroll and losses over the years 1998 to 2007. The first bar chart shows payroll in millions of dollars, with a steady increase from 1998 to 2007, peaking in 2007. The second bar chart displays losses in thousands of dollars, with a significant decrease from 1998 to 2007, indicating improved financial management. The line chart illustrates losses per $1,000 of payroll, showing a sharp decline from $18.20 in 1998 to $0.30 in 2007, highlighting a substantial reduction in losses relative to payroll over the period.",
     "table_rows": [],
     "confidence_score": 0.95,
     "image_citation": "extracted_assets\\OSHAwhite-paper-january2012sm\\images\\page16_img1.png",
     "token_usage": {
-        "prompt_tokens": 26779,
-        "completion_tokens": 256,
-        "total_tokens": 27035
+        "prompt_tokens": 2043,
+        "completion_tokens": 229,
+        "total_tokens": 2272
     }
 }

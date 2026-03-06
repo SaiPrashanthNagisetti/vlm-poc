@@ -1,7 +1,7 @@
 {
     "file_name": "fact-sheet_Q3_24-25",
     "page_number": 2,
-    "image_title": "Effort and Utilization Metrics",
+    "image_title": "Effort and Utilization Metrics by Quarter",
     "image_keywords": [
         "Effort",
         "Utilization",
@@ -13,7 +13,7 @@
         "Sep 30 2024",
         "Dec 31 2023"
     ],
-    "summary": "This table presents the effort and utilization metrics for a company over three quarters ending on December 31, 2024, September 30, 2024, and December 31, 2023. The 'Effort' section compares onsite and offshore percentages, showing a slight decrease in onsite effort from 24.4% in December 2023 to 24.0% in December 2024, while offshore effort increased from 75.6% to 76.0% in the same period. The 'Utilization' section includes metrics for both including and excluding trainees, with utilization including trainees rising from 81.7% in December 2023 to 83.4% in December 2024, and excluding trainees increasing from 82.7% to 86.0%. This indicates a positive trend in overall utilization rates.",
+    "summary": "The table presents quarterly metrics for effort and utilization from December 31, 2023, to December 31, 2024. It compares onsite and offshore effort percentages, as well as utilization rates including and excluding trainees. Notable trends include a slight increase in onsite effort over the period, while offshore effort shows a minor decline. Utilization rates, both including and excluding trainees, demonstrate a peak in September 2024, followed by a decrease by the end of 2024.",
     "table_rows": [
         "Effort: Onsite: Dec 31 2024 = 24.0, Sep 30 2024 = 24.1, Dec 31 2023 = 24.4",
         "Effort: Offshore: Dec 31 2024 = 76.0, Sep 30 2024 = 75.9, Dec 31 2023 = 75.6",
@@ -23,8 +23,8 @@
     "confidence_score": 1.0,
     "image_citation": "extracted_assets\\fact-sheet_Q3_24-25\\tables\\page2_table1.png",
     "token_usage": {
-        "prompt_tokens": 21112,
-        "completion_tokens": 441,
-        "total_tokens": 21553
+        "prompt_tokens": 1873,
+        "completion_tokens": 380,
+        "total_tokens": 2253
     }
 }

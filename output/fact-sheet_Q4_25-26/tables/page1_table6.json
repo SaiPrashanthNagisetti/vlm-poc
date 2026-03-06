@@ -1,0 +1,20 @@
+{
+    "file_name": "fact-sheet_Q4_25-26",
+    "page_number": 1,
+    "image_title": "Free Cash Flow Summary",
+    "image_keywords": [
+        "Free Cash Flow",
+        "FCF",
+        "$0.9 Bn",
+        "$1 Bn Adjusted"
+    ],
+    "summary": "The image is a diagram summarizing the Free Cash Flow (FCF) with a reported value of $0.9 billion and an adjusted value of $1 billion. It highlights the financial metric of free cash flow, which is crucial for assessing the liquidity and financial health of a company. The adjusted figure suggests modifications or considerations that have been applied to the base value, indicating a refined financial analysis.",
+    "table_rows": [],
+    "confidence_score": 0.9,
+    "image_citation": "extracted_assets\\fact-sheet_Q4_25-26\\tables\\page1_table6.png",
+    "token_usage": {
+        "prompt_tokens": 1533,
+        "completion_tokens": 149,
+        "total_tokens": 1682
+    }
+}

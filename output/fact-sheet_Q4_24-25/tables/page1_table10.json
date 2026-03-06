@@ -1,0 +1,27 @@
+{
+    "file_name": "fact-sheet_Q4_24-25",
+    "page_number": 1,
+    "image_title": "Growth Comparison Table",
+    "image_keywords": [
+        "QoQ growth",
+        "YoY growth",
+        "Reported",
+        "CC",
+        "-4.2%",
+        "-3.5%",
+        "3.6%",
+        "4.8%"
+    ],
+    "summary": "This table presents a comparison of quarter-over-quarter (QoQ) and year-over-year (YoY) growth percentages, with values reported in two categories: 'Reported' and 'CC'. The QoQ growth shows a decline with reported figures at -4.2% and CC at -3.5%. In contrast, the YoY growth indicates an increase, with reported figures at 3.6% and CC at 4.8%. This table highlights the differences in growth rates over different time periods and reporting methods.",
+    "table_rows": [
+        "QoQ growth (%): Reported = -4.2%, CC = -3.5%",
+        "YoY growth (%): Reported = 3.6%, CC = 4.8%"
+    ],
+    "confidence_score": 1.0,
+    "image_citation": "extracted_assets\\fact-sheet_Q4_24-25\\tables\\page1_table10.png",
+    "token_usage": {
+        "prompt_tokens": 1873,
+        "completion_tokens": 237,
+        "total_tokens": 2110
+    }
+}

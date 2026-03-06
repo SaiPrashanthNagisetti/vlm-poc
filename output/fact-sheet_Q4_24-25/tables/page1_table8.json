@@ -1,0 +1,21 @@
+{
+    "file_name": "fact-sheet_Q4_24-25",
+    "page_number": 1,
+    "image_title": "Free Cash Flow Summary",
+    "image_keywords": [
+        "Free Cash Flow",
+        "FY",
+        "Q4",
+        "$4.1 Bn",
+        "$0.9 Bn"
+    ],
+    "summary": "The image is a diagram summarizing the free cash flow for a fiscal year and a specific quarter. It highlights a total free cash flow of $4.1 billion for the fiscal year (FY) and $0.9 billion for the fourth quarter (Q4). This visual representation provides a quick overview of the financial performance in terms of cash flow for these periods.",
+    "table_rows": [],
+    "confidence_score": 1.0,
+    "image_citation": "extracted_assets\\fact-sheet_Q4_24-25\\tables\\page1_table8.png",
+    "token_usage": {
+        "prompt_tokens": 1533,
+        "completion_tokens": 139,
+        "total_tokens": 1672
+    }
+}

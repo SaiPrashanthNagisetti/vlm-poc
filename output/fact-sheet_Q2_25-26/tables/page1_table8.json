@@ -1,0 +1,19 @@
+{
+    "file_name": "fact-sheet_Q2_25-26",
+    "page_number": 1,
+    "image_title": "Large Deal TCV",
+    "image_keywords": [
+        "$3.1 Bn",
+        "Large Deal TCV",
+        "67% Net New"
+    ],
+    "summary": "The image displays a financial metric indicating a total contract value (TCV) of $3.1 billion for large deals, with 67% of this amount being net new. This suggests a significant portion of the TCV is derived from new business rather than renewals or extensions.",
+    "table_rows": [],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet_Q2_25-26\\tables\\page1_table8.png",
+    "token_usage": {
+        "prompt_tokens": 1533,
+        "completion_tokens": 116,
+        "total_tokens": 1649
+    }
+}

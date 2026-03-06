@@ -7,23 +7,35 @@
         "Utilization",
         "Employee Metrics",
         "Cash Flow",
-        "Quarter ended",
+        "Onsite",
+        "Offshore",
+        "Voluntary Attrition",
+        "Women Employees",
+        "Free Cash Flow",
+        "Consolidated Cash and Investments",
         "Mar 31 2025",
         "Dec 31 2024",
         "Mar 31 2024"
     ],
-    "summary": "This table presents the consolidated financial data for Infosys for the fourth quarter of fiscal 2025, detailing metrics related to effort and utilization in IT services, employee statistics, and cash flow. Key metrics include onsite and offshore effort percentages, overall utilization rates, total employee counts, and voluntary attrition rates. The data spans three quarters: March 31, 2025, December 31, 2024, and March 31, 2024. Notable insights include a slight increase in offshore effort and a decrease in free cash flow compared to the previous quarter, indicating potential shifts in operational efficiency and financial health.",
+    "summary": "This document is a fact sheet titled 'Infosys Consolidated Financial Data - Fourth Quarter, Fiscal 2025,' presenting key metrics related to effort and utilization, employee metrics, and cash flow. The effort and utilization section compares onsite and offshore percentages, showing a slight increase in onsite effort from March 2024 to March 2025. Employee metrics detail total employees, software professionals, sales and support staff, voluntary attrition rates, and the percentage of women employees, with notable stability in attrition rates and gender diversity. The cash flow section provides figures for free cash flow and consolidated cash and investments in both US dollars and Indian rupees, indicating a decrease in free cash flow from December 2024 to March 2025. The document provides a comprehensive overview of Infosys's operational and financial performance over the specified quarters.",
     "table_rows": [
-        "Effort: Mar 31 2025 = Onsite 23.6%, Offshore 76.4%; Dec 31 2024 = Onsite 24.0%, Offshore 76.0%; Mar 31 2024 = Onsite 24.2%, Offshore 75.8%",
-        "Utilization: Mar 31 2025 = Including trainees 81.9%, Excluding trainees 84.9%; Dec 31 2024 = Including trainees 83.4%, Excluding trainees 86.0%; Mar 31 2024 = Including trainees 82.0%, Excluding trainees 83.5%",
-        "Employee Metrics: Mar 31 2025 = Total employees 323,578, S/W professionals 306,599, Sales & Support 16,979, Voluntary Attrition % 14.1%, % of Women Employees 39.0%; Dec 31 2024 = Total employees 323,379, S/W professionals 306,528, Sales & Support 16,851, Voluntary Attrition % 13.7%, % of Women Employees 39.0%; Mar 31 2024 = Total employees 317,240, S/W professionals 299,814, Sales & Support 17,426, Voluntary Attrition % 12.6%, % of Women Employees 39.3%",
-        "Cash Flow: Mar 31 2025 = Free cash flow 892 million USD, Consolidated cash and investments 5,562 million USD; Dec 31 2024 = Free cash flow 1,263 million USD, Consolidated cash and investments 4,653 million USD; Mar 31 2024 = Free cash flow 848 million USD, Consolidated cash and investments 4,676 million USD"
+        "Effort: Mar 31 2025 = Onsite 23.6, Offshore 76.4; Dec 31 2024 = Onsite 24.0, Offshore 76.0; Mar 31 2024 = Onsite 24.2, Offshore 75.8",
+        "Utilization: Mar 31 2025 = Including trainees 81.9, Excluding trainees 84.9; Dec 31 2024 = Including trainees 83.4, Excluding trainees 86.0; Mar 31 2024 = Including trainees 82.0, Excluding trainees 83.5",
+        "Total employees: Mar 31 2025 = 323,578, Dec 31 2024 = 323,379, Mar 31 2024 = 317,240",
+        "S/W professionals: Mar 31 2025 = 306,599, Dec 31 2024 = 306,528, Mar 31 2024 = 299,814",
+        "Sales & Support: Mar 31 2025 = 16,979, Dec 31 2024 = 16,851, Mar 31 2024 = 17,426",
+        "Voluntary Attrition % (LTM - IT Services): Mar 31 2025 = 14.1%, Dec 31 2024 = 13.7%, Mar 31 2024 = 12.6%",
+        "% of Women Employees: Mar 31 2025 = 39.0%, Dec 31 2024 = 39.0%, Mar 31 2024 = 39.3%",
+        "Free cash flow (US $ million): Mar 31 2025 = 892, Dec 31 2024 = 1,263, Mar 31 2024 = 848",
+        "Consolidated cash and investments (US $ million): Mar 31 2025 = 5,562, Dec 31 2024 = 4,653, Mar 31 2024 = 4,676",
+        "Free cash flow (\u20b9 crore): Mar 31 2025 = 7,737, Dec 31 2024 = 10,647, Mar 31 2024 = 7,032",
+        "Consolidated cash and investments (\u20b9 crore): Mar 31 2025 = 47,549, Dec 31 2024 = 39,836, Mar 31 2024 = 39,005"
     ],
     "confidence_score": 0.95,
     "image_citation": "extracted_assets\\fact-sheet_Q4_24-25\\vector_graphics\\page2_vector.png",
     "token_usage": {
-        "prompt_tokens": 26779,
-        "completion_tokens": 596,
-        "total_tokens": 27375
+        "prompt_tokens": 2043,
+        "completion_tokens": 841,
+        "total_tokens": 2884
     }
 }

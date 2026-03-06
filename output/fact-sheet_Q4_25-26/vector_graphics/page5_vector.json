@@ -1,31 +1,49 @@
 {
     "file_name": "fact-sheet_Q4_25-26",
     "page_number": 5,
-    "image_title": "Consolidated Statement of Comprehensive Income",
+    "image_title": "Consolidated Financial Data - Third Quarter, Fiscal 2026",
     "image_keywords": [
+        "Consolidated statement",
+        "Comprehensive Income",
+        "IFRS",
         "Revenues",
-        "Cost of sales",
-        "Gross Profit",
         "Operating Profit",
         "Net Profit",
-        "EPS",
-        "Fiscal 2026"
+        "Basic EPS",
+        "Diluted EPS",
+        "Dec 31 2025",
+        "Dec 31 2024",
+        "Growth %",
+        "Adjustment for Labour Codes"
     ],
-    "summary": "This table presents the Consolidated Statement of Comprehensive Income for Infosys for the nine months ending December 31, 2025, compared to the same period in 2024. Key metrics include total revenues of \u20b9132,248 crore, reflecting an 8.3% increase from \u20b9122,064 crore in the previous year. The cost of sales and gross profit also show significant growth, with gross profit rising to \u20b939,572 crore, a 6.1% increase. Operating profit is reported at \u20b926,511 crore, a modest 2.6% growth, while net profit stands at \u20b920,939 crore, showing a stable performance with a basic EPS of \u20b950.64, up 6.6%. The table also includes adjustments for labor codes affecting operating profit and tax expenses, providing a comprehensive view of financial performance over the specified period.",
+    "summary": "The document is a table titled 'Consolidated Financial Data - Third Quarter, Fiscal 2026' from Infosys, presenting a comprehensive statement of income for nine months ending December 31, 2025, and December 31, 2024. It includes key financial metrics such as revenues, cost of sales, gross profit, operating expenses, and net profit. The table compares these metrics across the two years, highlighting growth percentages. Additionally, it reconciles reported IFRS financial measures to adjusted non-IFRS measures, accounting for adjustments due to labor codes. Notable insights include an 8.3% revenue growth and a 6.4% increase in net profit. The document also notes the impact of currency fluctuations and adjustments for labor codes.",
     "table_rows": [
-        "Revenues: Dec 31 2025 = 132,248, Dec 31 2024 = 122,064, Growth % = 8.3",
-        "Cost of sales: Dec 31 2025 = 92,676, Dec 31 2024 = 84,771, Growth % = 9.3",
-        "Gross Profit: Dec 31 2025 = 39,572, Dec 31 2024 = 37,293, Growth % = 6.1",
-        "Total Operating Expenses: Dec 31 2025 = 13,061, Dec 31 2024 = 11,444, Growth % = 14.1",
-        "Operating Profit: Dec 31 2025 = 26,511, Dec 31 2024 = 25,849, Growth % = 2.6",
-        "Net Profit (after non-controlling interests): Dec 31 2025 = 20,939, Dec 31 2024 = 19,680, Growth % = 6.4",
-        "Basic EPS: Dec 31 2025 = 50.64, Dec 31 2024 = 47.52, Growth % = 6.6"
+        "Revenues: Dec 31 2025 = 132,248, Dec 31 2024 = 122,064, Growth % = 8.3%",
+        "Cost of sales: Dec 31 2025 = 92,676, Dec 31 2024 = 84,771, Growth % = 9.3%",
+        "Gross Profit: Dec 31 2025 = 39,572, Dec 31 2024 = 37,293, Growth % = 6.1%",
+        "Selling and marketing expenses: Dec 31 2025 = 6,724, Dec 31 2024 = 5,631, Growth % = 19.4%",
+        "Administrative expenses: Dec 31 2025 = 6,337, Dec 31 2024 = 5,813, Growth % = 9.0%",
+        "Total Operating Expenses: Dec 31 2025 = 13,061, Dec 31 2024 = 11,444, Growth % = 14.1%",
+        "Operating Profit: Dec 31 2025 = 26,511, Dec 31 2024 = 25,849, Growth % = 2.6%",
+        "Operating Margin %: Dec 31 2025 = 20.0, Dec 31 2024 = 21.2, Growth % = -1.2%",
+        "Other Income, net of finance cost: Dec 31 2025 = 2,688, Dec 31 2024 = 2,096, Growth % = 28.2%",
+        "Profit before income taxes: Dec 31 2025 = 29,199, Dec 31 2024 = 27,945, Growth % = 4.5%",
+        "Income tax expense: Dec 31 2025 = 8,234, Dec 31 2024 = 8,233, Growth % = 0.0%",
+        "Net Profit (after non-controlling interests): Dec 31 2025 = 20,939, Dec 31 2024 = 19,680, Growth % = 6.4%",
+        "Basic EPS (\u20b9): Dec 31 2025 = 50.64, Dec 31 2024 = 47.52, Growth % = 6.6%",
+        "Diluted EPS (\u20b9): Dec 31 2025 = 50.55, Dec 31 2024 = 47.40, Growth % = 6.6%",
+        "Operating Profit (Adjusted non-IFRS): Dec 31 2025 = 27,800, Dec 31 2024 = 25,849",
+        "Operating Margin % (Adjusted non-IFRS): Dec 31 2025 = 21.0, Dec 31 2024 = 21.2",
+        "Profit before income taxes (Adjusted non-IFRS): Dec 31 2025 = 30,488, Dec 31 2024 = 27,945",
+        "Income tax expense (Adjusted non-IFRS): Dec 31 2025 = 8,552, Dec 31 2024 = 8,233",
+        "Net Profit (after non-controlling interests, Adjusted non-IFRS): Dec 31 2025 = 21,910, Dec 31 2024 = 19,680",
+        "Basic EPS (Adjusted non-IFRS, \u20b9): Dec 31 2025 = 52.99, Dec 31 2024 = 47.52"
     ],
     "confidence_score": 0.95,
     "image_citation": "extracted_assets\\fact-sheet_Q4_25-26\\vector_graphics\\page5_vector.png",
     "token_usage": {
-        "prompt_tokens": 26779,
-        "completion_tokens": 517,
-        "total_tokens": 27296
+        "prompt_tokens": 2043,
+        "completion_tokens": 1045,
+        "total_tokens": 3088
     }
 }

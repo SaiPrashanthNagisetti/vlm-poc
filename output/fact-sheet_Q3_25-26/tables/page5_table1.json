@@ -1,0 +1,21 @@
+{
+    "file_name": "fact-sheet_Q3_25-26",
+    "page_number": 5,
+    "image_title": "Quarterly Figures Explanation",
+    "image_keywords": [
+        "quarter",
+        "nine months",
+        "figures",
+        "rounding",
+        "statement"
+    ],
+    "summary": "This image contains a textual explanation regarding the rounding of figures for quarterly and nine-month periods. It clarifies that the figures are sourced and rounded to the nearest digits, which may result in discrepancies when adding quarterly figures to match the nine-month totals reported in the statement.",
+    "table_rows": [],
+    "confidence_score": 1.0,
+    "image_citation": "extracted_assets\\fact-sheet_Q3_25-26\\tables\\page5_table1.png",
+    "token_usage": {
+        "prompt_tokens": 1873,
+        "completion_tokens": 110,
+        "total_tokens": 1983
+    }
+}

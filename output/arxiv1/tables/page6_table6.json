@@ -1,0 +1,23 @@
+{
+    "file_name": "arxiv1",
+    "page_number": 6,
+    "image_title": "Comparison of TRL and T^3RL",
+    "image_keywords": [
+        "TRL",
+        "T^3RL",
+        "comparison",
+        "data values"
+    ],
+    "summary": "The table presents a comparison between two metrics, TRL and T^3RL, across four different data points. The values for TRL are 15.5, 31.5, 61.0, and 33.4, while the values for T^3RL are 17.1, 34.2, 63.3, and 38.2. This comparison highlights the differences in performance or measurement between the two metrics, with T^3RL showing consistently higher values across all data points.",
+    "table_rows": [
+        "w/ TRL: 15.5, 31.5, 61.0, 33.4",
+        "w/ T^3RL: 17.1, 34.2, 63.3, 38.2"
+    ],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\arxiv1\\tables\\page6_table6.png",
+    "token_usage": {
+        "prompt_tokens": 1703,
+        "completion_tokens": 226,
+        "total_tokens": 1929
+    }
+}

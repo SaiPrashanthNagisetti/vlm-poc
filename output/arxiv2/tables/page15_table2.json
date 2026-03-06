@@ -1,0 +1,20 @@
+{
+    "file_name": "arxiv2",
+    "page_number": 15,
+    "image_title": "Bar Chart Comparison",
+    "image_keywords": [
+        "bar chart",
+        "comparison",
+        "orange bar",
+        "blue bar"
+    ],
+    "summary": "The visual is a bar chart comparing two categories represented by an orange bar and a blue bar. The chart does not display specific labels or values, making it difficult to determine the exact metrics or categories being compared. The orange bar is slightly taller than the blue bar, indicating a higher value for the category it represents. Without axis labels or a legend, the specific context or data source remains unclear.",
+    "table_rows": [],
+    "confidence_score": 0.6,
+    "image_citation": "extracted_assets\\arxiv2\\tables\\page15_table2.png",
+    "token_usage": {
+        "prompt_tokens": 1533,
+        "completion_tokens": 132,
+        "total_tokens": 1665
+    }
+}

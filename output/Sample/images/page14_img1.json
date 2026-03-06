@@ -1,21 +1,25 @@
 {
     "file_name": "Sample",
     "page_number": 14,
-    "image_title": "AI Design Process",
+    "image_title": "AI Design Process Diagram",
     "image_keywords": [
+        "AI Design Process",
+        "Define the Problem and Objective",
+        "Choose an algorithm and framework",
+        "Define the Agent's Architecture",
+        "Train the Agent",
+        "Share and Evaluate the Agent",
         "AI",
-        "design process",
-        "algorithm",
-        "training",
-        "evaluation"
+        "process",
+        "steps"
     ],
-    "summary": "This flow diagram illustrates the AI Design Process, outlining the key steps involved in developing an AI system. The process begins with defining the problem and objective, followed by choosing an appropriate algorithm and framework. Next, the agent's architecture is defined, and the agent is trained using data until it reaches an acceptable skill level. Finally, the trained agent is shared and evaluated in real-world scenarios. Each step is numbered and connected, emphasizing the sequential nature of the process.",
+    "summary": "The visual is a diagram illustrating the AI Design Process, consisting of five key steps. It begins with defining the problem and objective, followed by choosing an algorithm and framework using methods like supervised, unsupervised, or deep learning. The next step involves defining the agent's architecture and selecting a learning method, such as a reward or loss system. The fourth step is training the agent with data until it reaches an acceptable skill level. Finally, the process concludes with sharing and evaluating the agent's performance in the real world. This structured approach highlights the sequential steps necessary for designing and implementing an AI system.",
     "table_rows": [],
-    "confidence_score": 0.95,
+    "confidence_score": 1.0,
     "image_citation": "extracted_assets\\Sample\\images\\page14_img1.png",
     "token_usage": {
-        "prompt_tokens": 26779,
-        "completion_tokens": 146,
-        "total_tokens": 26925
+        "prompt_tokens": 2043,
+        "completion_tokens": 218,
+        "total_tokens": 2261
     }
 }

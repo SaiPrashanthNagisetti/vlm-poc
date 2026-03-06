@@ -1,21 +1,24 @@
 {
     "file_name": "arxiv2",
     "page_number": 42,
-    "image_title": "Template-based Interface Insights",
+    "image_title": "Template-based Interface for Task Planning",
     "image_keywords": [
         "template-based interface",
-        "planning task",
+        "task planning",
         "conflicting goals",
-        "suggested questions",
-        "user interaction"
+        "insights",
+        "Alice does basketball training",
+        "Bob does tennis training",
+        "Parent cooks dinner",
+        "Parent goes to the hairdresser"
     ],
-    "summary": "This visual presents a template-based interface designed to assist users in understanding and managing planning tasks. It features two parts: the first part lists various suggested questions that users can ask to clarify their goals and conflicts, while the second part illustrates a conversational interaction where the system explains the complexities of conflicting goals among family members. Key topics include the resolution of conflicts, specific examples of goals, and the importance of prioritizing preferences. The interface aims to guide users in navigating their planning challenges effectively.",
+    "summary": "The visual depicts a template-based interface designed to assist users in understanding and resolving task planning conflicts. It highlights how various enforced goals, such as family activities and personal tasks, can conflict with each other, making the task unsolvable. The interface provides insights into these conflicts and suggests possible combinations of goals that can be stopped to make the task solvable. Examples include stopping goals like 'Alice does basketball training' and 'Parent cooks dinner' to resolve scheduling conflicts. The interface aims to help users prioritize and choose which goals to enforce or relax, thereby optimizing task management and planning.",
     "table_rows": [],
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\arxiv2\\images\\page42_img1.png",
     "token_usage": {
-        "prompt_tokens": 26779,
-        "completion_tokens": 158,
-        "total_tokens": 26937
+        "prompt_tokens": 2043,
+        "completion_tokens": 210,
+        "total_tokens": 2253
     }
 }

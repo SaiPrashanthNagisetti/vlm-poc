@@ -1,19 +1,19 @@
 {
   "pdf": "arxiv2",
   "page": 10,
-  "text": "10 G. Fouilhé et al.\nϕ,goalname\nGoal\nGoal\nQuestion\nTranslator\nTG\n⟨µQ,args={ϕ}⟩\nGNL\nGoalDescription\nQuestion\nQuestionTopic\nSuggester GNL\nSQ\nEFQUERY-GT\nQNL,µQ\n⟨µQ,a r g s { ϕ}/∅⟩\nR / G /ϕ /∅\n=\nQ\nQ u e s t io n\nE x p la n a t i o n\nN L N L\nN L\nEFQUERY-noGT\nDi sp a t ch er\nT ra n s l a to r\nF r a m e w o r k\nD µ\n( )\nQ\nQu e st ion Q u es t io n T yp e Q u e s tio n\nT\nE F\nQ\nC C\nUser\nDIRECT\nFOLLOW-UP\nResponse\nQNL Question\nRNL\nExplanation\nExplanation Explanations&priorInformation\nTranslator\nE∗(args),QNL,⟨µQ,args⟩\nTE\nENL\nmessage\nnaturallanguage formallanguage goalcreation explanationsprotocol LLMAgent\nFig.2:Communicationprotocolbetweentheuser,thetranslatorsandtheexpla-\nnationframework.Inadditiontotheinformationprovidedinthemessages,each\nagent has access to the planning task and the iteration step. For a goal trans-\nlation (green, top left) the user directly communicates with . If the user asks\nT\nG\na question (black) the dispatcher chooses one of four routing options (DIRECT,\nFOLLOW-UP, and EFQUERY-GT) depending on the question type\nEFQUERY-noGT\nidentified by .\nT\nQ\nOtherwise:\n• It is not possible.\nS-how: “How can be satisfied?”\n– args\nE(⟨S-how,args⟩)=min({C\\Gfalse(π)| ∈GMCS(τ,Gref),C∩args=∅})\nC\n⊆\nIf E(⟨S-how,args⟩):\n• ∅ ∈ args can be satisfied without foregoing any goals\nsatisfied by the plan.\nIf E(⟨S-how,args⟩)=∅:\n• It is not possible.\nOtherwise:\n• You have to forego one of the goal sets in E(⟨S-how,args⟩).\nThenumbersofMUSsandMCSscanbeexponentialinthenumberofgoals.For\nany question type , however, a single goal subset suffices. Since\nM E ∈ E(Q)\nQ\nsome conflicts are more relevant or some corrections easier to forego, selecting\nEˆ⊆E(Q) and summarizing Eˆis desirable.\n5 LLMs-based Interactive Framework\nWith all components in place, we now describe the implementation of our in-\nteractive framework using LLM-based translators to communicate with EF .\nCC\nEach translator, as well as the planner and EF (treated as black boxes that\nCC\ngenerateplansandexplanationsgivenacorrectinputmessage),isanagent that\ncommunicates with the others. We first present the communication protocol be-\ntween these agents by following the processing of different user question cases,\nand then discuss the specifics of each translator agent.",
+  "text": "10 G. Fouilh\u00e9 et al.\nExp la nationFrameworkEFCC\nFig.2:Communicationprotocolbetweentheuser,thetranslatorsandtheexpla-\nnationframework.Inadditiontotheinformationprovidedinthemessages,each\nagent has access to the planning task and the iteration step. For a goal trans-\nlation (green, top left) the user directly communicates with . If the user asks\nTGa question (black) the dispatcher chooses one of four routing options (DIRECT,\nFOLLOW-UP, and EFQUERY-GT) depending on the question type\nEFQUERY-noGT\nidentified by .\nTQ\nOtherwise:\n\u2022 It is not possible.\nS-how: \u201cHow can be satisfied?\u201d\n\u2013 args\nE(\u27e8S-how,args\u27e9)=min({C\\Gfalse(\u03c0)| \u2208GMCS(\u03c4,Gref),C\u2229args=\u2205})\nC\n\u2286\nIf E(\u27e8S-how,args\u27e9):\n\u2022 \u2205 \u2208 args can be satisfied without foregoing any goals\nsatisfied by the plan.\nIf E(\u27e8S-how,args\u27e9)=\u2205:\n\u2022 It is not possible.\nOtherwise:\n\u2022 You have to forego one of the goal sets in E(\u27e8S-how,args\u27e9).\nThenumbersofMUSsandMCSscanbeexponentialinthenumberofgoals.For\nany question type , however, a single goal subset suffices. Since\nME \u2208 E(Q)\nQ\nsome conflicts are more relevant or some corrections easier to forego, selecting\nE\u02c6\u2286E(Q) and summarizing E\u02c6is desirable.\n5 LLMs-based Interactive Framework\nWith all components in place, we now describe the implementation of our in-\nteractive framework using LLM-based translators to communicate with EF .\nCC\nEach translator, as well as the planner and EF (treated as black boxes that\nCC\ngenerateplansandexplanationsgivenacorrectinputmessage),isanagent that\ncommunicates with the others. We first present the communication protocol be-\ntween these agents by following the processing of different user question cases,\nand then discuss the specifics of each translator agent.",
   "keywords": [
-    "efquery",
-    "user",
-    "translator",
-    "goal",
-    "qnl",
-    "satisfied",
-    "args args",
-    "io",
-    "args",
-    "black",
+    "framework",
     "question",
-    "possible"
+    "satisfied",
+    "user",
+    "goal",
+    "translator",
+    "type",
+    "args args",
+    "forego",
+    "args",
+    "question type",
+    "communicates"
   ]
 }

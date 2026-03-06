@@ -1,21 +1,22 @@
 {
     "file_name": "OSHAwhite-paper-january2012sm",
     "page_number": 17,
-    "image_title": "Metalworking Process in Factory",
+    "image_title": "Industrial Welding Scene",
     "image_keywords": [
-        "metalworking",
-        "factory",
         "welding",
+        "industrial",
+        "worker",
         "sparks",
-        "machinery"
+        "machine",
+        "safety gear"
     ],
-    "summary": "The image depicts a metalworking process in a factory setting, showcasing a worker engaged in shaping or welding metal components. The worker is wearing protective gear, including a face shield, and is positioned in front of a large machine that appears to be a metal forming or welding device. Sparks are visibly flying from the metal, indicating active work. The background features red safety curtains and various tools and materials typical of a manufacturing environment, emphasizing the industrial context of the scene.",
+    "summary": "The photo depicts an industrial setting where a worker is engaged in welding activities. The individual is wearing protective gear, including a helmet and gloves, while operating a welding machine. Sparks are visibly flying as the worker manipulates a metal piece, indicating active welding. The environment is equipped with safety measures such as a fan and protective barriers, suggesting a focus on safety in the workplace. The scene captures the dynamic and hazardous nature of industrial welding processes.",
     "table_rows": [],
-    "confidence_score": 0.9,
+    "confidence_score": 1.0,
     "image_citation": "extracted_assets\\OSHAwhite-paper-january2012sm\\images\\page17_img1.png",
     "token_usage": {
-        "prompt_tokens": 9778,
-        "completion_tokens": 151,
-        "total_tokens": 9929
+        "prompt_tokens": 1533,
+        "completion_tokens": 148,
+        "total_tokens": 1681
     }
 }

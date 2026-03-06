@@ -1,34 +1,18 @@
 {
     "file_name": "fact-sheet_Q2_25-26",
     "page_number": 1,
-    "image_title": "Client Metrics Overview",
+    "image_title": "Operating Margin",
     "image_keywords": [
-        "Number of Clients",
-        "Active",
-        "Added during the period",
-        "Million dollar clients",
-        "Client contribution to revenues",
-        "Top clients",
-        "Days Sales Outstanding"
+        "Operating Margin",
+        "21.0%"
     ],
-    "summary": "This table presents an overview of client metrics for the quarters ending September 30, 2025, June 30, 2025, and September 30, 2024. It includes the number of active clients, clients added during the period, and the count of clients categorized by revenue thresholds (1 million, 10 million, 50 million, and 100 million dollars). Additionally, it details client contributions to revenues, highlighting the percentage contributions from the top 5, 10, and 25 clients, as well as the Days Sales Outstanding metric. Notably, the number of active clients increased from 1,870 in September 2024 to 1,896 in September 2025, while the Days Sales Outstanding decreased slightly from 73 to 71 over the same period.",
-    "table_rows": [
-        "Active clients: Sep 30 2025 = 1896, Jun 30 2025 = 1861, Sep 30 2024 = 1870",
-        "Added during period: Sep 30 2025 = 118, Jun 30 2025 = 93",
-        "Number of Million dollar clients: 1 Million dollar +: Sep 30 2025 = 1012, Jun 30 2025 = 1011, Sep 30 2024 = 985",
-        "10 Million dollar +: Sep 30 2025 = 322, Jun 30 2025 = 317, Sep 30 2024 = 307",
-        "50 Million dollar +: Sep 30 2025 = 85, Jun 30 2025 = 86",
-        "100 Million dollar +: Sep 30 2025 = 41, Jun 30 2025 = 41",
-        "Client contribution to revenues: Top 5 clients: Sep 30 2025 = 13.0%, Jun 30 2025 = 13.2%, Sep 30 2024 = 13.7%",
-        "Top 10 clients: Sep 30 2025 = 20.7%, Jun 30 2025 = 20.8%, Sep 30 2024 = 20.9%",
-        "Top 25 clients: Sep 30 2025 = 35.2%, Jun 30 2025 = 35.2%, Sep 30 2024 = 34.7%",
-        "Days Sales Outstanding: Sep 30 2025 = 71, Jun 30 2025 = 70, Sep 30 2024 = 73"
-    ],
+    "summary": "This image displays a single data point representing the operating margin, which is 21.0%. The operating margin is a financial metric that indicates the percentage of revenue that remains after covering operating expenses. This value is typically used to assess a company's operational efficiency and profitability.",
+    "table_rows": [],
     "confidence_score": 1.0,
     "image_citation": "extracted_assets\\fact-sheet_Q2_25-26\\tables\\page1_table2.png",
     "token_usage": {
-        "prompt_tokens": 21112,
-        "completion_tokens": 607,
-        "total_tokens": 21719
+        "prompt_tokens": 1533,
+        "completion_tokens": 100,
+        "total_tokens": 1633
     }
 }

@@ -1,0 +1,32 @@
+{
+    "file_name": "fact-sheet_Q4_24-25",
+    "page_number": 1,
+    "image_title": "Quarterly Revenue and YoY Growth by Region",
+    "image_keywords": [
+        "North America",
+        "Europe",
+        "Rest of the world",
+        "India",
+        "Mar 31, 2025",
+        "Dec 31, 2024",
+        "Mar 31, 2024",
+        "YoY Growth",
+        "Reported",
+        "CC"
+    ],
+    "summary": "The table presents quarterly revenue data and year-over-year (YoY) growth percentages for different regions, including North America, Europe, Rest of the World, and India, for the quarters ending March 31, 2025, December 31, 2024, and March 31, 2024. It highlights the reported and constant currency (CC) growth rates. North America shows a slight decline in revenue over the periods, while Europe exhibits significant growth, particularly in CC terms. India demonstrates the highest YoY growth, indicating a strong performance. The total revenue remains consistent across the quarters, with notable growth in both reported and CC terms.",
+    "table_rows": [
+        "North America: Mar 31 2025 = 57.1, Dec 31 2024 = 58.4, Mar 31 2024 = 59.6, Reported = (0.8), CC = (0.4)",
+        "Europe: Mar 31 2025 = 31.2, Dec 31 2024 = 29.8, Mar 31 2024 = 28.6, Reported = 12.9, CC = 15.0",
+        "Rest of the world: Mar 31 2025 = 8.8, Dec 31 2024 = 8.7, Mar 31 2024 = 9.6, Reported = (4.5), CC = (2.2)",
+        "India: Mar 31 2025 = 2.9, Dec 31 2024 = 3.1, Mar 31 2024 = 2.2, Reported = 39.0, CC = 43.7",
+        "Total: Mar 31 2025 = 100.0, Dec 31 2024 = 100.0, Mar 31 2024 = 100.0, Reported = 3.6, CC = 4.8"
+    ],
+    "confidence_score": 1.0,
+    "image_citation": "extracted_assets\\fact-sheet_Q4_24-25\\tables\\page1_table12.png",
+    "token_usage": {
+        "prompt_tokens": 1873,
+        "completion_tokens": 523,
+        "total_tokens": 2396
+    }
+}

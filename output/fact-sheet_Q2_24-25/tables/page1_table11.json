@@ -1,0 +1,42 @@
+{
+    "file_name": "fact-sheet_Q2_24-25",
+    "page_number": 1,
+    "image_title": "Quarterly Industry Performance and YoY Growth",
+    "image_keywords": [
+        "Financial services",
+        "Retail",
+        "Communication",
+        "Energy",
+        "Utilities",
+        "Resources",
+        "Manufacturing",
+        "Hi-Tech",
+        "Life Sciences",
+        "Others",
+        "Sep 30 2024",
+        "Jun 30 2024",
+        "Sep 30 2023",
+        "YoY Growth",
+        "Reported",
+        "CC"
+    ],
+    "summary": "The table presents the quarterly performance of various industries for the periods ending September 30, 2024, June 30, 2024, and September 30, 2023, along with their year-over-year (YoY) growth in both reported and constant currency (CC) terms. Key industries include Financial Services, Retail, Communication, Energy, Utilities, Resources & Services, Manufacturing, Hi-Tech, Life Sciences, and Others. The data shows that Financial Services consistently held the largest share across all quarters, while Retail experienced a notable decline in YoY growth. Manufacturing showed significant growth, particularly in the reported YoY figures. The total percentage for each quarter sums to 100%, indicating a comprehensive distribution across sectors.",
+    "table_rows": [
+        "Financial services: Sep 30 2024 = 27.2, Jun 30 2024 = 27.5, Sep 30 2023 = 27.5, Reported YoY Growth = 2.8, CC YoY Growth = 2.3",
+        "Retail: Sep 30 2024 = 13.3, Jun 30 2024 = 13.8, Sep 30 2023 = 15.2, Reported YoY Growth = (9.2), CC YoY Growth = (9.6)",
+        "Communication: Sep 30 2024 = 11.9, Jun 30 2024 = 12.1, Sep 30 2023 = 11.4, Reported YoY Growth = 7.9, CC YoY Growth = 7.0",
+        "Energy, Utilities, Resources & Services: Sep 30 2024 = 13.5, Jun 30 2024 = 13.3, Sep 30 2023 = 12.7, Reported YoY Growth = 10.7, CC YoY Growth = 10.9",
+        "Manufacturing: Sep 30 2024 = 15.7, Jun 30 2024 = 14.7, Sep 30 2023 = 14.3, Reported YoY Growth = 13.5, CC YoY Growth = 12.3",
+        "Hi-Tech: Sep 30 2024 = 8.0, Jun 30 2024 = 8.0, Sep 30 2023 = 7.8, Reported YoY Growth = 5.6, CC YoY Growth = 6.0",
+        "Life Sciences: Sep 30 2024 = 7.3, Jun 30 2024 = 7.3, Sep 30 2023 = 7.3, Reported YoY Growth = (2.8), CC YoY Growth = (3.5)",
+        "Others: Sep 30 2024 = 3.1, Jun 30 2024 = 3.3, Sep 30 2023 = 3.3, Reported YoY Growth = (2.4), CC YoY Growth = (1.2)",
+        "Total: Sep 30 2024 = 100.0, Jun 30 2024 = 100.0, Sep 30 2023 = 100.0, Reported YoY Growth = 3.7, CC YoY Growth = 3.3"
+    ],
+    "confidence_score": 1.0,
+    "image_citation": "extracted_assets\\fact-sheet_Q2_24-25\\tables\\page1_table11.png",
+    "token_usage": {
+        "prompt_tokens": 1873,
+        "completion_tokens": 838,
+        "total_tokens": 2711
+    }
+}

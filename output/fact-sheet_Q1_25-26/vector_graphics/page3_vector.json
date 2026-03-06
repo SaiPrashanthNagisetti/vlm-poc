@@ -6,26 +6,42 @@
         "Revenues",
         "Cost of sales",
         "Gross Profit",
+        "Operating Expenses",
         "Operating Profit",
         "Net Profit",
         "EPS",
-        "Fiscal 2026",
-        "Financial Statement"
+        "Diluted EPS",
+        "Dividend Per Share",
+        "Jun 30, 2025",
+        "Jun 30, 2024",
+        "Mar 31, 2025"
     ],
-    "summary": "This table presents the consolidated statement of comprehensive income for Infosys for the three months ended June 30, 2025, and June 30, 2024, along with quarter-over-quarter comparisons for March 31, 2025. Key metrics include revenues, cost of sales, gross profit, operating profit, and net profit, with year-over-year growth percentages provided. Notably, revenues increased by 4.8% YoY, while net profit before non-controlling interests rose by 5.8% YoY. The operating margin remained stable at around 20.8%, indicating consistent profitability. The data highlights trends in financial performance, with a focus on growth in key areas such as operating expenses and net profit.",
+    "summary": "The document is a fact sheet titled 'Consolidated Financial Data - First Quarter, Fiscal 2026' from Infosys, presenting a comprehensive statement of income for three months ending on June 30, 2025, June 30, 2024, and March 31, 2025. It includes financial metrics such as revenues, cost of sales, gross profit, operating expenses, and net profit, both before and after non-controlling interests. The data is presented in both US dollars and Indian rupees, showing year-over-year and quarter-over-quarter growth percentages. Notable insights include a 4.8% year-over-year growth in revenues and a 5.8% growth in net profit before non-controlling interests for the period ending June 30, 2025. The document also highlights operating margins and earnings per share, providing a detailed financial overview for stakeholders.",
     "table_rows": [
-        "Revenues: Jun 30 2025 = 4,941, Jun 30 2024 = 4,714, Growth % YoY = 4.8%, Mar 31 2025 = 4,730, Growth % QoQ = 4.5%",
-        "Cost of sales: Jun 30 2025 = 3,416, Jun 30 2024 = 3,259, Growth % YoY = 4.8%, Mar 31 2025 = 3,302, Growth % QoQ = 3.5%",
-        "Gross Profit: Jun 30 2025 = 1,525, Jun 30 2024 = 1,455, Growth % YoY = 4.8%, Mar 31 2025 = 1,428, Growth % QoQ = 6.8%",
-        "Operating Profit: Jun 30 2025 = 1,028, Jun 30 2024 = 994, Growth % YoY = 3.4%, Mar 31 2025 = 992, Growth % QoQ = 3.6%",
-        "Net Profit (before non-controlling interests): Jun 30 2025 = 309, Jun 30 2024 = 764, Growth % YoY = 5.8%, Mar 31 2025 = 814, Growth % QoQ = -0.6%",
-        "Basic EPS ($): Jun 30 2025 = 0.20, Jun 30 2024 = 0.18, Growth % YoY = 5.8%, Mar 31 2025 = 0.20, Growth % QoQ = -0.6%"
+        "Revenues: Jun 30 2025 = 4,941, Jun 30 2024 = 4,714, Mar 31 2025 = 4,730",
+        "Cost of sales: Jun 30 2025 = 3,416, Jun 30 2024 = 3,259, Mar 31 2025 = 3,302",
+        "Gross Profit: Jun 30 2025 = 1,525, Jun 30 2024 = 1,455, Mar 31 2025 = 1,428",
+        "Operating Expenses: Jun 30 2025 = 497, Jun 30 2024 = 461, Mar 31 2025 = 436",
+        "Operating Profit: Jun 30 2025 = 1,028, Jun 30 2024 = 994, Mar 31 2025 = 992",
+        "Net Profit (before non-controlling interests): Jun 30 2025 = 809, Jun 30 2024 = 764, Mar 31 2025 = 814",
+        "Net Profit (after non-controlling interests): Jun 30 2025 = 809, Jun 30 2024 = 763, Mar 31 2025 = 813",
+        "Basic EPS ($): Jun 30 2025 = 0.20, Jun 30 2024 = 0.18, Mar 31 2025 = 0.20",
+        "Diluted EPS ($): Jun 30 2025 = 0.19, Jun 30 2024 = 0.18, Mar 31 2025 = 0.20",
+        "Revenues: Jun 30 2025 = 42,279, Jun 30 2024 = 39,315, Mar 31 2025 = 40,925",
+        "Cost of sales: Jun 30 2025 = 29,224, Jun 30 2024 = 27,177, Mar 31 2025 = 28,575",
+        "Gross Profit: Jun 30 2025 = 13,055, Jun 30 2024 = 12,138, Mar 31 2025 = 12,350",
+        "Operating Expenses: Jun 30 2025 = 4,252, Jun 30 2024 = 3,850, Mar 31 2025 = 3,775",
+        "Operating Profit: Jun 30 2025 = 8,803, Jun 30 2024 = 8,288, Mar 31 2025 = 8,575",
+        "Net Profit (before non-controlling interests): Jun 30 2025 = 6,924, Jun 30 2024 = 6,374, Mar 31 2025 = 7,038",
+        "Net Profit (after non-controlling interests): Jun 30 2025 = 6,921, Jun 30 2024 = 6,368, Mar 31 2025 = 7,033",
+        "Basic EPS (\u20b9): Jun 30 2025 = 16.70, Jun 30 2024 = 15.38, Mar 31 2025 = 16.98",
+        "Diluted EPS (\u20b9): Jun 30 2025 = 16.68, Jun 30 2024 = 15.35, Mar 31 2025 = 16.94"
     ],
-    "confidence_score": 0.95,
+    "confidence_score": 1.0,
     "image_citation": "extracted_assets\\fact-sheet_Q1_25-26\\vector_graphics\\page3_vector.png",
     "token_usage": {
-        "prompt_tokens": 26779,
-        "completion_tokens": 596,
-        "total_tokens": 27375
+        "prompt_tokens": 2043,
+        "completion_tokens": 1060,
+        "total_tokens": 3103
     }
 }

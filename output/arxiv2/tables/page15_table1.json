@@ -1,0 +1,20 @@
+{
+    "file_name": "arxiv2",
+    "page_number": 15,
+    "image_title": "Comparison of LLM-based and Template-based Methods",
+    "image_keywords": [
+        "LLM-based",
+        "Template-based",
+        "comparison",
+        "bar chart"
+    ],
+    "summary": "The bar chart compares the performance or usage of LLM-based and Template-based methods. The chart features two categories, with LLM-based represented by orange bars and Template-based by blue bars. The LLM-based method shows a significantly higher value compared to the Template-based method, indicating a notable difference in performance or preference between the two approaches.",
+    "table_rows": [],
+    "confidence_score": 0.9,
+    "image_citation": "extracted_assets\\arxiv2\\tables\\page15_table1.png",
+    "token_usage": {
+        "prompt_tokens": 1533,
+        "completion_tokens": 128,
+        "total_tokens": 1661
+    }
+}

@@ -4,18 +4,18 @@
     "image_title": "Construction Site Meeting",
     "image_keywords": [
         "construction",
-        "workers",
-        "safety helmets",
+        "safety gear",
+        "hard hats",
         "meeting",
-        "industrial"
+        "industrial setting"
     ],
-    "summary": "The image depicts a construction site where three workers are engaged in a discussion. Two of the workers, wearing safety helmets and vests, are conversing with a third individual in a suit, who appears to be reviewing a document. The setting is characterized by large windows allowing natural light, and additional workers can be seen in the background, indicating an active work environment. This scene highlights the collaboration between management and labor on safety or project details.",
+    "summary": "The photo depicts a scene at a construction site where three individuals are engaged in a discussion. Two of them are wearing safety gear, including hard hats and reflective vests, indicating their roles in construction or site management. The third person, dressed in a suit and also wearing a hard hat, appears to be reviewing documents or plans with the others. The setting is an industrial environment with large windows and structural elements visible in the background, suggesting an ongoing construction or inspection process. The presence of additional workers in the background further emphasizes the active nature of the site.",
     "table_rows": [],
-    "confidence_score": 0.9,
+    "confidence_score": 1.0,
     "image_citation": "extracted_assets\\OSHAwhite-paper-january2012sm\\images\\page2_img1.png",
     "token_usage": {
-        "prompt_tokens": 15445,
-        "completion_tokens": 143,
-        "total_tokens": 15588
+        "prompt_tokens": 1703,
+        "completion_tokens": 168,
+        "total_tokens": 1871
     }
 }

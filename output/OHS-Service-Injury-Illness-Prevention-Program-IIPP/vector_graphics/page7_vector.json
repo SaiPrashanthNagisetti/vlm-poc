@@ -1,0 +1,24 @@
+{
+    "file_name": "OHS-Service-Injury-Illness-Prevention-Program-IIPP",
+    "page_number": 7,
+    "image_title": "Cal/OSHA Serious Injury Reporting Guidelines",
+    "image_keywords": [
+        "Cal/OSHA",
+        "serious injury",
+        "illness",
+        "reporting",
+        "EH&S",
+        "incident investigation",
+        "SU-17",
+        "SU-17B"
+    ],
+    "summary": "The document outlines the criteria for reporting serious injuries or illnesses to Cal/OSHA, defining them as incidents involving inpatient hospitalization, amputation, loss of an eye, or permanent disfigurement. It emphasizes the responsibility of EH&S to report such incidents immediately and provides a link to detailed procedures. Additionally, it mentions standardized forms for reporting workplace incidents, specifically the SU-17 Incident Investigation Report Form and the SU-17B Non-Employee Incident Report Form for non-employees. The document serves as a guideline for compliance with occupational safety regulations.",
+    "table_rows": [],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\OHS-Service-Injury-Illness-Prevention-Program-IIPP\\vector_graphics\\page7_vector.png",
+    "token_usage": {
+        "prompt_tokens": 2043,
+        "completion_tokens": 201,
+        "total_tokens": 2244
+    }
+}

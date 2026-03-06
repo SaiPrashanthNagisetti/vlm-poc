@@ -1,22 +1,24 @@
 {
     "file_name": "arxiv2",
     "page_number": 25,
-    "image_title": "Parent and Son Music Lesson Scenario",
+    "image_title": "Unsatisfied Goals Analysis",
     "image_keywords": [
-        "parent",
-        "son",
-        "music lesson",
+        "parent does sports",
+        "son attends music lesson",
+        "music school",
+        "14:00",
         "guitar",
-        "schedule",
-        "transportation"
+        "one hour",
+        "space in car",
+        "unsatisfied goals"
     ],
-    "summary": "This visual presents a scenario involving a parent bringing their son to a music lesson at a specified time of 14:00. The parent is responsible for transporting both the son and his guitar, which occupies one unit of space in the car. The visual highlights the need for the parent to ensure that the son attends the lesson while also addressing potential conflicts with other activities, such as sports. The context suggests a focus on scheduling and the logistics of managing multiple commitments.",
+    "summary": "The image is a diagram titled 'Unsatisfied Goals Analysis' that outlines a scenario where a parent takes their son to a music school for a one-hour guitar lesson at 14:00. The diagram highlights unsatisfied goals, specifically focusing on the goal 'son attends music lesson.' It presents a situation where both the son and the guitar occupy one unit of space in the car, and the parent does not need to stay during the lesson. The diagram includes questions and conditions that need to be addressed to satisfy the goal, such as 'daughter does soccer training' and 'grandma buys groceries.' The visual is structured to analyze and resolve the unsatisfied goal by exploring related conditions and questions.",
     "table_rows": [],
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\arxiv2\\images\\page25_img1.png",
     "token_usage": {
-        "prompt_tokens": 9778,
-        "completion_tokens": 154,
-        "total_tokens": 9932
+        "prompt_tokens": 1533,
+        "completion_tokens": 226,
+        "total_tokens": 1759
     }
 }

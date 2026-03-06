@@ -1,0 +1,21 @@
+{
+    "file_name": "fact-sheet_Q2_25-26",
+    "page_number": 4,
+    "image_title": "Financial Statement Note",
+    "image_keywords": [
+        "Other Income",
+        "Finance Cost",
+        "quarter figures",
+        "six months ended",
+        "rounded digits"
+    ],
+    "summary": "This image contains a note from a financial statement explaining that 'Other Income' is net of finance cost. It further clarifies that figures for the quarter and six months ended are sourced and rounded to the nearest digits, which may result in discrepancies when adding quarter figures to match the six-month totals reported in the statement. This note is crucial for understanding potential variances in reported financial data over different periods.",
+    "table_rows": [],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet_Q2_25-26\\tables\\page4_table2.png",
+    "token_usage": {
+        "prompt_tokens": 1873,
+        "completion_tokens": 147,
+        "total_tokens": 2020
+    }
+}

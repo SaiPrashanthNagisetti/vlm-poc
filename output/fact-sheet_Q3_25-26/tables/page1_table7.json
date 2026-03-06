@@ -1,0 +1,19 @@
+{
+    "file_name": "fact-sheet_Q3_25-26",
+    "page_number": 1,
+    "image_title": "CC Growth Metrics",
+    "image_keywords": [
+        "0.6% QoQ",
+        "1.7% YoY",
+        "CC Growth"
+    ],
+    "summary": "The image presents key growth metrics for CC, highlighting a quarter-over-quarter (QoQ) growth of 0.6% and a year-over-year (YoY) growth of 1.7%. These figures indicate the percentage increase in CC over the respective time periods, providing insight into the company's performance and growth trends.",
+    "table_rows": [],
+    "confidence_score": 0.9,
+    "image_citation": "extracted_assets\\fact-sheet_Q3_25-26\\tables\\page1_table7.png",
+    "token_usage": {
+        "prompt_tokens": 1533,
+        "completion_tokens": 123,
+        "total_tokens": 1656
+    }
+}

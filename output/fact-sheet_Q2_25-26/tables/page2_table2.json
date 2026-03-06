@@ -1,24 +1,26 @@
 {
     "file_name": "fact-sheet_Q2_25-26",
     "page_number": 2,
-    "image_title": "Quarterly Financial Metrics",
+    "image_title": "Quarterly Financial Data",
     "image_keywords": [
         "Free cash flow",
         "Consolidated cash and investments",
-        "Sep 30 2025",
-        "Jun 30 2025",
-        "Sep 30 2024"
+        "Sep 30, 2025",
+        "Jun 30, 2025",
+        "Sep 30, 2024",
+        "financial data",
+        "quarterly report"
     ],
-    "summary": "This table presents key financial metrics for a company, specifically focusing on free cash flow and consolidated cash and investments for three quarters: September 30, 2025, June 30, 2025, and September 30, 2024. The free cash flow shows an increasing trend, rising from 7,010 crore in September 2024 to 9,677 crore in September 2025. Similarly, consolidated cash and investments also demonstrate growth, increasing from 38,767 crore in September 2024 to 54,809 crore in September 2025. These figures indicate a positive financial trajectory over the observed periods.",
+    "summary": "The table presents quarterly financial data for free cash flow and consolidated cash and investments over three periods: September 30, 2025, June 30, 2025, and September 30, 2024. It shows an increase in free cash flow from 7,010 crore in September 2024 to 9,677 crore in September 2025. Similarly, consolidated cash and investments rose from 38,767 crore in September 2024 to 54,809 crore in September 2025. This indicates a positive financial trend over the observed periods.",
     "table_rows": [
         "Free cash flow: Sep 30 2025 = 9,677, Jun 30 2025 = 7,533, Sep 30 2024 = 7,010",
         "Consolidated cash and investments: Sep 30 2025 = 54,809, Jun 30 2025 = 45,204, Sep 30 2024 = 38,767"
     ],
-    "confidence_score": 0.95,
+    "confidence_score": 1.0,
     "image_citation": "extracted_assets\\fact-sheet_Q2_25-26\\tables\\page2_table2.png",
     "token_usage": {
-        "prompt_tokens": 21112,
-        "completion_tokens": 294,
-        "total_tokens": 21406
+        "prompt_tokens": 1873,
+        "completion_tokens": 303,
+        "total_tokens": 2176
     }
 }

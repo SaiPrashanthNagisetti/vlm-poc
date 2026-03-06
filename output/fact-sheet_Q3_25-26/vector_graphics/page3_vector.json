@@ -3,28 +3,41 @@
     "page_number": 3,
     "image_title": "Consolidated Financial Data - Third Quarter, Fiscal 2026",
     "image_keywords": [
+        "Consolidated statement",
+        "Comprehensive Income",
+        "IFRS",
+        "Non-IFRS",
         "Revenues",
-        "Operating Profit",
+        "Gross Profit",
+        "Operating Expenses",
         "Net Profit",
         "EPS",
-        "Growth",
-        "Financial Statement"
+        "Dec 31 2025",
+        "Dec 31 2024",
+        "Sep 30 2025"
     ],
-    "summary": "This table presents the consolidated statement of comprehensive income for Infosys for the three months ended December 31, 2025, and December 31, 2024, along with growth percentages year-over-year (YoY) and quarter-over-quarter (QoQ). Key metrics include revenues, operating profit, and net profit, with revenues increasing by 3.2% YoY to $5,099 million, while operating profit decreased by 11.0% YoY to $937 million. The operating margin also saw a decline from 21.3% to 18.4%. Notably, the net profit after non-controlling interests was $747 million, reflecting a 7.2% decrease compared to the previous year. The table also includes a reconciliation of reported IFRS financial measures to adjusted non-IFRS financial measures, highlighting adjustments for labor codes and their impact on operating profit and net profit.",
+    "summary": "The document is a fact sheet titled 'Consolidated Financial Data - Third Quarter, Fiscal 2026' and presents a comprehensive income statement for three and nine months ended, extracted from IFRS financial statements. It includes key financial metrics such as revenues, cost of sales, gross profit, operating expenses, and net profit for the periods ending December 31, 2025, December 31, 2024, and September 30, 2025. The table highlights growth percentages year-over-year and quarter-over-quarter, with notable figures such as a 3.2% increase in revenues from December 2024 to December 2025 and a 7.2% decrease in net profit over the same period. Additionally, it reconciles reported IFRS financial measures to adjusted non-IFRS measures, showing adjustments for labor codes. The nine-month data shows a 3.9% revenue growth and a slight decline in operating profit margin.",
     "table_rows": [
-        "Revenues: Dec 31 2025 = 5099, Dec 31 2024 = 4939, Growth % YoY = 3.2%, Sep 30 2025 = 5076, Growth % QoQ = 0.5%",
-        "Cost of sales: Dec 31 2025 = 3660, Dec 31 2024 = 3444, Growth % YoY = 6.3%, Sep 30 2025 = 3516, Growth % QoQ = 4.1%",
-        "Gross Profit: Dec 31 2025 = 1439, Dec 31 2024 = 1495, Growth % YoY = -3.7%, Sep 30 2025 = 1560, Growth % QoQ = -7.8%",
-        "Operating Profit: Dec 31 2025 = 937, Dec 31 2024 = 1053, Growth % YoY = -11.0%, Sep 30 2025 = 1065, Growth % QoQ = -12.0%",
+        "Revenues: Dec 31 2025 = 5,099, Dec 31 2024 = 4,939, Sep 30 2025 = 5,076",
+        "Cost of sales: Dec 31 2025 = 3,660, Dec 31 2024 = 3,444, Sep 30 2025 = 3,516",
+        "Gross Profit: Dec 31 2025 = 1,439, Dec 31 2024 = 1,495, Sep 30 2025 = 1,560",
+        "Selling and marketing expenses: Dec 31 2025 = 257, Dec 31 2024 = 218, Sep 30 2025 = 254",
+        "Administrative expenses: Dec 31 2025 = 245, Dec 31 2024 = 224, Sep 30 2025 = 241",
+        "Total Operating Expenses: Dec 31 2025 = 502, Dec 31 2024 = 442, Sep 30 2025 = 495",
+        "Operating Profit: Dec 31 2025 = 937, Dec 31 2024 = 1,053, Sep 30 2025 = 1,065",
         "Operating Margin %: Dec 31 2025 = 18.4, Dec 31 2024 = 21.3, Sep 30 2025 = 21.0",
-        "Net Profit (after non-controlling interests): Dec 31 2025 = 747, Dec 31 2024 = 804, Growth % YoY = -7.2%, Sep 30 2025 = 825, Growth % QoQ = -11.0%",
-        "Basic EPS ($): Dec 31 2025 = 0.18, Dec 31 2024 = 0.19, Growth % YoY = -6.6%, Sep 30 2025 = 0.20, Growth % QoQ = -10.4%"
+        "Other Income, net of finance cost: Dec 31 2025 = 98, Dec 31 2024 = 90, Sep 30 2025 = 100",
+        "Profit before income taxes: Dec 31 2025 = 1,035, Dec 31 2024 = 1,143, Sep 30 2025 = 1,165",
+        "Income tax expense: Dec 31 2025 = 287, Dec 31 2024 = 337, Sep 30 2025 = 325",
+        "Net Profit (after non-controlling interests): Dec 31 2025 = 747, Dec 31 2024 = 804, Sep 30 2025 = 839",
+        "Basic EPS ($): Dec 31 2025 = 0.18, Dec 31 2024 = 0.19, Sep 30 2025 = 0.20",
+        "Diluted EPS ($): Dec 31 2025 = 0.18, Dec 31 2024 = 0.19, Sep 30 2025 = 0.20"
     ],
     "confidence_score": 0.95,
     "image_citation": "extracted_assets\\fact-sheet_Q3_25-26\\vector_graphics\\page3_vector.png",
     "token_usage": {
-        "prompt_tokens": 26779,
-        "completion_tokens": 654,
-        "total_tokens": 27433
+        "prompt_tokens": 2043,
+        "completion_tokens": 879,
+        "total_tokens": 2922
     }
 }

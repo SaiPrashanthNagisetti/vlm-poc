@@ -1,0 +1,20 @@
+{
+    "file_name": "fact-sheet_Q4_25-26",
+    "page_number": 1,
+    "image_title": "YTD EPS Increase",
+    "image_keywords": [
+        "6.6% Reported",
+        "11.5% Adjusted",
+        "YTD EPS Increase",
+        "\u20b9 terms"
+    ],
+    "summary": "The image is a text-based visual highlighting the year-to-date (YTD) earnings per share (EPS) increase in terms of Indian Rupees (\u20b9). It reports a 6.6% increase in the reported EPS and an 11.5% increase in the adjusted EPS. This suggests a significant improvement in the company's earnings performance over the specified period, with the adjusted figures indicating a more favorable financial outcome when accounting for specific adjustments.",
+    "table_rows": [],
+    "confidence_score": 1.0,
+    "image_citation": "extracted_assets\\fact-sheet_Q4_25-26\\tables\\page1_table5.png",
+    "token_usage": {
+        "prompt_tokens": 1533,
+        "completion_tokens": 154,
+        "total_tokens": 1687
+    }
+}

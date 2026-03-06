@@ -1,25 +1,26 @@
 {
     "file_name": "arxiv1",
     "page_number": 5,
-    "image_title": "Pseudo-code for TTRL",
+    "image_title": "Pseudo-code for T3RL",
     "image_keywords": [
-        "TTRL",
+        "T3RL",
         "pseudo-code",
-        "reinforcement learning",
-        "policy",
         "verifier",
         "sandbox",
-        "evidence",
+        "policy",
+        "reward function",
         "vote",
-        "majority pseudo-label"
+        "evidence",
+        "y_star",
+        "rewards"
     ],
-    "summary": "The visual presents pseudo-code for the Test-Time Reinforcement Learning (TTRL) method, illustrating the process of generating evidence and making decisions based on a policy and verifier. The code outlines the steps involved in executing a policy, verifying the output, and aggregating results through a weighted majority voting mechanism. Key components include the generation of evidence from the verifier, the execution of code snippets, and the calculation of a final vote based on the evidence collected. This method aims to enhance performance across various benchmarks in reinforcement learning by ensuring the accuracy of responses.",
+    "summary": "The image contains a pseudo-code listing for T3RL, a method involving a policy, verifier, and sandbox to generate and evaluate code. The process includes generating code, executing it in a sandbox, parsing evidence, and judging the output to form a weighted majority pseudo-label. The code snippet highlights the use of a default dictionary to store votes and calculate rewards based on the majority vote. The pseudo-code is part of a broader discussion on experimental setups and results for T3RL, which is evaluated on mathematical reasoning benchmarks, demonstrating improvements over previous models in terms of accuracy and computational efficiency.",
     "table_rows": [],
-    "confidence_score": 0.9,
+    "confidence_score": 0.95,
     "image_citation": "extracted_assets\\arxiv1\\vector_graphics\\page5_vector.png",
     "token_usage": {
-        "prompt_tokens": 26779,
-        "completion_tokens": 185,
-        "total_tokens": 26964
+        "prompt_tokens": 2043,
+        "completion_tokens": 209,
+        "total_tokens": 2252
     }
 }

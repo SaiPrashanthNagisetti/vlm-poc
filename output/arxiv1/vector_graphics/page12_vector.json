@@ -1,0 +1,32 @@
+{
+    "file_name": "arxiv1",
+    "page_number": 12,
+    "image_title": "Qualitative Examples of Model Failure Modes",
+    "image_keywords": [
+        "blind copying",
+        "hardcoded outputs",
+        "formatting errors",
+        "compilation errors",
+        "Python syntax",
+        "T3RL",
+        "verifier capacity",
+        "AIME 2024",
+        "AMC",
+        "MATH-500"
+    ],
+    "summary": "The image presents qualitative examples of two primary failure modes encountered when deploying an undersized verifier in a model. The left side illustrates blind copying and hardcoded outputs, where the model hallucinates reasoning in code comments and outputs an unverified final answer. The right side shows formatting and compilation errors, highlighting the model's struggle to maintain valid Python syntax, leading to endless comments and compilation errors. The table below compares the performance of different models and methods, including Qwen-2.5-0.5B Vanilla and T3RL, across metrics such as AIME 2024, AMC, and MATH-500. The results indicate that T3RL requires a minimum verifier capacity to function effectively, as undersized verifiers contribute to stochastic noise rather than reliable grounding.",
+    "table_rows": [
+        "Model/Method: Qwen-2.5-0.5B Vanilla (Baseline), AIME 2024 = 0.0, AMC = 4.8, MATH-500 = 7.9, Avg = 4.2",
+        "Model/Method: w/ TTRL, AIME 2024 = 0.4, AMC = 12.0, MATH-500 = 34.6, Avg = 15.7",
+        "Model/Method: w/ T3RL (0.5B verifier), AIME 2024 = 0.0, AMC = 10.8, MATH-500 = 32.0, Avg = 14.3",
+        "Model/Method: \u0394 (T3RL - TTRL), AIME 2024 = -0.4, AMC = -1.2, MATH-500 = -2.6, Avg = -1.4",
+        "Model/Method: Rel. (% over TTRL), AIME 2024 = \u2193100.0%, AMC = \u219310.0%, MATH-500 = \u21937.5%, Avg = \u21938.9%"
+    ],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\arxiv1\\vector_graphics\\page12_vector.png",
+    "token_usage": {
+        "prompt_tokens": 2043,
+        "completion_tokens": 515,
+        "total_tokens": 2558
+    }
+}

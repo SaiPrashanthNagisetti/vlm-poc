@@ -1,37 +1,22 @@
 {
     "file_name": "fact-sheet_Q4_24-25",
     "page_number": 1,
-    "image_title": "Client Metrics Overview",
+    "image_title": "Financial Metrics Overview",
     "image_keywords": [
-        "Number of Clients",
-        "Active",
-        "Added during the period",
-        "Million dollar clients",
-        "Client contribution to revenues",
-        "Days Sales Outstanding",
-        "Mar 31 2025",
-        "Dec 31 2024",
-        "Mar 31 2024"
+        "Large Deal TCV",
+        "Free Cash Flow",
+        "$11.6 Bn FY",
+        "$2.6 Bn Q4",
+        "$4.1 Bn FY",
+        "$0.9 Bn Q4"
     ],
-    "summary": "This table presents an overview of client metrics for the quarters ending March 31, 2025, December 31, 2024, and March 31, 2024. It includes the number of active clients, clients added during the period, and the count of million-dollar clients across various thresholds. Notably, the number of active clients decreased slightly from 1,882 in March 2024 to 1,869 in March 2025. The table also highlights client contributions to revenues, with the top 5 clients contributing 13.1% in March 2025, a slight increase from 12.7% in December 2024. Additionally, the Days Sales Outstanding metric shows a decrease from 74 days in December 2024 to 69 days in March 2025, indicating improved efficiency in collections.",
-    "table_rows": [
-        "Active clients: Mar 31 2025 = 1869, Dec 31 2024 = 1876, Mar 31 2024 = 1882",
-        "Added during period: Mar 31 2025 = 91, Dec 31 2024 = 101, Mar 31 2024 = 98",
-        "Number of Million dollar clients: Mar 31 2025 = 992, Dec 31 2024 = 997, Mar 31 2024 = 959",
-        "1 Million dollar +: Mar 31 2025 = 992, Dec 31 2024 = 997, Mar 31 2024 = 959",
-        "10 Million dollar +: Mar 31 2025 = 309, Dec 31 2024 = 301, Mar 31 2024 = 315",
-        "50 Million dollar +: Mar 31 2025 = 85, Dec 31 2024 = 89, Mar 31 2024 = 83",
-        "100 Million dollar +: Mar 31 2025 = 39, Dec 31 2024 = 41, Mar 31 2024 = 40",
-        "Client contribution to revenues: Top 5 clients: Mar 31 2025 = 13.1%, Dec 31 2024 = 12.7%, Mar 31 2024 = 13.6%",
-        "Top 10 clients: Mar 31 2025 = 20.7%, Dec 31 2024 = 19.9%, Mar 31 2024 = 20.4%",
-        "Top 25 clients: Mar 31 2025 = 34.8%, Dec 31 2024 = 34.2%, Mar 31 2024 = 34.3%",
-        "Days Sales Outstanding: Mar 31 2025 = 69, Dec 31 2024 = 74, Mar 31 2024 = 71"
-    ],
+    "summary": "The image presents a comparison of financial metrics for a fiscal year and the fourth quarter. The first section highlights a 'Large Deal TCV' with values of $11.6 billion for the fiscal year and $2.6 billion for the fourth quarter. The second section focuses on 'Free Cash Flow,' showing $4.1 billion for the fiscal year and $0.9 billion for the fourth quarter. This visual provides a snapshot of key financial figures, emphasizing the total contract value and cash flow performance over specified periods.",
+    "table_rows": [],
     "confidence_score": 0.95,
     "image_citation": "extracted_assets\\fact-sheet_Q4_24-25\\tables\\page1_table4.png",
     "token_usage": {
-        "prompt_tokens": 21112,
-        "completion_tokens": 694,
-        "total_tokens": 21806
+        "prompt_tokens": 1533,
+        "completion_tokens": 197,
+        "total_tokens": 1730
     }
 }

@@ -3,19 +3,23 @@
     "page_number": 3,
     "image_title": "Tool Verification for Test-Time Reinforcement Learning",
     "image_keywords": [
-        "Reinforcement Learning",
-        "Tool Verification",
-        "LLM Verifier",
+        "T3RL",
+        "Verifier",
+        "LLM",
+        "Tool Integrated LLM",
         "Code Interpreter",
-        "Pseudo Label"
+        "Pseudo Label",
+        "Reinforcement Learning",
+        "Verification Weight",
+        "Test Data"
     ],
-    "summary": "This visual is a flow diagram illustrating the process of tool verification for test-time reinforcement learning (TRL). It depicts how an LLM verifier parses sampled outputs from a model, yielding validity flags for each output. The diagram shows the integration of a code interpreter that executes the sampled outputs to validate them. Key components include the sampling of predictions, the generation of estimated rewards, and the use of majority voting to derive consensus outputs. The process highlights the challenges of spurious reward estimation in self-evolving AI systems, emphasizing the importance of reliable reward signals for stable online learning.",
+    "summary": "The diagram titled 'Tool Verification for Test-Time Reinforcement Learning' illustrates a process where a verifier, using a large language model (LLM), parses sampled rollouts from test data to produce a validity flag for each rollout. The tool verification involves compiling the rollout's computations into Python code and querying a code interpreter for executable evidence. This process results in a verification-aware pseudo-label, where verified rollouts receive weighted votes, and unverified ones receive unit votes. The diagram highlights the integration of a tool with an LLM to enhance the reliability of reinforcement learning by ensuring accurate pseudo-labeling and reducing spurious rewards. Key components include the query, LLM, tool, and pseudo label, with connections showing the flow from test data to the final verification weight.",
     "table_rows": [],
-    "confidence_score": 0.9,
+    "confidence_score": 0.95,
     "image_citation": "extracted_assets\\arxiv1\\vector_graphics\\page3_vector.png",
     "token_usage": {
-        "prompt_tokens": 26779,
-        "completion_tokens": 180,
-        "total_tokens": 26959
+        "prompt_tokens": 2043,
+        "completion_tokens": 247,
+        "total_tokens": 2290
     }
 }

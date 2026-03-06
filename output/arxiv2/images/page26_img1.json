@@ -1,21 +1,23 @@
 {
     "file_name": "arxiv2",
     "page_number": 26,
-    "image_title": "Insights Planning Task Interface",
+    "image_title": "Planning Task Insights",
     "image_keywords": [
-        "planning",
-        "task management",
-        "goal enforcement",
-        "conflict resolution",
-        "user interface"
+        "Parent cleans home",
+        "Parent cooks dinner",
+        "conflicts",
+        "enforced goals",
+        "Alice activities",
+        "Bob activities",
+        "planning task"
     ],
-    "summary": "The visual represents an interactive insights planning task interface designed to assist users in managing and enforcing goals without conflicts. It features a dialogue box where users can ask questions related to their planning tasks, such as enforcing specific goals like 'Parent cleans home' or 'Parent cooks dinner.' The interface provides feedback on potential conflicts with existing goals, highlighting the importance of balancing multiple activities. Key elements include suggested questions for user engagement and a focus on resolving conflicts in goal enforcement, making it a useful tool for effective planning.",
+    "summary": "The image is a screenshot of a planning task insights interface, where a virtual assistant provides guidance on enforcing specific goals without causing conflicts. It addresses whether 'Parent cleans home' or 'Parent cooks dinner' can be enforced without conflicts. The assistant confirms that 'Parent cleans home' can be enforced without issues, but 'Parent cooks dinner' may conflict with other goals, requiring adjustments in Alice's or Bob's activities. The interface allows users to ask questions or choose from suggested queries to better understand the planning task and explore goal combinations.",
     "table_rows": [],
-    "confidence_score": 0.9,
+    "confidence_score": 0.95,
     "image_citation": "extracted_assets\\arxiv2\\images\\page26_img1.png",
     "token_usage": {
-        "prompt_tokens": 15445,
-        "completion_tokens": 159,
-        "total_tokens": 15604
+        "prompt_tokens": 1703,
+        "completion_tokens": 185,
+        "total_tokens": 1888
     }
 }

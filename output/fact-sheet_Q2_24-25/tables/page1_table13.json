@@ -1,0 +1,36 @@
+{
+    "file_name": "fact-sheet_Q2_24-25",
+    "page_number": 1,
+    "image_title": "Client and Revenue Metrics by Quarter",
+    "image_keywords": [
+        "Number of Clients",
+        "Active",
+        "Added during the period",
+        "Million dollar clients",
+        "Client contribution to revenues",
+        "Days Sales Outstanding",
+        "Sep 30 2024",
+        "Jun 30 2024",
+        "Sep 30 2023"
+    ],
+    "summary": "The table presents client and revenue metrics for three quarters ending on September 30, 2024, June 30, 2024, and September 30, 2023. It includes the number of active clients and those added during each period, as well as the number of clients with revenues exceeding one million dollars, segmented into categories of 1 million, 10 million, 50 million, and 100 million dollars. Additionally, it shows client contribution to revenues from the top 5, 10, and 25 clients, along with the Days Sales Outstanding. Notable trends include a slight decrease in active clients from September 2023 to September 2024 and a consistent number of million-dollar clients across the periods.",
+    "table_rows": [
+        "Active: Sep 30 2024 = 1870, Jun 30 2024 = 1867, Sep 30 2023 = 1884",
+        "Added during the period: Sep 30 2024 = 86, Jun 30 2024 = 87, Sep 30 2023 = 100",
+        "1 Million dollar +: Sep 30 2024 = 985, Jun 30 2024 = 987, Sep 30 2023 = 951",
+        "10 Million dollar +: Sep 30 2024 = 307, Jun 30 2024 = 309, Sep 30 2023 = 312",
+        "50 Million dollar +: Sep 30 2024 = 86, Jun 30 2024 = 84, Sep 30 2023 = 80",
+        "100 Million dollar +: Sep 30 2024 = 41, Jun 30 2024 = 40, Sep 30 2023 = 39",
+        "Top 5 clients: Sep 30 2024 = 13.7%, Jun 30 2024 = 13.5%, Sep 30 2023 = 13.3%",
+        "Top 10 clients: Sep 30 2024 = 20.9%, Jun 30 2024 = 20.9%, Sep 30 2023 = 19.9%",
+        "Top 25 clients: Sep 30 2024 = 34.7%, Jun 30 2024 = 34.9%, Sep 30 2023 = 34.1%",
+        "Days Sales Outstanding: Sep 30 2024 = 73, Jun 30 2024 = 72, Sep 30 2023 = 67"
+    ],
+    "confidence_score": 1.0,
+    "image_citation": "extracted_assets\\fact-sheet_Q2_24-25\\tables\\page1_table13.png",
+    "token_usage": {
+        "prompt_tokens": 1873,
+        "completion_tokens": 644,
+        "total_tokens": 2517
+    }
+}

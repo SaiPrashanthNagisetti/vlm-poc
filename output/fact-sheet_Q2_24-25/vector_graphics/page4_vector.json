@@ -3,34 +3,43 @@
     "page_number": 4,
     "image_title": "Consolidated Financial Data - Second Quarter, Fiscal 2025",
     "image_keywords": [
+        "Comprehensive Income",
+        "IFRS Financial Statement",
         "Revenues",
         "Cost of sales",
         "Gross Profit",
-        "Operating Profit",
+        "Operating Expenses",
         "Net Profit",
         "EPS",
         "Dividend Per Share",
-        "Fiscal 2025",
-        "Quarterly Growth",
-        "Yearly Growth"
+        "Sep 30, 2024",
+        "Sep 30, 2023",
+        "Growth"
     ],
-    "summary": "This table presents the consolidated statement of comprehensive income for Infosys for the three and six months ended September 30, 2024, compared to the same periods in 2023. Key metrics include revenues, cost of sales, gross profit, operating profit, and net profit, with growth percentages indicating year-over-year and quarter-over-quarter changes. For the three months, revenues increased by 5.1% to \u20b940,986 crore, while net profit after minority interest rose by 4.8% to \u20b96,506 crore. The six-month figures show a revenue growth of 4.4% to \u20b980,300 crore, with net profit after minority interest increasing by 5.9% to \u20b912,874 crore. The operating margin for both periods reflects stable performance, with notable increases in other income and basic EPS.",
+    "summary": "The image is a table titled 'Consolidated Financial Data - Second Quarter, Fiscal 2025' showing the comprehensive income statement for three and six months ended, extracted from IFRS Financial Statement. It compares financial metrics such as revenues, cost of sales, gross profit, operating expenses, and net profit for the periods ending September 30, 2024, and September 30, 2023. Key insights include a year-over-year revenue growth of 5.1% for the three months ended and 4.4% for the six months ended. The net profit after minority interest increased by 4.7% for the three months and 5.9% for the six months. The table also highlights the basic and diluted EPS and dividend per share, showing a consistent increase in shareholder returns.",
     "table_rows": [
-        "Revenues: Sep 30 2024 = 40,986, Sep 30 2023 = 38,994, Growth % = 5.1%",
-        "Cost of sales: Sep 30 2024 = 28,474, Sep 30 2023 = 27,031, Growth % = 5.3%",
-        "Gross Profit: Sep 30 2024 = 12,512, Sep 30 2023 = 11,963, Growth % = 4.6%",
-        "Total Operating Expenses: Sep 30 2024 = 3,863, Sep 30 2023 = 3,689, Growth % = 4.7%",
-        "Operating Profit: Sep 30 2024 = 8,649, Sep 30 2023 = 8,274, Growth % = 4.6%",
-        "Net Profit (after minority interest): Sep 30 2024 = 6,506, Sep 30 2023 = 6,212, Growth % = 4.7%",
-        "Basic EPS: Sep 30 2024 = 15.71, Sep 30 2023 = 15.01, Growth % = 4.7%",
-        "Diluted EPS: Sep 30 2024 = 15.68, Sep 30 2023 = 14.99, Growth % = 4.5%",
-        "Dividend Per Share: Sep 30 2024 = 21.00, Sep 30 2023 = 18.00, Growth % = 16.7%"
+        "Revenues: Sep 30, 2024 = 40,986, Sep 30, 2023 = 38,994, Growth YoY = 5.1%, Jun 30, 2024 = 39,315, Growth QoQ = 4.2%",
+        "Cost of sales: Sep 30, 2024 = 28,474, Sep 30, 2023 = 27,031, Growth YoY = 5.3%, Jun 30, 2024 = 27,177, Growth QoQ = 4.8%",
+        "Gross Profit: Sep 30, 2024 = 12,512, Sep 30, 2023 = 11,963, Growth YoY = 4.6%, Jun 30, 2024 = 12,138, Growth QoQ = 3.1%",
+        "Operating Expenses: Selling and marketing expenses: Sep 30, 2024 = 1,855, Sep 30, 2023 = 1,754, Growth YoY = 5.8%, Jun 30, 2024 = 1,937, Growth QoQ = -4.2%",
+        "Administrative expenses: Sep 30, 2024 = 2,008, Sep 30, 2023 = 1,935, Growth YoY = 3.8%, Jun 30, 2024 = 1,913, Growth QoQ = 5.0%",
+        "Total Operating Expenses: Sep 30, 2024 = 3,863, Sep 30, 2023 = 3,689, Growth YoY = 4.7%, Jun 30, 2024 = 3,850, Growth QoQ = 0.3%",
+        "Operating Profit: Sep 30, 2024 = 8,649, Sep 30, 2023 = 8,274, Growth YoY = 4.5%, Jun 30, 2024 = 8,288, Growth QoQ = 4.4%",
+        "Operating Margin %: Sep 30, 2024 = 21.1, Sep 30, 2023 = 21.2, Growth YoY = -0.1%, Jun 30, 2024 = 21.1, Growth QoQ = 0.0%",
+        "Other Income, net: Sep 30, 2024 = 604, Sep 30, 2023 = 494, Growth YoY = 22.3%, Jun 30, 2024 = 733, Growth QoQ = -17.6%",
+        "Profit before income taxes: Sep 30, 2024 = 9,253, Sep 30, 2023 = 8,768, Growth YoY = 5.5%, Jun 30, 2024 = 9,021, Growth QoQ = 2.6%",
+        "Income tax expense: Sep 30, 2024 = 2,737, Sep 30, 2023 = 2,553, Growth YoY = 7.2%, Jun 30, 2024 = 2,647, Growth QoQ = 3.4%",
+        "Net Profit (before minority interest): Sep 30, 2024 = 6,516, Sep 30, 2023 = 6,215, Growth YoY = 4.8%, Jun 30, 2024 = 6,374, Growth QoQ = 2.2%",
+        "Net Profit (after minority interest): Sep 30, 2024 = 6,506, Sep 30, 2023 = 6,212, Growth YoY = 4.7%, Jun 30, 2024 = 6,368, Growth QoQ = 2.2%",
+        "Basic EPS (\u20b9): Sep 30, 2024 = 15.71, Sep 30, 2023 = 15.01, Growth YoY = 4.7%, Jun 30, 2024 = 15.38, Growth QoQ = 2.1%",
+        "Diluted EPS (\u20b9): Sep 30, 2024 = 15.68, Sep 30, 2023 = 14.99, Growth YoY = 4.5%, Jun 30, 2024 = 15.35, Growth QoQ = 2.1%",
+        "Dividend Per Share (\u20b9): Sep 30, 2024 = 21.00, Sep 30, 2023 = 18.00, Growth YoY = 16.7%"
     ],
     "confidence_score": 0.95,
     "image_citation": "extracted_assets\\fact-sheet_Q2_24-25\\vector_graphics\\page4_vector.png",
     "token_usage": {
-        "prompt_tokens": 26779,
-        "completion_tokens": 606,
-        "total_tokens": 27385
+        "prompt_tokens": 2043,
+        "completion_tokens": 1283,
+        "total_tokens": 3326
     }
 }

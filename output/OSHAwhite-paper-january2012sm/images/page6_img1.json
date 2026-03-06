@@ -3,20 +3,22 @@
     "page_number": 6,
     "image_title": "Top Benefits of Effective Workplace Safety Programs",
     "image_keywords": [
+        "Increased productivity",
+        "Reduced costs",
+        "Better employee morale",
+        "Greater retention of employees",
+        "Other",
+        "percent of respondents",
         "workplace safety",
-        "benefits",
-        "financial decisionmakers",
-        "productivity",
-        "cost reduction",
-        "employee morale"
+        "financial decisionmakers"
     ],
-    "summary": "This pie chart illustrates the top benefits of effective workplace safety programs as perceived by financial decisionmakers, represented as percentages of respondents. The chart highlights that 'Increased productivity' is the most significant benefit, accounting for 43% of responses. Following this, 'Reduced costs' is noted by 28% of respondents, while 'Greater retention of employees' is cited by 7%. Additionally, a category labeled 'Other' encompasses 16% of the responses. The data emphasizes the importance of workplace safety in enhancing productivity and reducing costs.",
+    "summary": "The pie chart titled 'Top Benefits of Effective Workplace Safety Programs' illustrates the perceived advantages of workplace safety programs as reported by financial decisionmakers. The chart segments the benefits into categories based on the percentage of respondents who identified each benefit. 'Increased productivity' is the most recognized benefit, accounting for 43% of responses. 'Reduced costs' follows with 28%, while 'Other' benefits make up 16%. 'Greater retention of employees' and 'Better employee morale and greater job satisfaction' are noted by 7% and 6% of respondents, respectively. This visual representation highlights the prioritization of productivity and cost reduction as key outcomes of effective safety programs.",
     "table_rows": [],
-    "confidence_score": 0.95,
+    "confidence_score": 1.0,
     "image_citation": "extracted_assets\\OSHAwhite-paper-january2012sm\\images\\page6_img1.png",
     "token_usage": {
-        "prompt_tokens": 9778,
-        "completion_tokens": 176,
-        "total_tokens": 9954
+        "prompt_tokens": 1533,
+        "completion_tokens": 226,
+        "total_tokens": 1759
     }
 }

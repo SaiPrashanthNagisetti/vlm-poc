@@ -1,0 +1,33 @@
+{
+    "file_name": "fact-sheet_Q1_25-26",
+    "page_number": 1,
+    "image_title": "Regional Revenue Distribution and Growth",
+    "image_keywords": [
+        "North America",
+        "Europe",
+        "Rest of the world",
+        "India",
+        "Quarter ended",
+        "Jun 30, 2025",
+        "Mar 31, 2025",
+        "Jun 30, 2024",
+        "YoY Growth",
+        "Reported",
+        "CC"
+    ],
+    "summary": "The table titled 'Regional Revenue Distribution and Growth' presents the percentage distribution of revenue across different regions for the quarters ending June 30, 2025, March 31, 2025, and June 30, 2024. It includes regions such as North America, Europe, Rest of the World, and India. The table also shows the year-over-year growth in both reported and constant currency (CC) terms. Notably, Europe experienced significant growth with a reported increase of 16.2% and a CC growth of 12.3%. The total revenue distribution remains consistent at 100% for each quarter, with an overall reported growth of 4.8% and a CC growth of 3.8%.",
+    "table_rows": [
+        "North America: Jun 30, 2025 = 56.5, Mar 31, 2025 = 57.1, Jun 30, 2024 = 58.9, Reported = 0.5, CC = 0.4",
+        "Europe: Jun 30, 2025 = 31.5, Mar 31, 2025 = 31.2, Jun 30, 2024 = 28.4, Reported = 16.2, CC = 12.3",
+        "Rest of the world: Jun 30, 2025 = 9.1, Mar 31, 2025 = 8.8, Jun 30, 2024 = 9.6, Reported = -, CC = 0.4",
+        "India: Jun 30, 2025 = 2.9, Mar 31, 2025 = 2.9, Jun 30, 2024 = 3.1, Reported = (3.1), CC = (1.0)",
+        "Total: Jun 30, 2025 = 100.0, Mar 31, 2025 = 100.0, Jun 30, 2024 = 100.0, Reported = 4.8, CC = 3.8"
+    ],
+    "confidence_score": 1.0,
+    "image_citation": "extracted_assets\\fact-sheet_Q1_25-26\\tables\\page1_table10.png",
+    "token_usage": {
+        "prompt_tokens": 1873,
+        "completion_tokens": 553,
+        "total_tokens": 2426
+    }
+}

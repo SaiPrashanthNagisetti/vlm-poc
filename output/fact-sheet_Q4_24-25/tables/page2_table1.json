@@ -1,7 +1,7 @@
 {
     "file_name": "fact-sheet_Q4_24-25",
     "page_number": 2,
-    "image_title": "Utilization and Effort Metrics",
+    "image_title": "Effort and Utilization Metrics by Quarter",
     "image_keywords": [
         "Effort",
         "Utilization",
@@ -9,22 +9,22 @@
         "Offshore",
         "Including trainees",
         "Excluding trainees",
-        "Mar 31 2025",
-        "Dec 31 2024",
-        "Mar 31 2024"
+        "Mar 31, 2025",
+        "Dec 31, 2024",
+        "Mar 31, 2024"
     ],
-    "summary": "This table presents the effort and utilization metrics for a company over three quarters ending on March 31, 2025, December 31, 2024, and March 31, 2024. The 'Effort' section compares onsite and offshore percentages, showing a slight decrease in onsite effort from 24.2% in March 2024 to 23.6% in March 2025, while offshore effort increased from 75.8% to 76.4% in the same period. The 'Utilization' section includes metrics for both including and excluding trainees, with utilization including trainees decreasing from 82.0% to 81.9% and excluding trainees decreasing from 83.5% to 84.9% over the same timeframe. This indicates a trend of declining onsite effort and slight fluctuations in overall utilization rates.",
+    "summary": "The table presents effort and utilization metrics for onsite and offshore operations, as well as utilization rates including and excluding trainees, across three quarters ending March 31, 2025, December 31, 2024, and March 31, 2024. It shows a slight increase in onsite effort over the periods, while offshore effort remains relatively stable. Utilization rates, both including and excluding trainees, show a peak in December 2024, with a slight decline by March 2025.",
     "table_rows": [
-        "Effort: Onsite: Mar 31 2025 = 23.6, Dec 31 2024 = 24.0, Mar 31 2024 = 24.2",
-        "Effort: Offshore: Mar 31 2025 = 76.4, Dec 31 2024 = 76.0, Mar 31 2024 = 75.8",
-        "Utilization: Including trainees: Mar 31 2025 = 81.9, Dec 31 2024 = 83.4, Mar 31 2024 = 82.0",
-        "Utilization: Excluding trainees: Mar 31 2025 = 84.9, Dec 31 2024 = 86.0, Mar 31 2024 = 83.5"
+        "Effort Onsite: Mar 31, 2025 = 23.6, Dec 31, 2024 = 24.0, Mar 31, 2024 = 24.2",
+        "Effort Offshore: Mar 31, 2025 = 76.4, Dec 31, 2024 = 76.0, Mar 31, 2024 = 75.8",
+        "Utilization Including trainees: Mar 31, 2025 = 81.9, Dec 31, 2024 = 83.4, Mar 31, 2024 = 82.0",
+        "Utilization Excluding trainees: Mar 31, 2025 = 84.9, Dec 31, 2024 = 86.0, Mar 31, 2024 = 83.5"
     ],
-    "confidence_score": 0.95,
+    "confidence_score": 1.0,
     "image_citation": "extracted_assets\\fact-sheet_Q4_24-25\\tables\\page2_table1.png",
     "token_usage": {
-        "prompt_tokens": 21112,
-        "completion_tokens": 441,
-        "total_tokens": 21553
+        "prompt_tokens": 1873,
+        "completion_tokens": 393,
+        "total_tokens": 2266
     }
 }

@@ -1,30 +1,20 @@
 {
     "file_name": "fact-sheet_Q3_24-25",
     "page_number": 1,
-    "image_title": "Quarterly Revenue Distribution by Region",
+    "image_title": "EPS Year-over-Year Increase",
     "image_keywords": [
-        "North America",
-        "Europe",
-        "Rest of the world",
-        "India",
-        "Quarter ended",
-        "YoY Growth",
-        "Reported",
-        "CC"
+        "11.4%",
+        "YoY",
+        "EPS Increase",
+        "\u20b9 terms"
     ],
-    "summary": "This table presents the revenue distribution across different regions for the quarters ending December 31, 2024, September 30, 2024, and December 31, 2023, along with year-over-year (YoY) growth percentages. The regions included are North America, Europe, Rest of the World, and India, with total revenue consistently reported as 100% across the quarters. Notably, North America shows a slight increase from 58.4% in December 2024 to 59.0% in December 2023, while Europe experiences a decline from 29.8% to 28.2%. India exhibits significant growth, with a reported YoY growth of 38.3% in December 2024. The overall YoY growth for the total revenue is reported at 5.9%.",
-    "table_rows": [
-        "North America: Dec 31 2024 = 58.4, Sep 30 2024 = 57.4, Dec 31 2023 = 59.0, YoY Growth = 4.9, CC = 4.8",
-        "Europe: Dec 31 2024 = 29.8, Sep 30 2024 = 29.8, Dec 31 2023 = 28.2, YoY Growth = 11.9, CC = 12.2",
-        "Rest of the world: Dec 31 2024 = 8.7, Sep 30 2024 = 9.7, Dec 31 2023 = 10.4, YoY Growth = (11.7), CC = (11.1)",
-        "India: Dec 31 2024 = 3.1, Sep 30 2024 = 3.1, Dec 31 2023 = 2.4, YoY Growth = 38.3, CC = 40.1",
-        "Total: Dec 31 2024 = 100.0, Sep 30 2024 = 100.0, Dec 31 2023 = 100.0, YoY Growth = 5.9"
-    ],
-    "confidence_score": 0.95,
+    "summary": "The image represents a year-over-year increase in earnings per share (EPS) by 11.4% in terms of Indian Rupees. This indicates a positive financial performance over the previous year, highlighting growth in profitability for the company. The focus is on the percentage increase, emphasizing the improvement in EPS as a key financial metric.",
+    "table_rows": [],
+    "confidence_score": 1.0,
     "image_citation": "extracted_assets\\fact-sheet_Q3_24-25\\tables\\page1_table3.png",
     "token_usage": {
-        "prompt_tokens": 21112,
-        "completion_tokens": 521,
-        "total_tokens": 21633
+        "prompt_tokens": 1533,
+        "completion_tokens": 123,
+        "total_tokens": 1656
     }
 }

@@ -1,0 +1,21 @@
+{
+    "file_name": "fact-sheet_Q4_25-26",
+    "page_number": 1,
+    "image_title": "Operating Margin Report",
+    "image_keywords": [
+        "Operating Margin",
+        "Reported",
+        "Adjusted",
+        "18.4%",
+        "21.2%"
+    ],
+    "summary": "This image presents the operating margin figures, highlighting a reported margin of 18.4% and an adjusted margin of 21.2%. The visual focuses on the financial performance metric of operating margin, providing both reported and adjusted values to indicate potential differences in financial reporting or adjustments made for specific considerations.",
+    "table_rows": [],
+    "confidence_score": 1.0,
+    "image_citation": "extracted_assets\\fact-sheet_Q4_25-26\\tables\\page1_table8.png",
+    "token_usage": {
+        "prompt_tokens": 1533,
+        "completion_tokens": 119,
+        "total_tokens": 1652
+    }
+}

@@ -1,6 +1,6 @@
 import os
 import json
-from config.settings import INPUT_FOLDER
+from config.settings import EXTRACTED_ASSETS
 from utils.file_utils import extract_page_number
 from services.image_analyzer import analyze_image
 
@@ -48,39 +48,39 @@ def process_single_image(folder_name, image_file, input_folder_path, output_fold
 
 #def process_images():
 
-    max_workers = 5  # Start with 4–5
+    #max_workers = 5  # Start with 4–5
 
-    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+    #with ThreadPoolExecutor(max_workers=max_workers) as executor:
 
-        futures = []
+     #   futures = []
 
-        for folder_name in os.listdir(INPUT_FOLDER):
+      #  for folder_name in os.listdir(INPUT_FOLDER):
+#
+ #           input_folder_path = os.path.join(INPUT_FOLDER, folder_name)
 
-            input_folder_path = os.path.join(INPUT_FOLDER, folder_name)
+  #          if not os.path.isdir(input_folder_path):
+   #             continue
 
-            if not os.path.isdir(input_folder_path):
-                continue
+    #        output_folder_path = os.path.join(OUTPUT_ROOT, folder_name)
+     #       os.makedirs(output_folder_path, exist_ok=True)
 
-            output_folder_path = os.path.join(OUTPUT_ROOT, folder_name)
-            os.makedirs(output_folder_path, exist_ok=True)
+      #      for image_file in os.listdir(input_folder_path):
 
-            for image_file in os.listdir(input_folder_path):
+       #         if not image_file.lower().endswith((".png", ".jpg", ".jpeg")):
+        #            continue
 
-                if not image_file.lower().endswith((".png", ".jpg", ".jpeg")):
-                    continue
+         #       futures.append(
+          #          executor.submit(
+           #             process_single_image,
+            #            folder_name,
+             #           image_file,
+              #          input_folder_path,
+               #         output_folder_path
+                #    )
+                #)
 
-                futures.append(
-                    executor.submit(
-                        process_single_image,
-                        folder_name,
-                        image_file,
-                        input_folder_path,
-                        output_folder_path
-                    )
-                )
-
-        for future in as_completed(futures):
-            future.result()
+        #for future in as_completed(futures):
+         #   future.result()
 
 def process_images():
 
@@ -91,9 +91,9 @@ def process_images():
         futures = []
 
         # Loop through each PDF folder
-        for folder_name in os.listdir(INPUT_FOLDER):
+        for folder_name in os.listdir(EXTRACTED_ASSETS):
 
-            pdf_folder_path = os.path.join(INPUT_FOLDER, folder_name)
+            pdf_folder_path = os.path.join(EXTRACTED_ASSETS, folder_name)
 
             if not os.path.isdir(pdf_folder_path):
                 continue

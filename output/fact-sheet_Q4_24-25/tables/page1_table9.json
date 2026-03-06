@@ -1,0 +1,19 @@
+{
+    "file_name": "fact-sheet_Q4_24-25",
+    "page_number": 1,
+    "image_title": "Year-over-Year Constant Currency Growth",
+    "image_keywords": [
+        "4.2% FY",
+        "4.8% Q4",
+        "YoY CC Growth"
+    ],
+    "summary": "The image presents key financial growth metrics, specifically the year-over-year constant currency growth rates. It highlights a 4.2% growth for the fiscal year (FY) and a 4.8% growth for the fourth quarter (Q4). These figures indicate the company's performance in terms of revenue growth when adjusted for currency fluctuations, providing insights into its financial health over the specified periods.",
+    "table_rows": [],
+    "confidence_score": 0.9,
+    "image_citation": "extracted_assets\\fact-sheet_Q4_24-25\\tables\\page1_table9.png",
+    "token_usage": {
+        "prompt_tokens": 1533,
+        "completion_tokens": 140,
+        "total_tokens": 1673
+    }
+}

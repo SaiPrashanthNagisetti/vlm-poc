@@ -1,35 +1,18 @@
 {
     "file_name": "fact-sheet_Q1_24-25",
     "page_number": 1,
-    "image_title": "Client Metrics Overview",
+    "image_title": "Operating Margin",
     "image_keywords": [
-        "Number of Clients",
-        "Active",
-        "Million dollar clients",
-        "Client contribution to revenues",
-        "Quarter ended",
-        "Jun 30 2024",
-        "Mar 31 2024",
-        "Jun 30 2023"
+        "Operating Margin",
+        "21.1%"
     ],
-    "summary": "This table presents an overview of client metrics for the quarters ending June 30, 2024, March 31, 2024, and June 30, 2023. It includes the number of active clients, clients added during the period, and the count of million-dollar clients across various thresholds (1 million, 10 million, 50 million, and 100 million dollars). Additionally, it details client contributions to revenues, highlighting the percentage contributions from the top 5, top 10, and top 25 clients, as well as the Days Sales Outstanding metric. Notably, the number of active clients decreased slightly from March 2024 to June 2024, while the percentage contributions from the top clients show a slight increase over the year.",
-    "table_rows": [
-        "Active clients: Jun 30 2024 = 1867, Mar 31 2024 = 1882, Jun 30 2023 = 1883",
-        "Added during period: Jun 30 2024 = 87, Mar 31 2024 = 98, Jun 30 2023 = 99",
-        "Number of Million dollar clients: 1 Million dollar +: Jun 30 2024 = 987, Mar 31 2024 = 959, Jun 30 2023 = 940",
-        "10 Million dollar +: Jun 30 2024 = 309, Mar 31 2024 = 315, Jun 30 2023 = 312",
-        "50 Million dollar +: Jun 30 2024 = 84, Mar 31 2024 = 83, Jun 30 2023 = 79",
-        "100 Million dollar +: Jun 30 2024 = 40, Mar 31 2024 = 40, Jun 30 2023 = 38",
-        "Client contribution to revenues: Top 5 clients: Jun 30 2024 = 13.5%, Mar 31 2024 = 13.6%, Jun 30 2023 = 13.4%",
-        "Top 10 clients: Jun 30 2024 = 20.9%, Mar 31 2024 = 20.4%, Jun 30 2023 = 20.4%",
-        "Top 25 clients: Jun 30 2024 = 34.9%, Mar 31 2024 = 34.3%, Jun 30 2023 = 34.6%",
-        "Days Sales Outstanding: Jun 30 2024 = 72, Mar 31 2024 = 71, Jun 30 2023 = 63"
-    ],
+    "summary": "This image displays a single data point representing the operating margin, which is 21.1%. The operating margin is a key financial metric that indicates the percentage of revenue that remains after covering operating expenses. This figure is often used to assess a company's operational efficiency and profitability.",
+    "table_rows": [],
     "confidence_score": 1.0,
     "image_citation": "extracted_assets\\fact-sheet_Q1_24-25\\tables\\page1_table2.png",
     "token_usage": {
-        "prompt_tokens": 21112,
-        "completion_tokens": 640,
-        "total_tokens": 21752
+        "prompt_tokens": 1533,
+        "completion_tokens": 101,
+        "total_tokens": 1634
     }
 }

@@ -1,36 +1,46 @@
 {
     "file_name": "fact-sheet_Q4_24-25",
     "page_number": 3,
-    "image_title": "Financial Performance Summary",
+    "image_title": "Financial Performance Table",
     "image_keywords": [
         "Revenues",
+        "Cost of sales",
         "Gross Profit",
         "Operating Expenses",
+        "Operating Profit",
         "Net Profit",
         "EPS",
-        "Growth % YoY",
-        "Growth % QoQ"
+        "Dividend",
+        "Mar 31 2025",
+        "Mar 31 2024",
+        "Dec 31 2024",
+        "Growth YoY",
+        "Growth QoQ"
     ],
-    "summary": "This table presents a financial performance summary for a company, comparing key metrics for the periods ending March 31, 2025, and March 31, 2024, along with growth percentages year-over-year (YoY) and quarter-over-quarter (QoQ) for December 31, 2024. Key metrics include revenues, gross profit, operating expenses, and net profit, with notable growth in revenues of 3.6% YoY and a decline in net profit after minority interest of 15.2% YoY. The operating margin shows a slight increase to 21.0%, while basic and diluted EPS both decreased by 15.2% YoY. The table highlights trends in financial performance, indicating areas of growth and decline.",
+    "summary": "This table presents the financial performance of a company for the periods ending March 31, 2025, March 31, 2024, and December 31, 2024. It includes key financial metrics such as revenues, cost of sales, gross profit, operating expenses, and net profit. The table also shows growth percentages year-over-year (YoY) and quarter-over-quarter (QoQ) for these metrics. Notable insights include a 3.6% YoY growth in revenues and a 6.2% increase in gross profit. However, there is a decline in net profit by 15.2% YoY. The table provides a detailed comparison of financial performance across different periods, highlighting trends and changes in profitability and expenses.",
     "table_rows": [
-        "Revenues: Mar 31 2025 = 4730, Mar 31 2024 = 4564, Growth % YoY = 3.6%",
-        "Cost of sales: Mar 31 2025 = 3302, Mar 31 2024 = 3219, Growth % YoY = 2.6%",
-        "Gross Profit: Mar 31 2025 = 1428, Mar 31 2024 = 1345, Growth % YoY = 6.2%",
-        "Total Operating Expenses: Mar 31 2025 = 436, Mar 31 2024 = 428, Growth % YoY = 1.9%",
-        "Operating Profit: Mar 31 2025 = 992, Mar 31 2024 = 917, Growth % YoY = 8.2%",
-        "Operating Margin %: Mar 31 2025 = 21.0, Mar 31 2024 = 20.1, Growth % YoY = 0.9%",
-        "Profit before income taxes: Mar 31 2025 = 1117, Mar 31 2024 = 1232, Growth % YoY = -9.3%",
-        "Net Profit (before minority interest): Mar 31 2025 = 814, Mar 31 2024 = 959, Growth % YoY = -15.2%",
-        "Net Profit (after minority interest): Mar 31 2025 = 813, Mar 31 2024 = 958, Growth % YoY = -15.2%",
-        "Basic EPS: Mar 31 2025 = 0.20, Mar 31 2024 = 0.23, Growth % YoY = -15.2%",
-        "Diluted EPS: Mar 31 2025 = 0.20, Mar 31 2024 = 0.23, Growth % YoY = -15.2%",
-        "Dividend Per Share: Mar 31 2025 = 0.26, Mar 31 2024 = 0.24, Growth % YoY = 10.0%"
+        "Revenues: Mar 31 2025 = 4730, Mar 31 2024 = 4564, Growth % YoY = 3.6%, Dec 31 2024 = 4939, Growth % QoQ = -4.2%",
+        "Cost of sales: Mar 31 2025 = 3302, Mar 31 2024 = 3219, Growth % YoY = 2.6%, Dec 31 2024 = 3444, Growth % QoQ = -4.1%",
+        "Gross Profit: Mar 31 2025 = 1428, Mar 31 2024 = 1345, Growth % YoY = 6.2%, Dec 31 2024 = 1495, Growth % QoQ = -4.5%",
+        "Selling and marketing expenses: Mar 31 2025 = 226, Mar 31 2024 = 209, Growth % YoY = 8.1%, Dec 31 2024 = 218, Growth % QoQ = 3.7%",
+        "Administrative expenses: Mar 31 2025 = 210, Mar 31 2024 = 219, Growth % YoY = -4.1%, Dec 31 2024 = 224, Growth % QoQ = -6.3%",
+        "Total Operating Expenses: Mar 31 2025 = 436, Mar 31 2024 = 428, Growth % YoY = 1.9%, Dec 31 2024 = 442, Growth % QoQ = -1.4%",
+        "Operating Profit: Mar 31 2025 = 992, Mar 31 2024 = 917, Growth % YoY = 8.2%, Dec 31 2024 = 1053, Growth % QoQ = -5.8%",
+        "Operating Margin %: Mar 31 2025 = 21.0, Mar 31 2024 = 20.1, Growth % YoY = 0.9%, Dec 31 2024 = 21.3, Growth % QoQ = -0.3%",
+        "Other Income, net: Mar 31 2025 = 125, Mar 31 2024 = 315, Growth % YoY = -60.3%, Dec 31 2024 = 90, Growth % QoQ = 38.9%",
+        "Profit before income taxes: Mar 31 2025 = 1117, Mar 31 2024 = 1232, Growth % YoY = -9.3%, Dec 31 2024 = 1143, Growth % QoQ = -2.3%",
+        "Income tax expense: Mar 31 2025 = 303, Mar 31 2024 = 273, Growth % YoY = 11.0%, Dec 31 2024 = 337, Growth % QoQ = -10.1%",
+        "Net Profit (before minority interest): Mar 31 2025 = 814, Mar 31 2024 = 959, Growth % YoY = -15.2%, Dec 31 2024 = 806, Growth % QoQ = 0.9%",
+        "Net Profit (after minority interest): Mar 31 2025 = 813, Mar 31 2024 = 958, Growth % YoY = -15.2%, Dec 31 2024 = 804, Growth % QoQ = 1.1%",
+        "Basic EPS ($): Mar 31 2025 = 0.20, Mar 31 2024 = 0.23, Growth % YoY = -15.2%, Dec 31 2024 = 0.19, Growth % QoQ = 5.3%",
+        "Diluted EPS ($): Mar 31 2025 = 0.20, Mar 31 2024 = 0.23, Growth % YoY = -15.3%, Dec 31 2024 = 0.19, Growth % QoQ = 1.1%",
+        "Dividend Per Share ($): Mar 31 2025 = 0.26, Mar 31 2024 = 0.24, Growth % YoY = 10.0%"
     ],
-    "confidence_score": 0.95,
+    "confidence_score": 1.0,
     "image_citation": "extracted_assets\\fact-sheet_Q4_24-25\\tables\\page3_table1.png",
     "token_usage": {
-        "prompt_tokens": 38113,
-        "completion_tokens": 683,
-        "total_tokens": 38796
+        "prompt_tokens": 2383,
+        "completion_tokens": 1192,
+        "total_tokens": 3575
     }
 }

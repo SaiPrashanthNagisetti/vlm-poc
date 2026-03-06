@@ -1,0 +1,22 @@
+{
+    "file_name": "fact-sheet_Q4_24-25",
+    "page_number": 4,
+    "image_title": "Dividend and Figures Explanation",
+    "image_keywords": [
+        "Dividend",
+        "Special Dividend",
+        "March 31, 2024",
+        "quarter figures",
+        "year ended figures",
+        "rounding"
+    ],
+    "summary": "This image contains a textual explanation regarding the exclusion of a special dividend of 8.00 per share for the quarter and year ended March 31, 2024. It clarifies that the quarter and year-end figures are sourced and rounded to the nearest digits, which may result in discrepancies between the summed quarter figures and the reported year-end figures. This note is crucial for understanding potential variances in financial statements due to rounding practices.",
+    "table_rows": [],
+    "confidence_score": 0.95,
+    "image_citation": "extracted_assets\\fact-sheet_Q4_24-25\\tables\\page4_table3.png",
+    "token_usage": {
+        "prompt_tokens": 1873,
+        "completion_tokens": 164,
+        "total_tokens": 2037
+    }
+}

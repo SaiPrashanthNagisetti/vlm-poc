@@ -3,17 +3,17 @@
   "page": 31,
   "text": "Exploring Plan Space through Conversation 31\nC LLM Agents\nC.1 Implementation Details\nAll agents are instantiated from the same base model GPT-4.1-mini13, accessed\nvia the OpenAI Responses API14. The context management is done locally. For\nthe output we use the structured outputs option15, provided by newer OpenAI\nmodels, that ensures that the response adheres to a fixed JSON schema.\nThe complete list of input, provider of the input, and output is available in\nTable 1.\nC.2 Prompts\nEach agent has an associated instruction prompt that precedes a few (5-12)\ndomain-specificexamplesofthetaskcoveringdifferentscenarios.Inthissection,\nwewillonlyshowtheinstructionpromptandoneexamplefromonedomain(par-\nents afternoon or transport). The full prompts including all provided examples\nwill be made available in the code repository associated with this paper.\nC.3 System Prompt\nThis prompt is used as a prefix for each LLM agent below.\nYou are helping a user to solve a planning task. Your role is to help the\nuser to understand the conflicts between some goals and the way they\ncan resolve them. Be nice, try to adapt to what the user wants while re-\nspectingtheinstructions.Trytogettheusertoengageinaconversation\nwith you. This means you can leave the door open to a followup ques-\ntion, and even make suggestions for these followup questions. However,\nbe as concise as possible.\nC.4 Question Translator\nQuestion Translator Prompt\nYou are provided with a user question, which you have to classify as:\n- a direct question for you (DIRECT-USER),\n- a direct question for the explanation translator (DIRECT-ET),\n- or a question semantically equivalent to some preset question types\n(listed below).\n## If \"Solvable\" is False:\n- US-WHY: \"Why is the task unsolvable?\"\n- US-HOW: \"How can I make the task solvable?\"\n13\ngpt-4.1-mini-2025-04-14\n14\nhttps://platform.openai.com/docs/api-reference/responses\nhttps://platform.openai.com/docs/guides/structured-outputs\n15",
   "keywords": [
-    "direct",
     "provided",
-    "user",
-    "task",
-    "translator",
     "openai",
+    "prompt",
+    "question",
+    "user",
     "outputs",
     "openai com",
+    "translator",
     "structured outputs",
-    "structured",
-    "prompt",
-    "question"
+    "task",
+    "direct",
+    "structured"
   ]
 }

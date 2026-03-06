@@ -3,31 +3,43 @@
     "page_number": 3,
     "image_title": "Consolidated Financial Data - Fourth Quarter, Fiscal 2025",
     "image_keywords": [
+        "Consolidated statement",
+        "Comprehensive Income",
         "Revenues",
         "Cost of sales",
         "Gross Profit",
         "Operating Expenses",
         "Net Profit",
         "EPS",
-        "Fiscal 2025",
-        "Quarterly Financials"
+        "Dividend Per Share",
+        "Mar 31, 2025",
+        "Mar 31, 2024",
+        "Dec 31, 2024"
     ],
-    "summary": "This table presents the consolidated statement of comprehensive income for Infosys for the three months ended March 31, 2025, and the year ended March 31, 2025, compared to the same periods in the previous year. Key metrics include revenues, cost of sales, gross profit, operating expenses, and net profit, with year-over-year growth percentages provided. For the quarter, revenues increased by 3.6% to $4,730 million, while net profit after minority interest decreased by 15.2% to $813 million. The operating margin remained stable at 21.0%. For the year, revenues rose by 3.9% to $19,277 million, with a slight decrease in net profit after minority interest by 0.2% to $3,162 million. The data highlights trends in revenue growth and profitability, indicating a mixed performance across the fiscal year.",
+    "summary": "The image is a table titled 'Consolidated Financial Data - Fourth Quarter, Fiscal 2025' showing a comprehensive statement of income for the periods ending March 31, 2025, March 31, 2024, and December 31, 2024. It details financial metrics such as revenues, cost of sales, gross profit, operating expenses, and net profit, both before and after minority interest. The table also includes growth percentages year-over-year and quarter-over-quarter. Key insights include a revenue increase to $4,730 million in March 2025, a gross profit growth of 6.2% year-over-year, and a notable decrease in other income by 60.3%. The operating margin remained stable at 21.0% in March 2025. The table provides a detailed comparison of financial performance across the specified periods.",
     "table_rows": [
-        "Revenues: Mar 31 2025 = 4,730, Mar 31 2024 = 4,564, Growth % YoY = 3.6%",
-        "Cost of sales: Mar 31 2025 = 3,302, Mar 31 2024 = 3,219, Growth % YoY = 2.6%",
-        "Gross Profit: Mar 31 2025 = 1,428, Mar 31 2024 = 1,345, Growth % YoY = 6.2%",
-        "Total Operating Expenses: Mar 31 2025 = 436, Mar 31 2024 = 428, Growth % YoY = 1.9%",
-        "Net Profit (after minority interest): Mar 31 2025 = 813, Mar 31 2024 = 958, Growth % YoY = -15.2%",
-        "Basic EPS ($): Mar 31 2025 = 0.20, Mar 31 2024 = 0.23, Growth % YoY = -15.2%",
-        "Revenues (Year): Mar 31 2025 = 19,277, Mar 31 2024 = 18,562, Growth % = 3.9%",
-        "Net Profit (after minority interest) (Year): Mar 31 2025 = 3,162, Mar 31 2024 = 3,169, Growth % = -0.2%"
+        "Revenues: Mar 31 2025 = 4,730, Mar 31 2024 = 4,564, Dec 31 2024 = 4,939",
+        "Cost of sales: Mar 31 2025 = 3,302, Mar 31 2024 = 3,219, Dec 31 2024 = 3,444",
+        "Gross Profit: Mar 31 2025 = 1,428, Mar 31 2024 = 1,345, Dec 31 2024 = 1,495",
+        "Operating Expenses - Selling and marketing expenses: Mar 31 2025 = 226, Mar 31 2024 = 209, Dec 31 2024 = 218",
+        "Operating Expenses - Administrative expenses: Mar 31 2025 = 210, Mar 31 2024 = 219, Dec 31 2024 = 224",
+        "Total Operating Expenses: Mar 31 2025 = 436, Mar 31 2024 = 428, Dec 31 2024 = 442",
+        "Operating Profit: Mar 31 2025 = 992, Mar 31 2024 = 917, Dec 31 2024 = 1,053",
+        "Operating Margin %: Mar 31 2025 = 21.0, Mar 31 2024 = 20.1, Dec 31 2024 = 21.3",
+        "Other Income, net: Mar 31 2025 = 125, Mar 31 2024 = 315, Dec 31 2024 = 90",
+        "Profit before income taxes: Mar 31 2025 = 1,117, Mar 31 2024 = 1,232, Dec 31 2024 = 1,143",
+        "Income tax expense: Mar 31 2025 = 303, Mar 31 2024 = 273, Dec 31 2024 = 337",
+        "Net Profit (before minority interest): Mar 31 2025 = 814, Mar 31 2024 = 959, Dec 31 2024 = 806",
+        "Net Profit (after minority interest): Mar 31 2025 = 813, Mar 31 2024 = 958, Dec 31 2024 = 806",
+        "Basic EPS ($): Mar 31 2025 = 0.20, Mar 31 2024 = 0.23, Dec 31 2024 = 0.19",
+        "Diluted EPS ($): Mar 31 2025 = 0.20, Mar 31 2024 = 0.23, Dec 31 2024 = 0.19",
+        "Dividend Per Share ($): Mar 31 2025 = 0.26, Mar 31 2024 = 0.24, Dec 31 2024 = -"
     ],
     "confidence_score": 0.95,
     "image_citation": "extracted_assets\\fact-sheet_Q4_24-25\\vector_graphics\\page3_vector.png",
     "token_usage": {
-        "prompt_tokens": 26779,
-        "completion_tokens": 585,
-        "total_tokens": 27364
+        "prompt_tokens": 2043,
+        "completion_tokens": 943,
+        "total_tokens": 2986
     }
 }

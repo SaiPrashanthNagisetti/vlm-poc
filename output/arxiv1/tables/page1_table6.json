@@ -1,0 +1,21 @@
+{
+    "file_name": "arxiv1",
+    "page_number": 1,
+    "image_title": "Sequential Process Diagram",
+    "image_keywords": [
+        "process",
+        "sequence",
+        "y1",
+        "y2",
+        "y3"
+    ],
+    "summary": "This diagram represents a sequential process flow, starting with an initial state labeled '{y1}' and proceeding through a series of steps labeled y1, y2, y3, and so on. The process is linear, indicating a straightforward progression from one step to the next without any branching or decision points. The diagram is likely used to illustrate a simple, ordered sequence of actions or states.",
+    "table_rows": [],
+    "confidence_score": 0.9,
+    "image_citation": "extracted_assets\\arxiv1\\tables\\page1_table6.png",
+    "token_usage": {
+        "prompt_tokens": 1533,
+        "completion_tokens": 134,
+        "total_tokens": 1667
+    }
+}

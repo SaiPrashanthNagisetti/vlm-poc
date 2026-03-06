@@ -1,0 +1,24 @@
+{
+    "file_name": "Attention",
+    "page_number": 15,
+    "image_title": "Attention Head Behavior in Sentence Structure",
+    "image_keywords": [
+        "attention heads",
+        "sentence structure",
+        "encoder self-attention",
+        "The Law",
+        "perfect",
+        "applications",
+        "missing",
+        "opinion"
+    ],
+    "summary": "The diagram illustrates the behavior of attention heads in relation to sentence structure, as observed in an encoder self-attention mechanism. It highlights how different words in a sentence, such as 'The Law,' 'perfect,' 'applications,' and 'missing,' are connected through attention lines, indicating the focus of attention heads on specific parts of the sentence. This visualization demonstrates the model's ability to capture structural relationships within the sentence, providing insights into how attention mechanisms function in natural language processing tasks.",
+    "table_rows": [],
+    "confidence_score": 0.9,
+    "image_citation": "extracted_assets\\Attention\\tables\\page15_table3.png",
+    "token_usage": {
+        "prompt_tokens": 1703,
+        "completion_tokens": 179,
+        "total_tokens": 1882
+    }
+}

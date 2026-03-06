@@ -1,20 +1,21 @@
 {
     "file_name": "Attention",
     "page_number": 14,
-    "image_title": "Attention Mechanism Visualization",
+    "image_title": "Text Alignment Diagram",
     "image_keywords": [
-        "attention heads",
-        "anaphora resolution",
-        "layer 5",
-        "text analysis"
+        "text alignment",
+        "law",
+        "application",
+        "opinion",
+        "missing"
     ],
-    "summary": "This visual represents an attention mechanism analysis, specifically focusing on two attention heads in layer 5 of a neural network model, which are involved in anaphora resolution. The top section illustrates the attention weights between words in a given sentence, highlighting how certain words, such as 'Law' and 'its', are connected through attention lines. The bottom section isolates the attention from the word 'its', showing sharp attention towards specific words, indicating their importance in understanding the context. This visualization aids in comprehending how the model processes relationships between words to resolve references effectively.",
+    "summary": "The diagram is a technical illustration showing the alignment and connection of words in a sentence. It visually represents how each word in the sentence 'The Law will never be perfect, but its application should be just; this is what we are missing, in my opinion.' aligns with other words, possibly indicating syntactic or semantic relationships. The diagram uses lines to connect words, illustrating the structure and flow of the sentence. This type of diagram is often used in natural language processing to analyze sentence structure and meaning.",
     "table_rows": [],
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\Attention\\tables\\page14_table1.png",
     "token_usage": {
-        "prompt_tokens": 38113,
-        "completion_tokens": 170,
-        "total_tokens": 38283
+        "prompt_tokens": 2043,
+        "completion_tokens": 163,
+        "total_tokens": 2206
     }
 }

@@ -1,0 +1,23 @@
+{
+    "file_name": "fact-sheet_Q4_25-26",
+    "page_number": 5,
+    "image_title": "Quarterly Financial Statement Note",
+    "image_keywords": [
+        "quarter",
+        "nine months",
+        "figures",
+        "source",
+        "rounded",
+        "digits",
+        "statement"
+    ],
+    "summary": "This image contains a note from a quarterly financial statement explaining that the figures for the quarter and nine months ended are sourced and rounded to the nearest digits. It highlights that the sum of the quarterly figures may not always match the nine-month figures reported due to rounding. This note is crucial for understanding potential discrepancies in financial reporting over different periods.",
+    "table_rows": [],
+    "confidence_score": 1.0,
+    "image_citation": "extracted_assets\\fact-sheet_Q4_25-26\\tables\\page5_table1.png",
+    "token_usage": {
+        "prompt_tokens": 1873,
+        "completion_tokens": 140,
+        "total_tokens": 2013
+    }
+}

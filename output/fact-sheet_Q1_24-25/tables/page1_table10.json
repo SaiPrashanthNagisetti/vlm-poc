@@ -1,0 +1,32 @@
+{
+    "file_name": "fact-sheet_Q1_24-25",
+    "page_number": 1,
+    "image_title": "Regional Quarterly Performance and YoY Growth",
+    "image_keywords": [
+        "North America",
+        "Europe",
+        "Rest of the world",
+        "India",
+        "Jun 30, 2024",
+        "Mar 31, 2024",
+        "Jun 30, 2023",
+        "YoY Growth",
+        "Reported",
+        "CC"
+    ],
+    "summary": "The table presents the quarterly performance of different regions, including North America, Europe, Rest of the World, and India, for the quarters ending June 30, 2024, March 31, 2024, and June 30, 2023. It also includes year-over-year (YoY) growth figures in both reported and constant currency (CC) terms. North America shows a slight decline in YoY growth, while Europe exhibits significant growth. The total YoY growth is positive, indicating overall improvement across regions. The table highlights regional contributions to total performance and growth trends over the specified periods.",
+    "table_rows": [
+        "North America: Jun 30 2024 = 58.9, Mar 31 2024 = 59.6, Jun 30 2023 = 60.8, Reported = (1.2), CC = (1.2)",
+        "Europe: Jun 30 2024 = 28.4, Mar 31 2024 = 28.6, Jun 30 2023 = 26.8, Reported = 8.6, CC = 9.1",
+        "Rest of the world: Jun 30 2024 = 9.6, Mar 31 2024 = 9.6, Jun 30 2023 = 9.7, Reported = 0.6, CC = 2.3",
+        "India: Jun 30 2024 = 3.1, Mar 31 2024 = 2.2, Jun 30 2023 = 2.7, Reported = 18.4, CC = 19.9",
+        "Total: Jun 30 2024 = 100.0, Mar 31 2024 = 100.0, Jun 30 2023 = 100.0, Reported = 2.1, CC = 2.5"
+    ],
+    "confidence_score": 1.0,
+    "image_citation": "extracted_assets\\fact-sheet_Q1_24-25\\tables\\page1_table10.png",
+    "token_usage": {
+        "prompt_tokens": 1873,
+        "completion_tokens": 513,
+        "total_tokens": 2386
+    }
+}

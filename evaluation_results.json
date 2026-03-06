@@ -1,0 +1,729 @@
+{
+  "summary": {
+    "total_questions": 90,
+    "correct_answers": 84,
+    "accuracy": 93.33
+  },
+  "results": [
+    {
+      "question": "What was the CC revenue growth in Q2 FY26?",
+      "expected_answer": "2.2%",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "Did operating margin exceed 20% in Q2 FY26?",
+      "expected_answer": "Yes",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "What was the operating margin in Q2 FY26?",
+      "expected_answer": "21.0%",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "Was EPS increase above 10% YoY in Q2 FY26?",
+      "expected_answer": "Yes",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "What was the large deal TCV in Q2 FY26?",
+      "expected_answer": "$3.1 Bn",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "What was the free cash flow in Q2 FY26?",
+      "expected_answer": "$1.1 Bn",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "Did Financial Services have the largest revenue share in Q2 FY26?",
+      "expected_answer": "Yes",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "What percentage revenue share did Financial Services have in Q2 FY26?",
+      "expected_answer": "27.7%",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "Was Manufacturing revenue share above 16% in Q2 FY26?",
+      "expected_answer": "Yes",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "Did Retail revenue decline YoY in Q2 FY26?",
+      "expected_answer": "Yes",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "What revenue share did Communication segment have in Q2 FY26?",
+      "expected_answer": "12.1%",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "Was Hi-Tech revenue share greater than 8% in Q2 FY26?",
+      "expected_answer": "Yes",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "Did Life Sciences revenue decline YoY in Q2 FY26?",
+      "expected_answer": "Yes",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "What percentage share did Others segment contribute in Q2 FY26?",
+      "expected_answer": "2.9%",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "Did North America contribute more than 50% revenue in Q2 FY26?",
+      "expected_answer": "Yes",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "What revenue share came from North America in Q2 FY26?",
+      "expected_answer": "56.3%",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "Was Europe revenue share above 30% in Q2 FY26?",
+      "expected_answer": "Yes",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "What percentage revenue came from Europe in Q2 FY26?",
+      "expected_answer": "31.7%",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "Did Rest of World contribute less than 10% revenue in Q2 FY26?",
+      "expected_answer": "Yes",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "What revenue share came from India in Q2 FY26?",
+      "expected_answer": "3.1%",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "How many active clients were reported in Sep 2025?",
+      "expected_answer": "1896",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "Were more than 100 clients added during Sep 2025 quarter?",
+      "expected_answer": "Yes",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "How many clients were added during Sep 2025 quarter?",
+      "expected_answer": "118",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "Did million-dollar clients exceed 1000 in Sep 2025?",
+      "expected_answer": "Yes",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "How many 1M+ clients existed in Sep 2025?",
+      "expected_answer": "1012",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "How many 10M+ clients existed in Sep 2025?",
+      "expected_answer": "322",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "Did 50M+ clients exceed 80 in Sep 2025?",
+      "expected_answer": "Yes",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "How many 50M+ clients existed in Sep 2025?",
+      "expected_answer": "85",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "How many 100M+ clients existed in Sep 2025?",
+      "expected_answer": "41",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "Did top 5 clients contribute above 13% revenue in Sep 2025?",
+      "expected_answer": "Yes",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "What revenue percentage came from top 10 clients in Sep 2025?",
+      "expected_answer": "20.7%",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "What revenue percentage came from top 25 clients in Sep 2025?",
+      "expected_answer": "35.2%",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "What were the Days Sales Outstanding in Sep 2025?",
+      "expected_answer": "71",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "Did onsite effort exceed 20% in Q2 FY26?",
+      "expected_answer": "Yes",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "What was onsite effort percentage in Q2 FY26?",
+      "expected_answer": "23.2%",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "What was offshore effort percentage in Q2 FY26?",
+      "expected_answer": "76.8%",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "Was utilization above 80% excluding trainees in Q2 FY26?",
+      "expected_answer": "Yes",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "What was utilization excluding trainees in Q2 FY26?",
+      "expected_answer": "85.1%",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "What was total employee count in Sep 2025?",
+      "expected_answer": "331991",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "Did employee count exceed 330000 in Sep 2025?",
+      "expected_answer": "Yes",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "How many software professionals worked at Infosys in Sep 2025?",
+      "expected_answer": "314500",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "How many sales and support employees were there in Sep 2025?",
+      "expected_answer": "17491",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "Was voluntary attrition above 14% in Sep 2025?",
+      "expected_answer": "Yes",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "What percentage of employees were women in Sep 2025?",
+      "expected_answer": "39.5%",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "What was free cash flow in Sep 2025?",
+      "expected_answer": "1101",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "Did free cash flow exceed $1B in Sep 2025?",
+      "expected_answer": "Yes",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "What was consolidated cash and investments in Sep 2025?",
+      "expected_answer": "6173",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "Did consolidated cash exceed $6B in Sep 2025?",
+      "expected_answer": "Yes",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "What was CC growth in Q3 FY25?",
+      "expected_answer": "1.7%",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "Did operating margin exceed 21% in Q3 FY25?",
+      "expected_answer": "Yes",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "What was operating margin in Q3 FY25?",
+      "expected_answer": "21.3%",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "Was EPS increase above 10% in Q3 FY25?",
+      "expected_answer": "Yes",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "What large deal TCV was reported in Q3 FY25?",
+      "expected_answer": "$2.5 Bn",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "What free cash flow was reported in Q3 FY25?",
+      "expected_answer": "$1.3 Bn",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "Did Financial Services exceed 27% revenue share in Q3 FY25?",
+      "expected_answer": "Yes",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "What revenue share did Financial Services have in Q3 FY25?",
+      "expected_answer": "27.8%",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "Did Manufacturing revenue share exceed 15% in Q3 FY25?",
+      "expected_answer": "Yes",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "Was Retail share above 13% in Q3 FY25?",
+      "expected_answer": "Yes",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "Did Hi-Tech exceed 7% share in Q3 FY25?",
+      "expected_answer": "Yes",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "What revenue share did Life Sciences have in Q3 FY25?",
+      "expected_answer": "7.6%",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "Did Others segment contribute less than 3% revenue in Q3 FY25?",
+      "expected_answer": "Yes",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "Did North America exceed 55% share in Q3 FY25?",
+      "expected_answer": "Yes",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "What revenue share came from North America in Q3 FY25?",
+      "expected_answer": "58.4%",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "Did Europe exceed 29% revenue share in Q3 FY25?",
+      "expected_answer": "Yes",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "What share came from Europe in Q3 FY25?",
+      "expected_answer": "29.8%",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "Did Rest of World contribute below 9% revenue in Q3 FY25?",
+      "expected_answer": "Yes",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "What share came from India in Q3 FY25?",
+      "expected_answer": "3.1%",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "How many active clients existed in Dec 2024?",
+      "expected_answer": "1876",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "Were more than 100 clients added in Dec 2024 quarter?",
+      "expected_answer": "Yes",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "How many clients were added in Dec 2024 quarter?",
+      "expected_answer": "101",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "Did 1M+ clients exceed 990 in Dec 2024?",
+      "expected_answer": "Yes",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "How many 10M+ clients existed in Dec 2024?",
+      "expected_answer": "301",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "Did 50M+ clients exceed 85 in Dec 2024?",
+      "expected_answer": "Yes",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "How many 50M+ clients existed in Dec 2024?",
+      "expected_answer": "89",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "How many 100M+ clients existed in Dec 2024?",
+      "expected_answer": "41",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "What revenue share came from top 5 clients in Dec 2024?",
+      "expected_answer": "12.7%",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "What revenue share came from top 10 clients in Dec 2024?",
+      "expected_answer": "19.9%",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "What revenue share came from top 25 clients in Dec 2024?",
+      "expected_answer": "34.2%",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "What were Days Sales Outstanding in Dec 2024?",
+      "expected_answer": "74",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "What was onsite effort in Q3 FY25?",
+      "expected_answer": "24.0%",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "What was offshore effort in Q3 FY25?",
+      "expected_answer": "76.0%",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "What utilization excluding trainees was reported in Q3 FY25?",
+      "expected_answer": "86.0%",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "What was total employee count in Dec 2024?",
+      "expected_answer": "323379",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "Did employee count exceed 320000 in Dec 2024?",
+      "expected_answer": "Yes",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "How many software professionals worked at Infosys in Dec 2024?",
+      "expected_answer": "306528",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "How many sales and support employees were there in Dec 2024?",
+      "expected_answer": "16851",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "What voluntary attrition rate was reported in Dec 2024?",
+      "expected_answer": "13.7%",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "What percentage of employees were women in Dec 2024?",
+      "expected_answer": "39.0%",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "What free cash flow was reported in Dec 2024?",
+      "expected_answer": "1263",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    },
+    {
+      "question": "What consolidated cash and investments existed in Dec 2024?",
+      "expected_answer": "4653",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "name 'score' is not defined",
+      "sources": []
+    }
+  ]
+}

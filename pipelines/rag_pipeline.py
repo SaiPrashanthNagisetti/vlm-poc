@@ -111,7 +111,7 @@ def load_documents():
                         "pdf":              pdf_name,
                         "page":             page_number,
                         "keywords":         json.dumps(keywords),
-                        "visual_summaries": json.dumps(visuals)
+                        #"visual_summaries": json.dumps(visuals)
                     }
                 )
             )
@@ -209,6 +209,7 @@ def query_rag(question: str, top_k: int = TOP_K):
         len(response.source_nodes)
     )
 
+    answer = response.response
 
     print("\n================ Question ================\n")
     print("Question:", question)
@@ -252,6 +253,7 @@ def query_rag(question: str, top_k: int = TOP_K):
             n.node.metadata.get("page", "?")
         )
 
+    sources = []    
 
     print("\n================ CITATIONS ================\n")
 
@@ -264,6 +266,11 @@ def query_rag(question: str, top_k: int = TOP_K):
 
         pdf_name = metadata.get("pdf", "unknown")
         page_num = metadata.get("page", "?")
+
+        sources.append({
+            "pdf": pdf_name,
+            "page": page_num
+        })
 
         visuals = json.loads(metadata.get("visual_summaries", "[]"))
 
@@ -325,13 +332,19 @@ def query_rag(question: str, top_k: int = TOP_K):
 
 
         print("\n" + "-" * 50 + "\n")
+        
+    return {
+        "question": question,
+        "answer": answer,
+        "sources": sources
+    }   
 
 
 # ─────────────────────────────────────────────
 # MAIN
 # ─────────────────────────────────────────────
 
-if __name__ == "__main__":
+#if __name__ == "__main__":
 
      # Step 1 — build index (run once, then comment out)
     #build_index()
@@ -340,4 +353,4 @@ if __name__ == "__main__":
     #query_rag("What are the benefits of injury and illness prevention programs?")
     #query_rag("what is the cost of most disabling injuries during 2002?")
     #query_rag("What is EH&S  is responsible for?")
-    query_rag("What is the change in avtive clinets from Sep 30 2024 to  dec 31 2024")
+    #query_rag("What is the change in avtive clinets from Sep 30 2024 to  dec 31 2024")

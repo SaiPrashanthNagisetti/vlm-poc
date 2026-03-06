@@ -3,21 +3,27 @@
     "page_number": 7,
     "image_title": "Ablations on Tool Position and Training Robustness",
     "image_keywords": [
+        "Ablations",
+        "Tool Position",
+        "Training Robustness",
         "Accuracy Gain",
-        "TTRL",
+        "Verified Voting Weight",
         "AIME",
         "MATH",
         "AMC",
+        "MATH500",
+        "TTRL-Agent",
+        "T3RL",
         "STD",
         "Variance"
     ],
-    "summary": "This visual consists of two charts illustrating the accuracy gains associated with different methodologies in a machine learning context. The left chart depicts the accuracy gain percentages for two models, TTRL and MATH, across varying verified voting weights, with TTRL achieving a peak gain of +31.6% at a weight of 1. The right chart compares the performance of TTRL-Agent and T^3RL against three categories: AIME, AMC, and MATH500, highlighting that T^3RL shows a significant drop in accuracy for AIME (-5.7%) and AMC (-19.0%), while MATH500 experiences a decrease of -23.0%. Additionally, the right chart presents training robustness metrics, showing TTRL's performance against standard deviation and variance, with values of 2.638 and 6.959 respectively. Overall, the visual emphasizes the impact of tool position and training robustness on accuracy gains.",
+    "summary": "The image contains two bar charts and one line chart analyzing the impact of tool position and training robustness on accuracy gain. The line chart on the left shows the relationship between verified voting weight and accuracy gain for AIME and MATH, with notable gains of +31.6% and +2.2% respectively. The bar chart in the center compares tool calling versus verification relative to TTRL, highlighting a significant accuracy gain of +31.6% for TTRL-Agent in AIME, while AMC and MATH500 show negative gains. The bar chart on the right compares training robustness, showing higher variance for T3RL with a value of 6.959 compared to TTRL's 3.572. These visuals collectively illustrate the effects of different strategies on performance metrics.",
     "table_rows": [],
-    "confidence_score": 0.95,
+    "confidence_score": 0.9,
     "image_citation": "extracted_assets\\arxiv1\\images\\page7_img1.png",
     "token_usage": {
-        "prompt_tokens": 15445,
-        "completion_tokens": 255,
-        "total_tokens": 15700
+        "prompt_tokens": 1703,
+        "completion_tokens": 272,
+        "total_tokens": 1975
     }
 }

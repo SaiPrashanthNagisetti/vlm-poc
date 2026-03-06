@@ -5,20 +5,20 @@
     "image_keywords": [
         "AIME",
         "MATH",
-        "TTRL",
-        "T\u00b3RL",
         "Score",
+        "TTRL",
+        "T3RL",
+        "r=64",
         "r=16",
-        "r=32",
-        "r=64"
+        "r=32"
     ],
-    "summary": "This bar chart compares the scores of two metrics, AIME and MATH, across different configurations of a variable labeled 'r'. The AIME scores show values of 15.8 for r=64, and 20.0 for both r=16 and r=32, indicating a notable increase as r decreases. In contrast, the MATH scores are higher overall, with values of 73.0 for r=64, and 74.3, 74.4, and 74.6 for r=16, r=32, and r=64 respectively, demonstrating a consistent performance across these configurations. The chart distinguishes between two methods, TTRL and T\u00b3RL, with T\u00b3RL represented in a darker shade, suggesting a comparative analysis of their effectiveness.",
+    "summary": "The image contains two bar charts comparing scores for AIME and MATH under different conditions labeled as TTRL and T3RL. The AIME chart shows scores of 15.8 for TTRL at r=64, and 20.0, 20.8, and 20.8 for T3RL at r=16, r=32, and r=64 respectively. The MATH chart displays scores of 73.0 for TTRL at r=64, and 74.3, 74.4, and 74.6 for T3RL at r=16, r=32, and r=64 respectively. The charts illustrate that T3RL consistently achieves higher scores than TTRL across both AIME and MATH, with the highest scores observed at r=64 for both metrics.",
     "table_rows": [],
-    "confidence_score": 0.9,
+    "confidence_score": 1.0,
     "image_citation": "extracted_assets\\arxiv1\\images\\page8_img1.png",
     "token_usage": {
-        "prompt_tokens": 9778,
-        "completion_tokens": 237,
-        "total_tokens": 10015
+        "prompt_tokens": 1533,
+        "completion_tokens": 258,
+        "total_tokens": 1791
     }
 }

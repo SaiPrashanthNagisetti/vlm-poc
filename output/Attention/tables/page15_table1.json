@@ -1,0 +1,22 @@
+{
+    "file_name": "Attention",
+    "page_number": 15,
+    "image_title": "Text Connection Diagram",
+    "image_keywords": [
+        "The Law",
+        "application",
+        "opinion",
+        "missing",
+        "perfect",
+        "just"
+    ],
+    "summary": "This diagram illustrates the connections between various words and phrases, likely representing a conceptual or linguistic relationship. The words include 'The Law,' 'application,' 'opinion,' 'missing,' 'perfect,' and 'just,' among others. The lines connecting these words vary in thickness, suggesting different strengths or types of relationships. The diagram may be used to visualize how these concepts are interrelated in a specific context, possibly in a legal or philosophical discussion.",
+    "table_rows": [],
+    "confidence_score": 0.9,
+    "image_citation": "extracted_assets\\Attention\\tables\\page15_table1.png",
+    "token_usage": {
+        "prompt_tokens": 1703,
+        "completion_tokens": 147,
+        "total_tokens": 1850
+    }
+}

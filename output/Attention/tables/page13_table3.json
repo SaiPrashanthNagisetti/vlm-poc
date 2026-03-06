@@ -1,0 +1,23 @@
+{
+    "file_name": "Attention",
+    "page_number": 13,
+    "image_title": "Text Heatmap",
+    "image_keywords": [
+        "American governments",
+        "laws",
+        "2009",
+        "voting",
+        "registration",
+        "process",
+        "difficult"
+    ],
+    "summary": "The visual is a heatmap illustrating the frequency or emphasis of certain words in a text passage. The passage discusses how a majority of American governments have passed new laws since 2009, making the voting or registration process more difficult. The heatmap highlights key terms such as 'American governments,' 'laws,' '2009,' and 'difficult,' indicating their significance or frequency in the text. This type of visualization helps in understanding the focus and main themes of the text by visually representing the prominence of specific words.",
+    "table_rows": [],
+    "confidence_score": 0.9,
+    "image_citation": "extracted_assets\\Attention\\tables\\page13_table3.png",
+    "token_usage": {
+        "prompt_tokens": 1703,
+        "completion_tokens": 176,
+        "total_tokens": 1879
+    }
+}

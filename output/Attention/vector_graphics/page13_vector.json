@@ -1,23 +1,27 @@
 {
     "file_name": "Attention",
     "page_number": 13,
-    "image_title": "Attention Visualizations",
+    "image_title": "Dependency Parse Diagram",
     "image_keywords": [
-        "attention mechanism",
-        "self-attention",
-        "long-distance dependencies",
-        "layer 5",
-        "making",
-        "voting",
-        "registration"
+        "dependency",
+        "parse",
+        "diagram",
+        "sentence structure",
+        "linguistics",
+        "syntax",
+        "American governments",
+        "laws",
+        "voting process",
+        "registration",
+        "2009"
     ],
-    "summary": "This visual represents an example of the attention mechanism in a self-attention model, specifically in layer 5 of 6. It illustrates how various attention heads focus on long-distance dependencies within a phrase, particularly highlighting the verb 'making' in the context of 'making...more difficult'. The connections between words such as 'voting', 'registration', and 'making' are depicted with different colors representing distinct attention heads, emphasizing the complexity of the relationships in the sentence structure.",
+    "summary": "This diagram is a dependency parse representation of a sentence, illustrating the syntactic structure and relationships between words. The sentence discusses how a majority of American governments have passed new laws since 2009, making the registration or voting process more difficult. The diagram visually connects words to show dependencies, with 'making' as a central node linked to 'registration' and 'voting process,' indicating the action's impact. The structure highlights the temporal aspect 'since 2009' and the entities involved, such as 'American governments' and 'laws.' This visual aids in understanding the grammatical relationships and hierarchy within the sentence.",
     "table_rows": [],
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\Attention\\vector_graphics\\page13_vector.png",
     "token_usage": {
-        "prompt_tokens": 26779,
-        "completion_tokens": 162,
-        "total_tokens": 26941
+        "prompt_tokens": 1703,
+        "completion_tokens": 215,
+        "total_tokens": 1918
     }
 }

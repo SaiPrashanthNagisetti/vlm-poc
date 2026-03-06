@@ -1,0 +1,20 @@
+{
+    "file_name": "fact-sheet_Q4_24-25",
+    "page_number": 1,
+    "image_title": "Operating Margin Overview",
+    "image_keywords": [
+        "Operating Margin",
+        "21.1% FY",
+        "21.0% Q4",
+        "0.5% Increase"
+    ],
+    "summary": "This image presents an overview of the operating margin, highlighting a 21.1% margin for the fiscal year and a 21.0% margin for the fourth quarter. It notes a 0.5% increase in the fiscal year operating margin, indicating a positive trend in financial performance over the period. The focus is on the percentage values representing the operating margin and the incremental growth observed annually.",
+    "table_rows": [],
+    "confidence_score": 0.9,
+    "image_citation": "extracted_assets\\fact-sheet_Q4_24-25\\tables\\page1_table5.png",
+    "token_usage": {
+        "prompt_tokens": 1533,
+        "completion_tokens": 144,
+        "total_tokens": 1677
+    }
+}

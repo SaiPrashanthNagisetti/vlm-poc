@@ -1,21 +1,22 @@
 {
     "file_name": "arxiv2",
     "page_number": 25,
-    "image_title": "Insights on Goal Selection",
+    "image_title": "Problem Solving Insights",
     "image_keywords": [
-        "goal selection",
+        "solvable",
         "properties",
-        "solvable plan",
+        "soccer training",
+        "music lesson",
         "sports",
-        "music lesson"
+        "groceries"
     ],
-    "summary": "This visual presents a discussion on the solvability of a plan based on specific enforced goals. It outlines a scenario where certain combinations of properties must be forfeited to achieve a solvable outcome. The properties include activities related to sports and music lessons for a daughter, as well as tasks involving a grandmother. The visual emphasizes the complexity of goal selection and the implications of enforcing certain combinations, suggesting that some goals may lead to unsolvable situations.",
+    "summary": "The image is a diagram titled 'Problem Solving Insights' that provides guidance on making a plan solvable by suggesting the removal of certain combinations of properties. It lists combinations such as 'daughter does soccer training,' 'parent does sports and son attends music lesson,' and 'bring grandma's groceries to her house.' The diagram aims to address the question of why the selection of enforced goals is unsolvable by offering alternative combinations to consider.",
     "table_rows": [],
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\arxiv2\\images\\page25_img2.png",
     "token_usage": {
-        "prompt_tokens": 9778,
-        "completion_tokens": 146,
-        "total_tokens": 9924
+        "prompt_tokens": 1533,
+        "completion_tokens": 158,
+        "total_tokens": 1691
     }
 }

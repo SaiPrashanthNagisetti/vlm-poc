@@ -1,38 +1,19 @@
 {
     "file_name": "fact-sheet_Q3_24-25",
     "page_number": 1,
-    "image_title": "Quarterly Financial Performance by Sector",
+    "image_title": "Operating Margin Overview",
     "image_keywords": [
-        "Financial services",
-        "Manufacturing",
-        "Retail",
-        "Energy",
-        "Utilities",
-        "Resources",
-        "Communication",
-        "Hi-Tech",
-        "Life Sciences",
-        "Others",
-        "YoY Growth",
-        "Quarter ended"
+        "Operating Margin",
+        "21.3%",
+        "0.8% YoY increase"
     ],
-    "summary": "This table presents the quarterly financial performance across various sectors for the periods ending December 31, 2024, September 30, 2024, and December 31, 2023. It includes sectors such as Financial Services, Manufacturing, Retail, and others, with corresponding values indicating their performance percentages. The Year-over-Year (YoY) growth is also reported, showing a range of growth rates across sectors, with Financial Services experiencing a reported growth of 5.8% and a constant currency growth of 6.1%. The total percentage for all sectors is consistently 100.0% across the reported periods, highlighting the distribution of performance across these categories.",
-    "table_rows": [
-        "Financial services: Dec 31 2024 = 27.8, Sep 30 2024 = 27.2, Dec 31 2023 = 27.8, YoY Growth Reported = 5.8, CC = 6.1",
-        "Manufacturing: Dec 31 2024 = 15.5, Sep 30 2024 = 15.7, Dec 31 2023 = 14.9, YoY Growth Reported = 10.0, CC = 10.7",
-        "Retail: Dec 31 2024 = 13.8, Sep 30 2024 = 13.3, Dec 31 2023 = 14.6, YoY Growth Reported = 0.0, CC = 0.1",
-        "Energy, Utilities, Resources & Services: Dec 31 2024 = 13.5, Sep 30 2024 = 13.5, Dec 31 2023 = 13.2, YoY Growth Reported = 8.6, CC = 8.6",
-        "Communication: Dec 31 2024 = 11.2, Sep 30 2024 = 11.9, Dec 31 2023 = 11.4, YoY Growth Reported = 4.4, CC = 4.0",
-        "Hi-Tech: Dec 31 2024 = 7.9, Sep 30 2024 = 8.0, Dec 31 2023 = 7.7, YoY Growth Reported = 8.4, CC = 8.4",
-        "Life Sciences: Dec 31 2024 = 7.6, Sep 30 2024 = 7.3, Dec 31 2023 = 6.5, YoY Growth Reported = 6.5, CC = 6.3",
-        "Others: Dec 31 2024 = 2.7, Sep 30 2024 = 3.1, Dec 31 2023 = 2.9, YoY Growth Reported = 1.3, CC = 3.2",
-        "Total: Dec 31 2024 = 100.0, Sep 30 2024 = 100.0, Dec 31 2023 = 100.0"
-    ],
-    "confidence_score": 0.95,
+    "summary": "This image presents a key financial metric, the operating margin, which is reported as 21.3%. It highlights a year-over-year increase of 0.8%, indicating an improvement in the company's operational efficiency over the previous year. The focus is on the percentage change in operating margin, a critical indicator of profitability and cost management.",
+    "table_rows": [],
+    "confidence_score": 1.0,
     "image_citation": "extracted_assets\\fact-sheet_Q3_24-25\\tables\\page1_table2.png",
     "token_usage": {
-        "prompt_tokens": 21112,
-        "completion_tokens": 735,
-        "total_tokens": 21847
+        "prompt_tokens": 1533,
+        "completion_tokens": 123,
+        "total_tokens": 1656
     }
 }

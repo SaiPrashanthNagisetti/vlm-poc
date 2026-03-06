@@ -3,20 +3,20 @@
     "page_number": 4,
     "image_title": "Cost of the Most Disabling Injuries 1998-2008",
     "image_keywords": [
-        "cost",
-        "disabling injuries",
+        "Cost",
+        "Disabling Injuries",
         "1998",
         "2008",
-        "billions",
+        "Billions",
         "Liberty Mutual Research Institute"
     ],
-    "summary": "This line chart illustrates the trend in the cost of the most disabling injuries from 1998 to 2008, measured in billions of dollars. The data shows a steady increase in costs over the years, starting at $37.1 billion in 1998 and reaching $53.4 billion by 2008. Notable peaks include $51.7 billion in 2001 and $53.0 billion in 2007, indicating significant growth in the financial impact of disabling injuries over the decade. The chart highlights the increasing trend in costs, with only minor fluctuations observed during the period.",
+    "summary": "The line chart titled 'Cost of the Most Disabling Injuries 1998-2008' illustrates the financial impact of disabling injuries over a decade, measured in billions of dollars. The chart shows a general upward trend from $37.1 billion in 1998 to $53.4 billion in 2008, with a peak at $51.7 billion in 2001. After a slight decline to $48.6 billion in 2004, the costs rise again, reaching $53.0 billion in 2007. The data source is the Liberty Mutual Research Institute, 2010, highlighting the economic burden of injuries over time.",
     "table_rows": [],
-    "confidence_score": 0.95,
+    "confidence_score": 1.0,
     "image_citation": "extracted_assets\\OSHAwhite-paper-january2012sm\\images\\page4_img1.png",
     "token_usage": {
-        "prompt_tokens": 9778,
-        "completion_tokens": 196,
-        "total_tokens": 9974
+        "prompt_tokens": 1533,
+        "completion_tokens": 219,
+        "total_tokens": 1752
     }
 }

@@ -1,0 +1,18 @@
+{
+    "file_name": "fact-sheet_Q2_25-26",
+    "page_number": 1,
+    "image_title": "Operating Margin",
+    "image_keywords": [
+        "Operating Margin",
+        "21.0%"
+    ],
+    "summary": "The image displays a single data point indicating an operating margin of 21.0%. This metric represents the percentage of revenue that remains after covering operating expenses, providing insight into the company's profitability and operational efficiency.",
+    "table_rows": [],
+    "confidence_score": 1.0,
+    "image_citation": "extracted_assets\\fact-sheet_Q2_25-26\\tables\\page1_table6.png",
+    "token_usage": {
+        "prompt_tokens": 1533,
+        "completion_tokens": 88,
+        "total_tokens": 1621
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "file_name": "arxiv1",
+    "page_number": 6,
+    "image_title": "Performance Metrics Table",
+    "image_keywords": [
+        "w/TRL",
+        "w/T^3RL",
+        "performance",
+        "metrics"
+    ],
+    "summary": "The table presents performance metrics comparing two configurations, 'w/TRL' and 'w/T^3RL', across four different criteria. The values indicate a comparison of performance levels, with 'w/T^3RL' showing higher values in most categories, suggesting improved performance over 'w/TRL'. This table is useful for evaluating the effectiveness of the configurations in achieving better results.",
+    "table_rows": [
+        "w/TRL: 36.4, 71.7, 88.4, 68.5",
+        "w/T^3RL: 40.0, 74.2, 89.5, 68.1"
+    ],
+    "confidence_score": 0.9,
+    "image_citation": "extracted_assets\\arxiv1\\tables\\page6_table4.png",
+    "token_usage": {
+        "prompt_tokens": 1703,
+        "completion_tokens": 188,
+        "total_tokens": 1891
+    }
+}

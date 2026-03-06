@@ -1,35 +1,45 @@
 {
     "file_name": "fact-sheet_Q4_24-25",
     "page_number": 3,
-    "image_title": "Financial Performance Summary",
+    "image_title": "Financial Performance Table",
     "image_keywords": [
         "Revenues",
+        "Cost of sales",
         "Gross Profit",
         "Operating Expenses",
+        "Operating Profit",
+        "Operating Margin",
         "Net Profit",
         "EPS",
-        "Growth Percentage"
+        "Dividend Per Share",
+        "Mar 31, 2025",
+        "Mar 31, 2024",
+        "Growth"
     ],
-    "summary": "This table presents a financial performance summary comparing key metrics for the periods ending March 31, 2025, and March 31, 2024. It includes revenues, cost of sales, gross profit, operating expenses, and net profit, among other financial indicators. Notably, revenues increased by 3.9%, while gross profit saw a growth of 5.1%. Operating profit improved by 6.2%, although profit before income taxes decreased by 26.6%. The table also highlights changes in earnings per share, with diluted EPS showing a slight decline of 0.3%. Overall, the data reflects a mixed performance across various financial metrics.",
+    "summary": "The table presents a financial performance overview for the periods ending March 31, 2025, and March 31, 2024, highlighting key metrics such as revenues, cost of sales, gross profit, operating expenses, and net profit. It compares these metrics across the two years and includes a growth percentage for each. Notable insights include a revenue increase of 3.9% and a gross profit growth of 5.1%. Operating profit and net profit before minority interest show slight variations, with operating profit increasing by 6.2%. The table also details earnings per share (EPS) and dividend per share, with the latter showing a significant growth of 13.2%.",
     "table_rows": [
-        "Revenues: Mar 31, 2025 = 19277, Mar 31, 2024 = 18562, Growth % = 3.9",
-        "Cost of sales: Mar 31, 2025 = 13405, Mar 31, 2024 = 12975, Growth % = 3.3",
-        "Gross Profit: Mar 31, 2025 = 5872, Mar 31, 2024 = 5587, Growth % = 5.1",
-        "Total Operating Expenses: Mar 31, 2025 = 1801, Mar 31, 2024 = 1753, Growth % = 2.7",
-        "Operating Profit: Mar 31, 2025 = 4071, Mar 31, 2024 = 3834, Growth % = 6.2",
-        "Operating Margin %: Mar 31, 2025 = 21.1, Mar 31, 2024 = 20.7, Growth % = 0.5",
-        "Profit before income taxes: Mar 31, 2025 = 376, Mar 31, 2024 = 512, Growth % = -26.6",
-        "Net Profit (before minority interest): Mar 31, 2025 = 3162, Mar 31, 2024 = 3169, Growth % = -0.2",
-        "Net Profit (after minority interest): Mar 31, 2025 = 3158, Mar 31, 2024 = 3167, Growth % = -0.3",
-        "Basic EPS: Mar 31, 2025 = 0.76, Mar 31, 2024 = 0.77, Growth % = -0.5",
-        "Diluted EPS: Mar 31, 2025 = 0.76, Mar 31, 2024 = 0.76, Growth % = 0.0",
-        "Dividend Per Share: Mar 31, 2025 = 0.51, Mar 31, 2024 = 0.46, Growth % = 13.2"
+        "Revenues: Mar 31, 2025 = 19,277, Mar 31, 2024 = 18,562, Growth % = 3.9%",
+        "Cost of sales: Mar 31, 2025 = 13,405, Mar 31, 2024 = 12,975, Growth % = 3.3%",
+        "Gross Profit: Mar 31, 2025 = 5,872, Mar 31, 2024 = 5,587, Growth % = 5.1%",
+        "Selling and marketing expenses: Mar 31, 2025 = 898, Mar 31, 2024 = 842, Growth % = 6.7%",
+        "Administrative expenses: Mar 31, 2025 = 903, Mar 31, 2024 = 911, Growth % = -0.9%",
+        "Total Operating Expenses: Mar 31, 2025 = 1,801, Mar 31, 2024 = 1,753, Growth % = 2.7%",
+        "Operating Profit: Mar 31, 2025 = 4,071, Mar 31, 2024 = 3,834, Growth % = 6.2%",
+        "Operating Margin %: Mar 31, 2025 = 21.1, Mar 31, 2024 = 20.7, Growth % = 0.5%",
+        "Other Income, net: Mar 31, 2025 = 376, Mar 31, 2024 = 512, Growth % = -26.6%",
+        "Profit before income taxes: Mar 31, 2025 = 4,447, Mar 31, 2024 = 4,346, Growth % = 2.3%",
+        "Income tax expense: Mar 31, 2025 = 1,285, Mar 31, 2024 = 1,177, Growth % = 9.2%",
+        "Net Profit (before minority interest): Mar 31, 2025 = 3,162, Mar 31, 2024 = 3,169, Growth % = -0.2%",
+        "Net Profit (after minority interest): Mar 31, 2025 = 3,158, Mar 31, 2024 = 3,167, Growth % = -0.3%",
+        "Basic EPS ($): Mar 31, 2025 = 0.76, Mar 31, 2024 = 0.77, Growth % = -0.5%",
+        "Diluted EPS ($): Mar 31, 2025 = 0.76, Mar 31, 2024 = 0.76, Growth % = 0.0%",
+        "Dividend Per Share ($): Mar 31, 2025 = 0.51, Mar 31, 2024 = 0.46, Growth % = 13.2%"
     ],
-    "confidence_score": 0.95,
+    "confidence_score": 1.0,
     "image_citation": "extracted_assets\\fact-sheet_Q4_24-25\\tables\\page3_table2.png",
     "token_usage": {
-        "prompt_tokens": 21112,
-        "completion_tokens": 662,
-        "total_tokens": 21774
+        "prompt_tokens": 1873,
+        "completion_tokens": 888,
+        "total_tokens": 2761
     }
 }

@@ -7,18 +7,19 @@
         "Consolidated cash and investments",
         "Mar 31 2025",
         "Dec 31 2024",
-        "Mar 31 2024"
+        "Mar 31 2024",
+        "financial metrics"
     ],
-    "summary": "This table presents a quarterly financial overview, detailing two key metrics: Free Cash Flow and Consolidated Cash and Investments, measured in millions of USD. The data spans three quarters: March 31, 2025, December 31, 2024, and March 31, 2024. Free Cash Flow shows a decrease from 1,263 million in December 2024 to 892 million in March 2025, while Consolidated Cash and Investments exhibit a slight increase from 4,653 million in December 2024 to 5,562 million in March 2025. This indicates a trend of declining free cash flow alongside a stable increase in cash and investments over the observed periods.",
+    "summary": "The table presents a quarterly financial overview, focusing on 'Free cash flow' and 'Consolidated cash and investments' for the periods ending March 31, 2025, December 31, 2024, and March 31, 2024. It highlights the changes in financial metrics over these quarters, with free cash flow peaking at $1,263 million in December 2024 and consolidated cash and investments reaching their highest at $5,562 million in March 2025. The data provides insights into the company's financial health and liquidity over the specified periods.",
     "table_rows": [
         "Free cash flow: Mar 31 2025 = 892, Dec 31 2024 = 1,263, Mar 31 2024 = 848",
         "Consolidated cash and investments: Mar 31 2025 = 5,562, Dec 31 2024 = 4,653, Mar 31 2024 = 4,676"
     ],
-    "confidence_score": 0.95,
+    "confidence_score": 1.0,
     "image_citation": "extracted_assets\\fact-sheet_Q4_24-25\\tables\\page2_table3.png",
     "token_usage": {
-        "prompt_tokens": 21112,
-        "completion_tokens": 303,
-        "total_tokens": 21415
+        "prompt_tokens": 1873,
+        "completion_tokens": 291,
+        "total_tokens": 2164
     }
 }

@@ -1,22 +1,21 @@
 {
     "file_name": "arxiv1",
     "page_number": 3,
-    "image_title": "Code Interpreter Tool Flow Diagram",
+    "image_title": "Code Interpreter Flow Diagram",
     "image_keywords": [
-        "Code Interpreter",
         "Tool",
-        "Process",
-        "Decision",
-        "Success",
-        "Failure"
+        "Code Interpreter",
+        "checkmark",
+        "cross",
+        "process"
     ],
-    "summary": "This flow diagram illustrates the process of using a Code Interpreter tool. It begins with the tool itself, which is represented by a box labeled 'Code Interpreter.' The diagram shows two possible outcomes: a successful execution, indicated by a green checkmark, and a failure, indicated by a red cross. The flow is directed by arrows, indicating the decision-making process involved in utilizing the tool. The diagram effectively communicates the binary outcomes of using the Code Interpreter, highlighting the potential for both success and failure.",
+    "summary": "This flow diagram illustrates the process involving a 'Code Interpreter' tool. The diagram starts with a 'Tool' node, which leads to a 'Code Interpreter' step. From the 'Code Interpreter', the process branches into two outcomes: a successful path indicated by a checkmark and an unsuccessful path indicated by a cross. The diagram visually represents the decision-making process and outcomes when using the code interpreter tool.",
     "table_rows": [],
     "confidence_score": 0.9,
     "image_citation": "extracted_assets\\arxiv1\\images\\page3_img1.png",
     "token_usage": {
-        "prompt_tokens": 9778,
-        "completion_tokens": 158,
-        "total_tokens": 9936
+        "prompt_tokens": 1533,
+        "completion_tokens": 137,
+        "total_tokens": 1670
     }
 }

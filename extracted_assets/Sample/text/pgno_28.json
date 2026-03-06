@@ -1,19 +1,19 @@
 {
   "pdf": "Sample",
   "page": 28,
-  "text": "[159] Zhihao Lin, Qi Zhang, Zhen Tian, Peizhuo Yu, and Jianglin Lan. Dpl-slam: enhancing dynamic\npoint-line slam through dense semantic methods. IEEE Sensors Journal, 2024.\n[160] ChrisZhuang, DebadyutiMukherjee, TianfanFu, andRuqiZhang. Gradientga: Gradientgenetic\nalgorithm for drug molecular design. arXiv preprint arXiv:2502.09860, 2025.\n[161] Lincan Li, Jiaqi Li, Catherine Chen, Fred Gui, Hongjia Yang, Chenxiao Yu, Zhengguang Wang,\nJianing Cai, Junlong Aaron Zhou, Bolin Shen, et al. Political-llm: Large language models in\npolitical science. arXiv preprint arXiv:2412.06864, 2024.\n[162] Jiachen Zhong and Yiting Wang. Enhancing thyroid disease prediction using machine learning: A\ncomparative study of ensemble models and class balancing techniques. 2025.\n[163] An-Lan Wang, Bin Shan, Wei Shi, Kun-Yu Lin, Xiang Fei, Guozhi Tang, Lei Liao, Jingqun Tang,\nCan Huang, and Wei-Shi Zheng. Pargo: Bridging vision-language with partial and global views.\narXiv preprint arXiv:2408.12928, 2024.\n[164] Menghao Huo, Kuan Lu, Yuxiao Li, and Qiang Zhu. Ct-patchtst: Channel-time patch time-series\ntransformer for long-term renewable energy forecasting, 2025.\n[165] Faris Jiwad, Owen Wolff, Omar Barabandi, Laith Najjab, and Xiaodong Qu. Flockjs: A browser-\nnative game engine integrating webgpu and peer-to-peer networking for scalable multiplayer expe-\nriences.\n[166] Zhen Zhu, Xiaobo Li, Jingsheng Zhai, and Haofeng Hu. Podb: A learning-based polarimetric\nobject detection benchmark for road scenes in adverse weather conditions. Information Fusion,\n108:102385, 2024.\n[167] Ziheng Chen, Fabrizio Silvestri, Gabriele Tolomei, Jia Wang, He Zhu, and Hongshik Ahn. Explain\nthe explainer: Interpreting model-agnostic counterfactual explanations of a deep reinforcement\nlearning agent. IEEE Transactions on Artificial Intelligence, 5(4):1443–1457, 2022.\n[168] Adam N Elmachtoub, Henry Lam, Haofeng Zhang, and Yunfan Zhao. Estimate-then-optimize\nversusintegrated-estimation-optimizationversussampleaverageapproximation: astochasticdom-\ninance perspective. arXiv preprint arXiv:2304.06833, 2023.\n[169] Han Xu, Xingyuan Wang, and Haipeng Chen. Towards real-time and personalized code genera-\ntion. In Proceedings of the 33rd ACM International Conference on Information and Knowledge\nManagement, page 5568–5569, 2024.",
+  "text": "[159] Zhihao Lin, Qi Zhang, Zhen Tian, Peizhuo Yu, and Jianglin Lan. Dpl-slam: enhancing dynamic\npoint-line slam through dense semantic methods. IEEE Sensors Journal, 2024.\n[160] ChrisZhuang, DebadyutiMukherjee, TianfanFu, andRuqiZhang. Gradientga: Gradientgenetic\nalgorithm for drug molecular design. arXiv preprint arXiv:2502.09860, 2025.\n[161] Lincan Li, Jiaqi Li, Catherine Chen, Fred Gui, Hongjia Yang, Chenxiao Yu, Zhengguang Wang,\nJianing Cai, Junlong Aaron Zhou, Bolin Shen, et al. Political-llm: Large language models in\npolitical science. arXiv preprint arXiv:2412.06864, 2024.\n[162] Jiachen Zhong and Yiting Wang. Enhancing thyroid disease prediction using machine learning: A\ncomparative study of ensemble models and class balancing techniques. 2025.\n[163] An-Lan Wang, Bin Shan, Wei Shi, Kun-Yu Lin, Xiang Fei, Guozhi Tang, Lei Liao, Jingqun Tang,\nCan Huang, and Wei-Shi Zheng. Pargo: Bridging vision-language with partial and global views.\narXiv preprint arXiv:2408.12928, 2024.\n[164] Menghao Huo, Kuan Lu, Yuxiao Li, and Qiang Zhu. Ct-patchtst: Channel-time patch time-series\ntransformer for long-term renewable energy forecasting, 2025.\n[165] Faris Jiwad, Owen Wolff, Omar Barabandi, Laith Najjab, and Xiaodong Qu. Flockjs: A browser-\nnative game engine integrating webgpu and peer-to-peer networking for scalable multiplayer expe-\nriences.\n[166] Zhen Zhu, Xiaobo Li, Jingsheng Zhai, and Haofeng Hu. Podb: A learning-based polarimetric\nobject detection benchmark for road scenes in adverse weather conditions. Information Fusion,\n108:102385, 2024.\n[167] Ziheng Chen, Fabrizio Silvestri, Gabriele Tolomei, Jia Wang, He Zhu, and Hongshik Ahn. Explain\nthe explainer: Interpreting model-agnostic counterfactual explanations of a deep reinforcement\nlearning agent. IEEE Transactions on Artificial Intelligence, 5(4):1443\u20131457, 2022.\n[168] Adam N Elmachtoub, Henry Lam, Haofeng Zhang, and Yunfan Zhao. Estimate-then-optimize\nversusintegrated-estimation-optimizationversussampleaverageapproximation: astochasticdom-\ninance perspective. arXiv preprint arXiv:2304.06833, 2023.\n[169] Han Xu, Xingyuan Wang, and Haipeng Chen. Towards real-time and personalized code genera-\ntion. In Proceedings of the 33rd ACM International Conference on Information and Knowledge\nManagement, page 5568\u20135569, 2024.",
   "keywords": [
-    "arxiv preprint",
+    "2024",
     "preprint",
+    "arxiv preprint",
     "zhu",
-    "yu",
-    "li",
     "chen",
     "arxiv",
-    "time",
+    "li",
     "preprint arxiv",
-    "learning",
     "wang",
-    "2024"
+    "time",
+    "learning",
+    "yu"
   ]
 }

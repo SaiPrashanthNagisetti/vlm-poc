@@ -1,0 +1,18 @@
+{
+    "file_name": "fact-sheet_Q1_24-25",
+    "page_number": 1,
+    "image_title": "Free Cash Flow Highlight",
+    "image_keywords": [
+        "Free Cash Flow",
+        "$1.1 Bn"
+    ],
+    "summary": "The image is a simple visual representation highlighting a financial metric, specifically the free cash flow amounting to $1.1 billion. This figure is prominently displayed, indicating its significance in the financial context, possibly as a key performance indicator or a summary of financial health.",
+    "table_rows": [],
+    "confidence_score": 0.9,
+    "image_citation": "extracted_assets\\fact-sheet_Q1_24-25\\tables\\page1_table9.png",
+    "token_usage": {
+        "prompt_tokens": 1533,
+        "completion_tokens": 104,
+        "total_tokens": 1637
+    }
+}

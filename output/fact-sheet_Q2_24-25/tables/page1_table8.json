@@ -1,0 +1,19 @@
+{
+    "file_name": "fact-sheet_Q2_24-25",
+    "page_number": 1,
+    "image_title": "Large Deal TCV",
+    "image_keywords": [
+        "$2.4 Bn",
+        "Large Deal",
+        "TCV"
+    ],
+    "summary": "The image is a diagram displaying a financial metric, specifically a large deal with a total contract value (TCV) of $2.4 billion. This visual highlights the significance of the deal size in monetary terms, emphasizing its importance in a business or financial context.",
+    "table_rows": [],
+    "confidence_score": 1.0,
+    "image_citation": "extracted_assets\\fact-sheet_Q2_24-25\\tables\\page1_table8.png",
+    "token_usage": {
+        "prompt_tokens": 1533,
+        "completion_tokens": 108,
+        "total_tokens": 1641
+    }
+}
