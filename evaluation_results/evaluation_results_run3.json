@@ -1,0 +1,713 @@
+{
+  "summary": {
+    "run_number": 3,
+    "total_questions_in_dataset": 190,
+    "questions_sampled": 30,
+    "correct_answers": 26,
+    "accuracy": 86.67
+  },
+  "results": [
+    {
+      "id": 3,
+      "question": "What was Infosys's total revenue (in USD million) for Q1 FY25 (quarter ended June 30, 2024)?",
+      "expected_answer": "USD 4,714 million.",
+      "predicted_answer": "ERROR",
+      "status": "FAIL",
+      "error": "Could not connect to tenant default_tenant. Are you sure it exists?",
+      "sources": []
+    },
+    {
+      "id": 14,
+      "question": "What was the Large Deal TCV for Q1 FY26?",
+      "expected_answer": "USD 3.8 billion (55% Net New).",
+      "predicted_answer": "The Large Deal Total Contract Value (TCV) for Q1 FY26 is $3.8 billion.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q3_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q1_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q1_25-26",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "question": "Did million-dollar clients exceed 1000 in Sep 2025?",
+      "expected_answer": "Yes",
+      "predicted_answer": "Yes, million-dollar clients did exceed 1000 in September 2025. The number of 1 Million dollar + clients as of September 30, 2025, was 1,012.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_25-26",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "question": "Did Life Sciences revenue decline YoY in Q2 FY26?",
+      "expected_answer": "Yes",
+      "predicted_answer": "Yes, Life Sciences revenue declined YoY in Q2 FY26. The reported YoY growth for Life Sciences for the quarter ending September 30, 2025, was a decrease of 8.9%.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 4
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "What was the operating margin for Q3 FY25 (quarter ended December 31, 2024)?",
+      "expected_answer": "21.3% operating margin.",
+      "predicted_answer": "The operating margin for Q3 FY25 (quarter ended December 31, 2024) was 21.3%.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q1_24-25",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "question": "What was the Basic EPS (in INR) for Q3 FY25?",
+      "expected_answer": "\u20b916.43 per share.",
+      "predicted_answer": "The Basic EPS for Q3 FY25 (September 30, 2024) is \u20b915.71.",
+      "status": "FAIL",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "question": "Did Financial Services have the largest revenue share in Q2 FY26?",
+      "expected_answer": "Yes",
+      "predicted_answer": "Yes, Financial Services had the largest revenue share in Q2 FY26. According to the data provided, for the quarter ending September 30, 2025 (Q2 FY26), Financial Services had a revenue share of 27.7%, which is the highest among all sectors listed.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "question": "What was the Large Deal TCV for Q4 FY25?",
+      "expected_answer": "USD 2.6 billion.",
+      "predicted_answer": "The Large Deal Total Contract Value (TCV) for Q4 FY25 is $2.6 billion.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q3_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q1_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "question": "How many active clients did Infosys have as of December 31, 2025?",
+      "expected_answer": "1,949 active clients.",
+      "predicted_answer": "Infosys had 1,949 active clients as of December 31, 2025.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "question": "What was the revenue (in USD million) for Q3 FY26 (quarter ended December 31, 2025)?",
+      "expected_answer": "USD 5,099 million.",
+      "predicted_answer": "The revenue for Q3 FY26 (quarter ended December 31, 2025) is given as 132,248. However, the currency is not specified in the context. Since the context does not provide a conversion to USD, the revenue in USD million is unavailable.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q1_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 4
+        },
+        {
+          "pdf": "fact-sheet_Q1_24-25",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "question": "Did North America contribute more than 50% revenue in Q2 FY26?",
+      "expected_answer": "Yes",
+      "predicted_answer": "The context provides revenue data for North America for Q2 FY25, which corresponds to the quarter ending September 30, 2024. The revenue contribution from North America for this period is 57.4%.\n\nSince the question asks about Q2 FY26, and there is no data provided for FY26, the answer is \"unavailable.\"",
+      "status": "FAIL",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": 158,
+      "question": "Was Retail share above 13% in Q3 FY25?",
+      "expected_answer": "Yes",
+      "predicted_answer": "To determine if the Retail share was above 13% in Q3 FY25, we need to look at the data for the quarter ending December 31, 2024, which corresponds to Q3 FY25.\n\nFrom the context provided:\n- Retail: Dec 31, 2024 = 13.8\n\nSince 13.8% is above 13%, the Retail share was indeed above 13% in Q3 FY25.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 4
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "question": "What was the free cash flow for Q1 FY26 (in USD million)?",
+      "expected_answer": "USD 884 million.",
+      "predicted_answer": "The free cash flow for Q1 FY26 (June 30, 2025) in USD million is $884 million.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q1_25-26",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": 171,
+      "question": "Did 1M+ clients exceed 990 in Dec 2024?",
+      "expected_answer": "Yes",
+      "predicted_answer": "Yes, the number of 1 Million dollar + clients in December 2024 was 997, which exceeds 990.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "question": "Compare Infosys's free cash flow generation against net profit for the three quarters of FY26. What does the FCF-to-net-profit conversion ratio reveal?",
+      "expected_answer": "Q1 FY26: FCF USD 884 Mn vs. Net Profit ~USD 763 Mn \u2192 conversion >100%. Q2 FY26: FCF USD 1,101 Mn vs. Net Profit ~USD 839 Mn \u2192 conversion ~131%. Q3 FY26: Adjusted FCF USD 965 Mn vs. Adjusted Net Profit USD 855 Mn \u2192 conversion ~113%. Consistently above 100% means Infosys converts more than its reported net profit into free cash \u2014 driven by strong working capital management and non-cash charges. This signals high-quality earnings and supports sustainable capital returns.",
+      "predicted_answer": "Unavailable. The context does not provide information on Infosys's net profit for the three quarters of FY26, so the FCF-to-net-profit conversion ratio cannot be calculated.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "What was Infosys's QoQ CC growth in Q3 FY26?",
+      "expected_answer": "0.6% QoQ in constant currency terms.",
+      "predicted_answer": "The quarter-over-quarter (QoQ) constant currency (CC) growth for Infosys in Q3 FY26 is 0.6%.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q1_24-25",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": 143,
+      "question": "Was voluntary attrition above 14% in Sep 2025?",
+      "expected_answer": "Yes",
+      "predicted_answer": "Yes, voluntary attrition was above 14% in Sep 2025. The voluntary attrition percentage for Sep 30, 2025, was 14.3%.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": 183,
+      "question": "What was total employee count in Dec 2024?",
+      "expected_answer": "323379",
+      "predicted_answer": "The total employee count in December 2024 was 323,379.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": 153,
+      "question": "What large deal TCV was reported in Q3 FY25?",
+      "expected_answer": "$2.5 Bn",
+      "predicted_answer": "The large deal Total Contract Value (TCV) reported in Q3 FY25 was $2.5 billion.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q3_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": 149,
+      "question": "What was CC growth in Q3 FY25?",
+      "expected_answer": "1.7%",
+      "predicted_answer": "The CC growth in Q3 FY25 is highlighted in the context as a quarter-over-quarter (QoQ) growth rate of 1.7% and a year-over-year (YoY) growth rate of 6.1%.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q1_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q1_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "question": "North America's share of revenues has dropped from 60.8% (Jun-23) to 55.9% (Dec-25). Is this a sign of competitive pressure or structural portfolio rebalancing? Use data to support your view.",
+      "expected_answer": "Both factors are at play. Europe's strong CC growth (6.3%\u201315.5%) accounts for the share shift, consistent with portfolio rebalancing. However, North America showed negative or near-zero CC growth in multiple quarters (e.g., \u20131.2% Q1 FY25, \u20132.6% Q2 FY25, \u20131.2% Q3 FY26), indicating genuine demand headwinds \u2014 particularly in US-centric verticals like Hi-Tech and Retail, which are declining. The shift is both structural rebalancing toward Europe and selective weakness in specific North American verticals.",
+      "predicted_answer": "To determine whether the drop in North America's share of revenues from 60.8% (Jun-23) to 55.9% (Dec-25) is a sign of competitive pressure or structural portfolio rebalancing, we can analyze the data provided for North America's revenue share over the specified periods:\n\n1. **North America's Revenue Share:**\n   - Jun 30, 2023: 60.8% (not directly provided, but inferred from the question)\n   - Sep 30, 2023: 61.1%\n   - Dec 31, 2023: 59.0%\n   - Mar 31, 2024: 59.6%\n   - Jun 30, 2024: 58.9%\n   - Sep 30, 2024: 57.4%\n   - Dec 31, 2024: 58.4%\n   - Mar 31, 2025: 57.1%\n   - Dec 31, 2025: 55.9%\n\n2. **Analysis:**\n   - The data shows a consistent decline in North America's revenue share from 61.1% in Sep 2023 to 55.9% in Dec 2025.\n   - This decline is gradual and consistent over the quarters, suggesting a strategic shift rather than a sudden drop that might indicate competitive pressure.\n   - During the same period, Europe and India have shown significant growth in their revenue shares, indicating a possible strategic rebalancing towards these regions.\n\n3. **Conclusion:**\n   - The consistent decline in North America's revenue share, coupled with the growth in other regions like Europe and India, suggests a structural portfolio rebalancing rather than competitive pressure. The company appears to be diversifying its revenue sources by increasing its focus on other regions, which aligns with strategic rebalancing efforts.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "question": "What was the revenue concentration risk from the Top 10 clients across FY26 quarters?",
+      "expected_answer": "Top 10 clients contributed 20.8% in Q1 FY26, 20.7% in Q2 FY26, and 20.6% in Q3 FY26 \u2014 indicating stable and modest revenue concentration with slight diversification over time.",
+      "predicted_answer": "To determine the revenue concentration risk from the Top 10 clients across FY26 quarters, we need to look at the percentage contributions from the Top 10 clients for each quarter in FY26.\n\nFrom the context provided:\n\n- **Dec 31, 2025**: Top 10 clients = 20.6%\n- **Sep 30, 2025**: Top 10 clients = 20.7%\n- **Jun 30, 2025**: Top 10 clients = unavailable\n- **Mar 31, 2025**: Top 10 clients = 20.7%\n\nTherefore, the revenue concentration risk from the Top 10 clients across the available FY26 quarters is as follows:\n\n- Mar 31, 2025: 20.7%\n- Sep 30, 2025: 20.7%\n- Dec 31, 2025: 20.6%",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_25-26",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "What was the CC revenue growth (YoY) reported in Q3 FY25?",
+      "expected_answer": "6.1% YoY in constant currency terms.",
+      "predicted_answer": "The CC revenue growth (YoY) reported in Q3 FY25 was 6.1%.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q1_24-25",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "question": "Comparing Q1 FY26 and Q1 FY25, which quarter had higher YoY CC growth, and by how much?",
+      "expected_answer": "Q1 FY26 had higher YoY CC growth at 3.8%, compared to 2.5% in Q1 FY25, a difference of 1.3 percentage points.",
+      "predicted_answer": "To determine which quarter had higher YoY CC growth between Q1 FY26 and Q1 FY25, we need to locate the YoY CC growth rates for both quarters.\n\nFrom the context:\n\n- Q1 FY26 (fact-sheet_Q2_25-26): The YoY CC growth is 2.9%.\n- Q1 FY25 (fact-sheet_Q2_24-25): The YoY CC growth is 3.3%.\n\nNow, we compare the two values:\n\nQ1 FY25 YoY CC growth = 3.3%\nQ1 FY26 YoY CC growth = 2.9%\n\nDifference = 3.3% - 2.9% = 0.4%\n\nQ1 FY25 had higher YoY CC growth by 0.4%.",
+      "status": "FAIL",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q1_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "question": "What was the YoY growth in total revenues for the nine months ended December 31, 2025 (FY26 YTD) in INR?",
+      "expected_answer": "\u20b9132,248 crore for 9M FY26 vs. \u20b9122,064 crore for 9M FY25 \u2014 a growth of 8.3% YoY.",
+      "predicted_answer": "To calculate the Year-over-Year (YoY) growth in total revenues for the nine months ended December 31, 2025, we need to compare the revenues for the period ending December 31, 2025, with the revenues for the same period in the previous year, December 31, 2024.\n\nFrom the context, the revenues are:\n- Dec 31, 2025: \u20b9132,248\n- Dec 31, 2024: \u20b9122,064\n\nThe formula for YoY growth is:\n\n\\[\n\\text{YoY Growth} = \\left( \\frac{\\text{Revenues in 2025} - \\text{Revenues in 2024}}{\\text{Revenues in 2024}} \\right) \\times 100\n\\]\n\nSubstituting the given values:\n\n\\[\n\\text{YoY Growth} = \\left( \\frac{132,248 - 122,064}{122,064} \\right) \\times 100 = \\left( \\frac{10,184}{122,064} \\right) \\times 100 \\approx 8.3\\%\n\\]\n\nTherefore, the YoY growth in total revenues for the nine months ended December 31, 2025, is 8.3%.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 4
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "question": "What was the six-month (H1 FY25) consolidated revenue and operating profit in USD?",
+      "expected_answer": "Revenue: USD 9,608 million; Operating Profit: USD 2,026 million with an operating margin of 21.1%.",
+      "predicted_answer": "To find the six-month (H1 FY25) consolidated revenue and operating profit, we need to combine the figures for the quarters ending June 30, 2024, and September 30, 2024.\n\nFrom the context provided:\n\n- Revenues for June 30, 2024: 39,315\n- Revenues for September 30, 2024: 40,986\n\nSix-month consolidated revenue = 39,315 + 40,986 = 80,301 USD\n\n- Operating Profit for June 30, 2024: 8,288\n- Operating Profit for September 30, 2024: 8,649\n\nSix-month consolidated operating profit = 8,288 + 8,649 = 16,937 USD\n\nTherefore, the six-month (H1 FY25) consolidated revenue is 80,301 USD, and the operating profit is 16,937 USD.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 4
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 4
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 3
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 3
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 3
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "question": "How much did Q3 FY26 Basic EPS decline YoY in USD terms, and what was the key driver?",
+      "expected_answer": "Basic EPS declined from USD 0.19 in Q3 FY25 to USD 0.18 in Q3 FY26 (\u20136.6%). The primary driver was the Labour Codes adjustment of USD 143 million, which reduced reported net profit. On an adjusted basis, EPS was USD 0.21.",
+      "predicted_answer": "To determine the decline in Q3 FY26 Basic EPS in USD terms and identify the key driver, we need to compare the Basic EPS for Q3 FY26 with Q3 FY25.\n\nFrom the context, we have:\n- Basic EPS for Sep 30, 2025 (Q3 FY26) = $0.20\n- Basic EPS for Sep 30, 2024 (Q3 FY25) = $0.23\n\nThe decline in Basic EPS is calculated as follows:\n\nDecline = Basic EPS (Sep 30, 2024) - Basic EPS (Sep 30, 2025)\nDecline = $0.23 - $0.20 = $0.03\n\nThe Basic EPS declined by $0.03 in USD terms.\n\nThe key driver for this decline is not explicitly mentioned in the context. However, we can infer that the decline could be related to changes in net profit or operating expenses, as these are common factors affecting EPS. The context mentions a significant increase in selling and marketing expenses, which could have impacted the net profit and, consequently, the EPS.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 4
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 3
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 3
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 4
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 3
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 3
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 4
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "question": "What was the Basic EPS (in USD) for Q4 FY25?",
+      "expected_answer": "USD 0.20 per share.",
+      "predicted_answer": "The Basic EPS (in USD) for Q4 FY25 was $0.20.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "question": "How many 10M+ clients existed in Sep 2025?",
+      "expected_answer": "322",
+      "predicted_answer": "The number of 10 Million dollar + clients in September 2025 is 322.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q3_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": 188,
+      "question": "What percentage of employees were women in Dec 2024?",
+      "expected_answer": "39.0%",
+      "predicted_answer": "The percentage of women employees in December 2024 was 39.0%.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q1_24-25",
+          "page": 2
+        }
+      ]
+    }
+  ]
+}

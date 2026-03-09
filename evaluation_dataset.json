@@ -1,93 +1,952 @@
 [
-{"question":"What was the CC revenue growth in Q2 FY26?","answer":"2.2%"},
-{"question":"Did operating margin exceed 20% in Q2 FY26?","answer":"Yes"},
-{"question":"What was the operating margin in Q2 FY26?","answer":"21.0%"},
-{"question":"Was EPS increase above 10% YoY in Q2 FY26?","answer":"Yes"},
-{"question":"What was the large deal TCV in Q2 FY26?","answer":"$3.1 Bn"},
-{"question":"What was the free cash flow in Q2 FY26?","answer":"$1.1 Bn"},
-{"question":"Did Financial Services have the largest revenue share in Q2 FY26?","answer":"Yes"},
-{"question":"What percentage revenue share did Financial Services have in Q2 FY26?","answer":"27.7%"},
-{"question":"Was Manufacturing revenue share above 16% in Q2 FY26?","answer":"Yes"},
-{"question":"Did Retail revenue decline YoY in Q2 FY26?","answer":"Yes"},
-{"question":"What revenue share did Communication segment have in Q2 FY26?","answer":"12.1%"},
-{"question":"Was Hi-Tech revenue share greater than 8% in Q2 FY26?","answer":"Yes"},
-{"question":"Did Life Sciences revenue decline YoY in Q2 FY26?","answer":"Yes"},
-{"question":"What percentage share did Others segment contribute in Q2 FY26?","answer":"2.9%"},
-{"question":"Did North America contribute more than 50% revenue in Q2 FY26?","answer":"Yes"},
-{"question":"What revenue share came from North America in Q2 FY26?","answer":"56.3%"},
-{"question":"Was Europe revenue share above 30% in Q2 FY26?","answer":"Yes"},
-{"question":"What percentage revenue came from Europe in Q2 FY26?","answer":"31.7%"},
-{"question":"Did Rest of World contribute less than 10% revenue in Q2 FY26?","answer":"Yes"},
-{"question":"What revenue share came from India in Q2 FY26?","answer":"3.1%"},
-{"question":"How many active clients were reported in Sep 2025?","answer":"1896"},
-{"question":"Were more than 100 clients added during Sep 2025 quarter?","answer":"Yes"},
-{"question":"How many clients were added during Sep 2025 quarter?","answer":"118"},
-{"question":"Did million-dollar clients exceed 1000 in Sep 2025?","answer":"Yes"},
-{"question":"How many 1M+ clients existed in Sep 2025?","answer":"1012"},
-{"question":"How many 10M+ clients existed in Sep 2025?","answer":"322"},
-{"question":"Did 50M+ clients exceed 80 in Sep 2025?","answer":"Yes"},
-{"question":"How many 50M+ clients existed in Sep 2025?","answer":"85"},
-{"question":"How many 100M+ clients existed in Sep 2025?","answer":"41"},
-{"question":"Did top 5 clients contribute above 13% revenue in Sep 2025?","answer":"Yes"},
-{"question":"What revenue percentage came from top 10 clients in Sep 2025?","answer":"20.7%"},
-{"question":"What revenue percentage came from top 25 clients in Sep 2025?","answer":"35.2%"},
-{"question":"What were the Days Sales Outstanding in Sep 2025?","answer":"71"},
-{"question":"Did onsite effort exceed 20% in Q2 FY26?","answer":"Yes"},
-{"question":"What was onsite effort percentage in Q2 FY26?","answer":"23.2%"},
-{"question":"What was offshore effort percentage in Q2 FY26?","answer":"76.8%"},
-{"question":"Was utilization above 80% excluding trainees in Q2 FY26?","answer":"Yes"},
-{"question":"What was utilization excluding trainees in Q2 FY26?","answer":"85.1%"},
-{"question":"What was total employee count in Sep 2025?","answer":"331991"},
-{"question":"Did employee count exceed 330000 in Sep 2025?","answer":"Yes"},
-{"question":"How many software professionals worked at Infosys in Sep 2025?","answer":"314500"},
-{"question":"How many sales and support employees were there in Sep 2025?","answer":"17491"},
-{"question":"Was voluntary attrition above 14% in Sep 2025?","answer":"Yes"},
-{"question":"What percentage of employees were women in Sep 2025?","answer":"39.5%"},
-{"question":"What was free cash flow in Sep 2025?","answer":"1101"},
-{"question":"Did free cash flow exceed $1B in Sep 2025?","answer":"Yes"},
-{"question":"What was consolidated cash and investments in Sep 2025?","answer":"6173"},
-{"question":"Did consolidated cash exceed $6B in Sep 2025?","answer":"Yes"},
-
-{"question":"What was CC growth in Q3 FY25?","answer":"1.7%"},
-{"question":"Did operating margin exceed 21% in Q3 FY25?","answer":"Yes"},
-{"question":"What was operating margin in Q3 FY25?","answer":"21.3%"},
-{"question":"Was EPS increase above 10% in Q3 FY25?","answer":"Yes"},
-{"question":"What large deal TCV was reported in Q3 FY25?","answer":"$2.5 Bn"},
-{"question":"What free cash flow was reported in Q3 FY25?","answer":"$1.3 Bn"},
-{"question":"Did Financial Services exceed 27% revenue share in Q3 FY25?","answer":"Yes"},
-{"question":"What revenue share did Financial Services have in Q3 FY25?","answer":"27.8%"},
-{"question":"Did Manufacturing revenue share exceed 15% in Q3 FY25?","answer":"Yes"},
-{"question":"Was Retail share above 13% in Q3 FY25?","answer":"Yes"},
-{"question":"Did Hi-Tech exceed 7% share in Q3 FY25?","answer":"Yes"},
-{"question":"What revenue share did Life Sciences have in Q3 FY25?","answer":"7.6%"},
-{"question":"Did Others segment contribute less than 3% revenue in Q3 FY25?","answer":"Yes"},
-{"question":"Did North America exceed 55% share in Q3 FY25?","answer":"Yes"},
-{"question":"What revenue share came from North America in Q3 FY25?","answer":"58.4%"},
-{"question":"Did Europe exceed 29% revenue share in Q3 FY25?","answer":"Yes"},
-{"question":"What share came from Europe in Q3 FY25?","answer":"29.8%"},
-{"question":"Did Rest of World contribute below 9% revenue in Q3 FY25?","answer":"Yes"},
-{"question":"What share came from India in Q3 FY25?","answer":"3.1%"},
-{"question":"How many active clients existed in Dec 2024?","answer":"1876"},
-{"question":"Were more than 100 clients added in Dec 2024 quarter?","answer":"Yes"},
-{"question":"How many clients were added in Dec 2024 quarter?","answer":"101"},
-{"question":"Did 1M+ clients exceed 990 in Dec 2024?","answer":"Yes"},
-{"question":"How many 10M+ clients existed in Dec 2024?","answer":"301"},
-{"question":"Did 50M+ clients exceed 85 in Dec 2024?","answer":"Yes"},
-{"question":"How many 50M+ clients existed in Dec 2024?","answer":"89"},
-{"question":"How many 100M+ clients existed in Dec 2024?","answer":"41"},
-{"question":"What revenue share came from top 5 clients in Dec 2024?","answer":"12.7%"},
-{"question":"What revenue share came from top 10 clients in Dec 2024?","answer":"19.9%"},
-{"question":"What revenue share came from top 25 clients in Dec 2024?","answer":"34.2%"},
-{"question":"What were Days Sales Outstanding in Dec 2024?","answer":"74"},
-{"question":"What was onsite effort in Q3 FY25?","answer":"24.0%"},
-{"question":"What was offshore effort in Q3 FY25?","answer":"76.0%"},
-{"question":"What utilization excluding trainees was reported in Q3 FY25?","answer":"86.0%"},
-{"question":"What was total employee count in Dec 2024?","answer":"323379"},
-{"question":"Did employee count exceed 320000 in Dec 2024?","answer":"Yes"},
-{"question":"How many software professionals worked at Infosys in Dec 2024?","answer":"306528"},
-{"question":"How many sales and support employees were there in Dec 2024?","answer":"16851"},
-{"question":"What voluntary attrition rate was reported in Dec 2024?","answer":"13.7%"},
-{"question":"What percentage of employees were women in Dec 2024?","answer":"39.0%"},
-{"question":"What free cash flow was reported in Dec 2024?","answer":"1263"},
-{"question":"What consolidated cash and investments existed in Dec 2024?","answer":"4653"}
+  {
+    "id": 1,
+    "question": "What was Infosys's QoQ revenue growth in constant currency (CC) terms in Q1 FY25?",
+    "answer": "3.6% QoQ in constant currency terms."
+  },
+  {
+    "id": 2,
+    "question": "What was the reported YoY revenue growth for Infosys in Q2 FY25?",
+    "answer": "3.7% YoY in reported currency terms."
+  },
+  {
+    "id": 3,
+    "question": "What was Infosys's total revenue (in USD million) for Q1 FY25 (quarter ended June 30, 2024)?",
+    "answer": "USD 4,714 million."
+  },
+  {
+    "id": 4,
+    "question": "What was Infosys's total annual revenue for FY25 (year ended March 31, 2025)?",
+    "answer": "USD 19,277 million."
+  },
+  {
+    "id": 5,
+    "question": "What was the CC revenue growth (YoY) reported in Q3 FY25?",
+    "answer": "6.1% YoY in constant currency terms."
+  },
+  {
+    "id": 6,
+    "question": "What was the reported YoY revenue growth for Q1 FY26 (quarter ended June 30, 2025)?",
+    "answer": "4.8% YoY in reported currency terms."
+  },
+  {
+    "id": 7,
+    "question": "What was Infosys's QoQ CC growth in Q3 FY26?",
+    "answer": "0.6% QoQ in constant currency terms."
+  },
+  {
+    "id": 8,
+    "question": "What was the operating margin reported for Q1 FY25?",
+    "answer": "21.1% operating margin."
+  },
+  {
+    "id": 9,
+    "question": "What was the operating margin for Q3 FY25 (quarter ended December 31, 2024)?",
+    "answer": "21.3% operating margin."
+  },
+  {
+    "id": 10,
+    "question": "What was the reported operating margin for Q3 FY26 (quarter ended December 31, 2025)?",
+    "answer": "18.4% reported (21.2% adjusted non-IFRS)."
+  },
+  {
+    "id": 11,
+    "question": "What was the Large Deal TCV in Q1 FY25?",
+    "answer": "USD 4.1 billion."
+  },
+  {
+    "id": 12,
+    "question": "What was the Large Deal TCV in Q2 FY25?",
+    "answer": "USD 2.4 billion."
+  },
+  {
+    "id": 13,
+    "question": "What was the Large Deal TCV in Q3 FY25?",
+    "answer": "USD 2.5 billion."
+  },
+  {
+    "id": 14,
+    "question": "What was the Large Deal TCV for Q1 FY26?",
+    "answer": "USD 3.8 billion (55% Net New)."
+  },
+  {
+    "id": 15,
+    "question": "What was the Large Deal TCV for Q2 FY26?",
+    "answer": "USD 3.1 billion (67% Net New)."
+  },
+  {
+    "id": 16,
+    "question": "What was Infosys's free cash flow in Q1 FY25 (in USD million)?",
+    "answer": "USD 1,094 million."
+  },
+  {
+    "id": 17,
+    "question": "What was Infosys's free cash flow in Q2 FY25 (in USD million)?",
+    "answer": "USD 839 million."
+  },
+  {
+    "id": 18,
+    "question": "What was Infosys's consolidated cash and investments as of December 31, 2024?",
+    "answer": "USD 4,653 million (\u20b939,836 crore)."
+  },
+  {
+    "id": 19,
+    "question": "What was the total number of Infosys employees as of June 30, 2024?",
+    "answer": "315,332 total employees."
+  },
+  {
+    "id": 20,
+    "question": "What was the voluntary attrition rate (LTM, IT Services) in Q1 FY25?",
+    "answer": "12.7% LTM voluntary attrition."
+  },
+  {
+    "id": 21,
+    "question": "What percentage of Infosys's workforce was women as of Q3 FY25?",
+    "answer": "39.0% of total employees were women."
+  },
+  {
+    "id": 22,
+    "question": "What was the total number of employees as of December 31, 2025?",
+    "answer": "337,034 total employees."
+  },
+  {
+    "id": 23,
+    "question": "How many active clients did Infosys have as of June 30, 2024?",
+    "answer": "1,867 active clients."
+  },
+  {
+    "id": 24,
+    "question": "How many clients with annual revenue of USD 100 million or more did Infosys have in Q2 FY25?",
+    "answer": "41 clients with USD 100 million or more."
+  },
+  {
+    "id": 25,
+    "question": "What was the Days Sales Outstanding (DSO) as of September 30, 2024?",
+    "answer": "73 days."
+  },
+  {
+    "id": 26,
+    "question": "What was the Basic EPS (in USD) for Q2 FY25?",
+    "answer": "USD 0.19 per share."
+  },
+  {
+    "id": 27,
+    "question": "What was the Basic EPS (in INR) for Q3 FY25?",
+    "answer": "\u20b916.43 per share."
+  },
+  {
+    "id": 28,
+    "question": "What was the annual Dividend Per Share declared for FY25?",
+    "answer": "USD 0.51 per share (\u20b943.00 per share), excluding the special dividend of USD 0.10 (\u20b98.00) paid in FY24."
+  },
+  {
+    "id": 29,
+    "question": "What was employee utilization (excluding trainees) in Q1 FY25?",
+    "answer": "85.3% (excluding trainees)."
+  },
+  {
+    "id": 30,
+    "question": "What percentage of effort was delivered offshore in Q3 FY26?",
+    "answer": "76.9% of effort was offshore."
+  },
+  {
+    "id": 31,
+    "question": "Which business segment contributed the highest share of revenues in Q1 FY25?",
+    "answer": "Financial Services, contributing 27.5% of total revenues."
+  },
+  {
+    "id": 32,
+    "question": "What was the share of Manufacturing in Infosys's total revenue in Q1 FY26?",
+    "answer": "16.1% of total revenues."
+  },
+  {
+    "id": 33,
+    "question": "What was Europe's revenue contribution as a percentage in Q3 FY26?",
+    "answer": "32.7% of total revenues."
+  },
+  {
+    "id": 34,
+    "question": "What share of revenue did North America contribute in Q1 FY25?",
+    "answer": "58.9% of total revenues."
+  },
+  {
+    "id": 35,
+    "question": "How many new clients (gross) were added by Infosys in Q3 FY26?",
+    "answer": "121 new clients added during the quarter."
+  },
+  {
+    "id": 36,
+    "question": "How did Infosys's YoY CC revenue growth trend from Q1 FY25 through Q4 FY25?",
+    "answer": "It improved progressively: Q1 FY25: 2.5% CC, Q2 FY25: 3.3% CC, Q3 FY25: 6.1% CC, Q4 FY25: 4.8% CC, showing an acceleration through H2 before moderating in Q4."
+  },
+  {
+    "id": 37,
+    "question": "Comparing Q1 FY26 and Q1 FY25, which quarter had higher YoY CC growth, and by how much?",
+    "answer": "Q1 FY26 had higher YoY CC growth at 3.8%, compared to 2.5% in Q1 FY25, a difference of 1.3 percentage points."
+  },
+  {
+    "id": 38,
+    "question": "By how many basis points did the operating margin change from Q4 FY25 to Q1 FY26?",
+    "answer": "Operating margin declined by 20 basis points, from 21.0% in Q4 FY25 to 20.8% in Q1 FY26."
+  },
+  {
+    "id": 39,
+    "question": "What was the impact of the Labour Codes notification on Q3 FY26 operating margin?",
+    "answer": "Labour Codes added an adjustment of 2.8 percentage points, bringing the adjusted non-IFRS operating margin to 21.2% compared to the reported 18.4%. The adjustment of USD 143 million (\u20b91,289 crore) represents increased gratuity and leave liability."
+  },
+  {
+    "id": 40,
+    "question": "What was the full-year FY25 operating margin, and how does it compare to FY24?",
+    "answer": "FY25 operating margin was 21.1%, compared to 20.7% in FY24 \u2014 an improvement of 40 basis points."
+  },
+  {
+    "id": 41,
+    "question": "How did the Large Deal TCV trend across FY26 (Q1\u2013Q3)?",
+    "answer": "TCV was USD 3.8 Bn in Q1 FY26 (55% net new), USD 3.1 Bn in Q2 FY26 (67% net new), and USD 4.8 Bn in Q3 FY26 (57% net new), with Q3 being the highest in FY26 so far."
+  },
+  {
+    "id": 42,
+    "question": "What does the net new percentage of Large Deal TCV indicate, and which quarter had the highest net new mix in FY26?",
+    "answer": "Net new TCV indicates deals that are new business (not renewals). Q2 FY26 had the highest net new percentage at 67%, meaning two-thirds of its large deal wins were new logos or new scope rather than renewals."
+  },
+  {
+    "id": 43,
+    "question": "How did Infosys's consolidated cash and investments change from Q1 FY25 to Q2 FY26?",
+    "answer": "Cash grew from USD 4,311 Mn (Jun-24) \u2192 USD 4,626 Mn (Sep-24) \u2192 USD 4,653 Mn (Dec-24) \u2192 USD 5,562 Mn (Mar-25) \u2192 USD 5,271 Mn (Jun-25) \u2192 USD 6,173 Mn (Sep-25), reflecting a strong accumulation of over USD 1.8 Bn over five quarters."
+  },
+  {
+    "id": 44,
+    "question": "What was the adjusted free cash flow for Q3 FY26 in USD, and why was an adjustment needed?",
+    "answer": "Adjusted FCF was USD 965 million (reported USD 915 million). The USD 50 million adjustment relates to Labour Codes \u2014 a one-time cash impact from updated gratuity and leave liabilities following the Indian government's Labour Codes notification."
+  },
+  {
+    "id": 45,
+    "question": "How did the total employee headcount change from Q1 FY25 to Q3 FY26?",
+    "answer": "Headcount declined from 336,294 (Jun-23) to a low of 315,332 (Jun-24), then steadily recovered to 337,034 by Dec-25 \u2014 representing a net increase of approximately 21,700 employees in six quarters."
+  },
+  {
+    "id": 46,
+    "question": "How did voluntary attrition trend from Q1 FY25 to Q1 FY26?",
+    "answer": "Attrition came down from 12.7% in Q1 FY25, then rose to 12.9% in Q2 FY25, 13.7% in Q3 FY25, 14.1% in Q4 FY25, and reached 14.4% in Q1 FY26 \u2014 indicating a rising attrition trend across FY25 into FY26."
+  },
+  {
+    "id": 47,
+    "question": "How did the number of USD 1 million+ clients change between Q1 FY25 and Q3 FY26?",
+    "answer": "The count increased from 987 (Jun-24) to 1,012 (Dec-25), rising by 25 clients \u2014 consistently staying above 985 throughout the period."
+  },
+  {
+    "id": 48,
+    "question": "What was the revenue contribution of the Top 25 clients in Q2 FY26, and how does it compare with Q1 FY25?",
+    "answer": "Top 25 clients contributed 35.2% in Q2 FY26, compared to 34.9% in Q1 FY25 \u2014 a modest 30 basis point increase, indicating slight revenue concentration among larger clients."
+  },
+  {
+    "id": 49,
+    "question": "Which business segment showed the strongest YoY CC growth in Q4 FY25?",
+    "answer": "Manufacturing showed CC growth of 14.0% YoY, followed closely by Financial Services at 12.6% CC \u2014 both significantly outperforming the company average of 4.8% CC."
+  },
+  {
+    "id": 50,
+    "question": "Which segments consistently declined on a YoY CC basis in Q3 FY26?",
+    "answer": "Retail (\u20135.5% CC), Life Sciences (\u20135.4% CC), Others (\u20139.3% CC), and Hi-Tech (\u20132.2% CC) all declined YoY in constant currency terms in Q3 FY26."
+  },
+  {
+    "id": 51,
+    "question": "How did the Life Sciences segment's revenue contribution change from Q1 FY25 to Q3 FY26?",
+    "answer": "Life Sciences declined from 7.3% of revenues in Q1 FY25 to 7.2% in Q3 FY26, and its YoY CC growth deteriorated from +2.9% in Q1 FY25 to \u20135.4% in Q3 FY26, indicating increasing headwinds."
+  },
+  {
+    "id": 52,
+    "question": "How has Europe's share of Infosys revenues trended from Q1 FY25 to Q3 FY26?",
+    "answer": "Europe grew from 28.4% in Q1 FY25 \u2192 29.8% in Q3 FY25 \u2192 31.5% in Q1 FY26 \u2192 31.7% in Q2 FY26 \u2192 32.7% in Q3 FY26, with YoY CC growth ranging from 6.3% to 15.5% in recent quarters."
+  },
+  {
+    "id": 53,
+    "question": "How has North America's revenue share shifted over the eight quarters covered in the fact sheets?",
+    "answer": "North America's share declined from 60.8% (Q1 FY24) to 55.9% (Q3 FY26), a drop of about 4.9 percentage points \u2014 reflecting relative underperformance as Europe and India grew faster."
+  },
+  {
+    "id": 54,
+    "question": "What was Infosys's net profit growth YoY in Q3 FY25 (after non-controlling interests, in INR)?",
+    "answer": "Net profit grew 11.4% YoY in Q3 FY25, from \u20b96,106 crore (Dec-23) to \u20b96,806 crore (Dec-24)."
+  },
+  {
+    "id": 55,
+    "question": "How did Infosys's gross profit margin (in USD) change between Q1 FY25 and Q3 FY25?",
+    "answer": "Gross profit margin was approximately 30.9% in Q1 FY25 (1,455/4,714), 30.5% in Q2 FY25 (1,494/4,894), and 30.3% in Q3 FY25 (1,495/4,939), showing a slight compression trend."
+  },
+  {
+    "id": 56,
+    "question": "What was the YoY growth in total revenues for the nine months ended December 31, 2025 (FY26 YTD) in INR?",
+    "answer": "\u20b9132,248 crore for 9M FY26 vs. \u20b9122,064 crore for 9M FY25 \u2014 a growth of 8.3% YoY."
+  },
+  {
+    "id": 57,
+    "question": "What was the YoY EPS growth in INR terms for FY25, and why was the comparison affected by a prior year item?",
+    "answer": "FY25 Basic EPS was \u20b964.50 vs. \u20b963.39 in FY24, a growth of 1.8%. However, FY24 EPS was inflated by interest income of \u20b91,933 crore and reversal of tax provisions of \u20b938 crore; normalising for this, the underlying EPS growth was approximately 8.3% as highlighted in the Q4 FY25 fact sheet."
+  },
+  {
+    "id": 58,
+    "question": "How much did Q3 FY26 Basic EPS decline YoY in USD terms, and what was the key driver?",
+    "answer": "Basic EPS declined from USD 0.19 in Q3 FY25 to USD 0.18 in Q3 FY26 (\u20136.6%). The primary driver was the Labour Codes adjustment of USD 143 million, which reduced reported net profit. On an adjusted basis, EPS was USD 0.21."
+  },
+  {
+    "id": 59,
+    "question": "How did employee utilization (excluding trainees) trend from Q1 FY25 to Q3 FY26?",
+    "answer": "It peaked at 86.0% in Q3 FY25, came down slightly to 85.9% in Q4 FY25, remained at 85.2\u201385.3% in Q1\u2013Q2 FY26, and further declined to 84.1% in Q3 FY26 \u2014 suggesting the company is adding headcount faster than deploying it billably."
+  },
+  {
+    "id": 60,
+    "question": "What was the gap between utilization including and excluding trainees in Q2 FY26, and what does it suggest?",
+    "answer": "Utilization including trainees: 82.2%; excluding trainees: 85.1% \u2014 a gap of 2.9 percentage points. This implies a significant trainee bench that, once deployed, will bring reported utilization closer to the headline figure."
+  },
+  {
+    "id": 61,
+    "question": "Infosys's active client count rose from 1,867 in Q1 FY25 to 1,949 in Q3 FY26. What was the average quarterly net client addition over this period?",
+    "answer": "The net increase was 82 clients over approximately six quarters, averaging roughly 14 net new active clients per quarter."
+  },
+  {
+    "id": 62,
+    "question": "How did free cash flow compare in Q4 FY25 vs. Q3 FY25?",
+    "answer": "FCF dropped from USD 1,263 Mn in Q3 FY25 to USD 892 Mn in Q4 FY25, a decline of USD 371 Mn \u2014 likely reflecting lower collections or higher capex typical in the seasonally weaker fourth quarter."
+  },
+  {
+    "id": 63,
+    "question": "Which segment had the highest YoY CC growth in Q3 FY26, and what was the growth rate?",
+    "answer": "Communication had the highest YoY CC growth at 9.9%, followed by Manufacturing at 6.6%, both significantly above the company's overall CC growth of 1.7% in Q3 FY26."
+  },
+  {
+    "id": 64,
+    "question": "What was the six-month (H1 FY25) consolidated revenue and operating profit in USD?",
+    "answer": "Revenue: USD 9,608 million; Operating Profit: USD 2,026 million with an operating margin of 21.1%."
+  },
+  {
+    "id": 65,
+    "question": "India's CC growth was 40.1% YoY in Q3 FY25 but declined to \u20131.8% in Q3 FY26. What does this imply?",
+    "answer": "India revenue growth was driven by a low base and specific project ramp-ups in FY25. The reversal to slight CC decline in Q3 FY26 suggests those tailwinds have subsided and the domestic business faces normalization. India contributes only ~3% of revenue, so the absolute impact is limited."
+  },
+  {
+    "id": 66,
+    "question": "What was the QoQ revenue performance in Q4 FY25 and how does it compare to typical Q4 seasonality?",
+    "answer": "Q4 FY25 QoQ growth was \u20134.2% reported (\u20133.5% CC), in line with the typical Q4 seasonal dip driven by client budget cycles and fewer working days in March."
+  },
+  {
+    "id": 67,
+    "question": "What was the cumulative Large Deal TCV for the full year FY25 based on the quarterly data?",
+    "answer": "Q1: USD 4.1 Bn + Q2: USD 2.4 Bn + Q3: USD 2.5 Bn + Q4: USD 2.6 Bn = USD 11.6 Bn for FY25, confirmed by the annual figure cited in the Q4 FY25 fact sheet."
+  },
+  {
+    "id": 68,
+    "question": "How did selling and marketing expenses change YoY for Q3 FY26 in USD?",
+    "answer": "Selling and marketing expenses increased from USD 218 million in Q3 FY25 to USD 257 million in Q3 FY26, a YoY increase of 17.9% \u2014 growing much faster than revenue (3.2%), indicating increased go-to-market investment."
+  },
+  {
+    "id": 69,
+    "question": "What was the revenue concentration risk from the Top 10 clients across FY26 quarters?",
+    "answer": "Top 10 clients contributed 20.8% in Q1 FY26, 20.7% in Q2 FY26, and 20.6% in Q3 FY26 \u2014 indicating stable and modest revenue concentration with slight diversification over time."
+  },
+  {
+    "id": 70,
+    "question": "What was the YTD (nine months ended Dec 31, 2025) Basic EPS in INR, and what was the growth vs. the prior year?",
+    "answer": "Basic EPS was \u20b950.64 for 9M FY26 vs. \u20b947.52 for 9M FY25, a growth of 6.6%. On an adjusted non-IFRS basis (excluding Labour Codes impact), Basic EPS was \u20b952.99."
+  },
+  {
+    "id": 71,
+    "question": "Infosys maintained approximately 21% operating margin for several consecutive quarters before Q3 FY26. Identify the quarter showing the first meaningful deviation, its magnitude, and whether the underlying business actually deteriorated.",
+    "answer": "The first meaningful deviation appeared in Q3 FY26 (Dec-25), where reported operating margin fell to 18.4% \u2014 a drop of 2.9 percentage points vs. Q3 FY25 (21.3%). However, this was entirely due to the one-time Labour Codes provision of USD 143 million (\u20b91,289 crore). On an adjusted non-IFRS basis, operating margin was 21.2% \u2014 essentially flat. The underlying business margin performance did not deteriorate; the reported decline was a non-recurring accounting adjustment driven by an external regulatory change."
+  },
+  {
+    "id": 72,
+    "question": "Analyze the divergence between Infosys's reported revenue growth and constant currency (CC) growth across FY26 Q1\u2013Q3. What does this reveal about currency dynamics and which geography is most likely driving the gap?",
+    "answer": "Q1 FY26: Reported 4.8% vs. CC 3.8% (~100 bps tailwind). Q2 FY26: Reported 3.7% vs. CC 2.9% (~80 bps). Q3 FY26: Reported 3.2% vs. CC 1.7% (~150 bps). The widening gap in Q3 FY26 suggests significant currency benefit. Europe (32.7% of revenues) most likely drives this \u2014 European revenues grew 13.3% reported but only 7.2% CC in Q3 FY26, confirming EUR/GBP appreciation inflated reported growth. Real organic volume growth in Q3 FY26 was just 1.7% CC."
+  },
+  {
+    "id": 73,
+    "question": "Manufacturing has been one of Infosys's fastest-growing segments. What is the evidence, and does its growth appear sustainable?",
+    "answer": "Manufacturing grew: Q1 FY25: +6.0% CC; Q2 FY25: +12.3% CC; Q3 FY25: +10.7% CC; Q4 FY25: +14.0% CC; Q1 FY26: +12.2% CC; Q2 FY26: +6.6% CC; Q3 FY26: +6.6% CC. Revenue share rose from 14.7% to 16.7%, making it the second-largest segment. However, the deceleration from double-digit CC growth in FY25 to ~6.6% in FY26 suggests moderation. Sustainability depends on continued large deal conversions in this vertical."
+  },
+  {
+    "id": 74,
+    "question": "Infosys's attrition has been rising while headcount is growing. Assess what this means for workforce cost efficiency and delivery capacity.",
+    "answer": "Total employees grew from 315,332 (Jun-24) to 337,034 (Dec-25), adding ~21,700. Simultaneously, voluntary attrition rose from 12.7% to a high of 14.4% (Jun-25) before declining to 12.3% (Dec-25). Higher attrition forces continuous recruitment and training investment, compressing productivity gains. Utilization (ex-trainees) stayed above 84%, suggesting good deployment. The Q3 FY26 utilization dip (85.1% \u2192 84.1%) implies fresh trainees are being absorbed ahead of project ramp-ups from the USD 11.9 Bn FY26 YTD TCV pipeline."
+  },
+  {
+    "id": 75,
+    "question": "Compare Infosys's free cash flow generation against net profit for the three quarters of FY26. What does the FCF-to-net-profit conversion ratio reveal?",
+    "answer": "Q1 FY26: FCF USD 884 Mn vs. Net Profit ~USD 763 Mn \u2192 conversion >100%. Q2 FY26: FCF USD 1,101 Mn vs. Net Profit ~USD 839 Mn \u2192 conversion ~131%. Q3 FY26: Adjusted FCF USD 965 Mn vs. Adjusted Net Profit USD 855 Mn \u2192 conversion ~113%. Consistently above 100% means Infosys converts more than its reported net profit into free cash \u2014 driven by strong working capital management and non-cash charges. This signals high-quality earnings and supports sustainable capital returns."
+  },
+  {
+    "id": 76,
+    "question": "The net new percentage of Large Deal TCV has ranged from 55% to 67% in FY26. Why is this metric important, and what does FY26's net new profile imply for revenue growth visibility?",
+    "answer": "Net new TCV represents incremental business not previously in Infosys's contract base. A higher net new percentage indicates genuine market share capture. FY26 average net new of ~60% across Q1\u2013Q3 means approximately USD 7.1 Bn of the cumulative USD 11.9 Bn TCV is new revenue to be recognised over the contract period (typically 3\u20135 years), providing strong growth visibility for FY27 and beyond."
+  },
+  {
+    "id": 77,
+    "question": "North America's share of revenues has dropped from 60.8% (Jun-23) to 55.9% (Dec-25). Is this a sign of competitive pressure or structural portfolio rebalancing? Use data to support your view.",
+    "answer": "Both factors are at play. Europe's strong CC growth (6.3%\u201315.5%) accounts for the share shift, consistent with portfolio rebalancing. However, North America showed negative or near-zero CC growth in multiple quarters (e.g., \u20131.2% Q1 FY25, \u20132.6% Q2 FY25, \u20131.2% Q3 FY26), indicating genuine demand headwinds \u2014 particularly in US-centric verticals like Hi-Tech and Retail, which are declining. The shift is both structural rebalancing toward Europe and selective weakness in specific North American verticals."
+  },
+  {
+    "id": 78,
+    "question": "Infosys's FY25 annual net profit was marginally lower than FY24 (USD 3,158 Mn vs. USD 3,167 Mn) despite revenue growth of 3.9%. What caused this anomaly?",
+    "answer": "Revenue grew 3.9% and operating profit grew 6.2% in FY25 \u2014 reflecting genuine operating improvement. The anomaly lies in Other Income: it fell from USD 512 Mn (FY24) to USD 376 Mn (FY25) due to non-recurrence of FY24's exceptional interest income of USD 232 Mn and tax provision reversals of USD 5 Mn from Income Tax Authority orders. Tax expenses also rose. Normalising for these one-offs, underlying EPS growth was approximately 8.3% as cited in the Q4 FY25 fact sheet."
+  },
+  {
+    "id": 79,
+    "question": "Analyze the trends in Infosys's client pyramid (USD 1M+, 10M+, 50M+, 100M+ segments) from Q1 FY25 to Q3 FY26. What strategic insight can you draw?",
+    "answer": "1M+ clients: 987 \u2192 1,012 (+25). 10M+ clients: 309 \u2192 326 (+17). 50M+ clients: 84 \u2192 84 (flat). 100M+ clients: 40 \u2192 41 (flat). Infosys is successfully growing the lower tiers and converting mid-tier clients upward, but is not meaningfully expanding the most strategic 50M+ and 100M+ tiers. This implies solid new client acquisition and mid-market penetration, but limited wallet-share expansion among the largest strategic accounts."
+  },
+  {
+    "id": 80,
+    "question": "Evaluate whether Infosys is becoming more or less operationally efficient by examining the relationship between revenue growth, headcount growth, and utilization across the eight quarters.",
+    "answer": "Revenue grew ~8.2% (USD 4,714 Mn to USD 5,099 Mn) while headcount grew ~6.9% (315,332 to 337,034), implying modest revenue-per-employee improvement (~1.2%). Offshore effort ratio improved from 75.3% to 76.9% \u2014 cost-accretive. However, utilization (ex-trainees) declined from peak 86.0% (Q3 FY25) to 84.1% (Q3 FY26), suggesting the recent headcount additions include trainees and bench not yet billable. Overall, Infosys is maintaining rather than markedly improving operational efficiency, with the utilization dip being the key watch item."
+  },
+  {
+    "id": 81,
+    "question": "Retail, Life Sciences, and Hi-Tech have all been underperforming segments in recent quarters. What is their combined revenue share at risk, and how does it compare to the growth engines?",
+    "answer": "In Q3 FY26: Retail = 12.8%, Life Sciences = 7.2%, Hi-Tech = 7.4%. Combined at-risk share = 27.4%, all with negative YoY CC growth. Growth engines \u2014 Financial Services (28.2%, +3.9% CC), Manufacturing (16.7%, +6.6% CC), and Communication (12.1%, +9.9% CC) \u2014 collectively contribute 57.0%. The declining segments represent over a quarter of revenues; sustained performance in the growth verticals is required to offset this drag."
+  },
+  {
+    "id": 82,
+    "question": "Based on dividend data across the fact sheets, assess Infosys's dividend growth strategy over FY25\u2013FY26 and its sustainability from a free cash flow perspective.",
+    "answer": "Interim dividend rose from \u20b918 (FY24) to \u20b921 (Q2 FY25) and final dividend to \u20b922 in Q4 FY25. Total FY25 DPS: USD 0.51 (\u20b943.00), a 13.2% increase vs. FY24's USD 0.46 (\u20b938). FY25 FCF was approximately USD 4.1 Bn; total dividends paid (~4.15 Bn shares \u00d7 USD 0.51) were ~USD 2.1 Bn \u2014 an FCF coverage ratio of ~2x. This is highly sustainable. The consistent 13\u201317% dividend growth reflects a disciplined capital return programme supported by strong cash generation."
+  },
+  {
+    "id": 83,
+    "question": "Q3 FY26 reported a decline in operating profit YoY (USD 937 Mn vs. USD 1,053 Mn in Q3 FY25). Using all available data, reconcile this with adjusted figures and assess underlying business health.",
+    "answer": "Reported operating profit fell 11.0% YoY. Adding back the Labour Codes adjustment of USD 143 Mn gives adjusted operating profit of USD 1,080 Mn \u2014 only 2.6% below Q3 FY25 on a comparable basis. Revenue grew 3.2% but cost of sales grew 6.3%, compressing gross margin. S&M expenses rose 17.9% and admin expenses rose 9.4%. Adjusted operating margin was 21.2% (vs. 21.3% in Q3 FY25 \u2014 essentially flat). Adjusted net profit of USD 855 Mn grew 6.3% vs. USD 804 Mn. Excluding the one-time Labour Codes charge, underlying business demonstrated healthy though moderating profitability, with gross margin pressure being the primary watch item."
+  },
+  {
+    "id": 84,
+    "question": "Financial Services is Infosys's largest vertical. How has its performance been relative to the overall company, and what do the data points suggest about BFSI sector IT demand?",
+    "answer": "Financial Services share held steady at 27\u201328% throughout. YoY CC growth improved from +0.3% in Q1 FY25 to +6.1% in Q3 FY25, then moderated to +3.9\u20135.6% in FY26. After near-zero growth in Q1 FY25 (indicating cautious IT spending post-2022), clients resumed discretionary spend through H2 FY25. The segment's consistent ~28% share and improving growth confirms it as the anchor vertical for Infosys. Moderation to lower-single-digit CC in Q3 FY26 bears monitoring but does not signal renewed weakness."
+  },
+  {
+    "id": 85,
+    "question": "Comparing 9M FY26 to 9M FY25 in INR terms: identify the income statement line showing the greatest relative growth and the one showing the greatest pressure.",
+    "answer": "9M FY26 vs. 9M FY25: Revenues +8.3%; Cost of sales +9.3%; Gross Profit +6.1%; Selling & marketing expenses +19.4% (fastest-growing cost \u2014 heavy front-end investment); Administrative expenses +9.0%; Operating Profit +2.6% (most pressured \u2014 only 2.6% growth vs. 8.3% revenue, due to Labour Codes provision and cost escalation); Other Income +28.2% (strongest positive); Net Profit +6.4%. Conclusion: S&M expenses showed the greatest relative increase (19.4%); operating profit showed the greatest compression relative to top-line growth."
+  },
+  {
+    "id": 86,
+    "question": "An investor reviewing the Infosys fact sheets wants to form a view on FY26 full-year prospects based on Q1\u2013Q3 data. What revenue, margin, and deal pipeline signals should they consider?",
+    "answer": "Revenue: 9M FY26 average CC growth is ~2.8% (Q1: 3.8%, Q2: 2.9%, Q3: 1.7%), with deceleration. Reported growth is ~4% due to currency tailwinds. Full-year FY26 CC growth is likely 2\u20134%. Margins: Adjusted operating margin held at 21.0\u201321.2% through FY26, consistent with FY25's 21.1%. Labour Codes was a one-time Q3 event; Q4 should normalise. Deal pipeline: Cumulative FY26 YTD TCV = USD 11.9 Bn (exceeding FY25's full-year USD 11.6 Bn with one quarter remaining), ~60% net new, providing strong FY27 revenue visibility. Key risks: Retail/Life Sciences/Hi-Tech headwinds; rising S&M costs; attrition near 14%. Overall: stable, moderately growing business with strong deal wins setting up FY27."
+  },
+  {
+    "id": 87,
+    "question": "What was the revenue contribution of the Top 5 clients in Q3 FY26?",
+    "answer": "12.8% of total revenues."
+  },
+  {
+    "id": 88,
+    "question": "What was the total revenue (in INR crore) for Q1 FY26 (quarter ended June 30, 2025)?",
+    "answer": "\u20b942,279 crore."
+  },
+  {
+    "id": 89,
+    "question": "What was the revenue (in USD million) for Q2 FY26 (quarter ended September 30, 2025)?",
+    "answer": "USD 5,076 million."
+  },
+  {
+    "id": 90,
+    "question": "What was the revenue (in USD million) for Q3 FY26 (quarter ended December 31, 2025)?",
+    "answer": "USD 5,099 million."
+  },
+  {
+    "id": 91,
+    "question": "What was the Large Deal TCV for Q3 FY26?",
+    "answer": "USD 4.8 billion (57% Net New)."
+  },
+  {
+    "id": 92,
+    "question": "What was the Large Deal TCV for Q4 FY25?",
+    "answer": "USD 2.6 billion."
+  },
+  {
+    "id": 93,
+    "question": "How many active clients did Infosys have as of December 31, 2025?",
+    "answer": "1,949 active clients."
+  },
+  {
+    "id": 94,
+    "question": "What was the free cash flow for Q1 FY26 (in USD million)?",
+    "answer": "USD 884 million."
+  },
+  {
+    "id": 95,
+    "question": "What was the free cash flow for Q2 FY26 (in USD million)?",
+    "answer": "USD 1,101 million."
+  },
+  {
+    "id": 96,
+    "question": "What was Infosys's consolidated cash and investments as of September 30, 2025?",
+    "answer": "USD 6,173 million (\u20b954,809 crore)."
+  },
+  {
+    "id": 97,
+    "question": "What was the voluntary attrition rate (LTM, IT Services) as of December 31, 2025?",
+    "answer": "12.3% LTM voluntary attrition."
+  },
+  {
+    "id": 98,
+    "question": "What was the operating margin for Q2 FY26 (quarter ended September 30, 2025)?",
+    "answer": "21.0% operating margin."
+  },
+  {
+    "id": 99,
+    "question": "What was the Basic EPS (in USD) for Q4 FY25?",
+    "answer": "USD 0.20 per share."
+  },
+  {
+    "id": 100,
+    "question": "What was the QoQ reported revenue growth for Q2 FY26?",
+    "answer": "2.7% QoQ in reported currency terms."
+  },
+  {
+    "id": 101,
+    "question": "What was the CC revenue growth in Q2 FY26?",
+    "answer": "2.2%"
+  },
+  {
+    "id": 102,
+    "question": "Did operating margin exceed 20% in Q2 FY26?",
+    "answer": "Yes"
+  },
+  {
+    "id": 103,
+    "question": "What was the operating margin in Q2 FY26?",
+    "answer": "21.0%"
+  },
+  {
+    "id": 104,
+    "question": "Was EPS increase above 10% YoY in Q2 FY26?",
+    "answer": "Yes"
+  },
+  {
+    "id": 105,
+    "question": "What was the large deal TCV in Q2 FY26?",
+    "answer": "$3.1 Bn"
+  },
+  {
+    "id": 106,
+    "question": "What was the free cash flow in Q2 FY26?",
+    "answer": "$1.1 Bn"
+  },
+  {
+    "id": 107,
+    "question": "Did Financial Services have the largest revenue share in Q2 FY26?",
+    "answer": "Yes"
+  },
+  {
+    "id": 108,
+    "question": "What percentage revenue share did Financial Services have in Q2 FY26?",
+    "answer": "27.7%"
+  },
+  {
+    "id": 109,
+    "question": "Was Manufacturing revenue share above 16% in Q2 FY26?",
+    "answer": "Yes"
+  },
+  {
+    "id": 110,
+    "question": "Did Retail revenue decline YoY in Q2 FY26?",
+    "answer": "Yes"
+  },
+  {
+    "id": 111,
+    "question": "What revenue share did Communication segment have in Q2 FY26?",
+    "answer": "12.1%"
+  },
+  {
+    "id": 112,
+    "question": "Was Hi-Tech revenue share greater than 8% in Q2 FY26?",
+    "answer": "Yes"
+  },
+  {
+    "id": 113,
+    "question": "Did Life Sciences revenue decline YoY in Q2 FY26?",
+    "answer": "Yes"
+  },
+  {
+    "id": 114,
+    "question": "What percentage share did Others segment contribute in Q2 FY26?",
+    "answer": "2.9%"
+  },
+  {
+    "id": 115,
+    "question": "Did North America contribute more than 50% revenue in Q2 FY26?",
+    "answer": "Yes"
+  },
+  {
+    "id": 116,
+    "question": "What revenue share came from North America in Q2 FY26?",
+    "answer": "56.3%"
+  },
+  {
+    "id": 117,
+    "question": "Was Europe revenue share above 30% in Q2 FY26?",
+    "answer": "Yes"
+  },
+  {
+    "id": 118,
+    "question": "What percentage revenue came from Europe in Q2 FY26?",
+    "answer": "31.7%"
+  },
+  {
+    "id": 119,
+    "question": "Did Rest of World contribute less than 10% revenue in Q2 FY26?",
+    "answer": "Yes"
+  },
+  {
+    "id": 120,
+    "question": "What revenue share came from India in Q2 FY26?",
+    "answer": "3.1%"
+  },
+  {
+    "id": 121,
+    "question": "How many active clients were reported in Sep 2025?",
+    "answer": "1896"
+  },
+  {
+    "id": 122,
+    "question": "Were more than 100 clients added during Sep 2025 quarter?",
+    "answer": "Yes"
+  },
+  {
+    "id": 123,
+    "question": "How many clients were added during Sep 2025 quarter?",
+    "answer": "118"
+  },
+  {
+    "id": 124,
+    "question": "Did million-dollar clients exceed 1000 in Sep 2025?",
+    "answer": "Yes"
+  },
+  {
+    "id": 125,
+    "question": "How many 1M+ clients existed in Sep 2025?",
+    "answer": "1012"
+  },
+  {
+    "id": 126,
+    "question": "How many 10M+ clients existed in Sep 2025?",
+    "answer": "322"
+  },
+  {
+    "id": 127,
+    "question": "Did 50M+ clients exceed 80 in Sep 2025?",
+    "answer": "Yes"
+  },
+  {
+    "id": 128,
+    "question": "How many 50M+ clients existed in Sep 2025?",
+    "answer": "85"
+  },
+  {
+    "id": 129,
+    "question": "How many 100M+ clients existed in Sep 2025?",
+    "answer": "41"
+  },
+  {
+    "id": 130,
+    "question": "Did top 5 clients contribute above 13% revenue in Sep 2025?",
+    "answer": "Yes"
+  },
+  {
+    "id": 131,
+    "question": "What revenue percentage came from top 10 clients in Sep 2025?",
+    "answer": "20.7%"
+  },
+  {
+    "id": 132,
+    "question": "What revenue percentage came from top 25 clients in Sep 2025?",
+    "answer": "35.2%"
+  },
+  {
+    "id": 133,
+    "question": "What were the Days Sales Outstanding in Sep 2025?",
+    "answer": "71"
+  },
+  {
+    "id": 134,
+    "question": "Did onsite effort exceed 20% in Q2 FY26?",
+    "answer": "Yes"
+  },
+  {
+    "id": 135,
+    "question": "What was onsite effort percentage in Q2 FY26?",
+    "answer": "23.2%"
+  },
+  {
+    "id": 136,
+    "question": "What was offshore effort percentage in Q2 FY26?",
+    "answer": "76.8%"
+  },
+  {
+    "id": 137,
+    "question": "Was utilization above 80% excluding trainees in Q2 FY26?",
+    "answer": "Yes"
+  },
+  {
+    "id": 138,
+    "question": "What was utilization excluding trainees in Q2 FY26?",
+    "answer": "85.1%"
+  },
+  {
+    "id": 139,
+    "question": "What was total employee count in Sep 2025?",
+    "answer": "331991"
+  },
+  {
+    "id": 140,
+    "question": "Did employee count exceed 330000 in Sep 2025?",
+    "answer": "Yes"
+  },
+  {
+    "id": 141,
+    "question": "How many software professionals worked at Infosys in Sep 2025?",
+    "answer": "314500"
+  },
+  {
+    "id": 142,
+    "question": "How many sales and support employees were there in Sep 2025?",
+    "answer": "17491"
+  },
+  {
+    "id": 143,
+    "question": "Was voluntary attrition above 14% in Sep 2025?",
+    "answer": "Yes"
+  },
+  {
+    "id": 144,
+    "question": "What percentage of employees were women in Sep 2025?",
+    "answer": "39.5%"
+  },
+  {
+    "id": 145,
+    "question": "What was free cash flow in Sep 2025?",
+    "answer": "1101"
+  },
+  {
+    "id": 146,
+    "question": "Did free cash flow exceed $1B in Sep 2025?",
+    "answer": "Yes"
+  },
+  {
+    "id": 147,
+    "question": "What was consolidated cash and investments in Sep 2025?",
+    "answer": "6173"
+  },
+  {
+    "id": 148,
+    "question": "Did consolidated cash exceed $6B in Sep 2025?",
+    "answer": "Yes"
+  },
+  {
+    "id": 149,
+    "question": "What was CC growth in Q3 FY25?",
+    "answer": "1.7%"
+  },
+  {
+    "id": 150,
+    "question": "Did operating margin exceed 21% in Q3 FY25?",
+    "answer": "Yes"
+  },
+  {
+    "id": 151,
+    "question": "What was operating margin in Q3 FY25?",
+    "answer": "21.3%"
+  },
+  {
+    "id": 152,
+    "question": "Was EPS increase above 10% in Q3 FY25?",
+    "answer": "Yes"
+  },
+  {
+    "id": 153,
+    "question": "What large deal TCV was reported in Q3 FY25?",
+    "answer": "$2.5 Bn"
+  },
+  {
+    "id": 154,
+    "question": "What free cash flow was reported in Q3 FY25?",
+    "answer": "$1.3 Bn"
+  },
+  {
+    "id": 155,
+    "question": "Did Financial Services exceed 27% revenue share in Q3 FY25?",
+    "answer": "Yes"
+  },
+  {
+    "id": 156,
+    "question": "What revenue share did Financial Services have in Q3 FY25?",
+    "answer": "27.8%"
+  },
+  {
+    "id": 157,
+    "question": "Did Manufacturing revenue share exceed 15% in Q3 FY25?",
+    "answer": "Yes"
+  },
+  {
+    "id": 158,
+    "question": "Was Retail share above 13% in Q3 FY25?",
+    "answer": "Yes"
+  },
+  {
+    "id": 159,
+    "question": "Did Hi-Tech exceed 7% share in Q3 FY25?",
+    "answer": "Yes"
+  },
+  {
+    "id": 160,
+    "question": "What revenue share did Life Sciences have in Q3 FY25?",
+    "answer": "7.6%"
+  },
+  {
+    "id": 161,
+    "question": "Did Others segment contribute less than 3% revenue in Q3 FY25?",
+    "answer": "Yes"
+  },
+  {
+    "id": 162,
+    "question": "Did North America exceed 55% share in Q3 FY25?",
+    "answer": "Yes"
+  },
+  {
+    "id": 163,
+    "question": "What revenue share came from North America in Q3 FY25?",
+    "answer": "58.4%"
+  },
+  {
+    "id": 164,
+    "question": "Did Europe exceed 29% revenue share in Q3 FY25?",
+    "answer": "Yes"
+  },
+  {
+    "id": 165,
+    "question": "What share came from Europe in Q3 FY25?",
+    "answer": "29.8%"
+  },
+  {
+    "id": 166,
+    "question": "Did Rest of World contribute below 9% revenue in Q3 FY25?",
+    "answer": "Yes"
+  },
+  {
+    "id": 167,
+    "question": "What share came from India in Q3 FY25?",
+    "answer": "3.1%"
+  },
+  {
+    "id": 168,
+    "question": "How many active clients existed in Dec 2024?",
+    "answer": "1876"
+  },
+  {
+    "id": 169,
+    "question": "Were more than 100 clients added in Dec 2024 quarter?",
+    "answer": "Yes"
+  },
+  {
+    "id": 170,
+    "question": "How many clients were added in Dec 2024 quarter?",
+    "answer": "101"
+  },
+  {
+    "id": 171,
+    "question": "Did 1M+ clients exceed 990 in Dec 2024?",
+    "answer": "Yes"
+  },
+  {
+    "id": 172,
+    "question": "How many 10M+ clients existed in Dec 2024?",
+    "answer": "301"
+  },
+  {
+    "id": 173,
+    "question": "Did 50M+ clients exceed 85 in Dec 2024?",
+    "answer": "Yes"
+  },
+  {
+    "id": 174,
+    "question": "How many 50M+ clients existed in Dec 2024?",
+    "answer": "89"
+  },
+  {
+    "id": 175,
+    "question": "How many 100M+ clients existed in Dec 2024?",
+    "answer": "41"
+  },
+  {
+    "id": 176,
+    "question": "What revenue share came from top 5 clients in Dec 2024?",
+    "answer": "12.7%"
+  },
+  {
+    "id": 177,
+    "question": "What revenue share came from top 10 clients in Dec 2024?",
+    "answer": "19.9%"
+  },
+  {
+    "id": 178,
+    "question": "What revenue share came from top 25 clients in Dec 2024?",
+    "answer": "34.2%"
+  },
+  {
+    "id": 179,
+    "question": "What were Days Sales Outstanding in Dec 2024?",
+    "answer": "74"
+  },
+  {
+    "id": 180,
+    "question": "What was onsite effort in Q3 FY25?",
+    "answer": "24.0%"
+  },
+  {
+    "id": 181,
+    "question": "What was offshore effort in Q3 FY25?",
+    "answer": "76.0%"
+  },
+  {
+    "id": 182,
+    "question": "What utilization excluding trainees was reported in Q3 FY25?",
+    "answer": "86.0%"
+  },
+  {
+    "id": 183,
+    "question": "What was total employee count in Dec 2024?",
+    "answer": "323379"
+  },
+  {
+    "id": 184,
+    "question": "Did employee count exceed 320000 in Dec 2024?",
+    "answer": "Yes"
+  },
+  {
+    "id": 185,
+    "question": "How many software professionals worked at Infosys in Dec 2024?",
+    "answer": "306528"
+  },
+  {
+    "id": 186,
+    "question": "How many sales and support employees were there in Dec 2024?",
+    "answer": "16851"
+  },
+  {
+    "id": 187,
+    "question": "What voluntary attrition rate was reported in Dec 2024?",
+    "answer": "13.7%"
+  },
+  {
+    "id": 188,
+    "question": "What percentage of employees were women in Dec 2024?",
+    "answer": "39.0%"
+  },
+  {
+    "id": 189,
+    "question": "What free cash flow was reported in Dec 2024?",
+    "answer": "1263"
+  },
+  {
+    "id": 190,
+    "question": "What consolidated cash and investments existed in Dec 2024?",
+    "answer": "4653"
+  }
 ]

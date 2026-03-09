@@ -42,6 +42,22 @@ PERSIST_DIR   = "vector_store"
 COLLECTION    = "multimodal_rag"
 
 
+# ─────────────────────────────────────────────
+# SHARED CHROMADB CLIENT (initialized once, reused across threads)
+# ─────────────────────────────────────────────
+
+_chroma_client     = chromadb.PersistentClient(path=PERSIST_DIR)
+_chroma_collection = _chroma_client.get_or_create_collection(COLLECTION)
+_vector_store      = ChromaVectorStore(chroma_collection=_chroma_collection)
+_index             = None  # lazy-loaded on first query
+
+def _get_index():
+    global _index
+    if _index is None:
+        _index = VectorStoreIndex.from_vector_store(vector_store=_vector_store)
+    return _index
+
+
 Settings.llm = OpenAI(
     model="gpt-4o",
     api_key=os.getenv("OPENAI_API_KEY"),
@@ -183,14 +199,8 @@ def query_rag(question: str, top_k: int = TOP_K):
     log.info("QUERY | Question : %s", question)
     log.info("QUERY | top_k    : %d", top_k)
 
-    chroma_client     = chromadb.PersistentClient(path=PERSIST_DIR)
-    chroma_collection = chroma_client.get_or_create_collection(COLLECTION)
-
-    vector_store = ChromaVectorStore(chroma_collection=chroma_collection)
-
-    StorageContext.from_defaults(vector_store=vector_store)
-
-    index = VectorStoreIndex.from_vector_store(vector_store=vector_store)
+    # Reuse shared client — safe across parallel threads
+    index = _get_index()
 
 
     # 🔥 Attach reasoning prompt here

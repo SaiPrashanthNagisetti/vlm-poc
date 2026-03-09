@@ -9,7 +9,7 @@ __pycache__/
 
 # Large output folders
 #extracted_assets/
-#vector_store/
+vector_store/
 #merged_output/
 #output/
 #pdf_metadata_output/

@@ -1,0 +1,858 @@
+{
+  "summary": {
+    "run_number": 4,
+    "total_questions_in_dataset": 190,
+    "questions_sampled": 30,
+    "correct_answers": 25,
+    "accuracy": 83.33,
+    "time_taken_seconds": 2197.9
+  },
+  "results": [
+    {
+      "id": 24,
+      "question": "How many clients with annual revenue of USD 100 million or more did Infosys have in Q2 FY25?",
+      "expected_answer": "41 clients with USD 100 million or more.",
+      "predicted_answer": "To find the number of clients with annual revenue of USD 100 million or more in Q2 FY25, we need to look at the data for the quarter ending June 30, 2024.\n\nFrom the context provided:\n- 100 Million dollar + clients: Jun 30 2024 = 40\n\nTherefore, Infosys had 40 clients with annual revenue of USD 100 million or more in Q2 FY25.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q1_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q1_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": 172,
+      "question": "How many 10M+ clients existed in Dec 2024?",
+      "expected_answer": "301",
+      "predicted_answer": "The number of 10 Million dollar + clients in December 2024 is 301.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "question": "Comparing Q1 FY26 and Q1 FY25, which quarter had higher YoY CC growth, and by how much?",
+      "expected_answer": "Q1 FY26 had higher YoY CC growth at 3.8%, compared to 2.5% in Q1 FY25, a difference of 1.3 percentage points.",
+      "predicted_answer": "To determine which quarter had higher year-over-year (YoY) constant currency (CC) growth between Q1 FY26 and Q1 FY25, we need to locate the YoY CC growth rates for these specific quarters.\n\nFrom the context provided:\n\n- For Q1 FY26, the YoY CC growth rate is 2.9% (from the fact-sheet_Q2_25-26).\n- For Q1 FY25, the YoY CC growth rate is 2.5% (from the fact-sheet_Q1_24-25).\n\nNow, we calculate the difference:\n\n2.9% (Q1 FY26) - 2.5% (Q1 FY25) = 0.4%\n\nQ1 FY26 had a higher YoY CC growth by 0.4%.",
+      "status": "FAIL",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q1_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "question": "What percentage revenue came from Europe in Q2 FY26?",
+      "expected_answer": "31.7%",
+      "predicted_answer": "To find the percentage revenue from Europe in Q2 FY26, we need to locate the data for Europe for the quarter ending September 30, 2025.\n\nFrom the context provided:\n- Europe: Sep 30, 2025 = 31.7\n\nTherefore, the percentage revenue from Europe in Q2 FY26 is 31.7%.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "question": "India's CC growth was 40.1% YoY in Q3 FY25 but declined to \u20131.8% in Q3 FY26. What does this imply?",
+      "expected_answer": "India revenue growth was driven by a low base and specific project ramp-ups in FY25. The reversal to slight CC decline in Q3 FY26 suggests those tailwinds have subsided and the domestic business faces normalization. India contributes only ~3% of revenue, so the absolute impact is limited.",
+      "predicted_answer": "The information provided in the context does not include specific year-over-year (YoY) constant currency (CC) growth rates for India in Q3 FY25 or Q3 FY26. Therefore, the values of 40.1% YoY in Q3 FY25 and \u20131.8% in Q3 FY26 are unavailable in the context. As a result, I cannot calculate or interpret the implications of these specific growth rates.",
+      "status": "FAIL",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q1_24-25",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "question": "Which segments consistently declined on a YoY CC basis in Q3 FY26?",
+      "expected_answer": "Retail (\u20135.5% CC), Life Sciences (\u20135.4% CC), Others (\u20139.3% CC), and Hi-Tech (\u20132.2% CC) all declined YoY in constant currency terms in Q3 FY26.",
+      "predicted_answer": "To determine which segments consistently declined on a YoY constant currency (CC) basis in Q3 FY26, we need to identify the segments with negative YoY CC growth for the period ending December 31, 2025.\n\nFrom the context provided, the relevant data for Q3 FY26 (ending December 31, 2025) is:\n\n- Financial Services: No decline mentioned.\n- Manufacturing: No decline mentioned.\n- Energy, Utilities, Resources & Services: No decline mentioned.\n- Retail: No decline mentioned.\n- Communication: No decline mentioned.\n- Hi-Tech: No decline mentioned.\n- Life Sciences: No decline mentioned.\n- Others: Decline of 10.4% reported.\n\nThe only segment that shows a decline in YoY CC growth for Q3 FY26 is \"Others,\" with a reported decline of 10.4%. However, the context does not explicitly mention a decline in CC terms for this segment. Therefore, based on the available information, no segments are explicitly stated to have consistently declined on a YoY CC basis in Q3 FY26.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_25-26",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "question": "How has North America's revenue share shifted over the eight quarters covered in the fact sheets?",
+      "expected_answer": "North America's share declined from 60.8% (Q1 FY24) to 55.9% (Q3 FY26), a drop of about 4.9 percentage points \u2014 reflecting relative underperformance as Europe and India grew faster.",
+      "predicted_answer": "To determine how North America's revenue share has shifted over the eight quarters, we need to extract the revenue share values for North America from each quarter mentioned in the context:\n\n1. **Sep 30, 2023**: 61.1\n2. **Dec 31, 2023**: 59.0\n3. **Mar 31, 2024**: 59.6\n4. **Jun 30, 2024**: 58.9\n5. **Sep 30, 2024**: 57.4\n6. **Dec 31, 2024**: 58.4\n7. **Mar 31, 2025**: 57.1\n8. **Jun 30, 2025**: 56.5\n\nNow, let's analyze the shift:\n\n- From **Sep 30, 2023** to **Jun 30, 2025**, North America's revenue share decreased from 61.1 to 56.5.\n- The overall change in revenue share over these eight quarters is calculated as follows:\n\n  \\[\n  \\text{Change} = 56.5 - 61.1 = -4.6\n  \\]\n\nThus, North America's revenue share has decreased by 4.6 percentage points over the eight quarters.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q1_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "What was Infosys's total revenue (in USD million) for Q1 FY25 (quarter ended June 30, 2024)?",
+      "expected_answer": "USD 4,714 million.",
+      "predicted_answer": "The total revenue for Infosys in Q1 FY25 (quarter ended June 30, 2024) is unavailable in the provided context.",
+      "status": "FAIL",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "id": 178,
+      "question": "What revenue share came from top 25 clients in Dec 2024?",
+      "expected_answer": "34.2%",
+      "predicted_answer": "The revenue share from the top 25 clients in December 2024 was 34.2%.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "question": "Did top 5 clients contribute above 13% revenue in Sep 2025?",
+      "expected_answer": "Yes",
+      "predicted_answer": "Yes, the top 5 clients contributed 13.0% to revenue in September 2025.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "question": "What was the revenue (in USD million) for Q3 FY26 (quarter ended December 31, 2025)?",
+      "expected_answer": "USD 5,099 million.",
+      "predicted_answer": "The revenue for Q3 FY26 (quarter ended December 31, 2025) is not directly provided in USD million in the context. However, the revenue for the same period in Indian Rupees is given as 132,248 million. To convert this to USD, additional information such as the exchange rate would be required, which is not available in the context. Therefore, the revenue in USD million is unavailable.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q1_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 4
+        },
+        {
+          "pdf": "fact-sheet_Q1_24-25",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": 165,
+      "question": "What share came from Europe in Q3 FY25?",
+      "expected_answer": "29.8%",
+      "predicted_answer": "To find the share from Europe in Q3 FY25, we need to locate the data for Europe for the quarter ending September 30, 2025.\n\nFrom the context provided:\n\n- Europe: Sep 30 2025 = 31.7\n\nTherefore, the share from Europe in Q3 FY25 is 31.7.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": 159,
+      "question": "Did Hi-Tech exceed 7% share in Q3 FY25?",
+      "expected_answer": "Yes",
+      "predicted_answer": "Yes, Hi-Tech exceeded a 7% share in Q3 FY25. According to the data provided, Hi-Tech had a share of 8.0% as of September 30, 2024 (Q3 FY25).",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "question": "What was employee utilization (excluding trainees) in Q1 FY25?",
+      "expected_answer": "85.3% (excluding trainees).",
+      "predicted_answer": "To find the employee utilization (excluding trainees) in Q1 FY25, we need to locate the utilization rate for the quarter ending June 30, 2024, as Q1 FY25 corresponds to this period.\n\nFrom the context provided:\n\n- Utilization excluding trainees for June 30, 2024, is 85.3.\n\nTherefore, the employee utilization (excluding trainees) in Q1 FY25 was 85.3.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet",
+          "page": 2
+        },
+        {
+          "pdf": "fact-sheet_Q1_25-26",
+          "page": 2
+        },
+        {
+          "pdf": "fact-sheet_Q1_24-25",
+          "page": 2
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 2
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "question": "What was Infosys's consolidated cash and investments as of September 30, 2025?",
+      "expected_answer": "USD 6,173 million (\u20b954,809 crore).",
+      "predicted_answer": "Infosys's consolidated cash and investments as of September 30, 2025, was $6,173 million.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "question": "What was the revenue contribution of the Top 5 clients in Q3 FY26?",
+      "expected_answer": "12.8% of total revenues.",
+      "predicted_answer": "The revenue contribution of the Top 5 clients in Q3 FY26 (which corresponds to the quarter ending December 31, 2025) was 12.8%.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "question": "What was the revenue (in USD million) for Q2 FY26 (quarter ended September 30, 2025)?",
+      "expected_answer": "USD 5,076 million.",
+      "predicted_answer": "The revenue for Q2 FY26 (quarter ended September 30, 2025) is given as 44,490.",
+      "status": "FAIL",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "question": "What was the Basic EPS (in USD) for Q2 FY25?",
+      "expected_answer": "USD 0.19 per share.",
+      "predicted_answer": "The Basic EPS (in USD) for Q2 FY25 is 0.37.",
+      "status": "FAIL",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "question": "Infosys's attrition has been rising while headcount is growing. Assess what this means for workforce cost efficiency and delivery capacity.",
+      "expected_answer": "Total employees grew from 315,332 (Jun-24) to 337,034 (Dec-25), adding ~21,700. Simultaneously, voluntary attrition rose from 12.7% to a high of 14.4% (Jun-25) before declining to 12.3% (Dec-25). Higher attrition forces continuous recruitment and training investment, compressing productivity gains. Utilization (ex-trainees) stayed above 84%, suggesting good deployment. The Q3 FY26 utilization dip (85.1% \u2192 84.1%) implies fresh trainees are being absorbed ahead of project ramp-ups from the USD 11.9 Bn FY26 YTD TCV pipeline.",
+      "predicted_answer": "To assess the impact of rising attrition and growing headcount on workforce cost efficiency and delivery capacity, we need to consider the following metrics from the context:\n\n1. **Voluntary Attrition Rates:**\n   - Sep 30, 2024: 12.9%\n   - Sep 30, 2025: 14.3%\n   - Dec 31, 2025: 12.3%\n\n2. **Total Employees:**\n   - Sep 30, 2024: 317,788\n   - Sep 30, 2025: 331,991\n   - Dec 31, 2025: 337,034\n\n**Analysis:**\n\n- **Rising Attrition:**\n  - The attrition rate increased from 12.9% in September 2024 to 14.3% in September 2025, indicating a higher turnover of employees. However, it decreased to 12.3% by December 2025. High attrition can lead to increased recruitment and training costs, potentially affecting cost efficiency negatively. It may also disrupt project continuity and impact delivery capacity if experienced employees leave.\n\n- **Growing Headcount:**\n  - Despite the rising attrition, the total number of employees increased from 317,788 in September 2024 to 337,034 by December 2025. This growth suggests that Infosys is actively hiring to not only replace those who leave but also to expand its workforce. A larger workforce can enhance delivery capacity by allowing the company to take on more projects or scale existing ones.\n\n**Conclusion:**\n\n- **Workforce Cost Efficiency:**\n  - The increase in headcount amidst rising attrition suggests that Infosys is investing in recruitment and training to maintain its workforce size. While this can lead to higher short-term costs, it may be necessary to sustain long-term growth and service delivery.\n\n- **Delivery Capacity:**\n  - The growing headcount indicates an expansion in delivery capacity, allowing Infosys to handle more projects or larger-scale operations. However, maintaining a balance between hiring and attrition is crucial to ensure that the quality and continuity of service delivery are not compromised.\n\nOverall, while rising attrition poses challenges to cost efficiency, the strategic increase in headcount can help mitigate its impact on delivery capacity.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 2
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 2
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 2
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 2
+        },
+        {
+          "pdf": "fact-sheet",
+          "page": 2
+        },
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 2
+        },
+        {
+          "pdf": "fact-sheet_Q3_25-26",
+          "page": 2
+        },
+        {
+          "pdf": "fact-sheet_Q1_25-26",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "question": "Did Financial Services have the largest revenue share in Q2 FY26?",
+      "expected_answer": "Yes",
+      "predicted_answer": "Yes, Financial Services had the largest revenue share in Q2 FY26. According to the data provided, for the quarter ending September 30, 2025 (Q2 FY26), Financial Services had a revenue share of 27.7%, which is the highest among all sectors listed.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "question": "Comparing 9M FY26 to 9M FY25 in INR terms: identify the income statement line showing the greatest relative growth and the one showing the greatest pressure.",
+      "expected_answer": "9M FY26 vs. 9M FY25: Revenues +8.3%; Cost of sales +9.3%; Gross Profit +6.1%; Selling & marketing expenses +19.4% (fastest-growing cost \u2014 heavy front-end investment); Administrative expenses +9.0%; Operating Profit +2.6% (most pressured \u2014 only 2.6% growth vs. 8.3% revenue, due to Labour Codes provision and cost escalation); Other Income +28.2% (strongest positive); Net Profit +6.4%. Conclusion: S&M expenses showed the greatest relative increase (19.4%); operating profit showed the greatest compression relative to top-line growth.",
+      "predicted_answer": "To compare the 9M FY26 to 9M FY25 in INR terms, we need to identify the income statement line with the greatest relative growth and the one showing the greatest pressure. We will use the data provided for the periods ending September 30, 2025, and September 30, 2024.\n\n1. **Greatest Relative Growth:**\n   - **Other Income, net:**\n     - Sep 30 2025 = 1,813\n     - Sep 30 2024 = 1,337\n     - Growth % = 35.6%\n\n2. **Greatest Pressure:**\n   - **Operating Margin %:**\n     - Sep 30 2025 = 20.9\n     - Sep 30 2024 = 21.1\n     - Growth % = -0.2%\n\nThe income statement line showing the greatest relative growth is \"Other Income, net\" with a growth of 35.6%. The line showing the greatest pressure is \"Operating Margin %\" with a decrease of 0.2%.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 4
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 4
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 3
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 4
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 4
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 4
+        },
+        {
+          "pdf": "fact-sheet_Q1_25-26",
+          "page": 3
+        },
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "What was the operating margin reported for Q1 FY25?",
+      "expected_answer": "21.1% operating margin.",
+      "predicted_answer": "The operating margin reported for Q1 FY25 was 21.1%.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q1_24-25",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "question": "How did employee utilization (excluding trainees) trend from Q1 FY25 to Q3 FY26?",
+      "expected_answer": "It peaked at 86.0% in Q3 FY25, came down slightly to 85.9% in Q4 FY25, remained at 85.2\u201385.3% in Q1\u2013Q2 FY26, and further declined to 84.1% in Q3 FY26 \u2014 suggesting the company is adding headcount faster than deploying it billably.",
+      "predicted_answer": "To determine the trend in employee utilization (excluding trainees) from Q1 FY25 to Q3 FY26, we need to look at the utilization rates for the relevant quarters:\n\n- Q1 FY25 (June 30, 2024): Utilization excluding trainees = 85.3\n- Q3 FY26 (December 31, 2025): Utilization excluding trainees = 84.1\n\nNow, let's calculate the change:\n\n\\[ \\text{Change} = 84.1 - 85.3 = -1.2 \\]\n\nThe employee utilization (excluding trainees) decreased by 1.2 from Q1 FY25 to Q3 FY26.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 2
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 2
+        },
+        {
+          "pdf": "fact-sheet",
+          "page": 2
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 2
+        },
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 2
+        },
+        {
+          "pdf": "fact-sheet_Q1_25-26",
+          "page": 2
+        },
+        {
+          "pdf": "fact-sheet_Q1_24-25",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "question": "Did Retail revenue decline YoY in Q2 FY26?",
+      "expected_answer": "Yes",
+      "predicted_answer": "To determine if Retail revenue declined year-over-year (YoY) in Q2 FY26, we need to compare the Retail revenue figures for September 30, 2025 (Q2 FY26), and September 30, 2024 (Q2 FY25).\n\nFrom the context provided:\n- Retail revenue on Sep 30, 2025 = 12.7\n- Retail revenue on Sep 30, 2024 = 13.3\n\nCalculation of YoY change:\n\\[ \\text{YoY Change} = \\text{Sep 30, 2025} - \\text{Sep 30, 2024} = 12.7 - 13.3 = -0.6 \\]\n\nSince the change is negative, Retail revenue declined YoY in Q2 FY26.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 4
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "question": "What was the Large Deal TCV for Q3 FY26?",
+      "expected_answer": "USD 4.8 billion (57% Net New).",
+      "predicted_answer": "The Large Deal Total Contract Value (TCV) for Q3 FY26 is $4.8 billion.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q3_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q1_24-25",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "question": "An investor reviewing the Infosys fact sheets wants to form a view on FY26 full-year prospects based on Q1\u2013Q3 data. What revenue, margin, and deal pipeline signals should they consider?",
+      "expected_answer": "Revenue: 9M FY26 average CC growth is ~2.8% (Q1: 3.8%, Q2: 2.9%, Q3: 1.7%), with deceleration. Reported growth is ~4% due to currency tailwinds. Full-year FY26 CC growth is likely 2\u20134%. Margins: Adjusted operating margin held at 21.0\u201321.2% through FY26, consistent with FY25's 21.1%. Labour Codes was a one-time Q3 event; Q4 should normalise. Deal pipeline: Cumulative FY26 YTD TCV = USD 11.9 Bn (exceeding FY25's full-year USD 11.6 Bn with one quarter remaining), ~60% net new, providing strong FY27 revenue visibility. Key risks: Retail/Life Sciences/Hi-Tech headwinds; rising S&M costs; attrition near 14%. Overall: stable, moderately growing business with strong deal wins setting up FY27.",
+      "predicted_answer": "To form a view on FY26 full-year prospects for Infosys based on Q1\u2013Q3 data, the investor should consider the following revenue, margin, and deal pipeline signals:\n\n1. **Revenue Growth:**\n   - Q1 FY26 reported a 4.8% year-over-year growth in revenues.\n   - Q2 FY26 reported a 3.7% year-over-year growth in revenues.\n   - Q3 FY26 reported a 3.2% year-over-year growth in revenues.\n   - The consistent year-over-year growth across the quarters indicates a positive trend in revenue generation.\n\n2. **Operating Margin:**\n   - Q1 FY26 had an operating margin of 20.8%.\n   - Q2 FY26 had an operating margin of 21.0%.\n   - Q3 FY26 reported an operating margin of 18.4% (reported) and 21.2% (adjusted).\n   - The operating margin shows stability around 21%, with a slight dip in Q3 reported figures, but the adjusted margin remains strong.\n\n3. **Deal Pipeline (Large Deal TCV):**\n   - Q1 FY26 had a Total Contract Value (TCV) of $3.8 billion, with 55% net new.\n   - Q2 FY26 had a TCV of $3.1 billion, with 67% net new.\n   - Q3 FY26 had a TCV of $4.8 billion, with 57% net new.\n   - The increasing TCV and a significant portion being net new contracts suggest a robust deal pipeline and potential for future revenue growth.\n\nThese signals collectively suggest that Infosys is experiencing steady revenue growth, maintaining a healthy operating margin, and has a strong deal pipeline, which are positive indicators for FY26 full-year prospects.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q1_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q1_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q1_25-26",
+          "page": 3
+        },
+        {
+          "pdf": "fact-sheet_Q3_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "question": "Manufacturing has been one of Infosys's fastest-growing segments. What is the evidence, and does its growth appear sustainable?",
+      "expected_answer": "Manufacturing grew: Q1 FY25: +6.0% CC; Q2 FY25: +12.3% CC; Q3 FY25: +10.7% CC; Q4 FY25: +14.0% CC; Q1 FY26: +12.2% CC; Q2 FY26: +6.6% CC; Q3 FY26: +6.6% CC. Revenue share rose from 14.7% to 16.7%, making it the second-largest segment. However, the deceleration from double-digit CC growth in FY25 to ~6.6% in FY26 suggests moderation. Sustainability depends on continued large deal conversions in this vertical.",
+      "predicted_answer": "The evidence of Manufacturing being one of Infosys's fastest-growing segments is reflected in the reported year-over-year (YoY) growth percentages across different periods:\n\n1. **Reported YoY Growth:**\n   - Sep 30, 2024: 13.5%\n   - Dec 31, 2024: 10.0%\n   - Jun 30, 2025: 14.8%\n   - Sep 30, 2025: 9.3%\n   - Dec 31, 2025: 16.7% (as a percentage of total revenue)\n\nThese figures indicate consistent and significant growth in the Manufacturing segment over multiple quarters.\n\n2. **Constant Currency (CC) YoY Growth:**\n   - Sep 30, 2024: 12.3%\n   - Dec 31, 2024: 10.7%\n   - Jun 30, 2025: 12.2%\n   - Sep 30, 2025: 6.6%\n\nThe consistent growth in both reported and constant currency terms suggests that the growth in the Manufacturing segment is not solely due to currency fluctuations, indicating a strong underlying performance.\n\n**Sustainability:**\nThe consistent high growth rates over several quarters suggest that the growth in the Manufacturing segment appears sustainable. The segment's ability to maintain double-digit growth rates in both reported and constant currency terms across different periods indicates a robust demand and effective strategy in this sector.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 3
+        },
+        {
+          "pdf": "fact-sheet_Q1_25-26",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "question": "Which business segment showed the strongest YoY CC growth in Q4 FY25?",
+      "expected_answer": "Manufacturing showed CC growth of 14.0% YoY, followed closely by Financial Services at 12.6% CC \u2014 both significantly outperforming the company average of 4.8% CC.",
+      "predicted_answer": "The business segment that showed the strongest YoY constant currency (CC) growth in Q4 FY25 is Financial Services, with a CC growth of 12.6%.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_24-25",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "question": "How many new clients (gross) were added by Infosys in Q3 FY26?",
+      "expected_answer": "121 new clients added during the quarter.",
+      "predicted_answer": "To find the number of new clients (gross) added by Infosys in Q3 FY26, we look at the data for clients added during the period ending December 31, 2025.\n\nFrom the context:\n- Added during period: Dec 31 2025 = 121\n\nTherefore, the number of new clients (gross) added by Infosys in Q3 FY26 is 121.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q1_24-25",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q3_25-26",
+          "page": 1
+        },
+        {
+          "pdf": "fact-sheet_Q4_24-25",
+          "page": 2
+        },
+        {
+          "pdf": "fact-sheet_Q4_25-26",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "question": "What was the operating margin in Q2 FY26?",
+      "expected_answer": "21.0%",
+      "predicted_answer": "The operating margin in Q2 FY26 was 21.0%.",
+      "status": "PASS",
+      "sources": [
+        {
+          "pdf": "fact-sheet_Q2_25-26",
+          "page": 1
+        }
+      ]
+    }
+  ]
+}
